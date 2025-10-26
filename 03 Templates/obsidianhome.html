@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            text-align: center;
+            background-color: #1e1e1e;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            width: 80%;
+            max-width: 600px;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            color: #ffffff;
+        }
+
+        .search-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        #search-bar {
+            width: 70%;
+            padding: 10px;
+            border: 1px solid #444;
+            border-radius: 4px;
+            margin-right: 10px;
+            background-color: #333;
+            color: #ffffff;
+        }
+
+        #search-button {
+            padding: 10px 20px;
+            background-color: #00a0df;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        #search-button:hover {
+            background-color: #0088c7;
+        }
+
+        .speed-dial, .services {
+            margin-top: 20px;
+        }
+
+        .speed-dial a, .services a {
+            display: inline-block;
+            margin: 5px;
+            padding: 10px;
+            background-color: #00a0df;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+
+        .speed-dial a:hover, .services a:hover {
+            background-color: #0088c7;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Homepage</h1>        
+        <div class="search-container">
+            <input type="text" id="search-bar" placeholder="g, gh, r, yt  |  f, li, x, so  |  w, wa, a, ai, ia, i  |  b, d, s, m" autofocus>
+            <button id="search-button">Search</button>
+        </div>
+        <!-- 
+        <div class="speed-dial">
+            <a href="https://mail.google.com">Gmail</a>
+            <a href="https://docs.google.com">Google Docs</a>
+            <a href="https://calendar.google.com">Google Calendar</a>
+            <a href="{insert link here}">Text</a>
+            <a href="{insert link here}">Text</a>
+            <a href="{insert link here}">Text</a> 
+        </div>
+        -->
+
+        <div class="services">
+            <a href="https://monkeytype.com/">Monkeytype</a>
+            <a href="https://meet.google.com">Google Meet</a>
+            <a href="https://chatgpt.com">Chat GPT</a>
+            <!-- <a href="{insert link here}">Text</a>
+            <a href="{insert link here}">Text</a>
+            <a href="{insert link here}">Text</a> -->
+        </div>
+
+        <br>
+
+        <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px">
+            <select name="search-engines" id="search-engines" style="padding: 10px; font-size: 16px; border-radius: 5px; background-color: #00a0df" onchange="location = this.value">
+                <option value="">-- Select a Search Engine --</option>
+                <option value="https://www.google.com/">Google</option>
+                <option value="https://github.com/">GitHub</option>
+                <option value="https://www.reddit.com/">Reddit</option>
+                <option value="https://www.youtube.com/">YouTube</option>
+                <option value="https://www.facebook.com/marketplace/">FB Marketplace</option>
+                <option value="https://www.linkedin.com/">LinkedIn</option>
+                <option value="https://x.com/">X-Twitter</option>
+                <option value="https://stackoverflow.com/">StackOverflow</option>
+                <option value="https://en.wikipedia.org/">Wikipedia</option>
+                <option value="https://www.wolframalpha.com/">WolframAlpha</option>
+                <option value="https://www.amazon.com/">Amazon (US)</option>
+                <option value="https://www.amazon.in/">Amazon (IN)</option>
+                <option value="https://archive.org/">Internet Archive</option>
+                <option value="https://www.imdb.com/">IMDb</option>
+                <option value="https://www.bing.com/">Bing</option>
+                <option value="https://duckduckgo.com/">DuckDuckGo</option>
+                <option value="https://www.startpage.com/">Startpage</option>
+                <option value="https://www.merriam-webster.com/">Merriam-Webster</option>
+                <!-- <option value="add your own">add new</option>
+                <option value="add your own">add new</option>
+                <option value="add your own">add new</option> -->
+            </select>
+        </div>
+    </div>
+    
+    <script>
+        const searchEngines = {
+            'g': 'https://www.google.com/search?q=',
+            'gh':'https://github.com/search?q=',
+            'r': 'https://www.reddit.com/search/?q=',
+            'yt': 'https://www.youtube.com/results?search_query=',
+            'f':'https://www.facebook.com/marketplace/search/?query=',
+            'li':'https://www.linkedin.com/search/results/all/?keywords=',
+            'x':'https://x.com/search?q=%s',
+            'so':'https://stackoverflow.com/search?q=',
+            'w': 'https://en.wikipedia.org/wiki/',
+            'wa': 'https://www.wolframalpha.com/input/?i=',
+            'a':'https://www.amazon.com/s?k=%s',
+            'ai':'https://www.amazon.in/s?k=%s',
+            'ia':'https://archive.org/search?query=',
+            'i': 'https://www.imdb.com/find?q=',
+            'b': 'https://www.bing.com/search?q=',
+            'd': 'https://duckduckgo.com/?q=',
+            's':'https://www.startpage.com/do/search?q=',
+            'm': 'https://www.merriam-webster.com/dictionary/',
+            // '{char}':'{add your own}',
+            // '{char}':'{add your own}',
+            // '{char}':'{add your own}',
+        };  
+
+        function performSearch() {
+            const input = document.getElementById('search-bar').value.trim();
+            const parts = input.split(' ');
+            const shortcut = parts[0];
+            const query = parts.slice(1).join(' ');
+
+            const searchURL = searchEngines[shortcut.toLowerCase()] 
+                ? searchEngines[shortcut.toLowerCase()] + encodeURIComponent(query) 
+                : `https://duckduckgo.com/?q=${encodeURIComponent(input)}`;
+
+            window.location.href = searchURL; 
+        }
+
+        document.getElementById('search-button').addEventListener('click', performSearch);
+
+        document.getElementById('search-bar').addEventListener('keypress', function(event) {
+            if (event.key === 'Enter') {
+                performSearch();
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,180 @@
+{
+  "main": {
+    "id": "616aae0fccfcea87",
+    "type": "split",
+    "children": [
+      {
+        "id": "80e92f667f4291a6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "11a00e51b61581aa",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1bebf8f45e4fdbe0",
+    "type": "split",
+    "children": [
+      {
+        "id": "bf7f2808fe6c2d5d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3e3be669594d14a4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "17fc16228b6d0bdb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "89dbc39d8e83f5e2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "888270b9c29efa1f",
+    "type": "split",
+    "children": [
+      {
+        "id": "99ab589215acbb43",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bad7c648b6cbd801",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "ea62b73b019a5b39",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "switcher:Open quick switcher": false,
+      "templates:Insert template": false,
+      "obsidian-git:Open Git source control": false,
+      "callout-manager:Insert Callout": false,
+      "obsidian-excalidraw-plugin:New drawing": false
+    }
+  },
+  "active": "11a00e51b61581aa",
+  "lastOpenFiles": [
+    "README.md",
+    "08 Future reference/set ups/GPU set up on fedora.md",
+    "08 Future reference/scripts/screen annotation.md",
+    "08 Future reference/scripts/Color picker script.md",
+    "08 Future reference/scripts/Screenshot script.md",
+    "08 Future reference/scripts/Text extractor script.md",
+    "Clippings/sources/gromit-mpx.md",
+    "Clippings/sources/Hyprland Getting-Started Configure Screen Lock, Brightness, Volume, Authentication and More.md",
+    "Clippings/Hyprland Getting-Started Configure Screen Lock, Brightness, Volume, Authentication and More 1.md",
+    "Clippings/sources",
+    "Clippings",
+    "Clippings.md",
+    "03 Templates/script config template.md",
+    "Math 1024/differential.md",
+    "08 Future reference/set ups",
+    "08 Future reference/scripts",
+    "08 Future reference/Fedora Git Repo CLI.md",
+    "08 Future reference/set ups/Wifi.md",
+    "Hyperbolics.md",
+    "01 Shorthand Guides/MathJax.md",
+    "info.md",
+    "CS 1134/Computational Complexities.md",
+    "CS 1134/CS 1134.md",
+    "CS 1134/Bookmarks.md",
+    "CS 1134/Arrays and memory.md",
+    "CS 1134/Python Memory model.md",
+    "01 Shorthand Guides/linux file system.png",
+    "01 Shorthand Guides/linux.png",
+    "01 Shorthand Guides/vim.jpg",
+    "CS 1134/Data Structures & Algorithms in Python.pdf",
+    "Math 1024/Calc 1.md",
+    "EG1004/EG lab rep 5.md",
+    "CS 1134/Operation Costs.md",
+    "Excalidraw/Drawing 2025-10-16.excalidraw.md",
+    "Excalidraw",
+    "04 Deprecated",
+    "03 Templates/obsidianhome.html",
+    "03 Templates",
+    "02 Attachments/Excalidraw",
+    "00 Help/Help Files/Mathpad calculator docs/Mathpad attachments/variables_2.png",
+    "00 Help/Help Files/Mathpad calculator docs/Mathpad attachments/variables_1.png",
+    "00 Help/Help Files/Mathpad calculator docs/Mathpad attachments/variables.png",
+    "00 Help/Help Files/Mathpad calculator docs/Mathpad attachments/using_slot_variables.png",
+    "00 Help/Help Files/Mathpad calculator docs/Mathpad attachments/slider-simple.png",
+    "00 Help/Help Files/Mathpad calculator docs/Mathpad attachments/slider-initial.png",
+    "00 Help/Help Files/Mathpad calculator docs/Mathpad attachments/sidebar.png"
+  ]
+}
