@@ -1,3 +1,8 @@
+---
+id: Python Memory model
+aliases: []
+tags: []
+---
 ### Mutation vs construction
 
 | Mutating                         | Constructing                   |
@@ -9,7 +14,7 @@
 | reverse method                   | `+` operator (shallow)         |
 | sort method                      | `*` operator (shallow)         |
 | extend method                    | slicing `lst[__:__]` (shallow) |
-| `+=` Operation                   | list comprehension (shallow)   |
+| `+=` Operation        | list comprehension (shallow)   |
 
 >[!mark] difference between a method and a function in python
 >A method belongs to an object
