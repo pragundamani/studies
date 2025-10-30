@@ -5,8 +5,18 @@ aliases:
 tags: []
 ---
 # exam 2
-### Rules
-$ue^x$
-$\frac{du}{dx}e^x + ue^x$
-$12xe^x-10e^x+6x^2e^x-10e^x$
+Topics:
+- [ ] Differentiation rules:- (sum, product quotient power, chain)
+- [ ] derivatives library:- Library of functions exponents, trig, inverse trig, logs
+- [ ] differentiability:-
+- [ ] implicit:- (finding tangent line to a curve defined implicitly, find $y'$)
+- [ ] logarithmic differentiation find $f(x)^{g(x)}$
+- [ ] related rates
+- [ ] linear approx
+- [ ] max/min
+
+### Info
+For point to be a critical point $\frac{dy}{dx}$ needs to be $0 \text{ or } DNE$
+
+### Practice
 
