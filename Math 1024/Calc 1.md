@@ -10,7 +10,8 @@ $\frac{y'}{y}=n\cdot \frac{1}{x}$
 $y'=n\times \frac{y}{x}$
 
 
-- [ ] if $y=3^{\sin x}$
+if $y=3^{\sin x}$
+
 $\frac{d}{du}(3^u) \to \frac{d}{dx}=3^u\cdot \cos x\cdot \ln_{3} \text{ when constant is base ln(constant) is multiplied}$ 
 
 if $y=\sin x^{3}$
