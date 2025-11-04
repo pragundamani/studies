@@ -6,14 +6,14 @@ tags: []
 ---
 # exam 2
 Topics:
-- [ ] Differentiation rules:- (sum, product quotient power, chain)
-- [ ] derivatives library:- Library of functions exponents, trig, inverse trig, logs
-- [ ] differentiability:-
-- [ ] implicit:- (finding tangent line to a curve defined implicitly, find $y'$)
-- [ ] logarithmic differentiation find $f(x)^{g(x)}$
-- [ ] related rates
-- [ ] linear approx
-- [ ] max/min
+- [x] Differentiation rules:- (sum, product quotient power, chain)
+- [x] derivatives library:- Library of functions exponents, trig, inverse trig, logs
+- [x] differentiability:-
+- [x] implicit:- (finding tangent line to a curve defined implicitly, find $y'$)
+- [x] logarithmic differentiation find $f(x)^{g(x)}$
+- [x] related rates
+- [x] linear approx
+- [x] max/min
 
 # Calculus 1 Differentiation - A Refresher
 
@@ -27,6 +27,7 @@ This is the foundation. The derivative, $f'(x)$ or $\frac{dy}{dx}$, represents t
 *   **Sum/Difference Rule:** $\frac{d}{dx}[f(x) \pm g(x)] = f'(x) \pm g'(x)$.
     *   *Example:* $f(x) = 3x^3 + 2x \rightarrow f'(x) = 9x^2 + 2$
 *   **Exponential Function (base e):** $\frac{d}{dx}[e^x] = e^x$. (The function is its own derivative!)
+	* for $e^{xy} \text{ the }\frac{d}{dx}=e^{xy}(x \frac{dy}{dx}+y)$
 *   **Constant Rule:** The derivative of a constant is 0.
 
 ## 3.2. The Product and Quotient Rules
@@ -41,13 +42,20 @@ These rules are for when you are multiplying or dividing two functions.
     *   *Example:* $f(x) = \frac{\sin x}{x} \rightarrow f'(x) = \frac{(\cos x)(x) - (\sin x)(1)}{x^2} = \frac{x \cos x - \sin x}{x^2}$
 
 ## 3.3. Derivatives of Trigonometric Functions
-You need to memorize these.
+### Normal trig
 *   $\frac{d}{dx}[\sin x] = \cos x$
 *   $\frac{d}{dx}[\cos x] = -\sin x$
 *   $\frac{d}{dx}[\tan x] = \sec^2 x$
 *   $\frac{d}{dx}[\csc x] = -\csc x \cot x$
 *   $\frac{d}{dx}[\sec x] = \sec x \tan x$
 *   $\frac{d}{dx}[\cot x] = -\csc^2 x$
+### Inverse trig
+* $\frac{d}{dx}\sin ^{-1}(x)=\frac{1}{\sqrt{ 1-u^{2} }}\cdot \frac{du}{dx}$
+* $\frac{d}{dx}\cos ^{-1}(x)=\frac{-1}{\sqrt{ 1-u^{2} }}\cdot \frac{du}{dx}$
+* $\frac{d}{dx}\tan ^{-1}(x)=\frac{1}{1+u^{2}}\cdot \frac{du}{dx}$
+* $\frac{d}{dx}\csc^{-1}=\frac{-1}{|u|\sqrt{ u^{2}-1 }}\cdot \frac{du}{dx}$
+* $\frac{d}{dx}\sec^{-1}(x)=\frac{1}{|u|\sqrt{ u^{2}-1 }}\cdot \frac{du}{dx}$
+* $\frac{d}{dx}\cot^{-1}(x)=\frac{-1}{1+u^2}\cdot \frac{du}{dc}$
 
 ## 3.4. The Chain Rule
 This is one of the most important rules. It's used for **composite functions** (functions within functions). If $y = f(g(x))$, then:
@@ -70,6 +78,7 @@ Used when you can't easily solve for $y$ as an explicit function of $x$ (e.g., $
 *   **General Log:** $\frac{d}{dx}[\log_a x] = \frac{1}{x \ln a}$.
 *   **Logarithmic Differentiation:** A powerful technique for complex functions, especially of the form $[f(x)]^{g(x)}$. Take the natural log of both sides, use log properties to simplify, then differentiate implicitly.
 
+
 ## 3.7. Rates of Change in the Natural and Social Sciences
 This is the *application* of the derivative.
 *   **Position, Velocity, Acceleration:** If $s(t)$ is position, then $v(t) = s'(t)$ is velocity and $a(t) = v'(t) = s''(t)$ is acceleration.
@@ -89,6 +98,42 @@ A classic application of the Chain Rule. You find the rate at which one quantity
 3.  Find an equation that relates the variables.
 4.  Differentiate both sides *with respect to time $t$*.
 5.  Substitute the known values and solve for the unknown rate.
+### ferris wheel
+1. **Given:** $R = \text{[Radius]}$, $\omega = \frac{d\theta}{dt} = \text{[Angular Speed]}$.
+2. **Height Eq:** $h = R + R\sin\theta$.
+3. **Differentiate:** $\frac{dh}{dt} = R\cos\theta \cdot \omega$.
+4. **Find θ:** $\sin\theta = \frac{h - R}{R}$, so $\theta = \arcsin\left(\frac{h - R}{R}\right)$. (Choose the quadrant matching "rising" or "falling").
+5. **Substitute:** $\frac{dh}{dt} = R \cdot \omega \cdot \cos\theta$.
+6. **Final Answer:** $\frac{dh}{dt} = \text{[Number with units]}$.
+### conical pile
+1. **Given:** $\frac{dV}{dt} = \text{[Rate of volume change]}$, ratio $\frac{h}{r} = \text{[Constant]}$.
+2. **Relation:** $r = k h$, where $k = \frac{r}{h}$.
+3. **Volume Eq:** $V = \frac{1}{3}\pi r^2 h = \frac{1}{3}\pi (k h)^2 h = \frac{1}{3}\pi k^2 h^3$.
+4. **Differentiate:** $\frac{dV}{dt} = \pi k^2 h^2 \frac{dh}{dt}$.
+5. **Solve for height rate:** $\frac{dh}{dt} = \frac{\frac{dV}{dt}}{\pi k^2 h^2}$.
+6. **Final Answer:** $\frac{dh}{dt} = \text{[Number with units]}$.
+### ladder sliding
+1. **Given:** Ladder length $L = \text{[Constant]}$, $\frac{dx}{dt} = \text{[Rate bottom moves]}$.
+2. **Relation:** $x^2 + y^2 = L^2$.
+3. **Differentiate:** $2x\frac{dx}{dt} + 2y\frac{dy}{dt} = 0$.
+4. **Solve for wall rate:** $\frac{dy}{dt} = -\frac{x}{y}\frac{dx}{dt}$.
+5. **Find $y$:** $y = \sqrt{L^2 - x^2}$.
+6. **Substitute:** $\frac{dy}{dt} = -\frac{x}{\sqrt{L^2 - x^2}}\frac{dx}{dt}$.
+7. **Final Answer:** $\frac{dy}{dt} = \text{[Number with units]}$.
+### spherical balloon
+1. **Given:** $\frac{dV}{dt} = \text{[Rate of volume change]}$.
+2. **Volume Eq:** $V = \frac{4}{3}\pi r^3$.
+3. **Differentiate:** $\frac{dV}{dt} = 4\pi r^2 \frac{dr}{dt}$.
+4. **Solve for radius rate:** $\frac{dr}{dt} = \frac{\frac{dV}{dt}}{4\pi r^2}$.
+5. **Substitute values:** plug in given $\frac{dV}{dt}$ and $r$.
+6. **Final Answer:** $\frac{dr}{dt} = \text{[Number with units]}$
+### shadow
+1. **Given:** Person height $h_p=\text{[person height]}$, lamp height $h_l=\text{[lamp height]}$, $\frac{dx}{dt}=\text{[person speed toward/away from lamp]}$ (positive away).
+2. **Similar Triangles:** $\dfrac{h_l}{s+x}=\dfrac{h_p}{s}$ where $x$ = distance person from lamp base, $s$ = shadow length.
+3. **Solve for }s{:} $s=\dfrac{h_p x}{h_l - h_p}$.
+4. **Differentiate:** $\dfrac{ds}{dt}=\dfrac{h_p}{h_l-h_p}\cdot\dfrac{dx}{dt}$
+5. **Interpret sign:** if $\dfrac{dx}{dt}>0$ the shadow lengthens (or shortens depending on heights).
+6. **Final Answer:** $\displaystyle \frac{ds}{dt}=\text{[Number with units]}$.
 
 ## 3.10. Linear Approximations and Differentials
 Using the tangent line to approximate function values.
@@ -100,66 +145,12 @@ Their definitions and derivatives are very similar to trig functions.
 *   $\sinh x = \frac{e^x - e^{-x}}{2}$, $\cosh x = \frac{e^x + e^{-x}}{2}$, $\tanh x = \frac{\sinh x}{\cosh x}$
 *   **Derivatives:**
     *   $\frac{d}{dx}[\sinh x] = \cosh x$
-    *   $\frac{d}{dx}[\cosh x] = \sinh x$
+    *   $\frac{d}{dx}[\cosh x] \sinh x$
     *   $\frac{d}{dx}[\tanh x] = \text{sech}^2 x$
 
----
-
-## Quiz Time!
-
-Try these problems.
-
-**1. Find the derivative of $f(x) = 3x^4 - 2x^3 + \pi x - 10$.**
-
-**2. Find the derivative of $g(x) = (x^2 + 1)(e^x - \cos x)$ using the Product Rule.**
-
-**3. Find $\frac{dy}{dx}$ for $y = \sin(5x^3)$.**
-
-**4. Use Implicit Differentiation to find $y'$ for the curve $x^3 + y^3 = 6xy$.**
-
-**5. A 10-foot ladder is leaning against a wall. The bottom is sliding away at 1 ft/s. How fast is the top sliding down the wall when the bottom is 6 feet from the wall?**
-
-**6. Find the linearization $L(x)$ of $f(x) = \sqrt{x}$ at $a = 25$. Use it to approximate $\sqrt{26}$.**
 
 
-
-
-# Quiz answers
-**1.**
-$f'(x) = 12x^3 - 6x^2 + \pi$
-*(Used Power Rule, Constant Multiple, and Sum/Difference Rules)*
-
-**2.**
-Let $f(x) = x^2+1$ and $g(x) = e^x - \cos x$.
-$f'(x) = 2x$, $g'(x) = e^x + \sin x$.
-Product Rule: $g'(x) = (2x)(e^x - \cos x) + (x^2+1)(e^x + \sin x)$.
-
-**3.**
-Outside function: $\sin(\text{something})$, derivative is $\cos(\text{something})$.
-Inside function: $5x^3$, derivative is $15x^2$.
-Chain Rule: $\frac{dy}{dx} = \cos(5x^3) \cdot 15x^2 = 15x^2 \cos(5x^3)$.
-
-**4.**
-Differentiate implicitly: $3x^2 + 3y^2 y' = 6y + 6x y'$.
-Get terms with $y'$ on one side: $3y^2 y' - 6x y' = 6y - 3x^2$.
-Factor out $y'$: $y'(3y^2 - 6x) = 6y - 3x^2$.
-Solve for $y'$: $y' = \frac{6y - 3x^2}{3y^2 - 6x} = \frac{2y - x^2}{y^2 - 2x}$.
-
-**5. (Related Rates)**
-*   Known: $x=6$ ft, $\frac{dx}{dt} = 1$ ft/s. Ladder length $L=10$ ft (constant).
-*   Relate variables: $x^2 + y^2 = 10^2$.
-*   Differentiate w.r.t. $t$: $2x \frac{dx}{dt} + 2y \frac{dy}{dt} = 0$.
-*   Find $y$ when $x=6$: $6^2 + y^2 = 100 \rightarrow y^2 = 64 \rightarrow y=8$ ft.
-*   Substitute: $2(6)(1) + 2(8) \frac{dy}{dt} = 0 \rightarrow 12 + 16 \frac{dy}{dt} = 0$.
-*   Solve: $\frac{dy}{dt} = -\frac{12}{16} = -0.75$ ft/s.
-The top is sliding *down* at **0.75 ft/s**.
-
-**6. (Linear Approximation)**
-*   $f(x) = \sqrt{x}$, $a=25$.
-*   $f(a) = \sqrt{25} = 5$.
-*   $f'(x) = \frac{1}{2\sqrt{x}}$, so $f'(a) = \frac{1}{2\sqrt{25}} = \frac{1}{10} = 0.1$.
-*   Linearization: $L(x) = 5 + 0.1(x - 25)$.
-*   Approximate $\sqrt{26}$: $L(26) = 5 + 0.1(26 - 25) = 5 + 0.1 = 5.1$.
-*(The actual value is about 5.099, so it's a good approximation.)*
- 
-
+## Assorted
+- bound, periodic functions have max/min at boundries
+- critical point is when $f'(x) = 0\text{ or }f'(x)=DNE$
+- 
