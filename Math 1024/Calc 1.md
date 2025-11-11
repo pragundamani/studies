@@ -45,7 +45,13 @@ $y'=x^{(x^{x})}\cdot x^{x}\cdot (\ln x+1)\cdot \ln x+\frac{x^x}{x}$
 ## Application of derivatives
 
 
-
-$f(x)=x^{\frac{2}{3}}(6-x)^{\frac{1}{3}}$
-$f'(x)=\frac{2}{3}x^{-\frac{1}{3}}(6-x)^{\frac{1}{3}}+x^{\frac{2}{3}}\cdot \frac{1}{3}(6-x)^{-\frac{2}{3}}\cdot (-1)$
+$lim_{x \to \infinity} \frac{ln(x)}{x^{1/3}$
+$\to \frac{1/x}{(1/3)x^{-2/3}} \to 3x^{-1/3} \to 0$
+$lim_{x \to 0^{+}} x\cdot ln(x)$
+$\to \frac{ln(x)}{1/x} \to \frac{n-1/x}{-1/x^2} \to -x\cdot (n-1/x) \to 0$
+$lim_{x \to 0^{+}} x^{x}$
+$\to lim_{x \to 0^{+}} e^{x\cdot
+ln(x)} \to e^{0} \to 1$
+$lim_{x \to \infinity} (x^{1/x})$
+$\to lim_{x \to \infinity} e^{(1/x)\cdot ln(x)} \to e^{0} \to 1$
 
