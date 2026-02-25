@@ -1,6 +1,8 @@
 ---
 tags:
-  - "#flashcards/math"
+  - #flashcards/math
+aliases: []
+id: Calc 2
 ---
 # COMPLETE DERIVATIVE SET (Official 36)
 
@@ -247,3 +249,69 @@ $T_n$ :: $\frac{\Delta x}{2}\left[f(x_0)+2\sum_{i=1}^{n-1}f(x_i)+f(x_n)\right]$
 $S_n$ :: $\frac{\Delta x}{3}\left[f(x_0)+4\sum_{\text{odd}}f(x_i)+2\sum_{\text{even}}f(x_i)+f(x_n)\right]$
 
 Simpson condition :: $n$ must be even
+
+# Polynomial Division Cheat Sheet
+
+---
+
+## Method 1: Long Division (Algorithm)
+
+Given:
+$$ \frac{P(x)}{D(x)} $$
+
+### Step 1
+Write in descending powers.  
+Insert missing terms (use 0 coefficients).
+
+### Step 2
+Divide leading terms:
+$$ \frac{\text{lead}(P)}{\text{lead}(D)} $$
+
+### Step 3
+Multiply divisor by that result.
+
+### Step 4
+Subtract.
+
+### Step 5
+Bring down next term.
+
+Repeat Steps 2–5 until:
+$\deg(R) < \deg(D)$
+
+### Final Form
+$$
+\frac{P(x)}{D(x)} = Q(x) + \frac{R(x)}{D(x)}
+$$
+
+---
+
+
+## Method 2: Unknown Coefficients (ABCD Method)
+
+If:
+$$ \deg(P)=n, \quad \deg(D)=m $$
+
+Then assume:
+$\frac{P(x)}{D(x)} = Ax^{n-m}+Bx^{n-m-1}+\dots + \frac{\text{remainder (degree < m)}}{D(x)}$
+
+### Step 1
+Multiply both sides by $D(x)$.
+
+### Step 2
+Expand completely.
+
+### Step 3
+Match coefficients of equal powers.
+
+### Step 4
+Solve from highest power downward.
+
+---
+
+## Key Rules
+
+- Quotient degree = $n-m$
+- Remainder degree < divisor degree
+- Long division = stepwise solving
+- ABCD = system of equations solving
