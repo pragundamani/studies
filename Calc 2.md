@@ -337,7 +337,7 @@ Solve from highest power downward.
 - Long division = stepwise solving
 - ABCD = system of equations solving
 
-**Partial Fractions — Quick 3-Line Checklist*
+### Partial Fractions — Quick 3-Line Checklist*
 1. Factor the denominator completely into linear and irreducible quadratic factors.
 2. For each linear factor $(x-a)^n$, write $\frac{A_1}{x-a} + \dots + \frac{A_n}{(x-a)^n}$.
 3. For each irreducible quadratic $(x^2+bx+c)^m$, write $\frac{A_1x+B_1}{x^2+bx+c} + \dots + \frac{A_mx+B_m}{(x^2+bx+c)^m}$.
@@ -346,4 +346,21 @@ Solve from highest power downward.
 1. For $g(x)=\int_0^x f(t)\,dt$, the Fundamental Theorem gives $g'(x)=f(x)$
 2. Local extrema occur where $f(x)=0$ and changes sign
 3. $+\to-$ gives a local maximum; $-\to+$ gives a local minimum
+
+# Sums
+### Left Riemann Sum  
+Uses left endpoints for heights. increasing is underestimate
+$L_n=\sum_{i=0}^{n-1} f(x_i),\Delta x$
+### Right Riemann Sum  
+Uses right endpoints for heights.  increasing is overestimate
+$R_n=\sum_{i=1}^{n} f(x_i),\Delta x$
+### Midpoint Rule  
+Uses midpoints of subintervals for heights.  if concave up underestimate
+$M_n=\sum_{i=1}^{n} f!\left(x_i^*\right),\Delta x$
+### Trapezoidal Rule  
+Approximates area using trapezoids (average of left and right sums).  if concave up overestimate
+$T_n=\frac{\Delta x}{2}\left[f(x_0)+2\sum_{i=1}^{n-1}f(x_i)+f(x_n)\right]$
+### Simpson’s Rule (n even)  
+Approximates area using parabolas over pairs of subintervals.  if concave up overestimate
+$S_n=\frac{\Delta x}{3}\left[f(x_0)+4\sum_{\text{odd }i}f(x_i)+2\sum_{\text{even }i}f(x_i)+f(x_n)\right]$
 
