@@ -124,25 +124,48 @@ $\int a^u,du$ :: $\frac{a^u}{\ln a} + C$
 
 ## Trigonometric
 
-$\int \sin u,du$ :: $-\cos u + C$
+$\int \sin u\,du$ :: $-\cos u + C$
 
-$\int \cos u,du$ :: $\sin u + C$
+$\int \cos u\,du$ :: $\sin u + C$
 
-$\int \tan u,du$ :: $-\ln|\cos u| + C$
+$\int \tan u\,du$ :: $\ln|\sec u| + C$
 
-$\int \cot u,du$ :: $\ln|\sin u| + C$
+$\int \cot u\,du$ :: $\ln|\csc u| + C$
 
-$\int \sec u,du$ :: $\ln|\sec u + \tan u| + C$
+$\int \sec u\,du$ :: $\ln|\sec u + \tan u| + C$
 
-$\int \csc u,du$ :: $-\ln|\csc u + \cot u| + C$
+$\int \csc u\,du$ :: $\ln|\csc u - \cot u| + C$
 
-$\int \sec^2 u,du$ :: $\tan u + C$
+$\int \sec^2 u\,du$ :: $\tan u + C$
 
-$\int \csc^2 u,du$ :: $-\cot u + C$
+$\int \csc^2 u\,du$ :: $-\cot u + C$
 
-$\int \sec u \tan u,du$ :: $\sec u + C$
+$\int \sec u\tan u\,du$ :: $\sec u + C$
 
-$\int \csc u \cot u,du$ :: $-\csc u + C$
+$\int \csc u\cot u\,du$ :: $-\csc u + C$
+
+
+## Hyperbolic
+
+$\int \sinh u\,du$ :: $\cosh u + C$
+
+$\int \cosh u\,du$ :: $\sinh u + C$
+
+$\int \tanh u\,du$ :: $\ln(\cosh u) + C$
+
+$\int \coth u\,du$ :: $\ln|\sinh u| + C$
+
+$\int \sech u\,du$ :: $\arctan(\sinh u) + C$
+
+$\int \csch u\,du$ :: $\ln|\tanh(u/2)| + C$
+
+$\int \sech^2 u\,du$ :: $\tanh u + C$
+
+$\int \csch^2 u\,du$ :: $-\coth u + C$
+
+$\int \sech u\,\tanh u\,du$ :: $-\sech u + C$
+
+$\int \csch u\,\coth u\,du$ :: $-\csch u + C$
 
 ---
 
@@ -277,7 +300,7 @@ Subtract.
 Bring down next term.
 
 Repeat Steps 2–5 until:
-$\deg(R) < \deg(D)$
+$\deg(R)<\deg(D)$
 
 ### Final Form
 $$
