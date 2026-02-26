@@ -275,8 +275,6 @@ Simpson condition :: $n$ must be even
 
 # Polynomial Division Cheat Sheet
 
----
-
 ## Method 1: Long Division (Algorithm)
 
 Given:
@@ -343,3 +341,9 @@ Solve from highest power downward.
 1. Factor the denominator completely into linear and irreducible quadratic factors.
 2. For each linear factor $(x-a)^n$, write $\frac{A_1}{x-a} + \dots + \frac{A_n}{(x-a)^n}$.
 3. For each irreducible quadratic $(x^2+bx+c)^m$, write $\frac{A_1x+B_1}{x^2+bx+c} + \dots + \frac{A_mx+B_m}{(x^2+bx+c)^m}$.
+
+# Curve FTC minima maxima
+1. For $g(x)=\int_0^x f(t)\,dt$, the Fundamental Theorem gives $g'(x)=f(x)$
+2. Local extrema occur where $f(x)=0$ and changes sign
+3. $+\to-$ gives a local maximum; $-\to+$ gives a local minimum
+
