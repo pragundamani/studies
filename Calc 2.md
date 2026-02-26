@@ -199,13 +199,13 @@ $\tan(-x)$ :: $-\tan x$
 
 $\sin(2x)$ :: $2\sin x \cos x$
 
-$\cos(2x)$ :: $\cos^2 x - \sin^2 x$
+$\cos(2x)$ :: $\cos^2 x - \sin^2 x$ and $1-2\sin ^{2}(x)$ and $2\cos ^{2}(x)-1$
 
 $\tan(2x)$ :: $\frac{2\tan x}{1-\tan^2 x}$
 
 $\sin^2 x$ :: $\frac{1-\cos(2x)}{2}$
 
-$\cos^2 x$ :: $\frac{1+\cos(2x)}{2}$
+$\cos^2 x$ :: $\frac{1+\cos(2x)}{2}$ 
 
 ---
 
@@ -249,11 +249,11 @@ ILATE priority :: Inverse, Log, Algebraic, Trig, Exponential
 
 # TRIG SUBSTITUTION
 
-For $\sqrt{a^2 - x^2}$, $x$ :: $a\sin\theta$ and $dx$ = $a\cos\theta,d\theta$
+For $\sqrt{a^2 - x^2}$, $x$ :: $a\sin\theta$ and $dx$ = $a\cos\theta d\theta$
 
-For $\sqrt{a^2 + x^2}$, $x$ :: $a\tan\theta$ $dx$ = $a\sec^2\theta,d\theta$
+For $\sqrt{a^2 + x^2}$, $x$ :: $a\tan\theta$ $dx$ = $a\sec^2\theta d\theta$
 
-For $\sqrt{x^2 - a^2}$, $x$ :: $a\sec\theta$ $dx$ = $a\sec\theta\tan\theta,d\theta$
+For $\sqrt{x^2 - a^2}$, $x$ :: $a\sec\theta$ $dx$ = $a\sec\theta\tan\theta d\theta$
 
 ---
 
@@ -332,9 +332,14 @@ Solve from highest power downward.
 
 ---
 
-## Key Rules
+## Partial fractions
 
 - Quotient degree = $n-m$
 - Remainder degree < divisor degree
 - Long division = stepwise solving
 - ABCD = system of equations solving
+
+**Partial Fractions — Quick 3-Line Checklist*
+1. Factor the denominator completely into linear and irreducible quadratic factors.
+2. For each linear factor $(x-a)^n$, write $\frac{A_1}{x-a} + \dots + \frac{A_n}{(x-a)^n}$.
+3. For each irreducible quadratic $(x^2+bx+c)^m$, write $\frac{A_1x+B_1}{x^2+bx+c} + \dots + \frac{A_mx+B_m}{(x^2+bx+c)^m}$.
