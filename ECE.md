@@ -1,0 +1,1 @@
+One of my favourite hobbies is tearing down laptops or computers fixing them and trying to set them up again with Linux, normally I used to 
