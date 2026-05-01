@@ -1,5 +1,6 @@
 ---
-aliases:
+id: random
+aliases: []
+tags: []
 ---
-
-$$
+- item
