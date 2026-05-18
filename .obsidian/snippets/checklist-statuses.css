@@ -1,0 +1,233 @@
+/*
+ * Custom task states for Obsidian.
+ * Obsidian supports a single character inside [ ].
+ * Use [R] for rush and [S] for send in Obsidian.
+ */
+
+body {
+  --checklist-icon: "";
+  --checklist-color: var(--text-muted);
+}
+
+.markdown-rendered li.task-list-item[data-task],
+.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task],
+input[data-task] {
+  --checklist-icon: "";
+  --checklist-color: var(--text-muted);
+}
+
+.markdown-rendered li.task-list-item[data-task]:not([data-task=" "]):not([data-task="x"]),
+.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task]:not([data-task=" "]):not([data-task="x"]) {
+  text-decoration: none !important;
+  opacity: 1;
+}
+
+input[data-task]:checked,
+.markdown-rendered li.task-list-item[data-task] > input[type="checkbox"]:checked,
+.markdown-rendered li.task-list-item[data-task] > p > input[type="checkbox"]:checked {
+  background-image: none;
+  background-color: transparent;
+  border-color: var(--checklist-color);
+  color: var(--checklist-color);
+  position: relative;
+}
+
+input[data-task]:checked::after,
+.markdown-rendered li.task-list-item[data-task] > input[type="checkbox"]:checked::after,
+.markdown-rendered li.task-list-item[data-task] > p > input[type="checkbox"]:checked::after {
+  -webkit-mask-image: none;
+  background-color: transparent;
+  color: var(--checklist-color);
+  content: var(--checklist-icon);
+  font-size: 0.95em;
+  font-weight: 700;
+  width: auto;
+  height: auto;
+  line-height: 1;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.markdown-rendered li[data-task="a"],
+.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task="a"],
+input[data-task="a"] {
+  --checklist-icon: "△";
+  --checklist-color: var(--color-cyan);
+}
+
+.markdown-rendered li[data-task="."],
+.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task="."],
+input[data-task="."] {
+  --checklist-icon: "○";
+  --checklist-color: var(--color-blue);
+}
+
+.markdown-rendered li[data-task=">"] ,
+.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task=">"] ,
+input[data-task=">"] {
+  --checklist-icon: ">";
+  --checklist-color: var(--color-orange);
+}
+
+.markdown-rendered li[data-task="<"],
+.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task="<"],
+input[data-task="<"] {
+  --checklist-icon: "<";
+  --checklist-color: var(--color-purple);
+}
+
+.markdown-rendered li[data-task="-"],
+.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task="-"],
+input[data-task="-"] {
+  --checklist-icon: "-";
+  --checklist-color: var(--text-muted);
+}
+
+.markdown-rendered li[data-task="$"],
+.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task="$"],
+input[data-task="$"] {
+  --checklist-icon: "$";
+  --checklist-color: var(--color-green);
+}
+
+.markdown-rendered li[data-task="i"],
+.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task="i"],
+input[data-task="i"] {
+  --checklist-icon: "⚡";
+  --checklist-color: var(--color-yellow);
+}
+
+.markdown-rendered li[data-task="s"],
+.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task="s"],
+input[data-task="s"] {
+  --checklist-icon: "🢖";
+  --checklist-color: var(--color-blue);
+}
+
+.markdown-rendered li[data-task="m"],
+.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task="m"],
+input[data-task="m"] {
+  --checklist-icon: "🢔";
+  --checklist-color: var(--color-purple);
+}
+
+.markdown-rendered li[data-task="?"],
+.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task="?"],
+input[data-task="?"] {
+  --checklist-icon: "?";
+  --checklist-color: var(--color-yellow);
+}
+
+.markdown-rendered li[data-task="t"],
+.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task="t"],
+input[data-task="t"] {
+  --checklist-icon: "📍";
+  --checklist-color: var(--color-red);
+}
+
+.markdown-rendered li[data-task="w"],
+.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task="w"],
+input[data-task="w"] {
+  --checklist-icon: "💼";
+  --checklist-color: var(--color-blue);
+}
+
+.markdown-rendered li[data-task="="],
+.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task="="],
+input[data-task="="] {
+  --checklist-icon: "≡";
+  --checklist-color: var(--color-indigo);
+}
+
+.markdown-rendered li[data-task="p"],
+.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task="p"],
+input[data-task="p"] {
+  --checklist-icon: "🗘";
+  --checklist-color: var(--color-orange);
+}
+
+.markdown-rendered li[data-task="~"],
+.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task="~"],
+input[data-task="~"] {
+  --checklist-icon: "∿";
+  --checklist-color: var(--color-red);
+}
+
+.markdown-rendered li[data-task="!"],
+.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task="!"],
+input[data-task="!"] {
+  --checklist-icon: "‼";
+  --checklist-color: var(--color-red);
+}
+
+.markdown-rendered li[data-task="/"],
+.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task="/"],
+input[data-task="/"] {
+  --checklist-icon: "/";
+  --checklist-color: var(--color-orange);
+}
+
+.markdown-rendered li[data-task="x"],
+.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task="x"],
+input[data-task="x"] {
+  --checklist-icon: "✕";
+  --checklist-color: var(--color-green);
+}
+
+.markdown-rendered li[data-task="o"],
+.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task="o"],
+input[data-task="o"] {
+  --checklist-icon: "⊙";
+  --checklist-color: var(--color-cyan);
+}
+
+.markdown-rendered li[data-task="c"],
+.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task="c"],
+input[data-task="c"] {
+  --checklist-icon: "📞";
+  --checklist-color: var(--color-blue);
+}
+
+.markdown-rendered li[data-task="S"],
+.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task="S"],
+input[data-task="S"] {
+  --checklist-icon: "➢";
+  --checklist-color: var(--color-green);
+}
+
+.markdown-rendered li[data-task="u"],
+.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task="u"],
+input[data-task="u"] {
+  --checklist-icon: "⭱";
+  --checklist-color: var(--color-blue);
+}
+
+.markdown-rendered li[data-task="d"],
+.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task="d"],
+input[data-task="d"] {
+  --checklist-icon: "⭳";
+  --checklist-color: var(--color-cyan);
+}
+
+.markdown-rendered li[data-task="b"],
+.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task="b"],
+input[data-task="b"] {
+  --checklist-icon: "🛒";
+  --checklist-color: var(--color-green);
+}
+
+.markdown-rendered li[data-task="f"],
+.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task="f"],
+input[data-task="f"] {
+  --checklist-icon: "F";
+  --checklist-color: var(--color-purple);
+}
+
+.markdown-rendered li[data-task="R"],
+.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task="R"],
+input[data-task="R"] {
+  --checklist-icon: "≫";
+  --checklist-color: var(--color-red);
+}
