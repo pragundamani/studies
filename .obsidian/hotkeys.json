@@ -69,28 +69,12 @@
       "key": "ArrowUp"
     }
   ],
-  "app:toggle-right-sidebar": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "ArrowRight"
-    }
-  ],
   "editor:insert-embed": [
     {
       "modifiers": [
         "Alt"
       ],
       "key": "E"
-    }
-  ],
-  "daily-notes": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "D"
     }
   ],
   "obsidian-excalidraw-plugin:excalidraw-autocreate-newtab": [
@@ -230,15 +214,6 @@
     }
   ],
   "editor:delete-paragraph": [],
-  "editor:toggle-source": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "E"
-    }
-  ],
   "app:open-help": [],
   "editor:insert-wikilink": [
     {
@@ -293,14 +268,6 @@
         "Alt"
       ],
       "key": "H"
-    }
-  ],
-  "app:toggle-left-sidebar": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "ArrowLeft"
     }
   ],
   "editing-toolbar:superscript": [
@@ -434,20 +401,18 @@
       "key": "F5"
     }
   ],
-  "obsidian-languagetool-plugin:ltcheck-text": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "L"
-    }
-  ],
   "workspace:next-tab": [
     {
       "modifiers": [
         "Ctrl"
       ],
       "key": "PageDown"
+    },
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Tab"
     }
   ],
   "open-with-default-app:show": [
@@ -627,15 +592,6 @@
       "key": "U"
     }
   ],
-  "webviewer:open": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "W"
-    }
-  ],
   "obsidian-auto-link-title:enhance-url-with-title": [],
   "statusbar-organizer:statusbar-organizer-preset-1": [
     {
@@ -681,14 +637,6 @@
       "key": "P"
     }
   ],
-  "editor:toggle-readable-line-length": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "L"
-    }
-  ],
   "editor:toggle-inline-math": [
     {
       "modifiers": [
@@ -696,5 +644,89 @@
       ],
       "key": "S"
     }
+  ],
+  "daily-notes:goto-prev": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "D"
+    }
+  ],
+  "daily-notes:goto-next": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "D"
+    }
+  ],
+  "switcher:open": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "O"
+    }
+  ],
+  "workspace:previous-tab": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "Tab"
+    },
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "PageUp"
+    }
+  ],
+  "markdown:toggle-preview": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "E"
+    }
+  ],
+  "editor:toggle-source": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "E"
+    }
+  ],
+  "file-explorer:reveal-active-file": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "O"
+    }
+  ],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowLeft"
+    }
+  ],
+  "app:toggle-right-sidebar": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowRight"
+    }
   ]
 }
+
