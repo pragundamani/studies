@@ -4,17 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "aa220ae5585724bf",
+        "id": "2cf8e61d92787be0",
         "type": "tabs",
         "children": [
           {
-            "id": "4ba9483b228e2975",
+            "id": "0a0d4bf89d95d202",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "discrete-MA-UY2314/texbookqs/flashcards.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "flashcards"
             }
           }
         ]
@@ -37,7 +42,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": true,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -65,7 +72,10 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
@@ -74,7 +84,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "888270b9c29efa1f",
@@ -90,6 +101,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "ece/practice/Midterm 1 - 200 Practice Questions.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -104,12 +116,22 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           },
           {
-            "id": "44dca9e05b292566",
+            "id": "3952de7ae8e16d9c",
+            "type": "leaf",
+            "state": {
+              "type": "mathpad-view",
+              "state": {},
+              "icon": "sigma",
+              "title": "Mathpad"
+            }
+          },
+          {
+            "id": "98a48b8557ca07b4",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
@@ -119,7 +141,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -135,55 +157,56 @@
       "templates:Insert template": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-spaced-repetition:Review flashcards": false
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "mathpad:Open Mathpad": false
     }
   },
-  "active": "4ba9483b228e2975",
+  "active": "ea62b73b019a5b39",
   "lastOpenFiles": [
-    "PS5.pdf",
-    "CS exam prep.md",
-    "P4C2.Review..Exam1..partI.pdf",
-    "New.md",
-    "random.md",
-    "README.md",
-    "scratch.md",
-    "veermathmidterm1.pdf",
-    "ECE.md",
-    "ECE HW obsidian notes.md",
-    "ECE HW logic circuits.md",
-    "Pasted image 20260304170916.png",
-    "Pasted image 20260304165814.png",
-    "Pasted image 20260304165707.png",
-    "Pasted image 20260304165206.png",
-    "Calc 2.md",
-    "Excalidraw/ECE electrics q5.md",
-    "ECE electric.md",
-    "Pasted Image 20260225234249_260.png",
-    "Excalidraw/ECEweek2_3.4_current_direction.excalidraw.md",
-    "Pasted Image 20260225230755_259.png",
-    "Pasted image 20260225225833.png",
-    "Excalidraw/ECEweek2.excalidraw.md",
-    "Excalidraw",
-    "preamble.sty",
-    "English",
-    "Math 1024/exam 2.md",
-    "conflict-files-obsidian-git.md",
-    "Pasted image 20251102205819.png",
-    "stacks.md",
-    "08 Future reference/set ups/GPU set up on fedora.md",
-    "08 Future reference/scripts/screen annotation.md",
-    "08 Future reference/scripts/Color picker script.md",
-    "08 Future reference/scripts/Screenshot script.md",
-    "08 Future reference/scripts/Text extractor script.md",
-    "Clippings/sources/gromit-mpx.md",
-    "Clippings/sources/Hyprland Getting-Started Configure Screen Lock, Brightness, Volume, Authentication and More.md",
-    "Clippings/Hyprland Getting-Started Configure Screen Lock, Brightness, Volume, Authentication and More 1.md",
-    "Clippings/sources",
-    "Clippings",
-    "Clippings.md",
-    "08 Future reference/set ups",
-    "08 Future reference/scripts",
-    "01 Shorthand Guides/linux file system.png",
-    "01 Shorthand Guides/linux.png"
+    "discrete-MA-UY2314/texbookqs/flashcards.md",
+    "ece/practice/Midterm 1 - 200 Practice Questions.md",
+    "ece/practice/Lab 3 Lecture Slides.txt",
+    "ece/practice/Lab 3 Lecture Slides.pdf",
+    "ece/practice/Slides 3 - Ohms Law KVL KCL.txt",
+    "ece/practice/Slides 3 - Ohms Law KVL KCL.pdf",
+    "discrete-MA-UY2314/texbookqs/_fill_blanks.py",
+    "discrete-MA-UY2314/texbookqs/quick reference.md",
+    "discrete-MA-UY2314/texbookqs/_fix_questions.py",
+    "ece/practice/assets/midterm1/circuitjs/complex-100.circuitjs",
+    "ece/practice/assets/midterm1/circuitjs/complex-099.circuitjs",
+    "ece/practice/assets/midterm1/circuitjs/complex-098.circuitjs",
+    "ece/practice/assets/midterm1/circuitjs/complex-097.circuitjs",
+    "ece/practice/visual-audit-report.md",
+    "ece/practice/audit-report.md",
+    "ece/practice/assets/midterm1/complex/complex-100.svg",
+    "ece/practice/assets/midterm1/complex/complex-099.svg",
+    "ece/practice/assets/midterm1/complex/complex-098.svg",
+    "ece/practice/assets/midterm1/complex/complex-097.svg",
+    "ece/practice/assets/midterm1/complex/complex-096.svg",
+    "ece/practice/assets/midterm1/complex/complex-095.svg",
+    "ece/practice/assets/midterm1/complex/complex-094.svg",
+    "ece/practice/assets/midterm1/complex/complex-093.svg",
+    "ece/practice/assets/midterm1/complex/complex-092.svg",
+    "ece/practice/assets/midterm1/complex/complex-091.svg",
+    "discrete-MA-UY2314/texbookqs/2_1_textbook_exercises.md",
+    "discrete-MA-UY2314/texbookqs/3_1_textbook_exercises.md",
+    "discrete-MA-UY2314/texbookqs/2_3_textbook_exercises.md",
+    "discrete-MA-UY2314/texbookqs/2_2_textbook_exercises.md",
+    "discrete-MA-UY2314/texbookqs/3_3_textbook_exercises.md",
+    "discrete-MA-UY2314/texbookqs/3_4_textbook_exercises.md",
+    "discrete-MA-UY2314/texbookqs/answers/2_1_answers.md",
+    "discrete-MA-UY2314/texbookqs/example.md",
+    "discrete-MA-UY2314/texbookqs/3_2_textbook_exercises.md",
+    "discrete-MA-UY2314/texbookqs/answers/3_1_answers.md",
+    "01 Shorthand Guides/Writing in Obsidian.md",
+    "00 Help/Help Files/Templates, Streamlining Notes.md",
+    "00 Help/Help Files/Properties, Tags and Aliases.md",
+    "00 Help/Help Files/Mermaid flowcharts.md",
+    "00 Help/Help Files/Graph view.md",
+    "00 Help/Plugins.md",
+    "00 Help/Excalidraw example.excalidraw.md",
+    "00 Help/00 Help.md",
+    "discrete-MA-UY2314/hw/hw2bak.md",
+    "discrete-MA-UY2314/texbookqs/answers/3_3_answers.md"
   ]
 }

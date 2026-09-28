@@ -1,0 +1,335 @@
+Lab 3 Lecture
+Resistor Specifications
+ECE-UY 2004 Fundamentals of Electric Circuits
+
+What you need to know before going to the lab
+
+Ideal Versus Real Resistors
+Ideal
+
+Practical
+
+Specifications
+• Tolerance
+• Power Rating (maximum)
+• Power derating
+• Package: through hole, surface mount
+• Composition: carbon, film, wirewound
+• Cost
+
+Resistor Value and Tolerance
+
+Resistor Specifications: Tolerance
+
+Nominal
+Tolerance
+
+1 kΩ with 5% tolerance
+1kΩ ± 0.05∗(1kΩ)
+1kΩ ± 50 Ω
+950 Ω ≤ range ≤ 1.05 kΩ
+
+Measuring Resistance using the DMM
+
+Do Not Power the Circuit
+When Measuring
+Resistance
+
+Measuring Resistors using a Notched Test Lead
+
+Probe Tip
+
+Notched Tip
+
+• Holds a round resistor lead in place
+• Makes repeated measurements faster
+• Maintain consistent electrical contact
+
+Alligator Tip
+
+• Hands free
+• Reduce movement of the test lead
+
+Measuring a Population of Resistors
+Measure 30 resistors
+• 5%
+• 1%
+5% Data 1% Data
+1011
+996
+987
+1017
+994
+1000
+981
+1003
+982
+1003
+988
+1009
+984
+1011
+985
+995
+981
+998
+983
+999
+
+Resistors supplied on a reel
+
+How Will Resistor Values be Distributed?
+
+Equal density at every resistance from 950 to 1050
+Ω.
+
+Values near 1000 Ω are more likely; density falls
+toward the edges.
+
+Real resistors tend to follow a Gaussian (bell-shaped) Curve
+
+Example of 500 Ω resistor
+500 Ω - 5 % Tolerance
+
+0.045
+
+0.18
+
+0.04
+
+0.16
+
+0.035
+
+0.14
+0.12
+
+Mean (Average)
+Tolerance specifies the allowed range; the histogram shows
+how the measured values are distributed within it
+
+527
+
+524
+
+521
+
+518
+
+515
+
+512
+
+509
+
+506
+
+503
+
+500
+
+497
+
+494
+
+491
+
+0
+488
+
+0
+
+485
+
+0.02
+482
+
+0.005
+
+479
+
+0.04
+
+476
+
+0.01
+
+473
+
+0.06
+
+470
+
+0.015
+
+467
+
+0.08
+
+455
+458
+461
+464
+467
+470
+473
+476
+479
+482
+485
+488
+491
+494
+497
+500
+503
+506
+509
+512
+515
+518
+521
+524
+527
+
+0.02
+
+464
+
+0.1
+
+461
+
+0.025
+
+Wider spread
+(large variance)
+
+Narrower spread
+(low variance)
+
+458
+
+0.03
+
+500 Ω - 1 % Tolerance
+
+Prob.
+
+455
+
+Prob.
+
+Mean (Average)
+Measured data from 500 resistors
+
+Resistor Power Rating
+
+Resistor Specifications: Power Rating
+
+Example
+22 V
+
+𝟏𝟏 𝐤𝐤𝛀𝛀
+
+22 𝑉𝑉 2
+P=
+= 0.484 W
+1𝑘𝑘Ω
+
+Choose resistor with Prating > 0.484 W
+
+Resistor Specifications: Power Derating
+
+0.5 W
+
+0.27 W
+0W
+
+Power Supply Voltage Settings
+
+Connecting Power Supply Channels in Series
+
++ VR -
+
+Up to 60V
+
+Parallel Resistors and Sharing the Power
+
+Parallel Resistors – Equivalent Resistance
+
+1
+
+1
+1
+1
+=
++
++
+𝑅𝑅𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒 𝑅𝑅1 𝑅𝑅2 𝑅𝑅3
+
+Example: Power Sharing
+Single Resistor
+
+40 𝑉𝑉 2
+P=
+= 0.484 W
+3.3 𝑘𝑘Ω
+
+3.3 𝑘𝑘Ω rated at 0.5 W
+Three Resistors
+
+40 𝑉𝑉 2
+P=
+= 0.160 W
+10 𝑘𝑘Ω
+
+Each 10 𝑘𝑘Ω rated at 0.25 W
+(note combined rating is now 0.75 W)
+
+𝑅𝑅𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒 = 3.333 𝑘𝑘
+
+Appendix
+
+Surface Temperature Power Derating
+
+From stackpole digikey datasheet, using CF12 as an example
+
+Environmental Temperature and Power Derating
+Ambient temperature
+The ambient temperature is simply the temperature of the surrounding air.
+For example:
+•Laboratory: 25°C
+•Inside a piece of equipment: 60°C
+•Near a hot power supply: 80°C
+The power derating curve assumes the resistor is operating in air at a given ambient temperature.
+Surface temperature
+The surface temperature is the actual temperature of the resistor body while it is dissipating power.
+For example, in a lab:
+•Ambient temperature = 23°C
+•Applied power = 0.5 W
+•Resistor surface temperature = 115°C
+Notice that the resistor is much hotter than the surrounding air because it is generating heat internally.
+
+Temperature Rise and Power Dissipation
+Over the limited power and temperature range in your experiment, the resistor’s steady-state
+temperature rise may be approximately proportional to power:
+Δ𝑇𝑇 ≈ 𝑃𝑃𝑃𝑃
+where Δ𝑇𝑇is the temperature rise above room temperature and 𝜃𝜃is the effective thermal
+resistance in °C/W.
+Because
+𝑉𝑉 2
+,
+𝑃𝑃 =
+𝑅𝑅
+doubling the voltage produces approximately four times the power. If the resistor’s
+mounting, airflow, probe position, and effective thermal resistance remain approximately
+unchanged, then the temperature rise can also be approximately four times larger.
+For example:
+• At 20 V: 𝑃𝑃 ≈ 0.12 W, temperature rise perhaps 10°C.
+• At 40 V: 𝑃𝑃 ≈ 0.48 W, temperature rise perhaps 40°C.
+That is a physically reasonable result. It would not be expected to remain exactly
+proportional over every temperature range because convection, radiation, resistance
+change, and heat conduction through the leads vary with temperature.
+
+

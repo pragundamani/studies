@@ -1,0 +1,82 @@
+// How to use: Latex Suite loads this file automatically from its configured
+// snippet path. Type a comma-prefixed trigger in math mode.
+
+export default [
+  // Logic and quantifiers
+  {trigger: ",and", replacement: "\\land ", options: "mA", description: "logical and"},
+  {trigger: ",or", replacement: "\\lor ", options: "mA", description: "logical or"},
+  {trigger: ",not", replacement: "\\neg ", options: "mA", description: "logical negation"},
+  {trigger: ",imp", replacement: "\\to ", options: "mA", description: "implication"},
+  {trigger: ",uqa", replacement: "\\rightarrow ", options: "mA", description: "right arrow"},
+  {trigger: ",iff", replacement: "\\leftrightarrow ", options: "mA", description: "logical equivalence"},
+  {trigger: ",=", replacement: "\\equiv ", options: "mA", description: "equivalence"},
+  {trigger: ",t", replacement: "\\top ", options: "mA", description: "tautology"},
+  {trigger: ",c", replacement: "\\bot ", options: "mA", description: "contradiction"},
+  {trigger: "tt", replacement: "\\text{ $0 }", options: "mA", description: "math text"},
+  {trigger: ",tand", replacement: "\\text{and}", options: "mA", description: "word and"},
+  {trigger: ",tor", replacement: "\\text{or}", options: "mA", description: "word or"},
+  {trigger: ",tif", replacement: "\\text{if}", options: "mA", description: "word if"},
+  {trigger: ",st", replacement: "\\text{ s.t. }", options: "mA", description: "such that"},
+  {trigger: ",unl", replacement: "\\text{ unless }", options: "mA", description: "word unless"},
+  {trigger: ",all", replacement: "\\forall ", options: "mA", description: "universal quantifier"},
+  {trigger: ",A", replacement: "\\forall ", options: "mA", description: "universal quantifier (flipped A)"},
+  {trigger: ",uq", replacement: "\\forall ", options: "mA", description: "universal quantifier"},
+  {trigger: ",ex", replacement: "\\exists ", options: "mA", description: "existential quantifier"},
+  {trigger: ",E", replacement: "\\exists ", options: "mA", description: "existential quantifier (flipped E)"},
+  {trigger: ",eq", replacement: "\\exists ", options: "mA", description: "existential quantifier"},
+  {trigger: ",ueq", replacement: "\\exists! ", options: "mA", description: "unique existential quantifier"},
+  {trigger: ",nex", replacement: "\\nexists ", options: "mA", description: "nonexistence quantifier"},
+  {trigger: ",nE", replacement: "\\nexists ", options: "mA", description: "nonexistence quantifier (negated flipped E)"},
+  {trigger: ",neq", replacement: "\\nexists ", options: "mA", description: "nonexistence quantifier"},
+
+  // Sets, relations, and functions
+  {trigger: ",mem", replacement: "\\in ", options: "mA", description: "set membership"},
+  {trigger: ",in", replacement: "\\in ", options: "mA", description: "set membership"},
+  {trigger: ",nin", replacement: "\\notin ", options: "mA", description: "not a member"},
+  {trigger: ",psub", replacement: "\\subset ", options: "mA", description: "proper subset"},
+  {trigger: ",sube", replacement: "\\subseteq ", options: "mA", description: "subset or equal"},
+  {trigger: ",psup", replacement: "\\supset ", options: "mA", description: "proper superset"},
+  {trigger: ",supe", replacement: "\\supseteq ", options: "mA", description: "superset or equal"},
+  {trigger: ",union", replacement: "\\cup ", options: "mA", description: "set union"},
+  {trigger: ",inter", replacement: "\\cap ", options: "mA", description: "set intersection"},
+  {trigger: ",empty", replacement: "\\varnothing ", options: "mA", description: "empty set"},
+  {trigger: ",set", replacement: "\\{$0\\}", options: "mA", description: "set builder braces"},
+  {trigger: ",pow", replacement: "\\mathcal{P}($0)$1", options: "mA", description: "power set"},
+  {trigger: ",card", replacement: "\\lvert $0 \\rvert$1", options: "mA", description: "cardinality"},
+  {trigger: ",cross", replacement: "\\times ", options: "mA", description: "Cartesian product"},
+  {trigger: ",rel", replacement: "R \\subseteq $0 \\times $1$2", options: "mA", description: "binary relation"},
+  {trigger: ",dom", replacement: "\\operatorname{dom}($0)$1", options: "mA", description: "domain"},
+  {trigger: ",ran", replacement: "\\operatorname{ran}($0)$1", options: "mA", description: "range"},
+  {trigger: ",img", replacement: "$0($1)$2", options: "mA", description: "function image"},
+  {trigger: ",map", replacement: "$0: $1 \\to $2$3", options: "mA", description: "function mapping"},
+  {trigger: ",comp", replacement: "$0 \\circ $1$2", options: "mA", description: "function composition"},
+  {trigger: ",N", replacement: "\\mathbb{N} ", options: "mA", description: "natural numbers"},
+  {trigger: ",Z", replacement: "\\mathbb{Z} ", options: "mA", description: "integers"},
+  {trigger: ",Q", replacement: "\\mathbb{Q} ", options: "mA", description: "rational numbers"},
+  {trigger: ",R", replacement: "\\mathbb{R} ", options: "mA", description: "real numbers"},
+  {trigger: ",-R", replacement: "\\overline{\\mathbb{R}} ", options: "mA", description: "extended real numbers"},
+
+  // Proof writing. These use MathJax-supported text rather than an amsthm proof environment.
+  {trigger: ",assume", replacement: "\\text{Assume } $0$1", options: "mA", description: "proof assumption"},
+  {trigger: ",claim", replacement: "\\text{Claim: } $0$1", options: "mA", description: "proof claim"},
+  {trigger: ",T", replacement: "\\therefore ", options: "mA", description: "therefore"},
+  {trigger: "thf", replacement: "\\therefore ", options: "mA", description: "therefore"},
+  {trigger: ",ind", replacement: "\\text{Base case: } $0\\\\\n\\text{Inductive hypothesis: } $1\\\\\n\\text{Inductive step: } $2$3", options: "mA", description: "induction outline"},
+  {trigger: ",cases", replacement: "\\begin{cases}\n$0\n\\end{cases}$1", options: "mA", description: "cases environment"},
+
+  // Graph theory
+  {trigger: ",graph", replacement: "G = (V, E)$0", options: "mA", description: "graph definition"},
+  {trigger: ",verts", replacement: "V($0)$1", options: "mA", description: "vertex set"},
+  {trigger: ",edges", replacement: "E($0)$1", options: "mA", description: "edge set"},
+  {trigger: ",deg", replacement: "\\deg($0)$1", options: "mA", description: "vertex degree"},
+  {trigger: ",path", replacement: "$0 \\leadsto $1$2", options: "mA", description: "path"},
+  {trigger: ",adj", replacement: "$0 \\sim $1$2", options: "mA", description: "adjacency"},
+  {trigger: ",n", replacement: "\\sim ", options: "mA", description: "tilde relation"},
+  {trigger: ",~", replacement: "\\sim ", options: "mA", description: "tilde relation"},
+  {trigger: ",nbr", replacement: "N($0)$1", options: "mA", description: "neighborhood"},
+
+  // Combinatorics
+  {trigger: ",choose", replacement: "\\binom{$0}{$1}$2", options: "mA", description: "binomial coefficient"},
+  {trigger: ",perm", replacement: "{}_{${0:n}}P_{${1:r}}$2", options: "mA", description: "permutations"},
+  {trigger: ",fact", replacement: "$0!$1", options: "mA", description: "factorial"}
+];

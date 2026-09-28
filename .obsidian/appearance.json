@@ -1,13 +1,14 @@
 {
-  "cssTheme": "AMOLED Serenity",
+  "cssTheme": "",
   "accentColor": "#660dd3",
-  "showRibbon": false,
-  "textFontFamily": "JetBrainsMono Nerd Font",
+  "showRibbon": true,
+  "textFontFamily": "Atkinson Hyperlegible Next,JetBrainsMonoNL Nerd Font",
   "baseFontSizeAction": false,
   "enabledCssSnippets": [
     "latexsize",
     "checklist-statuses"
   ],
   "theme": "obsidian",
-  "nativeMenus": false
+  "nativeMenus": false,
+  "interfaceFontFamily": "JetBrainsMonoNL Nerd Font Mono"
 }
