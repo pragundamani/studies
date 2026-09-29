@@ -27,18 +27,18 @@ Order of operations: $\neg$ first, then $\land$ and $\lor$, then $\to$ and $\lef
 
 **De Morgan.** $\neg(p\land q)\equiv\neg p\lor\neg q$, and $\neg(p\lor q)\equiv\neg p\land\neg q$.
 
-| Name | Equivalence |
-| --- | --- |
-| Commutative | $p\land q\equiv q\land p$, and the same for $\lor$ |
-| Associative | $(p\land q)\land r\equiv p\land(q\land r)$, and the same for $\lor$ |
-| Distributive | $p\land(q\lor r)\equiv(p\land q)\lor(p\land r)$, and $p\lor(q\land r)\equiv(p\lor q)\land(p\lor r)$ |
-| Identity | $p\land\mathbf{t}\equiv p$, and $p\lor\mathbf{c}\equiv p$ |
-| Negation | $p\lor\neg p\equiv\mathbf{t}$, and $p\land\neg p\equiv\mathbf{c}$ |
-| Double negation | $\neg(\neg p)\equiv p$ |
-| Idempotent | $p\land p\equiv p$, and $p\lor p\equiv p$ |
-| Universal bound | $p\lor\mathbf{t}\equiv\mathbf{t}$, and $p\land\mathbf{c}\equiv\mathbf{c}$ |
-| Absorption | $p\lor(p\land q)\equiv p$, and $p\land(p\lor q)\equiv p$ |
-| Negations of $\mathbf{t}$ and $\mathbf{c}$ | $\neg\mathbf{t}\equiv\mathbf{c}$, and $\neg\mathbf{c}\equiv\mathbf{t}$ |
+| Name                                       | Equivalence                                                                                         |
+| ------------------------------------------ | --------------------------------------------------------------------------------------------------- |
+| Commutative                                | $p\land q\equiv q\land p$, and the same for $\lor$                                                  |
+| Associative                                | $(p\land q)\land r\equiv p\land(q\land r)$, and the same for $\lor$                                 |
+| Distributive                               | $p\land(q\lor r)\equiv(p\land q)\lor(p\land r)$, and $p\lor(q\land r)\equiv(p\lor q)\land(p\lor r)$ |
+| Identity                                   | $p\land\mathbf{t}\equiv p$, and $p\lor\mathbf{c}\equiv p$                                           |
+| Negation                                   | $p\lor\neg p\equiv\mathbf{t}$, and $p\land\neg p\equiv\mathbf{c}$                                   |
+| Double negation                            | $\neg(\neg p)\equiv p$                                                                              |
+| Idempotent                                 | $p\land p\equiv p$, and $p\lor p\equiv p$                                                           |
+| Universal bound                            | $p\lor\mathbf{t}\equiv\mathbf{t}$, and $p\land\mathbf{c}\equiv\mathbf{c}$                           |
+| Absorption                                 | $p\lor(p\land q)\equiv p$, and $p\land(p\lor q)\equiv p$                                            |
+| Negations of $\mathbf{t}$ and $\mathbf{c}$ | $\neg\mathbf{t}\equiv\mathbf{c}$, and $\neg\mathbf{c}\equiv\mathbf{t}$                              |
 
 $\mathbf{t}$ is a tautology and $\mathbf{c}$ is a contradiction. Exclusive or is $p\oplus q\equiv(p\lor q)\land\neg(p\land q)$.
 

@@ -281,6 +281,7 @@ Let $s$ be a string of length 2 with characters from $\{0,1,2\}$. $a$ means the 
 Negate: $x<2$ or $x>5$.
 ?
 ![[answers/2_1_answers#The negation is $2 \le x$ and $x \le 5$.]]
+<!--SR:!2026-10-03,4,270-->
 
 ### Question 2.1.33
 Negate: $x \le -1$ or $x \ge 4$.
@@ -1007,6 +1008,7 @@ Some of the arguments in 24, 25, 26, 27, 28, 29, 30, 31, and 32 are valid, where
 Sandra knows Java and Sandra knows C++. Therefore Sandra knows C++.
 ?
 ![[answers/2_3_answers#Let $p$ be “Sandra knows Java” and $q$ be “Sandra knows C++.” The form is $p\land q\ \therefore\ q$. This is valid by **simplification**.]]
+<!--SR:!2026-10-03,4,270-->
 
 ### Question 2.3.32
 Some of the arguments in 24, 25, 26, 27, 28, 29, 30, 31, and 32 are valid, whereas others exhibit the converse or the inverse error. Use symbols to write the logical form of each argument. If the argument is valid, identify the rule of inference that guarantees its validity. Otherwise, state whether the converse or the inverse error is made.
@@ -1329,6 +1331,7 @@ Let the domain be the students at your school. Let $M(x)$ mean “$x$ is a math 
 (c) No computer science students are engineering students.
 ?
 ![[answers/3_1_answers#(c) $\forall x\,(C(x)\to\neg E(x))$.]]
+<!--SR:!2026-10-03,4,270-->
 
 ### Question 3.1.18 (d)
 Let the domain be the students at your school. Let $M(x)$ mean “$x$ is a math major,” $C(x)$ mean “$x$ is a computer science student,” and $E(x)$ mean “$x$ is an engineering student.” Express each statement with quantifiers and these predicates.
@@ -1375,6 +1378,7 @@ Rewrite the following statements so that the quantifier trails the rest of the s
 (d) There exists a continuous function $f$ such that $f$ is not differentiable.
 ?
 ![[answers/3_1_answers#(d) $f$ is not differentiable, for some continuous function $f$.]]
+<!--SR:!2026-09-29,0,230-->
 
 ### Question 3.1.22 (a)
 Rewrite each statement in the form “For all $x$, ….” Use “if …, then …” when the English statement is conditional.
@@ -1546,6 +1550,7 @@ Which of the following is a negation for “All dogs are loyal”? More than one
 (f) There is a dog that is disloyal.
 ?
 ![[answers/3_2_answers#The correct choices are **“Some dogs are disloyal”** and **“There is a dog that is disloyal.”** Both say that at least one dog is not loyal. “No dogs are loyal” is too strong.]]
+<!--SR:!2026-10-03,4,270-->
 
 ### Question 3.2.2 (g)
 Which of the following is a negation for “All dogs are loyal”? More than one answer may be correct.
@@ -1657,6 +1662,7 @@ Let $D=\{-48,-14,-8,0,1,3,16,23,26,32,36\}$. Determine which of the following st
 (a) $\forall x \in D$, if $x$ is odd then $x>0$.
 ?
 ![[answers/3_2_answers#(a) **True.** The odd members are $1$, $3$, and $23$, and each is positive.]]
+<!--SR:!2026-09-29,0,230-->
 
 ### Question 3.2.15 (b)
 Let $D=\{-48,-14,-8,0,1,3,16,23,26,32,36\}$. Determine which of the following statements are true and which are false. Provide counterexamples for the statements that are false.
@@ -1686,6 +1692,7 @@ Let $D=\{-48,-14,-8,0,1,3,16,23,26,32,36\}$. Determine which of the following st
 Negate: for every real $x$, if $x>1$ then $x^2>1$.
 ?
 ![[answers/3_2_answers#Negations, in order: some real $x>1$ has $x^2 \le 1$; some integer is even and not divisible by 2; some real is positive and has no positive square root; some prime is even and not equal to 2; some triangle has angle sum not $180^\circ$; some student is a math major and not a computer science major.]]
+<!--SR:!2026-10-03,4,270-->
 
 ### Question 3.2.17
 Negate: for every integer $n$, if $n$ is even then $2$ divides $n$.
@@ -1875,6 +1882,7 @@ Use the facts that the negation of a $\forall$ statement is an $\exists$ stateme
 Having a large income is not a necessary condition for a person to be happy.
 ?
 ![[answers/3_2_answers#There is a happy person who does not have a large income.]]
+<!--SR:!2026-09-29,0,230-->
 
 ### Question 3.2.47
 Use the facts that the negation of a $\forall$ statement is an $\exists$ statement and that the negation of an if-then statement is an and statement to rewrite each of the statements 45, 46, 47, and 48 without using the word necessary or sufficient.

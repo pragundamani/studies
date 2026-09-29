@@ -101,7 +101,7 @@ Before reducing a circuit, what must be true for two elements to be parallel?:: 
 Best first check after solving a circuit:: Check KVL, KCL, and $\sum P=0$ where applicable.
 
 
-### Midterm and Lab 3 review cards #flashcards
+### Midterm and Lab 3 review cards #flashcards/ece_rev
 
 What is the first step before writing KVL?:: Choose a loop traversal direction and mark voltage polarities/current arrows.
 
