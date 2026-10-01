@@ -1,0 +1,366 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - button "Menu" [ref=e5] [cursor=pointer]
+      - link [ref=e9] [cursor=pointer]:
+        - /url: https://www.allaboutcircuits.com
+        - img "All About Circuits" [ref=e10]
+      - generic [ref=e11]:
+        - button "Search" [ref=e12] [cursor=pointer]
+        - list [ref=e16]:
+          - listitem
+          - listitem [ref=e17]:
+            - generic [ref=e18]:
+              - generic [ref=e19]:
+                - paragraph [ref=e20]: Join the Community
+                - link [ref=e21] [cursor=pointer]:
+                  - /url: "#"
+              - separator [ref=e24]
+              - generic [ref=e25]:
+                - link "Register" [ref=e26] [cursor=pointer]:
+                  - /url: https://forum.allaboutcircuits.com/register/
+                - link "Log In" [ref=e27] [cursor=pointer]:
+                  - /url: https://forum.allaboutcircuits.com/login/?redirect=https://www.allaboutcircuits.com/textbook/direct-current/chpt-5/series-and-parallel-circuits/
+              - generic [ref=e28]:
+                - separator [ref=e29]
+                - generic [ref=e30]: Or sign in with
+                - separator [ref=e31]
+              - list [ref=e32]:
+                - listitem [ref=e33]:
+                  - link "Facebook" [ref=e34] [cursor=pointer]:
+                    - /url: https://forum.allaboutcircuits.com/register/connected-accounts/facebook/?setup=1
+                    - img "Facebook"
+                    - text: Facebook
+                - listitem [ref=e35]:
+                  - link "Google" [ref=e36] [cursor=pointer]:
+                    - /url: https://forum.allaboutcircuits.com/register/connected-accounts/google/?setup=1
+                    - img "Google"
+                    - text: Google
+                - listitem [ref=e37]:
+                  - link "LinkedIn" [ref=e38] [cursor=pointer]:
+                    - /url: https://forum.allaboutcircuits.com/register/connected-accounts/linkedin/?setup=1
+                    - img "Github"
+                    - text: GitHub
+                - listitem [ref=e39]:
+                  - link "GitHub" [ref=e40] [cursor=pointer]:
+                    - /url: https://forum.allaboutcircuits.com/register/connected-accounts/github/?setup=1
+                    - img "LinkedIn"
+                    - text: Linkedin
+          - listitem [ref=e41]:
+            - separator [ref=e42]
+            - paragraph [ref=e43]: SIGN UP FOR OUR NEWSLETTER
+            - generic [ref=e44]:
+              - textbox "Enter you email address" [ref=e45]:
+                - /placeholder: Enter your email address
+              - button "Register" [ref=e46] [cursor=pointer]
+      - button [ref=e47] [cursor=pointer]
+    - navigation [ref=e51]:
+      - generic [ref=e52]:
+        - generic [ref=e53]:
+          - paragraph [ref=e54]: Main Menu
+          - link "Close Menu" [ref=e55] [cursor=pointer]:
+            - /url: "#"
+        - separator [ref=e58]
+      - list [ref=e59]:
+        - listitem [ref=e60]:
+          - link "Home" [ref=e61] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e62]:
+          - link "Articles" [ref=e63] [cursor=pointer]:
+            - /url: /latest/
+        - listitem [ref=e64]:
+          - link "Forums" [ref=e65] [cursor=pointer]:
+            - /url: https://forum.allaboutcircuits.com/
+        - listitem [ref=e66]:
+          - link "Education" [ref=e67] [cursor=pointer]:
+            - /url: /education/
+        - listitem [ref=e68]:
+          - link "Tools" [ref=e69] [cursor=pointer]:
+            - /url: /tools/
+        - listitem [ref=e70]:
+          - link "Videos" [ref=e71] [cursor=pointer]:
+            - /url: /videos/
+        - listitem [ref=e72]:
+          - link "Datasheets" [ref=e73] [cursor=pointer]:
+            - /url: http://datasheets.com
+        - listitem [ref=e74]:
+          - link "Giveaways" [ref=e75] [cursor=pointer]:
+            - /url: /giveaways/
+        - listitem [ref=e76]:
+          - link "Podcast" [ref=e77] [cursor=pointer]:
+            - /url: /podcast/
+        - listitem [ref=e78]:
+          - link "Partner Content Hub" [ref=e79] [cursor=pointer]:
+            - /url: /partner-content-hub/
+        - listitem [ref=e80]:
+          - link "Contact Us" [ref=e81] [cursor=pointer]:
+            - /url: /contact-us
+      - generic [ref=e82]:
+        - link "Register" [ref=e83] [cursor=pointer]:
+          - /url: https://forum.allaboutcircuits.com/register/
+        - link "Log In" [ref=e84] [cursor=pointer]:
+          - /url: https://forum.allaboutcircuits.com/login/?redirect=https://www.allaboutcircuits.com/textbook/direct-current/chpt-5/series-and-parallel-circuits/
+      - generic [ref=e85]:
+        - paragraph [ref=e86]: Network Sites
+        - list [ref=e87]:
+          - listitem [ref=e88]:
+            - link "Control.com" [ref=e89] [cursor=pointer]:
+              - /url: https://control.com
+          - listitem [ref=e105]:
+            - link "EEPower" [ref=e106] [cursor=pointer]:
+              - /url: https://eepower.com
+          - listitem [ref=e109]:
+            - link "Maker Pro" [ref=e110] [cursor=pointer]:
+              - /url: https://maker.pro
+          - listitem [ref=e113]:
+            - link "Mikrocontroller" [ref=e114] [cursor=pointer]:
+              - /url: https://www.mikrocontroller.net/
+    - generic [ref=e118]:
+      - generic [ref=e120]:
+        - text: Summit Series is a 4-day, free virtual summit designed for engineers.
+        - link "Learn More." [ref=e121] [cursor=pointer]:
+          - /url: https://events.allaboutcircuits.com/summit-series-2026
+      - link [ref=e124] [cursor=pointer]:
+        - /url: "#"
+  - main [ref=e127]:
+    - generic [ref=e128]:
+      - generic [ref=e130]:
+        - heading "Error 404" [level=1] [ref=e131]
+        - separator [ref=e132]
+        - paragraph [ref=e133]:
+          - text: The requested page could not be located on the server. If you need further assistance,
+          - strong [ref=e134]: please feel free to contact our support team.
+      - heading [level=2] [ref=e136]:
+        - img "404" [ref=e137]
+        - text: Page Not Found
+  - contentinfo [ref=e138]:
+    - generic [ref=e140]:
+      - generic [ref=e141]:
+        - img "AllAboutCircuits" [ref=e142]
+        - generic [ref=e143]:
+          - link "More About Us" [ref=e144] [cursor=pointer]:
+            - /url: /about-us/
+          - link "Advertise" [ref=e145] [cursor=pointer]:
+            - /url: https://eetech.com/solutions/
+          - link "Write For Us" [ref=e146] [cursor=pointer]:
+            - /url: /write-for-us/
+          - link "Contact Us" [ref=e147] [cursor=pointer]:
+            - /url: /contact-us/
+        - generic [ref=e148]:
+          - heading "Connect With Us" [level=6] [ref=e149]
+          - list [ref=e150]:
+            - listitem [ref=e151]:
+              - link "Facebook" [ref=e152] [cursor=pointer]:
+                - /url: https://www.facebook.com/allaboutcircuits
+            - listitem [ref=e155]:
+              - link "X" [ref=e156] [cursor=pointer]:
+                - /url: https://x.com/AllAboutCircuit
+            - listitem [ref=e159]:
+              - link "LinkedIn" [ref=e160] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/10236224/
+            - listitem [ref=e163]:
+              - link "Instagram" [ref=e164] [cursor=pointer]:
+                - /url: https://www.instagram.com/all_about_circuits/
+            - listitem [ref=e169]:
+              - link "YouTube" [ref=e170] [cursor=pointer]:
+                - /url: https://www.youtube.com/c/AllAboutCircuitsVideo
+      - list [ref=e174]:
+        - listitem [ref=e175]:
+          - heading "Products" [level=6] [ref=e176]
+          - list [ref=e177]:
+            - listitem [ref=e178]:
+              - link "Latest" [ref=e179] [cursor=pointer]:
+                - /url: /latest/
+            - listitem [ref=e180]:
+              - link "Analog" [ref=e181] [cursor=pointer]:
+                - /url: /latest/analog/
+            - listitem [ref=e182]:
+              - link "Connectors" [ref=e183] [cursor=pointer]:
+                - /url: /latest/connectors/
+            - listitem [ref=e184]:
+              - link "Cooling" [ref=e185] [cursor=pointer]:
+                - /url: /latest/cooling/
+            - listitem [ref=e186]:
+              - link "Digital IC’s" [ref=e187] [cursor=pointer]:
+                - /url: /latest/digital-ics/
+            - listitem [ref=e188]:
+              - link "EDA Tools" [ref=e189] [cursor=pointer]:
+                - /url: /latest/eda-tools/
+            - listitem [ref=e190]:
+              - link "Electromechanical" [ref=e191] [cursor=pointer]:
+                - /url: /latest/electromechanical/
+            - listitem [ref=e192]:
+              - link "Embedded" [ref=e193] [cursor=pointer]:
+                - /url: /latest/embedded/
+            - listitem [ref=e194]:
+              - link "IC Design" [ref=e195] [cursor=pointer]:
+                - /url: /latest/ic-design/
+            - listitem [ref=e196]:
+              - link "Memory" [ref=e197] [cursor=pointer]:
+                - /url: /latest/memory/
+            - listitem [ref=e198]:
+              - link "Optoelectronics" [ref=e199] [cursor=pointer]:
+                - /url: /latest/optoelectronics/
+            - listitem [ref=e200]:
+              - link "Passives" [ref=e201] [cursor=pointer]:
+                - /url: /latest/passives/
+            - listitem [ref=e202]:
+              - link "PCB’s" [ref=e203] [cursor=pointer]:
+                - /url: /latest/pcb/
+            - listitem [ref=e204]:
+              - link "Power" [ref=e205] [cursor=pointer]:
+                - /url: /latest/power/
+            - listitem [ref=e206]:
+              - link "RISC-V" [ref=e207] [cursor=pointer]:
+                - /url: /latest/risc-v/
+            - listitem [ref=e208]:
+              - link "Sensors" [ref=e209] [cursor=pointer]:
+                - /url: /latest/sensors/
+            - listitem [ref=e210]:
+              - link "Test & Measurement" [ref=e211] [cursor=pointer]:
+                - /url: /latest/test-and-measurement/
+            - listitem [ref=e212]:
+              - link "Wireless/RF" [ref=e213] [cursor=pointer]:
+                - /url: /latest/wireless-rf/
+        - listitem [ref=e214]:
+          - heading "Applications" [level=6] [ref=e215]
+          - list [ref=e216]:
+            - listitem [ref=e217]:
+              - link "AI/Neural Networks" [ref=e218] [cursor=pointer]:
+                - /url: /latest/ai-neural-networks/
+            - listitem [ref=e219]:
+              - link "Audio" [ref=e220] [cursor=pointer]:
+                - /url: /latest/audio/
+            - listitem [ref=e221]:
+              - link "Automotive" [ref=e222] [cursor=pointer]:
+                - /url: /latest/automotive/
+            - listitem [ref=e223]:
+              - link "Cloud Computing" [ref=e224] [cursor=pointer]:
+                - /url: /latest/cloud-computing/
+            - listitem [ref=e225]:
+              - link "Consumer Electronics" [ref=e226] [cursor=pointer]:
+                - /url: /latest/consumer-electronics/
+            - listitem [ref=e227]:
+              - link "Cybersecurity / Identification" [ref=e228] [cursor=pointer]:
+                - /url: /latest/security-identification/
+            - listitem [ref=e229]:
+              - link "Digital Signal Processing" [ref=e230] [cursor=pointer]:
+                - /url: /latest/digital-signal-processing/
+            - listitem [ref=e231]:
+              - link "Industrial Automation" [ref=e232] [cursor=pointer]:
+                - /url: /latest/industrial-automation/
+            - listitem [ref=e233]:
+              - link "IOT" [ref=e234] [cursor=pointer]:
+                - /url: /latest/iot/
+            - listitem [ref=e235]:
+              - link "IT / Networking" [ref=e236] [cursor=pointer]:
+                - /url: /latest/it-networking/
+            - listitem [ref=e237]:
+              - link "Lighting" [ref=e238] [cursor=pointer]:
+                - /url: /latest/lighting/
+            - listitem [ref=e239]:
+              - link "Medical & Fitness" [ref=e240] [cursor=pointer]:
+                - /url: /latest/medical-fitness/
+            - listitem [ref=e241]:
+              - link "Military / Aero / Space" [ref=e242] [cursor=pointer]:
+                - /url: /latest/military-aero-space/
+            - listitem [ref=e243]:
+              - link "Motor Control" [ref=e244] [cursor=pointer]:
+                - /url: /latest/motor-control/
+            - listitem [ref=e245]:
+              - link "Smart Grid / Energy" [ref=e246] [cursor=pointer]:
+                - /url: /latest/smart-grid-energy/
+            - listitem [ref=e247]:
+              - link "Telecom" [ref=e248] [cursor=pointer]:
+                - /url: /latest/telecom/
+        - listitem [ref=e249]:
+          - heading "Content" [level=6] [ref=e250]
+          - list [ref=e251]:
+            - listitem [ref=e252]:
+              - link "Calculators" [ref=e253] [cursor=pointer]:
+                - /url: /tools/
+            - listitem [ref=e254]:
+              - link "Datasheets" [ref=e255] [cursor=pointer]:
+                - /url: http://datasheets.com
+            - listitem [ref=e256]:
+              - link "Giveaways" [ref=e257] [cursor=pointer]:
+                - /url: /giveaways/
+            - listitem [ref=e258]:
+              - link "Industry Articles" [ref=e259] [cursor=pointer]:
+                - /url: /industry-articles/
+            - listitem [ref=e260]:
+              - link "Industry Webinars" [ref=e261] [cursor=pointer]:
+                - /url: /industry-webinars/
+            - listitem [ref=e262]:
+              - link "New Products" [ref=e263] [cursor=pointer]:
+                - /url: /new-industry-products/
+            - listitem [ref=e264]:
+              - link "News" [ref=e265] [cursor=pointer]:
+                - /url: /news/
+            - listitem [ref=e266]:
+              - link "Podcast" [ref=e267] [cursor=pointer]:
+                - /url: /podcast/
+            - listitem [ref=e268]:
+              - link "Projects" [ref=e269] [cursor=pointer]:
+                - /url: /projects/
+            - listitem [ref=e270]:
+              - link "Summit Series" [ref=e271] [cursor=pointer]:
+                - /url: https://events.allaboutcircuits.com/
+            - listitem [ref=e272]:
+              - link "Tech Chats" [ref=e273] [cursor=pointer]:
+                - /url: /tech-chats/
+            - listitem [ref=e274]:
+              - link "Partner Content Hub" [ref=e275] [cursor=pointer]:
+                - /url: /partner-content-hub/
+            - listitem [ref=e276]:
+              - link "Technical Articles" [ref=e277] [cursor=pointer]:
+                - /url: /technical-articles/
+            - listitem [ref=e278]:
+              - link "Textbook" [ref=e279] [cursor=pointer]:
+                - /url: /textbook/
+            - listitem [ref=e280]:
+              - link "Video Lectures" [ref=e281] [cursor=pointer]:
+                - /url: /video-lectures/
+            - listitem [ref=e282]:
+              - link "Worksheets" [ref=e283] [cursor=pointer]:
+                - /url: /worksheets/
+      - generic [ref=e284]:
+        - generic [ref=e285]:
+          - heading "SIGN UP FOR OUR NEWSLETTER" [level=6] [ref=e286]
+          - generic [ref=e287]:
+            - textbox "Enter you email address" [ref=e288]:
+              - /placeholder: Enter your email address
+            - button "Register" [ref=e289] [cursor=pointer]
+        - generic [ref=e290]:
+          - heading "MORE FROM THE EETECH NETWORK" [level=6] [ref=e291]
+          - list [ref=e292]:
+            - listitem [ref=e293]:
+              - link "EETech Group" [ref=e294] [cursor=pointer]:
+                - /url: https://eetech.com/
+            - listitem [ref=e305]
+            - listitem [ref=e306]:
+              - link "Control.com" [ref=e307] [cursor=pointer]:
+                - /url: https://control.com
+            - listitem [ref=e323]:
+              - link "EEPower" [ref=e324] [cursor=pointer]:
+                - /url: https://eepower.com
+            - listitem [ref=e327]:
+              - link "Maker Pro" [ref=e328] [cursor=pointer]:
+                - /url: https://maker.pro
+            - listitem [ref=e331]:
+              - link "Mikrocontroller" [ref=e332] [cursor=pointer]:
+                - /url: https://www.mikrocontroller.net/
+    - generic [ref=e337]:
+      - generic [ref=e338]:
+        - link "© EETech Group, LLC" [ref=e339] [cursor=pointer]:
+          - /url: https://eetech.com
+        - text: . All rights reserved
+      - generic [ref=e340]:
+        - link "Privacy Policy" [ref=e341] [cursor=pointer]:
+          - /url: /privacy-policy/
+        - generic [ref=e342]: ·
+        - link "Terms of Service" [ref=e343] [cursor=pointer]:
+          - /url: https://forum.allaboutcircuits.com/help/terms
+        - generic [ref=e344]: ·
+        - link "User Agreement" [ref=e345] [cursor=pointer]:
+          - /url: /user-agreement/

@@ -1,0 +1,106 @@
+- generic [ref=e1]:
+  - generic [ref=e5]:
+    - button "Google apps" [ref=e652] [cursor=pointer]
+    - 'button "Google Account: Pragun Damani (pd2752@nyu.edu)" [ref=e653] [cursor=pointer]'
+  - generic [ref=e95]:
+    - generic [ref=e99]:
+      - link "Gemini Notebook Homepage" [ref=e654] [cursor=pointer]:
+        - /url: /
+        - img "Gemini Notebook Logo" [ref=e655]
+      - textbox [ref=e108]: ECE2004 Midterm 1 Practice Quiz
+      - generic [ref=e109]:
+        - generic "Create notebook" [ref=e656]:
+          - button "Create notebook" [ref=e657] [cursor=pointer]:
+            - img [aria-hidden] [ref=e112]: add_2
+        - generic "Share notebook" [ref=e658]:
+          - button "Share notebook" [ref=e659] [cursor=pointer]:
+            - img [aria-hidden] [ref=e120]: share_1
+        - generic "Notebook configuration" [ref=e660]:
+          - button "Notebook configuration" [ref=e661] [cursor=pointer]:
+            - img [aria-hidden] [ref=e124]: more_vert
+        - generic "Settings" [ref=e662]:
+          - button "Settings" [ref=e663] [cursor=pointer]:
+            - img [aria-hidden] [ref=e132]: settings
+    - generic [ref=e136]:
+      - button "Sources" [ref=e664] [cursor=pointer]
+      - button "Chat" [ref=e665] [cursor=pointer]
+      - button "Studio" [ref=e666] [cursor=pointer]
+    - generic [ref=e188]:
+      - generic [ref=e189]:
+        - generic "Add source" [ref=e667]:
+          - button "Add source" [ref=e668]:
+            - generic [ref=e194]:
+              - img [aria-hidden] [ref=e195]: add_2
+              - generic [ref=e196]: Add sources
+        - generic [ref=e201]:
+          - textbox "Discover sources based on the inputted query" [active] [ref=e669]:
+            - /placeholder: Search the web for new sources
+          - generic [ref=e208]:
+            - generic [ref=e209]:
+              - button "Web" [ref=e670]:
+                - generic [ref=e217]:
+                  - generic [ref=e218]:
+                    - img [aria-hidden] [ref=e219]: language
+                    - generic [ref=e220]: Web
+                  - img [aria-hidden] [ref=e221]: keyboard_arrow_down
+              - button "Fast Research" [ref=e671]:
+                - generic [ref=e230]:
+                  - generic [ref=e231]:
+                    - img [aria-hidden] [ref=e232]: search_spark
+                    - generic [ref=e233]: Fast Research
+                  - img [aria-hidden] [ref=e234]: keyboard_arrow_down
+            - generic "Submit" [ref=e672]:
+              - button "Submit" [disabled]:
+                - img [aria-hidden]: arrow_forward
+        - generic [ref=e673]:
+          - generic [ref=e674]:
+            - button "Auto-label your sources by topic" [ref=e676] [cursor=pointer]:
+              - img [aria-hidden] [ref=e677]: label_auto
+            - button "Sort sources" [ref=e680] [cursor=pointer]:
+              - img [aria-hidden] [ref=e681]: sort
+          - generic [ref=e684]:
+            - generic [ref=e685]: Select all
+            - generic [ref=e689] [cursor=pointer]:
+              - text: check_box
+              - checkbox "Select all sources" [checked] [ref=e690]
+      - generic [ref=e240]:
+        - generic [ref=e691] [cursor=pointer]:
+          - button "ECE2004 Homework 2 Rev C2.pdf" [ref=e692]
+          - img [aria-hidden] [ref=e696]: drive_pdf
+          - generic [aria-hidden] [ref=e699]: ECE2004 Homework 2 Rev C2.pdf
+          - button "More" [ref=e701]
+          - generic [ref=e707]:
+            - text: check_box
+            - checkbox "Select ECE2004 Homework 2 Rev C2.pdf" [checked] [ref=e708]
+        - generic [ref=e709] [cursor=pointer]:
+          - button "ECE2004 Homework Assignment 1 Rev C_0.pdf" [ref=e710]
+          - img [aria-hidden] [ref=e714]: drive_pdf
+          - generic [aria-hidden] [ref=e717]: ECE2004 Homework Assignment 1 Rev C_0.pdf
+          - button "More" [ref=e719]
+          - generic [ref=e725]:
+            - text: check_box
+            - checkbox "Select ECE2004 Homework Assignment 1 Rev C_0.pdf" [checked] [ref=e726]
+        - generic [ref=e727] [cursor=pointer]:
+          - button "ECE2004 Homework Assignment 3 KVL and KCL Rev A.pdf" [ref=e728]
+          - img [aria-hidden] [ref=e732]: drive_pdf
+          - generic [aria-hidden] [ref=e735]: ECE2004 Homework Assignment 3 KVL and KCL Rev A.pdf
+          - button "More" [ref=e737]
+          - generic [ref=e743]:
+            - text: check_box
+            - checkbox "Select ECE2004 Homework Assignment 3 KVL and KCL Rev A.pdf" [checked] [ref=e744]
+        - generic [ref=e745] [cursor=pointer]:
+          - button "ECE2004 Reference Sheet for Final Exam Fall 2025.pdf" [ref=e746]
+          - img [aria-hidden] [ref=e750]: drive_pdf
+          - generic [aria-hidden] [ref=e753]: ECE2004 Reference Sheet for Final Exam Fall 2025.pdf
+          - button "More" [ref=e755]
+          - generic [ref=e761]:
+            - text: check_box
+            - checkbox "Select ECE2004 Reference Sheet for Final Exam Fall 2025.pdf" [checked] [ref=e762]
+        - generic [ref=e763] [cursor=pointer]:
+          - button "ECE2004_20Midterm_20Exam_201_20SAMPLE_20with_20Solutions_20Fall_202026.pdf" [ref=e764]
+          - img [aria-hidden] [ref=e768]: drive_pdf
+          - generic [aria-hidden] [ref=e771]: ECE2004_20Midterm_20Exam_201_20SAMPLE_20with_20Solutions_20Fall_202026.pdf
+          - button "More" [ref=e773]
+          - generic [ref=e779]:
+            - text: check_box
+            - checkbox "Select ECE2004_20Midterm_20Exam_201_20SAMPLE_20with_20Solutions_20Fall_202026.pdf" [checked] [ref=e780]

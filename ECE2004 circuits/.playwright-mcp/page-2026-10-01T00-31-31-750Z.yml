@@ -1,0 +1,867 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - button "Menu" [ref=e5] [cursor=pointer]
+      - link [ref=e9] [cursor=pointer]:
+        - /url: https://www.allaboutcircuits.com
+        - img "All About Circuits" [ref=e10]
+      - generic [ref=e11]:
+        - button "Search" [ref=e12] [cursor=pointer]
+        - list [ref=e16]:
+          - listitem
+          - listitem [ref=e17]:
+            - generic [ref=e18]:
+              - generic [ref=e19]:
+                - paragraph [ref=e20]: Join the Community
+                - link [ref=e21] [cursor=pointer]:
+                  - /url: "#"
+              - separator [ref=e24]
+              - generic [ref=e25]:
+                - link "Register" [ref=e26] [cursor=pointer]:
+                  - /url: https://forum.allaboutcircuits.com/register/
+                - link "Log In" [ref=e27] [cursor=pointer]:
+                  - /url: https://forum.allaboutcircuits.com/login/?redirect=https://www.allaboutcircuits.com/textbook/direct-current/chpt-6/kirchhoffs-voltage-law-kvl/
+              - generic [ref=e28]:
+                - separator [ref=e29]
+                - generic [ref=e30]: Or sign in with
+                - separator [ref=e31]
+              - list [ref=e32]:
+                - listitem [ref=e33]:
+                  - link "Facebook" [ref=e34] [cursor=pointer]:
+                    - /url: https://forum.allaboutcircuits.com/register/connected-accounts/facebook/?setup=1
+                    - img "Facebook" [ref=e35]
+                    - text: Facebook
+                - listitem [ref=e36]:
+                  - link "Google" [ref=e37] [cursor=pointer]:
+                    - /url: https://forum.allaboutcircuits.com/register/connected-accounts/google/?setup=1
+                    - img "Google"
+                    - text: Google
+                - listitem [ref=e38]:
+                  - link "LinkedIn" [ref=e39] [cursor=pointer]:
+                    - /url: https://forum.allaboutcircuits.com/register/connected-accounts/linkedin/?setup=1
+                    - img "Github"
+                    - text: GitHub
+                - listitem [ref=e40]:
+                  - link "GitHub" [ref=e41] [cursor=pointer]:
+                    - /url: https://forum.allaboutcircuits.com/register/connected-accounts/github/?setup=1
+                    - img "LinkedIn"
+                    - text: Linkedin
+          - listitem [ref=e42]:
+            - separator [ref=e43]
+            - paragraph [ref=e44]: SIGN UP FOR OUR NEWSLETTER
+            - generic [ref=e45]:
+              - textbox "Enter you email address" [ref=e46]:
+                - /placeholder: Enter your email address
+              - button "Register" [ref=e47] [cursor=pointer]
+      - button [ref=e48] [cursor=pointer]
+    - navigation [ref=e52]:
+      - generic [ref=e53]:
+        - generic [ref=e54]:
+          - paragraph [ref=e55]: Main Menu
+          - link "Close Menu" [ref=e56] [cursor=pointer]:
+            - /url: "#"
+        - separator [ref=e59]
+      - list [ref=e60]:
+        - listitem [ref=e61]:
+          - link "Home" [ref=e62] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e63]:
+          - link "Articles" [ref=e64] [cursor=pointer]:
+            - /url: /latest/
+        - listitem [ref=e65]:
+          - link "Forums" [ref=e66] [cursor=pointer]:
+            - /url: https://forum.allaboutcircuits.com/
+        - listitem [ref=e67]:
+          - link "Education" [ref=e68] [cursor=pointer]:
+            - /url: /education/
+        - listitem [ref=e69]:
+          - link "Tools" [ref=e70] [cursor=pointer]:
+            - /url: /tools/
+        - listitem [ref=e71]:
+          - link "Videos" [ref=e72] [cursor=pointer]:
+            - /url: /videos/
+        - listitem [ref=e73]:
+          - link "Datasheets" [ref=e74] [cursor=pointer]:
+            - /url: http://datasheets.com
+        - listitem [ref=e75]:
+          - link "Giveaways" [ref=e76] [cursor=pointer]:
+            - /url: /giveaways/
+        - listitem [ref=e77]:
+          - link "Podcast" [ref=e78] [cursor=pointer]:
+            - /url: /podcast/
+        - listitem [ref=e79]:
+          - link "Summit Series 2026" [ref=e80] [cursor=pointer]:
+            - /url: https://events.allaboutcircuits.com/summit-series-2026
+        - listitem [ref=e81]:
+          - link "Partner Content Hub" [ref=e82] [cursor=pointer]:
+            - /url: /partner-content-hub/
+        - listitem [ref=e83]:
+          - link "Contact Us" [ref=e84] [cursor=pointer]:
+            - /url: /contact-us
+      - generic [ref=e85]:
+        - link "Register" [ref=e86] [cursor=pointer]:
+          - /url: https://forum.allaboutcircuits.com/register/
+        - link "Log In" [ref=e87] [cursor=pointer]:
+          - /url: https://forum.allaboutcircuits.com/login/?redirect=https://www.allaboutcircuits.com/textbook/direct-current/chpt-6/kirchhoffs-voltage-law-kvl/
+      - generic [ref=e88]:
+        - paragraph [ref=e89]: Network Sites
+        - list [ref=e90]:
+          - listitem [ref=e91]:
+            - link "Control.com" [ref=e92] [cursor=pointer]:
+              - /url: https://control.com
+          - listitem [ref=e108]:
+            - link "EEPower" [ref=e109] [cursor=pointer]:
+              - /url: https://eepower.com
+          - listitem [ref=e112]:
+            - link "Maker Pro" [ref=e113] [cursor=pointer]:
+              - /url: https://maker.pro
+          - listitem [ref=e116]:
+            - link "Mikrocontroller" [ref=e117] [cursor=pointer]:
+              - /url: https://www.mikrocontroller.net/
+  - generic [ref=e121]:
+    - link [ref=e123] [cursor=pointer]:
+      - /url: https://www.allaboutcircuits.com
+      - img "All About Circuits" [ref=e124]
+    - generic [ref=e126]:
+      - generic [ref=e127]: Textbook
+      - heading "Kirchhoff’s Voltage Law (KVL)" [level=2] [ref=e128]
+    - list [ref=e129]:
+      - listitem [ref=e130]:
+        - link [ref=e131] [cursor=pointer]:
+          - /url: "#loginModal"
+      - listitem [ref=e134]:
+        - link "7" [ref=e135] [cursor=pointer]:
+          - /url: "#loginModal"
+  - main [ref=e139]:
+    - generic [ref=e140]:
+      - list [ref=e141]:
+        - listitem [ref=e142]:
+          - link "Home" [ref=e143] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e149]:
+          - link "Textbook" [ref=e150] [cursor=pointer]:
+            - /url: /textbook/
+        - listitem [ref=e153]:
+          - link "Direct Current (DC)" [ref=e154] [cursor=pointer]:
+            - /url: /textbook/direct-current/
+        - listitem [ref=e157]:
+          - link "Divider Circuits And Kirchhoff's Laws" [ref=e158] [cursor=pointer]:
+            - /url: /textbook/direct-current/chpt-6/
+        - listitem [ref=e161]:
+          - generic [ref=e162]: Kirchhoff’s Voltage Law (KVL)
+      - article [ref=e164]:
+        - generic [ref=e165]:
+          - generic [ref=e166]:
+            - generic [ref=e167]:
+              - generic [ref=e168]:
+                - generic [ref=e169]: Volume
+                - generic [ref=e170]:
+                  - generic [ref=e171]: Direct Current (DC)
+                  - button [ref=e172] [cursor=pointer]
+              - generic [ref=e175]:
+                - generic [ref=e176]: Chapter
+                - generic [ref=e177]:
+                  - generic [ref=e178]: Divider Circuits And Kirchhoff's Laws
+                  - button [ref=e179] [cursor=pointer]
+            - link "PDF Version" [ref=e182] [cursor=pointer]:
+              - /url: "#loginModal"
+          - generic [ref=e185]:
+            - generic [ref=e186]:
+              - generic [ref=e187]:
+                - generic [ref=e188]: Pages
+                - button [ref=e189] [cursor=pointer]
+              - generic [ref=e192]:
+                - link [ref=e193] [cursor=pointer]:
+                  - /url: https://www.facebook.com/allaboutcircuits
+                - link [ref=e196] [cursor=pointer]:
+                  - /url: https://x.com/AllAboutCircuit
+                - link [ref=e199] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/10236224/
+                - link [ref=e202] [cursor=pointer]:
+                  - /url: https://www.instagram.com/all_about_circuits/
+                - link [ref=e207] [cursor=pointer]:
+                  - /url: https://www.youtube.com/c/AllAboutCircuitsVideo
+            - heading "Kirchhoff’s Voltage Law (KVL)" [level=1] [ref=e210]
+            - separator [ref=e211]
+            - separator [ref=e212]
+            - generic [ref=e213]:
+              - heading "What is Kirchhoff’s Voltage Law (KVL)?" [level=3] [ref=e214]
+              - paragraph [ref=e215]:
+                - text: The principle known as
+                - emphasis [ref=e216]: Kirchhoff’s Voltage Law
+                - text: "(discovered in 1847 by Gustav R. Kirchhoff, a German physicist) can be stated as such:"
+              - paragraph [ref=e217]:
+                - strong [ref=e218]:
+                  - emphasis [ref=e219]: “The algebraic sum of all voltages in a loop must equal zero”
+              - paragraph [ref=e220]:
+                - text: By
+                - emphasis [ref=e221]: algebraic
+                - text: ", I mean accounting for signs (polarities) as well as magnitudes. By"
+                - emphasis [ref=e222]: loop
+                - text: ", I mean any path traced from one point in a circuit around to other points in that circuit, and finally back to the initial point."
+              - heading "Demonstrating Kirchhoff’s Voltage Law in a Series Circuit" [level=3] [ref=e223]
+              - paragraph [ref=e224]: "Let’s take another look at our example series circuit, this time numbering the points in the circuit for voltage reference:"
+              - paragraph [ref=e225]:
+                - img "kirchoffs voltage law in series circuit" [ref=e226]
+              - paragraph [ref=e227]: "If we were to connect a voltmeter between points 2 and 1, red test lead to point 2 and the black test lead to point 1, the meter would register +45 volts. Typically the “+” sign is not shown but rather implied, for positive readings in digital meter displays. However, for this lesson, the polarity of the voltage reading is very important and so I will show positive numbers explicitly:"
+              - paragraph [ref=e228]:
+                - img "voltage reading polarity equation" [ref=e229]
+              - paragraph [ref=e230]:
+                - text: When a voltage is specified with a double subscript (the characters “2-1” in the notation “E
+                - subscript [ref=e231]: 2-1
+                - text: ”), it means the voltage at the first point (2) as measured in reference to the second point (1). A voltage specified as “E
+                - subscript [ref=e232]: cd
+                - text: "” would mean the voltage as indicated by a digital meter with the red test lead on point “c” and the black test lead on point “d”: the voltage at “c” in reference to “d”."
+              - paragraph [ref=e233]:
+                - img "the meaning of eed" [ref=e234]
+              - paragraph [ref=e235]:
+                - text: If we were to take that same voltmeter and measure the voltage drop across each
+                - link "resistor" [ref=e236] [cursor=pointer]:
+                  - /url: https://www.allaboutcircuits.com/video-lectures/electronic-components-resistors/
+                - text: ", stepping around the circuit in a clockwise direction with the red test lead of our meter on the point ahead and the black test lead on the point behind, we would obtain the following readings:"
+              - paragraph [ref=e237]
+              - paragraph [ref=e238]:
+                - img "measuring voltage drop" [ref=e239]
+              - paragraph [ref=e240]:
+                - img "kirchoffs voltage law diagram 1" [ref=e241]
+              - paragraph [ref=e242]:
+                - text: We should already be familiar with the general principle for
+                - link "series circuits" [ref=e243] [cursor=pointer]:
+                  - /url: https://www.allaboutcircuits.com/video-lectures/series-circuits-part-1/
+                - text: "stating that individual voltage drops add up to the total applied voltage, but measuring voltage drops in this manner and paying attention to the polarity (mathematical sign) of the readings reveals another facet of this principle: that the voltages measured as such all add up to zero:"
+              - paragraph [ref=e244]
+              - paragraph [ref=e245]:
+                - img "general principle for series circuits diagram 1" [ref=e246]
+              - paragraph [ref=e247]
+              - paragraph [ref=e248]: "In the above example, the loop was formed by the following points in this order: 1-2-3-4-1. It doesn’t matter which point we start at or which direction we proceed in tracing the loop; the voltage sum will still equal zero. To demonstrate, we can tally up the voltages in loop 3-2-1-4-3 of the same circuit:"
+              - paragraph [ref=e249]
+              - paragraph [ref=e250]:
+                - img "general principle for series circuits diagram 2" [ref=e251]
+              - paragraph [ref=e252]
+              - paragraph [ref=e253]: "This may make more sense if we re-draw our example series circuit so that all components are represented in a straight line:"
+              - paragraph [ref=e254]
+              - paragraph [ref=e255]
+              - paragraph [ref=e256]
+              - paragraph [ref=e257]:
+                - text: "It’s still the same series circuit, just with the components arranged in a different form. Notice the polarities of the resistor voltage drops with respect to the battery: the battery’s voltage is negative on the left and positive on the right, whereas all the resistor voltage drops are oriented the other way: positive on the left and negative on the right. This is because the resistors are"
+                - emphasis [ref=e258]: resisting
+                - text: the flow of electric charge being pushed by the battery. In other words, the “push” exerted by the resistors
+                - emphasis [ref=e259]: against
+                - text: the flow of electric charge
+                - emphasis [ref=e260]: must
+                - text: be in a direction opposite the source of electromotive force.
+              - paragraph [ref=e261]: "Here we see what a digital voltmeter would indicate across each component in this circuit, black lead on the left and red lead on the right, as laid out in horizontal fashion:"
+              - paragraph [ref=e262]
+              - paragraph [ref=e263]
+              - paragraph [ref=e264]
+              - paragraph [ref=e265]:
+                - text: If we were to take that same voltmeter and read voltage across combinations of components, starting with the only R
+                - subscript [ref=e266]: "1"
+                - text: "on the left and progressing across the whole string of components, we will see how the voltages add algebraically (to zero):"
+              - paragraph [ref=e267]
+              - paragraph:
+                - img "Voltmeter and voltages add algebraically (to zero)"
+              - paragraph [ref=e268]
+              - paragraph [ref=e269]:
+                - text: The fact that series voltages add up should be no mystery, but we notice that the
+                - emphasis [ref=e270]: polarity
+                - text: of these voltages makes a lot of difference in how the figures add. While reading voltage across R
+                - subscript [ref=e271]: "1"
+                - text: —R
+                - subscript [ref=e272]: "2"
+                - text: ", and R"
+                - subscript [ref=e273]: "1"
+                - text: —R
+                - subscript [ref=e274]: "2"
+                - text: —R
+                - subscript [ref=e275]: "3"
+                - text: (I’m using a “double-dash” symbol “—” to represent the
+                - emphasis [ref=e276]: series
+                - text: connection between resistors R
+                - subscript [ref=e277]: "1"
+                - text: ", R"
+                - subscript [ref=e278]: "2"
+                - text: ", and R"
+                - subscript [ref=e279]: "3"
+                - text: ), we see how the voltages measure successively larger (albeit negative) magnitudes, because the polarities of the individual voltage drops are in the same orientation (positive left, negative right).
+              - paragraph [ref=e280]:
+                - text: The sum of the voltage drops across R
+                - subscript [ref=e281]: "1"
+                - text: ", R"
+                - subscript [ref=e282]: "2"
+                - text: ", and R"
+                - subscript [ref=e283]: "3"
+                - text: equals 45 volts, which is the same as the battery’s output, except that the battery’s polarity is opposite that of the resistor voltage drops (negative left, positive right), so we end up with 0 volts measured across the whole string of components.
+              - paragraph [ref=e284]:
+                - text: That we should end up with exactly 0 volts across the whole string should be no mystery, either. Looking at the circuit, we can see that the far left of the string (left side of R
+                - subscript [ref=e285]: "1"
+                - text: ": point number 2) is directly connected to the far right of the string (right side of battery: point number 2), as necessary to complete the circuit."
+              - paragraph [ref=e286]:
+                - text: Since these two points are directly connected, they are
+                - emphasis [ref=e287]: electrically common
+                - text: to each other. And, as such, the voltage between those two electrically common points
+                - emphasis [ref=e288]: must
+                - text: be zero.
+              - heading "Demonstrating Kirchhoff’s Voltage Law in a Parallel Circuit" [level=3] [ref=e289]
+              - paragraph [ref=e290]:
+                - text: Kirchhoff’s Voltage Law (sometimes denoted as
+                - emphasis [ref=e291]: KVL
+                - text: for short) will work for
+                - emphasis [ref=e292]: any
+                - text: "circuit configuration at all, not just simple series. Note how it works for this parallel circuit:"
+              - paragraph [ref=e293]
+              - paragraph:
+                - img "parallel resistor circuit"
+              - paragraph [ref=e294]
+              - paragraph [ref=e295]: "Being a parallel circuit, the voltage across every resistor is the same as the supply voltage: 6 volts. Tallying up voltages around loop 2-3-4-5-6-7-2, we get:"
+              - paragraph [ref=e296]
+              - paragraph:
+                - img "parallel circuit sample 1"
+              - paragraph [ref=e297]
+              - paragraph [ref=e298]:
+                - text: Note how I label the final (sum) voltage as E
+                - subscript [ref=e299]: 2-2
+                - text: . Since we began our loop-stepping sequence at point 2 and ended at point 2, the algebraic sum of those voltages will be the same as the voltage measured between the same point (E
+                - subscript [ref=e300]: 2-2
+                - text: ), which of course must be zero.
+              - heading "The Validity of Kirchhoff’s Voltage Law, Regardless of Circuit Topology" [level=3] [ref=e301]
+              - paragraph [ref=e302]: "The fact that this circuit is parallel instead of series has nothing to do with the validity of Kirchhoff’s Voltage Law. For that matter, the circuit could be a “black box”—its component configuration completely hidden from our view, with only a set of exposed terminals for us to measure the voltage between—and KVL would still hold true:"
+              - paragraph [ref=e303]
+              - paragraph:
+                - img "validity of kirchoffs voltage law regardless of circuit topology"
+              - paragraph [ref=e304]:
+                - text: Try any order of steps from any terminal in the above diagram, stepping around back to the original terminal, and you’ll find that the algebraic sum of the voltages
+                - emphasis [ref=e305]: always
+                - text: equals zero.
+              - paragraph [ref=e306]: "Furthermore, the “loop” we trace for KVL doesn’t even have to be a real current path in the closed-circuit sense of the word. All we have to do to comply with KVL is to begin and end at the same point in the circuit, tallying voltage drops and polarities as we go between the next and the last point. Consider this absurd example, tracing “loop” 2-3-6-3-2 in the same parallel resistor circuit:"
+              - paragraph [ref=e307]
+              - paragraph:
+                - img "kirchoffs voltage law in parallel circuit"
+              - paragraph [ref=e308]
+              - paragraph:
+                - img "parallel resistor circuit sample"
+              - heading [level=4] [ref=e309]
+              - heading "Using Kirchhoff’s Voltage Law in a Complex Circuit" [level=4] [ref=e310]
+              - paragraph [ref=e311]: "KVL can be used to determine an unknown voltage in a complex circuit, where all other voltages around a particular “loop” are known. Take the following complex circuit (actually two series circuits joined by a single wire at the bottom) as an example:"
+              - paragraph [ref=e312]
+              - paragraph:
+                - img "kirchoffs voltage law in a complex circuit"
+              - paragraph [ref=e313]
+              - paragraph [ref=e314]:
+                - text: To make the problem simpler, I’ve omitted resistance values and simply given voltage drops across each resistor. The two series circuits share a common wire between them (wire 7-8-9-10), making voltage measurements
+                - emphasis [ref=e315]: between
+                - text: "the two circuits possible. If we wanted to determine the voltage between points 4 and 3, we could set up a KVL equation with the voltage between those points as the unknown:"
+              - paragraph [ref=e316]
+              - paragraph:
+                - img "kirchoffs voltage law equation"
+              - paragraph [ref=e317]
+              - paragraph:
+                - img "kirchoffs voltage law diagram 7"
+              - paragraph [ref=e318]
+              - paragraph:
+                - img "kirchoffs voltage law diagram 3"
+              - paragraph [ref=e319]
+              - paragraph:
+                - img "kirchoffs voltage law diagram 4"
+              - paragraph [ref=e320]
+              - paragraph:
+                - img "kirchoffs voltage law diagram 5"
+              - paragraph [ref=e321]
+              - paragraph [ref=e322]: Stepping around the loop 3-4-9-8-3, we write the voltage drop figures as a digital voltmeter would register them, measuring with the red test lead on the point ahead and black test lead on the point behind as we progress around the loop. Therefore, the voltage from point 9 to point 4 is a positive (+) 12 volts because the “red lead” is on point 9 and the “black lead” is on point 4.
+              - paragraph [ref=e323]: The voltage from point 3 to point 8 is a positive (+) 20 volts because the “red lead” is on point 3 and the “black lead” is on point 8. The voltage from point 8 to point 9 is zero, of course, because those two points are electrically common.
+              - paragraph [ref=e324]: "Our final answer for the voltage from point 4 to point 3 is a negative (-) 32 volts, telling us that point 3 is actually positive with respect to point 4, precisely what a digital voltmeter would indicate with the red lead on point 4 and the black lead on point 3:"
+              - paragraph [ref=e325]
+              - paragraph:
+                - img "kirchoffs voltage law diagram 6"
+              - paragraph [ref=e326]
+              - paragraph [ref=e327]:
+                - text: In other words, the initial placement of our “meter leads” in this KVL problem was “backward.” Had we generated our KVL equation starting with E
+                - subscript [ref=e328]: 3-4
+                - text: instead of E
+                - subscript [ref=e329]: 4-3
+                - text: ", stepping around the same loop with the opposite meter lead orientation, the final answer would have been E"
+                - subscript [ref=e330]: 3-4
+                - text: "= +32 volts:"
+              - paragraph [ref=e331]
+              - paragraph:
+                - img "kirchoffs voltage law diagram 2"
+              - paragraph [ref=e332]
+              - paragraph [ref=e333]: "It is important to realize that neither approach is “wrong.” In both cases, we arrive at the correct assessment of voltage between the two points, 3 and 4: point 3 is positive with respect to point 4, and the voltage between them is 32 volts."
+              - paragraph [ref=e334]
+              - paragraph [ref=e335]:
+                - strong [ref=e336]: "REVIEW:"
+              - list [ref=e337]:
+                - listitem [ref=e338]:
+                  - text: "Kirchhoff’s Voltage Law (KVL):"
+                  - emphasis [ref=e339]: “The algebraic sum of all voltages in a loop must equal zero”
+              - paragraph [ref=e340]:
+                - strong [ref=e341]: "RELATED WORKSHEETS:"
+              - list [ref=e342]:
+                - listitem [ref=e343]:
+                  - link "Kirchhoff’s Laws Worksheet" [ref=e344] [cursor=pointer]:
+                    - /url: https://www.allaboutcircuits.com/worksheets/kirchhoffs-laws/
+            - list [ref=e346]:
+              - listitem [ref=e347]:
+                - link "Prev Page" [ref=e348] [cursor=pointer]:
+                  - /url: /textbook/direct-current/chpt-6/voltage-divider-circuits/
+              - listitem [ref=e351]:
+                - link "Next Page" [ref=e352] [cursor=pointer]:
+                  - /url: /textbook/direct-current/chpt-6/current-divider-circuits/
+            - generic [ref=e355]:
+              - heading "Lessons in Electric Circuits" [level=2] [ref=e356]
+              - generic [ref=e357]:
+                - heading "Volumes" [level=3] [ref=e358]:
+                  - text: Volumes
+                  - separator [ref=e359]
+                - list [ref=e360]:
+                  - listitem [ref=e361]:
+                    - link "Direct Current (DC) »" [ref=e362] [cursor=pointer]:
+                      - /url: /textbook/direct-current/
+                      - generic [ref=e363]: Direct Current (DC)
+                      - text: »
+                    - list [ref=e365]:
+                      - listitem [ref=e366]:
+                        - link "1 Basic Concepts Of Electricity" [ref=e367] [cursor=pointer]:
+                          - /url: /textbook/direct-current/chpt-1/
+                          - generic [ref=e368]: "1"
+                          - text: Basic Concepts Of Electricity
+                      - listitem [ref=e369]:
+                        - link "2 Ohm's Law" [ref=e370] [cursor=pointer]:
+                          - /url: /textbook/direct-current/chpt-2/
+                          - generic [ref=e371]: "2"
+                          - text: Ohm's Law
+                      - listitem [ref=e372]:
+                        - link "3 Electrical Safety" [ref=e373] [cursor=pointer]:
+                          - /url: /textbook/direct-current/chpt-3/
+                          - generic [ref=e374]: "3"
+                          - text: Electrical Safety
+                      - listitem [ref=e375]:
+                        - link "4 Scientific Notation And Metric Prefixes" [ref=e376] [cursor=pointer]:
+                          - /url: /textbook/direct-current/chpt-4/
+                          - generic [ref=e377]: "4"
+                          - text: Scientific Notation And Metric Prefixes
+                      - listitem [ref=e378]:
+                        - link "5 Series And Parallel Circuits" [ref=e379] [cursor=pointer]:
+                          - /url: /textbook/direct-current/chpt-5/
+                          - generic [ref=e380]: "5"
+                          - text: Series And Parallel Circuits
+                      - listitem [ref=e381]:
+                        - link "6 Divider Circuits And Kirchhoff's Laws »" [ref=e382] [cursor=pointer]:
+                          - /url: /textbook/direct-current/chpt-6/
+                          - generic [ref=e383]: "6"
+                          - text: Divider Circuits And Kirchhoff's Laws »
+                        - list [ref=e385]:
+                          - listitem [ref=e386]:
+                            - link "Voltage Divider Circuits" [ref=e387] [cursor=pointer]:
+                              - /url: /textbook/direct-current/chpt-6/voltage-divider-circuits/
+                          - listitem [ref=e388]:
+                            - link "Kirchhoff’s Voltage Law (KVL)" [ref=e389] [cursor=pointer]:
+                              - /url: /textbook/direct-current/chpt-6/kirchhoffs-voltage-law-kvl/
+                          - listitem [ref=e390]:
+                            - link "Current Divider Circuits and the Current Divider Formula" [ref=e391] [cursor=pointer]:
+                              - /url: /textbook/direct-current/chpt-6/current-divider-circuits/
+                          - listitem [ref=e392]:
+                            - link "Kirchhoff’s Current Law (KCL)" [ref=e393] [cursor=pointer]:
+                              - /url: /textbook/direct-current/chpt-6/kirchhoffs-current-law-kcl/
+                      - listitem [ref=e394]:
+                        - link "7 Series-parallel Combination Circuits" [ref=e395] [cursor=pointer]:
+                          - /url: /textbook/direct-current/chpt-7/
+                          - generic [ref=e396]: "7"
+                          - text: Series-parallel Combination Circuits
+                      - listitem [ref=e397]:
+                        - link "8 DC Metering Circuits" [ref=e398] [cursor=pointer]:
+                          - /url: /textbook/direct-current/chpt-8/
+                          - generic [ref=e399]: "8"
+                          - text: DC Metering Circuits
+                      - listitem [ref=e400]:
+                        - link "9 Electrical Instrumentation Signals" [ref=e401] [cursor=pointer]:
+                          - /url: /textbook/direct-current/chpt-9/
+                          - generic [ref=e402]: "9"
+                          - text: Electrical Instrumentation Signals
+                      - listitem [ref=e403]:
+                        - link "10 DC Network Analysis" [ref=e404] [cursor=pointer]:
+                          - /url: /textbook/direct-current/chpt-10/
+                          - generic [ref=e405]: "10"
+                          - text: DC Network Analysis
+                      - listitem [ref=e406]:
+                        - link "11 Batteries And Power Systems" [ref=e407] [cursor=pointer]:
+                          - /url: /textbook/direct-current/chpt-11/
+                          - generic [ref=e408]: "11"
+                          - text: Batteries And Power Systems
+                      - listitem [ref=e409]:
+                        - link "12 Physics Of Conductors And Insulators" [ref=e410] [cursor=pointer]:
+                          - /url: /textbook/direct-current/chpt-12/
+                          - generic [ref=e411]: "12"
+                          - text: Physics Of Conductors And Insulators
+                      - listitem [ref=e412]:
+                        - link "13 Capacitors" [ref=e413] [cursor=pointer]:
+                          - /url: /textbook/direct-current/chpt-13/
+                          - generic [ref=e414]: "13"
+                          - text: Capacitors
+                      - listitem [ref=e415]:
+                        - link "14 Magnetism and Electromagnetism" [ref=e416] [cursor=pointer]:
+                          - /url: /textbook/direct-current/chpt-14/
+                          - generic [ref=e417]: "14"
+                          - text: Magnetism and Electromagnetism
+                      - listitem [ref=e418]:
+                        - link "15 Inductors" [ref=e419] [cursor=pointer]:
+                          - /url: /textbook/direct-current/chpt-15/
+                          - generic [ref=e420]: "15"
+                          - text: Inductors
+                      - listitem [ref=e421]:
+                        - link "16 RC and L/R Time Constants" [ref=e422] [cursor=pointer]:
+                          - /url: /textbook/direct-current/chpt-16/
+                          - generic [ref=e423]: "16"
+                          - text: RC and L/R Time Constants
+                      - listitem [ref=e424]:
+                        - link "17 Contributor List" [ref=e425] [cursor=pointer]:
+                          - /url: /textbook/direct-current/chpt-17/
+                          - generic [ref=e426]: "17"
+                          - text: Contributor List
+                  - listitem [ref=e427]:
+                    - link "Alternating Current (AC)" [ref=e428] [cursor=pointer]:
+                      - /url: /textbook/alternating-current/
+                  - listitem [ref=e430]:
+                    - link "Semiconductors" [ref=e431] [cursor=pointer]:
+                      - /url: /textbook/semiconductors/
+                  - listitem [ref=e433]:
+                    - link "Digital Circuits" [ref=e434] [cursor=pointer]:
+                      - /url: /textbook/digital/
+                  - listitem [ref=e436]:
+                    - link "EE Reference" [ref=e437] [cursor=pointer]:
+                      - /url: /textbook/reference/
+                  - listitem [ref=e439]:
+                    - link "DIY Electronics Projects" [ref=e440] [cursor=pointer]:
+                      - /url: /textbook/experiments/
+                  - listitem [ref=e442]:
+                    - heading "Advanced Textbooks" [level=3] [ref=e443]:
+                      - text: Advanced Textbooks
+                      - separator [ref=e444]
+                    - link "Practical Guide to Radio-Frequency Analysis and Design" [ref=e445] [cursor=pointer]:
+                      - /url: /textbook/radio-frequency-analysis-design/
+                  - listitem [ref=e447]:
+                    - link "Designing Analog Chips" [ref=e448] [cursor=pointer]:
+                      - /url: /textbook/designing-analog-chips/
+            - generic [ref=e450]:
+              - text: Published under the terms and conditions of the
+              - link "Design Science License" [ref=e451] [cursor=pointer]:
+                - /url: https://www.gnu.org/licenses/dsl.html
+        - generic [ref=e452]:
+          - link "Comments (7)" [ref=e454] [cursor=pointer]:
+            - /url: "#"
+          - generic [ref=e455]:
+            - generic [ref=e456]:
+              - textbox "Please log in before you can comment." [ref=e458]
+              - link "Log in to comment" [ref=e460] [cursor=pointer]:
+                - /url: "#loginModal"
+            - list [ref=e461]:
+              - listitem [ref=e462]:
+                - generic [ref=e463]:
+                  - generic [ref=e464]: R
+                  - link "rjeremiah" [ref=e466] [cursor=pointer]:
+                    - /url: https://forum.allaboutcircuits.com/members/800937
+                  - generic [ref=e467]: June 27, 2021
+                - generic [ref=e469]:
+                  - paragraph [ref=e471]: I believe the multimeter readouts in images 5 and 6 (from the top of the article) are incorrect. Specifically, the third and forth multimeter readouts from the left should read -15v and + 45v, respectively.
+                  - link "Like." [ref=e472] [cursor=pointer]:
+                    - /url: "#loginModal"
+                  - link "Reply" [ref=e475] [cursor=pointer]:
+                    - /url: javascript:void(0)
+              - listitem [ref=e476]:
+                - list [ref=e477]:
+                  - listitem [ref=e478]:
+                    - generic [ref=e479]:
+                      - generic [ref=e480]: D
+                      - link "dalewilson" [ref=e482] [cursor=pointer]:
+                        - /url: https://forum.allaboutcircuits.com/members/799888
+                      - generic [ref=e483]: June 28, 2021
+                    - generic [ref=e485]:
+                      - generic [ref=e486]: Good catch! The multimeter displays in the 3 lower rows of this figure are also incorrect, but the bold notes next to them display the correct voltages. We will work to get this corrected. Thank you for letting us know.
+                      - link "Like." [ref=e487] [cursor=pointer]:
+                        - /url: "#loginModal"
+                      - link "Reply" [ref=e490] [cursor=pointer]:
+                        - /url: javascript:void(0)
+              - listitem [ref=e491]:
+                - generic [ref=e492]:
+                  - generic [ref=e493]: R
+                  - link "rmeike" [ref=e495] [cursor=pointer]:
+                    - /url: https://forum.allaboutcircuits.com/members/830996
+                  - generic [ref=e496]: March 07, 2022
+                - generic [ref=e498]:
+                  - paragraph [ref=e500]: In the “Demonstrating Kirchhoff’s Voltage Law in a Parallel Circuit” section, why is E 3-6 not a consideration? I must have missed something, so could somebody please point me back to the resource that explains? Many thanks.
+                  - link "Like." [ref=e501] [cursor=pointer]:
+                    - /url: "#loginModal"
+                  - link "Reply" [ref=e504] [cursor=pointer]:
+                    - /url: javascript:void(0)
+              - listitem:
+                - list
+          - generic [ref=e505]:
+            - separator [ref=e507]
+            - button "Load More Comments" [ref=e509] [cursor=pointer]
+            - separator [ref=e511]
+    - generic [ref=e513]:
+      - heading "You May Also Like" [level=3] [ref=e514]
+      - generic [ref=e515]:
+        - generic [ref=e516]:
+          - link "The Current Video Podcast by Future Electronics | The Latest in Embedded Systems The Current Video Podcast by Future Electronics | The Latest in Embedded Systems" [ref=e517] [cursor=pointer]:
+            - /url: /partner-content-hub/future-electronics/the-current-video-podcast-by-future-electronics-the-latest-in-embedded-systems/
+            - img "The Current Video Podcast by Future Electronics | The Latest in Embedded Systems" [ref=e519]
+            - heading "The Current Video Podcast by Future Electronics | The Latest in Embedded Systems" [level=3] [ref=e521]
+            - separator [ref=e522]
+          - link "Partner Content Hub" [ref=e523] [cursor=pointer]:
+            - /url: /partner-content-hub/
+        - generic [ref=e524]:
+          - link "How Low-Voltage GaN FETs Are Enabling Multi-kW 800 V Isolated Converters How Low-Voltage GaN FETs Are Enabling Multi-kW 800 V Isolated Converters" [ref=e525] [cursor=pointer]:
+            - /url: /industry-articles/how-low-voltage-gan-fets-are-enabling-multi-kw-800-v-isolated-converters/
+            - img "How Low-Voltage GaN FETs Are Enabling Multi-kW 800 V Isolated Converters" [ref=e527]
+            - heading "How Low-Voltage GaN FETs Are Enabling Multi-kW 800 V Isolated Converters" [level=3] [ref=e529]
+            - separator [ref=e530]
+          - link "Industry Articles" [ref=e531] [cursor=pointer]:
+            - /url: /industry-articles/
+        - generic [ref=e532]:
+          - link "Seco Launches Industrial HMI and SBC Powered by Qualcomm’s New Processor Seco Launches Industrial HMI and SBC Powered by Qualcomm’s New Processor" [ref=e533] [cursor=pointer]:
+            - /url: /news/seco-launches-industrial-hmi-and-single-board-computer-powered-by-qualcomms-dragonwing-iq-2390/
+            - img "Seco Launches Industrial HMI and SBC Powered by Qualcomm’s New Processor" [ref=e535]
+            - heading "Seco Launches Industrial HMI and SBC Powered by Qualcomm’s New Processor" [level=3] [ref=e537]
+            - separator [ref=e538]
+          - link "News" [ref=e539] [cursor=pointer]:
+            - /url: /news/
+        - generic [ref=e540]:
+          - link "BootLoop Unveils Tool Enabling AI-Powered Hardware-in-the-Loop Testing BootLoop Unveils Tool Enabling AI-Powered Hardware-in-the-Loop Testing" [ref=e541] [cursor=pointer]:
+            - /url: /news/bootloop-unveils-tool-enabling-ai-powered-hardware-in-the-loop-testing/
+            - img "BootLoop Unveils Tool Enabling AI-Powered Hardware-in-the-Loop Testing" [ref=e543]
+            - heading "BootLoop Unveils Tool Enabling AI-Powered Hardware-in-the-Loop Testing" [level=3] [ref=e545]
+            - separator [ref=e546]
+          - link "News" [ref=e547] [cursor=pointer]:
+            - /url: /news/
+  - contentinfo [ref=e548]:
+    - generic [ref=e550]:
+      - generic [ref=e551]:
+        - img "AllAboutCircuits" [ref=e552]
+        - generic [ref=e553]:
+          - link "More About Us" [ref=e554] [cursor=pointer]:
+            - /url: /about-us/
+          - link "Advertise" [ref=e555] [cursor=pointer]:
+            - /url: https://eetech.com/solutions/
+          - link "Write For Us" [ref=e556] [cursor=pointer]:
+            - /url: /write-for-us/
+          - link "Contact Us" [ref=e557] [cursor=pointer]:
+            - /url: /contact-us/
+        - generic [ref=e558]:
+          - heading "Connect With Us" [level=6] [ref=e559]
+          - list [ref=e560]:
+            - listitem [ref=e561]:
+              - link "Facebook" [ref=e562] [cursor=pointer]:
+                - /url: https://www.facebook.com/allaboutcircuits
+            - listitem [ref=e565]:
+              - link "X" [ref=e566] [cursor=pointer]:
+                - /url: https://x.com/AllAboutCircuit
+            - listitem [ref=e569]:
+              - link "LinkedIn" [ref=e570] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/10236224/
+            - listitem [ref=e573]:
+              - link "Instagram" [ref=e574] [cursor=pointer]:
+                - /url: https://www.instagram.com/all_about_circuits/
+            - listitem [ref=e579]:
+              - link "YouTube" [ref=e580] [cursor=pointer]:
+                - /url: https://www.youtube.com/c/AllAboutCircuitsVideo
+      - list [ref=e584]:
+        - listitem [ref=e585]:
+          - heading "Products" [level=6] [ref=e586]
+          - list [ref=e587]:
+            - listitem [ref=e588]:
+              - link "Latest" [ref=e589] [cursor=pointer]:
+                - /url: /latest/
+            - listitem [ref=e590]:
+              - link "Analog" [ref=e591] [cursor=pointer]:
+                - /url: /latest/analog/
+            - listitem [ref=e592]:
+              - link "Connectors" [ref=e593] [cursor=pointer]:
+                - /url: /latest/connectors/
+            - listitem [ref=e594]:
+              - link "Cooling" [ref=e595] [cursor=pointer]:
+                - /url: /latest/cooling/
+            - listitem [ref=e596]:
+              - link "Digital IC’s" [ref=e597] [cursor=pointer]:
+                - /url: /latest/digital-ics/
+            - listitem [ref=e598]:
+              - link "EDA Tools" [ref=e599] [cursor=pointer]:
+                - /url: /latest/eda-tools/
+            - listitem [ref=e600]:
+              - link "Electromechanical" [ref=e601] [cursor=pointer]:
+                - /url: /latest/electromechanical/
+            - listitem [ref=e602]:
+              - link "Embedded" [ref=e603] [cursor=pointer]:
+                - /url: /latest/embedded/
+            - listitem [ref=e604]:
+              - link "IC Design" [ref=e605] [cursor=pointer]:
+                - /url: /latest/ic-design/
+            - listitem [ref=e606]:
+              - link "Memory" [ref=e607] [cursor=pointer]:
+                - /url: /latest/memory/
+            - listitem [ref=e608]:
+              - link "Optoelectronics" [ref=e609] [cursor=pointer]:
+                - /url: /latest/optoelectronics/
+            - listitem [ref=e610]:
+              - link "Passives" [ref=e611] [cursor=pointer]:
+                - /url: /latest/passives/
+            - listitem [ref=e612]:
+              - link "PCB’s" [ref=e613] [cursor=pointer]:
+                - /url: /latest/pcb/
+            - listitem [ref=e614]:
+              - link "Power" [ref=e615] [cursor=pointer]:
+                - /url: /latest/power/
+            - listitem [ref=e616]:
+              - link "RISC-V" [ref=e617] [cursor=pointer]:
+                - /url: /latest/risc-v/
+            - listitem [ref=e618]:
+              - link "Sensors" [ref=e619] [cursor=pointer]:
+                - /url: /latest/sensors/
+            - listitem [ref=e620]:
+              - link "Test & Measurement" [ref=e621] [cursor=pointer]:
+                - /url: /latest/test-and-measurement/
+            - listitem [ref=e622]:
+              - link "Wireless/RF" [ref=e623] [cursor=pointer]:
+                - /url: /latest/wireless-rf/
+        - listitem [ref=e624]:
+          - heading "Applications" [level=6] [ref=e625]
+          - list [ref=e626]:
+            - listitem [ref=e627]:
+              - link "AI/Neural Networks" [ref=e628] [cursor=pointer]:
+                - /url: /latest/ai-neural-networks/
+            - listitem [ref=e629]:
+              - link "Audio" [ref=e630] [cursor=pointer]:
+                - /url: /latest/audio/
+            - listitem [ref=e631]:
+              - link "Automotive" [ref=e632] [cursor=pointer]:
+                - /url: /latest/automotive/
+            - listitem [ref=e633]:
+              - link "Cloud Computing" [ref=e634] [cursor=pointer]:
+                - /url: /latest/cloud-computing/
+            - listitem [ref=e635]:
+              - link "Consumer Electronics" [ref=e636] [cursor=pointer]:
+                - /url: /latest/consumer-electronics/
+            - listitem [ref=e637]:
+              - link "Cybersecurity / Identification" [ref=e638] [cursor=pointer]:
+                - /url: /latest/security-identification/
+            - listitem [ref=e639]:
+              - link "Digital Signal Processing" [ref=e640] [cursor=pointer]:
+                - /url: /latest/digital-signal-processing/
+            - listitem [ref=e641]:
+              - link "Industrial Automation" [ref=e642] [cursor=pointer]:
+                - /url: /latest/industrial-automation/
+            - listitem [ref=e643]:
+              - link "IOT" [ref=e644] [cursor=pointer]:
+                - /url: /latest/iot/
+            - listitem [ref=e645]:
+              - link "IT / Networking" [ref=e646] [cursor=pointer]:
+                - /url: /latest/it-networking/
+            - listitem [ref=e647]:
+              - link "Lighting" [ref=e648] [cursor=pointer]:
+                - /url: /latest/lighting/
+            - listitem [ref=e649]:
+              - link "Medical & Fitness" [ref=e650] [cursor=pointer]:
+                - /url: /latest/medical-fitness/
+            - listitem [ref=e651]:
+              - link "Military / Aero / Space" [ref=e652] [cursor=pointer]:
+                - /url: /latest/military-aero-space/
+            - listitem [ref=e653]:
+              - link "Motor Control" [ref=e654] [cursor=pointer]:
+                - /url: /latest/motor-control/
+            - listitem [ref=e655]:
+              - link "Smart Grid / Energy" [ref=e656] [cursor=pointer]:
+                - /url: /latest/smart-grid-energy/
+            - listitem [ref=e657]:
+              - link "Telecom" [ref=e658] [cursor=pointer]:
+                - /url: /latest/telecom/
+        - listitem [ref=e659]:
+          - heading "Content" [level=6] [ref=e660]
+          - list [ref=e661]:
+            - listitem [ref=e662]:
+              - link "Calculators" [ref=e663] [cursor=pointer]:
+                - /url: /tools/
+            - listitem [ref=e664]:
+              - link "Datasheets" [ref=e665] [cursor=pointer]:
+                - /url: http://datasheets.com
+            - listitem [ref=e666]:
+              - link "Giveaways" [ref=e667] [cursor=pointer]:
+                - /url: /giveaways/
+            - listitem [ref=e668]:
+              - link "Industry Articles" [ref=e669] [cursor=pointer]:
+                - /url: /industry-articles/
+            - listitem [ref=e670]:
+              - link "Industry Webinars" [ref=e671] [cursor=pointer]:
+                - /url: /industry-webinars/
+            - listitem [ref=e672]:
+              - link "New Products" [ref=e673] [cursor=pointer]:
+                - /url: /new-industry-products/
+            - listitem [ref=e674]:
+              - link "News" [ref=e675] [cursor=pointer]:
+                - /url: /news/
+            - listitem [ref=e676]:
+              - link "Podcast" [ref=e677] [cursor=pointer]:
+                - /url: /podcast/
+            - listitem [ref=e678]:
+              - link "Projects" [ref=e679] [cursor=pointer]:
+                - /url: /projects/
+            - listitem [ref=e680]:
+              - link "Summit Series" [ref=e681] [cursor=pointer]:
+                - /url: https://events.allaboutcircuits.com/
+            - listitem [ref=e682]:
+              - link "Tech Chats" [ref=e683] [cursor=pointer]:
+                - /url: /tech-chats/
+            - listitem [ref=e684]:
+              - link "Partner Content Hub" [ref=e685] [cursor=pointer]:
+                - /url: /partner-content-hub/
+            - listitem [ref=e686]:
+              - link "Technical Articles" [ref=e687] [cursor=pointer]:
+                - /url: /technical-articles/
+            - listitem [ref=e688]:
+              - link "Textbook" [ref=e689] [cursor=pointer]:
+                - /url: /textbook/
+            - listitem [ref=e690]:
+              - link "Video Lectures" [ref=e691] [cursor=pointer]:
+                - /url: /video-lectures/
+            - listitem [ref=e692]:
+              - link "Worksheets" [ref=e693] [cursor=pointer]:
+                - /url: /worksheets/
+      - generic [ref=e694]:
+        - generic [ref=e695]:
+          - heading "SIGN UP FOR OUR NEWSLETTER" [level=6] [ref=e696]
+          - generic [ref=e697]:
+            - textbox "Enter you email address" [ref=e698]:
+              - /placeholder: Enter your email address
+            - button "Register" [ref=e699] [cursor=pointer]
+        - generic [ref=e700]:
+          - heading "MORE FROM THE EETECH NETWORK" [level=6] [ref=e701]
+          - list [ref=e702]:
+            - listitem [ref=e703]:
+              - link "EETech Group" [ref=e704] [cursor=pointer]:
+                - /url: https://eetech.com/
+            - listitem [ref=e715]
+            - listitem [ref=e716]:
+              - link "Control.com" [ref=e717] [cursor=pointer]:
+                - /url: https://control.com
+            - listitem [ref=e733]:
+              - link "EEPower" [ref=e734] [cursor=pointer]:
+                - /url: https://eepower.com
+            - listitem [ref=e737]:
+              - link "Maker Pro" [ref=e738] [cursor=pointer]:
+                - /url: https://maker.pro
+            - listitem [ref=e741]:
+              - link "Mikrocontroller" [ref=e742] [cursor=pointer]:
+                - /url: https://www.mikrocontroller.net/
+    - generic [ref=e747]:
+      - generic [ref=e748]:
+        - link "© EETech Group, LLC" [ref=e749] [cursor=pointer]:
+          - /url: https://eetech.com
+        - text: . All rights reserved
+      - generic [ref=e750]:
+        - link "Privacy Policy" [ref=e751] [cursor=pointer]:
+          - /url: /privacy-policy/
+        - generic [ref=e752]: ·
+        - link "Terms of Service" [ref=e753] [cursor=pointer]:
+          - /url: https://forum.allaboutcircuits.com/help/terms
+        - generic [ref=e754]: ·
+        - link "User Agreement" [ref=e755] [cursor=pointer]:
+          - /url: /user-agreement/

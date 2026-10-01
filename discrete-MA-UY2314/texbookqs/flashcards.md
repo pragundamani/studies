@@ -1085,6 +1085,7 @@ Who killed Lord Hazelton? There was one cause of death.
 (f) If Sara was in the dining room, then the wine steward killed him.
 ?
 ![[answers/2_3_answers#The cook cannot have been in the kitchen: that would make the butler kill with strychnine, contradicting death by candlestick. Thus the cook was not in the kitchen, so Sara was not in the dining room. The disjunction then puts Lady Hazelton in the dining room. Therefore the **chauffeur** killed Lord Hazelton.]]
+<!--SR:!2026-10-02,3,250-->
 
 ### Question 2.3.41
 Exactly one of these four statements is true. Who killed Sharky?
@@ -1248,6 +1249,7 @@ For all real $x$ and $y$, if $x<y$ then $x^2<y^2$. Give a counterexample.
 Which are equivalent to “all squares are rectangles”? (i) Every square is a rectangle. (ii) Every rectangle is a square. (iii) If a figure is a square, then it is a rectangle.
 ?
 ![[answers/3_1_answers#“All squares are rectangles” matches “every square is a rectangle” and “if a figure is a square, then it is a rectangle.” It does not match “every rectangle is a square.”]]
+<!--SR:!2026-10-03,4,270-->
 
 ### Question 3.1.14
 Which are equivalent to “all integers are rational numbers”? (i) Every integer is a rational number. (ii) Every rational number is an integer. (iii) If a number is an integer, then it is rational.
@@ -1378,7 +1380,7 @@ Rewrite the following statements so that the quantifier trails the rest of the s
 (d) There exists a continuous function $f$ such that $f$ is not differentiable.
 ?
 ![[answers/3_1_answers#(d) $f$ is not differentiable, for some continuous function $f$.]]
-<!--SR:!2026-09-29,0,230-->
+<!--SR:!2026-09-30,1,190-->
 
 ### Question 3.1.22 (a)
 Rewrite each statement in the form “For all $x$, ….” Use “if …, then …” when the English statement is conditional.
@@ -1662,7 +1664,7 @@ Let $D=\{-48,-14,-8,0,1,3,16,23,26,32,36\}$. Determine which of the following st
 (a) $\forall x \in D$, if $x$ is odd then $x>0$.
 ?
 ![[answers/3_2_answers#(a) **True.** The odd members are $1$, $3$, and $23$, and each is positive.]]
-<!--SR:!2026-09-29,0,230-->
+<!--SR:!2026-10-02,3,250-->
 
 ### Question 3.2.15 (b)
 Let $D=\{-48,-14,-8,0,1,3,16,23,26,32,36\}$. Determine which of the following statements are true and which are false. Provide counterexamples for the statements that are false.
@@ -1882,7 +1884,7 @@ Use the facts that the negation of a $\forall$ statement is an $\exists$ stateme
 Having a large income is not a necessary condition for a person to be happy.
 ?
 ![[answers/3_2_answers#There is a happy person who does not have a large income.]]
-<!--SR:!2026-09-29,0,230-->
+<!--SR:!2026-09-30,1,190-->
 
 ### Question 3.2.47
 Use the facts that the negation of a $\forall$ statement is an $\exists$ statement and that the negation of an if-then statement is an and statement to rewrite each of the statements 45, 46, 47, and 48 without using the word necessary or sufficient.

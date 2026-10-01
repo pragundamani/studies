@@ -1,0 +1,49 @@
+- generic [ref=e1]:
+  - generic [ref=e5]:
+    - button "Google apps" [ref=e9] [cursor=pointer]
+    - 'button "Google Account: Pragun Damani (pd2752@nyu.edu)" [ref=e15] [cursor=pointer]'
+  - generic [ref=e95]:
+    - generic [ref=e99]:
+      - link "Gemini Notebook Homepage" [ref=e101] [cursor=pointer]:
+        - /url: /
+        - img "Gemini Notebook Logo" [ref=e103]
+      - textbox [ref=e108]: Untitled notebook
+      - generic [ref=e109]:
+        - generic "Create notebook" [ref=e110]:
+          - button "Create notebook" [ref=e111] [cursor=pointer]:
+            - img [aria-hidden] [ref=e112]: add_2
+        - generic "Share notebook" [ref=e116]:
+          - button "Share notebook" [ref=e119] [cursor=pointer]:
+            - img [aria-hidden] [ref=e120]: share_1
+        - generic "Notebook configuration" [ref=e122]:
+          - button "Notebook configuration" [ref=e123] [cursor=pointer]:
+            - img [aria-hidden] [ref=e124]: more_vert
+        - generic "Settings" [ref=e128]:
+          - button "Settings" [ref=e131] [cursor=pointer]:
+            - img [aria-hidden] [ref=e132]: settings
+    - generic [ref=e136]:
+      - button "Sources" [ref=e138] [cursor=pointer]
+      - button "Chat" [ref=e140] [cursor=pointer]
+      - button "Studio" [ref=e142] [cursor=pointer]
+    - generic [ref=e146]:
+      - generic [ref=e149]:
+        - generic [aria-hidden] [ref=e150]: 👋
+        - heading "Let's start your notebook..." [level=1] [ref=e151]
+        - paragraph [ref=e152]: This is your blank canvas to understand, create, or make progress on something new. I can help you get started or you can go ahead and add your own sources.
+        - paragraph [ref=e153]: What would you like this notebook to help you do?
+        - generic [ref=e154]:
+          - button "Learn about a new topic" [ref=e155]
+          - button "Create something new" [ref=e159]
+          - button "Make progress on a project" [ref=e163]
+      - generic [ref=e168]:
+        - generic [ref=e175]:
+          - textbox "Query box" [ref=e177]:
+            - /placeholder: Ask a question or create something
+          - generic [ref=e178]:
+            - generic [ref=e181]:
+              - img [aria-hidden] [ref=e182]: docs
+              - text: (0)
+            - generic "Submit" [ref=e183]:
+              - button "Submit" [disabled]:
+                - img [aria-hidden]: arrow_upward
+        - generic [ref=e184]: Gemini Notebook can make mistakes, so double-check it.

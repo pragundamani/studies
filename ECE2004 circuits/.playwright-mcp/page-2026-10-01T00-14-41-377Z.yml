@@ -1,0 +1,142 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e5]:
+    - button "Google apps" [ref=e652] [cursor=pointer]
+    - 'button "Google Account: Pragun Damani (pd2752@nyu.edu)" [ref=e653] [cursor=pointer]'
+  - generic [ref=e95]:
+    - generic [ref=e99]:
+      - link "Gemini Notebook Homepage" [ref=e654] [cursor=pointer]:
+        - /url: /
+        - img "Gemini Notebook Logo" [ref=e655]
+      - textbox [ref=e108]: ECE2004 Midterm 1 Practice Quiz
+      - generic [ref=e109]:
+        - generic "Create notebook" [ref=e656]:
+          - button "Create notebook" [ref=e657] [cursor=pointer]:
+            - img [aria-hidden] [ref=e112]: add_2
+        - generic "Share notebook" [ref=e658]:
+          - button "Share notebook" [ref=e659] [cursor=pointer]:
+            - img [aria-hidden] [ref=e120]: share_1
+        - generic "Notebook configuration" [ref=e660]:
+          - button "Notebook configuration" [ref=e661] [cursor=pointer]:
+            - img [aria-hidden] [ref=e124]: more_vert
+        - generic "Settings" [ref=e662]:
+          - button "Settings" [ref=e663] [cursor=pointer]:
+            - img [aria-hidden] [ref=e132]: settings
+    - generic [ref=e136]:
+      - button "Sources" [ref=e664] [cursor=pointer]
+      - button "Chat" [ref=e665] [cursor=pointer]
+      - button "Studio" [ref=e666] [cursor=pointer]
+    - generic [ref=e144]:
+      - text: check_box check_box check_box check_box check_box check_box
+      - generic [ref=e146]:
+        - generic [ref=e147]:
+          - generic [ref=e782] [cursor=pointer]:
+            - button "Customize notebook"
+            - img [aria-hidden]: landscape_2
+            - generic [ref=e783]: 🔌
+            - generic [ref=e784]:
+              - heading "ECE2004 Midterm 1 Practice Quiz" [level=2] [ref=e785]
+              - generic [ref=e786]:
+                - generic [ref=e787]: 5 sources
+                - generic [ref=e788]: ·
+                - generic "Wed Sep 30 2026 20:09:05 GMT-0400 (Eastern Daylight Time)" [ref=e789]: Sep 30, 2026
+          - generic [ref=e790]:
+            - paragraph [ref=e793]:
+              - text: The provided documents consist of
+              - strong [ref=e794]: homework assignments
+              - text: for an electrical and computer engineering course focusing on foundational electrical concepts. Students are asked to solve problems related to
+              - strong [ref=e795]: Ohm’s law
+              - text: ", electrical"
+              - strong [ref=e796]: power
+              - text: ", and energy conversion efficiency using both experimental data and theoretical circuits. The exercises require plotting measurements in spreadsheets, analyzing independent power sources, and deriving principles such as the"
+              - strong [ref=e797]: voltage divider equation
+              - text: . Additionally, practical scenarios involving
+              - strong [ref=e798]: resistors
+              - text: ", heaters, and solar panels are utilized to test analytical skills in circuit evaluation."
+            - generic [ref=e799]:
+              - generic "Save to note" [ref=e800]:
+                - button "Save to note" [ref=e801] [cursor=pointer]:
+                  - img [aria-hidden] [ref=e802]: keep_pin
+              - generic "Copy summary" [ref=e804]:
+                - button "Copy summary" [ref=e805] [cursor=pointer]:
+                  - img [aria-hidden] [ref=e806]: copy
+              - generic "Good summary" [ref=e808]:
+                - button "Good summary" [ref=e809] [cursor=pointer]:
+                  - img [aria-hidden] [ref=e810]: thumb_up
+              - generic "Bad summary" [ref=e812]:
+                - button "Bad summary" [ref=e813] [cursor=pointer]:
+                  - img [aria-hidden] [ref=e814]: thumb_down
+          - generic [ref=e828]: Today • 8:14 PM
+          - generic [ref=e829]:
+            - heading [level=3] [ref=e835]:
+              - paragraph [ref=e836]: Create an ECE2004 practice quiz from these sources. Ask me one question at a time and wait for my answer before grading it. Make 15 questions total, mixing calculation and conceptual questions. Cover Ohm's law, power and energy/efficiency, series and parallel resistors, voltage and current dividers, KCL, KVL, source power delivered versus absorbed, and identifying nodes and loops. Use values comparable to the homework and sample midterm. Start with Question 1 only. Do not reveal the answer until I answer.
+            - generic [ref=e839]:
+              - generic [ref=e843]:
+                - button "Thoughts" [ref=e872] [cursor=pointer]:
+                  - img [aria-hidden] [ref=e867]: expand_more
+                - generic [ref=e875]: Welcome to your 15-question ECE2004 Practice Quiz! We will go through the quiz one question at a time, covering Ohm's law, power, energy, efficiency, series/parallel combinations, voltage and current dividers, KCL, KVL, source power delivered versus absorbed, and identifying nodes and loops.
+                - separator [ref=e879]
+                - heading "Question 1 of 15 (Ohm's Law & Power Absorption)" [level=3] [ref=e882]
+                - generic [ref=e885]:
+                  - text: An electric heater is connected to a
+                  - generic [ref=e890]:
+                    - text: "120"
+                    - generic [ref=e891]: V
+                  - text: DC source and draws a current of
+                  - generic [ref=e896]:
+                    - text: "10"
+                    - generic [ref=e897]: A
+                  - 'button "1: ECE2004 Homework 2 Rev C2.pdf" [ref=e899] [cursor=pointer]':
+                    - 'generic "1: ECE2004 Homework 2 Rev C2.pdf" [ref=e900]': "1"
+                  - text: . Under DC circuit definitions, resistors only absorb power
+                  - 'button "2: ECE2004_20Midterm_20Exam_201_20SAMPLE_20with_20Solutions_20Fall_202026.pdf" [ref=e902] [cursor=pointer]':
+                    - 'generic "2: ECE2004_20Midterm_20Exam_201_20SAMPLE_20with_20Solutions_20Fall_202026.pdf" [ref=e903]': "2"
+                  - text: .
+                - list [ref=e904]:
+                  - listitem [ref=e907]:
+                    - text: Calculate the resistance
+                    - generic [ref=e908]: R
+                    - text: of the heater in ohms (
+                    - generic [ref=e913]: Ω
+                    - text: )
+                    - 'button "2: ECE2004_20Midterm_20Exam_201_20SAMPLE_20with_20Solutions_20Fall_202026.pdf" [ref=e919] [cursor=pointer]':
+                      - 'generic "2: ECE2004_20Midterm_20Exam_201_20SAMPLE_20with_20Solutions_20Fall_202026.pdf" [ref=e920]': "2"
+                    - text: .
+                  - listitem [ref=e923]:
+                    - text: Calculate the total power
+                    - generic [ref=e924]: P
+                    - text: absorbed by the heater in watts (
+                    - generic [ref=e929]: W
+                    - text: )
+                    - 'button "2: ECE2004_20Midterm_20Exam_201_20SAMPLE_20with_20Solutions_20Fall_202026.pdf" [ref=e936] [cursor=pointer]':
+                      - 'generic "2: ECE2004_20Midterm_20Exam_201_20SAMPLE_20with_20Solutions_20Fall_202026.pdf" [ref=e937]': "2"
+                    - text: .
+                - separator [ref=e939]
+                - generic [ref=e940]: Reply with your answers for both parts when you are ready, and I will grade your response before moving on to Question 2!
+                - generic [ref=e943]: 💡 Take your time working through the units, and let me know if you need any clarification on the circuit configuration.
+              - generic [ref=e946]:
+                - generic "Save message to a note" [ref=e947]:
+                  - button "Save message to a note" [ref=e948] [cursor=pointer]:
+                    - img [aria-hidden] [ref=e949]: keep_pin
+                - generic [ref=e951]:
+                  - generic "Copy model response to clipboard" [ref=e954]:
+                    - button "Copy model response to clipboard" [ref=e955] [cursor=pointer]:
+                      - img [aria-hidden] [ref=e956]: copy
+                  - generic "Rate response as good" [ref=e960]:
+                    - button "Rate response as good" [ref=e961] [cursor=pointer]:
+                      - img [aria-hidden] [ref=e962]: thumb_up
+                  - generic "Rate response as bad" [ref=e966]:
+                    - button "Rate response as bad" [ref=e967] [cursor=pointer]:
+                      - img [aria-hidden] [ref=e968]: thumb_down
+        - generic [ref=e168]:
+          - generic [ref=e175]:
+            - textbox "Query box" [ref=e177]:
+              - /placeholder: Ask a question or create something
+            - generic [ref=e178]:
+              - generic [ref=e181]:
+                - img [aria-hidden] [ref=e182]: docs
+                - text: (5)
+              - generic "Submit" [ref=e970]:
+                - button "Submit" [disabled]:
+                  - img [aria-hidden]: arrow_upward
+          - generic [ref=e184]: Gemini Notebook can make mistakes, so double-check it.
+  - generic [ref=e94]: Reply ready.

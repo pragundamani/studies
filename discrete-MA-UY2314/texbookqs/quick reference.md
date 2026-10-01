@@ -70,17 +70,17 @@ The converse and the inverse are equivalent to each other.
 
 An argument is **valid** when the conclusion is true in every row where all the premises are true. A valid argument can have a false conclusion if a premise is false. An invalid argument can have a true conclusion.
 
-| Name | Form |
-| --- | --- |
-| Modus ponens | $p\to q,\; p,\;\therefore q$ |
-| Modus tollens | $p\to q,\;\neg q,\;\therefore\neg p$ |
-| Generalization | $p,\;\therefore p\lor q$ |
-| Specialization | $p\land q,\;\therefore p$ |
-| Elimination | $p\lor q,\;\neg q,\;\therefore p$ |
-| Transitivity | $p\to q,\; q\to r,\;\therefore p\to r$ |
+| Name                | Form                                         |
+| ------------------- | -------------------------------------------- |
+| Modus ponens        | $p\to q,\; p,\;\therefore q$                 |
+| Modus tollens       | $p\to q,\;\neg q,\;\therefore\neg p$         |
+| Generalization      | $p,\;\therefore p\lor q$                     |
+| Specialization      | $p\land q,\;\therefore p$                    |
+| Elimination         | $p\lor q,\;\neg q,\;\therefore p$            |
+| Transitivity        | $p\to q,\; q\to r,\;\therefore p\to r$       |
 | Division into cases | $p\lor q,\; p\to r,\; q\to r,\;\therefore r$ |
-| Conjunction | $p,\; q,\;\therefore p\land q$ |
-| Contradiction | $\neg p\to\mathbf{c},\;\therefore p$ |
+| Conjunction         | $p,\; q,\;\therefore p\land q$               |
+| Contradiction       | $\neg p\to\mathbf{c},\;\therefore p$         |
 
 **Converse error:** from $p\to q$ and $q$, concluding $p$. **Inverse error:** from $p\to q$ and $\neg p$, concluding $\neg q$.
 

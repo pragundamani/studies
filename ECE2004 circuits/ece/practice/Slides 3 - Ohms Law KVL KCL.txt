@@ -1,0 +1,891 @@
+ECE2004: Fundamentals of Circuits
+Slide Set #3: Ohm’s Law, KVL, KCL
+Michael Knox
+
+1
+
+Outline
+• Ohm’s Law
+• Parallel and Series Components
+• Kirchhoff’s Law
+• Ground
+• Terminology of Short and Open Circuit
+
+2
+
+Property of Resistance
+• Certain materials impede the flow of current
+• Electrons collide with other electrons, ions, impurities
+
+I
+
++
+
+V
+
+-
+
+A voltage difference V across the material drives
+a current I through it
+
+3
+
+Ohm’s Law
+Slope = 0.5 Ω-1.
+
+8 𝑉𝑉
+R=
+= 2 ohm = 2 Ω
+4 𝐴𝐴
+4 𝑉𝑉
+R=
+= 2 ohm = 2 Ω
+2 𝐴𝐴
+
+𝑉𝑉 = 𝐼𝐼R
+𝑉𝑉
+R=
+𝐼𝐼
+𝑉𝑉
+𝐼𝐼 =
+R
+
+4
+
+Ohm’s Law
+
+R units of Ω
+
+I
+𝑉𝑉 = 𝐼𝐼R
+
++
+
+V
+
+-
+
+• Current flows in direction of voltage drop
+• Resistors only dissipate power
+5
+
+Resistor Connected to Battery
++
+
+5V
+
+-
+
+Illustration
+
+Schematic
+
+I
+
+I
+100 Ω
+
+𝑉𝑉
+5𝑉𝑉
+= 50 𝑚𝑚𝑚𝑚
+𝐼𝐼 = =
+R 100Ω
+
+6
+
+Conductance (G)
+
+Units:
+
+1
+𝐼𝐼
+G= =
+𝑅𝑅
+𝑉𝑉
+
+Siemens = mho = Ω−1
+
+Slope = 0.5 Ω-1.
+
+8 𝑉𝑉
+R=
+=2Ω
+4 𝐴𝐴
+4 𝐴𝐴
+G=
+= 0.5 Ω−1 = slope
+8 𝑉𝑉
+
+7
+
+Resistors Absorb and Dissipate Power
+R units of Ω
+
+I
+𝑉𝑉 = 𝐼𝐼R
+
++
+
+V
+
+-
+
+2
+𝑉𝑉
+𝑃𝑃 𝑤𝑤𝑤𝑤𝑤𝑤𝑤𝑤𝑤𝑤 = 𝑉𝑉𝑉𝑉 = 𝐼𝐼𝐼𝐼 𝐼𝐼 = 𝐼𝐼 2 𝑅𝑅 =
+𝑅𝑅
+
+• Positive power means the resistor is absorbing energy
+• Power is always positive for a resistor (current enters + terminal)
+8
+
+Resistors Absorb Power
+Schematic
+
+I
+
+𝑉𝑉
+5𝑉𝑉
+= 50 𝑚𝑚𝑚𝑚
+𝐼𝐼 = =
+R 100Ω
+
+𝑃𝑃 = VI = 5𝑉𝑉 50 𝑚𝑚𝑚𝑚
+𝑃𝑃 = 0.25 W = 250 mW
+Purchase resistors with
+• Ohm value
+• % Tolerance
+• Power rating (maximum)
+
+9
+
+Resistor Datasheet
+
+Datasheet Specs
+• 51 Ω value
+• ¼ W power rating
+• 5 % tolerance
+Tolerance:
+51 Ω with 5% tolerance
+
+Vendor Part Number: CF1/4CT52R510J
+Digikey Part Number: 2019CF1/4CT52R510JCT-ND - Cut Tape (CT)
+
+51 Ω ± 0.05∗(51 Ω)
+51 Ω ± 2.55 Ω
+
+48.45 Ω ≤ range ≤ 53.55 Ω
+
+Power:
+Operate below rating, ¼ W here
+10
+
+Parallel and Series Connections
+
+11
+
+Review Independent Sources
+DC Voltage
+
+V
+
+V
+
+DC Current
+
+I
+
+(Battery)
+12
+
+Equivalent Sources – Series Connected
+Series-Connected Voltage Sources
+
+Equivalent Circuit
+
+5V
+6V
+
+=
+
+2V
+
+3V
+13
+
+Equivalent Sources – Series Connected
+Series-Connected Voltage Sources
+
+Series-Connected Current Sources
+Equivalent Circuit
+
+Equivalent Circuit
+
+5V
+6V
+
+=
+
+2V
+
+3V
+Series Connected Current Sources must
+have same value and direction
+
+14
+
+Equivalent Sources – Parallel Connected
+Parallel-Connected Current Sources
+Equivalent
+Circuit
+
+2A
+
+7A
+
+1A
+
+= 4A
+15
+
+Equivalent Sources – Parallel Connected
+Parallel-Connected Current Sources
+
+Parallel-Connected Voltage Sources
+
+Equivalent
+Circuit
+
+Equivalent
+Circuit
+
+2A
+
+7A
+
+1A
+
+=
+
+= 4A
+Parallel Connected Voltage Sources
+must have same value and polarity
+
+16
+
+Parallel Components
+Can be arranged in any order
+
+17
+
+Parallel Components
+Can be arranged in any order
+
+18
+
+Parallel Components
+Can be arranged in any order
+
+Equivalent Circuit
+
+19
+
+Which is Correct?
+
+20
+
+Outline
+• Ohm’s Law
+• Parallel and Series Components
+• Kirchhoff’s Law
+• Ground
+• Terminology of Short and Open Circuit
+
+21
+
+Kirchhoff’s Current Law (KCL)
+Kirchhoff’s Voltage Law (KVL)
+
+22
+
+Kirchhoff’s Current Law (KCL)
+
+Into Node
+
+Current Law
+(KCL)
+
+� 𝐼𝐼𝑛𝑛 = 0
+
+𝑛𝑛=1,2,…
+
+iA + iB + (−iC) + (−iD) = 0
+Assign “in” direction as positive
+
+23
+
+Kirchhoff’s Current Law (KCL)
+
+Into Node
+
+Current Law
+(KCL)
+
+� 𝐼𝐼𝑛𝑛 = 0
+
+𝑛𝑛=1,2,…
+
+iA + iB + (−iC) + (−iD) = 0
+i A + i B = iC + i D
+IN
+In
+
+OUT
+Out
+
+� 𝐼𝐼𝑛𝑛 = � 𝐼𝐼𝑚𝑚
+
+𝑛𝑛=1,2,…
+
+𝑚𝑚=1,2,…
+
+24
+
+KCL Summary
+Into Node
+
+Out of Node
+
+� 𝐼𝐼𝑛𝑛 = 0
+
+𝑛𝑛=1,…
+
+� 𝐼𝐼𝑛𝑛 = 0
+
+In
+
+Out
+
+𝑛𝑛=1,…
+
+� 𝐼𝐼𝑛𝑛 =� 𝐼𝐼𝑚𝑚
+
+𝑛𝑛=1,…
+
+𝑚𝑚=1,…
+
+25
+
+KCL Summary
+Into Node
+
+Out of Node
+
+� 𝐼𝐼𝑛𝑛 = 0
+
+𝑛𝑛=1,…
+
+� 𝐼𝐼𝑛𝑛 = 0
+
+(most useful in Nodal Analysis)
+
+In
+
+Out
+
+𝑛𝑛=1,…
+
+� 𝐼𝐼𝑛𝑛 =� 𝐼𝐼𝑚𝑚
+
+𝑛𝑛=1,…
+
+𝑚𝑚=1,…
+
+(most intuitive)
+
+26
+
+Voltage Rise or Voltage Drop?
+Voltage Rise
+
+Voltage Drop
+
+I
+10V
+
+I
+Increase in
+potential
+
+Voltage Rise = +10 V
+
+10V
+
+Increase in
+potential
+
+Voltage Drop = -10 V
+(drop assumes a decrease in potential)
+27
+
+Voltage Rise or Voltage Drop?
+Voltage Rise
+
+Voltage Drop
+
+I
+10V
+
+I
+Increase in
+potential
+
+Voltage Rise = +10 V
+
+10V
+
+Increase in
+potential
+
+Easy to identify the drop by
+the polarity first encountered
+
+Voltage Drop = -10 V
+(drop assumes a decrease in potential)
+
+28
+
+Voltage Rise or Voltage Drop?
+Voltage Rise
+
+Voltage Drop
+
+I
+10V
+
+I
+Decrease in
+potential
+
+Voltage Rise = -10 V
+
+10V
+
+Decrease in
+potential
+
+Voltage Drop = +10 V
+(drop assumes a decrease in potential)
+29
+
+Voltage Rise or Voltage Drop?
+Voltage Rise
+
+Voltage Drop
+
+I
+10V
+
+Easy to identify the drop by
+the polarity first encountered
+
+I
+
+Decrease in
+potential
+
+10V
+
+Decrease in
+potential
+
+Voltage Rise = -10 V
+Voltage Drop = +10 V
+(drop assumes a decrease in potential)
+
+30
+
+Voltage Rise or Voltage Drop?
+Voltage Rise
+
+Voltage Drop
+
+I
+
+I
+
+V
+
+Decrease in
+potential
+(Ohm’s Law)
+
+Voltage Rise = -10 V
+
+V
+
+Decrease in
+potential
+(Ohm’s Law)
+
+Voltage Drop = +10 V
+(resistors always have a drop in the
+direction of current)
+31
+
+Voltage Rise or Voltage Drop?
+Voltage Rise
+
+Voltage Drop
+
+I
+
+I
+
+V
+
+Decrease in
+potential
+
+Voltage Rise = -10 V
+
+V
+
+Decrease in
+potential
+
+Voltage Drop = +10 V
+(resistors always have a drop in the
+direction of current)
+32
+
+Kirchhoff’s Voltage Law (KVL)
+Around loop
+
+� 𝑉𝑉𝑖𝑖 = 0
+
+𝑖𝑖=1,…
+
+33
+
+Kirchhoff’s Voltage Law (KVL)
+Around loop
+
+� 𝑉𝑉𝑖𝑖 = 0
+
+𝑖𝑖=1,…
+
+Which will you add?
+Around loop
+
+� 𝑉𝑉𝑖𝑖, 𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟 = 0
+
+𝑖𝑖=1,…
+
+Around loop
+
+� 𝑉𝑉𝑖𝑖, 𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑 = 0
+
+𝑖𝑖=1,…
+
+34
+
+Kirchhoff’s Voltage Law (KVL)
+Around loop
+
+� 𝑉𝑉𝑖𝑖 = 0
+
+𝑖𝑖=1,…
+
+Which will you add?
+Around loop
+
+� 𝑉𝑉𝑖𝑖, 𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟 = 0
+
+𝑖𝑖=1,…
+
+Around loop
+
+� 𝑉𝑉𝑖𝑖, 𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑 = 0
+
+𝑖𝑖=1,…
+
+(Less Effort)
+
+35
+
+KVL Example
+6Ω
+
+10V
+
+5Ω
+
+Assume direction for I
+(follow loop in this direction)
+
+3Ω
+
+I
+Up
+
+� 𝑉𝑉𝑖𝑖, 𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟 = 0
+
+𝑖𝑖=1,…
+
++10 V - I (6 Ω) - I (5 Ω) - I (3 Ω) = 0
+−10𝑉𝑉
+10𝑉𝑉
+= 714𝑚𝑚𝑚𝑚
+𝐼𝐼 =
+=
+− 6Ω + 5Ω + 3Ω
+14Ω
+
+36
+
+KVL Example
+6Ω
+
+10V
+
+5Ω
+3Ω
+
+I
+
+� 𝑉𝑉𝑖𝑖, 𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟 = 0
+
+𝑖𝑖=1,…
+
+Assume direction for I
+
+6Ω
+
+(follow loop in this direction)
+
+10V
+
+I
+
+5Ω
+3Ω
+
+� 𝑉𝑉𝑖𝑖, 𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑 = 0
+
+𝑖𝑖=1,…
+
++10 V - I (6 Ω) - I (5 Ω) - I (3 Ω) = 0
+
+-10 V + I (6 Ω) + I (5 Ω) + I (3 Ω) = 0
+
+−10𝑉𝑉
+10𝑉𝑉
+= 714𝑚𝑚𝑚𝑚
+𝐼𝐼 =
+=
+− 6Ω + 5Ω + 3Ω
+14Ω
+
++10𝑉𝑉
+10𝑉𝑉
+= 714𝑚𝑚𝑚𝑚
+𝐼𝐼 =
+=
+14Ω
+6Ω + 5Ω + 3Ω
+
+37
+
+KVL Example
+6Ω
+
+10V
+
+5Ω
+
+Assume direction for I
+(follow loop in this direction)
+
+3Ω
+
+I
+Down
+
+� 𝑉𝑉𝑖𝑖, 𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟 = 0
+
+𝑖𝑖=1,…
+
+-10 V - I (6 Ω) - I (5 Ω) - I (3 Ω) = 0
++10𝑉𝑉
++10𝑉𝑉
+= −714𝑚𝑚𝑚𝑚
+𝐼𝐼 =
+=
+− 6Ω + 5Ω + 3Ω
+−14Ω
+
+38
+
+KVL Example
+6Ω
+
+10V
+
+5Ω
+
+Assume direction for I
+
+3Ω
+
+I
+
+6Ω
+
+(follow loop in this direction)
+
+� 𝑉𝑉𝑖𝑖, 𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟𝑟 = 0
+
+𝑖𝑖=1,…
+
+10V
+
+I
+
+5Ω
+3Ω
+
+� 𝑉𝑉𝑖𝑖, 𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑𝑑 = 0
+
+𝑖𝑖=1,…
+
+-10 V - I (6 Ω) - I (5 Ω) - I (3 Ω) = 0
+
++10 V + I (6 Ω) + I (5 Ω) + I (3 Ω) = 0
+
++10𝑉𝑉
++10𝑉𝑉
+= −714𝑚𝑚𝑚𝑚
+𝐼𝐼 =
+=
+− 6Ω + 5Ω + 3Ω
+−14Ω
+
+−10𝑉𝑉
+−10𝑉𝑉
+= −714𝑚𝑚𝑚𝑚
+𝐼𝐼 =
+=
+14Ω
+6Ω + 5Ω + 3Ω
+
+39
+
+Circuits Toolbox
+
+KCL:
+
+KVL:
+
+Ohm’s Law:
+I
+
++
+
+V
+V = IR
+
+-
+
+i1+i2 = i3 +i4
+
+� 𝑣𝑣𝑖𝑖 = 0
+
+𝑙𝑙𝑙𝑙𝑙𝑙𝑙𝑙
+
+Current Divider:
+
+Voltage Divider:
+v1 = vS
+
+� 𝑖𝑖𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒𝑒 = � 𝑖𝑖𝑙𝑙𝑙𝑙𝑙𝑙𝑙𝑙𝑙𝑙𝑙𝑙𝑙𝑙
+
+R1
+R1 + R2
+
+R2
+v2 = vS
+R1 + R2
+
+-v1+v2+v3 = 0
+i1 = iS
+
+R2
+R1 + R2
+
+i2 = iS
+
+R1
+R1 + R2
+
+As circuits get more
+complicated, we
+need an organized
+method of applying
+Ohm’s, KCL and KVL
+
+40
+
+Electrical Symbols: Ground
+Earth
+Ground
+
+Common
+Ground
+
+Chassis or
+Frame
+
+Used most often
+as “ground”
+(0 V reference)
+41
+
+Terminology: Open and Short Circuits
+I=0
+circuit
+
+A
+
++
+V
+
+-
+
+B
+
+I
+A
+circuit
+
+B
+
++
+
+-
+
+V=0
+
+• An open circuit between A and B means i=0
+
+OPEN
+
+• Voltage across an open circuit: any value
+• An open circuit is equivalent to R = ∞ Ω
+
+• A short circuit between A and B means v=0
+SHORT • Current through a short circuit: any value
+• A short circuit is equivalent to R = 0 Ω
+42
+
+

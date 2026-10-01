@@ -1,0 +1,52 @@
+- generic [ref=e1]:
+  - generic [ref=e5]:
+    - button "Google apps" [ref=e9] [cursor=pointer]
+    - 'button "Google Account: Pragun Damani (pd2752@nyu.edu)" [ref=e15] [cursor=pointer]'
+  - generic [ref=e20]:
+    - generic [ref=e22]:
+      - link "Gemini Notebook Homepage" [ref=e24] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e26]:
+          - img "Gemini Notebook Logo" [ref=e28]
+          - generic [ref=e29]: Gemini Notebook
+      - button "All" [ref=e32]:
+        - generic [ref=e34]:
+          - img [aria-hidden] [ref=e35]: arrow_drop_down
+          - generic [ref=e36]: All
+      - generic [ref=e38]:
+        - button "Search notebooks" [ref=e41]:
+          - generic [ref=e43]:
+            - img [aria-hidden] [ref=e44]: search
+            - generic [ref=e45]: Search notebooks
+        - group [ref=e47]:
+          - generic [ref=e48]:
+            - generic "Grid view" [ref=e49]:
+              - button "Grid view" [ref=e50] [cursor=pointer]:
+                - img [aria-hidden] [ref=e52]: grid_view
+            - generic "List view" [ref=e53]:
+              - button "List view" [ref=e54] [cursor=pointer]:
+                - img [aria-hidden] [ref=e56]: view_headline
+        - generic "Settings" [ref=e59]:
+          - button "Settings" [ref=e62] [cursor=pointer]:
+            - img [aria-hidden] [ref=e63]: settings
+    - generic [ref=e67]:
+      - generic [ref=e68]:
+        - heading "Recent notebooks" [level=2] [ref=e69]
+        - generic "New notebook" [ref=e71]:
+          - button "New notebook" [ref=e72]:
+            - generic [ref=e74]:
+              - img [aria-hidden] [ref=e75]: add_2
+              - generic [ref=e76]: New notebook
+      - generic [ref=e81] [cursor=pointer]:
+        - 'link "Calculus II Exam Review: Derivatives and Integration Methods 📐" [ref=e82]':
+          - /url: /notebook/965c4d1e-c634-4199-a7af-a028f4cb516b
+        - generic [ref=e83]:
+          - generic [ref=e84]:
+            - generic [aria-hidden]: 📐
+          - generic "Project Actions Menu" [ref=e86]:
+            - button "Project Actions Menu" [ref=e87]:
+              - img [aria-hidden] [ref=e88]: more_vert
+        - generic [ref=e90]: "Calculus II Exam Review: Derivatives and Integration Methods"
+        - generic [ref=e92]:
+          - text: Feb 25, 2026·
+          - generic [ref=e93]: 5 sources

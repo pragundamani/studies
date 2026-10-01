@@ -1,0 +1,60 @@
+- generic [ref=e1]:
+  - generic [ref=e5]:
+    - button "Google apps" [ref=e9] [cursor=pointer]
+    - 'button "Google Account: Pragun Damani (pd2752@nyu.edu)" [ref=e15] [cursor=pointer]'
+  - generic [ref=e95]:
+    - generic [ref=e99]:
+      - link "Gemini Notebook Homepage" [ref=e101] [cursor=pointer]:
+        - /url: /
+        - img "Gemini Notebook Logo" [ref=e103]
+      - textbox [ref=e108]: ECE2004 Midterm 1 Practice Quiz
+      - generic [ref=e109]:
+        - generic "Create notebook" [ref=e110]:
+          - button "Create notebook" [ref=e111] [cursor=pointer]:
+            - img [aria-hidden] [ref=e112]: add_2
+        - generic "Share notebook" [ref=e116]:
+          - button "Share notebook" [ref=e119] [cursor=pointer]:
+            - img [aria-hidden] [ref=e120]: share_1
+        - generic "Notebook configuration" [ref=e122]:
+          - button "Notebook configuration" [ref=e123] [cursor=pointer]:
+            - img [aria-hidden] [ref=e124]: more_vert
+        - generic "Settings" [ref=e128]:
+          - button "Settings" [ref=e131] [cursor=pointer]:
+            - img [aria-hidden] [ref=e132]: settings
+    - generic [ref=e136]:
+      - button "Sources" [active] [ref=e138] [cursor=pointer]
+      - button "Chat" [ref=e140] [cursor=pointer]
+      - button "Studio" [ref=e142] [cursor=pointer]
+    - generic [ref=e188]:
+      - generic [ref=e189]:
+        - generic "Add source" [ref=e191]:
+          - button "Add source" [ref=e192]:
+            - generic [ref=e194]:
+              - img [aria-hidden] [ref=e195]: add_2
+              - generic [ref=e196]: Add sources
+        - generic [ref=e201]:
+          - textbox "Discover sources based on the inputted query" [ref=e207]:
+            - /placeholder: Search the web for new sources
+          - generic [ref=e208]:
+            - generic [ref=e209]:
+              - button "Web" [ref=e213]:
+                - generic [ref=e217]:
+                  - generic [ref=e218]:
+                    - img [aria-hidden] [ref=e219]: language
+                    - generic [ref=e220]: Web
+                  - img [aria-hidden] [ref=e221]: keyboard_arrow_down
+              - button "Fast Research" [ref=e226]:
+                - generic [ref=e230]:
+                  - generic [ref=e231]:
+                    - img [aria-hidden] [ref=e232]: search_spark
+                    - generic [ref=e233]: Fast Research
+                  - img [aria-hidden] [ref=e234]: keyboard_arrow_down
+            - generic "Submit" [ref=e237]:
+              - button "Submit" [disabled]:
+                - img [aria-hidden]: arrow_forward
+      - generic [ref=e241]:
+        - img [aria-hidden] [ref=e242]: docs
+        - generic [ref=e243]: Saved sources will appear here
+        - generic [ref=e244]:
+          - text: Add files, websites, or more. Then ask questions or create things based on these sources.
+          - button "Add a source" [ref=e245] [cursor=pointer]

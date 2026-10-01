@@ -1,0 +1,101 @@
+- generic [ref=e1]:
+  - generic [ref=e5]:
+    - button [ref=e383] [cursor=pointer]
+    - button [ref=e384] [cursor=pointer]
+  - generic [ref=e95]:
+    - generic [ref=e99]:
+      - link [ref=e385] [cursor=pointer]:
+        - /url: /
+      - textbox [ref=e108]: ECE2004 Midterm 1 Practice Quiz
+      - generic [ref=e109]:
+        - button [ref=e388] [cursor=pointer]:
+          - img [aria-hidden] [ref=e112]: add_2
+        - button [ref=e390] [cursor=pointer]:
+          - img [aria-hidden] [ref=e120]: share_1
+        - button [ref=e392] [cursor=pointer]:
+          - img [aria-hidden] [ref=e124]: more_vert
+        - button [ref=e394] [cursor=pointer]:
+          - img [aria-hidden] [ref=e132]: settings
+    - generic [ref=e136]:
+      - button [ref=e395] [cursor=pointer]:
+        - generic [ref=e139]: Sources
+      - button [ref=e396] [cursor=pointer]:
+        - generic [ref=e141]: Chat
+      - button [ref=e397] [cursor=pointer]:
+        - generic [ref=e143]: Studio
+    - generic [ref=e188]:
+      - generic [ref=e189]:
+        - button [ref=e399]:
+          - generic [ref=e194]:
+            - img [aria-hidden] [ref=e195]: add_2
+            - generic [ref=e196]: Add sources
+        - generic [ref=e201]:
+          - textbox [ref=e400]:
+            - /placeholder: Search the web for new sources
+          - generic [ref=e208]:
+            - generic [ref=e209]:
+              - button [ref=e401]:
+                - generic [ref=e217]:
+                  - generic [ref=e218]:
+                    - img [aria-hidden] [ref=e219]: language
+                    - generic [ref=e220]: Web
+                  - img [aria-hidden] [ref=e221]: keyboard_arrow_down
+              - button [ref=e402]:
+                - generic [ref=e230]:
+                  - generic [ref=e231]:
+                    - img [aria-hidden] [ref=e232]: search_spark
+                    - generic [ref=e233]: Fast Research
+                  - img [aria-hidden] [ref=e234]: keyboard_arrow_down
+            - generic [ref=e403]:
+              - button [disabled]:
+                - img [aria-hidden]: arrow_forward
+      - generic [ref=e241]:
+        - img [aria-hidden] [ref=e242]: docs
+        - generic [ref=e243]: Saved sources will appear here
+        - generic [ref=e244]:
+          - text: Add files, websites, or more. Then ask questions or create things based on these sources.
+          - button [ref=e404] [cursor=pointer]: Add a source
+  - dialog [ref=e408]:
+    - generic [ref=e412]:
+      - heading "Create Audio and Video Overviews from your documents" [level=1] [ref=e414]:
+        - text: Create Audio and Video Overviews from
+        - generic [aria-hidden] [ref=e415]: your documents
+        - generic [ref=e416]: your documents
+      - generic [ref=e417]:
+        - generic [ref=e421]:
+          - textbox "Discover sources based on the inputted query" [active] [ref=e427]:
+            - /placeholder: Search the web for new sources
+          - generic [ref=e428]:
+            - generic [ref=e429]:
+              - button "Web" [ref=e433]:
+                - generic [ref=e437]:
+                  - generic [ref=e438]:
+                    - img [aria-hidden] [ref=e439]: language
+                    - generic [ref=e440]: Web
+                  - img [aria-hidden] [ref=e441]: keyboard_arrow_down
+              - button "Fast Research" [ref=e446]:
+                - generic [ref=e450]:
+                  - generic [ref=e451]:
+                    - img [aria-hidden] [ref=e452]: search_spark
+                    - generic [ref=e453]: Fast Research
+                  - img [aria-hidden] [ref=e454]: keyboard_arrow_down
+            - generic "Submit" [ref=e457]:
+              - button "Submit" [disabled]:
+                - img [aria-hidden]: arrow_forward
+        - generic [ref=e459]:
+          - button "Upload files" [ref=e460]:
+            - img [aria-hidden] [ref=e461]: upload
+          - button "Websites" [ref=e465]:
+            - img [aria-hidden] [ref=e466]: link_2
+            - img [aria-hidden] [ref=e467]: video_youtube
+          - button "Google Play Books" [ref=e471]:
+            - generic [ref=e472]: Books
+          - button "Drive" [ref=e478]:
+            - img [aria-hidden] [ref=e479]: drive
+          - button "Copied text" [ref=e483]:
+            - img [aria-hidden] [ref=e484]: content_paste
+        - generic [ref=e490]:
+          - img [aria-hidden] [ref=e491]: upload
+          - generic [ref=e492]: "Drag & drop your files to upload. Supported file types: pdf, images, docs, audio, and more."
+      - button "Close" [ref=e493] [cursor=pointer]:
+        - img [aria-hidden] [ref=e494]: close

@@ -1,0 +1,691 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - button "Menu" [ref=e5] [cursor=pointer]
+      - link [ref=e9] [cursor=pointer]:
+        - /url: https://www.allaboutcircuits.com
+        - img "All About Circuits" [ref=e10]
+      - generic [ref=e11]:
+        - button "Search" [ref=e12] [cursor=pointer]
+        - list [ref=e16]:
+          - listitem
+          - listitem [ref=e17]:
+            - generic [ref=e18]:
+              - generic [ref=e19]:
+                - paragraph [ref=e20]: Join the Community
+                - link [ref=e21] [cursor=pointer]:
+                  - /url: "#"
+              - separator [ref=e24]
+              - generic [ref=e25]:
+                - link "Register" [ref=e26] [cursor=pointer]:
+                  - /url: https://forum.allaboutcircuits.com/register/
+                - link "Log In" [ref=e27] [cursor=pointer]:
+                  - /url: https://forum.allaboutcircuits.com/login/?redirect=https://www.allaboutcircuits.com/textbook/direct-current/chpt-6/kirchhoffs-current-law-kcl/
+              - generic [ref=e28]:
+                - separator [ref=e29]
+                - generic [ref=e30]: Or sign in with
+                - separator [ref=e31]
+              - list [ref=e32]:
+                - listitem [ref=e33]:
+                  - link "Facebook" [ref=e34] [cursor=pointer]:
+                    - /url: https://forum.allaboutcircuits.com/register/connected-accounts/facebook/?setup=1
+                    - img "Facebook" [ref=e35]
+                    - text: Facebook
+                - listitem [ref=e36]:
+                  - link "Google" [ref=e37] [cursor=pointer]:
+                    - /url: https://forum.allaboutcircuits.com/register/connected-accounts/google/?setup=1
+                    - img "Google"
+                    - text: Google
+                - listitem [ref=e38]:
+                  - link "LinkedIn" [ref=e39] [cursor=pointer]:
+                    - /url: https://forum.allaboutcircuits.com/register/connected-accounts/linkedin/?setup=1
+                    - img "Github"
+                    - text: GitHub
+                - listitem [ref=e40]:
+                  - link "GitHub" [ref=e41] [cursor=pointer]:
+                    - /url: https://forum.allaboutcircuits.com/register/connected-accounts/github/?setup=1
+                    - img "LinkedIn"
+                    - text: Linkedin
+          - listitem [ref=e42]:
+            - separator [ref=e43]
+            - paragraph [ref=e44]: SIGN UP FOR OUR NEWSLETTER
+            - generic [ref=e45]:
+              - textbox "Enter you email address" [ref=e46]:
+                - /placeholder: Enter your email address
+              - button "Register" [ref=e47] [cursor=pointer]
+      - button [ref=e48] [cursor=pointer]
+    - navigation [ref=e52]:
+      - generic [ref=e53]:
+        - generic [ref=e54]:
+          - paragraph [ref=e55]: Main Menu
+          - link "Close Menu" [ref=e56] [cursor=pointer]:
+            - /url: "#"
+        - separator [ref=e59]
+      - list [ref=e60]:
+        - listitem [ref=e61]:
+          - link "Home" [ref=e62] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e63]:
+          - link "Articles" [ref=e64] [cursor=pointer]:
+            - /url: /latest/
+        - listitem [ref=e65]:
+          - link "Forums" [ref=e66] [cursor=pointer]:
+            - /url: https://forum.allaboutcircuits.com/
+        - listitem [ref=e67]:
+          - link "Education" [ref=e68] [cursor=pointer]:
+            - /url: /education/
+        - listitem [ref=e69]:
+          - link "Tools" [ref=e70] [cursor=pointer]:
+            - /url: /tools/
+        - listitem [ref=e71]:
+          - link "Videos" [ref=e72] [cursor=pointer]:
+            - /url: /videos/
+        - listitem [ref=e73]:
+          - link "Datasheets" [ref=e74] [cursor=pointer]:
+            - /url: http://datasheets.com
+        - listitem [ref=e75]:
+          - link "Giveaways" [ref=e76] [cursor=pointer]:
+            - /url: /giveaways/
+        - listitem [ref=e77]:
+          - link "Podcast" [ref=e78] [cursor=pointer]:
+            - /url: /podcast/
+        - listitem [ref=e79]:
+          - link "Summit Series 2026" [ref=e80] [cursor=pointer]:
+            - /url: https://events.allaboutcircuits.com/summit-series-2026
+        - listitem [ref=e81]:
+          - link "Partner Content Hub" [ref=e82] [cursor=pointer]:
+            - /url: /partner-content-hub/
+        - listitem [ref=e83]:
+          - link "Contact Us" [ref=e84] [cursor=pointer]:
+            - /url: /contact-us
+      - generic [ref=e85]:
+        - link "Register" [ref=e86] [cursor=pointer]:
+          - /url: https://forum.allaboutcircuits.com/register/
+        - link "Log In" [ref=e87] [cursor=pointer]:
+          - /url: https://forum.allaboutcircuits.com/login/?redirect=https://www.allaboutcircuits.com/textbook/direct-current/chpt-6/kirchhoffs-current-law-kcl/
+      - generic [ref=e88]:
+        - paragraph [ref=e89]: Network Sites
+        - list [ref=e90]:
+          - listitem [ref=e91]:
+            - link "Control.com" [ref=e92] [cursor=pointer]:
+              - /url: https://control.com
+          - listitem [ref=e108]:
+            - link "EEPower" [ref=e109] [cursor=pointer]:
+              - /url: https://eepower.com
+          - listitem [ref=e112]:
+            - link "Maker Pro" [ref=e113] [cursor=pointer]:
+              - /url: https://maker.pro
+          - listitem [ref=e116]:
+            - link "Mikrocontroller" [ref=e117] [cursor=pointer]:
+              - /url: https://www.mikrocontroller.net/
+    - generic [ref=e121]:
+      - generic [ref=e123]:
+        - text: Summit Series is a 4-day, free virtual summit designed for engineers.
+        - link "Learn More." [ref=e124] [cursor=pointer]:
+          - /url: https://events.allaboutcircuits.com/summit-series-2026
+      - link [ref=e127] [cursor=pointer]:
+        - /url: "#"
+  - generic [ref=e131]:
+    - link [ref=e133] [cursor=pointer]:
+      - /url: https://www.allaboutcircuits.com
+      - img "All About Circuits" [ref=e134]
+    - generic [ref=e136]:
+      - generic [ref=e137]: Textbook
+      - heading "Kirchhoff’s Current Law (KCL)" [level=2] [ref=e138]
+    - list [ref=e139]:
+      - listitem [ref=e140]:
+        - link [ref=e141] [cursor=pointer]:
+          - /url: "#loginModal"
+      - listitem [ref=e144]:
+        - link [ref=e145] [cursor=pointer]:
+          - /url: "#loginModal"
+  - main [ref=e148]:
+    - generic [ref=e149]:
+      - list [ref=e150]:
+        - listitem [ref=e151]:
+          - link "Home" [ref=e152] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e158]:
+          - link "Textbook" [ref=e159] [cursor=pointer]:
+            - /url: /textbook/
+        - listitem [ref=e162]:
+          - link "Direct Current (DC)" [ref=e163] [cursor=pointer]:
+            - /url: /textbook/direct-current/
+        - listitem [ref=e166]:
+          - link "Divider Circuits And Kirchhoff's Laws" [ref=e167] [cursor=pointer]:
+            - /url: /textbook/direct-current/chpt-6/
+        - listitem [ref=e170]:
+          - generic [ref=e171]: Kirchhoff’s Current Law (KCL)
+      - article [ref=e173]:
+        - generic [ref=e174]:
+          - generic [ref=e175]:
+            - generic [ref=e176]:
+              - generic [ref=e177]:
+                - generic [ref=e178]: Volume
+                - generic [ref=e179]:
+                  - generic [ref=e180]: Direct Current (DC)
+                  - button [ref=e181] [cursor=pointer]
+              - generic [ref=e184]:
+                - generic [ref=e185]: Chapter
+                - generic [ref=e186]:
+                  - generic [ref=e187]: Divider Circuits And Kirchhoff's Laws
+                  - button [ref=e188] [cursor=pointer]
+            - link "PDF Version" [ref=e191] [cursor=pointer]:
+              - /url: "#loginModal"
+          - generic [ref=e194]:
+            - generic [ref=e195]:
+              - generic [ref=e196]:
+                - generic [ref=e197]: Pages
+                - button [ref=e198] [cursor=pointer]
+              - generic [ref=e201]:
+                - link [ref=e202] [cursor=pointer]:
+                  - /url: https://www.facebook.com/allaboutcircuits
+                - link [ref=e205] [cursor=pointer]:
+                  - /url: https://x.com/AllAboutCircuit
+                - link [ref=e208] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/10236224/
+                - link [ref=e211] [cursor=pointer]:
+                  - /url: https://www.instagram.com/all_about_circuits/
+                - link [ref=e216] [cursor=pointer]:
+                  - /url: https://www.youtube.com/c/AllAboutCircuitsVideo
+            - heading "Kirchhoff’s Current Law (KCL)" [level=1] [ref=e219]
+            - separator [ref=e220]
+            - separator [ref=e221]
+            - generic [ref=e222]:
+              - heading "What Is Kirchhoff’s Current Law?" [level=3] [ref=e223]
+              - paragraph [ref=e224]: Kirchhoff’s Current Law, often shortened to KCL, states that “The algebraic sum of all currents entering and exiting a node must equal zero.”
+              - paragraph [ref=e225]: This law is used to describe how a charge enters and leaves a wire junction point or node on a wire.
+              - paragraph [ref=e226]: Armed with this information, let’s now take a look at an example of the law in practice, why it’s important, and how it was derived.
+              - heading "Parallel Circuit Review" [level=3] [ref=e227]
+              - paragraph [ref=e228]: "Let’s take a closer look at that last parallel example circuit:"
+              - paragraph [ref=e229]:
+                - img "parallel circuit example" [ref=e230]
+              - paragraph [ref=e231]: "Solving for all values of voltage and current in this circuit:"
+              - paragraph [ref=e232]:
+                - img "voltage current values" [ref=e233]
+              - paragraph [ref=e234]:
+                - text: At this point, we know the value of each branch current and of the total current in the circuit. We know that the total current in a
+                - link "parallel circuit" [ref=e235] [cursor=pointer]:
+                  - /url: https://www.allaboutcircuits.com/video-lectures/parallel-circuits/
+                - text: "must equal the sum of the branch currents, but there’s more going on in this circuit than just that. Taking a look at the currents at each wire junction point (node) in the circuit, we should be able to see something else:"
+              - paragraph [ref=e236]:
+                - img "parallel circuit example 2" [ref=e237]
+              - paragraph [ref=e238]
+              - heading "Currents Entering and Exiting a Node" [level=3] [ref=e239]
+              - paragraph [ref=e240]:
+                - text: At each node on the positive “rail” (wire 1-2-3-4) we have current splitting off the main flow to each successive branch resistor. At each node on the negative “rail” (wire 8-7-6-5) we have current merging together to form the main flow from each successive branch
+                - link "resistor" [ref=e241] [cursor=pointer]:
+                  - /url: https://www.allaboutcircuits.com/video-lectures/electronic-components-resistors/
+                - text: . This fact should be fairly obvious if you think of the water pipe circuit analogy with every branch node acting as a “tee” fitting, the water flow splitting or merging with the main piping as it travels from the output of the water pump toward the return reservoir or sump.
+              - paragraph [ref=e242]: "If we were to take a closer look at one particular “tee” node, such as node 6, we see that the current entering the node is equal in magnitude to the current exiting the node:"
+              - paragraph [ref=e243]:
+                - img "tee node" [ref=e244]
+              - paragraph [ref=e245]: "From the top and from the right, we have two currents entering the wire connection labeled as node 6. To the left, we have a single current exiting the node equal in magnitude to the sum of the two currents entering. To refer to the plumbing analogy: so long as there are no leaks in the piping, what flow enters the fitting must also exit the fitting. This holds true for any node (“fitting”), no matter how many flows are entering or exiting. Mathematically, we can express this general relationship as such:"
+              - paragraph [ref=e246]:
+                - img "exiting equals entering" [ref=e247]
+              - paragraph [ref=e248]
+              - heading "Kirchhoff’s Current Law" [level=3] [ref=e249]
+              - paragraph [ref=e250]:
+                - text: Mr. Kirchhoff decided to express it in a slightly different form (though mathematically equivalent), calling it
+                - emphasis [ref=e251]: Kirchhoff’s Current Law
+                - text: "(KCL):"
+              - paragraph [ref=e252]
+              - paragraph [ref=e253]:
+                - img "kirchhoffs current law" [ref=e254]
+              - paragraph [ref=e255]
+              - paragraph [ref=e256]: "Summarized in a phrase, Kirchhoff’s Current Law reads as such:"
+              - paragraph [ref=e257]:
+                - strong [ref=e258]:
+                  - emphasis [ref=e259]: “The algebraic sum of all currents entering and exiting a node must equal zero”
+              - paragraph [ref=e260]: That is, if we assign a mathematical sign (polarity) to each current, denoting whether they enter (+) or exit (-) a node, we can add them together to arrive at a total of zero, guaranteed.
+              - paragraph [ref=e261]: "Taking our example node (number 6), we can determine the magnitude of the current exiting from the left by setting up a KCL equation with that current as the unknown value:"
+              - paragraph [ref=e262]:
+                - img "algebraic sum of all currents" [ref=e263]
+              - paragraph [ref=e264]
+              - paragraph [ref=e265]:
+                - text: The negative (-) sign on the value of 5 milliamps tells us that the current is
+                - emphasis [ref=e266]: exiting
+                - text: the node, as opposed to the 2 milliamp and 3 milliamp currents, which must both be positive (and therefore
+                - emphasis [ref=e267]: entering
+                - text: the node). Whether negative or positive denotes current entering or exiting is entirely arbitrary, so long as they are opposite signs for opposite directions and we stay consistent in our notation, KCL will work.
+              - paragraph [ref=e268]:
+                - text: Together, Kirchhoff’s Voltage and Current Laws are a formidable pair of tools useful in analyzing electric circuits. Their usefulness will become all the more apparent in a later chapter (“
+                - link "Network Analysis" [ref=e269] [cursor=pointer]:
+                  - /url: https://www.allaboutcircuits.com/textbook/direct-current/chpt-10/what-is-network-analysis/
+                - text: ”), but suffice it to say that these Laws deserve to be memorized by the electronics student every bit as much as
+                - link "Ohm’s Law" [ref=e270] [cursor=pointer]:
+                  - /url: https://www.allaboutcircuits.com/video-lectures/electrical-quantities-b/
+                - text: .
+              - paragraph [ref=e271]:
+                - strong [ref=e272]: "REVIEW:"
+              - list [ref=e273]:
+                - listitem [ref=e274]:
+                  - text: "Kirchhoff’s Current Law (KCL):"
+                  - emphasis [ref=e275]: “The algebraic sum of all currents entering and exiting a node must equal zero”
+              - paragraph [ref=e276]:
+                - strong [ref=e277]: "RELATED WORKSHEETS:"
+              - list [ref=e278]:
+                - listitem [ref=e279]:
+                  - link "Kirchhoff’s Law Worksheet" [ref=e280] [cursor=pointer]:
+                    - /url: https://www.allaboutcircuits.com/worksheets/kirchhoffs-laws/
+            - list [ref=e282]:
+              - listitem [ref=e283]:
+                - link "Prev Page" [ref=e284] [cursor=pointer]:
+                  - /url: /textbook/direct-current/chpt-6/current-divider-circuits/
+              - listitem [ref=e287]:
+                - link "Back To Index" [ref=e288] [cursor=pointer]:
+                  - /url: /textbook/direct-current/
+            - generic [ref=e291]:
+              - heading "Lessons in Electric Circuits" [level=2] [ref=e292]
+              - generic [ref=e293]:
+                - heading "Volumes" [level=3] [ref=e294]:
+                  - text: Volumes
+                  - separator [ref=e295]
+                - list [ref=e296]:
+                  - listitem [ref=e297]:
+                    - link "Direct Current (DC) »" [ref=e298] [cursor=pointer]:
+                      - /url: /textbook/direct-current/
+                      - generic [ref=e299]: Direct Current (DC)
+                      - text: »
+                    - list [ref=e301]:
+                      - listitem [ref=e302]:
+                        - link "1 Basic Concepts Of Electricity" [ref=e303] [cursor=pointer]:
+                          - /url: /textbook/direct-current/chpt-1/
+                          - generic [ref=e304]: "1"
+                          - text: Basic Concepts Of Electricity
+                      - listitem [ref=e305]:
+                        - link "2 Ohm's Law" [ref=e306] [cursor=pointer]:
+                          - /url: /textbook/direct-current/chpt-2/
+                          - generic [ref=e307]: "2"
+                          - text: Ohm's Law
+                      - listitem [ref=e308]:
+                        - link "3 Electrical Safety" [ref=e309] [cursor=pointer]:
+                          - /url: /textbook/direct-current/chpt-3/
+                          - generic [ref=e310]: "3"
+                          - text: Electrical Safety
+                      - listitem [ref=e311]:
+                        - link "4 Scientific Notation And Metric Prefixes" [ref=e312] [cursor=pointer]:
+                          - /url: /textbook/direct-current/chpt-4/
+                          - generic [ref=e313]: "4"
+                          - text: Scientific Notation And Metric Prefixes
+                      - listitem [ref=e314]:
+                        - link "5 Series And Parallel Circuits" [ref=e315] [cursor=pointer]:
+                          - /url: /textbook/direct-current/chpt-5/
+                          - generic [ref=e316]: "5"
+                          - text: Series And Parallel Circuits
+                      - listitem [ref=e317]:
+                        - link "6 Divider Circuits And Kirchhoff's Laws »" [ref=e318] [cursor=pointer]:
+                          - /url: /textbook/direct-current/chpt-6/
+                          - generic [ref=e319]: "6"
+                          - text: Divider Circuits And Kirchhoff's Laws »
+                        - list [ref=e321]:
+                          - listitem [ref=e322]:
+                            - link "Voltage Divider Circuits" [ref=e323] [cursor=pointer]:
+                              - /url: /textbook/direct-current/chpt-6/voltage-divider-circuits/
+                          - listitem [ref=e324]:
+                            - link "Kirchhoff’s Voltage Law (KVL)" [ref=e325] [cursor=pointer]:
+                              - /url: /textbook/direct-current/chpt-6/kirchhoffs-voltage-law-kvl/
+                          - listitem [ref=e326]:
+                            - link "Current Divider Circuits and the Current Divider Formula" [ref=e327] [cursor=pointer]:
+                              - /url: /textbook/direct-current/chpt-6/current-divider-circuits/
+                          - listitem [ref=e328]:
+                            - link "Kirchhoff’s Current Law (KCL)" [ref=e329] [cursor=pointer]:
+                              - /url: /textbook/direct-current/chpt-6/kirchhoffs-current-law-kcl/
+                      - listitem [ref=e330]:
+                        - link "7 Series-parallel Combination Circuits" [ref=e331] [cursor=pointer]:
+                          - /url: /textbook/direct-current/chpt-7/
+                          - generic [ref=e332]: "7"
+                          - text: Series-parallel Combination Circuits
+                      - listitem [ref=e333]:
+                        - link "8 DC Metering Circuits" [ref=e334] [cursor=pointer]:
+                          - /url: /textbook/direct-current/chpt-8/
+                          - generic [ref=e335]: "8"
+                          - text: DC Metering Circuits
+                      - listitem [ref=e336]:
+                        - link "9 Electrical Instrumentation Signals" [ref=e337] [cursor=pointer]:
+                          - /url: /textbook/direct-current/chpt-9/
+                          - generic [ref=e338]: "9"
+                          - text: Electrical Instrumentation Signals
+                      - listitem [ref=e339]:
+                        - link "10 DC Network Analysis" [ref=e340] [cursor=pointer]:
+                          - /url: /textbook/direct-current/chpt-10/
+                          - generic [ref=e341]: "10"
+                          - text: DC Network Analysis
+                      - listitem [ref=e342]:
+                        - link "11 Batteries And Power Systems" [ref=e343] [cursor=pointer]:
+                          - /url: /textbook/direct-current/chpt-11/
+                          - generic [ref=e344]: "11"
+                          - text: Batteries And Power Systems
+                      - listitem [ref=e345]:
+                        - link "12 Physics Of Conductors And Insulators" [ref=e346] [cursor=pointer]:
+                          - /url: /textbook/direct-current/chpt-12/
+                          - generic [ref=e347]: "12"
+                          - text: Physics Of Conductors And Insulators
+                      - listitem [ref=e348]:
+                        - link "13 Capacitors" [ref=e349] [cursor=pointer]:
+                          - /url: /textbook/direct-current/chpt-13/
+                          - generic [ref=e350]: "13"
+                          - text: Capacitors
+                      - listitem [ref=e351]:
+                        - link "14 Magnetism and Electromagnetism" [ref=e352] [cursor=pointer]:
+                          - /url: /textbook/direct-current/chpt-14/
+                          - generic [ref=e353]: "14"
+                          - text: Magnetism and Electromagnetism
+                      - listitem [ref=e354]:
+                        - link "15 Inductors" [ref=e355] [cursor=pointer]:
+                          - /url: /textbook/direct-current/chpt-15/
+                          - generic [ref=e356]: "15"
+                          - text: Inductors
+                      - listitem [ref=e357]:
+                        - link "16 RC and L/R Time Constants" [ref=e358] [cursor=pointer]:
+                          - /url: /textbook/direct-current/chpt-16/
+                          - generic [ref=e359]: "16"
+                          - text: RC and L/R Time Constants
+                      - listitem [ref=e360]:
+                        - link "17 Contributor List" [ref=e361] [cursor=pointer]:
+                          - /url: /textbook/direct-current/chpt-17/
+                          - generic [ref=e362]: "17"
+                          - text: Contributor List
+                  - listitem [ref=e363]:
+                    - link "Alternating Current (AC)" [ref=e364] [cursor=pointer]:
+                      - /url: /textbook/alternating-current/
+                  - listitem [ref=e366]:
+                    - link "Semiconductors" [ref=e367] [cursor=pointer]:
+                      - /url: /textbook/semiconductors/
+                  - listitem [ref=e369]:
+                    - link "Digital Circuits" [ref=e370] [cursor=pointer]:
+                      - /url: /textbook/digital/
+                  - listitem [ref=e372]:
+                    - link "EE Reference" [ref=e373] [cursor=pointer]:
+                      - /url: /textbook/reference/
+                  - listitem [ref=e375]:
+                    - link "DIY Electronics Projects" [ref=e376] [cursor=pointer]:
+                      - /url: /textbook/experiments/
+                  - listitem [ref=e378]:
+                    - heading "Advanced Textbooks" [level=3] [ref=e379]:
+                      - text: Advanced Textbooks
+                      - separator [ref=e380]
+                    - link "Practical Guide to Radio-Frequency Analysis and Design" [ref=e381] [cursor=pointer]:
+                      - /url: /textbook/radio-frequency-analysis-design/
+                  - listitem [ref=e383]:
+                    - link "Designing Analog Chips" [ref=e384] [cursor=pointer]:
+                      - /url: /textbook/designing-analog-chips/
+            - generic [ref=e386]:
+              - text: Published under the terms and conditions of the
+              - link "Design Science License" [ref=e387] [cursor=pointer]:
+                - /url: https://www.gnu.org/licenses/dsl.html
+        - generic [ref=e388]:
+          - link "Comments (0)" [ref=e390] [cursor=pointer]:
+            - /url: "#"
+          - generic [ref=e391]:
+            - generic [ref=e392]:
+              - textbox "Please log in before you can comment." [ref=e394]
+              - link "Log in to comment" [ref=e396] [cursor=pointer]:
+                - /url: "#loginModal"
+            - list
+    - generic [ref=e398]:
+      - heading "You May Also Like" [level=3] [ref=e399]
+      - generic [ref=e400]:
+        - generic [ref=e401]:
+          - link "Proactive Compliance Risk Mitigation with SiliconExpert’s Compliance Risk Manager Proactive Compliance Risk Mitigation with SiliconExpert’s Compliance Risk Manager" [ref=e402] [cursor=pointer]:
+            - /url: /partner-content-hub/silicon-expert/proactive-compliance-risk-mitigation-with-siliconexperts-compliance-risk-manager/
+            - img "Proactive Compliance Risk Mitigation with SiliconExpert’s Compliance Risk Manager" [ref=e404]
+            - heading "Proactive Compliance Risk Mitigation with SiliconExpert’s Compliance Risk Manager" [level=3] [ref=e406]
+            - separator [ref=e407]
+          - link "Partner Content Hub" [ref=e408] [cursor=pointer]:
+            - /url: /partner-content-hub/
+        - generic [ref=e409]:
+          - 'link "Rewiring the Spine: The Tech Restoring Movement After Spinal Injury Rewiring the Spine: The Tech Restoring Movement After Spinal Injury" [ref=e410] [cursor=pointer]':
+            - /url: /news/rewiring-the-spine-tech-restoring-movement-after-spinal-injury/
+            - 'img "Rewiring the Spine: The Tech Restoring Movement After Spinal Injury" [ref=e412]'
+            - 'heading "Rewiring the Spine: The Tech Restoring Movement After Spinal Injury" [level=3] [ref=e414]'
+            - separator [ref=e415]
+          - link "News" [ref=e416] [cursor=pointer]:
+            - /url: /news/
+        - generic [ref=e417]:
+          - link "Pre-Emphasis and De-Emphasis Filtering in FM Systems Pre-Emphasis and De-Emphasis Filtering in FM Systems" [ref=e418] [cursor=pointer]:
+            - /url: /technical-articles/pre-emphasis-and-de-emphasis-filtering-in-fm-systems/
+            - img "Pre-Emphasis and De-Emphasis Filtering in FM Systems" [ref=e420]
+            - heading "Pre-Emphasis and De-Emphasis Filtering in FM Systems" [level=3] [ref=e422]
+            - separator [ref=e423]
+          - link "Technical Articles" [ref=e424] [cursor=pointer]:
+            - /url: /technical-articles/
+        - generic [ref=e425]:
+          - link "Silent Switcher µModule Regulators Quietly Power GSPS Sampling ADCs in Half the Space Silent Switcher µModule Regulators Quietly Power GSPS Sampling ADCs in Half the Space" [ref=e426] [cursor=pointer]:
+            - /url: /industry-white-papers/silent-switcher-module-regulators-quietly-power-gsps-sampling-adcs-in-half-the-space/
+            - img "Silent Switcher µModule Regulators Quietly Power GSPS Sampling ADCs in Half the Space" [ref=e428]
+            - heading "Silent Switcher µModule Regulators Quietly Power GSPS Sampling ADCs in Half the Space" [level=3] [ref=e430]
+            - separator [ref=e431]
+          - link "Industry White Paper" [ref=e432] [cursor=pointer]:
+            - /url: /industry-white-papers/
+  - contentinfo [ref=e433]:
+    - generic [ref=e435]:
+      - generic [ref=e436]:
+        - img "AllAboutCircuits" [ref=e437]
+        - generic [ref=e438]:
+          - link "More About Us" [ref=e439] [cursor=pointer]:
+            - /url: /about-us/
+          - link "Advertise" [ref=e440] [cursor=pointer]:
+            - /url: https://eetech.com/solutions/
+          - link "Write For Us" [ref=e441] [cursor=pointer]:
+            - /url: /write-for-us/
+          - link "Contact Us" [ref=e442] [cursor=pointer]:
+            - /url: /contact-us/
+        - generic [ref=e443]:
+          - heading "Connect With Us" [level=6] [ref=e444]
+          - list [ref=e445]:
+            - listitem [ref=e446]:
+              - link "Facebook" [ref=e447] [cursor=pointer]:
+                - /url: https://www.facebook.com/allaboutcircuits
+            - listitem [ref=e450]:
+              - link "X" [ref=e451] [cursor=pointer]:
+                - /url: https://x.com/AllAboutCircuit
+            - listitem [ref=e454]:
+              - link "LinkedIn" [ref=e455] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/10236224/
+            - listitem [ref=e458]:
+              - link "Instagram" [ref=e459] [cursor=pointer]:
+                - /url: https://www.instagram.com/all_about_circuits/
+            - listitem [ref=e464]:
+              - link "YouTube" [ref=e465] [cursor=pointer]:
+                - /url: https://www.youtube.com/c/AllAboutCircuitsVideo
+      - list [ref=e469]:
+        - listitem [ref=e470]:
+          - heading "Products" [level=6] [ref=e471]
+          - list [ref=e472]:
+            - listitem [ref=e473]:
+              - link "Latest" [ref=e474] [cursor=pointer]:
+                - /url: /latest/
+            - listitem [ref=e475]:
+              - link "Analog" [ref=e476] [cursor=pointer]:
+                - /url: /latest/analog/
+            - listitem [ref=e477]:
+              - link "Connectors" [ref=e478] [cursor=pointer]:
+                - /url: /latest/connectors/
+            - listitem [ref=e479]:
+              - link "Cooling" [ref=e480] [cursor=pointer]:
+                - /url: /latest/cooling/
+            - listitem [ref=e481]:
+              - link "Digital IC’s" [ref=e482] [cursor=pointer]:
+                - /url: /latest/digital-ics/
+            - listitem [ref=e483]:
+              - link "EDA Tools" [ref=e484] [cursor=pointer]:
+                - /url: /latest/eda-tools/
+            - listitem [ref=e485]:
+              - link "Electromechanical" [ref=e486] [cursor=pointer]:
+                - /url: /latest/electromechanical/
+            - listitem [ref=e487]:
+              - link "Embedded" [ref=e488] [cursor=pointer]:
+                - /url: /latest/embedded/
+            - listitem [ref=e489]:
+              - link "IC Design" [ref=e490] [cursor=pointer]:
+                - /url: /latest/ic-design/
+            - listitem [ref=e491]:
+              - link "Memory" [ref=e492] [cursor=pointer]:
+                - /url: /latest/memory/
+            - listitem [ref=e493]:
+              - link "Optoelectronics" [ref=e494] [cursor=pointer]:
+                - /url: /latest/optoelectronics/
+            - listitem [ref=e495]:
+              - link "Passives" [ref=e496] [cursor=pointer]:
+                - /url: /latest/passives/
+            - listitem [ref=e497]:
+              - link "PCB’s" [ref=e498] [cursor=pointer]:
+                - /url: /latest/pcb/
+            - listitem [ref=e499]:
+              - link "Power" [ref=e500] [cursor=pointer]:
+                - /url: /latest/power/
+            - listitem [ref=e501]:
+              - link "RISC-V" [ref=e502] [cursor=pointer]:
+                - /url: /latest/risc-v/
+            - listitem [ref=e503]:
+              - link "Sensors" [ref=e504] [cursor=pointer]:
+                - /url: /latest/sensors/
+            - listitem [ref=e505]:
+              - link "Test & Measurement" [ref=e506] [cursor=pointer]:
+                - /url: /latest/test-and-measurement/
+            - listitem [ref=e507]:
+              - link "Wireless/RF" [ref=e508] [cursor=pointer]:
+                - /url: /latest/wireless-rf/
+        - listitem [ref=e509]:
+          - heading "Applications" [level=6] [ref=e510]
+          - list [ref=e511]:
+            - listitem [ref=e512]:
+              - link "AI/Neural Networks" [ref=e513] [cursor=pointer]:
+                - /url: /latest/ai-neural-networks/
+            - listitem [ref=e514]:
+              - link "Audio" [ref=e515] [cursor=pointer]:
+                - /url: /latest/audio/
+            - listitem [ref=e516]:
+              - link "Automotive" [ref=e517] [cursor=pointer]:
+                - /url: /latest/automotive/
+            - listitem [ref=e518]:
+              - link "Cloud Computing" [ref=e519] [cursor=pointer]:
+                - /url: /latest/cloud-computing/
+            - listitem [ref=e520]:
+              - link "Consumer Electronics" [ref=e521] [cursor=pointer]:
+                - /url: /latest/consumer-electronics/
+            - listitem [ref=e522]:
+              - link "Cybersecurity / Identification" [ref=e523] [cursor=pointer]:
+                - /url: /latest/security-identification/
+            - listitem [ref=e524]:
+              - link "Digital Signal Processing" [ref=e525] [cursor=pointer]:
+                - /url: /latest/digital-signal-processing/
+            - listitem [ref=e526]:
+              - link "Industrial Automation" [ref=e527] [cursor=pointer]:
+                - /url: /latest/industrial-automation/
+            - listitem [ref=e528]:
+              - link "IOT" [ref=e529] [cursor=pointer]:
+                - /url: /latest/iot/
+            - listitem [ref=e530]:
+              - link "IT / Networking" [ref=e531] [cursor=pointer]:
+                - /url: /latest/it-networking/
+            - listitem [ref=e532]:
+              - link "Lighting" [ref=e533] [cursor=pointer]:
+                - /url: /latest/lighting/
+            - listitem [ref=e534]:
+              - link "Medical & Fitness" [ref=e535] [cursor=pointer]:
+                - /url: /latest/medical-fitness/
+            - listitem [ref=e536]:
+              - link "Military / Aero / Space" [ref=e537] [cursor=pointer]:
+                - /url: /latest/military-aero-space/
+            - listitem [ref=e538]:
+              - link "Motor Control" [ref=e539] [cursor=pointer]:
+                - /url: /latest/motor-control/
+            - listitem [ref=e540]:
+              - link "Smart Grid / Energy" [ref=e541] [cursor=pointer]:
+                - /url: /latest/smart-grid-energy/
+            - listitem [ref=e542]:
+              - link "Telecom" [ref=e543] [cursor=pointer]:
+                - /url: /latest/telecom/
+        - listitem [ref=e544]:
+          - heading "Content" [level=6] [ref=e545]
+          - list [ref=e546]:
+            - listitem [ref=e547]:
+              - link "Calculators" [ref=e548] [cursor=pointer]:
+                - /url: /tools/
+            - listitem [ref=e549]:
+              - link "Datasheets" [ref=e550] [cursor=pointer]:
+                - /url: http://datasheets.com
+            - listitem [ref=e551]:
+              - link "Giveaways" [ref=e552] [cursor=pointer]:
+                - /url: /giveaways/
+            - listitem [ref=e553]:
+              - link "Industry Articles" [ref=e554] [cursor=pointer]:
+                - /url: /industry-articles/
+            - listitem [ref=e555]:
+              - link "Industry Webinars" [ref=e556] [cursor=pointer]:
+                - /url: /industry-webinars/
+            - listitem [ref=e557]:
+              - link "New Products" [ref=e558] [cursor=pointer]:
+                - /url: /new-industry-products/
+            - listitem [ref=e559]:
+              - link "News" [ref=e560] [cursor=pointer]:
+                - /url: /news/
+            - listitem [ref=e561]:
+              - link "Podcast" [ref=e562] [cursor=pointer]:
+                - /url: /podcast/
+            - listitem [ref=e563]:
+              - link "Projects" [ref=e564] [cursor=pointer]:
+                - /url: /projects/
+            - listitem [ref=e565]:
+              - link "Summit Series" [ref=e566] [cursor=pointer]:
+                - /url: https://events.allaboutcircuits.com/
+            - listitem [ref=e567]:
+              - link "Tech Chats" [ref=e568] [cursor=pointer]:
+                - /url: /tech-chats/
+            - listitem [ref=e569]:
+              - link "Partner Content Hub" [ref=e570] [cursor=pointer]:
+                - /url: /partner-content-hub/
+            - listitem [ref=e571]:
+              - link "Technical Articles" [ref=e572] [cursor=pointer]:
+                - /url: /technical-articles/
+            - listitem [ref=e573]:
+              - link "Textbook" [ref=e574] [cursor=pointer]:
+                - /url: /textbook/
+            - listitem [ref=e575]:
+              - link "Video Lectures" [ref=e576] [cursor=pointer]:
+                - /url: /video-lectures/
+            - listitem [ref=e577]:
+              - link "Worksheets" [ref=e578] [cursor=pointer]:
+                - /url: /worksheets/
+      - generic [ref=e579]:
+        - generic [ref=e580]:
+          - heading "SIGN UP FOR OUR NEWSLETTER" [level=6] [ref=e581]
+          - generic [ref=e582]:
+            - textbox "Enter you email address" [ref=e583]:
+              - /placeholder: Enter your email address
+            - button "Register" [ref=e584] [cursor=pointer]
+        - generic [ref=e585]:
+          - heading "MORE FROM THE EETECH NETWORK" [level=6] [ref=e586]
+          - list [ref=e587]:
+            - listitem [ref=e588]:
+              - link "EETech Group" [ref=e589] [cursor=pointer]:
+                - /url: https://eetech.com/
+            - listitem [ref=e600]
+            - listitem [ref=e601]:
+              - link "Control.com" [ref=e602] [cursor=pointer]:
+                - /url: https://control.com
+            - listitem [ref=e618]:
+              - link "EEPower" [ref=e619] [cursor=pointer]:
+                - /url: https://eepower.com
+            - listitem [ref=e622]:
+              - link "Maker Pro" [ref=e623] [cursor=pointer]:
+                - /url: https://maker.pro
+            - listitem [ref=e626]:
+              - link "Mikrocontroller" [ref=e627] [cursor=pointer]:
+                - /url: https://www.mikrocontroller.net/
+    - generic [ref=e632]:
+      - generic [ref=e633]:
+        - link "© EETech Group, LLC" [ref=e634] [cursor=pointer]:
+          - /url: https://eetech.com
+        - text: . All rights reserved
+      - generic [ref=e635]:
+        - link "Privacy Policy" [ref=e636] [cursor=pointer]:
+          - /url: /privacy-policy/
+        - generic [ref=e637]: ·
+        - link "Terms of Service" [ref=e638] [cursor=pointer]:
+          - /url: https://forum.allaboutcircuits.com/help/terms
+        - generic [ref=e639]: ·
+        - link "User Agreement" [ref=e640] [cursor=pointer]:
+          - /url: /user-agreement/

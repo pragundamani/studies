@@ -1,0 +1,41 @@
+{
+  "activePreset": "Default",
+  "activeFullscreenPreset": "Default",
+  "separateFullscreenPreset": false,
+  "presets": {
+    "Default": {
+      "plugin-editor-status;1": {
+        "position": 0,
+        "visible": true
+      },
+      "plugin-obsidian-git;1": {
+        "position": 1,
+        "visible": false
+      },
+      "plugin-obsidian-spaced-repetition-note-review-sr-status-bar-item-sr-is-hidden;1": {
+        "position": 2,
+        "visible": false
+      },
+      "plugin-obsidian-spaced-repetition-update-available-sr-status-bar-item-sr-is-hidden;1": {
+        "position": 3,
+        "visible": false
+      },
+      "plugin-remotely-save;1": {
+        "position": 4,
+        "visible": true
+      },
+      "plugin-obsidian-git;2": {
+        "position": 5,
+        "visible": true
+      },
+      "plugin-obsidian-spaced-repetition-card-review-sr-status-bar-item-sr-is-hidden;1": {
+        "position": 6,
+        "visible": false
+      }
+    }
+  },
+  "presetsOrder": [
+    "Default"
+  ],
+  "version": "2.1.4"
+}
