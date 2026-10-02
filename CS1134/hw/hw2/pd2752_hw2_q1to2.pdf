@@ -1,0 +1,115 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Length 1818 >>
+stream
+BT
+/F1 11 Tf
+72 740 Td
+15 TL
+(CS-UY 1134 Homework 2) Tj
+T*
+(pd2752) Tj
+T*
+() Tj
+T*
+(Question 1) Tj
+T*
+() Tj
+T*
+(\(a\) Claim: 5n! + 2n^2 + 3n is O\(n!\).) Tj
+T*
+(For n >= 4, n! >= n^2 and 2n^2 + 3n <= 3n^2. Therefore,) Tj
+T*
+(5n! + 2n^2 + 3n <= 5n! + 3n! = 8n!.) Tj
+T*
+(Taking c = 8 and n0 = 4 satisfies the definition of O\(n!\).) Tj
+T*
+() Tj
+T*
+(\(b\) Claim: sqrt\(7n^2 + 2n - 8\) is Theta\(n\).) Tj
+T*
+(For n >= 2,) Tj
+T*
+(4n^2 <= 7n^2 + 2n - 8 <= 9n^2.) Tj
+T*
+(Taking square roots gives) Tj
+T*
+(2n <= sqrt\(7n^2 + 2n - 8\) <= 3n.) Tj
+T*
+(Thus c1 = 2, c2 = 3, and n0 = 2 satisfy the definition of Theta\(n\).) Tj
+T*
+() Tj
+T*
+(\(c\) Since d\(n\) = O\(f\(n\)\), there are constants c1 > 0 and n1 such that) Tj
+T*
+(0 <= d\(n\) <= c1 f\(n\) for n >= n1. Since e\(n\) = O\(g\(n\)\), there are) Tj
+T*
+(constants c2 > 0 and n2 such that 0 <= e\(n\) <= c2 g\(n\) for n >= n2.) Tj
+T*
+(For n >= max\(n1, n2\), multiplying the two inequalities gives) Tj
+T*
+(d\(n\)e\(n\) <= c1c2 f\(n\)g\(n\).) Tj
+T*
+(Therefore d\(n\)e\(n\) = O\(f\(n\)g\(n\)\), using c = c1c2.) Tj
+T*
+() Tj
+T*
+(Question 2) Tj
+T*
+() Tj
+T*
+(example1: Theta\(n^2\). The inner loop executes j + 1 times for each) Tj
+T*
+(j from 0 through n - 1. The total is sum\(j + 1\) = n\(n + 1\)/2.) Tj
+T*
+() Tj
+T*
+(example2: Theta\(n\). Its one loop has n iterations, and each iteration) Tj
+T*
+(does a constant number of operations.) Tj
+T*
+() Tj
+T*
+(example3: Theta\(log n\). After t iterations, i = 2^t. The loop stops) Tj
+T*
+(when 2^t >= n^2, so t = ceil\(log2\(n^2\)\) = Theta\(log n\).) Tj
+T*
+() Tj
+T*
+(example4: Theta\(n\). The outer loop uses i values n, floor\(n/2\),) Tj
+T*
+(floor\(n/4\), and so on. The total inner-loop work is bounded above by) Tj
+T*
+(n + n/2 + n/4 + ... < 2n and is at least n from the first iteration.) Tj
+T*
+(It is therefore Theta\(n\).) Tj
+T*
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 5 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000001991 00000 n 
+0000002117 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2185
+%%EOF
