@@ -1,0 +1,82 @@
+- generic [ref=f3e1]:
+  - banner [ref=f3e2]:
+    - navigation "Main" [ref=f3e3]:
+      - generic [ref=f3e4]:
+        - link "skip to main content" [ref=f3e125] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - generic:
+          - generic [ref=f3e83]:
+            - generic [ref=f3e7]:
+              - link "My Home" [ref=f3e85] [cursor=pointer]:
+                - /url: /d2l/lp/ouHome/defaultHome.d2l
+                - img "My Home" [ref=f3e88]
+              - link "ECE2004 Lecture Sections A/B/C" [ref=f3e9] [cursor=pointer]:
+                - /url: /d2l/home/621298
+            - generic [ref=f3e10]:
+              - button "Select a course..." [ref=f3e92] [cursor=pointer]
+              - generic [ref=f3e13]:
+                - button "Message alerts" [ref=f3e99] [cursor=pointer]
+                - button "Subscription alerts" [ref=f3e104] [cursor=pointer]
+                - button "Update alerts" [ref=f3e109] [cursor=pointer]
+              - button "Pragun Damani, avatar" [ref=f3e114] [cursor=pointer]:
+                - generic: PD
+              - button "Admin Tools" [ref=f3e120] [cursor=pointer]
+          - list [ref=f3e41]:
+            - listitem [ref=f3e42]:
+              - link "Content" [ref=f3e43] [cursor=pointer]:
+                - /url: /d2l/le/lessons/621298
+            - listitem [ref=f3e44]:
+              - link "Announcements" [ref=f3e45] [cursor=pointer]:
+                - /url: /d2l/lms/news/main.d2l?ou=621298
+            - listitem [ref=f3e46]:
+              - link "Assignments" [ref=f3e47] [cursor=pointer]:
+                - /url: /d2l/lms/dropbox/dropbox.d2l?ou=621298
+            - listitem [ref=f3e48]:
+              - link "Discussions" [ref=f3e49] [cursor=pointer]:
+                - /url: /d2l/le/621298/discussions/List
+            - listitem [ref=f3e50]:
+              - link "Quizzes" [ref=f3e51] [cursor=pointer]:
+                - /url: /d2l/lms/quizzing/quizzing.d2l?ou=621298
+            - listitem [ref=f3e52]:
+              - link "Grades" [ref=f3e53] [cursor=pointer]:
+                - /url: /d2l/lms/grades/index.d2l?ou=621298
+            - listitem [ref=f3e54]:
+              - link "Zoom" [ref=f3e55] [cursor=pointer]:
+                - /url: /d2l/common/dialogs/quickLink/quickLink.d2l?ou=621298&type=lti&rcode=438126FB-CB7E-4012-84DC-B926D628DF2A-1844200&srcou=6606&launchFramed=1&framedName=Zoom
+            - listitem [ref=f3e56]:
+              - button "More Tools" [ref=f3e58]
+            - listitem [ref=f3e74]:
+              - button "More" [ref=f3e76]
+  - main [ref=f3e126]:
+    - iframe [active] [ref=f3e129]:
+      - generic [ref=f5e1]:
+        - generic [ref=f5e6]:
+          - generic [ref=f5e8]:
+            - generic [ref=f5e13]:
+              - searchbox "Search titles and descriptions" [ref=f5e14]
+              - button "Search" [ref=f5e17] [cursor=pointer]
+            - generic [ref=f5e20]:
+              - heading "Table of Contents" [level=2] [ref=f5e21]
+              - tree "Table of Contents" [ref=f5e22]:
+                - treeitem "Selected unit. In-Lecture Annoucements." [active] [ref=f5e26] [cursor=pointer]:
+                  - generic [ref=f5e31]: In-Lecture Annoucements
+                - treeitem "Syllabus, Lab Schedule and Report Guidelines" [ref=f5e41] [cursor=pointer]:
+                  - generic [ref=f5e46]: Syllabus, Lab Schedule and Report Guidelines
+                - treeitem "Lecture Slides - PDF" [ref=f5e56] [cursor=pointer]:
+                  - generic [ref=f5e61]: Lecture Slides - PDF
+                - treeitem "Lab Recitation Slides" [ref=f5e71] [cursor=pointer]:
+                  - generic [ref=f5e76]: Lab Recitation Slides
+                - treeitem "Lab Manuals" [ref=f5e86] [cursor=pointer]:
+                  - generic [ref=f5e91]: Lab Manuals
+                - treeitem "Exam Samples and Reference Sheet" [ref=f5e101] [cursor=pointer]:
+                  - generic [ref=f5e106]: Exam Samples and Reference Sheet
+                - treeitem "Homework & Exam Solutions" [ref=f5e116] [cursor=pointer]:
+                  - generic [ref=f5e121]: Homework & Exam Solutions
+          - generic [ref=f5e128]:
+            - generic [ref=f5e131]:
+              - button "Download" [ref=f5e133] [cursor=pointer]
+              - generic [ref=f5e137]:
+                - button "Previous" [disabled] [ref=f5e139]
+                - button "Next" [ref=f5e143] [cursor=pointer]
+            - heading "In-Lecture Annoucements" [level=1] [ref=f5e148]
+        - log [ref=f5e149]

@@ -1,0 +1,299 @@
+- generic [active] [ref=f6e1]:
+  - banner [ref=f6e2]:
+    - navigation "Main" [ref=f6e3]:
+      - generic [ref=f6e4]:
+        - link "skip to main content" [ref=f6e5] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - generic:
+          - generic [ref=f6e10]:
+            - generic [ref=f6e12]:
+              - link "My Home" [ref=f6e14] [cursor=pointer]:
+                - /url: /d2l/lp/ouHome/defaultHome.d2l
+                - img "My Home" [ref=f6e17]
+              - link "ECE2004 Lecture Sections A/B/C" [ref=f6e21] [cursor=pointer]:
+                - /url: /d2l/home/621298
+            - generic [ref=f6e22]:
+              - button "Select a course..." [ref=f6e25] [cursor=pointer]
+              - generic [ref=f6e31]:
+                - button "Message alerts" [ref=f6e34] [cursor=pointer]
+                - button "Subscription alerts" [ref=f6e39] [cursor=pointer]
+                - button "Update alerts" [ref=f6e44] [cursor=pointer]
+              - button "Pragun Damani, avatar" [ref=f6e51] [cursor=pointer]:
+                - generic: PD
+              - button "Admin Tools" [ref=f6e58] [cursor=pointer]
+          - list [ref=f6e65]:
+            - listitem [ref=f6e66]:
+              - link "Content" [ref=f6e67] [cursor=pointer]:
+                - /url: /d2l/le/lessons/621298
+            - listitem [ref=f6e68]:
+              - link "Announcements" [ref=f6e69] [cursor=pointer]:
+                - /url: /d2l/lms/news/main.d2l?ou=621298
+            - listitem [ref=f6e70]:
+              - link "Assignments" [ref=f6e71] [cursor=pointer]:
+                - /url: /d2l/lms/dropbox/dropbox.d2l?ou=621298
+            - listitem [ref=f6e72]:
+              - link "Discussions" [ref=f6e73] [cursor=pointer]:
+                - /url: /d2l/le/621298/discussions/List
+            - listitem [ref=f6e74]:
+              - link "Quizzes" [ref=f6e75] [cursor=pointer]:
+                - /url: /d2l/lms/quizzing/quizzing.d2l?ou=621298
+            - listitem [ref=f6e76]:
+              - link "Grades" [ref=f6e77] [cursor=pointer]:
+                - /url: /d2l/lms/grades/index.d2l?ou=621298
+            - listitem [ref=f6e78]:
+              - link "Zoom" [ref=f6e79] [cursor=pointer]:
+                - /url: /d2l/common/dialogs/quickLink/quickLink.d2l?ou=621298&type=lti&rcode=438126FB-CB7E-4012-84DC-B926D628DF2A-1844200&srcou=6606&launchFramed=1&framedName=Zoom
+            - listitem [ref=f6e80]:
+              - button "More Tools" [ref=f6e82]
+            - listitem [ref=f6e86]:
+              - button "Course Reports" [ref=f6e88]
+            - listitem [ref=f6e92]:
+              - button "Help" [ref=f6e94]
+            - listitem [ref=f6e98]:
+              - button "More" [ref=f6e100]
+  - main [ref=f6e104]:
+    - generic [ref=f6e105]:
+      - generic [ref=f6e106]:
+        - heading "Assignments" [level=1] [ref=f6e109]
+        - region "Utilities" [ref=f6e111]:
+          - button "Help" [ref=f6e114] [cursor=pointer]
+      - generic [ref=f6e121]:
+        - list [ref=f6e123]:
+          - listitem [ref=f6e124]:
+            - button "View History" [ref=f6e125] [cursor=pointer]
+        - generic [ref=f6e131]:
+          - table "List of assignments for this course" [ref=f6e136]:
+            - rowgroup [ref=f6e137]:
+              - row [ref=f6e138]:
+                - columnheader "Assignment" [ref=f6e139]
+                - columnheader "Completion Status" [ref=f6e140]
+                - columnheader "Score" [ref=f6e141]
+                - columnheader "Evaluation Status" [ref=f6e142]
+              - row [ref=f6e143]:
+                - cell "Lecture Homework" [ref=f6e144]
+              - row [ref=f6e146]:
+                - rowheader [ref=f6e147]:
+                  - link [ref=f6e152] [cursor=pointer]:
+                    - /url: /d2l/lms/dropbox/user/folder_submit_files.d2l?db=1228363&grpid=0&isprv=0&bp=0&ou=621298
+                    - strong [ref=f6e153]: "Hwk #1 Charge, Energy, Power"
+                  - strong [ref=f6e159]: Due on Sep 10, 2026 11:59 PM
+                  - generic [ref=f6e161]:
+                    - strong [ref=f6e166]: Attachments
+                    - generic [ref=f6e168]:
+                      - link "ECE2004 Homework Assignment 1 Rev C_0.pdf" [ref=f6e169] [cursor=pointer]:
+                        - /url: /d2l/common/viewFile.d2lfile/Database/MzgyOTc2MDY/ECE2004%20Homework%20Assignment%201%20Rev%20C_0.pdf?ou=621298
+                      - text: (137.22 KB)
+                - cell [ref=f6e170]:
+                  - link "1 Submission, 1 File" [ref=f6e171] [cursor=pointer]:
+                    - /url: /d2l/lms/dropbox/user/folders_history.d2l?db=1228363&grpid=0&isprv=0&bp=0&ou=621298
+                - cell "2 / 2 - A" [ref=f6e172]
+                - cell [ref=f6e175]:
+                  - text: "Feedback:"
+                  - link "Read" [ref=f6e176] [cursor=pointer]:
+                    - /url: /d2l/lms/dropbox/user/folder_user_view_feedback.d2l?db=1228363&grpid=0&isprv=0&bp=0&ou=621298
+              - row [ref=f6e177]:
+                - rowheader [ref=f6e178]:
+                  - link [ref=f6e183] [cursor=pointer]:
+                    - /url: /d2l/lms/dropbox/user/folder_submit_files.d2l?db=1228367&grpid=0&isprv=0&bp=0&ou=621298
+                    - strong [ref=f6e184]: "Hwk #2 Power and Ohm's Law"
+                  - strong [ref=f6e190]: Due on Sep 17, 2026 11:59 PM
+                  - generic [ref=f6e192]:
+                    - strong [ref=f6e197]: Attachments
+                    - generic [ref=f6e199]:
+                      - link "ECE2004 Homework 2 Rev C2.pdf" [ref=f6e200] [cursor=pointer]:
+                        - /url: /d2l/common/viewFile.d2lfile/Database/MzgyOTc2MDk/ECE2004%20Homework%202%20Rev%20C2.pdf?ou=621298
+                      - text: (279.98 KB)
+                - cell [ref=f6e201]:
+                  - link "1 Submission, 1 File" [ref=f6e202] [cursor=pointer]:
+                    - /url: /d2l/lms/dropbox/user/folders_history.d2l?db=1228367&grpid=0&isprv=0&bp=0&ou=621298
+                - cell "2 / 2 - A" [ref=f6e203]
+                - cell [ref=f6e206]:
+                  - text: "Feedback:"
+                  - link "Read" [ref=f6e207] [cursor=pointer]:
+                    - /url: /d2l/lms/dropbox/user/folder_user_view_feedback.d2l?db=1228367&grpid=0&isprv=0&bp=0&ou=621298
+              - row [ref=f6e208]:
+                - rowheader [ref=f6e209]:
+                  - link [ref=f6e214] [cursor=pointer]:
+                    - /url: /d2l/lms/dropbox/user/folder_submit_files.d2l?db=1228372&grpid=0&isprv=0&bp=0&ou=621298
+                    - strong [ref=f6e215]: "Hwk #3 Ohms Law, KVL, KCL"
+                  - strong [ref=f6e221]: Due on Sep 24, 2026 11:59 PM
+                  - generic [ref=f6e223]:
+                    - strong [ref=f6e228]: Attachments
+                    - generic [ref=f6e230]:
+                      - link "ECE2004 Homework Assignment 3 KVL and KCL Rev A..." [ref=f6e231] [cursor=pointer]:
+                        - /url: /d2l/common/viewFile.d2lfile/Database/Mzg3NDMwNjE/ECE2004%20Homework%20Assignment%203%20KVL%20and%20KCL%20Rev%20A.pdf?ou=621298
+                      - text: (336.49 KB)
+                - cell [ref=f6e232]:
+                  - link "1 Submission, 1 File" [ref=f6e233] [cursor=pointer]:
+                    - /url: /d2l/lms/dropbox/user/folders_history.d2l?db=1228372&grpid=0&isprv=0&bp=0&ou=621298
+                - cell "2 / 2 - A" [ref=f6e234]
+                - cell [ref=f6e237]:
+                  - text: "Feedback:"
+                  - link "Read" [ref=f6e238] [cursor=pointer]:
+                    - /url: /d2l/lms/dropbox/user/folder_user_view_feedback.d2l?db=1228372&grpid=0&isprv=0&bp=0&ou=621298
+              - row [ref=f6e239]:
+                - rowheader [ref=f6e240]:
+                  - link [ref=f6e245] [cursor=pointer]:
+                    - /url: /d2l/lms/dropbox/user/folder_submit_files.d2l?db=1228375&grpid=0&isprv=0&bp=0&ou=621298
+                    - strong [ref=f6e246]: "Hwk #4 Nodal Analysis"
+                  - strong [ref=f6e252]: Due on Oct 4, 2026 11:59 PM
+                  - generic [ref=f6e254]:
+                    - strong [ref=f6e259]: Attachments
+                    - generic [ref=f6e261]:
+                      - link "ECE2004 Homework Assignment 4 Nodal Analysis Re..." [ref=f6e262] [cursor=pointer]:
+                        - /url: /d2l/common/viewFile.d2lfile/Database/MzgyOTc2MTQ/ECE2004%20Homework%20Assignment%204%20Nodal%20Analysis%20Rev%20A.pdf?ou=621298
+                      - text: (313.92 KB)
+                - cell [ref=f6e263]:
+                  - link "Not Submitted" [ref=f6e264] [cursor=pointer]:
+                    - /url: /d2l/lms/dropbox/user/folder_submit_files.d2l?db=1228375&grpid=0&isprv=0&bp=0&ou=621298
+                - cell "- / 2" [ref=f6e265]
+                - cell [ref=f6e268]
+              - row [ref=f6e269]:
+                - rowheader [ref=f6e270]:
+                  - link [ref=f6e275] [cursor=pointer]:
+                    - /url: /d2l/lms/dropbox/user/folder_submit_files.d2l?db=1228376&grpid=0&isprv=0&bp=0&ou=621298
+                    - strong [ref=f6e276]: "Hwk #5 Mesh Analysis"
+                  - strong [ref=f6e282]: Due on Oct 8, 2026 11:59 PM
+                  - generic [ref=f6e284]:
+                    - strong [ref=f6e289]: Attachments
+                    - generic [ref=f6e291]:
+                      - link "ECE2004 Homework Assignment 5 Mesh Analysis Rev..." [ref=f6e292] [cursor=pointer]:
+                        - /url: /d2l/common/viewFile.d2lfile/Database/MzgyOTc2MTU/ECE2004%20Homework%20Assignment%205%20Mesh%20Analysis%20Rev%20A.pdf?ou=621298
+                      - text: (260.75 KB)
+                - cell [ref=f6e293]:
+                  - link "Not Submitted" [ref=f6e294] [cursor=pointer]:
+                    - /url: /d2l/lms/dropbox/user/folder_submit_files.d2l?db=1228376&grpid=0&isprv=0&bp=0&ou=621298
+                - cell "- / 2" [ref=f6e295]
+                - cell [ref=f6e298]
+              - row [ref=f6e299]:
+                - rowheader [ref=f6e300]:
+                  - link [ref=f6e305] [cursor=pointer]:
+                    - /url: /d2l/lms/dropbox/user/folder_submit_files.d2l?db=1228377&grpid=0&isprv=0&bp=0&ou=621298
+                    - strong [ref=f6e306]: "Hwk #6 Super Assignment"
+                  - strong [ref=f6e312]: Due on Oct 15, 2026 11:59 PM
+                  - generic [ref=f6e314]:
+                    - strong [ref=f6e319]: Attachments
+                    - generic [ref=f6e321]:
+                      - link "ECE2004 Super Homework.pdf" [ref=f6e322] [cursor=pointer]:
+                        - /url: /d2l/common/viewFile.d2lfile/Database/MzgyOTc2MTY/ECE2004%20Super%20Homework.pdf?ou=621298
+                      - text: (240.64 KB)
+                - cell [ref=f6e323]:
+                  - link "Not Submitted" [ref=f6e324] [cursor=pointer]:
+                    - /url: /d2l/lms/dropbox/user/folder_submit_files.d2l?db=1228377&grpid=0&isprv=0&bp=0&ou=621298
+                - cell "- / 2" [ref=f6e325]
+                - cell [ref=f6e328]
+              - row [ref=f6e329]:
+                - cell "Pre-Lab Questions" [ref=f6e330]
+              - row [ref=f6e332]:
+                - rowheader [ref=f6e333]:
+                  - link [ref=f6e338] [cursor=pointer]:
+                    - /url: /d2l/lms/dropbox/user/folder_submit_files.d2l?db=1245002&grpid=0&isprv=0&bp=0&ou=621298
+                    - strong [ref=f6e339]: Pre-Lab 1 Questions
+                  - strong [ref=f6e345]: Due on Sep 13, 2026 11:59 PM
+                  - generic [ref=f6e347]:
+                    - strong [ref=f6e352]: Attachments
+                    - generic [ref=f6e353]:
+                      - generic [ref=f6e354]:
+                        - link "Lab 1 Pre Lab Questions POSTED Rev A.pdf" [ref=f6e355] [cursor=pointer]:
+                          - /url: /d2l/common/viewFile.d2lfile/Database/Mzg2NjUyMzU/Lab%201%20Pre%20Lab%20Questions%20POSTED%20Rev%20A.pdf?ou=621298
+                        - text: (270.53 KB)
+                      - generic [ref=f6e356]:
+                        - link "Lab 1 Pre Lab Questions POSTED Rev A.docx" [ref=f6e357] [cursor=pointer]:
+                          - /url: /d2l/common/viewFile.d2lfile/Database/Mzg2NjUyMzY/Lab%201%20Pre%20Lab%20Questions%20POSTED%20Rev%20A.docx?ou=621298
+                        - text: (56.05 KB)
+                - cell [ref=f6e358]:
+                  - link "1 Submission, 1 File" [ref=f6e359] [cursor=pointer]:
+                    - /url: /d2l/lms/dropbox/user/folders_history.d2l?db=1245002&grpid=0&isprv=0&bp=0&ou=621298
+                - cell "10 / 10 - A" [ref=f6e360]
+                - cell [ref=f6e363]:
+                  - text: "Feedback:"
+                  - link "Read" [ref=f6e364] [cursor=pointer]:
+                    - /url: /d2l/lms/dropbox/user/folder_user_view_feedback.d2l?db=1245002&grpid=0&isprv=0&bp=0&ou=621298
+              - row [ref=f6e365]:
+                - rowheader [ref=f6e366]:
+                  - link [ref=f6e371] [cursor=pointer]:
+                    - /url: /d2l/lms/dropbox/user/folder_submit_files.d2l?db=1246525&grpid=0&isprv=0&bp=0&ou=621298
+                    - strong [ref=f6e372]: Pre-Lab 2 Questions
+                  - strong [ref=f6e378]: Due on Sep 20, 2026 11:59 PM
+                  - generic [ref=f6e380]:
+                    - strong [ref=f6e385]: Attachments
+                    - generic [ref=f6e386]:
+                      - generic [ref=f6e387]:
+                        - link "Lab 2 Pre Lab Questions POSTED.pdf" [ref=f6e388] [cursor=pointer]:
+                          - /url: /d2l/common/viewFile.d2lfile/Database/Mzg2OTM0Mzc/Lab%202%20Pre%20Lab%20Questions%20POSTED.pdf?ou=621298
+                        - text: (119.95 KB)
+                      - generic [ref=f6e389]:
+                        - link "Lab 2 Pre Lab Questions POSTED.docx" [ref=f6e390] [cursor=pointer]:
+                          - /url: /d2l/common/viewFile.d2lfile/Database/Mzg2OTM0Mzg/Lab%202%20Pre%20Lab%20Questions%20POSTED.docx?ou=621298
+                        - text: (29.85 KB)
+                - cell [ref=f6e391]:
+                  - link "1 Submission, 1 File" [ref=f6e392] [cursor=pointer]:
+                    - /url: /d2l/lms/dropbox/user/folders_history.d2l?db=1246525&grpid=0&isprv=0&bp=0&ou=621298
+                - cell "10 / 10 - A" [ref=f6e393]
+                - cell [ref=f6e396]:
+                  - text: "Feedback:"
+                  - link "Read" [ref=f6e397] [cursor=pointer]:
+                    - /url: /d2l/lms/dropbox/user/folder_user_view_feedback.d2l?db=1246525&grpid=0&isprv=0&bp=0&ou=621298
+              - row [ref=f6e398]:
+                - rowheader [ref=f6e399]:
+                  - link [ref=f6e404] [cursor=pointer]:
+                    - /url: /d2l/lms/dropbox/user/folder_submit_files.d2l?db=1251989&grpid=0&isprv=0&bp=0&ou=621298
+                    - strong [ref=f6e405]: Pre-Lab 3 Questions
+                  - strong [ref=f6e411]: Due on Sep 27, 2026 11:59 PM
+                  - generic [ref=f6e413]:
+                    - strong [ref=f6e418]: Attachments
+                    - generic [ref=f6e420]:
+                      - link "Lab 3 Pre Lab Questions POSTED.docx" [ref=f6e421] [cursor=pointer]:
+                        - /url: /d2l/common/viewFile.d2lfile/Database/Mzg4NzQ1OTU/Lab%203%20Pre%20Lab%20Questions%20POSTED.docx?ou=621298
+                      - text: (150.04 KB)
+                - cell [ref=f6e422]:
+                  - link "1 Submission, 1 File" [ref=f6e423] [cursor=pointer]:
+                    - /url: /d2l/lms/dropbox/user/folders_history.d2l?db=1251989&grpid=0&isprv=0&bp=0&ou=621298
+                - cell "10 / 10 - A" [ref=f6e424]
+                - cell [ref=f6e427]:
+                  - text: "Feedback:"
+                  - link "Read" [ref=f6e428] [cursor=pointer]:
+                    - /url: /d2l/lms/dropbox/user/folder_user_view_feedback.d2l?db=1251989&grpid=0&isprv=0&bp=0&ou=621298
+              - row [ref=f6e429]:
+                - rowheader [ref=f6e430]:
+                  - link [ref=f6e435] [cursor=pointer]:
+                    - /url: /d2l/lms/dropbox/user/folder_submit_files.d2l?db=1255853&grpid=0&isprv=0&bp=0&ou=621298
+                    - strong [ref=f6e436]: Pre-Lab 4 Questions
+                  - strong [ref=f6e442]: Due on Oct 4, 2026 11:59 PM
+                  - generic [ref=f6e444]:
+                    - strong [ref=f6e449]: Attachments
+                    - generic [ref=f6e450]:
+                      - generic [ref=f6e451]:
+                        - link "Lab 4 Pre Lab Questions Posted.pdf" [ref=f6e452] [cursor=pointer]:
+                          - /url: /d2l/common/viewFile.d2lfile/Database/MzkwNDY1MTI/Lab%204%20Pre%20Lab%20%20Questions%20Posted.pdf?ou=621298
+                        - text: (165.69 KB)
+                      - generic [ref=f6e453]:
+                        - link "Lab 4 Pre Lab Questions Posted.docx" [ref=f6e454] [cursor=pointer]:
+                          - /url: /d2l/common/viewFile.d2lfile/Database/MzkwNDY1MTM/Lab%204%20Pre%20Lab%20Questions%20Posted.docx?ou=621298
+                        - text: (21.92 KB)
+                - cell [ref=f6e455]:
+                  - link "Not Submitted" [ref=f6e456] [cursor=pointer]:
+                    - /url: /d2l/lms/dropbox/user/folder_submit_files.d2l?db=1255853&grpid=0&isprv=0&bp=0&ou=621298
+                - cell "- / 10" [ref=f6e457]
+                - cell [ref=f6e460]
+              - row [ref=f6e461]:
+                - cell "Lab" [ref=f6e462]
+              - row [ref=f6e464]:
+                - rowheader [ref=f6e465]:
+                  - link [ref=f6e470] [cursor=pointer]:
+                    - /url: /d2l/lms/dropbox/user/folder_submit_files.d2l?db=1254004&grpid=0&isprv=0&bp=0&ou=621298
+                    - strong [ref=f6e471]: Lab 3 - Resistor Measurement Values
+                  - strong [ref=f6e477]: Due on Oct 2, 2026 11:59 PM
+                - cell [ref=f6e478]:
+                  - link "Not Submitted" [ref=f6e479] [cursor=pointer]:
+                    - /url: /d2l/lms/dropbox/user/folder_submit_files.d2l?db=1254004&grpid=0&isprv=0&bp=0&ou=621298
+                - cell "- / 2" [ref=f6e480]
+                - cell [ref=f6e483]
+          - generic [ref=f6e485]:
+            - generic [ref=f6e486]: Results Per Page
+            - combobox "Results Per Page" [ref=f6e488]:
+              - option "10 per page"
+              - option "20 per page"
+              - option "50 per page"
+              - option "100 per page"
+              - option "200 per page" [selected]

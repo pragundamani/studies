@@ -1,0 +1,380 @@
+[ -581897ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=1&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ -583586ms] [LOG] AnnotoModule - playkit player not found @ https://assets.mediaspace.kaltura.com/5.187.20.1306/public/build0/annoto/asset/annoto-module.js?ver=070afde0274dc6039a8a8949d12a15cd:595
+[ -583585ms] [LOG] AnnotoModule - waiting on kms_playerReady @ https://assets.mediaspace.kaltura.com/5.187.20.1306/public/build0/annoto/asset/annoto-module.js?ver=070afde0274dc6039a8a8949d12a15cd:350
+[ -583585ms] [LOG] AnnotoModule - no dashboard placeholder found @ https://assets.mediaspace.kaltura.com/5.187.20.1306/public/build0/annoto/asset/annoto-module.js?ver=070afde0274dc6039a8a8949d12a15cd:368
+[ -582387ms] [INFO] %c @playkit-js/kaltura-player-js 3.17.102 color: #ff98f9;  font-size: large @ https://cdnapisec.kaltura.com/p/1674401/embedPlaykitJs/uiconf_id/54887362:21
+[ -582387ms] [INFO] %c For more details see https://github.com/kaltura/kaltura-player-js color: #ff98f9; @ https://cdnapisec.kaltura.com/p/1674401/embedPlaykitJs/uiconf_id/54887362:21
+[ -582319ms] [LOG] [Error] Category:7 | Code:7003 | airplay @ https://cdnapisec.kaltura.com/p/1674401/embedPlaykitJs/uiconf_id/54887362:21
+[ -582289ms] [LOG] AnnotoModule - playkitSetupHandle (V7) @ https://assets.mediaspace.kaltura.com/5.187.20.1306/public/build0/annoto/asset/annoto-module.js?ver=070afde0274dc6039a8a8949d12a15cd:540
+[ -582289ms] [LOG] AnnotoModule - playkit plugin boot @ https://assets.mediaspace.kaltura.com/5.187.20.1306/public/build0/annoto/asset/annoto-module.js?ver=070afde0274dc6039a8a8949d12a15cd:554
+[ -581935ms] [LOG] [Error] Category:7 | Code:7003 | airplay @ https://cdnapisec.kaltura.com/p/1674401/embedPlaykitJs/uiconf_id/54887362:21
+[ -581931ms] [LOG] [Error] Category:7 | Code:7003 | airplay @ https://cdnapisec.kaltura.com/p/1674401/embedPlaykitJs/uiconf_id/54887362:21
+[ -581523ms] [WARNING] 2026-10-05T00:34:52.025Z [Unisphere] widget unisphere.widget.in-app-messaging runtime consent is not registered (either ensure it is registered before calling this method or pass option waitAlsoWhenRuntimeNotPreloaded) Object Object @ https://unisphere.nvp1.ovp.kaltura.com/v1/static/workspace/v1.99.0/runtime/index.esm.js:0
+[ -581357ms] [LOG] AnnotoBootstrap:  bootstrap @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ -581357ms] [LOG] AnnotoBootstrap:  start @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ -576417ms] [ERROR] ERROR (20:34:57.131) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ -576417ms] [ERROR] ERROR (20:34:57.132) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ -576417ms] [ERROR] ERROR (20:34:57.132) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ -576416ms] [ERROR] ERROR (20:34:57.132) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ -572417ms] [ERROR] ERROR (20:35:01.131) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ -571241ms] [LOG] event sent @ https://assets.mediaspace.kaltura.com/5.187.20.1306/public/build0/xapi/asset/xapiEventListener.js:361
+[ -567417ms] [ERROR] ERROR (20:35:06.132) [DBAClient]: setGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ -567416ms] [WARNING] (nn) WARN (20:35:06.132) [AnnotoUser] set ga user retry (1):  C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/app-bootstrap-7bd12dde.64a949a5521bfb2f2728.chunk.js:0
+[ -563418ms] [ERROR] ERROR (20:35:10.131) [DBAClient]: setGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ -563417ms] [WARNING] (nn) WARN (20:35:10.131) [AnnotoUser] set ga user retry (2):  C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/app-bootstrap-7bd12dde.64a949a5521bfb2f2728.chunk.js:0
+[ -559418ms] [ERROR] ERROR (20:35:14.131) [DBAClient]: setGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ -559418ms] [WARNING] (nn) WARN (20:35:14.131) [AnnotoUser] set ga user retry (3):  C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/app-bootstrap-7bd12dde.64a949a5521bfb2f2728.chunk.js:0
+[ -555417ms] [ERROR] ERROR (20:35:18.132) [DBAClient]: setGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ -555417ms] [WARNING] (nn) WARN (20:35:18.132) [AnnotoUser] set ga user retry (4):  C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/app-bootstrap-7bd12dde.64a949a5521bfb2f2728.chunk.js:0
+[ -551418ms] [ERROR] ERROR (20:35:22.131) [DBAClient]: setGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ -551418ms] [WARNING] (nn) WARN (20:35:22.131) [AnnotoUser] set ga user retry (5):  C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/app-bootstrap-7bd12dde.64a949a5521bfb2f2728.chunk.js:0
+[ -546418ms] [ERROR] ERROR (20:35:27.131) [DBAClient]: setGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ -546418ms] [WARNING] (nn) WARN (20:35:27.131) [AnnotoUser] set ga user retry (6):  C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/app-bootstrap-7bd12dde.64a949a5521bfb2f2728.chunk.js:0
+[ -545418ms] [WARNING] (nn) WARN (20:35:28.131) [AnnotoUser] Gave up setting session user id @ https://cdn.annoto.net/widget/latest/app-bootstrap-7bd12dde.64a949a5521bfb2f2728.chunk.js:0
+[      36ms] $ is not defined
+[ -580891ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'. @ :0
+[ -580891ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'run-ad-auction'. @ :0
+[ -580891ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'join-ad-interest-group'. @ :0
+[ -580891ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-redemption'. @ :0
+[ -580891ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-issuance'. @ :0
+[ -580891ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'private-aggregation'. @ :0
+[ -580891ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'attribution-reporting'. @ :0
+[ -580390ms] [WARNING] WARN (20:34:53.158) [DBAAgent]: error parsing message: SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at https://dba.eu.annoto.net/dba_agent.bundle.v3_78_0.js:1:59676 @ https://dba.eu.annoto.net/dba_agent.bundle.v3_78_0.js:0
+[ 6684089ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=2&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 6684398ms] [LOG] [Error] Category:3 | Code:3023 | {"name":"bufferStalledError","buffer":0} @ https://cdnapisec.kaltura.com/p/1674401/embedPlaykitJs/uiconf_id/54887362:21
+[ 6684398ms] [LOG] [Error] Category:0 | Code:0 | {"name":"bufferSeekOverHole"} @ https://cdnapisec.kaltura.com/p/1674401/embedPlaykitJs/uiconf_id/54887362:21
+[ 6684401ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=35&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 6684463ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=43&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 6684463ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=3&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 6684463ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 6688760ms] [ERROR] ERROR (22:36:02.309) [DBAClient]: setGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6688760ms] [WARNING] (nn) WARN (22:36:02.309) [AnnotoUser] set ga user retry (1):  C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/app-bootstrap-7bd12dde.64a949a5521bfb2f2728.chunk.js:0
+[ 6691761ms] [ERROR] ERROR (22:36:05.309) [DBAClient]: setGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6691761ms] [WARNING] (nn) WARN (22:36:05.309) [AnnotoUser] set ga user retry (2):  C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/app-bootstrap-7bd12dde.64a949a5521bfb2f2728.chunk.js:0
+[ 6694761ms] [ERROR] ERROR (22:36:08.310) [DBAClient]: setGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6694761ms] [WARNING] (nn) WARN (22:36:08.310) [AnnotoUser] set ga user retry (3):  C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/app-bootstrap-7bd12dde.64a949a5521bfb2f2728.chunk.js:0
+[ 6695470ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 6697762ms] [ERROR] ERROR (22:36:11.310) [DBAClient]: setGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6697762ms] [WARNING] (nn) WARN (22:36:11.311) [AnnotoUser] set ga user retry (4):  C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/app-bootstrap-7bd12dde.64a949a5521bfb2f2728.chunk.js:0
+[ 6698587ms] [ERROR] ERROR (22:36:12.135) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6698587ms] [ERROR] ERROR (22:36:12.135) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6700766ms] [ERROR] ERROR (22:36:14.315) [DBAClient]: setGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6700767ms] [WARNING] (nn) WARN (22:36:14.315) [AnnotoUser] set ga user retry (5):  C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/app-bootstrap-7bd12dde.64a949a5521bfb2f2728.chunk.js:0
+[ 6702695ms] [ERROR] ERROR (22:36:16.243) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6702695ms] [ERROR] ERROR (22:36:16.244) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6703771ms] [ERROR] ERROR (22:36:17.319) [DBAClient]: setGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6703771ms] [WARNING] (nn) WARN (22:36:17.320) [AnnotoUser] set ga user retry (6):  C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/app-bootstrap-7bd12dde.64a949a5521bfb2f2728.chunk.js:0
+[ 6703775ms] [WARNING] (nn) WARN (22:36:17.324) [AnnotoUser] Gave up setting session user id @ https://cdn.annoto.net/widget/latest/app-bootstrap-7bd12dde.64a949a5521bfb2f2728.chunk.js:0
+[ 6704941ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=41&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 6705470ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 6708946ms] [ERROR] ERROR (22:36:22.495) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6708946ms] [ERROR] ERROR (22:36:22.495) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6715470ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 6717835ms] [ERROR] ERROR (22:36:31.384) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6717835ms] [ERROR] ERROR (22:36:31.384) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6724882ms] [ERROR] ERROR (22:36:38.431) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6724882ms] [ERROR] ERROR (22:36:38.431) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6725470ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 6732975ms] [ERROR] ERROR (22:36:46.523) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6732975ms] [ERROR] ERROR (22:36:46.524) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6735470ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 6745471ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 6748116ms] [ERROR] ERROR (22:37:01.664) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6748116ms] [ERROR] ERROR (22:37:01.664) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6751976ms] [ERROR] ERROR (22:37:05.524) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6751976ms] [ERROR] ERROR (22:37:05.525) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6755470ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 6763257ms] [ERROR] ERROR (22:37:16.805) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6763257ms] [ERROR] ERROR (22:37:16.805) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6765470ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 6775470ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 6778397ms] [ERROR] ERROR (22:37:31.945) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6778397ms] [ERROR] ERROR (22:37:31.946) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6785470ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 6793538ms] [ERROR] ERROR (22:37:47.086) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6793538ms] [ERROR] ERROR (22:37:47.086) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6795470ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 6805470ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 6805897ms] [ERROR] ERROR (22:37:59.445) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6805897ms] [ERROR] ERROR (22:37:59.445) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6808678ms] [ERROR] ERROR (22:38:02.226) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6808678ms] [ERROR] ERROR (22:38:02.226) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6815470ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 6823819ms] [ERROR] ERROR (22:38:17.368) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6823819ms] [ERROR] ERROR (22:38:17.368) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6825471ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 6826538ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=11&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 6835470ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 6838959ms] [ERROR] ERROR (22:38:32.508) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6838959ms] [ERROR] ERROR (22:38:32.508) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6845470ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 6854101ms] [ERROR] ERROR (22:38:47.649) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6854101ms] [ERROR] ERROR (22:38:47.649) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6855469ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 6859553ms] [ERROR] ERROR (22:38:53.101) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6859553ms] [ERROR] ERROR (22:38:53.101) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6865470ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 6869241ms] [ERROR] ERROR (22:39:02.789) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6869241ms] [ERROR] ERROR (22:39:02.789) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6875470ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 6884381ms] [ERROR] ERROR (22:39:17.929) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6884381ms] [ERROR] ERROR (22:39:17.930) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6885470ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 6886381ms] [ERROR] ERROR (22:39:19.929) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6886381ms] [ERROR] ERROR (22:39:19.930) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6895470ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 6899521ms] [ERROR] ERROR (22:39:33.070) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6899522ms] [ERROR] ERROR (22:39:33.070) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6905470ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 6913475ms] [ERROR] ERROR (22:39:47.023) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6913475ms] [ERROR] ERROR (22:39:47.024) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6914662ms] [ERROR] ERROR (22:39:48.211) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6914662ms] [ERROR] ERROR (22:39:48.211) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6915470ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 6925470ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 6929803ms] [ERROR] ERROR (22:40:03.352) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6929803ms] [ERROR] ERROR (22:40:03.352) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6935470ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 6940305ms] [ERROR] ERROR (22:40:13.853) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6940305ms] [ERROR] ERROR (22:40:13.853) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6944944ms] [ERROR] ERROR (22:40:18.492) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6944944ms] [ERROR] ERROR (22:40:18.493) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6945470ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 6955470ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 6960084ms] [ERROR] ERROR (22:40:33.632) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6960084ms] [ERROR] ERROR (22:40:33.633) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6960944ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=12&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 6965470ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 6965526ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=33&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 6966867ms] [ERROR] ERROR (22:40:40.415) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6966867ms] [ERROR] ERROR (22:40:40.415) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6970025ms] [ERROR] ERROR (22:40:43.573) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 6970025ms] [ERROR] ERROR (22:40:43.573) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 8804634ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=4&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 8815470ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 8822882ms] [ERROR] ERROR (23:11:36.431) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 8822882ms] [ERROR] ERROR (23:11:36.431) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 8825470ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 8833116ms] [ERROR] ERROR (23:11:46.665) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 8833116ms] [ERROR] ERROR (23:11:46.665) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 8835470ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 8838022ms] [ERROR] ERROR (23:11:51.570) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 8838022ms] [ERROR] ERROR (23:11:51.571) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 8845471ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 8853162ms] [ERROR] ERROR (23:12:06.711) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 8853163ms] [ERROR] ERROR (23:12:06.711) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 8855470ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 8860209ms] [ERROR] ERROR (23:12:13.758) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 8860210ms] [ERROR] ERROR (23:12:13.758) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 8865470ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 8868303ms] [ERROR] ERROR (23:12:21.852) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 8868303ms] [ERROR] ERROR (23:12:21.852) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 8875470ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 8883443ms] [ERROR] ERROR (23:12:36.992) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 8883444ms] [ERROR] ERROR (23:12:36.992) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 8885470ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 8887304ms] [ERROR] ERROR (23:12:40.853) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 8887304ms] [ERROR] ERROR (23:12:40.853) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 8895470ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 8898584ms] [ERROR] ERROR (23:12:52.133) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 8898585ms] [ERROR] ERROR (23:12:52.133) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 8905469ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 8913725ms] [ERROR] ERROR (23:13:07.273) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 8913725ms] [ERROR] ERROR (23:13:07.273) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 8914133ms] [ERROR] ERROR (23:13:07.681) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 8914133ms] [ERROR] ERROR (23:13:07.681) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 8915470ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 8925470ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 8928867ms] [ERROR] ERROR (23:13:22.415) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 8928867ms] [ERROR] ERROR (23:13:22.416) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 8934506ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=13&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 8935470ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 8944007ms] [ERROR] ERROR (23:13:37.555) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 8944007ms] [ERROR] ERROR (23:13:37.556) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 8945470ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 8955470ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 8959147ms] [ERROR] ERROR (23:13:52.695) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 8959147ms] [ERROR] ERROR (23:13:52.696) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 8965470ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 8967787ms] [ERROR] ERROR (23:14:01.336) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 8967788ms] [ERROR] ERROR (23:14:01.336) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 8974288ms] [ERROR] ERROR (23:14:07.837) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 8974288ms] [ERROR] ERROR (23:14:07.837) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 8975470ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 8985470ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 8989428ms] [ERROR] ERROR (23:14:22.977) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 8989428ms] [ERROR] ERROR (23:14:22.977) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 8995470ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 9004568ms] [ERROR] ERROR (23:14:38.117) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 9004569ms] [ERROR] ERROR (23:14:38.117) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 9005470ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 9015257ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=15&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 9015470ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 9019709ms] [ERROR] ERROR (23:14:53.258) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 9019709ms] [ERROR] ERROR (23:14:53.258) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 9021710ms] [ERROR] ERROR (23:14:55.258) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 9021710ms] [ERROR] ERROR (23:14:55.259) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 9025470ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 9034849ms] [ERROR] ERROR (23:15:08.398) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 9034850ms] [ERROR] ERROR (23:15:08.398) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 9035470ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 9045470ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 9048803ms] [ERROR] ERROR (23:15:22.351) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 9048803ms] [ERROR] ERROR (23:15:22.351) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 9049991ms] [ERROR] ERROR (23:15:23.539) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 9049991ms] [ERROR] ERROR (23:15:23.539) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 9055470ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 9064740ms] [ERROR] ERROR (23:15:38.289) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 9064741ms] [ERROR] ERROR (23:15:38.289) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 9065131ms] [ERROR] ERROR (23:15:38.679) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 9065131ms] [ERROR] ERROR (23:15:38.680) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 9065470ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=99&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 9068913ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=14&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 9070318ms] [ERROR] ERROR (23:15:43.866) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 9070318ms] [ERROR] ERROR (23:15:43.867) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 9071551ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://analytics.kaltura.com/api_v3/index.php?service=analytics&action=trackEvent&eventType=33&partnerId=1674401&entryId=1_9ji3ae2q&sessionId=3824541c-c673-340b-4edd-f6668e032b60%3A0ab76534-62bf-34b7-c9fa-0ff21f5702bf:0
+[ 9076047ms] [ERROR] ERROR (23:15:49.596) [DBAClient]: getSessionId: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
+[ 9076048ms] [ERROR] ERROR (23:15:49.596) [DBAClient]: getGaUser: C: Operation timed out
+    at https://cdn.annoto.net/widget/latest/bootstrap.js:1:76342 @ https://cdn.annoto.net/widget/latest/bootstrap.js:0
