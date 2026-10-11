@@ -1,0 +1,89 @@
+- generic [active] [ref=f36e1]:
+  - generic [ref=f36e2]:
+    - banner [ref=f36e3]:
+      - navigation "Main" [ref=f36e4]:
+        - generic [ref=f36e5]:
+          - generic [ref=f36e12]:
+            - generic [ref=f36e13]: Pragun Damani
+            - list [ref=f36e16]:
+              - listitem [ref=f36e17]:
+                - link "Profile" [ref=f36e20] [cursor=pointer]:
+                  - /url: /d2l/lp/profile/profile_edit.d2l?ou=6606
+              - listitem [ref=f36e21]:
+                - link "Notifications" [ref=f36e23] [cursor=pointer]:
+                  - /url: /d2l/Notifications/Settings?ou=6606
+              - listitem [ref=f36e24]:
+                - link "Account Settings" [ref=f36e26] [cursor=pointer]:
+                  - /url: /d2l/lp/preferences/preferences_main/preferences_main.d2l?ou=6606
+              - listitem [ref=f36e27]:
+                - link "English (United States)" [ref=f36e29] [cursor=pointer]:
+                  - /url: javascript:void(0);
+              - listitem [ref=f36e30]:
+                - link "Log Out" [ref=f36e32] [cursor=pointer]:
+                  - /url: javascript:void(0);
+          - list [ref=f36e36]:
+            - listitem [ref=f36e37]:
+              - link "Calendar" [ref=f36e38] [cursor=pointer]:
+                - /url: /d2l/le/calendar/6606
+            - listitem [ref=f36e39]:
+              - link "Announcements" [ref=f36e40] [cursor=pointer]:
+                - /url: /d2l/lms/news/main.d2l?ou=6606
+            - listitem [ref=f36e41]:
+              - link "Quick Eval" [ref=f36e42] [cursor=pointer]:
+                - /url: /d2l/le/6606/quickeval/
+            - listitem [ref=f36e43]:
+              - link "NYU Bookstore" [ref=f36e44] [cursor=pointer]:
+                - /url: /d2l/common/dialogs/quickLink/quickLink.d2l?ou=6606&type=lti&rcode=438126FB-CB7E-4012-84DC-B926D628DF2A-2779224&srcou=6606
+            - listitem [ref=f36e45]:
+              - button "Help" [ref=f36e47]
+            - listitem [ref=f36e51]:
+              - link "Course Feedback" [ref=f36e52] [cursor=pointer]:
+                - /url: /d2l/common/dialogs/quickLink/quickLink.d2l?ou=6606&type=lti&rcode=438126FB-CB7E-4012-84DC-B926D628DF2A-2562815&srcou=6606
+            - listitem [ref=f36e53]:
+              - button "More" [ref=f36e55]
+    - generic [ref=f36e65]:
+      - region "Course Resources" [ref=f36e67]:
+        - generic [ref=f36e68]:
+          - heading "Course Resources" [level=2]
+      - generic [ref=f36e73]:
+        - generic:
+          - region [ref=f36e75]:
+            - heading "My Courses" [level=2] [ref=f36e78]
+          - generic [ref=f36e81]:
+            - region [ref=f36e82]:
+              - link [ref=f36e85] [cursor=pointer]:
+                - /url: /d2l/lms/news/main.d2l?ou=6606
+                - heading "Announcements" [level=2] [ref=f36e86]
+              - generic [ref=f36e89]: Loading...
+            - region [ref=f36e92]:
+              - link [ref=f36e95] [cursor=pointer]:
+                - /url: /d2l/le/calendar/6606
+                - heading "Calendar" [level=2] [ref=f36e96]
+              - generic [ref=f36e99]: Loading...
+            - region "D2L Homepage Notifications Setting" [ref=f36e102]:
+              - generic [ref=f36e103]:
+                - heading "D2L Homepage Notifications Setting" [level=2]
+              - generic [ref=f36e108]:
+                - paragraph
+                - paragraph [ref=f36e109]: Are you receiving Email notifications from Brightspace?
+                - generic [ref=f36e110]:
+                  - table
+                  - row [ref=f36e111]:
+                    - rowheader "New Announcement" [ref=f36e112]
+                    - cell [ref=f36e113]:
+                      - img "On" [ref=f36e115]
+                  - row [ref=f36e116]:
+                    - rowheader "Updated Announcement" [ref=f36e117]
+                    - cell [ref=f36e118]:
+                      - img "On" [ref=f36e120]
+                - paragraph [ref=f36e121]:
+                  - link "Update your Notification Settings" [ref=f36e122] [cursor=pointer]:
+                    - /url: /d2l/Notifications/Settings?ou=6606
+                - paragraph
+            - region "Feedback - Course Offerings" [ref=f36e123]:
+              - generic [ref=f36e124]:
+                - heading "Feedback - Course Offerings" [level=2]
+  - contentinfo [ref=f36e129]:
+    - paragraph [ref=f36e131]:
+      - text: Powered by
+      - generic [ref=f36e132]: D2L Brightspace

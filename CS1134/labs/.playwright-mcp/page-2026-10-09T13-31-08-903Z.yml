@@ -1,0 +1,41 @@
+- generic [ref=f31e2]:
+  - generic [ref=f31e3]:
+    - generic [ref=f31e6]:
+      - generic [ref=f31e8]:
+        - heading "Office of Student Advocacy Request Form" [level=1] [ref=f31e12]
+        - generic [ref=f31e14]:
+          - generic [ref=f31e15]:
+            - generic [ref=f31e18]:
+              - text: pd2752@nyu.edu
+              - link "Switch account" [ref=f31e19] [cursor=pointer]:
+                - /url: https://accounts.google.com/AccountChooser?continue=https://docs.google.com/forms/d/e/1FAIpQLSeKZ5o47mYztrgtCOlBoDyesKepBBjhSJ3veiqpPc1ae6USBg/formResponse&service=wise
+            - generic [ref=f31e20] [cursor=pointer]
+          - generic [ref=f31e23]: The name, email, and photo associated with your Google account will be recorded when you upload files and submit this form
+      - list [ref=f31e24]:
+        - listitem [ref=f31e25]:
+          - heading "Submit Request" [level=2] [ref=f31e26]
+          - generic [ref=f31e29]:
+            - generic [ref=f31e30]: Please review the information you input and ensure this form is accurately filled out to completion.
+            - generic [ref=f31e32]: Please refrain from submitting multiple forms for the same request.
+      - generic [ref=f31e33]:
+        - generic [ref=f31e34]:
+          - generic [ref=f31e35]:
+            - button "Back" [ref=f31e36] [cursor=pointer]
+            - button "Submit" [ref=f31e40] [cursor=pointer]
+          - button "Clear form" [ref=f31e45] [cursor=pointer]
+        - generic [ref=f31e49]: Never submit passwords through Google Forms.
+    - generic [ref=f31e50]:
+      - generic [ref=f31e51]:
+        - text: This form was created inside of New York University. -
+        - button "Contact form owner" [ref=f31e52]
+        - paragraph [ref=f31e53]:
+          - text: Does this form look suspicious?
+          - link "Report" [ref=f31e54] [cursor=pointer]:
+            - /url: https://docs.google.com/forms/u/0/d/e/1FAIpQLSeKZ5o47mYztrgtCOlBoDyesKepBBjhSJ3veiqpPc1ae6USBg/abuse
+      - link [ref=f31e56] [cursor=pointer]:
+        - /url: //www.google.com/forms/about/?utm_source=product&utm_medium=forms_logo&utm_campaign=forms
+        - img "Google" [ref=f31e57]
+        - text: Forms
+  - generic [ref=f31e61]:
+    - button "help and feedback" [ref=f31e62] [cursor=pointer]
+    - tooltip [aria-hidden] [ref=f31e65]: Help and feedback

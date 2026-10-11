@@ -1,0 +1,17 @@
+[     169ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'. @ :0
+[     169ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'run-ad-auction'. @ :0
+[     169ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'join-ad-interest-group'. @ :0
+[     169ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-redemption'. @ :0
+[     169ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-issuance'. @ :0
+[     169ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'private-aggregation'. @ :0
+[     169ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'attribution-reporting'. @ :0
+[     257ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://ng.cengage.com/static/nb/ui/evo/ruxitagentjs_ICANVfhqru_10347260902154543.js:0
+[     787ms] [WARNING] %cnextbook_util%c %cThis gravity well has been deprecated!  Please avoid using it.%c color:#CB4B16; font-weight:bold; color:inherit; font-weight:bold; color:inherit;  @ https://ng.cengage.com/static/nbreader/ui/apps/nbreader/production.js?v=1:262
+[     974ms] [ERROR] Failed to load resource: the server responded with a status of 406 () @ https://ng.cengage.com/nbreader/service/Contents/assetProperties/undefined:0
+[    1007ms] TypeError: Cannot read properties of undefined (reading 'readingId')
+    at r (https://ng.cengage.com/static/nbreader/ui/apps/nbreader/production.js?v=1:279:17378)
+    at https://ng.cengage.com/static/nbreader/ui/apps/nbreader/production.js?v=1:265:12803
+[    1088ms] [ERROR] Failed to load resource: the server responded with a status of 406 () @ https://ng.cengage.com/nbreader/service/Contents/assetProperties/undefined:0
+[    1089ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://ng.cengage.com/static/nbreader/ui/apps/nbreader/undefined/nb/service/appAction/snapshot/undefined/annotationBundle.js:0
+[    1089ms] [ERROR] Refused to execute script from 'https://ng.cengage.com/static/nbreader/ui/apps/nbreader/undefined/nb/service/appAction/snapshot/undefined/annotationBundle.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled. @ https://ng.cengage.com/static/nbreader/ui/apps/nbreader/nbreader.html#!&tocId=639bf163ba1db51beb982a13%3Factivity.id%3D464517724&timestamp=1791321939592:0
+[ 3652697ms] [ERROR] Failed to load resource: the server responded with a status of 406 () @ https://ng.cengage.com/nbreader/service/Contents/reading/simpletoc/639bf163ba1db51beb982a13:0

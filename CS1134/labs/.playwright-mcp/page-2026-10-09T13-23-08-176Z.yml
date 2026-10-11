@@ -1,0 +1,184 @@
+- generic [ref=f53e1]:
+  - generic [ref=f53e2]:
+    - banner [ref=f53e3]:
+      - navigation "Main" [ref=f53e4]:
+        - generic [ref=f53e5]:
+          - link "skip to main content" [ref=f53e6] [cursor=pointer]:
+            - /url: javascript:void(0);
+          - generic:
+            - generic [ref=f53e11]:
+              - link "My Home" [ref=f53e15] [cursor=pointer]:
+                - /url: /d2l/lp/ouHome/defaultHome.d2l
+                - img "My Home" [ref=f53e18]
+              - generic [ref=f53e19]:
+                - button "Select a course..." [ref=f53e22] [cursor=pointer]
+                - generic [ref=f53e28]:
+                  - button "Message alerts" [ref=f53e31] [cursor=pointer]
+                  - button "Subscription alerts" [ref=f53e36] [cursor=pointer]
+                  - generic [ref=f53e40]:
+                    - button "Update alerts" [ref=f53e41] [cursor=pointer]
+                    - generic: Update alerts - You have new alerts
+                - button "Pragun Damani, avatar" [ref=f53e51] [cursor=pointer]:
+                  - generic [ref=f53e53]:
+                    - generic [ref=f53e55]: PD
+                    - generic [ref=f53e56]: Pragun Damani
+                - button "Admin Tools" [ref=f53e59] [cursor=pointer]
+            - list [ref=f53e66]:
+              - listitem [ref=f53e67]:
+                - link "Calendar" [ref=f53e68] [cursor=pointer]:
+                  - /url: /d2l/le/calendar/6606
+              - listitem [ref=f53e69]:
+                - link "Announcements" [ref=f53e70] [cursor=pointer]:
+                  - /url: /d2l/lms/news/main.d2l?ou=6606
+              - listitem [ref=f53e71]:
+                - link "Quick Eval" [ref=f53e72] [cursor=pointer]:
+                  - /url: /d2l/le/6606/quickeval/
+              - listitem [ref=f53e73]:
+                - link "NYU Bookstore" [ref=f53e74] [cursor=pointer]:
+                  - /url: /d2l/common/dialogs/quickLink/quickLink.d2l?ou=6606&type=lti&rcode=438126FB-CB7E-4012-84DC-B926D628DF2A-2779224&srcou=6606
+              - listitem [ref=f53e75]:
+                - button "Help" [ref=f53e77]
+              - listitem [ref=f53e81]:
+                - link "Course Feedback" [ref=f53e82] [cursor=pointer]:
+                  - /url: /d2l/common/dialogs/quickLink/quickLink.d2l?ou=6606&type=lti&rcode=438126FB-CB7E-4012-84DC-B926D628DF2A-2562815&srcou=6606
+    - main [ref=f53e83]:
+      - generic [ref=f53e87]:
+        - generic:
+          - generic:
+            - heading "Welcome to NYU Brightspace, Pragun" [level=1]
+      - generic [ref=f53e91]:
+        - region "Course Resources" [ref=f53e93]:
+          - generic [ref=f53e94]:
+            - heading "Course Resources" [level=2]
+          - generic [ref=f53e102]:
+            - heading [level=2] [ref=f53e103]:
+              - strong [ref=f53e104]
+              - text: Starting with January Term 2026, all course sites will be
+              - strong [ref=f53e105]: automatically
+              - text: created, but instructors must still
+              - link "make sites ACTIVE" [ref=f53e106] [cursor=pointer]:
+                - /url: https://support.nyu.edu/esc?id=kb_article&sysparm_article=KB0011423
+              - text: .
+            - paragraph [ref=f53e107]:
+              - generic [ref=f53e108]:
+                - text: To
+                - strong [ref=f53e109]: MERGE COURSE SITES
+                - text: ", click the"
+                - link "Merge Course Sites" [ref=f53e110] [cursor=pointer]:
+                  - /url: https://support.nyu.edu/esc?id=kb_article&sysparm_article=KB0013093
+                - text: tool in the top navbar.
+            - paragraph [ref=f53e111]:
+              - generic [ref=f53e112]:
+                - text: To
+                - strong [ref=f53e113]: REUSE EXISTING CONTENT
+                - text: ", use the"
+                - link "Copy from Another Site" [ref=f53e114] [cursor=pointer]:
+                  - /url: https://support.nyu.edu/esc?id=kb_article&sysparm_article=KB0011387
+                - text: tool.
+            - paragraph [ref=f53e115]:
+              - generic [ref=f53e116]:
+                - strong [ref=f53e117]: GET TRAINING
+                - text: ": Review the"
+                - link "Getting Started page" [ref=f53e118] [cursor=pointer]:
+                  - /url: https://www.nyu.edu/life/information-technology/teaching-and-learning-services/instructional-tools/nyu-lms-brightspace.html
+                - text: or sign up for a
+                - link "consultation/workshop" [ref=f53e119] [cursor=pointer]:
+                  - /url: https://www.nyu.edu/life/information-technology/teaching-and-learning-services/instructional-tools/nyu-lms-brightspace/faculty-training-lms-brightspace.html#Workshops
+                - text: .
+        - generic [ref=f53e120]:
+          - generic:
+            - region [ref=f53e122]:
+              - heading "My Courses" [level=2] [ref=f53e125]
+              - generic [ref=f53e131]:
+                - generic [ref=f53e133]:
+                  - tablist [ref=f53e135]:
+                    - generic:
+                      - tab "All" [ref=f53e136]
+                      - tab "ARCHIVE SP26" [ref=f53e140]
+                      - tab "2026 Spring" [ref=f53e144]
+                      - tab "2026 J-Term" [ref=f53e148]
+                      - tab "2026 Fall" [selected] [ref=f53e152]
+                      - tab "2025 Fall" [ref=f53e157]
+                      - tab "_Project Sites" [ref=f53e161]
+                  - button "Scroll Forward" [ref=f53e166] [cursor=pointer]
+                - tabpanel "2026 Fall" [ref=f53e170]
+            - generic [ref=f53e194]:
+              - region [ref=f53e195]:
+                - generic [ref=f53e196]:
+                  - link [ref=f53e198] [cursor=pointer]:
+                    - /url: /d2l/lms/news/main.d2l?ou=6606
+                    - heading "Announcements" [level=2] [ref=f53e199]
+                  - button "Actions for Announcements" [ref=f53e203] [cursor=pointer]
+                - generic [ref=f53e211]:
+                  - list [ref=f53e213]:
+                    - listitem [ref=f53e214]:
+                      - generic [ref=f53e215]:
+                        - heading [level=3] [ref=f53e216]:
+                          - link "NYU Brightspace Overview" [ref=f53e217] [cursor=pointer]:
+                            - /url: /d2l/le/news/6606/27815/view
+                        - button "Dismiss NYU Brightspace Overview from widget" [ref=f53e218] [cursor=pointer]
+                        - generic [ref=f53e223]:
+                          - paragraph [ref=f53e224]: "Please watch the following brief video to learn the basics of navigating in NYU Brightspace:"
+                          - paragraph [ref=f53e225]:
+                            - iframe [ref=f53e226]
+                            - link "Navigate NYU Brightspace (YouTube)" [ref=f53e227] [cursor=pointer]:
+                              - /url: https://youtu.be/Qds9sUuDA38
+                          - paragraph [ref=f53e228]:
+                            - text: To learn more, view the
+                            - link "Faculty Help Guide" [ref=f53e229] [cursor=pointer]:
+                              - /url: https://www.nyu.edu/servicelink/KB0018614
+                            - text: /
+                            - link "Student Help Guide" [ref=f53e230] [cursor=pointer]:
+                              - /url: https://www.nyu.edu/servicelink/KB0018617
+                            - text: (also located in the top navigation bar under "Help") and visit
+                            - link "nyu.edu/it/lms" [ref=f53e231] [cursor=pointer]:
+                              - /url: http://nyu.edu/it/lms
+                            - text: .
+                  - link "Show All Announcements" [ref=f53e232] [cursor=pointer]:
+                    - /url: /d2l/lms/news/main.d2l?ou=6606
+              - region [ref=f53e233]:
+                - generic [ref=f53e234]:
+                  - link [ref=f53e236] [cursor=pointer]:
+                    - /url: /d2l/le/calendar/6606
+                    - heading "Calendar" [level=2] [ref=f53e237]
+                  - button "Actions for Calendar" [ref=f53e241] [cursor=pointer]
+                - generic [ref=f53e248]:
+                  - heading [level=3] [ref=f53e253] [cursor=pointer]:
+                    - button "Friday, October 9, 2026" [ref=f53e254]
+                  - generic [ref=f53e261]:
+                    - heading [level=3] [ref=f53e264] [cursor=pointer]:
+                      - button "Upcoming events" [expanded] [ref=f53e265]
+                    - paragraph [ref=f53e277]: There are no events to display.
+              - region "D2L Homepage Notifications Setting" [ref=f53e278]:
+                - generic [ref=f53e279]:
+                  - heading "D2L Homepage Notifications Setting" [level=2]
+                - generic [ref=f53e286]:
+                  - paragraph
+                  - paragraph [ref=f53e287]: Are you receiving Email notifications from Brightspace?
+                  - generic [ref=f53e288]:
+                    - table
+                    - row [ref=f53e289]:
+                      - rowheader "New Announcement" [ref=f53e290]
+                      - cell [ref=f53e291]:
+                        - img "On" [ref=f53e293]
+                    - row [ref=f53e294]:
+                      - rowheader "Updated Announcement" [ref=f53e295]
+                      - cell [ref=f53e296]:
+                        - img "On" [ref=f53e298]
+                  - paragraph [ref=f53e299]:
+                    - link "Update your Notification Settings" [ref=f53e300] [cursor=pointer]:
+                      - /url: /d2l/Notifications/Settings?ou=6606
+                  - paragraph
+              - region "Feedback - Course Offerings" [ref=f53e301]:
+                - generic [ref=f53e302]:
+                  - heading "Feedback - Course Offerings" [level=2]
+                - generic [ref=f53e310]:
+                  - paragraph [ref=f53e311]: Do you have feedback regarding the usability of the system?
+                  - paragraph [ref=f53e312]:
+                    - link [ref=f53e313] [cursor=pointer]:
+                      - /url: https://docs.google.com/forms/d/e/1FAIpQLSccDpNqVExvUSk1PoNJ90ZfDQoNSRdpPrbd-Kx49Njwq3Wxvw/viewform
+                      - button "Provide your feedback" [ref=f53e314]
+  - contentinfo [ref=f53e315]:
+    - paragraph [ref=f53e317]:
+      - text: Powered by
+      - generic [ref=f53e318]: D2L Brightspace

@@ -1,0 +1,531 @@
+- generic [ref=e1]:
+  - generic [ref=e5]:
+    - generic [ref=e8]:
+      - generic [ref=e9]:
+        - paragraph [ref=e14]: Pragun
+        - button "Expand Button" [ref=e17] [cursor=pointer]
+      - navigation [ref=e21]:
+        - generic [ref=e22]:
+          - list "Main Menu" [ref=e24]:
+            - listitem [ref=e25]:
+              - link "HOME" [ref=e27] [cursor=pointer]:
+                - /url: https://www.cengage.com/dashboard/home
+            - listitem [ref=e30]:
+              - link "PROFILE" [ref=e32] [cursor=pointer]:
+                - /url: https://account.cengage.com/profile/profile-data
+            - listitem [ref=e35]:
+              - link "ORDERS" [ref=e37] [cursor=pointer]:
+                - /url: https://www.cengage.com/dashboard/my-orders
+            - listitem [ref=e40]:
+              - link "RENTALS" [ref=e42] [cursor=pointer]:
+                - /url: https://www.cengage.com/dashboard/rentals
+            - listitem [ref=e45]:
+              - button "COURSES" [ref=e48] [cursor=pointer]
+          - list "Study tools and tips" [ref=e54]:
+            - listitem [ref=e55]:
+              - link "Study Tools" [ref=e57] [cursor=pointer]:
+                - /url: https://www.cengage.com/dashboard/explore-catalog
+            - listitem [ref=e60]:
+              - link "College Success Tips" [ref=e62] [cursor=pointer]:
+                - /url: https://www.cengage.com/dashboard/college-success
+            - listitem [ref=e65]:
+              - link "Career Success Tips" [ref=e67] [cursor=pointer]:
+                - /url: https://www.cengage.com/dashboard/career-center
+          - list "Help" [ref=e71]:
+            - listitem [ref=e72]:
+              - link "Help" [ref=e74] [cursor=pointer]:
+                - /url: https://cengageorg.my.site.com/Service/s/
+        - link [ref=e78] [cursor=pointer]
+    - generic [ref=e82]:
+      - navigation "Mindtap menu" [ref=e85]:
+        - img "Cengage MindTap" [ref=e87]
+        - generic [ref=e88]:
+          - text: 
+          - button "Search this course" [ref=e89] [cursor=pointer]:
+            - generic [ref=e90]:
+              - generic [ref=e91]: 
+              - text: Search this course
+          - text:  
+          - generic [ref=e92]:
+            - generic [ref=e94]:
+              - button " Help & Info" [ref=e95] [cursor=pointer]:
+                - generic [ref=e96]:
+                  - generic [ref=e97]: 
+                  - generic [ref=e98]: Help & Info
+              - text:    
+            - text:     
+      - generic [ref=e100]:
+        - generic [ref=e312]:
+          - generic [ref=e313]:
+            - 'heading "Chapter 4: Elementary Number Theory and Methods of Proof" [level=1] [ref=e314]'
+            - 'button "Close Chapter 4: Elementary Number Theory and Methods of Proof" [ref=e315] [cursor=pointer]':
+              - generic [ref=e316]: 
+          - iframe [ref=e319]:
+            - generic [ref=f3e2]:
+              - generic [ref=f3e3]:
+                - button "Chapter contents" [ref=f3e3428] [cursor=pointer]
+                - generic [ref=f3e4]:
+                  - button "Listen to this page using ReadSpeaker" [ref=f3e10]
+                  - button "Fonts menu" [ref=f3e11] [cursor=pointer]
+                  - generic "Bookmark this Page" [ref=f3e14] [cursor=pointer]:
+                    - button "Bookmark" [ref=f3e15]
+                  - button "Print" [ref=f3e17] [cursor=pointer]
+                  - button "Help" [ref=f3e18] [cursor=pointer]:
+                    - generic [ref=f3e19]: help
+                - generic:
+                  - link "Main content" [ref=f3e20] [cursor=pointer]:
+                    - /url: "#header"
+                  - button "Previous Page" [ref=f3e255] [cursor=pointer]:
+                    - generic [ref=f3e256]: 
+                  - button "Next Page" [ref=f3e21] [cursor=pointer]:
+                    - generic [ref=f3e22]: 
+                - document [ref=f3e23]:
+                  - generic [ref=f3e3431]:
+                    - heading "Exercise Set 4.2" [level=1] [ref=f3e3433]
+                    - generic "practice quiz" [ref=f3e3437]:
+                      - generic "instructions" [ref=f3e3438]:
+                        - paragraph [ref=f3e3439]:
+                          - text: Prove the statements in
+                          - link "1" [ref=f3e3440] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "2" [ref=f3e3441] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "3" [ref=f3e3442] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "4" [ref=f3e3443] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "5" [ref=f3e3444] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "6" [ref=f3e3445] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "7" [ref=f3e3446] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "8" [ref=f3e3447] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "9" [ref=f3e3448] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "10" [ref=f3e3449] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ", and"
+                          - link "11" [ref=f3e3450] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: . In each case use only the definitions of the terms and the
+                          - link "Assumptions" [ref=f3e3451] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: listed, not any previously established properties of odd and even integers. Follow the directions given in this section for writing proofs of universal statements.
+                      - list "short answer questions" [ref=f3e3452]:
+                        - listitem [ref=f3e3453]:
+                          - paragraph [ref=f3e3454]: For every integer , if is odd then is even.
+                          - generic [ref=f3e3473] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f3e3474]:
+                              - text: "Proof: Suppose is any"
+                              - emphasis [ref=f3e3480]: "[particular but arbitrarily chosen]"
+                              - text: odd integer.
+                            - paragraph [ref=f3e3481]:
+                              - emphasis [ref=f3e3482]: "[We must show that"
+                              - emphasis [ref=f3e3491]: is even. By definition of even, this means we must show that
+                              - text: .
+                              - emphasis [ref=f3e3517]: "]"
+                            - paragraph [ref=f3e3518]: By definition of odd, for some integer .
+                            - paragraph [ref=f3e3534]: Then
+                            - paragraph [ref=f3e3535]:
+                              - emphasis [ref=f3e3536]: "[Idea for the rest of the proof: We want to show that"
+                              - text: .
+                              - emphasis [ref=f3e3562]: At this point we know that
+                              - text: .
+                              - emphasis [ref=f3e3579]: So is
+                              - emphasis [ref=f3e3588]: an integer? Yes, because products and sums of integers are integers.]
+                            - paragraph [ref=f3e3589]: Let .
+                            - paragraph [ref=f3e3600]: Then , and is an integer because products and sums of integers are integers. Hence is even by definition of even.
+                        - listitem [ref=f3e3633]:
+                          - paragraph [ref=f3e3634]: For every integer , if is even then is odd.
+                        - listitem [ref=f3e3653]:
+                          - paragraph [ref=f3e3654]: For every integer , is odd.
+                          - generic [ref=f3e3668] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f3e3669]:
+                              - emphasis [ref=f3e3670]: "Hint:"
+                              - text: To show that an integer is odd, you need to show that it equals .
+                        - listitem [ref=f3e3693]:
+                          - paragraph [ref=f3e3694]:
+                            - strong [ref=f3e3695]: "Theorem 4.2.2:"
+                            - text: The difference of any even integer minus any odd integer is odd.
+                          - generic [ref=f3e3696] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f3e3697]:
+                              - emphasis [ref=f3e3698]: Two versions of a correct proof are given below to illustrate some of the variety that is possible
+                              - text: .
+                            - paragraph [ref=f3e3699]:
+                              - text: "Proof 1: Suppose is any even integer and is any odd integer."
+                              - emphasis [ref=f3e3710]: "[We must show that"
+                              - emphasis [ref=f3e3718]: is odd.]
+                              - text: By definition of even and odd, and for some integers and . By substitution and algebra,
+                            - paragraph [ref=f3e3747]:
+                              - text: Let . Then is an integer because differences of integers are integers. Thus , where is an integer, and so, by definition of odd, is odd
+                              - emphasis [ref=f3e3788]: "[as was to be shown]"
+                              - text: .
+                            - paragraph [ref=f3e3789]: "Proof 2: Suppose is any even integer and is any odd integer. By definition of even and odd, and for some integers and . Then"
+                            - paragraph [ref=f3e3828]: Now is an integer because differences of integers are integers, and so equals twice some integer plus . Thus is odd.
+                        - listitem [ref=f3e3857]:
+                          - paragraph [ref=f3e3858]: If and are any odd integers, then is even.
+                        - listitem [ref=f3e3879]:
+                          - paragraph [ref=f3e3880]: If is any odd integer and is any even integer, then is odd.
+                          - generic [ref=f3e3901] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f3e3902]:
+                              - text: "Proof: Suppose is any odd integer and is any even integer."
+                              - emphasis [ref=f3e3913]: "[We must show that"
+                              - emphasis [ref=f3e3924]: is odd.]
+                              - text: By definition of odd and even, and for some integers and . Then
+                            - paragraph [ref=f3e3953]:
+                              - text: But is an integer because it is a sum of products of integers. Thus is twice an integer plus , and so is odd
+                              - emphasis [ref=f3e3995]: "[as was to be shown]"
+                              - text: .
+                        - listitem [ref=f3e3996]:
+                          - paragraph [ref=f3e3997]: The difference between the squares of any two consecutive integers is odd.
+                          - generic [ref=f3e3998] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f3e3999]:
+                              - emphasis [ref=f3e4000]: "Hint:"
+                              - text: It is convenient to represent two consecutive integers as and or as and for some integer .
+                        - listitem [ref=f3e4030]:
+                          - paragraph [ref=f3e4031]: For any integers and , if is even and is odd then is odd.
+                        - listitem [ref=f3e4061]:
+                          - paragraph [ref=f3e4062]: If an integer greater than is a perfect square, then the immediately preceding integer is not prime.
+                        - listitem [ref=f3e4068]:
+                          - paragraph [ref=f3e4069]: If is any even integer, then .
+                          - generic [ref=f3e4086] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f3e4087]: "Proof: Suppose is any even integer. Then for some integer . Hence"
+                            - paragraph [ref=f3e4106]:
+                              - emphasis [ref=f3e4107]: "[by the laws of exponents from algebra]"
+                              - text: . This is what was to be shown.
+                        - listitem [ref=f3e4108]:
+                          - paragraph [ref=f3e4109]: If is any odd integer, then .
+                      - generic "instructions" [ref=f3e4127]:
+                        - paragraph [ref=f3e4128]:
+                          - text: Prove that the statements in
+                          - link "12" [ref=f3e4129] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "13" [ref=f3e4130] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ", and"
+                          - link "14" [ref=f3e4131] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: are false.
+                      - list "short answer questions" [ref=f3e4132]:
+                        - listitem [ref=f3e4133]:
+                          - paragraph [ref=f3e4134]: There exists an integer such that is prime.
+                          - generic [ref=f3e4150] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f3e4151]: To prove the given statement is false, we prove that its negation is true.
+                            - paragraph [ref=f3e4152]: The negation of the statement is “For every integer , is not prime.”
+                            - paragraph [ref=f3e4168]:
+                              - emphasis [ref=f3e4169]: "Proof of the negation:"
+                              - text: Suppose is any integer with . By basic algebra, . Because , both and are positive integers greater than , and each is smaller than . So is a product of two smaller positive integers, each greater than , and hence is not prime.
+                        - listitem [ref=f3e4256]:
+                          - paragraph [ref=f3e4257]: There exists an integer such that is prime.
+                        - listitem [ref=f3e4275]:
+                          - paragraph [ref=f3e4276]: There exists an integer such that is prime.
+                      - generic "instructions" [ref=f3e4297]:
+                        - paragraph [ref=f3e4298]:
+                          - text: Find the mistakes in the “proofs” shown in
+                          - link "15" [ref=f3e4299] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "16" [ref=f3e4300] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "17" [ref=f3e4301] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "18" [ref=f3e4302] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ", and"
+                          - link "19" [ref=f3e4303] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: .
+                      - list "short answer questions" [ref=f3e4304]:
+                        - listitem [ref=f3e4305]:
+                          - paragraph [ref=f3e4306]:
+                            - strong [ref=f3e4307]: "Theorem:"
+                            - text: For every integer , if then is composite.
+                          - paragraph [ref=f3e4331]:
+                            - text: “
+                            - strong [ref=f3e4332]: "Proof:"
+                            - text: For , and . And since , then is composite. Hence the theorem is true.”
+                          - generic [ref=f3e4384] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f3e4385]:
+                              - text: The incorrect proof just shows the theorem to be true in the one case where . A real proof must show that it is true for
+                              - emphasis [ref=f3e4393]: every
+                              - text: integer .
+                        - listitem [ref=f3e4401]:
+                          - paragraph [ref=f3e4402]:
+                            - strong [ref=f3e4403]: "Theorem:"
+                            - text: The difference between any odd integer and any even integer is odd.
+                          - paragraph [ref=f3e4404]:
+                            - text: “
+                            - strong [ref=f3e4405]: "Proof:"
+                            - text: Suppose is any odd integer, and is any even integer. By definition of odd, where is an integer, and by definition of even, where is an integer. Then
+                          - paragraph [ref=f3e4467]: and is odd. Therefore, the difference between any odd integer and any even integer is odd.”
+                          - generic [ref=f3e4473] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f3e4474]: The mistake in the “proof” is that the same symbol, , is used to represent two different quantities. By setting and , the proof implies that , and thus it deduces the conclusion only for this one situation. When and , for instance, the computations in the proof indicate that , but actually . In other words, the proof does not deduce the conclusion for an arbitrarily chosen even integer and odd integer , and hence it is invalid.
+                        - listitem [ref=f3e4553]:
+                          - paragraph [ref=f3e4554]:
+                            - strong [ref=f3e4555]: "Theorem:"
+                            - text: For every integer , if then is composite.
+                          - paragraph [ref=f3e4579]:
+                            - text: “
+                            - strong [ref=f3e4580]: "Proof:"
+                            - text: Suppose is any integer such that . If is composite, then for some integers and such that
+                          - paragraph [ref=f3e4648]: and
+                          - paragraph [ref=f3e4669]: Since
+                          - paragraph [ref=f3e4688]: and both and are strictly between and , then is not prime. Hence is composite as was to be shown.”
+                          - generic [ref=f3e4737] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f3e4738]:
+                              - text: This incorrect proof assumes what is to be proved. The word
+                              - emphasis [ref=f3e4739]: since
+                              - text: in the third sentence is completely unjustified. The second sentence tells only what happens
+                              - emphasis [ref=f3e4740]: if
+                              - text: is composite. But at that point in the proof, it has not been established that
+                              - emphasis [ref=f3e4763]: is
+                              - text: composite. In fact, that is exactly what is to be proved.
+                        - listitem [ref=f3e4764]:
+                          - paragraph [ref=f3e4765]:
+                            - strong [ref=f3e4766]: "Theorem:"
+                            - text: The product of any even integer and any odd integer is even.
+                          - paragraph [ref=f3e4767]:
+                            - text: “
+                            - strong [ref=f3e4768]: "Proof:"
+                            - text: Suppose is any even integer and is any odd integer. If is even, then by definition of even there exists an integer such that . Also since is even, there exists an integer such that , and since is odd there exists an integer such that . Thus
+                          - paragraph [ref=f3e4863]: where is an integer. By definition of even, then, is even, as was to be shown.”
+                        - listitem [ref=f3e4876]:
+                          - paragraph [ref=f3e4877]:
+                            - strong [ref=f3e4878]: "Theorem:"
+                            - text: The sum of any two even integers equals for some integer .
+                          - paragraph [ref=f3e4890]:
+                            - text: “
+                            - strong [ref=f3e4891]: "Proof:"
+                            - text: Suppose and are any two even integers. By definition of even, for some integer and for some integer . By substitution,
+                          - paragraph [ref=f3e4948]: This is what was to be shown.”
+                      - generic "instructions" [ref=f3e4949]:
+                        - paragraph [ref=f3e4950]:
+                          - text: In
+                          - link "20" [ref=f3e4951] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "21" [ref=f3e4952] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "22" [ref=f3e4953] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "23" [ref=f3e4954] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "24" [ref=f3e4955] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "25" [ref=f3e4956] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "26" [ref=f3e4957] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "27" [ref=f3e4958] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "28" [ref=f3e4959] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "29" [ref=f3e4960] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "30" [ref=f3e4961] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "31" [ref=f3e4962] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "32" [ref=f3e4963] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "33" [ref=f3e4964] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "34" [ref=f3e4965] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "35" [ref=f3e4966] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "36" [ref=f3e4967] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "37" [ref=f3e4968] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ", and"
+                          - link "38" [ref=f3e4969] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: determine whether the statement is true or false. Justify your answer with a proof or a counterexample, as appropriate. In each case use only the definitions of the terms and the
+                          - link "Assumptions" [ref=f3e4970] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: listed, not any previously established properties.
+                      - list "short answer questions" [ref=f3e4971]:
+                        - listitem [ref=f3e4972]:
+                          - paragraph [ref=f3e4973]: The product of any two odd integers is odd.
+                          - generic [ref=f3e4974] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f3e4975]:
+                              - text: "True. Proof: Suppose and are any odd integers."
+                              - emphasis [ref=f3e4986]: "[We must show that mn is odd.]"
+                              - text: By definition of odd, and for some integers and . Then
+                            - paragraph [ref=f3e5017]: Now is an integer because products and sums of integers are integers and , , and are all integers. Hence , and so, by definition of odd, is odd.
+                        - listitem [ref=f3e5076]:
+                          - paragraph [ref=f3e5077]: The negative of any odd integer is odd.
+                          - generic [ref=f3e5078] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f3e5079]:
+                              - emphasis [ref=f3e5080]: "Hint:"
+                              - text: You will need to express an integer of the form as .
+                        - listitem [ref=f3e5113]:
+                          - paragraph [ref=f3e5114]: For all integers and , is even.
+                          - generic [ref=f3e5136] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f3e5137]:
+                              - text: "False. Counterexample: Let and . Then , which is odd."
+                              - emphasis [ref=f3e5175]: "[This is one counterexample among many. Can you find a way to characterize all counterexamples?]"
+                        - listitem [ref=f3e5176]:
+                          - paragraph [ref=f3e5177]: The product of any even integer and any integer is even.
+                        - listitem [ref=f3e5178]:
+                          - paragraph [ref=f3e5179]:
+                            - text: If a sum of two integers is even, then one of the summands is even. (In the expression , and are called
+                            - strong [ref=f3e5197]: summands
+                            - text: .)
+                          - generic [ref=f3e5198] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f3e5199]: "False. Counterexample: Let and . Then is even, but neither summand nor summand is even."
+                        - listitem [ref=f3e5233]:
+                          - paragraph [ref=f3e5234]: The difference of any two even integers is even.
+                        - listitem [ref=f3e5235]:
+                          - paragraph [ref=f3e5236]: For all integers , , and , if , , and are consecutive, then is even.
+                        - listitem [ref=f3e5276]:
+                          - paragraph [ref=f3e5277]: The difference of any two odd integers is even.
+                        - listitem [ref=f3e5278]:
+                          - paragraph [ref=f3e5279]: For all integers and , if is even then is even.
+                          - generic [ref=f3e5307] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f3e5308]:
+                              - emphasis [ref=f3e5309]: "Hint:"
+                              - text: The statement is true.
+                        - listitem [ref=f3e5310]:
+                          - paragraph [ref=f3e5311]: For every integer , if is prime then .
+                        - listitem [ref=f3e5334]:
+                          - paragraph [ref=f3e5335]: For every integer , if then is composite.
+                        - listitem [ref=f3e5356]:
+                          - paragraph [ref=f3e5357]: For every integer , is a prime number.
+                        - listitem [ref=f3e5375]:
+                          - paragraph [ref=f3e5376]: For every integer , is a perfect square.
+                          - generic [ref=f3e5401] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f3e5402]: "Proof: Suppose is any integer. Then"
+                            - paragraph [ref=f3e5408]: (by algebra). Now is a perfect square because is an integer (being a sum of and ). Hence is a perfect square, as was to be shown.
+                        - listitem [ref=f3e5455]:
+                          - paragraph [ref=f3e5456]: Every positive integer can be expressed as a sum of three or fewer perfect squares.
+                        - listitem [ref=f3e5457]:
+                          - paragraph [ref=f3e5458]:
+                            - text: (Two integers are
+                            - strong [ref=f3e5464]: consecutive
+                            - text: if, and only if, one is one more than the other.) Any product of four consecutive integers is one less than a perfect square.
+                          - generic [ref=f3e5465] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f3e5466]:
+                              - emphasis [ref=f3e5467]: "Hint:"
+                              - text: This is true.
+                        - listitem [ref=f3e5468]:
+                          - paragraph [ref=f3e5469]: If and are any positive integers and is a perfect square, then and are perfect squares.
+                        - listitem [ref=f3e5496]:
+                          - paragraph [ref=f3e5497]: The difference of the squares of any two consecutive integers is odd.
+                        - listitem [ref=f3e5498]:
+                          - paragraph [ref=f3e5499]: For all nonnegative real numbers and , . (Note that if is a nonnegative real number, then there is a unique nonnegative real number , denoted , such that .)
+                          - generic [ref=f3e5553] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f3e5554]:
+                              - emphasis [ref=f3e5555]: "Hint:"
+                              - text: The statement is true.
+                        - listitem [ref=f3e5556]:
+                          - paragraph [ref=f3e5557]: For all nonnegative real numbers and ,
+                        - listitem [ref=f3e5592]:
+                          - paragraph [ref=f3e5593]: Suppose that integers and are perfect squares. Then is also a perfect square. Why?
+                        - listitem [ref=f3e5619]:
+                          - paragraph [ref=f3e5620]: If is a prime number, must also be prime? Prove or give a counterexample.
+                          - generic [ref=f3e5639] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f3e5640]:
+                              - emphasis [ref=f3e5641]: "Hint:"
+                              - text: The answer is no.
+                        - listitem [ref=f3e5642]:
+                          - paragraph [ref=f3e5643]: If is a nonnegative integer, must be prime? Prove or give a counterexample.
+              - generic [ref=f3e249]:
+                - slider [ref=f3e250]: "18"
+                - generic [ref=f3e251] [cursor=pointer]
+        - generic:
+          - generic [ref=e297]:
+            - generic [ref=e320]:
+              - heading "Full Book" [level=2] [ref=e321]
+              - button "Close Enlarged Image" [ref=e322] [cursor=pointer]: 
+            - iframe [ref=e327]:
+              - generic [ref=f7e1]:
+                - navigation [ref=f7e2]: Application Opened
+                - generic [ref=f7e3]:
+                  - generic [ref=f7e5]:
+                    - generic:
+                      - link "Main content" [ref=f7e7] [cursor=pointer]:
+                        - /url: "#header"
+                      - text: 
+                      - button "Next Page" [ref=f7e8] [cursor=pointer]:
+                        - generic [ref=f7e9]: 
+                    - document [ref=f7e10]:
+                      - generic [ref=f7e11]: Katherine Gendreau Photography/Getty Images
+                  - button "Chapter contents" [ref=f7e20] [cursor=pointer]
+                  - generic [ref=f7e22]:
+                    - slider [ref=f7e23]: "1"
+                    - generic [ref=f7e24] [cursor=pointer]
+                  - generic [ref=f7e26]:
+                    - generic [ref=f7e27]:
+                      - generic [ref=f7e28]: Go to pg.
+                      - textbox "go to page" [ref=f7e29]
+                      - listbox
+                    - button "Listen to this page using ReadSpeaker" [ref=f7e39]
+                    - button "Fonts menu" [ref=f7e31] [cursor=pointer]
+                    - button "Print" [ref=f7e34] [cursor=pointer]
+                    - link "help" [ref=f7e35] [cursor=pointer]:
+                      - /url: Javascript://
+          - menu [ref=e283]:
+            - navigation "Applications Menu" [ref=e284]:
+              - generic [ref=e285]:
+                - menuitem "My Notes, button" [ref=e286] [cursor=pointer]:
+                  - img "My Notes" [ref=e287]
+                - menuitem "Full Book, button" [ref=e288] [cursor=pointer]:
+                  - img "Full Book" [ref=e289]
+                - menuitem "ReadSpeaker, button" [ref=e290] [cursor=pointer]:
+                  - img "ReadSpeaker" [ref=e291]
+                - menuitem "Glossary, button" [ref=e292] [cursor=pointer]:
+                  - img "Glossary" [ref=e293]
+                - menuitem "Flashcards, button" [ref=e294] [cursor=pointer]:
+                  - img "Flashcards" [ref=e295]
+  - text: Your device is connected to the internet. Reconnect

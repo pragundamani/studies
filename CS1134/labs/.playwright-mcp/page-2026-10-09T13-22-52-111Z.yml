@@ -1,0 +1,118 @@
+- generic [ref=f50e1]:
+  - banner [ref=f50e2]:
+    - navigation "Main" [ref=f50e3]:
+      - generic [ref=f50e4]:
+        - link "skip to main content" [ref=f50e5] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - generic:
+          - generic [ref=f50e10]:
+            - generic [ref=f50e12]:
+              - link "My Home" [ref=f50e14] [cursor=pointer]:
+                - /url: /d2l/lp/ouHome/defaultHome.d2l
+                - img "My Home" [ref=f50e17]
+              - link "CS-UY 1134 - Fall 2026" [ref=f50e21] [cursor=pointer]:
+                - /url: /d2l/home/627027
+            - generic [ref=f50e22]:
+              - button "Select a course..." [ref=f50e25] [cursor=pointer]
+              - generic [ref=f50e31]:
+                - button "Message alerts" [ref=f50e34] [cursor=pointer]
+                - button "Subscription alerts" [ref=f50e39] [cursor=pointer]
+                - generic [ref=f50e43]:
+                  - button "Update alerts" [ref=f50e44] [cursor=pointer]
+                  - generic: Update alerts - You have new alerts
+              - button "Pragun Damani, avatar" [ref=f50e54] [cursor=pointer]:
+                - generic [ref=f50e56]:
+                  - generic [ref=f50e58]: PD
+                  - generic [ref=f50e59]: Pragun Damani
+              - button "Admin Tools" [ref=f50e62] [cursor=pointer]
+          - list [ref=f50e69]:
+            - listitem [ref=f50e70]:
+              - link "Content" [ref=f50e71] [cursor=pointer]:
+                - /url: /d2l/le/lessons/627027
+            - listitem [ref=f50e72]:
+              - link "Announcements" [ref=f50e73] [cursor=pointer]:
+                - /url: /d2l/lms/news/main.d2l?ou=627027
+            - listitem [ref=f50e74]:
+              - link "Assignments" [ref=f50e75] [cursor=pointer]:
+                - /url: /d2l/lms/dropbox/dropbox.d2l?ou=627027
+            - listitem [ref=f50e76]:
+              - link "Discussions" [ref=f50e77] [cursor=pointer]:
+                - /url: /d2l/le/627027/discussions/List
+            - listitem [ref=f50e78]:
+              - link "Quizzes" [ref=f50e79] [cursor=pointer]:
+                - /url: /d2l/lms/quizzing/quizzing.d2l?ou=627027
+            - listitem [ref=f50e80]:
+              - link "Grades" [ref=f50e81] [cursor=pointer]:
+                - /url: /d2l/lms/grades/index.d2l?ou=627027
+            - listitem [ref=f50e82]:
+              - link "Zoom" [ref=f50e83] [cursor=pointer]:
+                - /url: /d2l/common/dialogs/quickLink/quickLink.d2l?ou=627027&type=lti&rcode=438126FB-CB7E-4012-84DC-B926D628DF2A-1844200&srcou=6606&launchFramed=1&framedName=Zoom
+            - listitem [ref=f50e84]:
+              - button "More Tools" [ref=f50e86]
+            - listitem [ref=f50e90]:
+              - button "Course Reports" [ref=f50e92]
+            - listitem [ref=f50e96]:
+              - button "Help" [ref=f50e98]
+  - main [ref=f50e102]:
+    - iframe [active] [ref=f50e105]:
+      - generic [ref=f52e1]:
+        - generic [ref=f52e6]:
+          - generic [ref=f52e8]:
+            - generic [ref=f52e13]:
+              - searchbox "Search titles and descriptions" [ref=f52e14]
+              - button "Search" [ref=f52e17] [cursor=pointer]
+            - generic [ref=f52e20]:
+              - heading "Table of Contents" [level=2] [ref=f52e21]
+              - tree "Table of Contents" [ref=f52e22]:
+                - generic [ref=f52e25]:
+                  - treeitem "Syllabus" [expanded] [ref=f52e150] [cursor=pointer]:
+                    - generic [ref=f52e31]: Syllabus
+                  - group [ref=f52e39]:
+                    - treeitem "FileSelected. 1134 syllabus - Fall 2026." [active] [ref=f52e151] [cursor=pointer]:
+                      - generic [ref=f52e46]: 1134 syllabus - Fall 2026
+                - treeitem "Lecture Notes" [ref=f52e57] [cursor=pointer]:
+                  - generic [ref=f52e62]: Lecture Notes
+                - treeitem "Labs" [ref=f52e72] [cursor=pointer]:
+                  - generic [ref=f52e77]: Labs
+                - treeitem "Platforms' Links" [ref=f52e87] [cursor=pointer]:
+                  - generic [ref=f52e92]: Platforms' Links
+                - treeitem "IDE Setup" [ref=f52e102] [cursor=pointer]:
+                  - generic [ref=f52e107]: IDE Setup
+                - treeitem "TA Office Hours & Contacts" [ref=f52e117] [cursor=pointer]:
+                  - generic [ref=f52e122]: TA Office Hours & Contacts
+          - generic [ref=f52e128]:
+            - generic [ref=f52e131]:
+              - button "Download" [ref=f52e133] [cursor=pointer]
+              - button "Open in full screen mode" [ref=f52e154] [cursor=pointer]
+              - generic [ref=f52e137]:
+                - button "Previous" [ref=f52e139] [cursor=pointer]
+                - button "Next" [ref=f52e143] [cursor=pointer]
+            - generic [ref=f52e145]:
+              - heading "1134 syllabus - Fall 2026" [level=1] [ref=f52e157]
+              - document [ref=f52e160]:
+                - toolbar:
+                  - generic:
+                    - generic:
+                      - generic: Page 1 / 4
+                      - group:
+                        - button "Zoom Out"
+                        - button "Zoom In"
+                        - button "Download"
+                        - button "Open new tab for printing"
+                        - button "Presentation Mode"
+                - generic [ref=f52e162]:
+                  - region "Page ⁨1⁩" [ref=f52e163]:
+                    - generic [ref=f52e165]:
+                      - text: "New York University Tandon School of Engineering Computer Science and Engineering Department CS - UY 11 3 4 : Data Structures and Algorithms Fall 20 2 6 A LEC Mon, Wed 11 : 0 0am to 1 2 : 2 0 p m B LEC Mon, Wed 12 :30 p m to 1 :50 p m C LEC Mon, Wed 3 :30 p m to 4 :50 p m C ontact Information Professor Tal: itay.tal@nyu.edu , 370 Jay Street , 8th floor , room 865 Office Hours Professor Tal: B y appointment , schedule using the following link: https://calendly.com/it13 -"
+                      - generic [ref=f52e167]: nyu/cs
+                      - text: "- 1134 - office - hour - with - prof - tal Course Prerequisites CS - UY 1114 with a C - grade or better Course Description This course covers abstra ct data types and the implemen tation and use of standard data structures along with fundamental algorithms and the basics of algorithm analysis. Course Objectives At the completio n of this course a student will: 1. Be familiar with basic techniques of algorithm analysis 2. Be able to design and analyze recursive algorithm s 3. Be familiar with fundamental data structures, their implementation and performance: dynamic arrays, stacks and queues 4. Master the implementation of linked data structures such as linked lists and binary trees 5. Be familiar with advanced data structures such as search trees, hash tables, priority queues and graphs 6. Have a practical un derstanding of the concepts of d ata abstraction. 7. Be familiar with several searching an d sorting algorithms including insertion - sort , merge - sort and heap - sort Course Structure Most of the material will be presented in lectures. Re ading assignments from the text book , programming and other exercises in the lab, and weekly homework assignments will reinforce this material . You should expect to spend a substantial time outside the class working on the homework assignments. Assignments and other important announcements will be posted on NYU Brightspace . You should check the course page every day and sign up for e - mail notification of announcements ."
+                    - generic:
+                      - link "mailto:itay.tal@nyu.edu" [ref=f52e169] [cursor=pointer]:
+                        - /url: mailto:itay.tal@nyu.edu
+                      - link "https://calendly.com/it13-nyu/cs-1134-office-hour-with-prof-tal" [ref=f52e171] [cursor=pointer]:
+                        - /url: https://calendly.com/it13-nyu/cs-1134-office-hour-with-prof-tal
+                  - region "Page ⁨2⁩" [ref=f52e172]:
+                    - generic [ref=f52e174]: "Readings The text book for the course is: Data Structures and Algorithms in Python ,1 st Edition , Michael T. Goodrich, Roberto Tamassia, Michael H. Goldwasser. ISBN - 13: 978 - 1118290279. ISBN - 10: 1118290275. There is also an electronic v ersion of the textbook, which is less expensive. Copies are available in the NYU bookstore, as well as other book vendors. Several copies are on reserve in the Dibner Library. Course requirements • Tests: There will be two midterm exam s and a final exam. These exams will include some short answer, as well as programming problems. • Homework assignments : W ill reinforce the material covered in the lectures and in the text book. Although these count for a relatively small percentage of your grade, it is essential that you do them and understand the solutions. It is unlikely that you will do well on the exams if you do not understand how to solve problems like the homework exercises. • Lab s : Y ou are expected to come on time to all labs , complete the required work, and help others if you finish early. You r lab grade will mostly reflect the effort you made to solve the problems during the lab time . Lab makeup policy : Two unexcused lab absences are allowed. All other absences must be validated by Student Advocacy. To receive credit for a missed lab — whether the absence was excused or not — you must: • Work on the missed lab on your own time • Get it checked by a TA at office hours within one week of the missed lab Gradin g Grades will be computed roughly as follows (We may tweak the formula a little): • 35% – Exam with highest grade • 25% – Exam with second highest grade • 15% – Exam with lowest grade • 10% – Homework • 15% – Lab grade Important Dates Tue 9/2: Fall 2026 Classes Begin Mon 9/7: Labor Day, No Class Mon 10/12: Fall Break, No Class Wed 10/14: Legislative Monday - Classes will meet according to a Monday schedule Tue 10/27: Midterm 1 Tue 11/24: Midterm 2 11/26 – 11/27: Thanksgiving Recess, No Class Mon 12/14: Last Day of Fall 2026 Classes 12/16 – 12/22: Fall Semester Exams. The final exam could be any time during this week."
+                  - region "Page ⁨3⁩" [ref=f52e175]
+                  - region "Page ⁨4⁩" [ref=f52e176]
+        - log [ref=f52e149]

@@ -1,0 +1,49 @@
+- generic [ref=f3e5]:
+  - img "Organization background image" [ref=f3e6]
+  - generic [ref=f3e8]:
+    - generic [ref=f3e14]:
+      - img "Organization banner logo" [ref=f3e17]
+      - main [ref=f3e18]:
+        - generic [ref=f3e21]:
+          - heading "Sign in" [level=1] [ref=f3e25]
+          - generic [ref=f3e26]:
+            - alert
+            - generic [ref=f3e28]:
+              - textbox "NetID@nyu.edu" [active] [ref=f3e29]
+              - textbox [aria-hidden] [ref=f3e30]
+          - link "Forgotten or expired password?" [ref=f3e36] [cursor=pointer]:
+            - /url: https://start.nyu.edu/pwm/public/forgottenpassword
+          - button "Next" [ref=f3e39] [cursor=pointer]
+          - generic [ref=f3e40]:
+            - paragraph [ref=f3e41]:
+              - strong [ref=f3e42]: "ATTENTION:"
+              - strong [ref=f3e43]: Do not use your personal email.
+            - paragraph [ref=f3e44]:
+              - strong [ref=f3e45]: Sign in with your NetID followed by @nyu.edu (NetID@nyu.edu), then your NYU password.
+              - link "Need Help?" [ref=f3e46] [cursor=pointer]:
+                - /url: https://www.nyu.edu/it/login#login
+            - paragraph [ref=f3e47]:
+              - link "Review troubleshooting tips" [ref=f3e48] [cursor=pointer]:
+                - /url: https://www.nyu.edu/it/login#tips
+              - text: ", including"
+              - link "how to trust this is the real NYU Login." [ref=f3e49] [cursor=pointer]:
+                - /url: https://www.nyu.edu/it/login#verify
+            - paragraph [ref=f3e50]:
+              - text: By logging in, you agree to abide by the
+              - link "Policy on Responsible Use of NYU Computers and Data" [ref=f3e51] [cursor=pointer]:
+                - /url: https://www.nyu.edu/about/policies-guidelines-compliance/policies-and-guidelines/responsible-use-of-nyu-computers-and-data-policy-on.html
+              - text: .
+            - paragraph [ref=f3e52]:
+              - link "Accessibility" [ref=f3e53] [cursor=pointer]:
+                - /url: https://www.nyu.edu/accessibility
+            - paragraph [ref=f3e54]:
+              - text: When using a public or shared computer, quitting your browser does not securely log you out.
+              - link "You must sign or log out of your NYU account." [ref=f3e55] [cursor=pointer]:
+                - /url: https://www.nyu.edu/it/login#logout
+    - contentinfo [ref=f3e56]:
+      - generic [ref=f3e57]:
+        - link "Need help?" [ref=f3e58] [cursor=pointer]:
+          - /url: https://www.nyu.edu/it/servicedesk
+        - link "Privacy" [ref=f3e59] [cursor=pointer]:
+          - /url: https://www.nyu.edu/privacy
+        - button "Click here for troubleshooting information" [ref=f3e60] [cursor=pointer]: ...

@@ -1,0 +1,58 @@
+- generic [ref=f57e1]:
+  - banner [ref=f57e2]:
+    - navigation "Main" [ref=f57e3]:
+      - generic [ref=f57e4]:
+        - link "skip to main content" [ref=f57e5] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - generic:
+          - generic [ref=f57e10]:
+            - generic [ref=f57e12]:
+              - link "My Home" [ref=f57e14] [cursor=pointer]:
+                - /url: /d2l/lp/ouHome/defaultHome.d2l
+                - img "My Home" [ref=f57e17]
+              - 'link "PH-UY 2023: ELECTRICITY, MAGNETISM, & FLUIDS (F26)" [ref=f57e21] [cursor=pointer]':
+                - /url: /d2l/home/613524
+            - generic [ref=f57e22]:
+              - button "Select a course..." [ref=f57e25] [cursor=pointer]
+              - generic [ref=f57e31]:
+                - button "Message alerts" [ref=f57e34] [cursor=pointer]
+                - button "Subscription alerts" [ref=f57e39] [cursor=pointer]
+                - generic [ref=f57e43]:
+                  - button "Update alerts" [ref=f57e44] [cursor=pointer]
+                  - generic: Update alerts - You have new alerts
+              - button "Pragun Damani, avatar" [ref=f57e54] [cursor=pointer]:
+                - generic [ref=f57e56]:
+                  - generic [ref=f57e58]: PD
+                  - generic [ref=f57e59]: Pragun Damani
+              - button "Admin Tools" [ref=f57e62] [cursor=pointer]
+          - list [ref=f57e69]:
+            - listitem [ref=f57e70]:
+              - link "Content" [ref=f57e71] [cursor=pointer]:
+                - /url: /d2l/le/lessons/613524
+            - listitem [ref=f57e72]:
+              - link "Announcements" [ref=f57e73] [cursor=pointer]:
+                - /url: /d2l/lms/news/main.d2l?ou=613524
+            - listitem [ref=f57e74]:
+              - link "Assignments" [ref=f57e75] [cursor=pointer]:
+                - /url: /d2l/lms/dropbox/dropbox.d2l?ou=613524
+            - listitem [ref=f57e76]:
+              - link "Discussions" [ref=f57e77] [cursor=pointer]:
+                - /url: /d2l/le/613524/discussions/List
+            - listitem [ref=f57e78]:
+              - link "Quizzes" [ref=f57e79] [cursor=pointer]:
+                - /url: /d2l/lms/quizzing/quizzing.d2l?ou=613524
+            - listitem [ref=f57e80]:
+              - link "Grades" [ref=f57e81] [cursor=pointer]:
+                - /url: /d2l/lms/grades/index.d2l?ou=613524
+            - listitem [ref=f57e82]:
+              - link "Zoom" [ref=f57e83] [cursor=pointer]:
+                - /url: /d2l/common/dialogs/quickLink/quickLink.d2l?ou=613524&type=lti&rcode=438126FB-CB7E-4012-84DC-B926D628DF2A-1844200&srcou=6606&launchFramed=1&framedName=Zoom
+            - listitem [ref=f57e84]:
+              - button "More Tools" [ref=f57e86]
+            - listitem [ref=f57e90]:
+              - button "Course Reports" [ref=f57e92]
+            - listitem [ref=f57e96]:
+              - button "Help" [ref=f57e98]
+  - main [ref=f57e102]:
+    - iframe [ref=f57e105]:
+      - log [ref=f59e1]

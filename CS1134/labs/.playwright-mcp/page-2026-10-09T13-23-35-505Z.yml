@@ -1,0 +1,82 @@
+- application [ref=e1]:
+  - iframe [aria-hidden] [ref=e2]
+  - iframe [aria-hidden] [ref=e3]
+  - banner "Menu bar" [ref=e4]:
+    - generic [ref=e7]:
+      - link "Docs home" [ref=e9] [cursor=pointer]:
+        - /url: https://docs.google.com/document/?usp=docs_web
+      - generic [ref=e16]:
+        - generic "2023syllabusMW" [ref=e18]:
+          - 'button "Document status: Saved to Drive." [ref=e24]':
+            - generic [ref=e25] [cursor=pointer]
+        - generic [ref=e31]:
+          - button "Request edit access. You can only view this document. You must be logged in to a Google account to request edit access from the owner." [disabled] [ref=e33]: Request edit access
+          - button "Brooke Alsante" [ref=e39]:
+            - img "Brooke Alsante" [ref=e44] [cursor=pointer]
+          - generic [ref=e45]:
+            - button "Share. Anyone with the link. Anyone who has the link can access. No sign-in required." [disabled] [ref=e46]: Share
+            - button "Quick sharing actions" [disabled] [ref=e48]
+          - link "Sign in" [ref=e52] [cursor=pointer]:
+            - /url: https://accounts.google.com/ServiceLogin?service=wise&passive=1209600&osid=1&continue=https://docs.google.com/document/d/16hmVCGoVuA6U2djMeI_mJDEYiYM03Y0_BRRHQmSNDPQ/edit?usp%3Ddrive_link&followup=https://docs.google.com/document/d/16hmVCGoVuA6U2djMeI_mJDEYiYM03Y0_BRRHQmSNDPQ/edit?usp%3Ddrive_link&ltmpl=docs&ec=GAZAGQ
+    - menubar [ref=e56]:
+      - menuitem "File" [ref=e57] [cursor=pointer]
+      - menuitem "Edit" [ref=e58] [cursor=pointer]
+      - menuitem "View" [ref=e59] [cursor=pointer]
+      - menuitem "Tools" [ref=e60] [cursor=pointer]
+      - menuitem "Help" [ref=e61] [cursor=pointer]
+  - generic [ref=e64]:
+    - generic [ref=e71]:
+      - button [aria-hidden]
+    - generic "Document tabs" [ref=e75]:
+      - button "Hide tabs & outlines" [ref=e77] [cursor=pointer]:
+        - button [disabled] [ref=e78]:
+          - button "Back" [disabled] [ref=e82]
+      - generic [ref=e88]:
+        - heading "Document tabs" [level=2] [ref=e91]
+        - tree "Document tabs" [ref=e94]:
+          - generic [ref=e96] [cursor=pointer]:
+            - treeitem "Tab 1" [selected] [ref=e97]:
+              - button "Tab options" [ref=e107]
+            - menu [ref=e111]:
+              - menuitem [ref=e112]:
+                - generic "PH-UY 2023 ELECTRICITY, MAGNETISM, & FLUIDS level 1" [ref=e117]: PH-UY 2023 ELECTRICITY, MAGNETISM, & FLUIDS
+              - menuitem [ref=e119]:
+                - generic "PREREQUISITE AND COREQUISITE level 1" [ref=e124]: PREREQUISITE AND COREQUISITE
+              - menuitem [ref=e126]:
+                - generic "COURSE DESCRIPTION level 1" [ref=e131]: COURSE DESCRIPTION
+              - menuitem [ref=e133]:
+                - generic "TEXTBOOK level 1" [ref=e138]: TEXTBOOK
+              - menuitem [ref=e140]:
+                - generic "COURSE OBJECTIVES level 1" [ref=e145]: COURSE OBJECTIVES
+              - menuitem [ref=e147]:
+                - generic "GRADES level 1" [ref=e152]: GRADES
+              - menuitem [ref=e154]:
+                - generic "ONLINE MATERIAL AND HOMEWORK level 1" [ref=e159]: ONLINE MATERIAL AND HOMEWORK
+              - menuitem [ref=e161]:
+                - generic "RECITATION level 1" [ref=e166]: RECITATION
+              - menuitem [ref=e168]:
+                - generic "EXAMINATIONS level 1" [ref=e173]: EXAMINATIONS
+              - menuitem [ref=e175]:
+                - generic "COURSE SCHEDULE level 1" [ref=e180]: COURSE SCHEDULE
+              - menuitem [ref=e182]:
+                - generic "MAKEUPS, EXTENSIONS, AND INCOMPLETES level 1" [ref=e187]: MAKEUPS, EXTENSIONS, AND INCOMPLETES
+              - menuitem [ref=e189]:
+                - generic "STUDY HELP level 1" [ref=e194]: STUDY HELP
+              - menuitem [ref=e196]:
+                - generic "MOSES CENTER STATEMENT OF DISABILITY level 1" [ref=e201]: MOSES CENTER STATEMENT OF DISABILITY
+              - menuitem [ref=e203]:
+                - generic "STUDENT ADVOCACY level 1" [ref=e208]: STUDENT ADVOCACY
+              - menuitem [ref=e210]:
+                - generic "ACADEMIC HONESTY level 1" [ref=e215]: ACADEMIC HONESTY
+              - menuitem [ref=e217]:
+                - generic "POLICY ON USE OF AI level 1" [ref=e222]: POLICY ON USE OF AI
+              - menuitem [ref=e224]:
+                - generic "STATEMENT ON INCLUSION level 1" [ref=e229]: STATEMENT ON INCLUSION
+  - iframe [active] [ref=e231]:
+    - textbox "Document content" [active] [ref=f1e1]
+    - group
+  - link "Turn on screen reader support" [ref=e232] [cursor=pointer]:
+    - /url: "#"
+  - region [ref=e233]: To enable screen reader support, press Ctrl+Alt+Z To learn about keyboard shortcuts, press Ctrl+slash
+  - generic [ref=e234]: Banner hidden
+  - region

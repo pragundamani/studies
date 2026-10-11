@@ -1,0 +1,323 @@
+- generic [active] [ref=f25e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=f25e2] [cursor=pointer]
+      - link "Accessibility help" [ref=f25e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+  - generic [ref=f25e8]:
+    - search [ref=f25e9]:
+      - generic [ref=f25e11]:
+        - link [ref=f25e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&ictx=2&sa=X&ved=2ahUKEwiCveXGhK2XAxWxDTQIHYX5E6YQPXoECAYQBA
+          - img "Learn more about World Space Week 2026" [ref=f25e14]
+        - generic [ref=f25e16]:
+          - combobox "Search" [ref=f25e18]: PH-UY 2023 Fall 2026 lecturer section A NYU PH-UY 2023 Fall 2026 lecturer section A NYU
+          - generic [ref=f25e19]:
+            - button "Clear" [ref=f25e23] [cursor=pointer]
+            - generic [ref=f25e28]:
+              - button "Search by voice" [ref=f25e31] [cursor=pointer]
+              - button "Search by image" [ref=f25e36] [cursor=pointer]
+    - generic [ref=f25e39]:
+      - button "Share" [ref=f25e40] [cursor=pointer]
+      - generic [ref=f25e46]:
+        - button "Google apps" [ref=f25e48] [cursor=pointer]
+        - 'button "Google Account: Pragun Damani (pd2752@nyu.edu)" [ref=f25e53] [cursor=pointer]'
+  - generic [ref=f25e56]:
+    - navigation [ref=f25e62]:
+      - generic [ref=f25e68]:
+        - list [ref=f25e69]:
+          - listitem [ref=f25e70]:
+            - link "AI Mode" [ref=f25e73] [cursor=pointer]:
+              - /url: /search?q=PH-UY+2023+Fall+2026+lecturer+section+A+NYU&sca_esv=2cd7c0326b86c6e2&sxsrf=APpeQnsSUrZRhs-AMVhyKjmtzVlsX6ClDQ:1791552340460&udm=50&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832X6CeY5aSHvaPXpohaS1dducKJ9vW2r5g1d5cMKghneO17pkIDLkifCExdoydOwG8mmCh2TQxYtdec849xvnwoCQqBvDepov130Z24dGPrdlqCPMYUaUQD7UmPxfvtYB5GRHZtlnJboI7t-AT8Od_8OgZi3spLXbZ02sQmc6D8Lq24B8Kg&vsint=&aep=1&ntc=1&cs=1&sa=X&ved=2ahUKEwiCveXGhK2XAxWxDTQIHYX5E6YQ2J8OegQIFRAD
+          - listitem [ref=f25e77]:
+            - link "All" [disabled] [ref=f25e78]
+          - listitem [ref=f25e81]:
+            - link "Images" [ref=f25e82] [cursor=pointer]:
+              - /url: /search?sca_esv=2cd7c0326b86c6e2&sxsrf=APpeQnsSUrZRhs-AMVhyKjmtzVlsX6ClDQ:1791552340460&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832X6CeY5aSHvaPXpohaS1dducKJ9vW2r5g1d5cMKghneO17pkIDLkifCExdoydOwG8mmCh2TQxYtdec849xvnwoCQqBvDepov130Z24dGPrdlqCPMYUaUQD7UmPxfvtYB5GRHZtlnJboI7t-AT8Od_8OgZi3spLXbZ02sQmc6D8Lq24B8Kg&q=PH-UY+2023+Fall+2026+lecturer+section+A+NYU&sa=X&ved=2ahUKEwiCveXGhK2XAxWxDTQIHYX5E6YQtKgLegQIHBAB
+          - listitem [ref=f25e85]:
+            - link "News" [ref=f25e86] [cursor=pointer]:
+              - /url: /search?sca_esv=2cd7c0326b86c6e2&sxsrf=APpeQnsSUrZRhs-AMVhyKjmtzVlsX6ClDQ:1791552340460&q=PH-UY+2023+Fall+2026+lecturer+section+A+NYU&tbm=nws&source=lnms&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832X6CeY5aSHvaPXpohaS1dducKJ9vW2r5g1d5cMKghneO17pkIDLkifCExdoydOwG8mmCh2TQxYtdec849xvnwoCQqBvDepov130Z24dGPrdlqCPMYUaUQD7UmPxfvtYB5GRHZtlnJboI7t-AT8Od_8OgZi3spLXbZ02sQmc6D8Lq24B8Kg&sa=X&ved=2ahUKEwiCveXGhK2XAxWxDTQIHYX5E6YQ0pQJegQIGxAB
+          - listitem [ref=f25e89]:
+            - link "Forums" [ref=f25e90] [cursor=pointer]:
+              - /url: /search?sca_esv=2cd7c0326b86c6e2&sxsrf=APpeQnsSUrZRhs-AMVhyKjmtzVlsX6ClDQ:1791552340460&udm=forums&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832X6CeY5aSHvaPXpohaS1dducKJ9vW2r5g1d5cMKghneO17pkIDLkifCExdoydOwG8mmCh2TQxYtdec849xvnwoCQqBvDepov130Z24dGPrdlqCPMYUaUQD7UmPxfvtYB5GRHZtlnJboI7t-AT8Od_8OgZi3spLXbZ02sQmc6D8Lq24B8Kg&q=PH-UY+2023+Fall+2026+lecturer+section+A+NYU&sa=X&ved=2ahUKEwiCveXGhK2XAxWxDTQIHYX5E6YQs6gLegQIGhAB
+          - listitem [ref=f25e93]:
+            - link "Videos" [ref=f25e94] [cursor=pointer]:
+              - /url: /search?sca_esv=2cd7c0326b86c6e2&sxsrf=APpeQnsSUrZRhs-AMVhyKjmtzVlsX6ClDQ:1791552340460&udm=vids&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832X6CeY5aSHvaPXpohaS1dducKJ9vW2r5g1d5cMKghneO17pkIDLkifCExdoydOwG8mmCh2TQxYtdec849xvnwoCQqBvDepov130Z24dGPrdlqCPMYUaUQD7UmPxfvtYB5GRHZtlnJboI7t-AT8Od_8OgZi3spLXbZ02sQmc6D8Lq24B8Kg&q=PH-UY+2023+Fall+2026+lecturer+section+A+NYU&sa=X&ved=2ahUKEwiCveXGhK2XAxWxDTQIHYX5E6YQtKgLegQIGRAB
+          - listitem [ref=f25e97]:
+            - link "Shopping" [ref=f25e98] [cursor=pointer]:
+              - /url: /search?sca_esv=2cd7c0326b86c6e2&sxsrf=APpeQnsSUrZRhs-AMVhyKjmtzVlsX6ClDQ:1791552340460&udm=28&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832X6CeY5aSHvaPXpohaS1dducKJ9vW2r5g1d5cMKghneO17pkIDLkifCExdoydOwG8mmCh2TQxYtdec849xvnwoCQqBvDepov130Z24dGPrdlqCPMYUaUQD7UmPxfvtYB5GRHZtlnJboI7t-AT8Od_8OgZi3spLXbZ02sQmc6D8Lq24B8Kg&q=PH-UY+2023+Fall+2026+lecturer+section+A+NYU&ved=1t:220175&ictx=111
+          - listitem [ref=f25e101]:
+            - button [ref=f25e102] [cursor=pointer]:
+              - generic "More filters" [ref=f25e103]: More
+        - button "Tools" [ref=f25e110] [cursor=pointer]
+    - heading "Search Results" [level=1] [ref=f25e117]
+    - generic [ref=f25e122]:
+      - generic [ref=f25e123]: Can't generate an AI overview right now. Try again later.
+      - main [ref=f25e149]:
+        - generic [ref=f25e153]:
+          - generic [ref=f25e156]:
+            - heading "Web results" [level=2] [ref=f25e157]
+            - generic [ref=f25e158]:
+              - generic [ref=f25e161]:
+                - link "PHUY 2023 - | PH-UY 2023G Electricity, Magnetism, & Fluids Coursicle https://www.coursicle.com › nyu › courses › 2023" [ref=f25e163] [cursor=pointer]:
+                  - /url: https://www.coursicle.com/nyu/courses/PHUY/2023/
+                  - heading "PHUY 2023 - | PH-UY 2023G Electricity, Magnetism, & Fluids" [level=3] [ref=f25e164]
+                  - generic [ref=f25e170]:
+                    - generic [ref=f25e171]: Coursicle
+                    - generic [ref=f25e173]: https://www.coursicle.com › nyu › courses › 2023
+                - button "About this result" [ref=f25e179] [cursor=pointer]
+              - generic [ref=f25e186]:
+                - text: Read reviews & ratings for |
+                - emphasis [ref=f25e187]: PH
+                - text: "-"
+                - emphasis [ref=f25e188]: UY
+                - text: 2023G Electricity, Magnetism, & Fluids (
+                - emphasis [ref=f25e189]: PHUY 2023
+                - text: ) and find out who's teaching it in
+                - emphasis [ref=f25e190]: Fall 2026
+                - text: at
+                - emphasis [ref=f25e191]: NYU
+                - text: (New York University).
+          - generic [ref=f25e195]:
+            - generic [ref=f25e198]:
+              - link "Physics (PH-UY) NYU Bulletins https://bulletins.nyu.edu › courses › ph_uy" [ref=f25e200] [cursor=pointer]:
+                - /url: https://bulletins.nyu.edu/courses/ph_uy/
+                - heading "Physics (PH-UY)" [level=3] [ref=f25e201]
+                - generic [ref=f25e210]:
+                  - generic [ref=f25e211]: NYU Bulletins
+                  - generic [ref=f25e213]: https://bulletins.nyu.edu › courses › ph_uy
+              - button "About this result" [ref=f25e219] [cursor=pointer]
+            - generic [ref=f25e225]:
+              - generic [ref=f25e226]:
+                - text: This is the third course of a three-semester
+                - emphasis [ref=f25e227]: lecture
+                - text: sequence in general physics for science and engineering students. Water, sound and electromagnetic waves.
+              - link "Read more" [ref=f25e228] [cursor=pointer]:
+                - /url: https://bulletins.nyu.edu/courses/ph_uy/#:~:text=This%20is%20the%20third%20course,Water%2C%20sound%20and%20electromagnetic%20waves.
+          - generic [ref=f25e232]:
+            - generic [ref=f25e235]:
+              - link "Fall 2026 Tandon School of Engineering Undergraduate ... New York University https://www.nyu.edu › nyu › registrar › documents" [ref=f25e237] [cursor=pointer]:
+                - /url: https://www.nyu.edu/content/dam/nyu/registrar/documents/Fall%202026%20UY%20Final%20Exam%20Schedule%2009222026.pdf
+                - heading "Fall 2026 Tandon School of Engineering Undergraduate ..." [level=3] [ref=f25e238]
+                - generic [ref=f25e244]:
+                  - generic [ref=f25e245]: New York University
+                  - generic [ref=f25e247]: https://www.nyu.edu › nyu › registrar › documents
+              - generic [ref=f25e249]: PDF
+              - button "About this result" [ref=f25e254] [cursor=pointer]
+            - generic [ref=f25e259]:
+              - generic [ref=f25e260]:
+                - generic [ref=f25e261]: Sep 22, 2026 —
+                - generic [ref=f25e262]:
+                  - emphasis [ref=f25e263]: Section
+                  - text: . Class. Nbr. Class Title. Primary
+                  - emphasis [ref=f25e264]: Instructor
+                  - text: . Exam Day. Exam Date ...
+                  - emphasis [ref=f25e265]: PH
+                  - text: "-"
+                  - emphasis [ref=f25e266]: UY 2023
+                  - text: . A1LC. 12633 Electric, Magnetism, & Fluids. Perez-Giz ...
+                - link "Read more" [ref=f25e267] [cursor=pointer]:
+                  - /url: https://www.nyu.edu/content/dam/nyu/registrar/documents/Fall%202026%20UY%20Final%20Exam%20Schedule%2009222026.pdf#:~:text=Section,Exam%20Date&text=PH%2DUY%202023,Perez%2DGiz%2CGabriel
+              - generic [ref=f25e268]: 9 pages
+          - generic [ref=f25e272]:
+            - generic [ref=f25e275]:
+              - link "NYU TANDON SCHOOL OF ENGINEERING PH-UY 2023 Course Hero https://www.coursehero.com › ... › PH-UY MISC" [ref=f25e277] [cursor=pointer]:
+                - /url: https://www.coursehero.com/file/55947168/2023syllabuspdf/
+                - heading "NYU TANDON SCHOOL OF ENGINEERING PH-UY 2023" [level=3] [ref=f25e278]
+                - generic [ref=f25e284]:
+                  - generic [ref=f25e285]: Course Hero
+                  - generic [ref=f25e287]: https://www.coursehero.com › ... › PH-UY MISC
+              - button "About this result" [ref=f25e293] [cursor=pointer]
+            - generic [ref=f25e299]:
+              - generic [ref=f25e300]: Feb 24, 2020 —
+              - text: This document outlines the structure and requirements for a physics course focused on electricity, magnetism, and fluids. It includes ...
+              - link "Read more" [ref=f25e301] [cursor=pointer]:
+                - /url: https://www.coursehero.com/file/55947168/2023syllabuspdf/#:~:text=This%20document%20outlines%20the%20structure,importance%20of%20understanding%20the%20material.
+            - img "Rated 5.0 out of 5, (1) user reviews" [ref=f25e306]: 5.0(1)
+          - generic [ref=f25e313]:
+            - generic [ref=f25e316]:
+              - link "PHUY 2033 at NYU - Reviews & Ratings, Fall 2026 ... Coursicle https://www.coursicle.com › nyu › courses › PHUY" [ref=f25e318] [cursor=pointer]:
+                - /url: https://www.coursicle.com/nyu/courses/PHUY/2033/
+                - heading "PHUY 2033 at NYU - Reviews & Ratings, Fall 2026 ..." [level=3] [ref=f25e319]
+                - generic [ref=f25e325]:
+                  - generic [ref=f25e326]: Coursicle
+                  - generic [ref=f25e328]: https://www.coursicle.com › nyu › courses › PHUY
+              - button "About this result" [ref=f25e334] [cursor=pointer]
+            - generic [ref=f25e341]:
+              - text: Read reviews & ratings for |
+              - emphasis [ref=f25e342]: PH
+              - text: "-"
+              - emphasis [ref=f25e343]: UY
+              - text: 2033G Waves, Optics, & Thermodynamics (
+              - emphasis [ref=f25e344]: PHUY
+              - text: 2033) and find out who's teaching it in
+              - emphasis [ref=f25e345]: Fall 2026
+              - text: at
+              - emphasis [ref=f25e346]: NYU
+              - text: (New York University).
+          - generic [ref=f25e350]:
+            - generic [ref=f25e353]:
+              - link "PH-UY 1223 Electricity and Light - New York University http://bulletin.engineering.nyu.edu › preview_course_n..." [ref=f25e355] [cursor=pointer]:
+                - /url: http://bulletin.engineering.nyu.edu/preview_course_nopop.php?catoid=14&coid=35266
+                - heading "PH-UY 1223 Electricity and Light -" [level=3] [ref=f25e356]
+                - generic [ref=f25e362]:
+                  - generic [ref=f25e363]: New York University
+                  - generic [ref=f25e365]: http://bulletin.engineering.nyu.edu › preview_course_n...
+              - button "About this result" [ref=f25e371] [cursor=pointer]
+            - generic [ref=f25e377]:
+              - generic [ref=f25e378]:
+                - emphasis [ref=f25e379]: PH
+                - text: "-"
+                - emphasis [ref=f25e380]: UY
+                - text: 1223 Electricity and Light. 3 Credits. Second of two introductory courses in general physics for non science or engineering majors.
+              - link "Read more" [ref=f25e381] [cursor=pointer]:
+                - /url: http://bulletin.engineering.nyu.edu/preview_course_nopop.php?catoid=14&coid=35266#:~:text=PH%2DUY%201223%20Electricity%20and%20Light,non%20science%20or%20engineering%20majors.
+          - generic [ref=f25e385]:
+            - generic [ref=f25e388]:
+              - link "Course Descriptions - New York University Tandon School of ... New York University http://bulletin.engineering.nyu.edu › content" [ref=f25e390] [cursor=pointer]:
+                - /url: http://bulletin.engineering.nyu.edu/content.php?catoid=16&navoid=1315&filter%5Bitem_type%5D=3&filter%5Bonly_active%5D=1&filter%5B3%5D=1&filter%5Bcpage%5D=14&print=&expand=1
+                - heading "Course Descriptions - New York University Tandon School of ..." [level=3] [ref=f25e391]
+                - generic [ref=f25e397]:
+                  - generic [ref=f25e398]: New York University
+                  - generic [ref=f25e400]: http://bulletin.engineering.nyu.edu › content
+              - button "About this result" [ref=f25e406] [cursor=pointer]
+            - generic [ref=f25e412]:
+              - generic [ref=f25e413]:
+                - text: The course accompanies
+                - emphasis [ref=f25e414]: PH
+                - text: "-"
+                - emphasis [ref=f25e415]: UY 2023
+                - text: . Experiments cover topics from
+                - emphasis [ref=f25e416]: PH
+                - text: "-"
+                - emphasis [ref=f25e417]: UY 2023
+                - text: and
+                - emphasis [ref=f25e418]: PH
+                - text: "-"
+                - emphasis [ref=f25e419]: UY
+                - text: "2033 . Prerequisite(s):"
+                - emphasis [ref=f25e420]: PH
+                - text: "-"
+                - emphasis [ref=f25e421]: UY
+                - text: 2121 and
+                - emphasis [ref=f25e422]: PH
+                - text: "-"
+                - emphasis [ref=f25e423]: UY 2023
+                - text: "Corequisite(s):"
+                - emphasis [ref=f25e424]: PH
+                - text: "-"
+                - emphasis [ref=f25e425]: UY
+                - text: ...
+              - link "Read more" [ref=f25e426] [cursor=pointer]:
+                - /url: http://bulletin.engineering.nyu.edu/content.php?catoid=16&navoid=1315&filter%5Bitem_type%5D=3&filter%5Bonly_active%5D=1&filter%5B3%5D=1&filter%5Bcpage%5D=14&print&expand=1#:~:text=This%20is%20the%20second%20course,PH%2DUY%202023%20Corequisite(s)%3A%20PH%2DUY%202033
+          - generic [ref=f25e430]:
+            - generic [ref=f25e433]:
+              - 'link "Recommendation for enrolling classes for Tandon? : r/nyu Reddit · r/nyu 5 comments · 5 years ago" [ref=f25e435] [cursor=pointer]':
+                - /url: https://www.reddit.com/r/nyu/comments/o6fodi/recommendation_for_enrolling_classes_for_tandon/
+                - 'heading "Recommendation for enrolling classes for Tandon? : r/nyu" [level=3] [ref=f25e436]'
+                - generic [ref=f25e442]:
+                  - generic [ref=f25e443]: Reddit · r/nyu
+                  - generic [ref=f25e445]: 5 comments · 5 years ago
+              - button "About this result" [ref=f25e451] [cursor=pointer]
+            - generic [ref=f25e456]: Hi all, I’m a newcomer for Tandon as transfer, and I’m kinda curious about deciding which sessions to take, so I want to listen your opinions and ...
+            - generic [ref=f25e462]:
+              - link "5 answers" [ref=f25e463] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/nyu/comments/o6fodi/comment/h2sn2r3/
+              - generic [ref=f25e464]: ·
+              - generic [ref=f25e465]: "Top answer:"
+              - generic [ref=f25e466]: For physics, get David Mugglin/John Di Bartolo/Kurt Becker; definitely great in my opinion. ...
+          - generic [ref=f25e470]:
+            - generic [ref=f25e473]:
+              - link "Course Descriptions - New York University Tandon School of ... New York University http://bulletin.engineering.nyu.edu › content › print" [ref=f25e475] [cursor=pointer]:
+                - /url: http://bulletin.engineering.nyu.edu/content.php?catoid=17&catoid=17&navoid=1378&filter%5Bitem_type%5D=3&filter%5Bonly_active%5D=1&filter%5B3%5D=1&filter%5Bcpage%5D=7&expand=1&print
+                - heading "Course Descriptions - New York University Tandon School of ..." [level=3] [ref=f25e476]
+                - generic [ref=f25e482]:
+                  - generic [ref=f25e483]: New York University
+                  - generic [ref=f25e485]: http://bulletin.engineering.nyu.edu › content › print
+              - button "About this result" [ref=f25e491] [cursor=pointer]
+            - generic [ref=f25e497]:
+              - generic [ref=f25e498]:
+                - text: "Prerequisite(s): MA-UY 1024 , MA-UY 1124 , and"
+                - emphasis [ref=f25e499]: PH
+                - text: "-"
+                - emphasis [ref=f25e500]: UY
+                - text: "1013 . Corequisite(s):"
+                - emphasis [ref=f25e501]: PH
+                - text: "-"
+                - emphasis [ref=f25e502]: UY 2023
+                - text: . Weekly
+                - emphasis [ref=f25e503]: Lecture
+                - text: "Hours: 3 | Weekly Lab Hours: 0 | Weekly Recitation Hours ..."
+              - link "Read more" [ref=f25e504] [cursor=pointer]:
+                - /url: http://bulletin.engineering.nyu.edu/content.php?catoid=17&catoid=17&navoid=1378&filter%5Bitem_type%5D=3&filter%5Bonly_active%5D=1&filter%5B3%5D=1&filter%5Bcpage%5D=7&expand=1&print#:~:text=Prerequisite(s)%3A%20MA%2DUY%201024%20%2C%20MA%2DUY,%7C%20Weekly%20Recitation%20Hours%3A%200
+        - generic [ref=f25e506]:
+          - generic [ref=f25e511]:
+            - heading "People also search for" [level=2] [ref=f25e513]
+            - generic [ref=f25e515]:
+              - generic [ref=f25e516]:
+                - link "Ph uy 2023 fall 2026 lecturer section a nyu pdf" [ref=f25e520] [cursor=pointer]:
+                  - /url: /search?sca_esv=2cd7c0326b86c6e2&sxsrf=APpeQnsSUrZRhs-AMVhyKjmtzVlsX6ClDQ:1791552340460&q=Ph+uy+2023+fall+2026+lecturer+section+a+nyu+pdf&sa=X&ved=2ahUKEwiCveXGhK2XAxWxDTQIHYX5E6YQ1QJ6BAgyEAE
+                - link "PH-UY 2033" [ref=f25e534] [cursor=pointer]:
+                  - /url: /search?sca_esv=2cd7c0326b86c6e2&sxsrf=APpeQnsSUrZRhs-AMVhyKjmtzVlsX6ClDQ:1791552340460&q=PH-UY+2033&sa=X&ved=2ahUKEwiCveXGhK2XAxWxDTQIHYX5E6YQ1QJ6BAg5EAE
+                - link "PH-UY 1013" [ref=f25e548] [cursor=pointer]:
+                  - /url: /search?sca_esv=2cd7c0326b86c6e2&sxsrf=APpeQnsSUrZRhs-AMVhyKjmtzVlsX6ClDQ:1791552340460&q=PH-UY+1013&sa=X&ved=2ahUKEwiCveXGhK2XAxWxDTQIHYX5E6YQ1QJ6BAg4EAE
+                - link "NYU Albert" [ref=f25e562] [cursor=pointer]:
+                  - /url: /search?sca_esv=2cd7c0326b86c6e2&sxsrf=APpeQnsSUrZRhs-AMVhyKjmtzVlsX6ClDQ:1791552340460&q=NYU+Albert&sa=X&ved=2ahUKEwiCveXGhK2XAxWxDTQIHYX5E6YQ1QJ6BAg2EAE
+              - generic [ref=f25e573]:
+                - link "NYU 1-credit courses" [ref=f25e577] [cursor=pointer]:
+                  - /url: /search?sca_esv=2cd7c0326b86c6e2&sxsrf=APpeQnsSUrZRhs-AMVhyKjmtzVlsX6ClDQ:1791552340460&q=NYU+1-credit+courses&sa=X&ved=2ahUKEwiCveXGhK2XAxWxDTQIHYX5E6YQ1QJ6BAg3EAE
+                - link "NYU bulletin" [ref=f25e591] [cursor=pointer]:
+                  - /url: /search?sca_esv=2cd7c0326b86c6e2&sxsrf=APpeQnsSUrZRhs-AMVhyKjmtzVlsX6ClDQ:1791552340460&q=NYU+bulletin&sa=X&ved=2ahUKEwiCveXGhK2XAxWxDTQIHYX5E6YQ1QJ6BAg1EAE
+                - link "NYU Spring 2026 courses" [ref=f25e605] [cursor=pointer]:
+                  - /url: /search?sca_esv=2cd7c0326b86c6e2&sxsrf=APpeQnsSUrZRhs-AMVhyKjmtzVlsX6ClDQ:1791552340460&q=NYU+Spring+2026+courses&sa=X&ved=2ahUKEwiCveXGhK2XAxWxDTQIHYX5E6YQ1QJ6BAg0EAE
+                - link "MA-UY 1124" [ref=f25e619] [cursor=pointer]:
+                  - /url: /search?sca_esv=2cd7c0326b86c6e2&sxsrf=APpeQnsSUrZRhs-AMVhyKjmtzVlsX6ClDQ:1791552340460&q=MA-UY+1124&sa=X&ved=2ahUKEwiCveXGhK2XAxWxDTQIHYX5E6YQ1QJ6BAgzEAE
+          - navigation [ref=f25e630]:
+            - heading "Page Navigation" [level=1] [ref=f25e631]
+            - text: "1"
+            - link "Page 2" [ref=f25e634] [cursor=pointer]:
+              - /url: /search?q=PH-UY+2023+Fall+2026+lecturer+section+A+NYU&sca_esv=2cd7c0326b86c6e2&sxsrf=APpeQnsSUrZRhs-AMVhyKjmtzVlsX6ClDQ:1791552340460&ei=VOvIaoLDG7Gb0PEPhfPPsAo&start=10&sa=N&sstk=AS6-VmLrfgeviO9hDb51tCchwulvmp8GAbpzu6rW5XhYv6KlhLTA14nNAL5sb3td-J9GaVYljQi_mZWTVD1HpZYHYreJhHh5lTkvEA&ved=2ahUKEwiCveXGhK2XAxWxDTQIHYX5E6YQ8tMDegQIKhAE
+              - text: "2"
+            - link "Page 3" [ref=f25e636] [cursor=pointer]:
+              - /url: /search?q=PH-UY+2023+Fall+2026+lecturer+section+A+NYU&sca_esv=2cd7c0326b86c6e2&sxsrf=APpeQnsSUrZRhs-AMVhyKjmtzVlsX6ClDQ:1791552340460&ei=VOvIaoLDG7Gb0PEPhfPPsAo&start=20&sa=N&sstk=AS6-VmLrfgeviO9hDb51tCchwulvmp8GAbpzu6rW5XhYv6KlhLTA14nNAL5sb3td-J9GaVYljQi_mZWTVD1HpZYHYreJhHh5lTkvEA&ved=2ahUKEwiCveXGhK2XAxWxDTQIHYX5E6YQ8tMDegQIKhAG
+              - text: "3"
+            - link "Page 4" [ref=f25e638] [cursor=pointer]:
+              - /url: /search?q=PH-UY+2023+Fall+2026+lecturer+section+A+NYU&sca_esv=2cd7c0326b86c6e2&sxsrf=APpeQnsSUrZRhs-AMVhyKjmtzVlsX6ClDQ:1791552340460&ei=VOvIaoLDG7Gb0PEPhfPPsAo&start=30&sa=N&sstk=AS6-VmLrfgeviO9hDb51tCchwulvmp8GAbpzu6rW5XhYv6KlhLTA14nNAL5sb3td-J9GaVYljQi_mZWTVD1HpZYHYreJhHh5lTkvEA&ved=2ahUKEwiCveXGhK2XAxWxDTQIHYX5E6YQ8tMDegQIKhAI
+              - text: "4"
+            - link "Page 5" [ref=f25e640] [cursor=pointer]:
+              - /url: /search?q=PH-UY+2023+Fall+2026+lecturer+section+A+NYU&sca_esv=2cd7c0326b86c6e2&sxsrf=APpeQnsSUrZRhs-AMVhyKjmtzVlsX6ClDQ:1791552340460&ei=VOvIaoLDG7Gb0PEPhfPPsAo&start=40&sa=N&sstk=AS6-VmLrfgeviO9hDb51tCchwulvmp8GAbpzu6rW5XhYv6KlhLTA14nNAL5sb3td-J9GaVYljQi_mZWTVD1HpZYHYreJhHh5lTkvEA&ved=2ahUKEwiCveXGhK2XAxWxDTQIHYX5E6YQ8tMDegQIKhAK
+              - text: "5"
+            - link "Page 6" [ref=f25e642] [cursor=pointer]:
+              - /url: /search?q=PH-UY+2023+Fall+2026+lecturer+section+A+NYU&sca_esv=2cd7c0326b86c6e2&sxsrf=APpeQnsSUrZRhs-AMVhyKjmtzVlsX6ClDQ:1791552340460&ei=VOvIaoLDG7Gb0PEPhfPPsAo&start=50&sa=N&sstk=AS6-VmLrfgeviO9hDb51tCchwulvmp8GAbpzu6rW5XhYv6KlhLTA14nNAL5sb3td-J9GaVYljQi_mZWTVD1HpZYHYreJhHh5lTkvEA&ved=2ahUKEwiCveXGhK2XAxWxDTQIHYX5E6YQ8tMDegQIKhAM
+              - text: "6"
+            - link "Page 7" [ref=f25e644] [cursor=pointer]:
+              - /url: /search?q=PH-UY+2023+Fall+2026+lecturer+section+A+NYU&sca_esv=2cd7c0326b86c6e2&sxsrf=APpeQnsSUrZRhs-AMVhyKjmtzVlsX6ClDQ:1791552340460&ei=VOvIaoLDG7Gb0PEPhfPPsAo&start=60&sa=N&sstk=AS6-VmLrfgeviO9hDb51tCchwulvmp8GAbpzu6rW5XhYv6KlhLTA14nNAL5sb3td-J9GaVYljQi_mZWTVD1HpZYHYreJhHh5lTkvEA&ved=2ahUKEwiCveXGhK2XAxWxDTQIHYX5E6YQ8tMDegQIKhAO
+              - text: "7"
+            - link "Page 8" [ref=f25e646] [cursor=pointer]:
+              - /url: /search?q=PH-UY+2023+Fall+2026+lecturer+section+A+NYU&sca_esv=2cd7c0326b86c6e2&sxsrf=APpeQnsSUrZRhs-AMVhyKjmtzVlsX6ClDQ:1791552340460&ei=VOvIaoLDG7Gb0PEPhfPPsAo&start=70&sa=N&sstk=AS6-VmLrfgeviO9hDb51tCchwulvmp8GAbpzu6rW5XhYv6KlhLTA14nNAL5sb3td-J9GaVYljQi_mZWTVD1HpZYHYreJhHh5lTkvEA&ved=2ahUKEwiCveXGhK2XAxWxDTQIHYX5E6YQ8tMDegQIKhAQ
+              - text: "8"
+            - heading [level=2] [ref=f25e648]:
+              - link "Next" [ref=f25e649] [cursor=pointer]:
+                - /url: /search?q=PH-UY+2023+Fall+2026+lecturer+section+A+NYU&sca_esv=2cd7c0326b86c6e2&sxsrf=APpeQnsSUrZRhs-AMVhyKjmtzVlsX6ClDQ:1791552340460&ei=VOvIaoLDG7Gb0PEPhfPPsAo&start=10&sa=N&sstk=AS6-VmLrfgeviO9hDb51tCchwulvmp8GAbpzu6rW5XhYv6KlhLTA14nNAL5sb3td-J9GaVYljQi_mZWTVD1HpZYHYreJhHh5lTkvEA&ved=2ahUKEwiCveXGhK2XAxWxDTQIHYX5E6YQ8NMDegQIKhAS
+        - navigation
+    - contentinfo [ref=f25e652]:
+      - heading "Footer Links" [level=1] [ref=f25e653]
+      - generic [ref=f25e657]:
+        - generic [ref=f25e658]: Results are not personalized
+        - generic [ref=f25e665]:
+          - button "Lower Manhattan, New York, NY - From your IP address" [ref=f25e667] [cursor=pointer]:
+            - generic [ref=f25e668]: Lower Manhattan, New York, NY
+            - generic [ref=f25e670]:
+              - text: "-"
+              - generic [ref=f25e671]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=f25e673] [cursor=pointer]
+        - generic [ref=f25e676]:
+          - link "Help" [ref=f25e677] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=f25e678] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=f25e679] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=f25e680] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

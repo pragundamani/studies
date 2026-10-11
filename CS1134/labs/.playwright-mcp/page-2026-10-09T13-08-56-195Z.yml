@@ -1,0 +1,94 @@
+- generic [ref=f43e1]:
+  - banner [ref=f43e2]:
+    - navigation "Main" [ref=f43e3]:
+      - generic [ref=f43e4]:
+        - link "skip to main content" [ref=f43e5] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - generic:
+          - generic [ref=f43e10]:
+            - generic [ref=f43e12]:
+              - link "My Home" [ref=f43e14] [cursor=pointer]:
+                - /url: /d2l/lp/ouHome/defaultHome.d2l
+                - img "My Home" [ref=f43e17]
+              - link "CS-UY 1134 - Fall 2026" [ref=f43e21] [cursor=pointer]:
+                - /url: /d2l/home/627027
+            - generic [ref=f43e22]:
+              - button "Select a course..." [ref=f43e25] [cursor=pointer]
+              - generic [ref=f43e31]:
+                - button "Message alerts" [ref=f43e34] [cursor=pointer]
+                - button "Subscription alerts" [ref=f43e39] [cursor=pointer]
+                - generic [ref=f43e43]:
+                  - button "Update alerts" [ref=f43e44] [cursor=pointer]
+                  - generic: Update alerts - You have new alerts
+              - button "Pragun Damani, avatar" [ref=f43e54] [cursor=pointer]:
+                - generic: PD
+              - button "Admin Tools" [ref=f43e62] [cursor=pointer]
+          - list [ref=f43e69]:
+            - listitem [ref=f43e70]:
+              - link "Content" [ref=f43e71] [cursor=pointer]:
+                - /url: /d2l/le/lessons/627027
+            - listitem [ref=f43e72]:
+              - link "Announcements" [ref=f43e73] [cursor=pointer]:
+                - /url: /d2l/lms/news/main.d2l?ou=627027
+            - listitem [ref=f43e74]:
+              - link "Assignments" [ref=f43e75] [cursor=pointer]:
+                - /url: /d2l/lms/dropbox/dropbox.d2l?ou=627027
+            - listitem [ref=f43e76]:
+              - link "Discussions" [ref=f43e77] [cursor=pointer]:
+                - /url: /d2l/le/627027/discussions/List
+            - listitem [ref=f43e78]:
+              - link "Quizzes" [ref=f43e79] [cursor=pointer]:
+                - /url: /d2l/lms/quizzing/quizzing.d2l?ou=627027
+            - listitem [ref=f43e80]:
+              - link "Grades" [ref=f43e81] [cursor=pointer]:
+                - /url: /d2l/lms/grades/index.d2l?ou=627027
+            - listitem [ref=f43e82]:
+              - link "Zoom" [ref=f43e83] [cursor=pointer]:
+                - /url: /d2l/common/dialogs/quickLink/quickLink.d2l?ou=627027&type=lti&rcode=438126FB-CB7E-4012-84DC-B926D628DF2A-1844200&srcou=6606&launchFramed=1&framedName=Zoom
+            - listitem [ref=f43e107]:
+              - button "More" [ref=f43e109]
+  - main [ref=f43e102]:
+    - iframe [ref=f43e105]:
+      - generic [ref=f45e1]:
+        - generic [ref=f45e112]:
+          - generic [ref=f45e113]:
+            - button "Expand Navigation Menu" [ref=f45e303] [cursor=pointer]
+            - generic [ref=f45e115]:
+              - link "Alternative formats" [ref=f45e268] [cursor=pointer]:
+                - /url: "#"
+              - button "Download" [ref=f45e117] [cursor=pointer]
+              - button "Open in full screen mode" [ref=f45e273] [cursor=pointer]
+              - generic [ref=f45e121]:
+                - button "Previous" [ref=f45e123] [cursor=pointer]
+                - button "Next" [ref=f45e127] [cursor=pointer]
+          - generic [ref=f45e129]:
+            - heading "Lab 4 - Worksheet" [level=1] [ref=f45e276]
+            - document [ref=f45e279]:
+              - toolbar:
+                - generic:
+                  - generic:
+                    - generic: Page 1 / 16
+                    - group:
+                      - button "Zoom Out"
+                      - button "Zoom In"
+                      - button "Download"
+                      - button "Open new tab for printing"
+                      - button "Presentation Mode"
+              - generic [ref=f45e281]:
+                - region "Page ⁨1⁩" [ref=f45e282]
+                - region "Page ⁨2⁩" [ref=f45e285]
+                - region "Page ⁨3⁩" [ref=f45e288]
+                - region "Page ⁨4⁩" [ref=f45e289]
+                - region "Page ⁨5⁩" [ref=f45e290]
+                - region "Page ⁨6⁩" [ref=f45e291]
+                - region "Page ⁨7⁩" [ref=f45e292]
+                - region "Page ⁨8⁩" [ref=f45e293]
+                - region "Page ⁨9⁩" [ref=f45e294]
+                - region "Page ⁨10⁩" [ref=f45e295]
+                - region "Page ⁨11⁩" [ref=f45e296]
+                - region "Page ⁨12⁩" [ref=f45e297]
+                - region "Page ⁨13⁩" [ref=f45e298]
+                - region "Page ⁨14⁩" [ref=f45e299]
+                - region "Page ⁨15⁩" [ref=f45e300]
+                - region "Page ⁨16⁩" [ref=f45e301]
+        - log [ref=f45e133]

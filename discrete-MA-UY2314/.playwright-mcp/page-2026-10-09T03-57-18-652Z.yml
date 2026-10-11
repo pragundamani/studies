@@ -1,0 +1,2369 @@
+- generic [ref=f56e3]:
+  - generic [ref=f56e12]:
+    - link "Skip to content" [ref=f56e13] [cursor=pointer]:
+      - /url: ""
+    - link "Skip to navigation" [ref=f56e14] [cursor=pointer]:
+      - /url: ""
+  - generic [ref=f56e4]:
+    - banner [ref=f56e15]:
+      - generic [ref=f56e17]:
+        - button "Cengage WebAssign Homepage" [ref=f56e19] [cursor=pointer]:
+          - img "Cengage WebAssign Homepage" [ref=f56e20]
+        - generic [ref=f56e44]:
+          - generic [ref=f56e45]:
+            - link "My Cengage Home" [ref=f56e46] [cursor=pointer]:
+              - /url: https://www.cengage.com/dashboard/
+            - button "Open Email Notification Settings modal" [ref=f56e51] [cursor=pointer]
+            - link "Open Help page in a new browser tab." [ref=f56e55] [cursor=pointer]:
+              - /url: https://help.cengage.com/webassign/student_guide/
+            - link "Open My Account in a new browser tab." [ref=f56e59] [cursor=pointer]:
+              - /url: /web/User/Cengage/my_account
+            - button "Interface language setting. Language set to English" [ref=f56e64] [cursor=pointer]:
+              - generic [ref=f56e67]: EN
+          - generic [ref=f56e71]:
+            - generic [ref=f56e72]: pd2752@nyu.edu
+            - button "Sign out" [ref=f56e73] [cursor=pointer]
+      - navigation "WebAssign" [ref=f56e76]:
+        - link "Home" [ref=f56e77]
+        - link "My Assignments" [ref=f56e78]
+        - link "Grades" [ref=f56e79]
+        - link "Communication" [ref=f56e80]
+        - link "Calendar" [ref=f56e81]
+        - button "My eBooks" [ref=f56e84]
+    - main [ref=f56e5]:
+      - generic [ref=f56e6]:
+        - generic [ref=f56e87]:
+          - generic [ref=f56e89]:
+            - generic [ref=f56e90]:
+              - 'link "navigate back to MA-UY 2314: Discrete Mathematics, Fall 2026, Fall 2026" [ref=f56e92] [cursor=pointer]':
+                - /url: /v4cgi/student.pl?course=1319576,1715067
+                - text: "MA-UY 2314: Discrete Mathematics, Fall 2026, Fall 2026"
+              - heading "4.3 Direct Proof and Counterexample III (Homework)" [level=1] [ref=f56e95]
+            - generic [ref=f56e98]:
+              - generic [ref=f56e102]:
+                - text: Instructor
+                - generic [ref=f56e103]: Ken Cereste
+              - generic [ref=f56e104]: New York University
+          - generic [ref=f56e107]:
+            - generic [ref=f56e108]:
+              - generic [ref=f56e109]:
+                - generic [ref=f56e110]:
+                  - generic [ref=f56e111]: "Due Date: Thursday, October 8, 2026 at 11:59 PM EDT"
+                  - generic [aria-hidden] [ref=f56e112]: "Due Date:"
+                  - generic [aria-hidden] [ref=f56e113]: Thu, Oct 8, 2026 11:59 PM EDT
+                - generic [ref=f56e114]:
+                  - generic [ref=f56e115]: "Current Score: 83.3 / 100 Points 83.3%"
+                  - generic [aria-hidden] [ref=f56e116]: "Current Score:"
+                  - generic [aria-hidden] [ref=f56e117]: 83.3 / 100 Points | 83.3 %
+              - generic [ref=f56e118]:
+                - button "Open Request Extension in modal window" [ref=f56e119] [cursor=pointer]:
+                  - generic [ref=f56e120]: Request Extension
+                - button "Print assignment" [ref=f56e124] [cursor=pointer]:
+                  - generic [ref=f56e125]: Print Assignment
+            - generic [ref=f56e131]:
+              - heading [level=2] [ref=f56e132]:
+                - button "Scoring and Assignment Information" [expanded] [ref=f56e133] [cursor=pointer]
+              - generic "Scoring and Assignment Information" [ref=f56e139]:
+                - generic [ref=f56e140]:
+                  - table [ref=f56e143]:
+                    - rowgroup [ref=f56e144]:
+                      - row [ref=f56e145]:
+                        - rowheader "Question" [ref=f56e146]
+                        - columnheader [ref=f56e147]:
+                          - link "Question 1 of 12," [ref=f56e148] [cursor=pointer]:
+                            - /url: "#Q1"
+                            - generic [ref=f56e149]: "1"
+                        - columnheader [ref=f56e151]:
+                          - link "Question 2 of 12," [ref=f56e152] [cursor=pointer]:
+                            - /url: "#Q2"
+                            - generic [ref=f56e153]: "2"
+                        - columnheader [ref=f56e155]:
+                          - link "Question 3 of 12," [ref=f56e156] [cursor=pointer]:
+                            - /url: "#Q3"
+                            - generic [ref=f56e157]: "3"
+                        - columnheader [ref=f56e159]:
+                          - link "Question 4 of 12," [ref=f56e160] [cursor=pointer]:
+                            - /url: "#Q4"
+                            - generic [ref=f56e161]: "4"
+                        - columnheader [ref=f56e163]:
+                          - link "Question 5 of 12," [ref=f56e164] [cursor=pointer]:
+                            - /url: "#Q5"
+                            - generic [ref=f56e165]: "5"
+                        - columnheader [ref=f56e167]:
+                          - link "Question 6 of 12," [ref=f56e168] [cursor=pointer]:
+                            - /url: "#Q6"
+                            - generic [ref=f56e169]: "6"
+                        - columnheader [ref=f56e171]:
+                          - link "Question 7 of 12," [ref=f56e172] [cursor=pointer]:
+                            - /url: "#Q7"
+                            - generic [ref=f56e173]: "7"
+                        - columnheader [ref=f56e175]:
+                          - link "Question 8 of 12," [ref=f56e176] [cursor=pointer]:
+                            - /url: "#Q8"
+                            - generic [ref=f56e177]: "8"
+                        - columnheader [ref=f56e179]:
+                          - link "Question 9 of 12," [ref=f56e180] [cursor=pointer]:
+                            - /url: "#Q9"
+                            - generic [ref=f56e181]: "9"
+                        - columnheader [ref=f56e183]:
+                          - link "Question 10 of 12," [ref=f56e184] [cursor=pointer]:
+                            - /url: "#Q10"
+                            - generic [ref=f56e185]: "10"
+                        - columnheader [ref=f56e187]:
+                          - link "Question 11 of 12," [ref=f56e188] [cursor=pointer]:
+                            - /url: "#Q11"
+                            - generic [ref=f56e189]: "11"
+                        - columnheader [ref=f56e191]:
+                          - link "Question 12 of 12," [ref=f56e192] [cursor=pointer]:
+                            - /url: "#Q12"
+                            - generic [ref=f56e193]: "12"
+                      - row [ref=f56e195]:
+                        - rowheader "Points" [ref=f56e196]
+                        - cell [ref=f56e197]:
+                          - link "Question 1 out of 12, correct, your score is 8.33 out of 8.33" [ref=f56e198] [cursor=pointer]:
+                            - /url: "#Q1"
+                            - generic [ref=f56e199]: 8.33 / 8.33
+                        - cell [ref=f56e200]:
+                          - link "Question 2 out of 12, correct, your score is 8.33 out of 8.33" [ref=f56e201] [cursor=pointer]:
+                            - /url: "#Q2"
+                            - generic [ref=f56e202]: 8.33 / 8.33
+                        - cell [ref=f56e203]:
+                          - link "Question 3 out of 12, correct, your score is 8.33 out of 8.33" [ref=f56e204] [cursor=pointer]:
+                            - /url: "#Q3"
+                            - generic [ref=f56e205]: 8.33 / 8.33
+                        - cell [ref=f56e206]:
+                          - link "Question 4 out of 12, correct, your score is 8.33 out of 8.33" [ref=f56e207] [cursor=pointer]:
+                            - /url: "#Q4"
+                            - generic [ref=f56e208]: 8.33 / 8.33
+                        - cell [ref=f56e209]:
+                          - link "Question 5 out of 12, correct, your score is 8.33 out of 8.33" [ref=f56e210] [cursor=pointer]:
+                            - /url: "#Q5"
+                            - generic [ref=f56e211]: 8.33 / 8.33
+                        - cell [ref=f56e212]:
+                          - link "Question 6 out of 12, correct, your score is 8.33 out of 8.33" [ref=f56e213] [cursor=pointer]:
+                            - /url: "#Q6"
+                            - generic [ref=f56e214]: 8.33 / 8.33
+                        - cell [ref=f56e215]:
+                          - link "Question 7 out of 12, correct, your score is 8.33 out of 8.33" [ref=f56e216] [cursor=pointer]:
+                            - /url: "#Q7"
+                            - generic [ref=f56e217]: 8.33 / 8.33
+                        - cell [ref=f56e218]:
+                          - link "Question 8 out of 12, correct, your score is 8.33 out of 8.33" [ref=f56e219] [cursor=pointer]:
+                            - /url: "#Q8"
+                            - generic [ref=f56e220]: 8.33 / 8.33
+                        - cell [ref=f56e221]:
+                          - link "Question 9 out of 12, correct, your score is 8.33 out of 8.33" [ref=f56e222] [cursor=pointer]:
+                            - /url: "#Q9"
+                            - generic [ref=f56e223]: 8.33 / 8.33
+                        - cell [ref=f56e224]:
+                          - link "Question 10 out of 12, correct, your score is 8.33 out of 8.33" [ref=f56e225] [cursor=pointer]:
+                            - /url: "#Q10"
+                            - generic [ref=f56e226]: 8.33 / 8.33
+                        - cell [ref=f56e227]:
+                          - link "Question 11 out of 12, your score is none out of 8.33" [ref=f56e228] [cursor=pointer]:
+                            - /url: "#Q11"
+                            - generic [ref=f56e229]: – / 8.33
+                        - cell [ref=f56e230]:
+                          - link "Question 12 out of 12, your score is none out of 8.37" [ref=f56e231] [cursor=pointer]:
+                            - /url: "#Q12"
+                            - generic [ref=f56e232]: – / 8.37
+                  - generic [ref=f56e233]:
+                    - heading "Assignment Submission" [level=3] [ref=f56e234]
+                    - paragraph [ref=f56e235]: For this assignment, you submit answers by question parts. The number of submissions remaining for each question part only changes if you submit or change the answer.
+                    - heading "Assignment Scoring" [level=3] [ref=f56e236]
+                    - paragraph [ref=f56e237]: Your last submission is used for your score.
+          - generic [ref=f56e238]:
+            - region "Banner for question 1" [ref=f56e241]:
+              - generic [ref=f56e242]:
+                - heading "Question 1" [level=2] [ref=f56e244]: "1."
+                - strong [ref=f56e245]: "[8.33 / 8.33 Points]"
+              - generic [ref=f56e246]:
+                - button "Details for question 1." [ref=f56e247] [cursor=pointer]:
+                  - generic [ref=f56e248]: Details
+                - button "My Notes For question 1" [ref=f56e251] [cursor=pointer]:
+                  - generic [ref=f56e252]: My Notes
+                - button "Previous Answers for question 1" [ref=f56e253] [cursor=pointer]:
+                  - generic [ref=f56e254]: Previous Answers
+                - button "Practice Another Version for question 1." [ref=f56e255] [cursor=pointer]:
+                  - generic [ref=f56e256]: Practice Another
+            - generic [ref=f56e257]:
+              - generic [ref=f56e259]:
+                - generic [ref=f56e260]: EppDiscMath5 4.3.001.
+                - region [ref=f56e261]:
+                  - strong [ref=f56e262]: Problem 1
+                  - generic [ref=f56e263]: Show that the following number is rational by writing it as a ratio of two integers.
+                  - group [ref=f56e264]:
+                    - generic [ref=f56e267]:
+                      - generic [ref=f56e271]:
+                        - generic [ref=f56e272]: −
+                        - generic [ref=f56e275]:
+                          - generic [ref=f56e276]: "41"
+                          - generic [ref=f56e278]: "7"
+                      - math [ref=f56e282]:
+                        - generic [ref=f56e283]: −
+                        - generic [ref=f56e285]:
+                          - generic [ref=f56e286]: "41"
+                          - generic [ref=f56e287]: "7"
+                  - generic [ref=f56e288]:
+                    - generic: Write your answer.
+                    - textbox "Write your answer." [ref=f56e290]: "-41/7"
+                    - 'img "Correct: Your answer is correct." [ref=f56e294]'
+                - generic "Resource box" [ref=f56e298]:
+                  - generic [ref=f56e299]:
+                    - generic [ref=f56e300]: Resources
+                    - generic [ref=f56e301]:
+                      - paragraph [ref=f56e302]:
+                        - link "Read It (opens in a new tab)" [ref=f56e303] [cursor=pointer]:
+                          - /url: "#"
+                          - text: Read It
+                      - button "Ask Student Assistant for question 1" [ref=f56e304] [cursor=pointer]: Student Assistant
+              - button "Submit Answer" [ref=f56e307] [cursor=pointer]
+          - generic [ref=f56e308]:
+            - region "Banner for question 2" [ref=f56e311]:
+              - generic [ref=f56e312]:
+                - heading "Question 2" [level=2] [ref=f56e314]: "2."
+                - strong [ref=f56e315]: "[8.33 / 8.33 Points]"
+              - generic [ref=f56e316]:
+                - button "Details for question 2." [ref=f56e317] [cursor=pointer]:
+                  - generic [ref=f56e318]: Details
+                - button "My Notes For question 2" [ref=f56e321] [cursor=pointer]:
+                  - generic [ref=f56e322]: My Notes
+                - button "Previous Answers for question 2" [ref=f56e323] [cursor=pointer]:
+                  - generic [ref=f56e324]: Previous Answers
+                - button "Practice Another Version for question 2." [ref=f56e325] [cursor=pointer]:
+                  - generic [ref=f56e326]: Practice Another
+            - generic [ref=f56e327]:
+              - generic [ref=f56e329]:
+                - generic [ref=f56e330]: EppDiscMath5 4.3.002.
+                - region [ref=f56e331]:
+                  - strong [ref=f56e332]: Problem 2
+                  - generic [ref=f56e333]: Show that the following number is rational by writing it as a ratio of two integers.
+                  - group [ref=f56e334]: "5.6057"
+                  - generic [ref=f56e335]:
+                    - generic: Write your answer.
+                    - textbox "Write your answer." [ref=f56e337]: 56057/10000
+                    - 'img "Correct: Your answer is correct." [ref=f56e341]'
+                - generic "Resource box" [ref=f56e345]:
+                  - generic [ref=f56e346]:
+                    - generic [ref=f56e347]: Resources
+                    - generic [ref=f56e348]:
+                      - paragraph [ref=f56e349]:
+                        - link "Read It (opens in a new tab)" [ref=f56e350] [cursor=pointer]:
+                          - /url: "#"
+                          - text: Read It
+                      - button "Ask Student Assistant for question 2" [ref=f56e351] [cursor=pointer]: Student Assistant
+              - button "Submit Answer" [ref=f56e354] [cursor=pointer]
+          - generic [ref=f56e355]:
+            - region "Banner for question 3" [ref=f56e358]:
+              - generic [ref=f56e359]:
+                - heading "Question 3" [level=2] [ref=f56e361]: "3."
+                - strong [ref=f56e362]: "[8.33 / 8.33 Points]"
+              - generic [ref=f56e363]:
+                - button "Details for question 3." [ref=f56e364] [cursor=pointer]:
+                  - generic [ref=f56e365]: Details
+                - button "My Notes For question 3" [ref=f56e368] [cursor=pointer]:
+                  - generic [ref=f56e369]: My Notes
+                - button "Previous Answers for question 3" [ref=f56e370] [cursor=pointer]:
+                  - generic [ref=f56e371]: Previous Answers
+                - button "Practice Another Version for question 3." [ref=f56e372] [cursor=pointer]:
+                  - generic [ref=f56e373]: Practice Another
+            - generic [ref=f56e374]:
+              - generic [ref=f56e376]:
+                - generic [ref=f56e377]: EppDiscMath5 4.3.003.
+                - region [ref=f56e378]:
+                  - strong [ref=f56e379]: Problem 3
+                  - generic [ref=f56e380]: Show that the following number is rational by writing it as a ratio of two integers.
+                  - group [ref=f56e381]:
+                    - generic [ref=f56e384]:
+                      - generic [ref=f56e388]:
+                        - generic [ref=f56e391]:
+                          - generic [ref=f56e392]: "2"
+                          - generic [ref=f56e394]: "3"
+                        - generic [ref=f56e398]: +
+                        - generic [ref=f56e401]:
+                          - generic [ref=f56e402]: "2"
+                          - generic [ref=f56e404]: "7"
+                      - math [ref=f56e408]:
+                        - generic [ref=f56e410]:
+                          - generic [ref=f56e411]: "2"
+                          - generic [ref=f56e412]: "3"
+                        - generic [ref=f56e413]: +
+                        - generic [ref=f56e415]:
+                          - generic [ref=f56e416]: "2"
+                          - generic [ref=f56e417]: "7"
+                  - generic [ref=f56e418]:
+                    - generic: Write your answer.
+                    - textbox "Write your answer." [ref=f56e420]: 20/21
+                    - 'img "Correct: Your answer is correct." [ref=f56e424]'
+                - generic "Resource box" [ref=f56e428]:
+                  - generic [ref=f56e429]:
+                    - generic [ref=f56e430]: Resources
+                    - generic [ref=f56e431]:
+                      - paragraph [ref=f56e432]:
+                        - link "Read It (opens in a new tab)" [ref=f56e433] [cursor=pointer]:
+                          - /url: "#"
+                          - text: Read It
+                      - button "Ask Student Assistant for question 3" [ref=f56e434] [cursor=pointer]: Student Assistant
+              - button "Submit Answer" [ref=f56e437] [cursor=pointer]
+          - generic [ref=f56e438]:
+            - region "Banner for question 4" [ref=f56e441]:
+              - generic [ref=f56e442]:
+                - heading "Question 4" [level=2] [ref=f56e444]: "4."
+                - strong [ref=f56e445]: "[8.33 / 8.33 Points]"
+              - generic [ref=f56e446]:
+                - button "Details for question 4." [ref=f56e447] [cursor=pointer]:
+                  - generic [ref=f56e448]: Details
+                - button "My Notes For question 4" [ref=f56e451] [cursor=pointer]:
+                  - generic [ref=f56e452]: My Notes
+                - button "Previous Answers for question 4" [ref=f56e453] [cursor=pointer]:
+                  - generic [ref=f56e454]: Previous Answers
+                - button "Practice Another Version for question 4." [ref=f56e455] [cursor=pointer]:
+                  - generic [ref=f56e456]: Practice Another
+            - generic [ref=f56e457]:
+              - generic [ref=f56e459]:
+                - generic [ref=f56e460]: EppDiscMath5 4.3.005.
+                - region [ref=f56e461]:
+                  - strong [ref=f56e462]: Problem 4
+                  - generic [ref=f56e463]: Show that the following number is rational by writing it as a ratio of two integers.
+                  - group [ref=f56e464]:
+                    - generic [ref=f56e467]:
+                      - generic [ref=f56e471]:
+                        - generic [ref=f56e472]: "0.59595959"
+                        - generic [ref=f56e473]: …
+                      - math [ref=f56e474]:
+                        - generic [ref=f56e475]: "0.59595959"
+                        - generic [ref=f56e476]: …
+                  - generic [ref=f56e477]:
+                    - generic: Write your answer.
+                    - textbox "Write your answer." [ref=f56e479]: 59/99
+                    - 'img "Correct: Your answer is correct." [ref=f56e483]'
+                - generic "Resource box" [ref=f56e487]:
+                  - generic [ref=f56e488]:
+                    - generic [ref=f56e489]: Resources
+                    - generic [ref=f56e490]:
+                      - paragraph [ref=f56e491]:
+                        - link "Read It (opens in a new tab)" [ref=f56e492] [cursor=pointer]:
+                          - /url: "#"
+                          - text: Read It
+                      - button "Ask Student Assistant for question 4" [ref=f56e493] [cursor=pointer]: Student Assistant
+              - button "Submit Answer" [ref=f56e496] [cursor=pointer]
+          - generic [ref=f56e497]:
+            - region "Banner for question 5" [ref=f56e500]:
+              - generic [ref=f56e501]:
+                - heading "Question 5" [level=2] [ref=f56e503]: "5."
+                - strong [ref=f56e504]: "[8.33 / 8.33 Points]"
+              - generic [ref=f56e505]:
+                - button "Details for question 5." [ref=f56e506] [cursor=pointer]:
+                  - generic [ref=f56e507]: Details
+                - button "My Notes For question 5" [ref=f56e510] [cursor=pointer]:
+                  - generic [ref=f56e511]: My Notes
+                - button "Previous Answers for question 5" [ref=f56e512] [cursor=pointer]:
+                  - generic [ref=f56e513]: Previous Answers
+                - button "Practice Another Version for question 5." [ref=f56e514] [cursor=pointer]:
+                  - generic [ref=f56e515]: Practice Another
+            - generic [ref=f56e516]:
+              - generic [ref=f56e518]:
+                - generic [ref=f56e519]: EppDiscMath5 4.3.007.
+                - region [ref=f56e520]:
+                  - strong [ref=f56e521]: Problem 5
+                  - generic [ref=f56e522]: Show that the following number is rational by writing it as a ratio of two integers.
+                  - group [ref=f56e523]:
+                    - generic [ref=f56e526]:
+                      - generic [ref=f56e530]:
+                        - generic [ref=f56e531]: "52.4708170817081"
+                        - generic [ref=f56e532]: …
+                      - math [ref=f56e533]:
+                        - generic [ref=f56e534]: "52.4708170817081"
+                        - generic [ref=f56e535]: …
+                  - generic [ref=f56e536]:
+                    - generic: Write your answer.
+                    - textbox "Write your answer." [ref=f56e538]: 5246557/99990
+                    - 'img "Correct: Your answer is correct." [ref=f56e542]'
+                - generic "Resource box" [ref=f56e546]:
+                  - generic [ref=f56e547]:
+                    - generic [ref=f56e548]: Resources
+                    - generic [ref=f56e549]:
+                      - paragraph [ref=f56e550]:
+                        - link "Read It (opens in a new tab)" [ref=f56e551] [cursor=pointer]:
+                          - /url: "#"
+                          - text: Read It
+                      - button "Ask Student Assistant for question 5" [ref=f56e552] [cursor=pointer]: Student Assistant
+              - button "Submit Answer" [ref=f56e555] [cursor=pointer]
+          - generic [ref=f56e556]:
+            - region "Banner for question 6" [ref=f56e559]:
+              - generic [ref=f56e560]:
+                - heading "Question 6" [level=2] [ref=f56e562]: "6."
+                - strong [ref=f56e563]: "[8.33 / 8.33 Points]"
+              - generic [ref=f56e564]:
+                - button "Details for question 6." [ref=f56e565] [cursor=pointer]:
+                  - generic [ref=f56e566]: Details
+                - button "My Notes For question 6" [ref=f56e569] [cursor=pointer]:
+                  - generic [ref=f56e570]: My Notes
+                - button "Previous Answers for question 6" [ref=f56e571] [cursor=pointer]:
+                  - generic [ref=f56e572]: Previous Answers
+            - generic [ref=f56e573]:
+              - generic [ref=f56e575]:
+                - generic [ref=f56e576]: EppDiscMath5 4.3.008.
+                - region [ref=f56e577]:
+                  - strong [ref=f56e578]: Problem 6
+                  - region "introduction" [ref=f56e579]:
+                    - generic [ref=f56e580]: The zero product property says that if a product of two real numbers is 0, then one of the numbers must be 0.
+                  - region "(a)" [ref=f56e581]:
+                    - generic [ref=f56e582]:
+                      - generic [ref=f56e583]: (a)
+                      - group "Which of the following expresses the zero product property formally using quantifiers and variables?" [ref=f56e586]:
+                        - generic [ref=f56e588]:
+                          - radio "∀ real numbers x and y, if x y = 0 then x = 0 or y = 0 ." [checked] [ref=f56e589]
+                          - generic [ref=f56e590]:
+                            - generic [ref=f56e593]:
+                              - generic [ref=f56e595]: ∀
+                              - math [ref=f56e599]:
+                                - generic [ref=f56e600]: ∀
+                            - text: real numbers
+                            - emphasis [ref=f56e601]: x
+                            - text: and
+                            - emphasis [ref=f56e602]: "y"
+                            - text: ", if"
+                            - generic [ref=f56e605]:
+                              - generic [ref=f56e609]:
+                                - generic [ref=f56e610]: x
+                                - generic [ref=f56e611]: "y"
+                                - generic [ref=f56e613]: =
+                                - generic [ref=f56e614]: "0"
+                              - math [ref=f56e615]:
+                                - generic [ref=f56e616]: x
+                                - generic [ref=f56e617]: "y"
+                                - generic [ref=f56e618]: =
+                                - generic [ref=f56e619]: "0"
+                            - text: then
+                            - generic [ref=f56e622]:
+                              - generic [ref=f56e626]:
+                                - generic [ref=f56e627]: x
+                                - generic [ref=f56e628]: =
+                                - generic [ref=f56e629]: "0"
+                              - math [ref=f56e630]:
+                                - generic [ref=f56e631]: x
+                                - generic [ref=f56e632]: =
+                                - generic [ref=f56e633]: "0"
+                            - text: or
+                            - generic [ref=f56e634]:
+                              - generic [ref=f56e637]:
+                                - generic [ref=f56e641]:
+                                  - generic [ref=f56e642]: "y"
+                                  - generic [ref=f56e644]: =
+                                  - generic [ref=f56e645]: "0"
+                                - math [ref=f56e646]:
+                                  - generic [ref=f56e647]: "y"
+                                  - generic [ref=f56e648]: =
+                                  - generic [ref=f56e649]: "0"
+                              - text: .
+                        - generic [ref=f56e650]:
+                          - radio "∀ real numbers x and y, if x = 0 and y = 0 then x y = 0 ." [ref=f56e651]
+                          - generic [ref=f56e652]:
+                            - generic [ref=f56e655]:
+                              - generic [ref=f56e657]: ∀
+                              - math [ref=f56e661]:
+                                - generic [ref=f56e662]: ∀
+                            - text: real numbers
+                            - emphasis [ref=f56e663]: x
+                            - text: and
+                            - emphasis [ref=f56e664]: "y"
+                            - text: ", if"
+                            - generic [ref=f56e667]:
+                              - generic [ref=f56e671]:
+                                - generic [ref=f56e672]: x
+                                - generic [ref=f56e673]: =
+                                - generic [ref=f56e674]: "0"
+                              - math [ref=f56e675]:
+                                - generic [ref=f56e676]: x
+                                - generic [ref=f56e677]: =
+                                - generic [ref=f56e678]: "0"
+                            - text: and
+                            - generic [ref=f56e681]:
+                              - generic [ref=f56e685]:
+                                - generic [ref=f56e686]: "y"
+                                - generic [ref=f56e688]: =
+                                - generic [ref=f56e689]: "0"
+                              - math [ref=f56e690]:
+                                - generic [ref=f56e691]: "y"
+                                - generic [ref=f56e692]: =
+                                - generic [ref=f56e693]: "0"
+                            - text: then
+                            - generic [ref=f56e694]:
+                              - generic [ref=f56e697]:
+                                - generic [ref=f56e701]:
+                                  - generic [ref=f56e702]: x
+                                  - generic [ref=f56e703]: "y"
+                                  - generic [ref=f56e705]: =
+                                  - generic [ref=f56e706]: "0"
+                                - math [ref=f56e707]:
+                                  - generic [ref=f56e708]: x
+                                  - generic [ref=f56e709]: "y"
+                                  - generic [ref=f56e710]: =
+                                  - generic [ref=f56e711]: "0"
+                              - text: .
+                        - generic [ref=f56e712]:
+                          - radio "∀ real numbers x and y, if x = 0 or y = 0 then x y = 0 ." [ref=f56e713]
+                          - generic [ref=f56e714]:
+                            - generic [ref=f56e717]:
+                              - generic [ref=f56e719]: ∀
+                              - math [ref=f56e723]:
+                                - generic [ref=f56e724]: ∀
+                            - text: real numbers
+                            - emphasis [ref=f56e725]: x
+                            - text: and
+                            - emphasis [ref=f56e726]: "y"
+                            - text: ", if"
+                            - generic [ref=f56e729]:
+                              - generic [ref=f56e733]:
+                                - generic [ref=f56e734]: x
+                                - generic [ref=f56e735]: =
+                                - generic [ref=f56e736]: "0"
+                              - math [ref=f56e737]:
+                                - generic [ref=f56e738]: x
+                                - generic [ref=f56e739]: =
+                                - generic [ref=f56e740]: "0"
+                            - text: or
+                            - generic [ref=f56e743]:
+                              - generic [ref=f56e747]:
+                                - generic [ref=f56e748]: "y"
+                                - generic [ref=f56e750]: =
+                                - generic [ref=f56e751]: "0"
+                              - math [ref=f56e752]:
+                                - generic [ref=f56e753]: "y"
+                                - generic [ref=f56e754]: =
+                                - generic [ref=f56e755]: "0"
+                            - text: then
+                            - generic [ref=f56e756]:
+                              - generic [ref=f56e759]:
+                                - generic [ref=f56e763]:
+                                  - generic [ref=f56e764]: x
+                                  - generic [ref=f56e765]: "y"
+                                  - generic [ref=f56e767]: =
+                                  - generic [ref=f56e768]: "0"
+                                - math [ref=f56e769]:
+                                  - generic [ref=f56e770]: x
+                                  - generic [ref=f56e771]: "y"
+                                  - generic [ref=f56e772]: =
+                                  - generic [ref=f56e773]: "0"
+                              - text: .
+                        - generic [ref=f56e774]:
+                          - radio "∀ real numbers x and y, if x y = 0 then x = 0 and y = 0 ." [ref=f56e775]
+                          - generic [ref=f56e776]:
+                            - generic [ref=f56e779]:
+                              - generic [ref=f56e781]: ∀
+                              - math [ref=f56e785]:
+                                - generic [ref=f56e786]: ∀
+                            - text: real numbers
+                            - emphasis [ref=f56e787]: x
+                            - text: and
+                            - emphasis [ref=f56e788]: "y"
+                            - text: ", if"
+                            - generic [ref=f56e791]:
+                              - generic [ref=f56e795]:
+                                - generic [ref=f56e796]: x
+                                - generic [ref=f56e797]: "y"
+                                - generic [ref=f56e799]: =
+                                - generic [ref=f56e800]: "0"
+                              - math [ref=f56e801]:
+                                - generic [ref=f56e802]: x
+                                - generic [ref=f56e803]: "y"
+                                - generic [ref=f56e804]: =
+                                - generic [ref=f56e805]: "0"
+                            - text: then
+                            - generic [ref=f56e808]:
+                              - generic [ref=f56e812]:
+                                - generic [ref=f56e813]: x
+                                - generic [ref=f56e814]: =
+                                - generic [ref=f56e815]: "0"
+                              - math [ref=f56e816]:
+                                - generic [ref=f56e817]: x
+                                - generic [ref=f56e818]: =
+                                - generic [ref=f56e819]: "0"
+                            - text: and
+                            - generic [ref=f56e820]:
+                              - generic [ref=f56e823]:
+                                - generic [ref=f56e827]:
+                                  - generic [ref=f56e828]: "y"
+                                  - generic [ref=f56e830]: =
+                                  - generic [ref=f56e831]: "0"
+                                - math [ref=f56e832]:
+                                  - generic [ref=f56e833]: "y"
+                                  - generic [ref=f56e834]: =
+                                  - generic [ref=f56e835]: "0"
+                              - text: .
+                          - 'img "Correct: Your answer is correct." [ref=f56e839]'
+                  - region "(b)" [ref=f56e840]:
+                    - generic [ref=f56e841]:
+                      - generic [ref=f56e842]: (b)
+                      - group "Which of the following is the contrapositive of the zero product property?" [ref=f56e845]:
+                        - generic [ref=f56e847]:
+                          - radio "∀ real numbers x and y, if x ≠ 0 and y ≠ 0 then x y ≠ 0 ." [checked] [ref=f56e848]
+                          - generic [ref=f56e849]:
+                            - generic [ref=f56e852]:
+                              - generic [ref=f56e854]: ∀
+                              - math [ref=f56e858]:
+                                - generic [ref=f56e859]: ∀
+                            - text: real numbers
+                            - emphasis [ref=f56e860]: x
+                            - text: and
+                            - emphasis [ref=f56e861]: "y"
+                            - text: ", if"
+                            - generic [ref=f56e864]:
+                              - generic [ref=f56e868]:
+                                - generic [ref=f56e869]: x
+                                - generic [ref=f56e870]: ≠
+                                - generic [ref=f56e871]: "0"
+                              - math [ref=f56e872]:
+                                - generic [ref=f56e873]: x
+                                - generic [ref=f56e874]: ≠
+                                - generic [ref=f56e875]: "0"
+                            - text: and
+                            - generic [ref=f56e878]:
+                              - generic [ref=f56e882]:
+                                - generic [ref=f56e883]: "y"
+                                - generic [ref=f56e885]: ≠
+                                - generic [ref=f56e886]: "0"
+                              - math [ref=f56e887]:
+                                - generic [ref=f56e888]: "y"
+                                - generic [ref=f56e889]: ≠
+                                - generic [ref=f56e890]: "0"
+                            - text: then
+                            - generic [ref=f56e891]:
+                              - generic [ref=f56e894]:
+                                - generic [ref=f56e898]:
+                                  - generic [ref=f56e899]: x
+                                  - generic [ref=f56e900]: "y"
+                                  - generic [ref=f56e902]: ≠
+                                  - generic [ref=f56e903]: "0"
+                                - math [ref=f56e904]:
+                                  - generic [ref=f56e905]: x
+                                  - generic [ref=f56e906]: "y"
+                                  - generic [ref=f56e907]: ≠
+                                  - generic [ref=f56e908]: "0"
+                              - text: .
+                        - generic [ref=f56e909]:
+                          - radio "∀ real numbers x and y, if x ≠ 0 or y ≠ 0 then x y ≠ 0 ." [ref=f56e910]
+                          - generic [ref=f56e911]:
+                            - generic [ref=f56e914]:
+                              - generic [ref=f56e916]: ∀
+                              - math [ref=f56e920]:
+                                - generic [ref=f56e921]: ∀
+                            - text: real numbers
+                            - emphasis [ref=f56e922]: x
+                            - text: and
+                            - emphasis [ref=f56e923]: "y"
+                            - text: ", if"
+                            - generic [ref=f56e926]:
+                              - generic [ref=f56e930]:
+                                - generic [ref=f56e931]: x
+                                - generic [ref=f56e932]: ≠
+                                - generic [ref=f56e933]: "0"
+                              - math [ref=f56e934]:
+                                - generic [ref=f56e935]: x
+                                - generic [ref=f56e936]: ≠
+                                - generic [ref=f56e937]: "0"
+                            - text: or
+                            - generic [ref=f56e940]:
+                              - generic [ref=f56e944]:
+                                - generic [ref=f56e945]: "y"
+                                - generic [ref=f56e947]: ≠
+                                - generic [ref=f56e948]: "0"
+                              - math [ref=f56e949]:
+                                - generic [ref=f56e950]: "y"
+                                - generic [ref=f56e951]: ≠
+                                - generic [ref=f56e952]: "0"
+                            - text: then
+                            - generic [ref=f56e953]:
+                              - generic [ref=f56e956]:
+                                - generic [ref=f56e960]:
+                                  - generic [ref=f56e961]: x
+                                  - generic [ref=f56e962]: "y"
+                                  - generic [ref=f56e964]: ≠
+                                  - generic [ref=f56e965]: "0"
+                                - math [ref=f56e966]:
+                                  - generic [ref=f56e967]: x
+                                  - generic [ref=f56e968]: "y"
+                                  - generic [ref=f56e969]: ≠
+                                  - generic [ref=f56e970]: "0"
+                              - text: .
+                        - generic [ref=f56e971]:
+                          - radio "∀ real numbers x and y, if x y ≠ 0 then x ≠ 0 and y ≠ 0 ." [ref=f56e972]
+                          - generic [ref=f56e973]:
+                            - generic [ref=f56e976]:
+                              - generic [ref=f56e978]: ∀
+                              - math [ref=f56e982]:
+                                - generic [ref=f56e983]: ∀
+                            - text: real numbers
+                            - emphasis [ref=f56e984]: x
+                            - text: and
+                            - emphasis [ref=f56e985]: "y"
+                            - text: ", if"
+                            - generic [ref=f56e989]:
+                              - generic [ref=f56e993]:
+                                - generic [ref=f56e994]: x
+                                - generic [ref=f56e995]: "y"
+                                - generic [ref=f56e997]: ≠
+                                - generic [ref=f56e998]: "0"
+                              - math [ref=f56e999]:
+                                - generic [ref=f56e1000]: x
+                                - generic [ref=f56e1001]: "y"
+                                - generic [ref=f56e1002]: ≠
+                                - generic [ref=f56e1003]: "0"
+                            - text: then
+                            - generic [ref=f56e1006]:
+                              - generic [ref=f56e1010]:
+                                - generic [ref=f56e1011]: x
+                                - generic [ref=f56e1012]: ≠
+                                - generic [ref=f56e1013]: "0"
+                              - math [ref=f56e1014]:
+                                - generic [ref=f56e1015]: x
+                                - generic [ref=f56e1016]: ≠
+                                - generic [ref=f56e1017]: "0"
+                            - text: and
+                            - generic [ref=f56e1018]:
+                              - generic [ref=f56e1021]:
+                                - generic [ref=f56e1025]:
+                                  - generic [ref=f56e1026]: "y"
+                                  - generic [ref=f56e1028]: ≠
+                                  - generic [ref=f56e1029]: "0"
+                                - math [ref=f56e1030]:
+                                  - generic [ref=f56e1031]: "y"
+                                  - generic [ref=f56e1032]: ≠
+                                  - generic [ref=f56e1033]: "0"
+                              - text: .
+                        - generic [ref=f56e1034]:
+                          - radio "∀ real numbers x and y, if x y ≠ 0 then x ≠ 0 or y ≠ 0 ." [ref=f56e1035]
+                          - generic [ref=f56e1036]:
+                            - generic [ref=f56e1039]:
+                              - generic [ref=f56e1041]: ∀
+                              - math [ref=f56e1045]:
+                                - generic [ref=f56e1046]: ∀
+                            - text: real numbers
+                            - emphasis [ref=f56e1047]: x
+                            - text: and
+                            - emphasis [ref=f56e1048]: "y"
+                            - text: ", if"
+                            - generic [ref=f56e1052]:
+                              - generic [ref=f56e1056]:
+                                - generic [ref=f56e1057]: x
+                                - generic [ref=f56e1058]: "y"
+                                - generic [ref=f56e1060]: ≠
+                                - generic [ref=f56e1061]: "0"
+                              - math [ref=f56e1062]:
+                                - generic [ref=f56e1063]: x
+                                - generic [ref=f56e1064]: "y"
+                                - generic [ref=f56e1065]: ≠
+                                - generic [ref=f56e1066]: "0"
+                            - text: then
+                            - generic [ref=f56e1069]:
+                              - generic [ref=f56e1073]:
+                                - generic [ref=f56e1074]: x
+                                - generic [ref=f56e1075]: ≠
+                                - generic [ref=f56e1076]: "0"
+                              - math [ref=f56e1077]:
+                                - generic [ref=f56e1078]: x
+                                - generic [ref=f56e1079]: ≠
+                                - generic [ref=f56e1080]: "0"
+                            - text: or
+                            - generic [ref=f56e1081]:
+                              - generic [ref=f56e1084]:
+                                - generic [ref=f56e1088]:
+                                  - generic [ref=f56e1089]: "y"
+                                  - generic [ref=f56e1091]: ≠
+                                  - generic [ref=f56e1092]: "0"
+                                - math [ref=f56e1093]:
+                                  - generic [ref=f56e1094]: "y"
+                                  - generic [ref=f56e1095]: ≠
+                                  - generic [ref=f56e1096]: "0"
+                              - text: .
+                          - 'img "Correct: Your answer is correct." [ref=f56e1100]'
+                  - region "(c)" [ref=f56e1101]:
+                    - generic [ref=f56e1102]:
+                      - generic [ref=f56e1103]: (c)
+                      - group "Which of the following is an informal version (without quantifier symbols or variables) for the contrapositive of the zero product property?" [ref=f56e1106]:
+                        - generic [ref=f56e1108]:
+                          - radio "If neither of two real numbers is zero, then their product is nonzero." [checked] [ref=f56e1109]
+                          - generic [ref=f56e1110]: If neither of two real numbers is zero, then their product is nonzero.
+                        - generic [ref=f56e1111]:
+                          - radio "For any two real numbers, if at least one of them is nonzero then their product is nonzero." [ref=f56e1112]
+                          - generic [ref=f56e1113]: For any two real numbers, if at least one of them is nonzero then their product is nonzero.
+                        - generic [ref=f56e1114]:
+                          - radio "If the product of two real numbers is nonzero, then neither number is zero." [ref=f56e1115]
+                          - generic [ref=f56e1116]: If the product of two real numbers is nonzero, then neither number is zero.
+                        - generic [ref=f56e1117]:
+                          - radio "If the product of two real numbers is nonzero, then both numbers are nonzero." [ref=f56e1118]
+                          - generic [ref=f56e1119]: If the product of two real numbers is nonzero, then both numbers are nonzero.
+                          - 'img "Correct: Your answer is correct." [ref=f56e1123]'
+                - generic "Resource box" [ref=f56e1127]:
+                  - generic [ref=f56e1128]:
+                    - generic [ref=f56e1129]: Resources
+                    - generic [ref=f56e1130]:
+                      - paragraph [ref=f56e1131]:
+                        - link "Read It (opens in a new tab)" [ref=f56e1132] [cursor=pointer]:
+                          - /url: "#"
+                          - text: Read It
+                      - button "Ask Student Assistant for question 6" [ref=f56e1133] [cursor=pointer]: Student Assistant
+              - button "Submit Answer" [ref=f56e1136] [cursor=pointer]
+          - generic [ref=f56e1137]:
+            - region "Banner for question 7" [ref=f56e1140]:
+              - generic [ref=f56e1141]:
+                - heading "Question 7" [level=2] [ref=f56e1143]: "7."
+                - strong [ref=f56e1144]: "[8.33 / 8.33 Points]"
+              - generic [ref=f56e1145]:
+                - button "Details for question 7." [ref=f56e1146] [cursor=pointer]:
+                  - generic [ref=f56e1147]: Details
+                - button "My Notes For question 7" [ref=f56e1150] [cursor=pointer]:
+                  - generic [ref=f56e1151]: My Notes
+                - button "Previous Answers for question 7" [ref=f56e1152] [cursor=pointer]:
+                  - generic [ref=f56e1153]: Previous Answers
+                - button "Practice Another Version for question 7." [ref=f56e1154] [cursor=pointer]:
+                  - generic [ref=f56e1155]: Practice Another
+            - generic [ref=f56e1156]:
+              - generic [ref=f56e1158]:
+                - generic [ref=f56e1159]: eppdiscmath5 4.3.014.nva
+                - generic [ref=f56e1160]: Consider the following statement.
+                - generic [ref=f56e1161]: The cube of any rational number is a rational number.
+                - generic [ref=f56e1162]:
+                  - generic [ref=f56e1163]: (a)
+                  - generic [ref=f56e1164]:
+                    - generic [ref=f56e1165]: Write the statement formally using a quantifier and a variable.
+                    - generic [ref=f56e1166]:
+                      - combobox [ref=f56e1167]:
+                        - button [ref=f56e1168]:
+                          - generic [ref=f56e1169]:
+                            - text: ∀
+                            - emphasis [ref=f56e1170]: r
+                        - option "?"
+                        - option [selected]
+                        - option
+                      - 'img "Correct: Your answer is correct." [ref=f56e1174]'
+                      - text: if
+                      - generic [ref=f56e1175]:
+                        - combobox [ref=f56e1176]:
+                          - button [ref=f56e1177]:
+                            - generic [ref=f56e1178]:
+                              - emphasis [ref=f56e1179]: r
+                              - text: is a rational number
+                          - option "---Select---"
+                          - option "is not a rational number"
+                          - option "is a rational number" [selected]
+                          - option "is the cube of any rational number"
+                        - 'img "Correct: Your answer is correct." [ref=f56e1183]'
+                        - text: ","
+                      - text: then
+                      - generic [ref=f56e1184]:
+                        - combobox [ref=f56e1185]:
+                          - button [ref=f56e1186]:
+                            - generic [ref=f56e1187]:
+                              - emphasis [ref=f56e1188]: r
+                              - text: ³ is a rational number
+                          - option "---Select---"
+                          - option "is not a rational number"
+                          - option "is a rational number" [selected]
+                        - 'img "Correct: Your answer is correct." [ref=f56e1192]'
+                        - text: .
+                - generic [ref=f56e1193]:
+                  - generic [ref=f56e1194]: (b)
+                  - generic [ref=f56e1195]:
+                    - generic [ref=f56e1196]: Construct a proof for the statement by selecting sentences from the following scrambled list and putting them in the correct order.
+                    - list [ref=f56e1197]:
+                      - listitem [ref=f56e1198]:
+                        - text: By definition of rational,
+                        - generic [ref=f56e1201]:
+                          - generic [ref=f56e1202]: r
+                          - text: =
+                          - table [ref=f56e1204]:
+                            - rowgroup [ref=f56e1205]:
+                              - row [ref=f56e1206]:
+                                - cell "a" [ref=f56e1207]
+                              - row [ref=f56e1208]:
+                                - cell "b" [ref=f56e1209]
+                        - text: where
+                        - emphasis [ref=f56e1210]: a
+                        - text: and
+                        - emphasis [ref=f56e1211]: b
+                        - text: are integers and
+                        - generic [ref=f56e1214]:
+                          - generic [ref=f56e1215]: b
+                          - text: ≠ 0.
+                      - listitem [ref=f56e1216]:
+                        - text: Therefore,
+                        - emphasis [ref=f56e1217]: r
+                        - text: ³ is a quotient of integers with a nonzero denominator, and so
+                        - generic [ref=f56e1220]:
+                          - generic [ref=f56e1221]: r
+                          - superscript [ref=f56e1222]: "3"
+                        - text: is rational.
+                      - listitem [ref=f56e1223]:
+                        - text: Now
+                        - generic [ref=f56e1226]:
+                          - generic [ref=f56e1227]: a
+                          - superscript [ref=f56e1228]: "3"
+                        - text: and
+                        - generic [ref=f56e1231]:
+                          - generic [ref=f56e1232]: b
+                          - superscript [ref=f56e1233]: "3"
+                        - text: are integers because products of integers are integers, and
+                        - generic [ref=f56e1236]:
+                          - generic [ref=f56e1237]: b
+                          - superscript [ref=f56e1238]: "3"
+                          - text: ≠ 0
+                        - text: by the zero product property.
+                      - listitem [ref=f56e1239]:
+                        - text: Suppose
+                        - emphasis [ref=f56e1240]: r
+                        - text: is the cube of any rational number.
+                      - listitem [ref=f56e1241]:
+                        - text: Suppose
+                        - emphasis [ref=f56e1242]: r
+                        - text: is any rational number.
+                      - listitem [ref=f56e1243]:
+                        - text: By substitution,
+                        - emphasis [ref=f56e1244]: r
+                        - text: ³
+                        - generic [ref=f56e1247]:
+                          - text: =
+                          - table [ref=f56e1249]:
+                            - rowgroup [ref=f56e1250]:
+                              - row [ref=f56e1251]:
+                                - cell [ref=f56e1252]
+                          - table [ref=f56e1255]:
+                            - rowgroup [ref=f56e1256]:
+                              - row [ref=f56e1257]:
+                                - cell "a" [ref=f56e1258]
+                              - row [ref=f56e1259]:
+                                - cell "b" [ref=f56e1260]
+                          - table [ref=f56e1262]:
+                            - rowgroup [ref=f56e1263]:
+                              - row [ref=f56e1264]:
+                                - cell [ref=f56e1265]
+                                - cell "3" [ref=f56e1267]
+                              - row [ref=f56e1268]:
+                                - cell [ref=f56e1269]
+                          - text: =
+                          - table [ref=f56e1271]:
+                            - rowgroup [ref=f56e1272]:
+                              - row [ref=f56e1273]:
+                                - cell [ref=f56e1274]:
+                                  - text: a
+                                  - superscript [ref=f56e1275]: "3"
+                              - row [ref=f56e1276]:
+                                - cell [ref=f56e1277]:
+                                  - text: b
+                                  - superscript [ref=f56e1278]: "3"
+                          - text: .
+                    - generic [ref=f56e1279]:
+                      - strong [ref=f56e1280]: Proof
+                      - text: ":"
+                    - generic [ref=f56e1282]:
+                      - generic [ref=f56e1283]:
+                        - generic [ref=f56e1284]: "1."
+                        - generic [ref=f56e1285]:
+                          - combobox [ref=f56e1286]:
+                            - button [ref=f56e1287]:
+                              - generic [ref=f56e1288]:
+                                - text: Suppose
+                                - emphasis [ref=f56e1289]: r
+                                - text: is any rational number.
+                            - option "---Select---"
+                            - option "By definition of rational, = / where and are integers and 0."
+                            - option "Therefore, is a quotient of integers with a nonzero denominator, and so is rational."
+                            - option "Now and are integers because products of integers are integers, and by the zero product property."
+                            - option "Suppose is the cube of any rational number."
+                            - option "Suppose is any rational number." [selected]
+                            - option "By substitution, = ( / ) = ( )/( )."
+                          - 'img "Correct: Your answer is correct." [ref=f56e1293]'
+                      - generic [ref=f56e1294]:
+                        - generic [ref=f56e1295]: "2."
+                        - generic [ref=f56e1296]:
+                          - combobox [ref=f56e1297]:
+                            - button [ref=f56e1298]:
+                              - generic [ref=f56e1299]:
+                                - text: By definition of rational,
+                                - emphasis [ref=f56e1300]: r
+                                - text: =
+                                - emphasis [ref=f56e1301]: a
+                                - text: /
+                                - emphasis [ref=f56e1302]: b
+                                - text: where
+                                - emphasis [ref=f56e1303]: a
+                                - text: and
+                                - emphasis [ref=f56e1304]: b
+                                - text: are integers and
+                                - emphasis [ref=f56e1305]: b
+                                - text: ≠ 0.
+                            - option "---Select---"
+                            - option "By definition of rational, = / where and are integers and 0." [selected]
+                            - option "Therefore, is a quotient of integers with a nonzero denominator, and so is rational."
+                            - option "Now and are integers because products of integers are integers, and by the zero product property."
+                            - option "Suppose is the cube of any rational number."
+                            - option "Suppose is any rational number."
+                            - option "By substitution, = ( / ) = ( )/( )."
+                          - 'img "Correct: Your answer is correct." [ref=f56e1309]'
+                      - generic [ref=f56e1310]:
+                        - generic [ref=f56e1311]: "3."
+                        - generic [ref=f56e1312]:
+                          - combobox [ref=f56e1313]:
+                            - button [ref=f56e1314]:
+                              - generic [ref=f56e1315]:
+                                - text: By substitution,
+                                - emphasis [ref=f56e1316]: r
+                                - text: ³ = (
+                                - emphasis [ref=f56e1317]: a
+                                - text: /
+                                - emphasis [ref=f56e1318]: b
+                                - text: )³ = (
+                                - emphasis [ref=f56e1319]: a
+                                - text: ³)/(
+                                - emphasis [ref=f56e1320]: b
+                                - text: ³).
+                            - option "---Select---"
+                            - option "By definition of rational, = / where and are integers and 0."
+                            - option "Therefore, is a quotient of integers with a nonzero denominator, and so is rational."
+                            - option "Now and are integers because products of integers are integers, and by the zero product property."
+                            - option "Suppose is the cube of any rational number."
+                            - option "Suppose is any rational number."
+                            - option "By substitution, = ( / ) = ( )/( )." [selected]
+                          - 'img "Correct: Your answer is correct." [ref=f56e1324]'
+                      - generic [ref=f56e1325]:
+                        - generic [ref=f56e1326]: "4."
+                        - generic [ref=f56e1327]:
+                          - combobox [ref=f56e1328]:
+                            - button [ref=f56e1329]:
+                              - generic [ref=f56e1330]:
+                                - text: Now
+                                - emphasis [ref=f56e1331]: a
+                                - text: ³ and
+                                - emphasis [ref=f56e1332]: b
+                                - text: ³ are integers because products of integers are integers, and
+                                - generic [ref=f56e1333]:
+                                  - emphasis [ref=f56e1334]: b
+                                  - text: ³ ≠ 0
+                                - text: by the zero product property.
+                            - option "---Select---"
+                            - option "By definition of rational, = / where and are integers and 0."
+                            - option "Therefore, is a quotient of integers with a nonzero denominator, and so is rational."
+                            - option "Now and are integers because products of integers are integers, and by the zero product property." [selected]
+                            - option "Suppose is the cube of any rational number."
+                            - option "Suppose is any rational number."
+                            - option "By substitution, = ( / ) = ( )/( )."
+                          - 'img "Correct: Your answer is correct." [ref=f56e1338]'
+                      - generic [ref=f56e1339]:
+                        - generic [ref=f56e1340]: "5."
+                        - generic [ref=f56e1341]:
+                          - combobox [ref=f56e1342]:
+                            - button [ref=f56e1343]:
+                              - generic [ref=f56e1344]:
+                                - text: Therefore,
+                                - emphasis [ref=f56e1345]: r
+                                - text: ³ is a quotient of integers with a nonzero denominator, and so
+                                - emphasis [ref=f56e1346]: r
+                                - text: ³ is rational.
+                            - option "---Select---"
+                            - option "By definition of rational, = / where and are integers and 0."
+                            - option "Therefore, is a quotient of integers with a nonzero denominator, and so is rational." [selected]
+                            - option "Now and are integers because products of integers are integers, and by the zero product property."
+                            - option "Suppose is the cube of any rational number."
+                            - option "Suppose is any rational number."
+                            - option "By substitution, = ( / ) = ( )/( )."
+                          - 'img "Correct: Your answer is correct." [ref=f56e1350]'
+              - button "Submit Answer" [ref=f56e1355] [cursor=pointer]
+          - generic [ref=f56e1356]:
+            - region "Banner for question 8" [ref=f56e1359]:
+              - generic [ref=f56e1360]:
+                - heading "Question 8" [level=2] [ref=f56e1362]: "8."
+                - strong [ref=f56e1363]: "[8.33 / 8.33 Points]"
+              - generic [ref=f56e1364]:
+                - button "Details for question 8." [ref=f56e1365] [cursor=pointer]:
+                  - generic [ref=f56e1366]: Details
+                - button "My Notes For question 8" [ref=f56e1369] [cursor=pointer]:
+                  - generic [ref=f56e1370]: My Notes
+                - button "Previous Answers for question 8" [ref=f56e1371] [cursor=pointer]:
+                  - generic [ref=f56e1372]: Previous Answers
+            - generic [ref=f56e1373]:
+              - generic [ref=f56e1375]:
+                - generic [ref=f56e1376]: EppDiscMath5 4.3.017.
+                - region [ref=f56e1377]:
+                  - strong [ref=f56e1378]: Problem 8
+                  - generic [ref=f56e1379]: Consider the following statement.
+                  - group [ref=f56e1380]: The difference of any two rational numbers is a rational number.
+                  - generic [ref=f56e1381]: Prove the given statement directly from the definition of rational number.
+                  - group "Read and complete the following." [ref=f56e1383]:
+                    - generic [ref=f56e1385]:
+                      - strong [ref=f56e1386]: Proof
+                      - text: ": Suppose"
+                      - emphasis [ref=f56e1387]: r
+                      - text: and
+                      - emphasis [ref=f56e1388]: s
+                      - text: are any two rational numbers. By definition of rational,
+                      - generic [ref=f56e1391]:
+                        - generic [ref=f56e1395]:
+                          - generic [ref=f56e1396]: r
+                          - generic [ref=f56e1397]: =
+                          - generic [ref=f56e1400]:
+                            - generic [ref=f56e1401]: a
+                            - generic [ref=f56e1403]: b
+                        - math [ref=f56e1407]:
+                          - generic [ref=f56e1408]: r
+                          - generic [ref=f56e1409]: =
+                          - generic [ref=f56e1411]:
+                            - generic [ref=f56e1412]: a
+                            - generic [ref=f56e1413]: b
+                      - text: and
+                      - generic [ref=f56e1416]:
+                        - generic [ref=f56e1420]:
+                          - generic [ref=f56e1421]: s
+                          - generic [ref=f56e1422]: =
+                          - generic [ref=f56e1425]:
+                            - generic [ref=f56e1426]: c
+                            - generic [ref=f56e1428]: d
+                        - math [ref=f56e1433]:
+                          - generic [ref=f56e1434]: s
+                          - generic [ref=f56e1435]: =
+                          - generic [ref=f56e1437]:
+                            - generic [ref=f56e1438]: c
+                            - generic [ref=f56e1439]: d
+                      - text: for some
+                      - generic: Select your first answer.
+                      - combobox "Select your first answer." [ref=f56e1441] [cursor=pointer]:
+                        - option "Select"
+                        - option "negative numbers"
+                        - option "positive numbers"
+                        - option "integers" [selected]
+                        - option "real numbers"
+                        - option "complex numbers"
+                      - 'img "Correct: Your answer is correct." [ref=f56e1445]'
+                      - emphasis [ref=f56e1446]: a
+                      - text: ","
+                      - emphasis [ref=f56e1447]: b
+                      - text: ","
+                      - emphasis [ref=f56e1448]: c
+                      - text: ", and"
+                      - emphasis [ref=f56e1449]: d
+                      - text: with
+                      - generic [ref=f56e1450]:
+                        - generic: Select your second answer.
+                        - combobox "Select your second answer." [ref=f56e1452] [cursor=pointer]:
+                          - option "Select"
+                          - option "0 and 0"
+                          - option "+ 0"
+                          - option "0 and 0" [selected]
+                          - option "+ 0"
+                        - 'img "Correct: Your answer is correct." [ref=f56e1456]'
+                        - text: .
+                  - generic [ref=f56e1457]:
+                    - text: Write
+                    - generic [ref=f56e1460]:
+                      - generic [ref=f56e1464]:
+                        - generic [ref=f56e1465]: r
+                        - generic [ref=f56e1466]: −
+                        - generic [ref=f56e1467]: s
+                      - math [ref=f56e1468]:
+                        - generic [ref=f56e1469]: r
+                        - generic [ref=f56e1470]: −
+                        - generic [ref=f56e1471]: s
+                    - text: in terms of
+                    - emphasis [ref=f56e1472]: a
+                    - text: ","
+                    - emphasis [ref=f56e1473]: b
+                    - text: ","
+                    - emphasis [ref=f56e1474]: c
+                    - text: ", and"
+                    - emphasis [ref=f56e1475]: d
+                    - text: as a quotient of two integers whose numerator and denominator are simplified as much as possible. The result is the following.
+                  - generic [ref=f56e1476]:
+                    - generic [ref=f56e1480]:
+                      - generic [ref=f56e1484]:
+                        - generic [ref=f56e1485]: r
+                        - generic [ref=f56e1486]: −
+                        - generic [ref=f56e1487]: s
+                        - generic [ref=f56e1488]: =
+                      - math [ref=f56e1489]:
+                        - generic [ref=f56e1490]: r
+                        - generic [ref=f56e1491]: −
+                        - generic [ref=f56e1492]: s
+                        - generic [ref=f56e1493]: =
+                    - generic [ref=f56e1494]:
+                      - generic [ref=f56e1495]:
+                        - button [ref=f56e1496]:
+                          - generic [ref=f56e2998]:
+                            - math [ref=f56e2999]:
+                              - generic [ref=f56e3000]:
+                                - generic [ref=f56e3001]:
+                                  - generic [ref=f56e3002]: a
+                                  - generic [ref=f56e3003]: d
+                                  - generic [ref=f56e3004]: "-"
+                                  - generic [ref=f56e3005]: b
+                                  - generic [ref=f56e3006]: c
+                                - generic [ref=f56e3007]:
+                                  - generic [ref=f56e3008]: b
+                                  - generic [ref=f56e3009]: d
+                            - generic [aria-hidden] [ref=f56e3010]:
+                              - generic [ref=f56e3015]:
+                                - generic [ref=f56e3017]:
+                                  - generic [ref=f56e3018]: a
+                                  - generic [ref=f56e3019]: d
+                                  - generic [ref=f56e3021]: −
+                                  - generic [ref=f56e3022]: b
+                                  - generic [ref=f56e3023]: c
+                                - generic [ref=f56e3025]:
+                                  - generic [ref=f56e3026]: b
+                                  - generic [ref=f56e3027]: d
+                              - math [ref=f56e3032]:
+                                - generic [ref=f56e3033]:
+                                  - generic [ref=f56e3034]:
+                                    - generic [ref=f56e3035]: a
+                                    - generic [ref=f56e3036]: d
+                                    - generic [ref=f56e3037]: "-"
+                                    - generic [ref=f56e3038]: b
+                                    - generic [ref=f56e3039]: c
+                                  - generic [ref=f56e3040]:
+                                    - generic [ref=f56e3041]: b
+                                    - generic [ref=f56e3042]: d
+                        - button "Open full math pad" [ref=f56e1530] [cursor=pointer]
+                      - generic [ref=f56e1532]: Press Space or Enter to edit this math answer.
+                    - 'img "Correct: Your answer is correct." [ref=f56e1537]'
+                  - group "Read and complete the following." [ref=f56e1539]:
+                    - generic [ref=f56e1541]:
+                      - text: Both the numerator and the denominator are integers because
+                      - generic [ref=f56e1542]:
+                        - generic: Select your fourth answer.
+                        - combobox "Select your fourth answer." [ref=f56e1544] [cursor=pointer]:
+                          - option "Select"
+                          - option "products and quotients of rational numbers are integers"
+                          - option "products and quotients of integers are rational numbers"
+                          - option "products and differences of integers are rational numbers"
+                          - option "products and differences of integers are integers" [selected]
+                        - 'img "Correct: Your answer is correct." [ref=f56e1548]'
+                        - text: .
+                  - group "Read and complete the following." [ref=f56e1550]:
+                    - generic [ref=f56e1552]:
+                      - text: In addition,
+                      - generic [ref=f56e1556]:
+                        - generic [ref=f56e1560]:
+                          - generic [ref=f56e1561]: b
+                          - generic [ref=f56e1562]: d
+                          - generic [ref=f56e1564]: ≠
+                          - generic [ref=f56e1565]: "0"
+                        - math [ref=f56e1566]:
+                          - generic [ref=f56e1567]: b
+                          - generic [ref=f56e1568]: d
+                          - generic [ref=f56e1569]: ≠
+                          - generic [ref=f56e1570]: "0"
+                      - text: by the
+                      - generic [ref=f56e1571]:
+                        - generic: Select your fifth answer.
+                        - combobox "Select your fifth answer." [ref=f56e1573] [cursor=pointer]:
+                          - option "Select"
+                          - option "definition of rational"
+                          - option "definition of integer"
+                          - option "zero product property" [selected]
+                        - 'img "Correct: Your answer is correct." [ref=f56e1577]'
+                        - text: .
+                  - group "Read and complete the following." [ref=f56e1579]:
+                    - generic [ref=f56e1581]:
+                      - text: Hence
+                      - generic [ref=f56e1584]:
+                        - generic [ref=f56e1588]:
+                          - generic [ref=f56e1589]: r
+                          - generic [ref=f56e1590]: −
+                          - generic [ref=f56e1591]: s
+                        - math [ref=f56e1592]:
+                          - generic [ref=f56e1593]: r
+                          - generic [ref=f56e1594]: −
+                          - generic [ref=f56e1595]: s
+                      - text: is a
+                      - generic: Select your sixth answer.
+                      - combobox "Select your sixth answer." [ref=f56e1597] [cursor=pointer]:
+                        - option "Select"
+                        - option "quotient" [selected]
+                        - option "sum"
+                        - option "product"
+                        - option "difference"
+                      - 'img "Correct: Your answer is correct." [ref=f56e1601]'
+                      - text: of two integers with a nonzero denominator, and so by definition of rational,
+                      - generic [ref=f56e1604]:
+                        - generic [ref=f56e1608]:
+                          - generic [ref=f56e1609]: r
+                          - generic [ref=f56e1610]: −
+                          - generic [ref=f56e1611]: s
+                        - math [ref=f56e1612]:
+                          - generic [ref=f56e1613]: r
+                          - generic [ref=f56e1614]: −
+                          - generic [ref=f56e1615]: s
+                      - text: is rational.
+                - generic "Resource box" [ref=f56e1619]:
+                  - generic [ref=f56e1620]:
+                    - generic [ref=f56e1621]: Resources
+                    - generic [ref=f56e1622]:
+                      - paragraph [ref=f56e1623]:
+                        - link "Read It (opens in a new tab)" [ref=f56e1624] [cursor=pointer]:
+                          - /url: "#"
+                          - text: Read It
+                        - link "Watch It (opens in a new tab)" [ref=f56e1625] [cursor=pointer]:
+                          - /url: javascript:open_bc_enhanced('watch_it', 'https://college.cengage.com/geyser/cengage_9780538738101/html/watchit_player/?asset=eppdiscmath5_04_03_016&prod=eppdiscmath5', 1)
+                          - text: Watch It
+                      - button "Ask Student Assistant for question 8" [ref=f56e1626] [cursor=pointer]: Student Assistant
+              - button "Submit Answer" [ref=f56e1629] [cursor=pointer]
+          - generic [ref=f56e1630]:
+            - region "Banner for question 9" [ref=f56e1633]:
+              - generic [ref=f56e1634]:
+                - heading "Question 9" [level=2] [ref=f56e1636]: "9."
+                - strong [ref=f56e1637]: "[8.33 / 8.33 Points]"
+              - generic [ref=f56e1638]:
+                - button "Details for question 9." [ref=f56e1639] [cursor=pointer]:
+                  - generic [ref=f56e1640]: Details
+                - button "My Notes For question 9" [ref=f56e1643] [cursor=pointer]:
+                  - generic [ref=f56e1644]: My Notes
+                - button "Previous Answers for question 9" [ref=f56e1645] [cursor=pointer]:
+                  - generic [ref=f56e1646]: Previous Answers
+                - button "Practice Another Version for question 9." [ref=f56e1647] [cursor=pointer]:
+                  - generic [ref=f56e1648]: Practice Another
+            - generic [ref=f56e1649]:
+              - generic [ref=f56e1651]:
+                - generic [ref=f56e1652]: EppDiscMath5 4.3.022.
+                - region [ref=f56e1653]:
+                  - strong [ref=f56e1654]: Problem 9
+                  - generic [ref=f56e1655]: Consider the following statement.
+                  - group [ref=f56e1656]:
+                    - text: If
+                    - emphasis [ref=f56e1657]: a
+                    - text: is any odd integer, then
+                    - generic [ref=f56e1660]:
+                      - generic [ref=f56e1664]:
+                        - generic [ref=f56e1665]:
+                          - generic [ref=f56e1666]: a
+                          - generic [ref=f56e1668]: "2"
+                        - generic [ref=f56e1672]: +
+                        - generic [ref=f56e1673]: a
+                      - math [ref=f56e1674]:
+                        - generic [ref=f56e1675]:
+                          - generic [ref=f56e1676]: a
+                          - generic [ref=f56e1677]: "2"
+                        - generic [ref=f56e1679]: +
+                        - generic [ref=f56e1680]: a
+                    - text: is even.
+                  - generic [ref=f56e1681]: Consider the following.
+                  - group [ref=f56e1682]:
+                    - list [ref=f56e1683]:
+                      - listitem [ref=f56e1684]: The sum, product, and difference of any two even integers are even.
+                      - listitem [ref=f56e1685]: The sum and difference of any two odd integers are even.
+                      - listitem [ref=f56e1686]: The product of any two odd integers is odd.
+                      - listitem [ref=f56e1687]: The product of any even integer and any odd integer is even.
+                      - listitem [ref=f56e1688]: The sum of any odd integer and any even integer is odd.
+                      - listitem [ref=f56e1689]: The difference of any odd integer minus any even integer is odd.
+                      - listitem [ref=f56e1690]: The difference of any even integer minus any odd integer is odd.
+                  - group "Use the properties of even and odd integers listed in Example 4.3.3 and repeated given to evaluate whether the statement is true or false. Indicate which properties you use to justify your reasoning." [ref=f56e1692]:
+                    - generic [ref=f56e1694]:
+                      - radio "The statement is true. a 2 = a ⋅ a is a product of odd integers and thus is even by property 4. Therefore, a 2 + a is a sum of an even and an odd integer and thus is even by property 2." [ref=f56e1695]
+                      - generic [ref=f56e1696]:
+                        - text: The statement is true.
+                        - generic [ref=f56e1699]:
+                          - generic [ref=f56e1703]:
+                            - generic [ref=f56e1704]:
+                              - generic [ref=f56e1705]: a
+                              - generic [ref=f56e1707]: "2"
+                            - generic [ref=f56e1711]: =
+                            - generic [ref=f56e1712]: a
+                            - generic [ref=f56e1713]: ⋅
+                            - generic [ref=f56e1714]: a
+                          - math [ref=f56e1715]:
+                            - generic [ref=f56e1716]:
+                              - generic [ref=f56e1717]: a
+                              - generic [ref=f56e1718]: "2"
+                            - generic [ref=f56e1720]: =
+                            - generic [ref=f56e1721]: a
+                            - generic [ref=f56e1722]: ⋅
+                            - generic [ref=f56e1723]: a
+                        - text: is a product of odd integers and thus is even by property 4. Therefore,
+                        - generic [ref=f56e1726]:
+                          - generic [ref=f56e1730]:
+                            - generic [ref=f56e1731]:
+                              - generic [ref=f56e1732]: a
+                              - generic [ref=f56e1734]: "2"
+                            - generic [ref=f56e1738]: +
+                            - generic [ref=f56e1739]: a
+                          - math [ref=f56e1740]:
+                            - generic [ref=f56e1741]:
+                              - generic [ref=f56e1742]: a
+                              - generic [ref=f56e1743]: "2"
+                            - generic [ref=f56e1745]: +
+                            - generic [ref=f56e1746]: a
+                        - text: is a sum of an even and an odd integer and thus is even by property 2.
+                    - generic [ref=f56e1747]:
+                      - radio "The statement is true. a 2 = a ⋅ a is a product of odd integers and thus is odd by property 3. Therefore, a 2 + a is a sum of odd integers and thus is even by property 2." [checked] [ref=f56e1748]
+                      - generic [ref=f56e1749]:
+                        - text: The statement is true.
+                        - generic [ref=f56e1752]:
+                          - generic [ref=f56e1756]:
+                            - generic [ref=f56e1757]:
+                              - generic [ref=f56e1758]: a
+                              - generic [ref=f56e1760]: "2"
+                            - generic [ref=f56e1764]: =
+                            - generic [ref=f56e1765]: a
+                            - generic [ref=f56e1766]: ⋅
+                            - generic [ref=f56e1767]: a
+                          - math [ref=f56e1768]:
+                            - generic [ref=f56e1769]:
+                              - generic [ref=f56e1770]: a
+                              - generic [ref=f56e1771]: "2"
+                            - generic [ref=f56e1773]: =
+                            - generic [ref=f56e1774]: a
+                            - generic [ref=f56e1775]: ⋅
+                            - generic [ref=f56e1776]: a
+                        - text: is a product of odd integers and thus is odd by property 3. Therefore,
+                        - generic [ref=f56e1779]:
+                          - generic [ref=f56e1783]:
+                            - generic [ref=f56e1784]:
+                              - generic [ref=f56e1785]: a
+                              - generic [ref=f56e1787]: "2"
+                            - generic [ref=f56e1791]: +
+                            - generic [ref=f56e1792]: a
+                          - math [ref=f56e1793]:
+                            - generic [ref=f56e1794]:
+                              - generic [ref=f56e1795]: a
+                              - generic [ref=f56e1796]: "2"
+                            - generic [ref=f56e1798]: +
+                            - generic [ref=f56e1799]: a
+                        - text: is a sum of odd integers and thus is even by property 2.
+                    - generic [ref=f56e1800]:
+                      - radio "The statement is false. a 2 = a ⋅ a is a product of odd integers and thus is even by property 4. Therefore, a 2 + a is a sum of an even and an odd integer and thus is odd by property 5." [ref=f56e1801]
+                      - generic [ref=f56e1802]:
+                        - text: The statement is false.
+                        - generic [ref=f56e1805]:
+                          - generic [ref=f56e1809]:
+                            - generic [ref=f56e1810]:
+                              - generic [ref=f56e1811]: a
+                              - generic [ref=f56e1813]: "2"
+                            - generic [ref=f56e1817]: =
+                            - generic [ref=f56e1818]: a
+                            - generic [ref=f56e1819]: ⋅
+                            - generic [ref=f56e1820]: a
+                          - math [ref=f56e1821]:
+                            - generic [ref=f56e1822]:
+                              - generic [ref=f56e1823]: a
+                              - generic [ref=f56e1824]: "2"
+                            - generic [ref=f56e1826]: =
+                            - generic [ref=f56e1827]: a
+                            - generic [ref=f56e1828]: ⋅
+                            - generic [ref=f56e1829]: a
+                        - text: is a product of odd integers and thus is even by property 4. Therefore,
+                        - generic [ref=f56e1832]:
+                          - generic [ref=f56e1836]:
+                            - generic [ref=f56e1837]:
+                              - generic [ref=f56e1838]: a
+                              - generic [ref=f56e1840]: "2"
+                            - generic [ref=f56e1844]: +
+                            - generic [ref=f56e1845]: a
+                          - math [ref=f56e1846]:
+                            - generic [ref=f56e1847]:
+                              - generic [ref=f56e1848]: a
+                              - generic [ref=f56e1849]: "2"
+                            - generic [ref=f56e1851]: +
+                            - generic [ref=f56e1852]: a
+                        - text: is a sum of an even and an odd integer and thus is odd by property 5.
+                    - generic [ref=f56e1853]:
+                      - radio "The statement is false. a 2 = a ⋅ a is a product of odd integers and thus is odd by property 3. Therefore, a 2 + a is a sum of odd integers and thus is odd by property 4." [ref=f56e1854]
+                      - generic [ref=f56e1855]:
+                        - text: The statement is false.
+                        - generic [ref=f56e1858]:
+                          - generic [ref=f56e1862]:
+                            - generic [ref=f56e1863]:
+                              - generic [ref=f56e1864]: a
+                              - generic [ref=f56e1866]: "2"
+                            - generic [ref=f56e1870]: =
+                            - generic [ref=f56e1871]: a
+                            - generic [ref=f56e1872]: ⋅
+                            - generic [ref=f56e1873]: a
+                          - math [ref=f56e1874]:
+                            - generic [ref=f56e1875]:
+                              - generic [ref=f56e1876]: a
+                              - generic [ref=f56e1877]: "2"
+                            - generic [ref=f56e1879]: =
+                            - generic [ref=f56e1880]: a
+                            - generic [ref=f56e1881]: ⋅
+                            - generic [ref=f56e1882]: a
+                        - text: is a product of odd integers and thus is odd by property 3. Therefore,
+                        - generic [ref=f56e1885]:
+                          - generic [ref=f56e1889]:
+                            - generic [ref=f56e1890]:
+                              - generic [ref=f56e1891]: a
+                              - generic [ref=f56e1893]: "2"
+                            - generic [ref=f56e1897]: +
+                            - generic [ref=f56e1898]: a
+                          - math [ref=f56e1899]:
+                            - generic [ref=f56e1900]:
+                              - generic [ref=f56e1901]: a
+                              - generic [ref=f56e1902]: "2"
+                            - generic [ref=f56e1904]: +
+                            - generic [ref=f56e1905]: a
+                        - text: is a sum of odd integers and thus is odd by property 4.
+                      - 'img "Correct: Your answer is correct." [ref=f56e1909]'
+                - generic "Resource box" [ref=f56e1913]:
+                  - generic [ref=f56e1914]:
+                    - generic [ref=f56e1915]: Resources
+                    - generic [ref=f56e1916]:
+                      - paragraph [ref=f56e1917]:
+                        - link "Read It (opens in a new tab)" [ref=f56e1918] [cursor=pointer]:
+                          - /url: "#"
+                          - text: Read It
+                      - button "Ask Student Assistant for question 9" [ref=f56e1919] [cursor=pointer]: Student Assistant
+              - button "Submit Answer" [ref=f56e1922] [cursor=pointer]
+          - generic [ref=f56e1923]:
+            - region "Banner for question 10" [ref=f56e1926]:
+              - generic [ref=f56e1927]:
+                - heading "Question 10" [level=2] [ref=f56e1929]: "10."
+                - strong [ref=f56e1930]: "[8.33 / 8.33 Points]"
+              - generic [ref=f56e1931]:
+                - button "Details for question 10." [ref=f56e1932] [cursor=pointer]:
+                  - generic [ref=f56e1933]: Details
+                - button "My Notes For question 10" [ref=f56e1936] [cursor=pointer]:
+                  - generic [ref=f56e1937]: My Notes
+                - button "Previous Answers for question 10" [ref=f56e1938] [cursor=pointer]:
+                  - generic [ref=f56e1939]: Previous Answers
+            - generic [ref=f56e1940]:
+              - generic [ref=f56e1942]:
+                - generic [ref=f56e1943]: EppDiscMath5 4.3.025.
+                - region [ref=f56e1944]:
+                  - strong [ref=f56e1945]: Problem 10
+                  - region "introduction" [ref=f56e1946]:
+                    - generic [ref=f56e1947]:
+                      - text: Prove that if
+                      - emphasis [ref=f56e1948]: r
+                      - text: is any rational number, then
+                      - generic [ref=f56e1951]:
+                        - generic [ref=f56e1955]:
+                          - generic [ref=f56e1956]: "3"
+                          - generic [ref=f56e1957]:
+                            - generic [ref=f56e1958]: r
+                            - generic [ref=f56e1960]: "2"
+                          - generic [ref=f56e1964]: −
+                          - generic [ref=f56e1965]: "2"
+                          - generic [ref=f56e1966]: r
+                          - generic [ref=f56e1967]: +
+                          - generic [ref=f56e1968]: "4"
+                        - math [ref=f56e1969]:
+                          - generic [ref=f56e1970]: "3"
+                          - generic [ref=f56e1971]:
+                            - generic [ref=f56e1972]: r
+                            - generic [ref=f56e1973]: "2"
+                          - generic [ref=f56e1975]: −
+                          - generic [ref=f56e1976]: "2"
+                          - generic [ref=f56e1977]: r
+                          - generic [ref=f56e1978]: +
+                          - generic [ref=f56e1979]: "4"
+                      - text: is rational.
+                    - generic [ref=f56e1980]: The following properties may be used in your proof.
+                  - region "information box" [ref=f56e1983]:
+                    - generic [ref=f56e1984]: "Property 1:"
+                    - group [ref=f56e1985]: Every integer is a rational number.
+                  - region "information box" [ref=f56e1988]:
+                    - generic [ref=f56e1989]: "Property 2:"
+                    - group [ref=f56e1990]: The sum of any two rational numbers is rational.
+                  - region "information box" [ref=f56e1993]:
+                    - generic [ref=f56e1994]: "Property 3:"
+                    - group [ref=f56e1995]: The product of any two rational numbers is rational.
+                  - emphasis [ref=f56e1997]: "Note: Property 1 is Theorem 4.3.1, Property 2 is Theorem 4.3.2, and Property 3 is Exercise 15 in Section 4.3."
+                  - generic [ref=f56e1998]: Using these properties, choose explanations for each step in the given proof.
+                  - table "This is an incomplete table. You are asked to supply 5 answers." [ref=f56e2000]:
+                    - caption [ref=f56e2001]:
+                      - generic [ref=f56e2002]: This is an incomplete table. You are asked to supply 5 answers.
+                    - rowgroup [ref=f56e2003]:
+                      - row [ref=f56e2004]:
+                        - columnheader "Statement" [ref=f56e2005]
+                        - columnheader "Explanation" [ref=f56e2006]
+                      - row [ref=f56e2007]:
+                        - cell [ref=f56e2008]:
+                          - text: Suppose
+                          - emphasis [ref=f56e2009]: r
+                          - text: is a rational number.
+                        - cell "Starting point." [ref=f56e2010]
+                      - row [ref=f56e2011]:
+                        - cell [ref=f56e2012]:
+                          - text: 3,
+                          - generic [ref=f56e2013]:
+                            - generic [ref=f56e2016]:
+                              - generic [ref=f56e2020]:
+                                - generic [ref=f56e2021]: −
+                                - generic [ref=f56e2022]: "2"
+                              - math [ref=f56e2023]:
+                                - generic [ref=f56e2024]: −
+                                - generic [ref=f56e2025]: "2"
+                            - text: ","
+                          - text: 4 are rational numbers.
+                        - cell [ref=f56e2026]:
+                          - generic: Select your first answer.
+                          - combobox "Select your first answer." [ref=f56e2028] [cursor=pointer]:
+                            - option "Select"
+                            - option "Property 1" [selected]
+                            - option "Property 2"
+                            - option "Property 3"
+                          - 'img "Correct: Your answer is correct." [ref=f56e2032]'
+                      - row [ref=f56e2033]:
+                        - cell [ref=f56e2034]:
+                          - generic [ref=f56e2037]:
+                            - generic [ref=f56e2042]:
+                              - generic [ref=f56e2043]: r
+                              - generic [ref=f56e2045]: "2"
+                            - math [ref=f56e2049]:
+                              - generic [ref=f56e2050]:
+                                - generic [ref=f56e2051]: r
+                                - generic [ref=f56e2052]: "2"
+                          - text: is a rational number.
+                        - cell [ref=f56e2054]:
+                          - generic: Select your second answer.
+                          - combobox "Select your second answer." [ref=f56e2056] [cursor=pointer]:
+                            - option "Select"
+                            - option "Property 1"
+                            - option "Property 2"
+                            - option "Property 3" [selected]
+                          - 'img "Correct: Your answer is correct." [ref=f56e2060]'
+                      - row [ref=f56e2061]:
+                        - cell [ref=f56e2062]:
+                          - generic [ref=f56e2065]:
+                            - generic [ref=f56e2069]:
+                              - generic [ref=f56e2070]: "3"
+                              - generic [ref=f56e2071]:
+                                - generic [ref=f56e2072]: r
+                                - generic [ref=f56e2074]: "2"
+                            - math [ref=f56e2078]:
+                              - generic [ref=f56e2079]: "3"
+                              - generic [ref=f56e2080]:
+                                - generic [ref=f56e2081]: r
+                                - generic [ref=f56e2082]: "2"
+                          - text: and
+                          - generic [ref=f56e2086]:
+                            - generic [ref=f56e2090]:
+                              - generic [ref=f56e2091]: −
+                              - generic [ref=f56e2092]: "2"
+                              - generic [ref=f56e2093]: r
+                            - math [ref=f56e2094]:
+                              - generic [ref=f56e2095]: −
+                              - generic [ref=f56e2096]: "2"
+                              - generic [ref=f56e2097]: r
+                          - text: are rational numbers.
+                        - cell [ref=f56e2098]:
+                          - generic: Select your third answer.
+                          - combobox "Select your third answer." [ref=f56e2100] [cursor=pointer]:
+                            - option "Select"
+                            - option "Property 1"
+                            - option "Property 2"
+                            - option "Property 3" [selected]
+                          - 'img "Correct: Your answer is correct." [ref=f56e2104]'
+                      - row [ref=f56e2105]:
+                        - cell [ref=f56e2106]:
+                          - generic [ref=f56e2109]:
+                            - generic [ref=f56e2113]:
+                              - generic [ref=f56e2114]: "3"
+                              - generic [ref=f56e2115]:
+                                - generic [ref=f56e2116]: r
+                                - generic [ref=f56e2118]: "2"
+                              - generic [ref=f56e2122]: −
+                              - generic [ref=f56e2123]: "2"
+                              - generic [ref=f56e2124]: r
+                              - generic [ref=f56e2125]: =
+                              - generic [ref=f56e2126]: "3"
+                              - generic [ref=f56e2127]:
+                                - generic [ref=f56e2128]: r
+                                - generic [ref=f56e2130]: "2"
+                              - generic [ref=f56e2134]: +
+                              - generic [ref=f56e2135]: (
+                              - generic [ref=f56e2136]: −
+                              - generic [ref=f56e2137]: "2"
+                              - generic [ref=f56e2138]: )
+                              - generic [ref=f56e2139]: r
+                            - math [ref=f56e2140]:
+                              - generic [ref=f56e2141]: "3"
+                              - generic [ref=f56e2142]:
+                                - generic [ref=f56e2143]: r
+                                - generic [ref=f56e2144]: "2"
+                              - generic [ref=f56e2146]: −
+                              - generic [ref=f56e2147]: "2"
+                              - generic [ref=f56e2148]: r
+                              - generic [ref=f56e2149]: =
+                              - generic [ref=f56e2150]: "3"
+                              - generic [ref=f56e2151]:
+                                - generic [ref=f56e2152]: r
+                                - generic [ref=f56e2153]: "2"
+                              - generic [ref=f56e2155]: +
+                              - generic [ref=f56e2156]: (
+                              - generic [ref=f56e2157]: −
+                              - generic [ref=f56e2158]: "2"
+                              - generic [ref=f56e2159]: )
+                              - generic [ref=f56e2160]: r
+                          - text: is a rational number.
+                        - cell [ref=f56e2161]:
+                          - generic: Select your fourth answer.
+                          - combobox "Select your fourth answer." [ref=f56e2163] [cursor=pointer]:
+                            - option "Select"
+                            - option "Property 1"
+                            - option "Property 2" [selected]
+                            - option "Property 3"
+                          - 'img "Correct: Your answer is correct." [ref=f56e2167]'
+                      - row [ref=f56e2168]:
+                        - cell [ref=f56e2169]:
+                          - text: Therefore,
+                          - generic [ref=f56e2172]:
+                            - generic [ref=f56e2176]:
+                              - generic [ref=f56e2177]: "3"
+                              - generic [ref=f56e2178]:
+                                - generic [ref=f56e2179]: r
+                                - generic [ref=f56e2181]: "2"
+                              - generic [ref=f56e2185]: −
+                              - generic [ref=f56e2186]: "2"
+                              - generic [ref=f56e2187]: r
+                              - generic [ref=f56e2188]: +
+                              - generic [ref=f56e2189]: "4"
+                            - math [ref=f56e2190]:
+                              - generic [ref=f56e2191]: "3"
+                              - generic [ref=f56e2192]:
+                                - generic [ref=f56e2193]: r
+                                - generic [ref=f56e2194]: "2"
+                              - generic [ref=f56e2196]: −
+                              - generic [ref=f56e2197]: "2"
+                              - generic [ref=f56e2198]: r
+                              - generic [ref=f56e2199]: +
+                              - generic [ref=f56e2200]: "4"
+                          - text: is a rational number.
+                        - cell [ref=f56e2201]:
+                          - generic: Select your fifth answer.
+                          - combobox "Select your fifth answer." [ref=f56e2203] [cursor=pointer]:
+                            - option "Select"
+                            - option "Property 1"
+                            - option "Property 2" [selected]
+                            - option "Property 3"
+                          - 'img "Correct: Your answer is correct." [ref=f56e2207]'
+                - generic "Resource box" [ref=f56e2211]:
+                  - generic [ref=f56e2212]:
+                    - generic [ref=f56e2213]: Resources
+                    - generic [ref=f56e2214]:
+                      - paragraph [ref=f56e2215]:
+                        - link "Read It (opens in a new tab)" [ref=f56e2216] [cursor=pointer]:
+                          - /url: "#"
+                          - text: Read It
+                      - button "Ask Student Assistant for question 10" [ref=f56e2217] [cursor=pointer]: Student Assistant
+              - button "Submit Answer" [ref=f56e2220] [cursor=pointer]
+          - generic [ref=f56e2221]:
+            - region "Banner for question 11" [ref=f56e2224]:
+              - generic [ref=f56e2225]:
+                - heading "Question 11" [level=2] [ref=f56e2227]: "11."
+                - strong [ref=f56e2228]: "[– / 8.33 Points]"
+              - generic [ref=f56e2229]:
+                - button "Details for question 11." [ref=f56e2230] [cursor=pointer]:
+                  - generic [ref=f56e2231]: Details
+                - button "My Notes For question 11" [ref=f56e2234] [cursor=pointer]:
+                  - generic [ref=f56e2235]: My Notes
+            - generic [ref=f56e2236]:
+              - generic [ref=f56e2238]:
+                - generic [ref=f56e2239]: EppDiscMath5 4.3.030.
+                - region [ref=f56e2240]:
+                  - strong [ref=f56e2241]: Problem 11
+                  - generic [ref=f56e2242]:
+                    - text: Consider a quadratic equation of the form
+                    - generic [ref=f56e2243]:
+                      - generic [ref=f56e2246]:
+                        - generic [ref=f56e2250]:
+                          - generic [ref=f56e2251]:
+                            - generic [ref=f56e2252]: x
+                            - generic [ref=f56e2254]: "2"
+                          - generic [ref=f56e2258]: +
+                          - generic [ref=f56e2259]: b
+                          - generic [ref=f56e2260]: x
+                          - generic [ref=f56e2261]: +
+                          - generic [ref=f56e2262]: c
+                          - generic [ref=f56e2263]: =
+                          - generic [ref=f56e2264]: "0"
+                        - math [ref=f56e2265]:
+                          - generic [ref=f56e2266]:
+                            - generic [ref=f56e2267]: x
+                            - generic [ref=f56e2268]: "2"
+                          - generic [ref=f56e2270]: +
+                          - generic [ref=f56e2271]: b
+                          - generic [ref=f56e2272]: x
+                          - generic [ref=f56e2273]: +
+                          - generic [ref=f56e2274]: c
+                          - generic [ref=f56e2275]: =
+                          - generic [ref=f56e2276]: "0"
+                      - text: ","
+                    - text: where
+                    - emphasis [ref=f56e2277]: b
+                    - text: and
+                    - emphasis [ref=f56e2278]: c
+                    - text: are rational numbers. Fill in the blanks in the following proof that if one solution is rational, then the other solution is also rational.
+                  - generic [ref=f56e2280]:
+                    - generic [ref=f56e2281]: Read and complete the following.
+                    - generic [ref=f56e2282]:
+                      - strong [ref=f56e2283]: Proof
+                      - text: ": Suppose"
+                      - generic [ref=f56e2286]:
+                        - generic [ref=f56e2290]:
+                          - generic [ref=f56e2291]:
+                            - generic [ref=f56e2292]: x
+                            - generic [ref=f56e2294]: "2"
+                          - generic [ref=f56e2298]: +
+                          - generic [ref=f56e2299]: b
+                          - generic [ref=f56e2300]: x
+                          - generic [ref=f56e2301]: +
+                          - generic [ref=f56e2302]: c
+                          - generic [ref=f56e2303]: =
+                          - generic [ref=f56e2304]: "0"
+                        - math [ref=f56e2305]:
+                          - generic [ref=f56e2306]:
+                            - generic [ref=f56e2307]: x
+                            - generic [ref=f56e2308]: "2"
+                          - generic [ref=f56e2310]: +
+                          - generic [ref=f56e2311]: b
+                          - generic [ref=f56e2312]: x
+                          - generic [ref=f56e2313]: +
+                          - generic [ref=f56e2314]: c
+                          - generic [ref=f56e2315]: =
+                          - generic [ref=f56e2316]: "0"
+                      - text: is any quadratic equation where
+                      - emphasis [ref=f56e2317]: b
+                      - text: and
+                      - emphasis [ref=f56e2318]: c
+                      - text: are rational numbers, and suppose one solution
+                      - emphasis [ref=f56e2319]: r
+                      - text: is rational. Call the other solution
+                      - emphasis [ref=f56e2320]: s
+                      - text: . Then
+                      - generic [ref=f56e2321]:
+                        - generic [ref=f56e2324]:
+                          - generic [ref=f56e2328]:
+                            - generic [ref=f56e2329]:
+                              - generic [ref=f56e2330]: x
+                              - generic [ref=f56e2332]: "2"
+                            - generic [ref=f56e2336]: +
+                            - generic [ref=f56e2337]: b
+                            - generic [ref=f56e2338]: x
+                            - generic [ref=f56e2339]: +
+                            - generic [ref=f56e2340]: c
+                            - generic [ref=f56e2341]: =
+                            - generic [ref=f56e2342]: (
+                            - generic [ref=f56e2343]: x
+                            - generic [ref=f56e2344]: −
+                            - generic [ref=f56e2345]: r
+                            - generic [ref=f56e2346]: )
+                            - generic [ref=f56e2347]: (
+                            - generic [ref=f56e2348]: x
+                            - generic [ref=f56e2349]: −
+                            - generic [ref=f56e2350]: s
+                            - generic [ref=f56e2351]: )
+                          - math [ref=f56e2352]:
+                            - generic [ref=f56e2353]:
+                              - generic [ref=f56e2354]: x
+                              - generic [ref=f56e2355]: "2"
+                            - generic [ref=f56e2357]: +
+                            - generic [ref=f56e2358]: b
+                            - generic [ref=f56e2359]: x
+                            - generic [ref=f56e2360]: +
+                            - generic [ref=f56e2361]: c
+                            - generic [ref=f56e2362]: =
+                            - generic [ref=f56e2363]: (
+                            - generic [ref=f56e2364]: x
+                            - generic [ref=f56e2365]: −
+                            - generic [ref=f56e2366]: r
+                            - generic [ref=f56e2367]: )
+                            - generic [ref=f56e2368]: (
+                            - generic [ref=f56e2369]: x
+                            - generic [ref=f56e2370]: −
+                            - generic [ref=f56e2371]: s
+                            - generic [ref=f56e2372]: )
+                        - text: .
+                      - text: Multiply out
+                      - generic [ref=f56e2375]:
+                        - generic [ref=f56e2379]:
+                          - generic [ref=f56e2380]: (
+                          - generic [ref=f56e2381]: x
+                          - generic [ref=f56e2382]: −
+                          - generic [ref=f56e2383]: r
+                          - generic [ref=f56e2384]: )
+                          - generic [ref=f56e2385]: (
+                          - generic [ref=f56e2386]: x
+                          - generic [ref=f56e2387]: −
+                          - generic [ref=f56e2388]: s
+                          - generic [ref=f56e2389]: )
+                        - math [ref=f56e2390]:
+                          - generic [ref=f56e2391]: (
+                          - generic [ref=f56e2392]: x
+                          - generic [ref=f56e2393]: −
+                          - generic [ref=f56e2394]: r
+                          - generic [ref=f56e2395]: )
+                          - generic [ref=f56e2396]: (
+                          - generic [ref=f56e2397]: x
+                          - generic [ref=f56e2398]: −
+                          - generic [ref=f56e2399]: s
+                          - generic [ref=f56e2400]: )
+                      - text: and set it equal to
+                      - generic [ref=f56e2403]:
+                        - generic [ref=f56e2407]:
+                          - generic [ref=f56e2408]:
+                            - generic [ref=f56e2409]: x
+                            - generic [ref=f56e2411]: "2"
+                          - generic [ref=f56e2415]: +
+                          - generic [ref=f56e2416]: b
+                          - generic [ref=f56e2417]: x
+                          - generic [ref=f56e2418]: +
+                          - generic [ref=f56e2419]: c
+                        - math [ref=f56e2420]:
+                          - generic [ref=f56e2421]:
+                            - generic [ref=f56e2422]: x
+                            - generic [ref=f56e2423]: "2"
+                          - generic [ref=f56e2425]: +
+                          - generic [ref=f56e2426]: b
+                          - generic [ref=f56e2427]: x
+                          - generic [ref=f56e2428]: +
+                          - generic [ref=f56e2429]: c
+                      - text: to obtain
+                      - generic [ref=f56e2432]:
+                        - generic [ref=f56e2436]:
+                          - generic [ref=f56e2437]:
+                            - generic [ref=f56e2438]: x
+                            - generic [ref=f56e2440]: "2"
+                          - generic [ref=f56e2444]: +
+                          - generic [ref=f56e2445]: b
+                          - generic [ref=f56e2446]: x
+                          - generic [ref=f56e2447]: +
+                          - generic [ref=f56e2448]: c
+                          - generic [ref=f56e2449]: =
+                          - generic [ref=f56e2450]:
+                            - generic [ref=f56e2451]: x
+                            - generic [ref=f56e2453]: "2"
+                          - generic [ref=f56e2457]: +
+                          - generic [ref=f56e2458]: (
+                        - math [ref=f56e2464]:
+                          - generic [ref=f56e2465]:
+                            - generic [ref=f56e2466]: x
+                            - generic [ref=f56e2467]: "2"
+                          - generic [ref=f56e2469]: +
+                          - generic [ref=f56e2470]: b
+                          - generic [ref=f56e2471]: x
+                          - generic [ref=f56e2472]: +
+                          - generic [ref=f56e2473]: c
+                          - generic [ref=f56e2474]: =
+                          - generic [ref=f56e2475]:
+                            - generic [ref=f56e2476]: x
+                            - generic [ref=f56e2477]: "2"
+                          - generic [ref=f56e2479]: +
+                          - generic [ref=f56e2480]: (
+                      - generic: Write your first answer.
+                      - generic [ref=f56e2484]:
+                        - generic [ref=f56e2485]:
+                          - button [ref=f56e3074]:
+                            - generic [ref=f56e3075]:
+                              - math [ref=f56e3076]:
+                                - generic [ref=f56e3077]: "-"
+                                - generic [ref=f56e3078]: r
+                                - generic [ref=f56e3079]: "-"
+                                - generic [ref=f56e3080]: s
+                              - generic [aria-hidden] [ref=f56e3081]:
+                                - generic [ref=f56e3085]:
+                                  - generic [ref=f56e3086]: −
+                                  - generic [ref=f56e3087]: r
+                                  - generic [ref=f56e3088]: −
+                                  - generic [ref=f56e3089]: s
+                                - math [ref=f56e3091]:
+                                  - generic [ref=f56e3092]: "-"
+                                  - generic [ref=f56e3093]: r
+                                  - generic [ref=f56e3094]: "-"
+                                  - generic [ref=f56e3095]: s
+                          - button "Open full math pad" [ref=f56e2488] [cursor=pointer]
+                        - generic [ref=f56e2490]: Press Space or Enter to edit this math answer.
+                      - generic [ref=f56e2493]:
+                        - generic [ref=f56e2497]:
+                          - generic [ref=f56e2498]: )
+                          - generic [ref=f56e2504]: x
+                          - generic [ref=f56e2505]: +
+                        - math [ref=f56e2506]:
+                          - generic [ref=f56e2507]: )
+                          - generic [ref=f56e2510]: x
+                          - generic [ref=f56e2511]: +
+                      - generic: Write your second answer.
+                      - generic [ref=f56e2513]:
+                        - generic [ref=f56e2514]:
+                          - button [ref=f56e3104]:
+                            - generic [ref=f56e3105]:
+                              - math [ref=f56e3106]:
+                                - generic [ref=f56e3107]: r
+                                - generic [ref=f56e3108]: s
+                              - generic [aria-hidden] [ref=f56e3109]:
+                                - generic [ref=f56e3113]:
+                                  - generic [ref=f56e3114]: r
+                                  - generic [ref=f56e3115]: s
+                                - math [ref=f56e3117]:
+                                  - generic [ref=f56e3118]: r
+                                  - generic [ref=f56e3119]: s
+                          - button "Open full math pad" [ref=f56e2517] [cursor=pointer]
+                        - generic [ref=f56e2519]: Press Space or Enter to edit this math answer.
+                      - text: . Equate coefficients and solve for
+                      - emphasis [ref=f56e2520]: s
+                      - text: in terms of
+                      - emphasis [ref=f56e2521]: b
+                      - text: and
+                      - emphasis [ref=f56e2522]: r
+                      - text: to obtain
+                      - generic [ref=f56e2523]:
+                        - generic [ref=f56e2526]:
+                          - generic [ref=f56e2530]:
+                            - generic [ref=f56e2531]: s
+                            - generic [ref=f56e2532]: =
+                          - math [ref=f56e2533]:
+                            - generic [ref=f56e2534]: s
+                            - generic [ref=f56e2535]: =
+                        - generic [ref=f56e2536]:
+                          - generic [ref=f56e2537]:
+                            - application [ref=f56e2932]:
+                              - text: "link opens new window:"
+                              - generic [ref=f56e2985]:
+                                - generic [ref=f56e2987]:
+                                  - generic [ref=f56e3047]: 
+                                  - generic [ref=f56e3048]: 
+                                  - generic [ref=f56e3049]: 
+                                  - generic [ref=f56e3050]: 
+                                  - generic [ref=f56e3051]: 
+                                  - generic [ref=f56e3052]: 
+                                  - generic [ref=f56e3053]: 
+                                  - generic [ref=f56e3054]: 
+                                  - generic [ref=f56e3055]: 
+                                  - generic [ref=f56e3056]: 
+                                  - generic [ref=f56e3057]: 
+                                  - generic [ref=f56e3058]: 
+                                  - generic [ref=f56e3059]: 
+                                  - generic [ref=f56e3060]: 
+                                - generic [ref=f56e2988]:
+                                  - generic: x
+                                  - generic [ref=f56e3124]: −
+                                  - generic [ref=f56e3125]: b
+                                  - generic [ref=f56e3126]: −
+                                  - generic [ref=f56e3127]: r
+                                - textbox "Math input" [active] [ref=f56e3063]
+                              - textbox [aria-hidden] [ref=f56e2996]
+                            - button "Open full math pad" [ref=f56e2540] [cursor=pointer]
+                          - generic [ref=f56e2542]: Press Space or Enter to edit this math answer.
+                        - text: .
+                    - generic [ref=f56e2543]:
+                      - text: Since
+                      - generic: Select your fourth answer.
+                      - combobox "Select your fourth answer." [ref=f56e2545] [cursor=pointer]:
+                        - option "Select"
+                        - option "and"
+                        - option "and" [selected]
+                        - option "and"
+                      - text: are
+                      - generic: Select your fifth answer.
+                      - combobox "Select your fifth answer." [ref=f56e2547] [cursor=pointer]:
+                        - option "Select" [selected]
+                        - option "positive"
+                        - option "rational"
+                        - option "integers"
+                      - text: and since
+                      - generic: Select your sixth answer.
+                      - combobox "Select your sixth answer." [ref=f56e2549] [cursor=pointer]:
+                        - option "Select" [selected]
+                        - option "differences of rational numbers"
+                        - option "products of rational numbers"
+                        - option "quotients of rational numbers"
+                      - text: are rational, we conclude that
+                      - generic: Select your seventh answer.
+                      - combobox "Select your seventh answer." [ref=f56e2551] [cursor=pointer]:
+                        - option "Select" [selected]
+                        - option
+                        - option
+                        - option
+                        - option
+                      - text: is rational, and so
+                      - emphasis [ref=f56e2552]: s
+                      - text: is rational.
+                - generic "Resource box" [ref=f56e2556]:
+                  - generic [ref=f56e2557]:
+                    - generic [ref=f56e2558]: Resources
+                    - generic [ref=f56e2559]:
+                      - paragraph [ref=f56e2560]:
+                        - link "Read It (opens in a new tab)" [ref=f56e2561] [cursor=pointer]:
+                          - /url: "#"
+                          - text: Read It
+                      - button "Ask Student Assistant for question 11" [ref=f56e2562] [cursor=pointer]: Student Assistant
+              - button "Submit Answer" [ref=f56e2565] [cursor=pointer]
+              - generic [ref=f56e3072]:
+                - text: Viewing Saved Work
+                - button "Viewing saved work, revert to last response" [ref=f56e3073] [cursor=pointer]: Revert to Last Response
+          - generic [ref=f56e2566]:
+            - region "Banner for question 12" [ref=f56e2569]:
+              - generic [ref=f56e2570]:
+                - heading "Question 12" [level=2] [ref=f56e2572]: "12."
+                - strong [ref=f56e2573]: "[– / 8.37 Points]"
+              - generic [ref=f56e2574]:
+                - button "Details for question 12." [ref=f56e2575] [cursor=pointer]:
+                  - generic [ref=f56e2576]: Details
+                - button "My Notes For question 12" [ref=f56e2579] [cursor=pointer]:
+                  - generic [ref=f56e2580]: My Notes
+            - generic [ref=f56e2581]:
+              - generic [ref=f56e2583]:
+                - generic [ref=f56e2584]: EppDiscMath5 4.3.038.
+                - region [ref=f56e2585]:
+                  - strong [ref=f56e2586]: Problem 12
+                  - generic [ref=f56e2587]: Consider the following statement.
+                  - group [ref=f56e2588]: The sum of any two rational numbers is a rational number.
+                  - generic [ref=f56e2589]: The statement is true, but the following proposed proof is incorrect.
+                  - region "information box" [ref=f56e2590]:
+                    - generic [ref=f56e2591]:
+                      - strong [ref=f56e2592]: Proposed proof
+                      - text: ":"
+                    - list [ref=f56e2593]:
+                      - listitem [ref=f56e2594]:
+                        - text: Suppose
+                        - emphasis [ref=f56e2595]: r
+                        - text: and
+                        - emphasis [ref=f56e2596]: s
+                        - text: are any rational numbers.
+                      - listitem [ref=f56e2597]:
+                        - text: By definition of rational,
+                        - generic [ref=f56e2600]:
+                          - generic [ref=f56e2604]:
+                            - generic [ref=f56e2605]: r
+                            - generic [ref=f56e2606]: =
+                            - generic [ref=f56e2609]:
+                              - generic [ref=f56e2610]: a
+                              - generic [ref=f56e2612]: b
+                          - math [ref=f56e2616]:
+                            - generic [ref=f56e2617]: r
+                            - generic [ref=f56e2618]: =
+                            - generic [ref=f56e2620]:
+                              - generic [ref=f56e2621]: a
+                              - generic [ref=f56e2622]: b
+                        - text: and
+                        - generic [ref=f56e2625]:
+                          - generic [ref=f56e2629]:
+                            - generic [ref=f56e2630]: s
+                            - generic [ref=f56e2631]: =
+                            - generic [ref=f56e2634]:
+                              - generic [ref=f56e2635]: c
+                              - generic [ref=f56e2637]: d
+                          - math [ref=f56e2642]:
+                            - generic [ref=f56e2643]: s
+                            - generic [ref=f56e2644]: =
+                            - generic [ref=f56e2646]:
+                              - generic [ref=f56e2647]: c
+                              - generic [ref=f56e2648]: d
+                        - text: for some integers
+                        - emphasis [ref=f56e2649]: a
+                        - text: ","
+                        - emphasis [ref=f56e2650]: b
+                        - text: ","
+                        - emphasis [ref=f56e2651]: c
+                        - text: ", and"
+                        - emphasis [ref=f56e2652]: d
+                        - text: with
+                        - generic [ref=f56e2655]:
+                          - generic [ref=f56e2659]:
+                            - generic [ref=f56e2660]: b
+                            - generic [ref=f56e2661]: ≠
+                            - generic [ref=f56e2662]: "0"
+                          - math [ref=f56e2663]:
+                            - generic [ref=f56e2664]: b
+                            - generic [ref=f56e2665]: ≠
+                            - generic [ref=f56e2666]: "0"
+                        - text: and
+                        - generic [ref=f56e2667]:
+                          - generic [ref=f56e2670]:
+                            - generic [ref=f56e2674]:
+                              - generic [ref=f56e2675]: d
+                              - generic [ref=f56e2677]: ≠
+                              - generic [ref=f56e2678]: "0"
+                            - math [ref=f56e2679]:
+                              - generic [ref=f56e2680]: d
+                              - generic [ref=f56e2681]: ≠
+                              - generic [ref=f56e2682]: "0"
+                          - text: .
+                      - listitem [ref=f56e2683]:
+                        - text: By substitution,
+                        - generic [ref=f56e2684]:
+                          - generic [ref=f56e2687]:
+                            - generic [ref=f56e2691]:
+                              - generic [ref=f56e2692]: r
+                              - generic [ref=f56e2693]: +
+                              - generic [ref=f56e2694]: s
+                              - generic [ref=f56e2695]: =
+                              - generic [ref=f56e2698]:
+                                - generic [ref=f56e2699]: a
+                                - generic [ref=f56e2701]: b
+                              - generic [ref=f56e2705]: +
+                              - generic [ref=f56e2708]:
+                                - generic [ref=f56e2709]: c
+                                - generic [ref=f56e2711]: d
+                            - math [ref=f56e2716]:
+                              - generic [ref=f56e2717]: r
+                              - generic [ref=f56e2718]: +
+                              - generic [ref=f56e2719]: s
+                              - generic [ref=f56e2720]: =
+                              - generic [ref=f56e2722]:
+                                - generic [ref=f56e2723]: a
+                                - generic [ref=f56e2724]: b
+                              - generic [ref=f56e2725]: +
+                              - generic [ref=f56e2727]:
+                                - generic [ref=f56e2728]: c
+                                - generic [ref=f56e2729]: d
+                          - text: .
+                      - listitem [ref=f56e2730]:
+                        - text: Thus
+                        - generic [ref=f56e2733]:
+                          - generic [ref=f56e2737]:
+                            - generic [ref=f56e2738]: r
+                            - generic [ref=f56e2739]: +
+                            - generic [ref=f56e2740]: s
+                          - math [ref=f56e2741]:
+                            - generic [ref=f56e2742]: r
+                            - generic [ref=f56e2743]: +
+                            - generic [ref=f56e2744]: s
+                        - text: is a sum of two fractions, which is a fraction.
+                      - listitem [ref=f56e2745]:
+                        - text: So
+                        - generic [ref=f56e2748]:
+                          - generic [ref=f56e2752]:
+                            - generic [ref=f56e2753]: r
+                            - generic [ref=f56e2754]: +
+                            - generic [ref=f56e2755]: s
+                          - math [ref=f56e2756]:
+                            - generic [ref=f56e2757]: r
+                            - generic [ref=f56e2758]: +
+                            - generic [ref=f56e2759]: s
+                        - text: is a rational number since a rational number is a fraction.
+                  - group "Identify the error(s) in the proposed proof. (Select all that apply.)" [ref=f56e2761]:
+                    - generic [ref=f56e2763]:
+                      - checkbox "The second sentence should say a ≠ 0 and c ≠ 0 instead of b ≠ 0 and d ≠ 0 ." [ref=f56e2764]
+                      - generic [ref=f56e2765]:
+                        - text: The second sentence should say
+                        - generic [ref=f56e2768]:
+                          - generic [ref=f56e2772]:
+                            - generic [ref=f56e2773]: a
+                            - generic [ref=f56e2774]: ≠
+                            - generic [ref=f56e2775]: "0"
+                          - math [ref=f56e2776]:
+                            - generic [ref=f56e2777]: a
+                            - generic [ref=f56e2778]: ≠
+                            - generic [ref=f56e2779]: "0"
+                        - text: and
+                        - generic [ref=f56e2782]:
+                          - generic [ref=f56e2786]:
+                            - generic [ref=f56e2787]: c
+                            - generic [ref=f56e2788]: ≠
+                            - generic [ref=f56e2789]: "0"
+                          - math [ref=f56e2790]:
+                            - generic [ref=f56e2791]: c
+                            - generic [ref=f56e2792]: ≠
+                            - generic [ref=f56e2793]: "0"
+                        - text: instead of
+                        - generic [ref=f56e2796]:
+                          - generic [ref=f56e2800]:
+                            - generic [ref=f56e2801]: b
+                            - generic [ref=f56e2802]: ≠
+                            - generic [ref=f56e2803]: "0"
+                          - math [ref=f56e2804]:
+                            - generic [ref=f56e2805]: b
+                            - generic [ref=f56e2806]: ≠
+                            - generic [ref=f56e2807]: "0"
+                        - text: and
+                        - generic [ref=f56e2808]:
+                          - generic [ref=f56e2811]:
+                            - generic [ref=f56e2815]:
+                              - generic [ref=f56e2816]: d
+                              - generic [ref=f56e2818]: ≠
+                              - generic [ref=f56e2819]: "0"
+                            - math [ref=f56e2820]:
+                              - generic [ref=f56e2821]: d
+                              - generic [ref=f56e2822]: ≠
+                              - generic [ref=f56e2823]: "0"
+                          - text: .
+                    - generic [ref=f56e2824]:
+                      - checkbox "The second sentence should say b = 0 and d = 0 instead of b ≠ 0 and d ≠ 0 ." [ref=f56e2825]
+                      - generic [ref=f56e2826]:
+                        - text: The second sentence should say
+                        - generic [ref=f56e2829]:
+                          - generic [ref=f56e2833]:
+                            - generic [ref=f56e2834]: b
+                            - generic [ref=f56e2835]: =
+                            - generic [ref=f56e2836]: "0"
+                          - math [ref=f56e2837]:
+                            - generic [ref=f56e2838]: b
+                            - generic [ref=f56e2839]: =
+                            - generic [ref=f56e2840]: "0"
+                        - text: and
+                        - generic [ref=f56e2843]:
+                          - generic [ref=f56e2847]:
+                            - generic [ref=f56e2848]: d
+                            - generic [ref=f56e2850]: =
+                            - generic [ref=f56e2851]: "0"
+                          - math [ref=f56e2852]:
+                            - generic [ref=f56e2853]: d
+                            - generic [ref=f56e2854]: =
+                            - generic [ref=f56e2855]: "0"
+                        - text: instead of
+                        - generic [ref=f56e2858]:
+                          - generic [ref=f56e2862]:
+                            - generic [ref=f56e2863]: b
+                            - generic [ref=f56e2864]: ≠
+                            - generic [ref=f56e2865]: "0"
+                          - math [ref=f56e2866]:
+                            - generic [ref=f56e2867]: b
+                            - generic [ref=f56e2868]: ≠
+                            - generic [ref=f56e2869]: "0"
+                        - text: and
+                        - generic [ref=f56e2870]:
+                          - generic [ref=f56e2873]:
+                            - generic [ref=f56e2877]:
+                              - generic [ref=f56e2878]: d
+                              - generic [ref=f56e2880]: ≠
+                              - generic [ref=f56e2881]: "0"
+                            - math [ref=f56e2882]:
+                              - generic [ref=f56e2883]: d
+                              - generic [ref=f56e2884]: ≠
+                              - generic [ref=f56e2885]: "0"
+                          - text: .
+                    - generic [ref=f56e2886]:
+                      - checkbox "To prove the statement, r and s must have the same denominator." [ref=f56e2887]
+                      - generic [ref=f56e2888]:
+                        - text: To prove the statement,
+                        - emphasis [ref=f56e2889]: r
+                        - text: and
+                        - emphasis [ref=f56e2890]: s
+                        - text: must have the same denominator.
+                    - generic [ref=f56e2891]:
+                      - checkbox "The first sentence claims that r and s are rational numbers, which is equivalent to assuming what is to be proved." [ref=f56e2892]
+                      - generic [ref=f56e2893]:
+                        - text: The first sentence claims that
+                        - emphasis [ref=f56e2894]: r
+                        - text: and
+                        - emphasis [ref=f56e2895]: s
+                        - text: are rational numbers, which is equivalent to assuming what is to be proved.
+                    - generic [ref=f56e2896]:
+                      - checkbox "The fourth sentence assumes that a sum of two fractions is a fraction, which is equivalent to assuming what is to be proved." [ref=f56e2897]
+                      - generic [ref=f56e2898]: The fourth sentence assumes that a sum of two fractions is a fraction, which is equivalent to assuming what is to be proved.
+                - generic "Resource box" [ref=f56e2902]:
+                  - generic [ref=f56e2903]:
+                    - generic [ref=f56e2904]: Resources
+                    - generic [ref=f56e2905]:
+                      - paragraph [ref=f56e2906]:
+                        - link "Read It (opens in a new tab)" [ref=f56e2907] [cursor=pointer]:
+                          - /url: "#"
+                          - text: Read It
+                      - button "Ask Student Assistant for question 12" [ref=f56e2908] [cursor=pointer]: Student Assistant
+              - button "Submit Answer" [ref=f56e2911] [cursor=pointer]
+        - alert
+        - generic [ref=f56e2915]:
+          - link "Home" [ref=f56e2916] [cursor=pointer]
+          - link "My Assignments" [ref=f56e2917] [cursor=pointer]
+          - button "Open Request Extension in modal window" [ref=f56e2918] [cursor=pointer]:
+            - generic [ref=f56e2921]: Request Extension
+    - contentinfo [ref=f56e2923]:
+      - generic [ref=f56e2924]:
+        - generic [ref=f56e2925]: Copyright © 1998 - 2026 Cengage Learning, Inc. All Rights Reserved
+        - list [ref=f56e2926]:
+          - listitem [ref=f56e2927]:
+            - link "Open in a new tab. Terms of use" [ref=f56e2928] [cursor=pointer]:
+              - /url: https://www.cengage.com/legal/#terms
+              - text: Terms of use
+          - listitem [ref=f56e2929]:
+            - link "Open in a new tab. Privacy" [ref=f56e2930] [cursor=pointer]:
+              - /url: https://www.cengage.com/privacy/
+              - text: Privacy

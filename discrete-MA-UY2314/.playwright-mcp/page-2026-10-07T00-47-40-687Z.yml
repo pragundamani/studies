@@ -1,0 +1,77 @@
+- generic [active] [ref=f6e1]:
+  - generic [ref=f6e4]:
+    - banner [ref=f6e5]:
+      - generic [ref=f6e6]:
+        - link "Skip to content" [ref=f6e7] [cursor=pointer]:
+          - /url: ""
+        - link "Skip to navigation" [ref=f6e8] [cursor=pointer]:
+          - /url: ""
+      - generic [ref=f6e9]:
+        - generic [ref=f6e12]:
+          - generic [ref=f6e13]:
+            - paragraph [ref=f6e18]: Pragun
+            - button "Collapse Button" [ref=f6e21] [cursor=pointer]
+          - navigation [ref=f6e25]:
+            - img "Sidebar is loading" [ref=f6e27]
+            - link "Sign Out" [ref=f6e29] [cursor=pointer]
+        - generic:
+          - banner
+      - generic [ref=f6e34]:
+        - generic [ref=f6e38]:
+          - button "Cengage WebAssign Homepage" [ref=f6e40] [cursor=pointer]:
+            - img "Cengage WebAssign Homepage" [ref=f6e41]
+          - generic [ref=f6e66]:
+            - button "Open Email Notification Settings modal" [ref=f6e67] [cursor=pointer]
+            - link "Open Help page in a new browser tab." [ref=f6e71] [cursor=pointer]:
+              - /url: https://help.cengage.com/webassign/student_guide/
+            - button "Interface language setting. Language set to English" [ref=f6e76] [cursor=pointer]:
+              - generic [ref=f6e79]: EN
+        - navigation "WebAssign" [ref=f6e85]:
+          - link "Home" [ref=f6e86]
+          - link "My Assignments" [ref=f6e87]
+          - link "Grades" [ref=f6e88]
+          - link "Communication" [ref=f6e89]
+          - link "Calendar" [ref=f6e90]
+          - button "My eBooks" [ref=f6e93]
+    - main [ref=f6e96]:
+      - generic [ref=f6e99]:
+        - generic [ref=f6e100]:
+          - 'generic "navigate back to MA-UY 2314: Discrete Mathematics, Fall 2026, Fall 2026" [ref=f6e101] [cursor=pointer]': "MA-UY 2314: Discrete Mathematics, Fall 2026, Fall 2026"
+          - heading "My Assignments" [level=1] [ref=f6e104]
+        - generic [ref=f6e106]:
+          - generic [ref=f6e110]:
+            - text: Instructor
+            - generic [ref=f6e111]: Ken Cereste
+          - generic [ref=f6e112]: New York University
+      - alert [ref=f6e115]:
+        - generic [ref=f6e117]:
+          - img "Loading" [ref=f6e118]
+          - generic [ref=f6e119]:
+            - generic [ref=f6e120]: Loading...
+            - generic [aria-hidden] [ref=f6e121]: Thank you for your patience. Still loading...
+            - generic [aria-hidden] [ref=f6e122]: Sorry for the delay. This is taking longer than expected.
+    - contentinfo [ref=f6e124]:
+      - generic [ref=f6e125]:
+        - generic [ref=f6e126]: Copyright © 1998 - 2026 Cengage Learning, Inc. All Rights Reserved
+        - list [ref=f6e127]:
+          - listitem [ref=f6e128]:
+            - link "Open in a new tab. Terms of use" [ref=f6e129] [cursor=pointer]:
+              - /url: https://www.cengage.com/legal/#terms
+              - text: Terms of use
+          - listitem [ref=f6e130]:
+            - link "Open in a new tab. Privacy" [ref=f6e131] [cursor=pointer]:
+              - /url: https://www.cengage.com/privacy/
+              - text: Privacy
+  - region "Use of Cookies" [ref=f6e132]:
+    - dialog "Use of Cookies" [ref=f6e133]:
+      - generic [ref=f6e135]:
+        - generic [ref=f6e137]:
+          - heading "Use of Cookies" [level=2] [ref=f6e138]
+          - generic [ref=f6e139]:
+            - text: We and our partners may use cookies, pixels, and similar technologies to collect information about you, including about your browsing activities and devices. This may result in your information being collected by our third-party partners. By choosing to "Accept All Cookies", you agree to these practices, including as described in the
+            - link "Privacy Policy, opens in a new tab" [ref=f6e140] [cursor=pointer]:
+              - /url: https://www.cengagegroup.com/privacy/
+              - text: Privacy Policy
+        - generic [ref=f6e142]:
+          - button "Manage Options" [ref=f6e143] [cursor=pointer]
+          - button "Accept All Cookies" [ref=f6e144] [cursor=pointer]

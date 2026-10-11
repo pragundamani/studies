@@ -1,0 +1,194 @@
+- generic [ref=e1]:
+  - generic [ref=e5]:
+    - generic [ref=e8]:
+      - generic [ref=e9]:
+        - paragraph [ref=e14]: Pragun
+        - button "Expand Button" [ref=e17] [cursor=pointer]
+      - navigation [ref=e21]:
+        - generic [ref=e22]:
+          - list "Main Menu" [ref=e24]:
+            - listitem [ref=e25]:
+              - link "HOME" [ref=e27] [cursor=pointer]:
+                - /url: https://www.cengage.com/dashboard/home
+            - listitem [ref=e30]:
+              - link "PROFILE" [ref=e32] [cursor=pointer]:
+                - /url: https://account.cengage.com/profile/profile-data
+            - listitem [ref=e35]:
+              - link "ORDERS" [ref=e37] [cursor=pointer]:
+                - /url: https://www.cengage.com/dashboard/my-orders
+            - listitem [ref=e40]:
+              - link "RENTALS" [ref=e42] [cursor=pointer]:
+                - /url: https://www.cengage.com/dashboard/rentals
+            - listitem [ref=e45]:
+              - button "COURSES" [ref=e48] [cursor=pointer]
+          - list "Study tools and tips" [ref=e54]:
+            - listitem [ref=e55]:
+              - link "Study Tools" [ref=e57] [cursor=pointer]:
+                - /url: https://www.cengage.com/dashboard/explore-catalog
+            - listitem [ref=e60]:
+              - link "College Success Tips" [ref=e62] [cursor=pointer]:
+                - /url: https://www.cengage.com/dashboard/college-success
+            - listitem [ref=e65]:
+              - link "Career Success Tips" [ref=e67] [cursor=pointer]:
+                - /url: https://www.cengage.com/dashboard/career-center
+          - list "Help" [ref=e71]:
+            - listitem [ref=e72]:
+              - link "Help" [ref=e74] [cursor=pointer]:
+                - /url: https://cengageorg.my.site.com/Service/s/
+        - link [ref=e78] [cursor=pointer]
+    - generic [ref=e82]:
+      - navigation "Mindtap menu" [ref=e85]:
+        - img "Cengage MindTap" [ref=e87]
+        - generic [ref=e88]:
+          - text: 
+          - button "Search this course" [ref=e89] [cursor=pointer]:
+            - generic [ref=e90]:
+              - generic [ref=e91]: 
+              - text: Search this course
+          - text:  
+          - generic [ref=e92]:
+            - generic [ref=e94]:
+              - button " Help & Info" [ref=e95] [cursor=pointer]:
+                - generic [ref=e96]:
+                  - generic [ref=e97]: 
+                  - generic [ref=e98]: Help & Info
+              - text:    
+            - text:     
+      - generic [ref=e100]:
+        - main [ref=e102]:
+          - navigation "Learning Path View Options" [ref=e103]:
+            - heading [level=1] [ref=e105]:
+              - text: Discrete Mathematics with Applications, 5
+              - superscript [ref=e106]: th
+              - text: Edition
+          - button "Expand All Folders" [ref=e110] [cursor=pointer]:
+            - text: Expand all
+            - generic [aria-hidden] [ref=e111]: 
+          - tabpanel [ref=e113]:
+            - list [ref=e114]:
+              - listitem [ref=e115]:
+                - generic [ref=e117]:
+                  - img "Reading activity" [ref=e118] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=e121]: 
+                  - generic [ref=e122]:
+                    - 'button "Chapter 1: Speaking Mathematically" [ref=e124] [cursor=pointer]'
+                    - list [ref=e126]
+              - listitem [ref=e127]:
+                - generic [ref=e129]:
+                  - img "Reading activity" [ref=e130] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=e133]: 
+                  - generic [ref=e134]:
+                    - 'button "Chapter 2: The Logic of Compound Statements" [ref=e136] [cursor=pointer]'
+                    - list [ref=e138]
+              - listitem [ref=e139]:
+                - generic [ref=e141]:
+                  - img "Reading activity" [ref=e142] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=e145]: 
+                  - generic [ref=e146]:
+                    - 'button "Chapter 3: The Logic of Quantified Statements" [ref=e148] [cursor=pointer]'
+                    - list [ref=e150]
+              - listitem [ref=e151]:
+                - generic [ref=e153]:
+                  - img "Reading activity" [ref=e154] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=e157]: 
+                  - generic [ref=e158]:
+                    - 'button "Chapter 4: Elementary Number Theory and Methods of Proof" [ref=e160] [cursor=pointer]'
+                    - list [ref=e162]
+              - listitem [ref=e163]:
+                - generic [ref=e165]:
+                  - img "Reading activity" [ref=e166] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=e169]: 
+                  - generic [ref=e170]:
+                    - 'button "Chapter 5: Sequences, Mathematical Induction, and Recursion" [ref=e172] [cursor=pointer]'
+                    - list [ref=e174]
+              - listitem [ref=e175]:
+                - generic [ref=e177]:
+                  - img "Reading activity" [ref=e178] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=e181]: 
+                  - generic [ref=e182]:
+                    - 'button "Chapter 6: Set Theory" [ref=e184] [cursor=pointer]'
+                    - list [ref=e186]
+              - listitem [ref=e187]:
+                - generic [ref=e189]:
+                  - img "Reading activity" [ref=e190] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=e193]: 
+                  - generic [ref=e194]:
+                    - 'button "Chapter 7: Properties of Functions" [ref=e196] [cursor=pointer]'
+                    - list [ref=e198]
+              - listitem [ref=e199]:
+                - generic [ref=e201]:
+                  - img "Reading activity" [ref=e202] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=e205]: 
+                  - generic [ref=e206]:
+                    - 'button "Chapter 8: Properties of Relations" [ref=e208] [cursor=pointer]'
+                    - list [ref=e210]
+              - listitem [ref=e211]:
+                - generic [ref=e213]:
+                  - img "Reading activity" [ref=e214] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=e217]: 
+                  - generic [ref=e218]:
+                    - 'button "Chapter 9: Counting and Probability" [ref=e220] [cursor=pointer]'
+                    - list [ref=e222]
+              - listitem [ref=e223]:
+                - generic [ref=e225]:
+                  - img "Reading activity" [ref=e226] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=e229]: 
+                  - generic [ref=e230]:
+                    - 'button "Chapter 10: Theory of Graphs and Trees" [ref=e232] [cursor=pointer]'
+                    - list [ref=e234]
+              - listitem [ref=e235]:
+                - generic [ref=e237]:
+                  - img "Reading activity" [ref=e238] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=e241]: 
+                  - generic [ref=e242]:
+                    - 'button "Chapter 11: Analysis of Algorithm Efficiency" [ref=e244] [cursor=pointer]'
+                    - list [ref=e246]
+              - listitem [ref=e247]:
+                - generic [ref=e249]:
+                  - img "Reading activity" [ref=e250] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=e253]: 
+                  - generic [ref=e254]:
+                    - 'button "Chapter 12: Regular Expressions and Finite-State Automata" [ref=e256] [cursor=pointer]'
+                    - list [ref=e258]
+              - listitem [ref=e259]:
+                - generic [ref=e261]:
+                  - img "Reading activity" [ref=e262] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=e265]: 
+                  - generic [ref=e266]:
+                    - 'button "Appendix A: Properties of the Real Numbers" [ref=e268] [cursor=pointer]'
+                    - list [ref=e270]
+              - listitem [ref=e271]:
+                - generic [ref=e273]:
+                  - img "File download activity" [ref=e274] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=e277]: 
+                  - generic [ref=e278]:
+                    - button "Appendix B" [ref=e280] [cursor=pointer]
+                    - list [ref=e282]
+        - generic:
+          - generic [active] [ref=e297]:
+            - generic [ref=e298]:
+              - heading "Full Book" [level=2] [ref=e299]
+              - button "Full Screen" [ref=e300] [cursor=pointer]:
+                - generic [ref=e301]: 
+              - button "Close Enlarged Image" [ref=e302] [cursor=pointer]: 
+            - iframe [ref=e307]:
+              - generic [ref=f1e4]:
+                - generic [ref=f1e5]:
+                  - generic:
+                    - generic "Listen to this page using ReadSpeaker"
+                - generic [ref=f1e7] [cursor=pointer]
+          - menu [ref=e283]:
+            - navigation "Applications Menu" [ref=e284]:
+              - generic [ref=e285]:
+                - menuitem "My Notes, button" [ref=e286] [cursor=pointer]:
+                  - img "My Notes" [ref=e287]
+                - menuitem "Full Book, button" [ref=e288] [cursor=pointer]:
+                  - img "Full Book" [ref=e289]
+                - menuitem "ReadSpeaker, button" [ref=e290] [cursor=pointer]:
+                  - img "ReadSpeaker" [ref=e291]
+                - menuitem "Glossary, button" [ref=e292] [cursor=pointer]:
+                  - img "Glossary" [ref=e293]
+                - menuitem "Flashcards, button" [ref=e294] [cursor=pointer]:
+                  - img "Flashcards" [ref=e295]
+  - text: Your device is connected to the internet. Reconnect
+  - tooltip "Full Book" [ref=e308]

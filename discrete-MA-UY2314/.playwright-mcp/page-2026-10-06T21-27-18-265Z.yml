@@ -1,0 +1,349 @@
+- generic [ref=e1]:
+  - generic [ref=e5]:
+    - generic [ref=e8]:
+      - generic [ref=e9]:
+        - paragraph [ref=e14]: Pragun
+        - button "Expand Button" [ref=e17] [cursor=pointer]
+      - navigation [ref=e21]:
+        - generic [ref=e22]:
+          - list "Main Menu" [ref=e24]:
+            - listitem [ref=e25]:
+              - link "HOME" [ref=e27] [cursor=pointer]:
+                - /url: https://www.cengage.com/dashboard/home
+            - listitem [ref=e30]:
+              - link "PROFILE" [ref=e32] [cursor=pointer]:
+                - /url: https://account.cengage.com/profile/profile-data
+            - listitem [ref=e35]:
+              - link "ORDERS" [ref=e37] [cursor=pointer]:
+                - /url: https://www.cengage.com/dashboard/my-orders
+            - listitem [ref=e40]:
+              - link "RENTALS" [ref=e42] [cursor=pointer]:
+                - /url: https://www.cengage.com/dashboard/rentals
+            - listitem [ref=e45]:
+              - button "COURSES" [ref=e48] [cursor=pointer]
+          - list "Study tools and tips" [ref=e54]:
+            - listitem [ref=e55]:
+              - link "Study Tools" [ref=e57] [cursor=pointer]:
+                - /url: https://www.cengage.com/dashboard/explore-catalog
+            - listitem [ref=e60]:
+              - link "College Success Tips" [ref=e62] [cursor=pointer]:
+                - /url: https://www.cengage.com/dashboard/college-success
+            - listitem [ref=e65]:
+              - link "Career Success Tips" [ref=e67] [cursor=pointer]:
+                - /url: https://www.cengage.com/dashboard/career-center
+          - list "Help" [ref=e71]:
+            - listitem [ref=e72]:
+              - link "Help" [ref=e74] [cursor=pointer]:
+                - /url: https://cengageorg.my.site.com/Service/s/
+        - link [ref=e78] [cursor=pointer]
+    - generic [ref=e82]:
+      - navigation "Mindtap menu" [ref=e85]:
+        - img "Cengage MindTap" [ref=e87]
+        - generic [ref=e88]:
+          - text: 
+          - button "Search this course" [ref=e89] [cursor=pointer]:
+            - generic [ref=e90]:
+              - generic [ref=e91]: 
+              - text: Search this course
+          - text:  
+          - generic [ref=e92]:
+            - generic [ref=e94]:
+              - button " Help & Info" [ref=e95] [cursor=pointer]:
+                - generic [ref=e96]:
+                  - generic [ref=e97]: 
+                  - generic [ref=e98]: Help & Info
+              - text:    
+            - text:     
+      - generic [ref=e100]:
+        - generic [ref=e312]:
+          - generic [ref=e313]:
+            - 'heading "Chapter 4: Elementary Number Theory and Methods of Proof" [level=1] [ref=e314]'
+            - 'button "Close Chapter 4: Elementary Number Theory and Methods of Proof" [ref=e315] [cursor=pointer]':
+              - generic [ref=e316]: 
+          - iframe [ref=e319]:
+            - generic [ref=f3e2]:
+              - generic [ref=f3e3]:
+                - generic [ref=f3e4]:
+                  - button "Fonts menu" [ref=f3e11] [cursor=pointer]
+                  - generic "Bookmark this Page" [ref=f3e14] [cursor=pointer]:
+                    - button "Bookmark" [ref=f3e15]
+                  - button "Print" [ref=f3e17] [cursor=pointer]
+                  - button "Help" [ref=f3e18] [cursor=pointer]:
+                    - generic [ref=f3e19]: help
+                - generic:
+                  - link "Main content" [ref=f3e20] [cursor=pointer]:
+                    - /url: "#header"
+                  - text: 
+                  - button "Next Page" [ref=f3e21] [cursor=pointer]:
+                    - generic [ref=f3e22]: 
+                - document [ref=f3e23]:
+                  - generic [ref=f3e3207]:
+                    - generic [ref=f3e3208]:
+                      - generic [ref=f3e3210]:
+                        - generic [ref=f3e3211]: Chapter
+                        - generic [ref=f3e3212]: "4"
+                      - heading "Elementary Number Theory and Methods of Proof" [level=1] [ref=f3e3213]
+                    - list [ref=f3e3216]:
+                      - listitem [ref=f3e3217]:
+                        - link "Chapter Introduction" [ref=f3e3218] [cursor=pointer]:
+                          - /url: javascript://
+                      - listitem [ref=f3e3219]:
+                        - generic [ref=f3e3220]:
+                          - generic [ref=f3e3221]: "4.1"
+                          - 'link "Direct Proof and Counterexample I: Introduction" [ref=f3e3222] [cursor=pointer]':
+                            - /url: javascript://
+                        - list [ref=f3e3223]:
+                          - listitem [ref=f3e3224]:
+                            - link "Even, Odd, Prime, and Composite Integers" [ref=f3e3226] [cursor=pointer]:
+                              - /url: javascript://
+                          - listitem [ref=f3e3227]:
+                            - link "Proving Existential Statements" [ref=f3e3229] [cursor=pointer]:
+                              - /url: javascript://
+                          - listitem [ref=f3e3230]:
+                            - link "Disproving Universal Statements by Counterexample" [ref=f3e3232] [cursor=pointer]:
+                              - /url: javascript://
+                          - listitem [ref=f3e3233]:
+                            - link "Proving Universal Statements" [ref=f3e3235] [cursor=pointer]:
+                              - /url: javascript://
+                          - listitem [ref=f3e3236]:
+                            - link "Getting Proofs Started" [ref=f3e3238] [cursor=pointer]:
+                              - /url: javascript://
+                      - listitem [ref=f3e3239]:
+                        - link "Test Yourself" [ref=f3e3241] [cursor=pointer]:
+                          - /url: javascript://
+                      - listitem [ref=f3e3242]:
+                        - link "Exercise Set 4.1" [ref=f3e3244] [cursor=pointer]:
+                          - /url: javascript://
+                      - listitem [ref=f3e3245]:
+                        - generic [ref=f3e3246]:
+                          - generic [ref=f3e3247]: "4.2"
+                          - 'link "Direct Proof and Counterexample II: Writing Advice" [ref=f3e3248] [cursor=pointer]':
+                            - /url: javascript://
+                        - list [ref=f3e3249]:
+                          - listitem [ref=f3e3250]:
+                            - link "Directions for Writing Proofs of Universal Statements" [ref=f3e3252] [cursor=pointer]:
+                              - /url: javascript://
+                          - listitem [ref=f3e3253]:
+                            - link "Variations among Proofs" [ref=f3e3255] [cursor=pointer]:
+                              - /url: javascript://
+                          - listitem [ref=f3e3256]:
+                            - link "Common Mistakes" [ref=f3e3258] [cursor=pointer]:
+                              - /url: javascript://
+                          - listitem [ref=f3e3259]:
+                            - link "Showing That an Existential Statement Is False" [ref=f3e3261] [cursor=pointer]:
+                              - /url: javascript://
+                          - listitem [ref=f3e3262]:
+                            - link "Conjecture, Proof, and Disproof" [ref=f3e3264] [cursor=pointer]:
+                              - /url: javascript://
+                      - listitem [ref=f3e3265]:
+                        - link "Test Yourself" [ref=f3e3267] [cursor=pointer]:
+                          - /url: javascript://
+                      - listitem [ref=f3e3268]:
+                        - link "Exercise Set 4.2" [ref=f3e3270] [cursor=pointer]:
+                          - /url: javascript://
+                      - listitem [ref=f3e3271]:
+                        - generic [ref=f3e3272]:
+                          - generic [ref=f3e3273]: "4.3"
+                          - 'link "Direct Proof and Counterexample III: Rational Numbers" [ref=f3e3274] [cursor=pointer]':
+                            - /url: javascript://
+                        - list [ref=f3e3275]:
+                          - listitem [ref=f3e3276]:
+                            - link "More on Generalizing from the Generic Particular" [ref=f3e3278] [cursor=pointer]:
+                              - /url: javascript://
+                          - listitem [ref=f3e3279]:
+                            - link "Proving Properties of Rational Numbers" [ref=f3e3281] [cursor=pointer]:
+                              - /url: javascript://
+                          - listitem [ref=f3e3282]:
+                            - link "Deriving New Mathematics from Old" [ref=f3e3284] [cursor=pointer]:
+                              - /url: javascript://
+                      - listitem [ref=f3e3285]:
+                        - link "Test Yourself" [ref=f3e3287] [cursor=pointer]:
+                          - /url: javascript://
+                      - listitem [ref=f3e3288]:
+                        - link "Exercise Set 4.3" [ref=f3e3290] [cursor=pointer]:
+                          - /url: javascript://
+                      - listitem [ref=f3e3291]:
+                        - generic [ref=f3e3292]:
+                          - generic [ref=f3e3293]: "4.4"
+                          - 'link "Direct Proof and Counterexample IV: Divisibility" [ref=f3e3294] [cursor=pointer]':
+                            - /url: javascript://
+                        - list [ref=f3e3295]:
+                          - listitem [ref=f3e3296]:
+                            - link "Proving Properties of Divisibility" [ref=f3e3298] [cursor=pointer]:
+                              - /url: javascript://
+                          - listitem [ref=f3e3299]:
+                            - link "Counterexamples and Divisibility" [ref=f3e3301] [cursor=pointer]:
+                              - /url: javascript://
+                          - listitem [ref=f3e3302]:
+                            - link "The Unique Factorization of Integers Theorem" [ref=f3e3304] [cursor=pointer]:
+                              - /url: javascript://
+                      - listitem [ref=f3e3305]:
+                        - link "Test Yourself" [ref=f3e3307] [cursor=pointer]:
+                          - /url: javascript://
+                      - listitem [ref=f3e3308]:
+                        - link "Exercise Set 4.4" [ref=f3e3310] [cursor=pointer]:
+                          - /url: javascript://
+                      - listitem [ref=f3e3311]:
+                        - generic [ref=f3e3312]:
+                          - generic [ref=f3e3313]: "4.5"
+                          - 'link "Direct Proof and Counterexample V: Division into Cases and the Quotient-Remainder Theorem" [ref=f3e3314] [cursor=pointer]':
+                            - /url: javascript://
+                        - list [ref=f3e3315]:
+                          - listitem [ref=f3e3316]:
+                            - link "div and mod" [ref=f3e3318] [cursor=pointer]:
+                              - /url: javascript://
+                          - listitem [ref=f3e3319]:
+                            - link "Representations of Integers" [ref=f3e3321] [cursor=pointer]:
+                              - /url: javascript://
+                          - listitem [ref=f3e3322]:
+                            - link "Absolute Value and the Triangle Inequality" [ref=f3e3324] [cursor=pointer]:
+                              - /url: javascript://
+                      - listitem [ref=f3e3325]:
+                        - link "Test Yourself" [ref=f3e3327] [cursor=pointer]:
+                          - /url: javascript://
+                      - listitem [ref=f3e3328]:
+                        - link "Exercise Set 4.5" [ref=f3e3330] [cursor=pointer]:
+                          - /url: javascript://
+                      - listitem [ref=f3e3331]:
+                        - generic [ref=f3e3332]:
+                          - generic [ref=f3e3333]: "4.6"
+                          - 'link "Direct Proof and Counterexample VI: Floor and Ceiling" [ref=f3e3334] [cursor=pointer]':
+                            - /url: javascript://
+                      - listitem [ref=f3e3335]:
+                        - link "Test Yourself" [ref=f3e3337] [cursor=pointer]:
+                          - /url: javascript://
+                      - listitem [ref=f3e3338]:
+                        - link "Exercise Set 4.6" [ref=f3e3340] [cursor=pointer]:
+                          - /url: javascript://
+                      - listitem [ref=f3e3341]:
+                        - generic [ref=f3e3342]:
+                          - generic [ref=f3e3343]: "4.7"
+                          - 'link "Indirect Argument: Contradiction and Contraposition" [ref=f3e3344] [cursor=pointer]':
+                            - /url: javascript://
+                        - list [ref=f3e3345]:
+                          - listitem [ref=f3e3346]:
+                            - link "Argument by Contraposition" [ref=f3e3348] [cursor=pointer]:
+                              - /url: javascript://
+                          - listitem [ref=f3e3349]:
+                            - link "Relation between Proof by Contradiction and Proof by Contraposition" [ref=f3e3351] [cursor=pointer]:
+                              - /url: javascript://
+                          - listitem [ref=f3e3352]:
+                            - link "Proof as a Problem-Solving Tool" [ref=f3e3354] [cursor=pointer]:
+                              - /url: javascript://
+                      - listitem [ref=f3e3355]:
+                        - link "Test Yourself" [ref=f3e3357] [cursor=pointer]:
+                          - /url: javascript://
+                      - listitem [ref=f3e3358]:
+                        - link "Exercise Set 4.7" [ref=f3e3360] [cursor=pointer]:
+                          - /url: javascript://
+                      - listitem [ref=f3e3361]:
+                        - generic [ref=f3e3362]:
+                          - generic [ref=f3e3363]: "4.8"
+                          - 'link "Indirect Argument: Two Famous Theorems" [ref=f3e3364] [cursor=pointer]':
+                            - /url: javascript://
+                        - list [ref=f3e3365]:
+                          - listitem [ref=f3e3366]:
+                            - link [ref=f3e3368] [cursor=pointer]:
+                              - /url: javascript://
+                          - listitem [ref=f3e3376]:
+                            - link "Are There Infinitely Many Prime Numbers?" [ref=f3e3378] [cursor=pointer]:
+                              - /url: javascript://
+                          - listitem [ref=f3e3379]:
+                            - link "When to Use Indirect Proof" [ref=f3e3381] [cursor=pointer]:
+                              - /url: javascript://
+                          - listitem [ref=f3e3382]:
+                            - link "Open Questions in Number Theory" [ref=f3e3384] [cursor=pointer]:
+                              - /url: javascript://
+                      - listitem [ref=f3e3385]:
+                        - link "Test Yourself" [ref=f3e3387] [cursor=pointer]:
+                          - /url: javascript://
+                      - listitem [ref=f3e3388]:
+                        - link "Exercise Set 4.8" [ref=f3e3390] [cursor=pointer]:
+                          - /url: javascript://
+                      - listitem [ref=f3e3391]:
+                        - generic [ref=f3e3392]:
+                          - generic [ref=f3e3393]: "4.9"
+                          - 'link "Application: The Handshake Theorem" [ref=f3e3394] [cursor=pointer]':
+                            - /url: javascript://
+                        - list [ref=f3e3395]:
+                          - listitem [ref=f3e3396]:
+                            - link "Special Graphs" [ref=f3e3398] [cursor=pointer]:
+                              - /url: javascript://
+                      - listitem [ref=f3e3399]:
+                        - link "Test Yourself" [ref=f3e3401] [cursor=pointer]:
+                          - /url: javascript://
+                      - listitem [ref=f3e3402]:
+                        - link "Exercise Set 4.9" [ref=f3e3404] [cursor=pointer]:
+                          - /url: javascript://
+                      - listitem [ref=f3e3405]:
+                        - generic [ref=f3e3406]:
+                          - generic [ref=f3e3407]: "4.10"
+                          - 'link "Application: Algorithms" [ref=f3e3408] [cursor=pointer]':
+                            - /url: javascript://
+                        - list [ref=f3e3409]:
+                          - listitem [ref=f3e3410]:
+                            - link "An Algorithmic Language" [ref=f3e3412] [cursor=pointer]:
+                              - /url: javascript://
+                          - listitem [ref=f3e3413]:
+                            - link "A Notation for Algorithms" [ref=f3e3415] [cursor=pointer]:
+                              - /url: javascript://
+                          - listitem [ref=f3e3416]:
+                            - link "The Division Algorithm" [ref=f3e3418] [cursor=pointer]:
+                              - /url: javascript://
+                          - listitem [ref=f3e3419]:
+                            - link "The Euclidean Algorithm" [ref=f3e3421] [cursor=pointer]:
+                              - /url: javascript://
+                      - listitem [ref=f3e3422]:
+                        - link "Test Yourself" [ref=f3e3424] [cursor=pointer]:
+                          - /url: javascript://
+                      - listitem [ref=f3e3425]:
+                        - link "Exercise Set 4.10" [ref=f3e3427] [cursor=pointer]:
+                          - /url: javascript://
+              - generic [ref=f3e249]:
+                - slider [ref=f3e250]: "1"
+                - generic [ref=f3e251] [cursor=pointer]
+        - generic:
+          - generic [ref=e297]:
+            - generic [ref=e320]:
+              - heading "Full Book" [level=2] [ref=e321]
+              - button "Close Enlarged Image" [ref=e322] [cursor=pointer]: 
+            - iframe [ref=e327]:
+              - generic [ref=f7e1]:
+                - navigation [ref=f7e2]: Application Opened
+                - generic [ref=f7e3]:
+                  - generic [ref=f7e5]:
+                    - generic:
+                      - link "Main content" [ref=f7e7] [cursor=pointer]:
+                        - /url: "#header"
+                      - text: 
+                      - button "Next Page" [ref=f7e8] [cursor=pointer]:
+                        - generic [ref=f7e9]: 
+                    - document [ref=f7e10]:
+                      - generic [ref=f7e11]: Katherine Gendreau Photography/Getty Images
+                  - button "Chapter contents" [ref=f7e20] [cursor=pointer]
+                  - generic [ref=f7e22]:
+                    - slider [ref=f7e23]: "1"
+                    - generic [ref=f7e24] [cursor=pointer]
+                  - generic [ref=f7e26]:
+                    - generic [ref=f7e27]:
+                      - generic [ref=f7e28]: Go to pg.
+                      - textbox "go to page" [ref=f7e29]
+                      - listbox
+                    - button "Fonts menu" [ref=f7e31] [cursor=pointer]
+                    - button "Print" [ref=f7e34] [cursor=pointer]
+                    - link "help" [ref=f7e35] [cursor=pointer]:
+                      - /url: Javascript://
+          - menu [ref=e283]:
+            - navigation "Applications Menu" [ref=e284]:
+              - generic [ref=e285]:
+                - menuitem "My Notes, button" [ref=e286] [cursor=pointer]:
+                  - img "My Notes" [ref=e287]
+                - menuitem "Full Book, button" [ref=e288] [cursor=pointer]:
+                  - img "Full Book" [ref=e289]
+                - menuitem "ReadSpeaker, button" [ref=e290] [cursor=pointer]:
+                  - img "ReadSpeaker" [ref=e291]
+                - menuitem "Glossary, button" [ref=e292] [cursor=pointer]:
+                  - img "Glossary" [ref=e293]
+                - menuitem "Flashcards, button" [ref=e294] [cursor=pointer]:
+                  - img "Flashcards" [ref=e295]
+  - text: Your device is connected to the internet. Reconnect

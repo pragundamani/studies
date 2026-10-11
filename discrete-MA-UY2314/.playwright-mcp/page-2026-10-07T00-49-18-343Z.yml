@@ -1,0 +1,689 @@
+- generic [ref=f14e1]:
+  - generic [ref=f14e3]:
+    - generic [ref=f14e4]:
+      - link "Skip to content" [ref=f14e5] [cursor=pointer]:
+        - /url: ""
+      - link "Skip to navigation" [ref=f14e6] [cursor=pointer]:
+        - /url: ""
+    - generic [ref=f14e7]:
+      - banner [ref=f14e8]:
+        - generic [ref=f14e10]:
+          - button "Cengage WebAssign Homepage" [ref=f14e12] [cursor=pointer]:
+            - img "Cengage WebAssign Homepage" [ref=f14e13]
+          - generic [ref=f14e37]:
+            - generic [ref=f14e38]:
+              - link "My Cengage Home" [ref=f14e39] [cursor=pointer]:
+                - /url: https://www.cengage.com/dashboard/
+              - button "Open Email Notification Settings modal" [ref=f14e44] [cursor=pointer]
+              - link "Open Help page in a new browser tab." [ref=f14e48] [cursor=pointer]:
+                - /url: https://help.cengage.com/webassign/student_guide/
+              - link "Open My Account in a new browser tab." [ref=f14e52] [cursor=pointer]:
+                - /url: /web/User/Cengage/my_account
+              - button "Interface language setting. Language set to English" [ref=f14e57] [cursor=pointer]:
+                - generic [ref=f14e60]: EN
+            - generic [ref=f14e64]:
+              - generic [ref=f14e65]: pd2752@nyu.edu
+              - button "Sign out" [ref=f14e66] [cursor=pointer]
+        - navigation "WebAssign" [ref=f14e69]:
+          - link "Home" [ref=f14e70]
+          - link "My Assignments" [ref=f14e71]
+          - link "Grades" [ref=f14e72]
+          - link "Communication" [ref=f14e73]
+          - link "Calendar" [ref=f14e74]
+          - button "My eBooks" [ref=f14e77]
+      - main [ref=f14e80]:
+        - generic [ref=f14e81]:
+          - generic [ref=f14e82]:
+            - generic [ref=f14e84]:
+              - generic [ref=f14e85]:
+                - 'link "navigate back to MA-UY 2314: Discrete Mathematics, Fall 2026, Fall 2026" [ref=f14e87] [cursor=pointer]':
+                  - /url: /v4cgi/student.pl?course=1319576,1715067
+                  - text: "MA-UY 2314: Discrete Mathematics, Fall 2026, Fall 2026"
+                - heading "4.1 Direct Proof and Counterexample I (Homework)" [level=1] [ref=f14e90]
+              - generic [ref=f14e93]:
+                - generic [ref=f14e97]:
+                  - text: Instructor
+                  - generic [ref=f14e98]: Ken Cereste
+                - generic [ref=f14e99]: New York University
+            - generic [ref=f14e102]:
+              - generic [ref=f14e103]:
+                - generic [ref=f14e104]:
+                  - generic [ref=f14e105]:
+                    - generic [ref=f14e106]: "Due Date: Tuesday, October 6, 2026 at 11:59 PM EDT"
+                    - generic [aria-hidden] [ref=f14e107]: "Due Date:"
+                    - generic [aria-hidden] [ref=f14e108]: Tue, Oct 6, 2026 11:59 PM EDT
+                  - generic [ref=f14e109]:
+                    - generic [ref=f14e110]: "Current Score: 28.56 / 100 Points 28.6%"
+                    - generic [aria-hidden] [ref=f14e111]: "Current Score:"
+                    - generic [aria-hidden] [ref=f14e112]: 28.56 / 100 Points | 28.6 %
+                - generic [ref=f14e113]:
+                  - button "Open Request Extension in modal window" [ref=f14e114] [cursor=pointer]:
+                    - generic [ref=f14e115]: Request Extension
+                  - button "Print assignment" [ref=f14e119] [cursor=pointer]:
+                    - generic [ref=f14e120]: Print Assignment
+              - generic [ref=f14e126]:
+                - heading [level=2] [ref=f14e127]:
+                  - button "Scoring and Assignment Information" [expanded] [ref=f14e128] [cursor=pointer]
+                - generic "Scoring and Assignment Information" [ref=f14e135]:
+                  - generic [ref=f14e136]:
+                    - table [ref=f14e139]:
+                      - rowgroup [ref=f14e140]:
+                        - row [ref=f14e141]:
+                          - rowheader "Question" [ref=f14e142]
+                          - columnheader [ref=f14e143]:
+                            - link "Question 1 of 7," [ref=f14e144] [cursor=pointer]:
+                              - /url: "#Q1"
+                              - generic [ref=f14e145]: "1"
+                          - columnheader [ref=f14e147]:
+                            - link "Question 2 of 7," [ref=f14e148] [cursor=pointer]:
+                              - /url: "#Q2"
+                              - generic [ref=f14e149]: "2"
+                          - columnheader [ref=f14e151]:
+                            - link "Question 3 of 7," [ref=f14e152] [cursor=pointer]:
+                              - /url: "#Q3"
+                              - generic [ref=f14e153]: "3"
+                          - columnheader [ref=f14e155]:
+                            - link "Question 4 of 7," [ref=f14e156] [cursor=pointer]:
+                              - /url: "#Q4"
+                              - generic [ref=f14e157]: "4"
+                          - columnheader [ref=f14e159]:
+                            - link "Question 5 of 7," [ref=f14e160] [cursor=pointer]:
+                              - /url: "#Q5"
+                              - generic [ref=f14e161]: "5"
+                          - columnheader [ref=f14e163]:
+                            - link "Question 6 of 7," [ref=f14e164] [cursor=pointer]:
+                              - /url: "#Q6"
+                              - generic [ref=f14e165]: "6"
+                          - columnheader [ref=f14e167]:
+                            - link "Question 7 of 7," [ref=f14e168] [cursor=pointer]:
+                              - /url: "#Q7"
+                              - generic [ref=f14e169]: "7"
+                        - row [ref=f14e171]:
+                          - rowheader "Points" [ref=f14e172]
+                          - cell [ref=f14e173]:
+                            - link "Question 1 out of 7, correct, your score is 14.28 out of 14.28" [ref=f14e174] [cursor=pointer]:
+                              - /url: "#Q1"
+                              - generic [ref=f14e175]: 14.28 / 14.28
+                          - cell [ref=f14e176]:
+                            - link "Question 2 out of 7, correct, your score is 14.28 out of 14.28" [ref=f14e177] [cursor=pointer]:
+                              - /url: "#Q2"
+                              - generic [ref=f14e178]: 14.28 / 14.28
+                          - cell [ref=f14e179]:
+                            - link "Question 3 out of 7, your score is none out of 14.28" [ref=f14e180] [cursor=pointer]:
+                              - /url: "#Q3"
+                              - generic [ref=f14e181]: – / 14.28
+                          - cell [ref=f14e182]:
+                            - link "Question 4 out of 7, your score is none out of 14.28" [ref=f14e183] [cursor=pointer]:
+                              - /url: "#Q4"
+                              - generic [ref=f14e184]: – / 14.28
+                          - cell [ref=f14e185]:
+                            - link "Question 5 out of 7, your score is none out of 14.28" [ref=f14e186] [cursor=pointer]:
+                              - /url: "#Q5"
+                              - generic [ref=f14e187]: – / 14.28
+                          - cell [ref=f14e188]:
+                            - link "Question 6 out of 7, your score is none out of 14.28" [ref=f14e189] [cursor=pointer]:
+                              - /url: "#Q6"
+                              - generic [ref=f14e190]: – / 14.28
+                          - cell [ref=f14e191]:
+                            - link "Question 7 out of 7, your score is none out of 14.32" [ref=f14e192] [cursor=pointer]:
+                              - /url: "#Q7"
+                              - generic [ref=f14e193]: – / 14.32
+                    - generic [ref=f14e194]:
+                      - heading "Assignment Submission" [level=3] [ref=f14e195]
+                      - paragraph [ref=f14e196]: For this assignment, you submit answers by question parts. The number of submissions remaining for each question part only changes if you submit or change the answer.
+                      - heading "Assignment Scoring" [level=3] [ref=f14e197]
+                      - paragraph [ref=f14e198]: Your last submission is used for your score.
+            - generic [ref=f14e199]:
+              - region "Banner for question 1" [ref=f14e202]:
+                - generic [ref=f14e203]:
+                  - heading "Question 1" [level=2] [ref=f14e205]: "1."
+                  - strong [ref=f14e206]: "[14.28 / 14.28 Points]"
+                - generic [ref=f14e207]:
+                  - button "Details for question 1." [ref=f14e208] [cursor=pointer]:
+                    - generic [ref=f14e209]: Details
+                  - button "My Notes For question 1" [ref=f14e212] [cursor=pointer]:
+                    - generic [ref=f14e213]: My Notes
+                  - button "Previous Answers for question 1" [ref=f14e214] [cursor=pointer]:
+                    - generic [ref=f14e215]: Previous Answers
+                  - button "Practice Another Version for question 1." [ref=f14e216] [cursor=pointer]:
+                    - generic [ref=f14e217]: Practice Another
+              - generic [ref=f14e218]:
+                - generic [ref=f14e220]:
+                  - generic [ref=f14e221]: EppDiscMath5 4.1.002.
+                  - region [ref=f14e222]:
+                    - strong [ref=f14e223]: Problem 1
+                    - region "introduction" [ref=f14e224]:
+                      - generic [ref=f14e225]:
+                        - text: Use the definitions of even and odd numbers to justify your answers for (a)
+                        - generic [ref=f14e226]: –
+                        - text: (c). Assume that
+                        - emphasis [ref=f14e227]: c
+                        - text: is a particular integer.
+                    - region "(a)" [ref=f14e228]:
+                      - generic [ref=f14e229]:
+                        - generic [ref=f14e230]: (a)
+                        - group "Is an even integer?" [ref=f14e233]:
+                          - generic [ref=f14e235]:
+                            - radio "Yes, because and is an integer." [checked] [ref=f14e236]
+                            - generic [ref=f14e237]: Yes, because and is an integer.
+                          - generic [ref=f14e238]:
+                            - radio "Yes, because and is an integer." [ref=f14e239]
+                            - generic [ref=f14e240]: Yes, because and is an integer.
+                          - generic [ref=f14e241]:
+                            - radio "No, because and is an integer." [ref=f14e242]
+                            - generic [ref=f14e243]: No, because and is an integer.
+                          - generic [ref=f14e244]:
+                            - radio "No, because and is an integer." [ref=f14e245]
+                            - generic [ref=f14e246]: No, because and is an integer.
+                            - 'img "Correct: Your answer is correct." [ref=f14e250]'
+                    - region "(b)" [ref=f14e251]:
+                      - generic [ref=f14e252]:
+                        - generic [ref=f14e253]: (b)
+                        - group "Is an odd integer?" [ref=f14e256]:
+                          - generic [ref=f14e258]:
+                            - radio "Yes, because and is an integer." [ref=f14e259]
+                            - generic [ref=f14e260]: Yes, because and is an integer.
+                          - generic [ref=f14e261]:
+                            - radio "Yes, because and is an integer." [checked] [ref=f14e262]
+                            - generic [ref=f14e263]: Yes, because and is an integer.
+                          - generic [ref=f14e264]:
+                            - radio "No, because and is an integer." [ref=f14e265]
+                            - generic [ref=f14e266]: No, because and is an integer.
+                          - generic [ref=f14e267]:
+                            - radio "No, because and is an integer." [ref=f14e268]
+                            - generic [ref=f14e269]: No, because and is an integer.
+                            - 'img "Correct: Your answer is correct." [ref=f14e273]'
+                    - region "(c)" [ref=f14e274]:
+                      - generic [ref=f14e275]:
+                        - generic [ref=f14e276]: (c)
+                        - group "Is an even integer?" [ref=f14e279]:
+                          - generic [ref=f14e281]:
+                            - radio "Yes, because and 0 is an integer." [ref=f14e282]
+                            - generic [ref=f14e283]: Yes, because and 0 is an integer.
+                          - generic [ref=f14e284]:
+                            - radio "Yes, because and 0 is an integer." [checked] [ref=f14e285]
+                            - generic [ref=f14e286]: Yes, because and 0 is an integer.
+                          - generic [ref=f14e287]:
+                            - radio "No, because and 0 is an integer." [ref=f14e288]
+                            - generic [ref=f14e289]: No, because and 0 is an integer.
+                          - generic [ref=f14e290]:
+                            - radio "No, because and 0 is an integer." [ref=f14e291]
+                            - generic [ref=f14e292]: No, because and 0 is an integer.
+                            - 'img "Correct: Your answer is correct." [ref=f14e296]'
+                  - generic "Resource box" [ref=f14e300]:
+                    - generic [ref=f14e301]:
+                      - generic [ref=f14e302]: Resources
+                      - generic [ref=f14e303]:
+                        - paragraph [ref=f14e304]:
+                          - link "Read It (opens in a new tab)" [ref=f14e305] [cursor=pointer]:
+                            - /url: "#"
+                            - text: Read It
+                        - button "Ask Student Assistant for question 1" [ref=f14e306] [cursor=pointer]: Student Assistant
+                - button "Submit Answer" [ref=f14e309] [cursor=pointer]
+            - generic [ref=f14e310]:
+              - region "Banner for question 2" [ref=f14e313]:
+                - generic [ref=f14e314]:
+                  - heading "Question 2" [level=2] [ref=f14e316]: "2."
+                  - strong [ref=f14e317]: "[14.28 / 14.28 Points]"
+                - generic [ref=f14e318]:
+                  - button "Details for question 2." [ref=f14e319] [cursor=pointer]:
+                    - generic [ref=f14e320]: Details
+                  - button "My Notes For question 2" [ref=f14e323] [cursor=pointer]:
+                    - generic [ref=f14e324]: My Notes
+                  - button "Previous Answers for question 2" [ref=f14e325] [cursor=pointer]:
+                    - generic [ref=f14e326]: Previous Answers
+                  - button "Practice Another Version for question 2." [ref=f14e327] [cursor=pointer]:
+                    - generic [ref=f14e328]: Practice Another
+              - generic [ref=f14e329]:
+                - generic [ref=f14e331]:
+                  - generic [ref=f14e332]: EppDiscMath5 4.1.004.
+                  - region [ref=f14e333]:
+                    - strong [ref=f14e334]: Problem 2
+                    - region "introduction" [ref=f14e335]:
+                      - generic [ref=f14e336]:
+                        - text: Use the definitions of even, odd, prime, and compositive numbers to justify your answers for (a)
+                        - generic [ref=f14e337]: –
+                        - text: (c). Assume that
+                        - emphasis [ref=f14e338]: r
+                        - text: and
+                        - emphasis [ref=f14e339]: s
+                        - text: are particular integers.
+                    - region "(a)" [ref=f14e340]:
+                      - generic [ref=f14e341]:
+                        - generic [ref=f14e342]: (a)
+                        - group "Is even?" [ref=f14e345]:
+                          - generic [ref=f14e347]:
+                            - radio "Yes, because and is an integer." [ref=f14e348]
+                            - generic [ref=f14e349]: Yes, because and is an integer.
+                          - generic [ref=f14e350]:
+                            - radio "Yes, because and is an integer." [checked] [ref=f14e351]
+                            - generic [ref=f14e352]: Yes, because and is an integer.
+                          - generic [ref=f14e353]:
+                            - radio "No, because and is an integer." [ref=f14e354]
+                            - generic [ref=f14e355]: No, because and is an integer.
+                          - generic [ref=f14e356]:
+                            - radio "No, because and is an integer." [ref=f14e357]
+                            - generic [ref=f14e358]: No, because and is an integer.
+                            - 'img "Correct: Your answer is correct." [ref=f14e362]'
+                    - region "(b)" [ref=f14e363]:
+                      - generic [ref=f14e364]:
+                        - generic [ref=f14e365]: (b)
+                        - group "Is odd?" [ref=f14e368]:
+                          - generic [ref=f14e370]:
+                            - radio "Yes, because and is an integer." [checked] [ref=f14e371]
+                            - generic [ref=f14e372]: Yes, because and is an integer.
+                          - generic [ref=f14e373]:
+                            - radio "Yes, because and is an integer." [ref=f14e374]
+                            - generic [ref=f14e375]: Yes, because and is an integer.
+                          - generic [ref=f14e376]:
+                            - radio "No, because and is an integer." [ref=f14e377]
+                            - generic [ref=f14e378]: No, because and is an integer.
+                          - generic [ref=f14e379]:
+                            - radio "No, because and is an integer." [ref=f14e380]
+                            - generic [ref=f14e381]: No, because and is an integer.
+                            - 'img "Correct: Your answer is correct." [ref=f14e385]'
+                    - region "(c)" [ref=f14e386]:
+                      - generic [ref=f14e387]:
+                        - generic [ref=f14e388]: (c)
+                        - group [ref=f14e391]:
+                          - generic [ref=f14e392]:
+                            - text: If
+                            - emphasis [ref=f14e393]: r
+                            - text: and
+                            - emphasis [ref=f14e394]: s
+                            - text: are both positive, is composite?
+                          - generic [ref=f14e395]:
+                            - radio "Yes, because and is an integer." [checked] [ref=f14e396]
+                            - generic [ref=f14e397]: Yes, because and is an integer.
+                          - generic [ref=f14e398]:
+                            - radio "Yes, because and is not an integer." [ref=f14e399]
+                            - generic [ref=f14e400]: Yes, because and is not an integer.
+                          - generic [ref=f14e401]:
+                            - radio "No, because and is not an integer." [ref=f14e402]
+                            - generic [ref=f14e403]: No, because and is not an integer.
+                          - generic [ref=f14e404]:
+                            - radio "No, because and is an integer." [ref=f14e405]
+                            - generic [ref=f14e406]: No, because and is an integer.
+                            - 'img "Correct: Your answer is correct." [ref=f14e410]'
+                  - generic "Resource box" [ref=f14e414]:
+                    - generic [ref=f14e415]:
+                      - generic [ref=f14e416]: Resources
+                      - generic [ref=f14e417]:
+                        - paragraph [ref=f14e418]:
+                          - link "Read It (opens in a new tab)" [ref=f14e419] [cursor=pointer]:
+                            - /url: "#"
+                            - text: Read It
+                        - button "Ask Student Assistant for question 2" [ref=f14e420] [cursor=pointer]: Student Assistant
+                - button "Submit Answer" [ref=f14e423] [cursor=pointer]
+            - generic [ref=f14e424]:
+              - region "Banner for question 3" [ref=f14e427]:
+                - generic [ref=f14e428]:
+                  - heading "Question 3" [level=2] [ref=f14e430]: "3."
+                  - strong [ref=f14e431]: "[– / 14.28 Points]"
+                - generic [ref=f14e432]:
+                  - button "Details for question 3." [ref=f14e433] [cursor=pointer]:
+                    - generic [ref=f14e434]: Details
+                  - button "My Notes For question 3" [ref=f14e437] [cursor=pointer]:
+                    - generic [ref=f14e438]: My Notes
+              - generic [ref=f14e439]:
+                - generic [ref=f14e441]:
+                  - generic [ref=f14e442]: EppDiscMath5 4.1.007.
+                  - region [ref=f14e443]:
+                    - strong [ref=f14e444]: Problem 3
+                    - generic [ref=f14e445]: Consider the following statement.
+                    - group [ref=f14e446]:
+                      - text: There are real numbers
+                      - emphasis [ref=f14e447]: a
+                      - text: and
+                      - emphasis [ref=f14e448]: b
+                      - text: such that
+                      - generic [ref=f14e449]: .
+                    - generic [ref=f14e450]:
+                      - text: To prove the statement, it suffices to find values of
+                      - emphasis [ref=f14e451]: a
+                      - text: and
+                      - emphasis [ref=f14e452]: b
+                      - text: that satisfy the property. Show that you can do this by entering appropriate values for
+                      - emphasis [ref=f14e453]: a
+                      - text: and
+                      - emphasis [ref=f14e454]: b
+                      - text: in the box below, as an ordered, comma-separated list of two numbers.
+                    - generic [ref=f14e457]:
+                      - generic [ref=f14e458]:
+                        - button [ref=f14e459]
+                        - button "Open full math pad" [ref=f14e461] [cursor=pointer]
+                      - generic [ref=f14e463]: Press Space or Enter to edit this math answer.
+                  - generic "Resource box" [ref=f14e467]:
+                    - generic [ref=f14e468]:
+                      - generic [ref=f14e469]: Resources
+                      - generic [ref=f14e470]:
+                        - paragraph [ref=f14e471]:
+                          - link "Read It (opens in a new tab)" [ref=f14e472] [cursor=pointer]:
+                            - /url: "#"
+                            - text: Read It
+                        - button "Ask Student Assistant for question 3" [ref=f14e473] [cursor=pointer]: Student Assistant
+                - button "Submit Answer" [ref=f14e476] [cursor=pointer]
+            - generic [ref=f14e477]:
+              - region "Banner for question 4" [ref=f14e480]:
+                - generic [ref=f14e481]:
+                  - heading "Question 4" [level=2] [ref=f14e483]: "4."
+                  - strong [ref=f14e484]: "[– / 14.28 Points]"
+                - generic [ref=f14e485]:
+                  - button "Details for question 4." [ref=f14e486] [cursor=pointer]:
+                    - generic [ref=f14e487]: Details
+                  - button "My Notes For question 4" [ref=f14e490] [cursor=pointer]:
+                    - generic [ref=f14e491]: My Notes
+              - generic [ref=f14e492]:
+                - generic [ref=f14e494]:
+                  - generic [ref=f14e495]: EppDiscMath5 4.1.011.
+                  - region [ref=f14e496]:
+                    - strong [ref=f14e497]: Problem 4
+                    - generic [ref=f14e498]: Consider the following statement.
+                    - group [ref=f14e499]:
+                      - text: There is an integer
+                      - emphasis [ref=f14e500]: "n"
+                      - text: such that is prime.
+                    - generic [ref=f14e501]:
+                      - text: To prove the statement it suffices to find a value of
+                      - emphasis [ref=f14e502]: "n"
+                      - text: such that satisfies the property
+                      - generic [ref=f14e503]: "\" is prime.\""
+                      - text: Show that you can do this by entering appropriate values for
+                      - emphasis [ref=f14e504]: "n"
+                      - text: and
+                      - generic [ref=f14e505]: .
+                    - generic [ref=f14e508]:
+                      - generic [ref=f14e509]:
+                        - button [ref=f14e510]
+                        - button "Open full math pad" [ref=f14e512] [cursor=pointer]
+                      - generic [ref=f14e514]: Press Space or Enter to edit this math answer.
+                  - generic "Resource box" [ref=f14e518]:
+                    - generic [ref=f14e519]:
+                      - generic [ref=f14e520]: Resources
+                      - generic [ref=f14e521]:
+                        - paragraph [ref=f14e522]:
+                          - link "Read It (opens in a new tab)" [ref=f14e523] [cursor=pointer]:
+                            - /url: "#"
+                            - text: Read It
+                        - button "Ask Student Assistant for question 4" [ref=f14e524] [cursor=pointer]: Student Assistant
+                - button "Submit Answer" [ref=f14e527] [cursor=pointer]
+            - generic [ref=f14e528]:
+              - region "Banner for question 5" [ref=f14e531]:
+                - generic [ref=f14e532]:
+                  - heading "Question 5" [level=2] [ref=f14e534]: "5."
+                  - strong [ref=f14e535]: "[– / 14.28 Points]"
+                - generic [ref=f14e536]:
+                  - button "Details for question 5." [ref=f14e537] [cursor=pointer]:
+                    - generic [ref=f14e538]: Details
+                  - button "My Notes For question 5" [ref=f14e541] [cursor=pointer]:
+                    - generic [ref=f14e542]: My Notes
+              - generic [ref=f14e543]:
+                - generic [ref=f14e545]:
+                  - generic [ref=f14e546]: EppDiscMath5 4.1.015.
+                  - region [ref=f14e547]:
+                    - strong [ref=f14e548]: Problem 5
+                    - generic [ref=f14e549]: Disprove the following statement by giving a counterexample.
+                    - group [ref=f14e550]:
+                      - text: For every integer
+                      - emphasis [ref=f14e551]: p
+                      - text: ", if"
+                      - emphasis [ref=f14e552]: p
+                      - text: is prime then is even.
+                    - group "Read and complete the following." [ref=f14e554]:
+                      - generic [ref=f14e556]:
+                        - emphasis [ref=f14e557]: Counterexample
+                        - text: ": Consider the ordered pair"
+                        - generic [ref=f14e559]:
+                          - generic [ref=f14e560]:
+                            - button [ref=f14e561]
+                            - button "Open full math pad" [ref=f14e563] [cursor=pointer]
+                          - generic [ref=f14e565]: Press Space or Enter to edit this math answer.
+                        - generic [ref=f14e566]: .
+                    - group "The values in the ordered pair show that the given statement is false because (choose one)" [ref=f14e568]:
+                      - generic [ref=f14e570]:
+                        - radio "p is prime and is even." [ref=f14e571]
+                        - generic [ref=f14e572]:
+                          - emphasis [ref=f14e573]: p
+                          - text: is prime and is even.
+                      - generic [ref=f14e575]:
+                        - radio "p is prime and is not even." [ref=f14e576]
+                        - generic [ref=f14e577]:
+                          - emphasis [ref=f14e578]: p
+                          - text: is prime and is not even.
+                      - generic [ref=f14e580]:
+                        - radio "p is not prime and is even." [ref=f14e581]
+                        - generic [ref=f14e582]:
+                          - emphasis [ref=f14e583]: p
+                          - text: is not prime and is even.
+                      - generic [ref=f14e585]:
+                        - radio "p is not prime and is not even." [ref=f14e586]
+                        - generic [ref=f14e587]:
+                          - emphasis [ref=f14e588]: p
+                          - text: is not prime and is not even.
+                  - generic "Resource box" [ref=f14e593]:
+                    - generic [ref=f14e594]:
+                      - generic [ref=f14e595]: Resources
+                      - generic [ref=f14e596]:
+                        - paragraph [ref=f14e597]:
+                          - link "Read It (opens in a new tab)" [ref=f14e598] [cursor=pointer]:
+                            - /url: "#"
+                            - text: Read It
+                          - link "Watch It (opens in a new tab)" [ref=f14e599] [cursor=pointer]:
+                            - /url: javascript:open_bc_enhanced('watch_it', 'https://college.cengage.com/geyser/cengage_9780538738101/html/watchit_player/?asset=eppdiscmath5_04_01_014&prod=eppdiscmath5', 1)
+                            - text: Watch It
+                        - button "Ask Student Assistant for question 5" [ref=f14e600] [cursor=pointer]: Student Assistant
+                - button "Submit Answer" [ref=f14e603] [cursor=pointer]
+            - generic [ref=f14e604]:
+              - region "Banner for question 6" [ref=f14e607]:
+                - generic [ref=f14e608]:
+                  - heading "Question 6" [level=2] [ref=f14e610]: "6."
+                  - strong [ref=f14e611]: "[– / 14.28 Points]"
+                - generic [ref=f14e612]:
+                  - button "Details for question 6." [ref=f14e613] [cursor=pointer]:
+                    - generic [ref=f14e614]: Details
+                  - button "My Notes For question 6" [ref=f14e617] [cursor=pointer]:
+                    - generic [ref=f14e618]: My Notes
+                  - button "Practice Another Version for question 6." [ref=f14e619] [cursor=pointer]:
+                    - generic [ref=f14e620]: Practice Another
+              - generic [ref=f14e621]:
+                - generic [ref=f14e623]:
+                  - generic [ref=f14e624]: EppDiscMath5 4.1.016.
+                  - region [ref=f14e625]:
+                    - strong [ref=f14e626]: Problem 6
+                    - generic [ref=f14e627]: Disprove the following statement by giving a counterexample.
+                    - group [ref=f14e628]:
+                      - text: For every integer
+                      - emphasis [ref=f14e629]: "n"
+                      - text: ", if"
+                      - emphasis [ref=f14e630]: "n"
+                      - text: is even then is prime.
+                    - group "Read and complete the following." [ref=f14e632]:
+                      - generic [ref=f14e634]:
+                        - emphasis [ref=f14e635]: Counterexample
+                        - text: ": Consider the ordered pair"
+                        - generic [ref=f14e637]:
+                          - generic [ref=f14e638]:
+                            - button [ref=f14e639]
+                            - button "Open full math pad" [ref=f14e641] [cursor=pointer]
+                          - generic [ref=f14e643]: Press Space or Enter to edit this math answer.
+                        - generic [ref=f14e644]: .
+                    - group "The values in the ordered pair show that the given statement is false because (choose one)" [ref=f14e646]:
+                      - generic [ref=f14e648]:
+                        - radio "n is even and is prime." [ref=f14e649]
+                        - generic [ref=f14e650]:
+                          - emphasis [ref=f14e651]: "n"
+                          - text: is even and is prime.
+                      - generic [ref=f14e653]:
+                        - radio "n is even and is not prime." [ref=f14e654]
+                        - generic [ref=f14e655]:
+                          - emphasis [ref=f14e656]: "n"
+                          - text: is even and is not prime.
+                      - generic [ref=f14e658]:
+                        - radio "n is not even and is prime." [ref=f14e659]
+                        - generic [ref=f14e660]:
+                          - emphasis [ref=f14e661]: "n"
+                          - text: is not even and is prime.
+                      - generic [ref=f14e663]:
+                        - radio "n is not even and is not prime." [ref=f14e664]
+                        - generic [ref=f14e665]:
+                          - emphasis [ref=f14e666]: "n"
+                          - text: is not even and is not prime.
+                  - generic "Resource box" [ref=f14e671]:
+                    - generic [ref=f14e672]:
+                      - generic [ref=f14e673]: Resources
+                      - generic [ref=f14e674]:
+                        - paragraph [ref=f14e675]:
+                          - link "Read It (opens in a new tab)" [ref=f14e676] [cursor=pointer]:
+                            - /url: "#"
+                            - text: Read It
+                        - button "Ask Student Assistant for question 6" [ref=f14e677] [cursor=pointer]: Student Assistant
+                - button "Submit Answer" [ref=f14e680] [cursor=pointer]
+            - generic [ref=f14e681]:
+              - region "Banner for question 7" [ref=f14e684]:
+                - generic [ref=f14e685]:
+                  - heading "Question 7" [level=2] [ref=f14e687]: "7."
+                  - strong [ref=f14e688]: "[– / 14.32 Points]"
+                - generic [ref=f14e689]:
+                  - button "Details for question 7." [ref=f14e690] [cursor=pointer]:
+                    - generic [ref=f14e691]: Details
+                  - button "My Notes For question 7" [ref=f14e694] [cursor=pointer]:
+                    - generic [ref=f14e695]: My Notes
+              - generic [ref=f14e696]:
+                - generic [ref=f14e698]:
+                  - generic [ref=f14e699]: EppDiscMath5 4.1.024.
+                  - region [ref=f14e700]:
+                    - strong [ref=f14e701]: Problem 7
+                    - region "introduction" [ref=f14e702]:
+                      - generic [ref=f14e703]: The following statement is true. (Note that you do not need to understand the statement in order to be able to do this exercise.)
+                      - group [ref=f14e704]:
+                        - text: For every real number
+                        - emphasis [ref=f14e705]: x
+                        - text: ", if then"
+                        - generic [ref=f14e706]: .
+                    - region "(a)" [ref=f14e707]:
+                      - generic [ref=f14e708]:
+                        - generic [ref=f14e709]: (a)
+                        - generic [ref=f14e710]:
+                          - generic [ref=f14e711]: Fill in the blanks to rewrite the statement with the quantification implicit.
+                          - group "Read and complete the following." [ref=f14e713]:
+                            - generic [ref=f14e715]:
+                              - text: If
+                              - generic: Select your first answer in part (a).
+                              - combobox "Select your first answer in part (a)." [ref=f14e717] [cursor=pointer]:
+                                - option "Select" [selected]
+                                - option "is a real number"
+                                - option "is a positive real number"
+                                - option "is a real number greater than 1"
+                                - option "x > x"
+                                - option "x < x"
+                              - text: ", then"
+                              - generic: Select your second answer in part (a).
+                              - combobox "Select your second answer in part (a)." [ref=f14e719] [cursor=pointer]:
+                                - option "Select" [selected]
+                                - option "is a real number greater than 1"
+                                - option "is a positive real number"
+                                - option "is a real number"
+                                - option "x > x"
+                                - option "x < x"
+                              - text: .
+                    - region "(b)" [ref=f14e720]:
+                      - generic [ref=f14e721]:
+                        - generic [ref=f14e722]: (b)
+                        - generic [ref=f14e723]:
+                          - group "What could be the first sentence of a proof (the \"starting point\")?" [ref=f14e725]:
+                            - generic [ref=f14e727]:
+                              - radio "Suppose x is any real number such that ." [ref=f14e728]
+                              - generic [ref=f14e729]:
+                                - text: Suppose
+                                - emphasis [ref=f14e730]: x
+                                - text: is any real number such that
+                                - generic [ref=f14e731]: .
+                            - generic [ref=f14e732]:
+                              - radio "Suppose ." [ref=f14e733]
+                              - generic [ref=f14e734]:
+                                - text: Suppose
+                                - generic [ref=f14e735]: .
+                            - generic [ref=f14e736]:
+                              - radio "Suppose ." [ref=f14e737]
+                              - generic [ref=f14e738]:
+                                - text: Suppose
+                                - generic [ref=f14e739]: .
+                            - generic [ref=f14e740]:
+                              - radio "Suppose x is any positive real number." [ref=f14e741]
+                              - generic [ref=f14e742]:
+                                - text: Suppose
+                                - emphasis [ref=f14e743]: x
+                                - text: is any positive real number.
+                            - generic [ref=f14e744]:
+                              - radio "Suppose x is any real number such that ." [ref=f14e745]
+                              - generic [ref=f14e746]:
+                                - text: Suppose
+                                - emphasis [ref=f14e747]: x
+                                - text: is any real number such that
+                                - generic [ref=f14e748]: .
+                          - group "What could be the last sentence of a proof (the \"conclusion to be shown\")?" [ref=f14e750]:
+                            - generic [ref=f14e752]:
+                              - radio "Therefore ." [ref=f14e753]
+                              - generic [ref=f14e754]:
+                                - text: Therefore
+                                - generic [ref=f14e755]: .
+                            - generic [ref=f14e756]:
+                              - radio "Therefore ." [ref=f14e757]
+                              - generic [ref=f14e758]:
+                                - text: Therefore
+                                - generic [ref=f14e759]: .
+                            - generic [ref=f14e760]:
+                              - radio "Because , , thus ." [ref=f14e761]
+                              - generic [ref=f14e762]:
+                                - text: Because
+                                - generic [ref=f14e763]: ","
+                                - generic [ref=f14e764]: ","
+                                - text: thus
+                                - generic [ref=f14e765]: .
+                            - generic [ref=f14e766]:
+                              - radio "Because , , thus ." [ref=f14e767]
+                              - generic [ref=f14e768]:
+                                - text: Because
+                                - generic [ref=f14e769]: ","
+                                - generic [ref=f14e770]: ","
+                                - text: thus
+                                - generic [ref=f14e771]: .
+                            - generic [ref=f14e772]:
+                              - radio "Therefore ." [ref=f14e773]
+                              - generic [ref=f14e774]:
+                                - text: Therefore
+                                - generic [ref=f14e775]: .
+                  - generic "Resource box" [ref=f14e779]:
+                    - generic [ref=f14e780]:
+                      - generic [ref=f14e781]: Resources
+                      - generic [ref=f14e782]:
+                        - paragraph [ref=f14e783]:
+                          - link "Read It (opens in a new tab)" [ref=f14e784] [cursor=pointer]:
+                            - /url: "#"
+                            - text: Read It
+                        - button "Ask Student Assistant for question 7" [ref=f14e785] [cursor=pointer]: Student Assistant
+                - button "Submit Answer" [ref=f14e788] [cursor=pointer]
+          - alert
+          - generic [ref=f14e790]:
+            - link "Home" [ref=f14e791] [cursor=pointer]
+            - link "My Assignments" [ref=f14e792] [cursor=pointer]
+            - button "Open Request Extension in modal window" [ref=f14e793] [cursor=pointer]:
+              - generic [ref=f14e796]: Request Extension
+      - contentinfo [ref=f14e798]:
+        - generic [ref=f14e799]:
+          - generic [ref=f14e800]: Copyright © 1998 - 2026 Cengage Learning, Inc. All Rights Reserved
+          - list [ref=f14e801]:
+            - listitem [ref=f14e802]:
+              - link "Open in a new tab. Terms of use" [ref=f14e803] [cursor=pointer]:
+                - /url: https://www.cengage.com/legal/#terms
+                - text: Terms of use
+            - listitem [ref=f14e804]:
+              - link "Open in a new tab. Privacy" [ref=f14e805] [cursor=pointer]:
+                - /url: https://www.cengage.com/privacy/
+                - text: Privacy
+  - application [ref=f14e807]:
+    - generic [ref=f14e809]:
+      - generic [ref=f14e811]: 
+      - generic [ref=f14e812]: x
+      - textbox [ref=f14e820]
+    - textbox [aria-hidden] [ref=f14e821]

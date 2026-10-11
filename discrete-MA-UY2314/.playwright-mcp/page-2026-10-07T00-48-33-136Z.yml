@@ -1,0 +1,2601 @@
+- generic [ref=f10e1]:
+  - generic [ref=f10e3]:
+    - generic [ref=f10e4]:
+      - link "Skip to content" [ref=f10e5] [cursor=pointer]:
+        - /url: ""
+      - link "Skip to navigation" [ref=f10e6] [cursor=pointer]:
+        - /url: ""
+    - generic [ref=f10e7]:
+      - banner [ref=f10e8]:
+        - generic [ref=f10e10]:
+          - button "Cengage WebAssign Homepage" [ref=f10e12] [cursor=pointer]:
+            - img "Cengage WebAssign Homepage" [ref=f10e13]
+          - generic [ref=f10e37]:
+            - generic [ref=f10e38]:
+              - link "My Cengage Home" [ref=f10e39] [cursor=pointer]:
+                - /url: https://www.cengage.com/dashboard/
+              - button "Open Email Notification Settings modal" [ref=f10e44] [cursor=pointer]
+              - link "Open Help page in a new browser tab." [ref=f10e48] [cursor=pointer]:
+                - /url: https://help.cengage.com/webassign/student_guide/
+              - link "Open My Account in a new browser tab." [ref=f10e52] [cursor=pointer]:
+                - /url: /web/User/Cengage/my_account
+              - button "Interface language setting. Language set to English" [ref=f10e57] [cursor=pointer]:
+                - generic [ref=f10e60]: EN
+            - generic [ref=f10e64]:
+              - generic [ref=f10e65]: pd2752@nyu.edu
+              - button "Sign out" [ref=f10e66] [cursor=pointer]
+        - navigation "WebAssign" [ref=f10e69]:
+          - link "Home" [ref=f10e70]
+          - link "My Assignments" [ref=f10e71]
+          - link "Grades" [ref=f10e72]
+          - link "Communication" [ref=f10e73]
+          - link "Calendar" [ref=f10e74]
+          - button "My eBooks" [ref=f10e77]
+      - main [ref=f10e80]:
+        - generic [ref=f10e81]:
+          - generic [ref=f10e82]:
+            - generic [ref=f10e84]:
+              - generic [ref=f10e85]:
+                - 'link "navigate back to MA-UY 2314: Discrete Mathematics, Fall 2026, Fall 2026" [ref=f10e87] [cursor=pointer]':
+                  - /url: /v4cgi/student.pl?course=1319576,1715067
+                  - text: "MA-UY 2314: Discrete Mathematics, Fall 2026, Fall 2026"
+                - heading "4.1 Direct Proof and Counterexample I (Homework)" [level=1] [ref=f10e90]
+              - generic [ref=f10e93]:
+                - generic [ref=f10e97]:
+                  - text: Instructor
+                  - generic [ref=f10e98]: Ken Cereste
+                - generic [ref=f10e99]: New York University
+            - generic [ref=f10e102]:
+              - generic [ref=f10e103]:
+                - generic [ref=f10e104]:
+                  - generic [ref=f10e105]:
+                    - generic [ref=f10e106]: "Due Date: Tuesday, October 6, 2026 at 11:59 PM EDT"
+                    - generic [aria-hidden] [ref=f10e107]: "Due Date:"
+                    - generic [aria-hidden] [ref=f10e108]: Tue, Oct 6, 2026 11:59 PM EDT
+                  - generic [ref=f10e109]:
+                    - generic [ref=f10e110]: "Current Score: – / 100 Points 0.0%"
+                    - generic [aria-hidden] [ref=f10e111]: "Current Score:"
+                    - generic [aria-hidden] [ref=f10e112]: – / 100 Points | 0.0 %
+                - generic [ref=f10e113]:
+                  - button "Open Request Extension in modal window" [ref=f10e114] [cursor=pointer]:
+                    - generic [ref=f10e115]: Request Extension
+                  - button "Print assignment" [ref=f10e119] [cursor=pointer]:
+                    - generic [ref=f10e120]: Print Assignment
+              - generic [ref=f10e126]:
+                - heading [level=2] [ref=f10e127]:
+                  - button "Scoring and Assignment Information" [expanded] [ref=f10e128] [cursor=pointer]
+                - generic "Scoring and Assignment Information" [ref=f10e135]:
+                  - generic [ref=f10e136]:
+                    - table [ref=f10e139]:
+                      - rowgroup [ref=f10e140]:
+                        - row [ref=f10e141]:
+                          - rowheader "Question" [ref=f10e142]
+                          - columnheader [ref=f10e143]:
+                            - link "Question 1 of 7," [ref=f10e144] [cursor=pointer]:
+                              - /url: "#Q1"
+                              - generic [ref=f10e145]: "1"
+                          - columnheader [ref=f10e147]:
+                            - link "Question 2 of 7," [ref=f10e148] [cursor=pointer]:
+                              - /url: "#Q2"
+                              - generic [ref=f10e149]: "2"
+                          - columnheader [ref=f10e151]:
+                            - link "Question 3 of 7," [ref=f10e152] [cursor=pointer]:
+                              - /url: "#Q3"
+                              - generic [ref=f10e153]: "3"
+                          - columnheader [ref=f10e155]:
+                            - link "Question 4 of 7," [ref=f10e156] [cursor=pointer]:
+                              - /url: "#Q4"
+                              - generic [ref=f10e157]: "4"
+                          - columnheader [ref=f10e159]:
+                            - link "Question 5 of 7," [ref=f10e160] [cursor=pointer]:
+                              - /url: "#Q5"
+                              - generic [ref=f10e161]: "5"
+                          - columnheader [ref=f10e163]:
+                            - link "Question 6 of 7," [ref=f10e164] [cursor=pointer]:
+                              - /url: "#Q6"
+                              - generic [ref=f10e165]: "6"
+                          - columnheader [ref=f10e167]:
+                            - link "Question 7 of 7," [ref=f10e168] [cursor=pointer]:
+                              - /url: "#Q7"
+                              - generic [ref=f10e169]: "7"
+                        - row [ref=f10e171]:
+                          - rowheader "Points" [ref=f10e172]
+                          - cell [ref=f10e173]:
+                            - link "Question 1 out of 7, your score is none out of 14.28" [ref=f10e174] [cursor=pointer]:
+                              - /url: "#Q1"
+                              - generic [ref=f10e175]: – / 14.28
+                          - cell [ref=f10e176]:
+                            - link "Question 2 out of 7, your score is none out of 14.28" [ref=f10e177] [cursor=pointer]:
+                              - /url: "#Q2"
+                              - generic [ref=f10e178]: – / 14.28
+                          - cell [ref=f10e179]:
+                            - link "Question 3 out of 7, your score is none out of 14.28" [ref=f10e180] [cursor=pointer]:
+                              - /url: "#Q3"
+                              - generic [ref=f10e181]: – / 14.28
+                          - cell [ref=f10e182]:
+                            - link "Question 4 out of 7, your score is none out of 14.28" [ref=f10e183] [cursor=pointer]:
+                              - /url: "#Q4"
+                              - generic [ref=f10e184]: – / 14.28
+                          - cell [ref=f10e185]:
+                            - link "Question 5 out of 7, your score is none out of 14.28" [ref=f10e186] [cursor=pointer]:
+                              - /url: "#Q5"
+                              - generic [ref=f10e187]: – / 14.28
+                          - cell [ref=f10e188]:
+                            - link "Question 6 out of 7, your score is none out of 14.28" [ref=f10e189] [cursor=pointer]:
+                              - /url: "#Q6"
+                              - generic [ref=f10e190]: – / 14.28
+                          - cell [ref=f10e191]:
+                            - link "Question 7 out of 7, your score is none out of 14.32" [ref=f10e192] [cursor=pointer]:
+                              - /url: "#Q7"
+                              - generic [ref=f10e193]: – / 14.32
+                    - generic [ref=f10e194]:
+                      - heading "Assignment Submission" [level=3] [ref=f10e195]
+                      - paragraph [ref=f10e196]: For this assignment, you submit answers by question parts. The number of submissions remaining for each question part only changes if you submit or change the answer.
+                      - heading "Assignment Scoring" [level=3] [ref=f10e197]
+                      - paragraph [ref=f10e198]: Your last submission is used for your score.
+            - generic [ref=f10e199]:
+              - region "Banner for question 1" [ref=f10e202]:
+                - generic [ref=f10e203]:
+                  - heading "Question 1" [level=2] [ref=f10e205]: "1."
+                  - strong [ref=f10e206]: "[– / 14.28 Points]"
+                - generic [ref=f10e207]:
+                  - button "Details for question 1." [ref=f10e208] [cursor=pointer]:
+                    - generic [ref=f10e209]: Details
+                  - button "My Notes For question 1" [ref=f10e212] [cursor=pointer]:
+                    - generic [ref=f10e213]: My Notes
+                  - button "Practice Another Version for question 1." [ref=f10e214] [cursor=pointer]:
+                    - generic [ref=f10e215]: Practice Another
+              - generic [ref=f10e216]:
+                - generic [ref=f10e218]:
+                  - generic [ref=f10e219]: EppDiscMath5 4.1.002.
+                  - region [ref=f10e220]:
+                    - strong [ref=f10e221]: Problem 1
+                    - region "introduction" [ref=f10e222]:
+                      - generic [ref=f10e223]:
+                        - text: Use the definitions of even and odd numbers to justify your answers for (a)
+                        - generic [ref=f10e224]: –
+                        - text: (c). Assume that
+                        - emphasis [ref=f10e225]: c
+                        - text: is a particular integer.
+                    - region "(a)" [ref=f10e226]:
+                      - generic [ref=f10e227]:
+                        - generic [ref=f10e228]: (a)
+                        - group "Is − 4 c an even integer?" [ref=f10e794]:
+                          - generic [ref=f10e232]:
+                            - text: Is
+                            - generic [ref=f10e797]:
+                              - generic [ref=f10e801]:
+                                - generic [ref=f10e802]: −
+                                - generic [ref=f10e803]: "4"
+                                - generic [ref=f10e804]: c
+                              - math [ref=f10e1829]:
+                                - generic [ref=f10e1830]: −
+                                - generic [ref=f10e1831]: "4"
+                                - generic [ref=f10e1832]: c
+                            - text: an even integer?
+                          - generic [ref=f10e233]:
+                            - radio "Yes, because − 4 c = 2 ( − 2 c ) and − 2 c is an integer." [checked] [active] [ref=f10e805]
+                            - generic [ref=f10e235]:
+                              - text: Yes, because
+                              - generic [ref=f10e808]:
+                                - generic [ref=f10e812]:
+                                  - generic [ref=f10e813]: −
+                                  - generic [ref=f10e814]: "4"
+                                  - generic [ref=f10e815]: c
+                                  - generic [ref=f10e816]: =
+                                  - generic [ref=f10e817]: "2"
+                                  - generic [ref=f10e818]: (
+                                  - generic [ref=f10e819]: −
+                                  - generic [ref=f10e820]: "2"
+                                  - generic [ref=f10e821]: c
+                                  - generic [ref=f10e822]: )
+                                - math [ref=f10e1833]:
+                                  - generic [ref=f10e1834]: −
+                                  - generic [ref=f10e1835]: "4"
+                                  - generic [ref=f10e1836]: c
+                                  - generic [ref=f10e1837]: =
+                                  - generic [ref=f10e1838]: "2"
+                                  - generic [ref=f10e1839]: (
+                                  - generic [ref=f10e1840]: −
+                                  - generic [ref=f10e1841]: "2"
+                                  - generic [ref=f10e1842]: c
+                                  - generic [ref=f10e1843]: )
+                              - text: and
+                              - generic [ref=f10e825]:
+                                - generic [ref=f10e829]:
+                                  - generic [ref=f10e830]: −
+                                  - generic [ref=f10e831]: "2"
+                                  - generic [ref=f10e832]: c
+                                - math [ref=f10e1844]:
+                                  - generic [ref=f10e1845]: −
+                                  - generic [ref=f10e1846]: "2"
+                                  - generic [ref=f10e1847]: c
+                              - text: is an integer.
+                          - generic [ref=f10e236]:
+                            - radio "Yes, because − 4 c = 2 ( − 2 c ) + 1 and − 2 c is an integer." [ref=f10e833]
+                            - generic [ref=f10e238]:
+                              - text: Yes, because
+                              - generic [ref=f10e836]:
+                                - generic [ref=f10e840]:
+                                  - generic [ref=f10e841]: −
+                                  - generic [ref=f10e842]: "4"
+                                  - generic [ref=f10e843]: c
+                                  - generic [ref=f10e844]: =
+                                  - generic [ref=f10e845]: "2"
+                                  - generic [ref=f10e846]: (
+                                  - generic [ref=f10e847]: −
+                                  - generic [ref=f10e848]: "2"
+                                  - generic [ref=f10e849]: c
+                                  - generic [ref=f10e850]: )
+                                  - generic [ref=f10e851]: +
+                                  - generic [ref=f10e852]: "1"
+                                - math [ref=f10e1848]:
+                                  - generic [ref=f10e1849]: −
+                                  - generic [ref=f10e1850]: "4"
+                                  - generic [ref=f10e1851]: c
+                                  - generic [ref=f10e1852]: =
+                                  - generic [ref=f10e1853]: "2"
+                                  - generic [ref=f10e1854]: (
+                                  - generic [ref=f10e1855]: −
+                                  - generic [ref=f10e1856]: "2"
+                                  - generic [ref=f10e1857]: c
+                                  - generic [ref=f10e1858]: )
+                                  - generic [ref=f10e1859]: +
+                                  - generic [ref=f10e1860]: "1"
+                              - text: and
+                              - generic [ref=f10e855]:
+                                - generic [ref=f10e859]:
+                                  - generic [ref=f10e860]: −
+                                  - generic [ref=f10e861]: "2"
+                                  - generic [ref=f10e862]: c
+                                - math [ref=f10e1861]:
+                                  - generic [ref=f10e1862]: −
+                                  - generic [ref=f10e1863]: "2"
+                                  - generic [ref=f10e1864]: c
+                              - text: is an integer.
+                          - generic [ref=f10e239]:
+                            - radio "No, because − 4 c = 2 ( − 2 c ) + 1 and − 2 c is an integer." [ref=f10e863]
+                            - generic [ref=f10e241]:
+                              - text: No, because
+                              - generic [ref=f10e866]:
+                                - generic [ref=f10e870]:
+                                  - generic [ref=f10e871]: −
+                                  - generic [ref=f10e872]: "4"
+                                  - generic [ref=f10e873]: c
+                                  - generic [ref=f10e874]: =
+                                  - generic [ref=f10e875]: "2"
+                                  - generic [ref=f10e876]: (
+                                  - generic [ref=f10e877]: −
+                                  - generic [ref=f10e878]: "2"
+                                  - generic [ref=f10e879]: c
+                                  - generic [ref=f10e880]: )
+                                  - generic [ref=f10e881]: +
+                                  - generic [ref=f10e882]: "1"
+                                - math [ref=f10e1865]:
+                                  - generic [ref=f10e1866]: −
+                                  - generic [ref=f10e1867]: "4"
+                                  - generic [ref=f10e1868]: c
+                                  - generic [ref=f10e1869]: =
+                                  - generic [ref=f10e1870]: "2"
+                                  - generic [ref=f10e1871]: (
+                                  - generic [ref=f10e1872]: −
+                                  - generic [ref=f10e1873]: "2"
+                                  - generic [ref=f10e1874]: c
+                                  - generic [ref=f10e1875]: )
+                                  - generic [ref=f10e1876]: +
+                                  - generic [ref=f10e1877]: "1"
+                              - text: and
+                              - generic [ref=f10e885]:
+                                - generic [ref=f10e889]:
+                                  - generic [ref=f10e890]: −
+                                  - generic [ref=f10e891]: "2"
+                                  - generic [ref=f10e892]: c
+                                - math [ref=f10e1878]:
+                                  - generic [ref=f10e1879]: −
+                                  - generic [ref=f10e1880]: "2"
+                                  - generic [ref=f10e1881]: c
+                              - text: is an integer.
+                          - generic [ref=f10e242]:
+                            - radio "No, because − 4 c = 2 ( − 2 c ) and − 2 c is an integer." [ref=f10e893]
+                            - generic [ref=f10e244]:
+                              - text: No, because
+                              - generic [ref=f10e896]:
+                                - generic [ref=f10e900]:
+                                  - generic [ref=f10e901]: −
+                                  - generic [ref=f10e902]: "4"
+                                  - generic [ref=f10e903]: c
+                                  - generic [ref=f10e904]: =
+                                  - generic [ref=f10e905]: "2"
+                                  - generic [ref=f10e906]: (
+                                  - generic [ref=f10e907]: −
+                                  - generic [ref=f10e908]: "2"
+                                  - generic [ref=f10e909]: c
+                                  - generic [ref=f10e910]: )
+                                - math [ref=f10e1882]:
+                                  - generic [ref=f10e1883]: −
+                                  - generic [ref=f10e1884]: "4"
+                                  - generic [ref=f10e1885]: c
+                                  - generic [ref=f10e1886]: =
+                                  - generic [ref=f10e1887]: "2"
+                                  - generic [ref=f10e1888]: (
+                                  - generic [ref=f10e1889]: −
+                                  - generic [ref=f10e1890]: "2"
+                                  - generic [ref=f10e1891]: c
+                                  - generic [ref=f10e1892]: )
+                              - text: and
+                              - generic [ref=f10e913]:
+                                - generic [ref=f10e917]:
+                                  - generic [ref=f10e918]: −
+                                  - generic [ref=f10e919]: "2"
+                                  - generic [ref=f10e920]: c
+                                - math [ref=f10e1893]:
+                                  - generic [ref=f10e1894]: −
+                                  - generic [ref=f10e1895]: "2"
+                                  - generic [ref=f10e1896]: c
+                              - text: is an integer.
+                    - region "(b)" [ref=f10e245]:
+                      - generic [ref=f10e246]:
+                        - generic [ref=f10e247]: (b)
+                        - group "Is 8 c + 7 an odd integer?" [ref=f10e921]:
+                          - generic [ref=f10e251]:
+                            - text: Is
+                            - generic [ref=f10e924]:
+                              - generic [ref=f10e928]:
+                                - generic [ref=f10e929]: "8"
+                                - generic [ref=f10e930]: c
+                                - generic [ref=f10e931]: +
+                                - generic [ref=f10e932]: "7"
+                              - math [ref=f10e1897]:
+                                - generic [ref=f10e1898]: "8"
+                                - generic [ref=f10e1899]: c
+                                - generic [ref=f10e1900]: +
+                                - generic [ref=f10e1901]: "7"
+                            - text: an odd integer?
+                          - generic [ref=f10e252]:
+                            - radio "Yes, because 8 c + 7 = 2 ( 4 c + 3 ) and 4 c + 3 is an integer." [ref=f10e933]
+                            - generic [ref=f10e254]:
+                              - text: Yes, because
+                              - generic [ref=f10e936]:
+                                - generic [ref=f10e940]:
+                                  - generic [ref=f10e941]: "8"
+                                  - generic [ref=f10e942]: c
+                                  - generic [ref=f10e943]: +
+                                  - generic [ref=f10e944]: "7"
+                                  - generic [ref=f10e945]: =
+                                  - generic [ref=f10e946]: "2"
+                                  - generic [ref=f10e947]: (
+                                  - generic [ref=f10e948]: "4"
+                                  - generic [ref=f10e949]: c
+                                  - generic [ref=f10e950]: +
+                                  - generic [ref=f10e951]: "3"
+                                  - generic [ref=f10e952]: )
+                                - math [ref=f10e1902]:
+                                  - generic [ref=f10e1903]: "8"
+                                  - generic [ref=f10e1904]: c
+                                  - generic [ref=f10e1905]: +
+                                  - generic [ref=f10e1906]: "7"
+                                  - generic [ref=f10e1907]: =
+                                  - generic [ref=f10e1908]: "2"
+                                  - generic [ref=f10e1909]: (
+                                  - generic [ref=f10e1910]: "4"
+                                  - generic [ref=f10e1911]: c
+                                  - generic [ref=f10e1912]: +
+                                  - generic [ref=f10e1913]: "3"
+                                  - generic [ref=f10e1914]: )
+                              - text: and
+                              - generic [ref=f10e955]:
+                                - generic [ref=f10e959]:
+                                  - generic [ref=f10e960]: "4"
+                                  - generic [ref=f10e961]: c
+                                  - generic [ref=f10e962]: +
+                                  - generic [ref=f10e963]: "3"
+                                - math [ref=f10e1915]:
+                                  - generic [ref=f10e1916]: "4"
+                                  - generic [ref=f10e1917]: c
+                                  - generic [ref=f10e1918]: +
+                                  - generic [ref=f10e1919]: "3"
+                              - text: is an integer.
+                          - generic [ref=f10e255]:
+                            - radio "Yes, because 8 c + 7 = 2 ( 4 c + 3 ) + 1 and 4 c + 3 is an integer." [ref=f10e964]
+                            - generic [ref=f10e257]:
+                              - text: Yes, because
+                              - generic [ref=f10e967]:
+                                - generic [ref=f10e971]:
+                                  - generic [ref=f10e972]: "8"
+                                  - generic [ref=f10e973]: c
+                                  - generic [ref=f10e974]: +
+                                  - generic [ref=f10e975]: "7"
+                                  - generic [ref=f10e976]: =
+                                  - generic [ref=f10e977]: "2"
+                                  - generic [ref=f10e978]: (
+                                  - generic [ref=f10e979]: "4"
+                                  - generic [ref=f10e980]: c
+                                  - generic [ref=f10e981]: +
+                                  - generic [ref=f10e982]: "3"
+                                  - generic [ref=f10e983]: )
+                                  - generic [ref=f10e984]: +
+                                  - generic [ref=f10e985]: "1"
+                                - math [ref=f10e1920]:
+                                  - generic [ref=f10e1921]: "8"
+                                  - generic [ref=f10e1922]: c
+                                  - generic [ref=f10e1923]: +
+                                  - generic [ref=f10e1924]: "7"
+                                  - generic [ref=f10e1925]: =
+                                  - generic [ref=f10e1926]: "2"
+                                  - generic [ref=f10e1927]: (
+                                  - generic [ref=f10e1928]: "4"
+                                  - generic [ref=f10e1929]: c
+                                  - generic [ref=f10e1930]: +
+                                  - generic [ref=f10e1931]: "3"
+                                  - generic [ref=f10e1932]: )
+                                  - generic [ref=f10e1933]: +
+                                  - generic [ref=f10e1934]: "1"
+                              - text: and
+                              - generic [ref=f10e988]:
+                                - generic [ref=f10e992]:
+                                  - generic [ref=f10e993]: "4"
+                                  - generic [ref=f10e994]: c
+                                  - generic [ref=f10e995]: +
+                                  - generic [ref=f10e996]: "3"
+                                - math [ref=f10e1935]:
+                                  - generic [ref=f10e1936]: "4"
+                                  - generic [ref=f10e1937]: c
+                                  - generic [ref=f10e1938]: +
+                                  - generic [ref=f10e1939]: "3"
+                              - text: is an integer.
+                          - generic [ref=f10e258]:
+                            - radio "No, because 8 c + 7 = 2 ( 4 c + 3 ) + 1 and 4 c + 3 is an integer." [ref=f10e997]
+                            - generic [ref=f10e260]:
+                              - text: No, because
+                              - generic [ref=f10e1000]:
+                                - generic [ref=f10e1004]:
+                                  - generic [ref=f10e1005]: "8"
+                                  - generic [ref=f10e1006]: c
+                                  - generic [ref=f10e1007]: +
+                                  - generic [ref=f10e1008]: "7"
+                                  - generic [ref=f10e1009]: =
+                                  - generic [ref=f10e1010]: "2"
+                                  - generic [ref=f10e1011]: (
+                                  - generic [ref=f10e1012]: "4"
+                                  - generic [ref=f10e1013]: c
+                                  - generic [ref=f10e1014]: +
+                                  - generic [ref=f10e1015]: "3"
+                                  - generic [ref=f10e1016]: )
+                                  - generic [ref=f10e1017]: +
+                                  - generic [ref=f10e1018]: "1"
+                                - math [ref=f10e1940]:
+                                  - generic [ref=f10e1941]: "8"
+                                  - generic [ref=f10e1942]: c
+                                  - generic [ref=f10e1943]: +
+                                  - generic [ref=f10e1944]: "7"
+                                  - generic [ref=f10e1945]: =
+                                  - generic [ref=f10e1946]: "2"
+                                  - generic [ref=f10e1947]: (
+                                  - generic [ref=f10e1948]: "4"
+                                  - generic [ref=f10e1949]: c
+                                  - generic [ref=f10e1950]: +
+                                  - generic [ref=f10e1951]: "3"
+                                  - generic [ref=f10e1952]: )
+                                  - generic [ref=f10e1953]: +
+                                  - generic [ref=f10e1954]: "1"
+                              - text: and
+                              - generic [ref=f10e1021]:
+                                - generic [ref=f10e1025]:
+                                  - generic [ref=f10e1026]: "4"
+                                  - generic [ref=f10e1027]: c
+                                  - generic [ref=f10e1028]: +
+                                  - generic [ref=f10e1029]: "3"
+                                - math [ref=f10e1955]:
+                                  - generic [ref=f10e1956]: "4"
+                                  - generic [ref=f10e1957]: c
+                                  - generic [ref=f10e1958]: +
+                                  - generic [ref=f10e1959]: "3"
+                              - text: is an integer.
+                          - generic [ref=f10e261]:
+                            - radio "No, because 8 c + 7 = 2 ( 4 c + 3 ) and 4 c + 3 is an integer." [ref=f10e1030]
+                            - generic [ref=f10e263]:
+                              - text: No, because
+                              - generic [ref=f10e1033]:
+                                - generic [ref=f10e1037]:
+                                  - generic [ref=f10e1038]: "8"
+                                  - generic [ref=f10e1039]: c
+                                  - generic [ref=f10e1040]: +
+                                  - generic [ref=f10e1041]: "7"
+                                  - generic [ref=f10e1042]: =
+                                  - generic [ref=f10e1043]: "2"
+                                  - generic [ref=f10e1044]: (
+                                  - generic [ref=f10e1045]: "4"
+                                  - generic [ref=f10e1046]: c
+                                  - generic [ref=f10e1047]: +
+                                  - generic [ref=f10e1048]: "3"
+                                  - generic [ref=f10e1049]: )
+                                - math [ref=f10e1960]:
+                                  - generic [ref=f10e1961]: "8"
+                                  - generic [ref=f10e1962]: c
+                                  - generic [ref=f10e1963]: +
+                                  - generic [ref=f10e1964]: "7"
+                                  - generic [ref=f10e1965]: =
+                                  - generic [ref=f10e1966]: "2"
+                                  - generic [ref=f10e1967]: (
+                                  - generic [ref=f10e1968]: "4"
+                                  - generic [ref=f10e1969]: c
+                                  - generic [ref=f10e1970]: +
+                                  - generic [ref=f10e1971]: "3"
+                                  - generic [ref=f10e1972]: )
+                              - text: and
+                              - generic [ref=f10e1052]:
+                                - generic [ref=f10e1056]:
+                                  - generic [ref=f10e1057]: "4"
+                                  - generic [ref=f10e1058]: c
+                                  - generic [ref=f10e1059]: +
+                                  - generic [ref=f10e1060]: "3"
+                                - math [ref=f10e1973]:
+                                  - generic [ref=f10e1974]: "4"
+                                  - generic [ref=f10e1975]: c
+                                  - generic [ref=f10e1976]: +
+                                  - generic [ref=f10e1977]: "3"
+                              - text: is an integer.
+                    - region "(c)" [ref=f10e264]:
+                      - generic [ref=f10e265]:
+                        - generic [ref=f10e266]: (c)
+                        - group "Is ( c 2 + 4 ) − ( c 2 − 4 ) − 8 an even integer?" [ref=f10e1061]:
+                          - generic [ref=f10e270]:
+                            - text: Is
+                            - generic [ref=f10e1064]:
+                              - generic [ref=f10e1068]:
+                                - generic [ref=f10e1069]: (
+                                - generic [ref=f10e1070]:
+                                  - generic [ref=f10e1071]: c
+                                  - generic [ref=f10e1073]: "2"
+                                - generic [ref=f10e1077]: +
+                                - generic [ref=f10e1078]: "4"
+                                - generic [ref=f10e1079]: )
+                                - generic [ref=f10e1080]: −
+                                - generic [ref=f10e1081]: (
+                                - generic [ref=f10e1082]:
+                                  - generic [ref=f10e1083]: c
+                                  - generic [ref=f10e1085]: "2"
+                                - generic [ref=f10e1089]: −
+                                - generic [ref=f10e1090]: "4"
+                                - generic [ref=f10e1091]: )
+                                - generic [ref=f10e1092]: −
+                                - generic [ref=f10e1093]: "8"
+                              - math [ref=f10e1978]:
+                                - generic [ref=f10e1979]: (
+                                - generic [ref=f10e1980]:
+                                  - generic [ref=f10e1981]: c
+                                  - generic [ref=f10e1982]: "2"
+                                - generic [ref=f10e1984]: +
+                                - generic [ref=f10e1985]: "4"
+                                - generic [ref=f10e1986]: )
+                                - generic [ref=f10e1987]: −
+                                - generic [ref=f10e1988]: (
+                                - generic [ref=f10e1989]:
+                                  - generic [ref=f10e1990]: c
+                                  - generic [ref=f10e1991]: "2"
+                                - generic [ref=f10e1993]: −
+                                - generic [ref=f10e1994]: "4"
+                                - generic [ref=f10e1995]: )
+                                - generic [ref=f10e1996]: −
+                                - generic [ref=f10e1997]: "8"
+                            - text: an even integer?
+                          - generic [ref=f10e271]:
+                            - radio "Yes, because ( c 2 + 4 ) − ( c 2 − 4 ) − 8 = 2 ( 0 ) + 1 and 0 is an integer." [ref=f10e1094]
+                            - generic [ref=f10e273]:
+                              - text: Yes, because
+                              - generic [ref=f10e1097]:
+                                - generic [ref=f10e1101]:
+                                  - generic [ref=f10e1102]: (
+                                  - generic [ref=f10e1103]:
+                                    - generic [ref=f10e1104]: c
+                                    - generic [ref=f10e1106]: "2"
+                                  - generic [ref=f10e1110]: +
+                                  - generic [ref=f10e1111]: "4"
+                                  - generic [ref=f10e1112]: )
+                                  - generic [ref=f10e1113]: −
+                                  - generic [ref=f10e1114]: (
+                                  - generic [ref=f10e1115]:
+                                    - generic [ref=f10e1116]: c
+                                    - generic [ref=f10e1118]: "2"
+                                  - generic [ref=f10e1122]: −
+                                  - generic [ref=f10e1123]: "4"
+                                  - generic [ref=f10e1124]: )
+                                  - generic [ref=f10e1125]: −
+                                  - generic [ref=f10e1126]: "8"
+                                  - generic [ref=f10e1127]: =
+                                  - generic [ref=f10e1128]: "2"
+                                  - generic [ref=f10e1129]: (
+                                  - generic [ref=f10e1130]: "0"
+                                  - generic [ref=f10e1131]: )
+                                  - generic [ref=f10e1132]: +
+                                  - generic [ref=f10e1133]: "1"
+                                - math [ref=f10e1998]:
+                                  - generic [ref=f10e1999]: (
+                                  - generic [ref=f10e2000]:
+                                    - generic [ref=f10e2001]: c
+                                    - generic [ref=f10e2002]: "2"
+                                  - generic [ref=f10e2004]: +
+                                  - generic [ref=f10e2005]: "4"
+                                  - generic [ref=f10e2006]: )
+                                  - generic [ref=f10e2007]: −
+                                  - generic [ref=f10e2008]: (
+                                  - generic [ref=f10e2009]:
+                                    - generic [ref=f10e2010]: c
+                                    - generic [ref=f10e2011]: "2"
+                                  - generic [ref=f10e2013]: −
+                                  - generic [ref=f10e2014]: "4"
+                                  - generic [ref=f10e2015]: )
+                                  - generic [ref=f10e2016]: −
+                                  - generic [ref=f10e2017]: "8"
+                                  - generic [ref=f10e2018]: =
+                                  - generic [ref=f10e2019]: "2"
+                                  - generic [ref=f10e2020]: (
+                                  - generic [ref=f10e2021]: "0"
+                                  - generic [ref=f10e2022]: )
+                                  - generic [ref=f10e2023]: +
+                                  - generic [ref=f10e2024]: "1"
+                              - text: and 0 is an integer.
+                          - generic [ref=f10e274]:
+                            - radio "Yes, because ( c 2 + 4 ) − ( c 2 − 4 ) − 8 = 2 ( 0 ) and 0 is an integer." [ref=f10e1134]
+                            - generic [ref=f10e276]:
+                              - text: Yes, because
+                              - generic [ref=f10e1137]:
+                                - generic [ref=f10e1141]:
+                                  - generic [ref=f10e1142]: (
+                                  - generic [ref=f10e1143]:
+                                    - generic [ref=f10e1144]: c
+                                    - generic [ref=f10e1146]: "2"
+                                  - generic [ref=f10e1150]: +
+                                  - generic [ref=f10e1151]: "4"
+                                  - generic [ref=f10e1152]: )
+                                  - generic [ref=f10e1153]: −
+                                  - generic [ref=f10e1154]: (
+                                  - generic [ref=f10e1155]:
+                                    - generic [ref=f10e1156]: c
+                                    - generic [ref=f10e1158]: "2"
+                                  - generic [ref=f10e1162]: −
+                                  - generic [ref=f10e1163]: "4"
+                                  - generic [ref=f10e1164]: )
+                                  - generic [ref=f10e1165]: −
+                                  - generic [ref=f10e1166]: "8"
+                                  - generic [ref=f10e1167]: =
+                                  - generic [ref=f10e1168]: "2"
+                                  - generic [ref=f10e1169]: (
+                                  - generic [ref=f10e1170]: "0"
+                                  - generic [ref=f10e1171]: )
+                                - math [ref=f10e2025]:
+                                  - generic [ref=f10e2026]: (
+                                  - generic [ref=f10e2027]:
+                                    - generic [ref=f10e2028]: c
+                                    - generic [ref=f10e2029]: "2"
+                                  - generic [ref=f10e2031]: +
+                                  - generic [ref=f10e2032]: "4"
+                                  - generic [ref=f10e2033]: )
+                                  - generic [ref=f10e2034]: −
+                                  - generic [ref=f10e2035]: (
+                                  - generic [ref=f10e2036]:
+                                    - generic [ref=f10e2037]: c
+                                    - generic [ref=f10e2038]: "2"
+                                  - generic [ref=f10e2040]: −
+                                  - generic [ref=f10e2041]: "4"
+                                  - generic [ref=f10e2042]: )
+                                  - generic [ref=f10e2043]: −
+                                  - generic [ref=f10e2044]: "8"
+                                  - generic [ref=f10e2045]: =
+                                  - generic [ref=f10e2046]: "2"
+                                  - generic [ref=f10e2047]: (
+                                  - generic [ref=f10e2048]: "0"
+                                  - generic [ref=f10e2049]: )
+                              - text: and 0 is an integer.
+                          - generic [ref=f10e277]:
+                            - radio "No, because ( c 2 + 4 ) − ( c 2 − 4 ) − 8 = 2 ( 0 ) + 1 and 0 is an integer." [ref=f10e1172]
+                            - generic [ref=f10e279]:
+                              - text: No, because
+                              - generic [ref=f10e1175]:
+                                - generic [ref=f10e1179]:
+                                  - generic [ref=f10e1180]: (
+                                  - generic [ref=f10e1181]:
+                                    - generic [ref=f10e1182]: c
+                                    - generic [ref=f10e1184]: "2"
+                                  - generic [ref=f10e1188]: +
+                                  - generic [ref=f10e1189]: "4"
+                                  - generic [ref=f10e1190]: )
+                                  - generic [ref=f10e1191]: −
+                                  - generic [ref=f10e1192]: (
+                                  - generic [ref=f10e1193]:
+                                    - generic [ref=f10e1194]: c
+                                    - generic [ref=f10e1196]: "2"
+                                  - generic [ref=f10e1200]: −
+                                  - generic [ref=f10e1201]: "4"
+                                  - generic [ref=f10e1202]: )
+                                  - generic [ref=f10e1203]: −
+                                  - generic [ref=f10e1204]: "8"
+                                  - generic [ref=f10e1205]: =
+                                  - generic [ref=f10e1206]: "2"
+                                  - generic [ref=f10e1207]: (
+                                  - generic [ref=f10e1208]: "0"
+                                  - generic [ref=f10e1209]: )
+                                  - generic [ref=f10e1210]: +
+                                  - generic [ref=f10e1211]: "1"
+                                - math [ref=f10e2050]:
+                                  - generic [ref=f10e2051]: (
+                                  - generic [ref=f10e2052]:
+                                    - generic [ref=f10e2053]: c
+                                    - generic [ref=f10e2054]: "2"
+                                  - generic [ref=f10e2056]: +
+                                  - generic [ref=f10e2057]: "4"
+                                  - generic [ref=f10e2058]: )
+                                  - generic [ref=f10e2059]: −
+                                  - generic [ref=f10e2060]: (
+                                  - generic [ref=f10e2061]:
+                                    - generic [ref=f10e2062]: c
+                                    - generic [ref=f10e2063]: "2"
+                                  - generic [ref=f10e2065]: −
+                                  - generic [ref=f10e2066]: "4"
+                                  - generic [ref=f10e2067]: )
+                                  - generic [ref=f10e2068]: −
+                                  - generic [ref=f10e2069]: "8"
+                                  - generic [ref=f10e2070]: =
+                                  - generic [ref=f10e2071]: "2"
+                                  - generic [ref=f10e2072]: (
+                                  - generic [ref=f10e2073]: "0"
+                                  - generic [ref=f10e2074]: )
+                                  - generic [ref=f10e2075]: +
+                                  - generic [ref=f10e2076]: "1"
+                              - text: and 0 is an integer.
+                          - generic [ref=f10e280]:
+                            - radio "No, because ( c 2 + 4 ) − ( c 2 − 4 ) − 8 = 2 ( 0 ) and 0 is an integer." [ref=f10e1212]
+                            - generic [ref=f10e282]:
+                              - text: No, because
+                              - generic [ref=f10e1215]:
+                                - generic [ref=f10e1219]:
+                                  - generic [ref=f10e1220]: (
+                                  - generic [ref=f10e1221]:
+                                    - generic [ref=f10e1222]: c
+                                    - generic [ref=f10e1224]: "2"
+                                  - generic [ref=f10e1228]: +
+                                  - generic [ref=f10e1229]: "4"
+                                  - generic [ref=f10e1230]: )
+                                  - generic [ref=f10e1231]: −
+                                  - generic [ref=f10e1232]: (
+                                  - generic [ref=f10e1233]:
+                                    - generic [ref=f10e1234]: c
+                                    - generic [ref=f10e1236]: "2"
+                                  - generic [ref=f10e1240]: −
+                                  - generic [ref=f10e1241]: "4"
+                                  - generic [ref=f10e1242]: )
+                                  - generic [ref=f10e1243]: −
+                                  - generic [ref=f10e1244]: "8"
+                                  - generic [ref=f10e1245]: =
+                                  - generic [ref=f10e1246]: "2"
+                                  - generic [ref=f10e1247]: (
+                                  - generic [ref=f10e1248]: "0"
+                                  - generic [ref=f10e1249]: )
+                                - math [ref=f10e2077]:
+                                  - generic [ref=f10e2078]: (
+                                  - generic [ref=f10e2079]:
+                                    - generic [ref=f10e2080]: c
+                                    - generic [ref=f10e2081]: "2"
+                                  - generic [ref=f10e2083]: +
+                                  - generic [ref=f10e2084]: "4"
+                                  - generic [ref=f10e2085]: )
+                                  - generic [ref=f10e2086]: −
+                                  - generic [ref=f10e2087]: (
+                                  - generic [ref=f10e2088]:
+                                    - generic [ref=f10e2089]: c
+                                    - generic [ref=f10e2090]: "2"
+                                  - generic [ref=f10e2092]: −
+                                  - generic [ref=f10e2093]: "4"
+                                  - generic [ref=f10e2094]: )
+                                  - generic [ref=f10e2095]: −
+                                  - generic [ref=f10e2096]: "8"
+                                  - generic [ref=f10e2097]: =
+                                  - generic [ref=f10e2098]: "2"
+                                  - generic [ref=f10e2099]: (
+                                  - generic [ref=f10e2100]: "0"
+                                  - generic [ref=f10e2101]: )
+                              - text: and 0 is an integer.
+                  - generic "Resource box" [ref=f10e286]:
+                    - generic [ref=f10e287]:
+                      - generic [ref=f10e288]: Resources
+                      - generic [ref=f10e289]:
+                        - paragraph [ref=f10e290]:
+                          - link "Read It (opens in a new tab)" [ref=f10e291] [cursor=pointer]:
+                            - /url: "#"
+                            - text: Read It
+                        - button "Ask Student Assistant for question 1" [ref=f10e292] [cursor=pointer]: Student Assistant
+                - button "Submit Answer" [ref=f10e295] [cursor=pointer]
+            - generic [ref=f10e296]:
+              - region "Banner for question 2" [ref=f10e299]:
+                - generic [ref=f10e300]:
+                  - heading "Question 2" [level=2] [ref=f10e302]: "2."
+                  - strong [ref=f10e303]: "[– / 14.28 Points]"
+                - generic [ref=f10e304]:
+                  - button "Details for question 2." [ref=f10e305] [cursor=pointer]:
+                    - generic [ref=f10e306]: Details
+                  - button "My Notes For question 2" [ref=f10e309] [cursor=pointer]:
+                    - generic [ref=f10e310]: My Notes
+                  - button "Practice Another Version for question 2." [ref=f10e311] [cursor=pointer]:
+                    - generic [ref=f10e312]: Practice Another
+              - generic [ref=f10e313]:
+                - generic [ref=f10e315]:
+                  - generic [ref=f10e316]: EppDiscMath5 4.1.004.
+                  - region [ref=f10e317]:
+                    - strong [ref=f10e318]: Problem 2
+                    - region "introduction" [ref=f10e319]:
+                      - generic [ref=f10e320]:
+                        - text: Use the definitions of even, odd, prime, and compositive numbers to justify your answers for (a)
+                        - generic [ref=f10e321]: –
+                        - text: (c). Assume that
+                        - emphasis [ref=f10e322]: r
+                        - text: and
+                        - emphasis [ref=f10e323]: s
+                        - text: are particular integers.
+                    - region "(a)" [ref=f10e324]:
+                      - generic [ref=f10e325]:
+                        - generic [ref=f10e326]: (a)
+                        - group "Is 6 r s even?" [ref=f10e1250]:
+                          - generic [ref=f10e330]:
+                            - text: Is
+                            - generic [ref=f10e1252]:
+                              - generic [ref=f10e1256]:
+                                - generic [ref=f10e1257]: "6"
+                                - generic [ref=f10e1258]: r
+                                - generic [ref=f10e1259]: s
+                              - math [ref=f10e2102]:
+                                - generic [ref=f10e2103]: "6"
+                                - generic [ref=f10e2104]: r
+                                - generic [ref=f10e2105]: s
+                            - text: even?
+                          - generic [ref=f10e331]:
+                            - radio "Yes, because 6 r s = ( 3 r s ) + 1 and 3 r s is an integer." [ref=f10e1260]
+                            - generic [ref=f10e333]:
+                              - text: Yes, because
+                              - generic [ref=f10e1262]:
+                                - generic [ref=f10e1266]:
+                                  - generic [ref=f10e1267]: "6"
+                                  - generic [ref=f10e1268]: r
+                                  - generic [ref=f10e1269]: s
+                                  - generic [ref=f10e1270]: =
+                                  - generic [ref=f10e1271]: (
+                                  - generic [ref=f10e1272]: "3"
+                                  - generic [ref=f10e1273]: r
+                                  - generic [ref=f10e1274]: s
+                                  - generic [ref=f10e1275]: )
+                                  - generic [ref=f10e1276]: +
+                                  - generic [ref=f10e1277]: "1"
+                                - math [ref=f10e2106]:
+                                  - generic [ref=f10e2107]: "6"
+                                  - generic [ref=f10e2108]: r
+                                  - generic [ref=f10e2109]: s
+                                  - generic [ref=f10e2110]: =
+                                  - generic [ref=f10e2111]: (
+                                  - generic [ref=f10e2112]: "3"
+                                  - generic [ref=f10e2113]: r
+                                  - generic [ref=f10e2114]: s
+                                  - generic [ref=f10e2115]: )
+                                  - generic [ref=f10e2116]: +
+                                  - generic [ref=f10e2117]: "1"
+                              - text: and
+                              - generic [ref=f10e1279]:
+                                - generic [ref=f10e1283]:
+                                  - generic [ref=f10e1284]: "3"
+                                  - generic [ref=f10e1285]: r
+                                  - generic [ref=f10e1286]: s
+                                - math [ref=f10e2118]:
+                                  - generic [ref=f10e2119]: "3"
+                                  - generic [ref=f10e2120]: r
+                                  - generic [ref=f10e2121]: s
+                              - text: is an integer.
+                          - generic [ref=f10e334]:
+                            - radio "Yes, because 6 r s = 2 ( 3 r s ) and 3 r s is an integer." [ref=f10e1287]
+                            - generic [ref=f10e336]:
+                              - text: Yes, because
+                              - generic [ref=f10e1289]:
+                                - generic [ref=f10e1293]:
+                                  - generic [ref=f10e1294]: "6"
+                                  - generic [ref=f10e1295]: r
+                                  - generic [ref=f10e1296]: s
+                                  - generic [ref=f10e1297]: =
+                                  - generic [ref=f10e1298]: "2"
+                                  - generic [ref=f10e1299]: (
+                                  - generic [ref=f10e1300]: "3"
+                                  - generic [ref=f10e1301]: r
+                                  - generic [ref=f10e1302]: s
+                                  - generic [ref=f10e1303]: )
+                                - math [ref=f10e2122]:
+                                  - generic [ref=f10e2123]: "6"
+                                  - generic [ref=f10e2124]: r
+                                  - generic [ref=f10e2125]: s
+                                  - generic [ref=f10e2126]: =
+                                  - generic [ref=f10e2127]: "2"
+                                  - generic [ref=f10e2128]: (
+                                  - generic [ref=f10e2129]: "3"
+                                  - generic [ref=f10e2130]: r
+                                  - generic [ref=f10e2131]: s
+                                  - generic [ref=f10e2132]: )
+                              - text: and
+                              - generic [ref=f10e1305]:
+                                - generic [ref=f10e1309]:
+                                  - generic [ref=f10e1310]: "3"
+                                  - generic [ref=f10e1311]: r
+                                  - generic [ref=f10e1312]: s
+                                - math [ref=f10e2133]:
+                                  - generic [ref=f10e2134]: "3"
+                                  - generic [ref=f10e2135]: r
+                                  - generic [ref=f10e2136]: s
+                              - text: is an integer.
+                          - generic [ref=f10e337]:
+                            - radio "No, because 6 r s = 2 ( 3 r s ) + 1 and 3 r s is an integer." [ref=f10e1313]
+                            - generic [ref=f10e339]:
+                              - text: No, because
+                              - generic [ref=f10e1315]:
+                                - generic [ref=f10e1319]:
+                                  - generic [ref=f10e1320]: "6"
+                                  - generic [ref=f10e1321]: r
+                                  - generic [ref=f10e1322]: s
+                                  - generic [ref=f10e1323]: =
+                                  - generic [ref=f10e1324]: "2"
+                                  - generic [ref=f10e1325]: (
+                                  - generic [ref=f10e1326]: "3"
+                                  - generic [ref=f10e1327]: r
+                                  - generic [ref=f10e1328]: s
+                                  - generic [ref=f10e1329]: )
+                                  - generic [ref=f10e1330]: +
+                                  - generic [ref=f10e1331]: "1"
+                                - math [ref=f10e2137]:
+                                  - generic [ref=f10e2138]: "6"
+                                  - generic [ref=f10e2139]: r
+                                  - generic [ref=f10e2140]: s
+                                  - generic [ref=f10e2141]: =
+                                  - generic [ref=f10e2142]: "2"
+                                  - generic [ref=f10e2143]: (
+                                  - generic [ref=f10e2144]: "3"
+                                  - generic [ref=f10e2145]: r
+                                  - generic [ref=f10e2146]: s
+                                  - generic [ref=f10e2147]: )
+                                  - generic [ref=f10e2148]: +
+                                  - generic [ref=f10e2149]: "1"
+                              - text: and
+                              - generic [ref=f10e1333]:
+                                - generic [ref=f10e1337]:
+                                  - generic [ref=f10e1338]: "3"
+                                  - generic [ref=f10e1339]: r
+                                  - generic [ref=f10e1340]: s
+                                - math [ref=f10e2150]:
+                                  - generic [ref=f10e2151]: "3"
+                                  - generic [ref=f10e2152]: r
+                                  - generic [ref=f10e2153]: s
+                              - text: is an integer.
+                          - generic [ref=f10e340]:
+                            - radio "No, because 6 r s = 2 ( 3 r s ) and 3 r s is an integer." [ref=f10e1341]
+                            - generic [ref=f10e342]:
+                              - text: No, because
+                              - generic [ref=f10e1343]:
+                                - generic [ref=f10e1347]:
+                                  - generic [ref=f10e1348]: "6"
+                                  - generic [ref=f10e1349]: r
+                                  - generic [ref=f10e1350]: s
+                                  - generic [ref=f10e1351]: =
+                                  - generic [ref=f10e1352]: "2"
+                                  - generic [ref=f10e1353]: (
+                                  - generic [ref=f10e1354]: "3"
+                                  - generic [ref=f10e1355]: r
+                                  - generic [ref=f10e1356]: s
+                                  - generic [ref=f10e1357]: )
+                                - math [ref=f10e2154]:
+                                  - generic [ref=f10e2155]: "6"
+                                  - generic [ref=f10e2156]: r
+                                  - generic [ref=f10e2157]: s
+                                  - generic [ref=f10e2158]: =
+                                  - generic [ref=f10e2159]: "2"
+                                  - generic [ref=f10e2160]: (
+                                  - generic [ref=f10e2161]: "3"
+                                  - generic [ref=f10e2162]: r
+                                  - generic [ref=f10e2163]: s
+                                  - generic [ref=f10e2164]: )
+                              - text: and
+                              - generic [ref=f10e1359]:
+                                - generic [ref=f10e1363]:
+                                  - generic [ref=f10e1364]: "3"
+                                  - generic [ref=f10e1365]: r
+                                  - generic [ref=f10e1366]: s
+                                - math [ref=f10e2165]:
+                                  - generic [ref=f10e2166]: "3"
+                                  - generic [ref=f10e2167]: r
+                                  - generic [ref=f10e2168]: s
+                              - text: is an integer.
+                    - region "(b)" [ref=f10e343]:
+                      - generic [ref=f10e344]:
+                        - generic [ref=f10e345]: (b)
+                        - group "Is 8 r + 4 s 2 + 3 odd?" [ref=f10e1367]:
+                          - generic [ref=f10e349]:
+                            - text: Is
+                            - generic [ref=f10e1369]:
+                              - generic [ref=f10e1373]:
+                                - generic [ref=f10e1374]: "8"
+                                - generic [ref=f10e1375]: r
+                                - generic [ref=f10e1376]: +
+                                - generic [ref=f10e1377]: "4"
+                                - generic [ref=f10e1378]:
+                                  - generic [ref=f10e1379]: s
+                                  - generic [ref=f10e1381]: "2"
+                                - generic [ref=f10e1385]: +
+                                - generic [ref=f10e1386]: "3"
+                              - math [ref=f10e2169]:
+                                - generic [ref=f10e2170]: "8"
+                                - generic [ref=f10e2171]: r
+                                - generic [ref=f10e2172]: +
+                                - generic [ref=f10e2173]: "4"
+                                - generic [ref=f10e2174]:
+                                  - generic [ref=f10e2175]: s
+                                  - generic [ref=f10e2176]: "2"
+                                - generic [ref=f10e2178]: +
+                                - generic [ref=f10e2179]: "3"
+                            - text: odd?
+                          - generic [ref=f10e350]:
+                            - radio "Yes, because 8 r + 4 s 2 + 3 = 2 ( 4 r + 2 s 2 + 1 ) + 1 and 4 r + 2 s 2 + 1 is an integer." [ref=f10e1387]
+                            - generic [ref=f10e352]:
+                              - text: Yes, because
+                              - generic [ref=f10e1389]:
+                                - generic [ref=f10e1393]:
+                                  - generic [ref=f10e1394]: "8"
+                                  - generic [ref=f10e1395]: r
+                                  - generic [ref=f10e1396]: +
+                                  - generic [ref=f10e1397]: "4"
+                                  - generic [ref=f10e1398]:
+                                    - generic [ref=f10e1399]: s
+                                    - generic [ref=f10e1401]: "2"
+                                  - generic [ref=f10e1405]: +
+                                  - generic [ref=f10e1406]: "3"
+                                  - generic [ref=f10e1407]: =
+                                  - generic [ref=f10e1408]: "2"
+                                  - generic [ref=f10e1409]: (
+                                  - generic [ref=f10e1410]: "4"
+                                  - generic [ref=f10e1411]: r
+                                  - generic [ref=f10e1412]: +
+                                  - generic [ref=f10e1413]: "2"
+                                  - generic [ref=f10e1414]:
+                                    - generic [ref=f10e1415]: s
+                                    - generic [ref=f10e1417]: "2"
+                                  - generic [ref=f10e1421]: +
+                                  - generic [ref=f10e1422]: "1"
+                                  - generic [ref=f10e1423]: )
+                                  - generic [ref=f10e1424]: +
+                                  - generic [ref=f10e1425]: "1"
+                                - math [ref=f10e2180]:
+                                  - generic [ref=f10e2181]: "8"
+                                  - generic [ref=f10e2182]: r
+                                  - generic [ref=f10e2183]: +
+                                  - generic [ref=f10e2184]: "4"
+                                  - generic [ref=f10e2185]:
+                                    - generic [ref=f10e2186]: s
+                                    - generic [ref=f10e2187]: "2"
+                                  - generic [ref=f10e2189]: +
+                                  - generic [ref=f10e2190]: "3"
+                                  - generic [ref=f10e2191]: =
+                                  - generic [ref=f10e2192]: "2"
+                                  - generic [ref=f10e2193]: (
+                                  - generic [ref=f10e2194]: "4"
+                                  - generic [ref=f10e2195]: r
+                                  - generic [ref=f10e2196]: +
+                                  - generic [ref=f10e2197]: "2"
+                                  - generic [ref=f10e2198]:
+                                    - generic [ref=f10e2199]: s
+                                    - generic [ref=f10e2200]: "2"
+                                  - generic [ref=f10e2202]: +
+                                  - generic [ref=f10e2203]: "1"
+                                  - generic [ref=f10e2204]: )
+                                  - generic [ref=f10e2205]: +
+                                  - generic [ref=f10e2206]: "1"
+                              - text: and
+                              - generic [ref=f10e1427]:
+                                - generic [ref=f10e1431]:
+                                  - generic [ref=f10e1432]: "4"
+                                  - generic [ref=f10e1433]: r
+                                  - generic [ref=f10e1434]: +
+                                  - generic [ref=f10e1435]: "2"
+                                  - generic [ref=f10e1436]:
+                                    - generic [ref=f10e1437]: s
+                                    - generic [ref=f10e1439]: "2"
+                                  - generic [ref=f10e1443]: +
+                                  - generic [ref=f10e1444]: "1"
+                                - math [ref=f10e2207]:
+                                  - generic [ref=f10e2208]: "4"
+                                  - generic [ref=f10e2209]: r
+                                  - generic [ref=f10e2210]: +
+                                  - generic [ref=f10e2211]: "2"
+                                  - generic [ref=f10e2212]:
+                                    - generic [ref=f10e2213]: s
+                                    - generic [ref=f10e2214]: "2"
+                                  - generic [ref=f10e2216]: +
+                                  - generic [ref=f10e2217]: "1"
+                              - text: is an integer.
+                          - generic [ref=f10e353]:
+                            - radio "Yes, because 8 r + 4 s 2 + 3 = 2 ( 4 r + 2 s 2 + 1 ) and 4 r + 2 s 2 + 1 is an integer." [ref=f10e1445]
+                            - generic [ref=f10e355]:
+                              - text: Yes, because
+                              - generic [ref=f10e1447]:
+                                - generic [ref=f10e1451]:
+                                  - generic [ref=f10e1452]: "8"
+                                  - generic [ref=f10e1453]: r
+                                  - generic [ref=f10e1454]: +
+                                  - generic [ref=f10e1455]: "4"
+                                  - generic [ref=f10e1456]:
+                                    - generic [ref=f10e1457]: s
+                                    - generic [ref=f10e1459]: "2"
+                                  - generic [ref=f10e1463]: +
+                                  - generic [ref=f10e1464]: "3"
+                                  - generic [ref=f10e1465]: =
+                                  - generic [ref=f10e1466]: "2"
+                                  - generic [ref=f10e1467]: (
+                                  - generic [ref=f10e1468]: "4"
+                                  - generic [ref=f10e1469]: r
+                                  - generic [ref=f10e1470]: +
+                                  - generic [ref=f10e1471]: "2"
+                                  - generic [ref=f10e1472]:
+                                    - generic [ref=f10e1473]: s
+                                    - generic [ref=f10e1475]: "2"
+                                  - generic [ref=f10e1479]: +
+                                  - generic [ref=f10e1480]: "1"
+                                  - generic [ref=f10e1481]: )
+                                - math [ref=f10e2218]:
+                                  - generic [ref=f10e2219]: "8"
+                                  - generic [ref=f10e2220]: r
+                                  - generic [ref=f10e2221]: +
+                                  - generic [ref=f10e2222]: "4"
+                                  - generic [ref=f10e2223]:
+                                    - generic [ref=f10e2224]: s
+                                    - generic [ref=f10e2225]: "2"
+                                  - generic [ref=f10e2227]: +
+                                  - generic [ref=f10e2228]: "3"
+                                  - generic [ref=f10e2229]: =
+                                  - generic [ref=f10e2230]: "2"
+                                  - generic [ref=f10e2231]: (
+                                  - generic [ref=f10e2232]: "4"
+                                  - generic [ref=f10e2233]: r
+                                  - generic [ref=f10e2234]: +
+                                  - generic [ref=f10e2235]: "2"
+                                  - generic [ref=f10e2236]:
+                                    - generic [ref=f10e2237]: s
+                                    - generic [ref=f10e2238]: "2"
+                                  - generic [ref=f10e2240]: +
+                                  - generic [ref=f10e2241]: "1"
+                                  - generic [ref=f10e2242]: )
+                              - text: and
+                              - generic [ref=f10e1483]:
+                                - generic [ref=f10e1487]:
+                                  - generic [ref=f10e1488]: "4"
+                                  - generic [ref=f10e1489]: r
+                                  - generic [ref=f10e1490]: +
+                                  - generic [ref=f10e1491]: "2"
+                                  - generic [ref=f10e1492]:
+                                    - generic [ref=f10e1493]: s
+                                    - generic [ref=f10e1495]: "2"
+                                  - generic [ref=f10e1499]: +
+                                  - generic [ref=f10e1500]: "1"
+                                - math [ref=f10e2243]:
+                                  - generic [ref=f10e2244]: "4"
+                                  - generic [ref=f10e2245]: r
+                                  - generic [ref=f10e2246]: +
+                                  - generic [ref=f10e2247]: "2"
+                                  - generic [ref=f10e2248]:
+                                    - generic [ref=f10e2249]: s
+                                    - generic [ref=f10e2250]: "2"
+                                  - generic [ref=f10e2252]: +
+                                  - generic [ref=f10e2253]: "1"
+                              - text: is an integer.
+                          - generic [ref=f10e356]:
+                            - radio "No, because 8 r + 4 s 2 + 3 = 2 ( 4 r + 2 s 2 + 1 ) + 1 and 4 r + 2 s 2 + 1 is an integer." [ref=f10e1501]
+                            - generic [ref=f10e358]:
+                              - text: No, because
+                              - generic [ref=f10e1503]:
+                                - generic [ref=f10e1507]:
+                                  - generic [ref=f10e1508]: "8"
+                                  - generic [ref=f10e1509]: r
+                                  - generic [ref=f10e1510]: +
+                                  - generic [ref=f10e1511]: "4"
+                                  - generic [ref=f10e1512]:
+                                    - generic [ref=f10e1513]: s
+                                    - generic [ref=f10e1515]: "2"
+                                  - generic [ref=f10e1519]: +
+                                  - generic [ref=f10e1520]: "3"
+                                  - generic [ref=f10e1521]: =
+                                  - generic [ref=f10e1522]: "2"
+                                  - generic [ref=f10e1523]: (
+                                  - generic [ref=f10e1524]: "4"
+                                  - generic [ref=f10e1525]: r
+                                  - generic [ref=f10e1526]: +
+                                  - generic [ref=f10e1527]: "2"
+                                  - generic [ref=f10e1528]:
+                                    - generic [ref=f10e1529]: s
+                                    - generic [ref=f10e1531]: "2"
+                                  - generic [ref=f10e1535]: +
+                                  - generic [ref=f10e1536]: "1"
+                                  - generic [ref=f10e1537]: )
+                                  - generic [ref=f10e1538]: +
+                                  - generic [ref=f10e1539]: "1"
+                                - math [ref=f10e2254]:
+                                  - generic [ref=f10e2255]: "8"
+                                  - generic [ref=f10e2256]: r
+                                  - generic [ref=f10e2257]: +
+                                  - generic [ref=f10e2258]: "4"
+                                  - generic [ref=f10e2259]:
+                                    - generic [ref=f10e2260]: s
+                                    - generic [ref=f10e2261]: "2"
+                                  - generic [ref=f10e2263]: +
+                                  - generic [ref=f10e2264]: "3"
+                                  - generic [ref=f10e2265]: =
+                                  - generic [ref=f10e2266]: "2"
+                                  - generic [ref=f10e2267]: (
+                                  - generic [ref=f10e2268]: "4"
+                                  - generic [ref=f10e2269]: r
+                                  - generic [ref=f10e2270]: +
+                                  - generic [ref=f10e2271]: "2"
+                                  - generic [ref=f10e2272]:
+                                    - generic [ref=f10e2273]: s
+                                    - generic [ref=f10e2274]: "2"
+                                  - generic [ref=f10e2276]: +
+                                  - generic [ref=f10e2277]: "1"
+                                  - generic [ref=f10e2278]: )
+                                  - generic [ref=f10e2279]: +
+                                  - generic [ref=f10e2280]: "1"
+                              - text: and
+                              - generic [ref=f10e1541]:
+                                - generic [ref=f10e1545]:
+                                  - generic [ref=f10e1546]: "4"
+                                  - generic [ref=f10e1547]: r
+                                  - generic [ref=f10e1548]: +
+                                  - generic [ref=f10e1549]: "2"
+                                  - generic [ref=f10e1550]:
+                                    - generic [ref=f10e1551]: s
+                                    - generic [ref=f10e1553]: "2"
+                                  - generic [ref=f10e1557]: +
+                                  - generic [ref=f10e1558]: "1"
+                                - math [ref=f10e2281]:
+                                  - generic [ref=f10e2282]: "4"
+                                  - generic [ref=f10e2283]: r
+                                  - generic [ref=f10e2284]: +
+                                  - generic [ref=f10e2285]: "2"
+                                  - generic [ref=f10e2286]:
+                                    - generic [ref=f10e2287]: s
+                                    - generic [ref=f10e2288]: "2"
+                                  - generic [ref=f10e2290]: +
+                                  - generic [ref=f10e2291]: "1"
+                              - text: is an integer.
+                          - generic [ref=f10e359]:
+                            - radio "No, because 8 r + 4 s 2 + 3 = 2 ( 4 r + 2 s 2 + 1 ) and 4 r + 2 s 2 + 1 is an integer." [ref=f10e1559]
+                            - generic [ref=f10e361]:
+                              - text: No, because
+                              - generic [ref=f10e1561]:
+                                - generic [ref=f10e1565]:
+                                  - generic [ref=f10e1566]: "8"
+                                  - generic [ref=f10e1567]: r
+                                  - generic [ref=f10e1568]: +
+                                  - generic [ref=f10e1569]: "4"
+                                  - generic [ref=f10e1570]:
+                                    - generic [ref=f10e1571]: s
+                                    - generic [ref=f10e1573]: "2"
+                                  - generic [ref=f10e1577]: +
+                                  - generic [ref=f10e1578]: "3"
+                                  - generic [ref=f10e1579]: =
+                                  - generic [ref=f10e1580]: "2"
+                                  - generic [ref=f10e1581]: (
+                                  - generic [ref=f10e1582]: "4"
+                                  - generic [ref=f10e1583]: r
+                                  - generic [ref=f10e1584]: +
+                                  - generic [ref=f10e1585]: "2"
+                                  - generic [ref=f10e1586]:
+                                    - generic [ref=f10e1587]: s
+                                    - generic [ref=f10e1589]: "2"
+                                  - generic [ref=f10e1593]: +
+                                  - generic [ref=f10e1594]: "1"
+                                  - generic [ref=f10e1595]: )
+                                - math [ref=f10e2292]:
+                                  - generic [ref=f10e2293]: "8"
+                                  - generic [ref=f10e2294]: r
+                                  - generic [ref=f10e2295]: +
+                                  - generic [ref=f10e2296]: "4"
+                                  - generic [ref=f10e2297]:
+                                    - generic [ref=f10e2298]: s
+                                    - generic [ref=f10e2299]: "2"
+                                  - generic [ref=f10e2301]: +
+                                  - generic [ref=f10e2302]: "3"
+                                  - generic [ref=f10e2303]: =
+                                  - generic [ref=f10e2304]: "2"
+                                  - generic [ref=f10e2305]: (
+                                  - generic [ref=f10e2306]: "4"
+                                  - generic [ref=f10e2307]: r
+                                  - generic [ref=f10e2308]: +
+                                  - generic [ref=f10e2309]: "2"
+                                  - generic [ref=f10e2310]:
+                                    - generic [ref=f10e2311]: s
+                                    - generic [ref=f10e2312]: "2"
+                                  - generic [ref=f10e2314]: +
+                                  - generic [ref=f10e2315]: "1"
+                                  - generic [ref=f10e2316]: )
+                              - text: and
+                              - generic [ref=f10e1597]:
+                                - generic [ref=f10e1601]:
+                                  - generic [ref=f10e1602]: "4"
+                                  - generic [ref=f10e1603]: r
+                                  - generic [ref=f10e1604]: +
+                                  - generic [ref=f10e1605]: "2"
+                                  - generic [ref=f10e1606]:
+                                    - generic [ref=f10e1607]: s
+                                    - generic [ref=f10e1609]: "2"
+                                  - generic [ref=f10e1613]: +
+                                  - generic [ref=f10e1614]: "1"
+                                - math [ref=f10e2317]:
+                                  - generic [ref=f10e2318]: "4"
+                                  - generic [ref=f10e2319]: r
+                                  - generic [ref=f10e2320]: +
+                                  - generic [ref=f10e2321]: "2"
+                                  - generic [ref=f10e2322]:
+                                    - generic [ref=f10e2323]: s
+                                    - generic [ref=f10e2324]: "2"
+                                  - generic [ref=f10e2326]: +
+                                  - generic [ref=f10e2327]: "1"
+                              - text: is an integer.
+                    - region "(c)" [ref=f10e362]:
+                      - generic [ref=f10e363]:
+                        - generic [ref=f10e364]: (c)
+                        - group "If r and s are both positive, is r 2 + 2 r s + s 2 composite?" [ref=f10e1615]:
+                          - generic [ref=f10e368]:
+                            - text: If
+                            - emphasis [ref=f10e369]: r
+                            - text: and
+                            - emphasis [ref=f10e370]: s
+                            - text: are both positive, is
+                            - generic [ref=f10e1617]:
+                              - generic [ref=f10e1621]:
+                                - generic [ref=f10e1622]:
+                                  - generic [ref=f10e1623]: r
+                                  - generic [ref=f10e1625]: "2"
+                                - generic [ref=f10e1629]: +
+                                - generic [ref=f10e1630]: "2"
+                                - generic [ref=f10e1631]: r
+                                - generic [ref=f10e1632]: s
+                                - generic [ref=f10e1633]: +
+                                - generic [ref=f10e1634]:
+                                  - generic [ref=f10e1635]: s
+                                  - generic [ref=f10e1637]: "2"
+                              - math [ref=f10e2328]:
+                                - generic [ref=f10e2329]:
+                                  - generic [ref=f10e2330]: r
+                                  - generic [ref=f10e2331]: "2"
+                                - generic [ref=f10e2333]: +
+                                - generic [ref=f10e2334]: "2"
+                                - generic [ref=f10e2335]: r
+                                - generic [ref=f10e2336]: s
+                                - generic [ref=f10e2337]: +
+                                - generic [ref=f10e2338]:
+                                  - generic [ref=f10e2339]: s
+                                  - generic [ref=f10e2340]: "2"
+                            - text: composite?
+                          - generic [ref=f10e371]:
+                            - radio "Yes, because r 2 + 2 r s + s 2 = ( r + s ) 2 and r + s is an integer." [ref=f10e1641]
+                            - generic [ref=f10e373]:
+                              - text: Yes, because
+                              - generic [ref=f10e1643]:
+                                - generic [ref=f10e1647]:
+                                  - generic [ref=f10e1648]:
+                                    - generic [ref=f10e1649]: r
+                                    - generic [ref=f10e1651]: "2"
+                                  - generic [ref=f10e1655]: +
+                                  - generic [ref=f10e1656]: "2"
+                                  - generic [ref=f10e1657]: r
+                                  - generic [ref=f10e1658]: s
+                                  - generic [ref=f10e1659]: +
+                                  - generic [ref=f10e1660]:
+                                    - generic [ref=f10e1661]: s
+                                    - generic [ref=f10e1663]: "2"
+                                  - generic [ref=f10e1667]: =
+                                  - generic [ref=f10e1668]: (
+                                  - generic [ref=f10e1669]: r
+                                  - generic [ref=f10e1670]: +
+                                  - generic [ref=f10e1671]: s
+                                  - generic [ref=f10e1672]:
+                                    - generic [ref=f10e1673]: )
+                                    - generic [ref=f10e1675]: "2"
+                                - math [ref=f10e2342]:
+                                  - generic [ref=f10e2343]:
+                                    - generic [ref=f10e2344]: r
+                                    - generic [ref=f10e2345]: "2"
+                                  - generic [ref=f10e2347]: +
+                                  - generic [ref=f10e2348]: "2"
+                                  - generic [ref=f10e2349]: r
+                                  - generic [ref=f10e2350]: s
+                                  - generic [ref=f10e2351]: +
+                                  - generic [ref=f10e2352]:
+                                    - generic [ref=f10e2353]: s
+                                    - generic [ref=f10e2354]: "2"
+                                  - generic [ref=f10e2356]: =
+                                  - generic [ref=f10e2357]: (
+                                  - generic [ref=f10e2358]: r
+                                  - generic [ref=f10e2359]: +
+                                  - generic [ref=f10e2360]: s
+                                  - generic [ref=f10e2361]:
+                                    - generic [ref=f10e2362]: )
+                                    - generic [ref=f10e2363]: "2"
+                              - text: and
+                              - generic [ref=f10e1680]:
+                                - generic [ref=f10e1684]:
+                                  - generic [ref=f10e1685]: r
+                                  - generic [ref=f10e1686]: +
+                                  - generic [ref=f10e1687]: s
+                                - math [ref=f10e2365]:
+                                  - generic [ref=f10e2366]: r
+                                  - generic [ref=f10e2367]: +
+                                  - generic [ref=f10e2368]: s
+                              - text: is an integer.
+                          - generic [ref=f10e374]:
+                            - radio "Yes, because r 2 + 2 r s + s 2 = ( r + s ) 2 and r + s is not an integer." [ref=f10e1688]
+                            - generic [ref=f10e376]:
+                              - text: Yes, because
+                              - generic [ref=f10e1690]:
+                                - generic [ref=f10e1694]:
+                                  - generic [ref=f10e1695]:
+                                    - generic [ref=f10e1696]: r
+                                    - generic [ref=f10e1698]: "2"
+                                  - generic [ref=f10e1702]: +
+                                  - generic [ref=f10e1703]: "2"
+                                  - generic [ref=f10e1704]: r
+                                  - generic [ref=f10e1705]: s
+                                  - generic [ref=f10e1706]: +
+                                  - generic [ref=f10e1707]:
+                                    - generic [ref=f10e1708]: s
+                                    - generic [ref=f10e1710]: "2"
+                                  - generic [ref=f10e1714]: =
+                                  - generic [ref=f10e1715]: (
+                                  - generic [ref=f10e1716]: r
+                                  - generic [ref=f10e1717]: +
+                                  - generic [ref=f10e1718]: s
+                                  - generic [ref=f10e1719]:
+                                    - generic [ref=f10e1720]: )
+                                    - generic [ref=f10e1722]: "2"
+                                - math [ref=f10e2369]:
+                                  - generic [ref=f10e2370]:
+                                    - generic [ref=f10e2371]: r
+                                    - generic [ref=f10e2372]: "2"
+                                  - generic [ref=f10e2374]: +
+                                  - generic [ref=f10e2375]: "2"
+                                  - generic [ref=f10e2376]: r
+                                  - generic [ref=f10e2377]: s
+                                  - generic [ref=f10e2378]: +
+                                  - generic [ref=f10e2379]:
+                                    - generic [ref=f10e2380]: s
+                                    - generic [ref=f10e2381]: "2"
+                                  - generic [ref=f10e2383]: =
+                                  - generic [ref=f10e2384]: (
+                                  - generic [ref=f10e2385]: r
+                                  - generic [ref=f10e2386]: +
+                                  - generic [ref=f10e2387]: s
+                                  - generic [ref=f10e2388]:
+                                    - generic [ref=f10e2389]: )
+                                    - generic [ref=f10e2390]: "2"
+                              - text: and
+                              - generic [ref=f10e1727]:
+                                - generic [ref=f10e1731]:
+                                  - generic [ref=f10e1732]: r
+                                  - generic [ref=f10e1733]: +
+                                  - generic [ref=f10e1734]: s
+                                - math [ref=f10e2392]:
+                                  - generic [ref=f10e2393]: r
+                                  - generic [ref=f10e2394]: +
+                                  - generic [ref=f10e2395]: s
+                              - text: is not an integer.
+                          - generic [ref=f10e377]:
+                            - radio "No, because r 2 + 2 r s + s 2 = ( r + s ) 2 and r + s is not an integer." [ref=f10e1735]
+                            - generic [ref=f10e379]:
+                              - text: No, because
+                              - generic [ref=f10e1737]:
+                                - generic [ref=f10e1741]:
+                                  - generic [ref=f10e1742]:
+                                    - generic [ref=f10e1743]: r
+                                    - generic [ref=f10e1745]: "2"
+                                  - generic [ref=f10e1749]: +
+                                  - generic [ref=f10e1750]: "2"
+                                  - generic [ref=f10e1751]: r
+                                  - generic [ref=f10e1752]: s
+                                  - generic [ref=f10e1753]: +
+                                  - generic [ref=f10e1754]:
+                                    - generic [ref=f10e1755]: s
+                                    - generic [ref=f10e1757]: "2"
+                                  - generic [ref=f10e1761]: =
+                                  - generic [ref=f10e1762]: (
+                                  - generic [ref=f10e1763]: r
+                                  - generic [ref=f10e1764]: +
+                                  - generic [ref=f10e1765]: s
+                                  - generic [ref=f10e1766]:
+                                    - generic [ref=f10e1767]: )
+                                    - generic [ref=f10e1769]: "2"
+                                - math [ref=f10e2396]:
+                                  - generic [ref=f10e2397]:
+                                    - generic [ref=f10e2398]: r
+                                    - generic [ref=f10e2399]: "2"
+                                  - generic [ref=f10e2401]: +
+                                  - generic [ref=f10e2402]: "2"
+                                  - generic [ref=f10e2403]: r
+                                  - generic [ref=f10e2404]: s
+                                  - generic [ref=f10e2405]: +
+                                  - generic [ref=f10e2406]:
+                                    - generic [ref=f10e2407]: s
+                                    - generic [ref=f10e2408]: "2"
+                                  - generic [ref=f10e2410]: =
+                                  - generic [ref=f10e2411]: (
+                                  - generic [ref=f10e2412]: r
+                                  - generic [ref=f10e2413]: +
+                                  - generic [ref=f10e2414]: s
+                                  - generic [ref=f10e2415]:
+                                    - generic [ref=f10e2416]: )
+                                    - generic [ref=f10e2417]: "2"
+                              - text: and
+                              - generic [ref=f10e1774]:
+                                - generic [ref=f10e1778]:
+                                  - generic [ref=f10e1779]: r
+                                  - generic [ref=f10e1780]: +
+                                  - generic [ref=f10e1781]: s
+                                - math [ref=f10e2419]:
+                                  - generic [ref=f10e2420]: r
+                                  - generic [ref=f10e2421]: +
+                                  - generic [ref=f10e2422]: s
+                              - text: is not an integer.
+                          - generic [ref=f10e380]:
+                            - radio "No, because r 2 + 2 r s + s 2 = ( r + s ) 2 and r + s is an integer." [ref=f10e1782]
+                            - generic [ref=f10e382]:
+                              - text: No, because
+                              - generic [ref=f10e1784]:
+                                - generic [ref=f10e1788]:
+                                  - generic [ref=f10e1789]:
+                                    - generic [ref=f10e1790]: r
+                                    - generic [ref=f10e1792]: "2"
+                                  - generic [ref=f10e1796]: +
+                                  - generic [ref=f10e1797]: "2"
+                                  - generic [ref=f10e1798]: r
+                                  - generic [ref=f10e1799]: s
+                                  - generic [ref=f10e1800]: +
+                                  - generic [ref=f10e1801]:
+                                    - generic [ref=f10e1802]: s
+                                    - generic [ref=f10e1804]: "2"
+                                  - generic [ref=f10e1808]: =
+                                  - generic [ref=f10e1809]: (
+                                  - generic [ref=f10e1810]: r
+                                  - generic [ref=f10e1811]: +
+                                  - generic [ref=f10e1812]: s
+                                  - generic [ref=f10e1813]:
+                                    - generic [ref=f10e1814]: )
+                                    - generic [ref=f10e1816]: "2"
+                                - math [ref=f10e2423]:
+                                  - generic [ref=f10e2424]:
+                                    - generic [ref=f10e2425]: r
+                                    - generic [ref=f10e2426]: "2"
+                                  - generic [ref=f10e2428]: +
+                                  - generic [ref=f10e2429]: "2"
+                                  - generic [ref=f10e2430]: r
+                                  - generic [ref=f10e2431]: s
+                                  - generic [ref=f10e2432]: +
+                                  - generic [ref=f10e2433]:
+                                    - generic [ref=f10e2434]: s
+                                    - generic [ref=f10e2435]: "2"
+                                  - generic [ref=f10e2437]: =
+                                  - generic [ref=f10e2438]: (
+                                  - generic [ref=f10e2439]: r
+                                  - generic [ref=f10e2440]: +
+                                  - generic [ref=f10e2441]: s
+                                  - generic [ref=f10e2442]:
+                                    - generic [ref=f10e2443]: )
+                                    - generic [ref=f10e2444]: "2"
+                              - text: and
+                              - generic [ref=f10e1821]:
+                                - generic [ref=f10e1825]:
+                                  - generic [ref=f10e1826]: r
+                                  - generic [ref=f10e1827]: +
+                                  - generic [ref=f10e1828]: s
+                                - math [ref=f10e2446]:
+                                  - generic [ref=f10e2447]: r
+                                  - generic [ref=f10e2448]: +
+                                  - generic [ref=f10e2449]: s
+                              - text: is an integer.
+                  - generic "Resource box" [ref=f10e386]:
+                    - generic [ref=f10e387]:
+                      - generic [ref=f10e388]: Resources
+                      - generic [ref=f10e389]:
+                        - paragraph [ref=f10e390]:
+                          - link "Read It (opens in a new tab)" [ref=f10e391] [cursor=pointer]:
+                            - /url: "#"
+                            - text: Read It
+                        - button "Ask Student Assistant for question 2" [ref=f10e392] [cursor=pointer]: Student Assistant
+                - button "Submit Answer" [ref=f10e395] [cursor=pointer]
+            - generic [ref=f10e396]:
+              - region "Banner for question 3" [ref=f10e399]:
+                - generic [ref=f10e400]:
+                  - heading "Question 3" [level=2] [ref=f10e402]: "3."
+                  - strong [ref=f10e403]: "[– / 14.28 Points]"
+                - generic [ref=f10e404]:
+                  - button "Details for question 3." [ref=f10e405] [cursor=pointer]:
+                    - generic [ref=f10e406]: Details
+                  - button "My Notes For question 3" [ref=f10e409] [cursor=pointer]:
+                    - generic [ref=f10e410]: My Notes
+              - generic [ref=f10e411]:
+                - generic [ref=f10e413]:
+                  - generic [ref=f10e414]: EppDiscMath5 4.1.007.
+                  - region [ref=f10e415]:
+                    - strong [ref=f10e416]: Problem 3
+                    - generic [ref=f10e417]: Consider the following statement.
+                    - group [ref=f10e418]:
+                      - text: There are real numbers
+                      - emphasis [ref=f10e419]: a
+                      - text: and
+                      - emphasis [ref=f10e420]: b
+                      - text: such that
+                      - generic [ref=f10e421]:
+                        - generic [ref=f10e2452]:
+                          - generic [ref=f10e2456]:
+                            - generic [ref=f10e2457]:
+                              - generic [ref=f10e2459]:
+                                - generic [ref=f10e2460]: a
+                                - generic [ref=f10e2461]: +
+                                - generic [ref=f10e2462]: b
+                              - generic [ref=f10e2463]:
+                                - generic [ref=f10e2464]: −
+                                - generic [ref=f10e2465]: −
+                                - generic [ref=f10e2466]: −
+                                - generic [ref=f10e2467]: −
+                              - generic [ref=f10e2468]: √
+                            - generic [ref=f10e2470]: =
+                            - generic [ref=f10e2471]:
+                              - generic [ref=f10e2472]: a
+                              - generic [ref=f10e2475]:
+                                - generic [ref=f10e2476]: −
+                                - generic [ref=f10e2477]: −
+                              - generic [ref=f10e2478]: √
+                            - generic [ref=f10e2480]: +
+                            - generic [ref=f10e2481]:
+                              - generic [ref=f10e2482]: b
+                              - generic [ref=f10e2487]: √
+                          - math [ref=f10e2489]:
+                            - generic [ref=f10e2490]:
+                              - generic [ref=f10e2491]: a
+                              - generic [ref=f10e2492]: +
+                              - generic [ref=f10e2493]: b
+                            - generic [ref=f10e2494]: =
+                            - generic [ref=f10e2495]: a
+                            - generic [ref=f10e2497]: +
+                            - generic [ref=f10e2498]: b
+                        - text: .
+                    - generic [ref=f10e422]:
+                      - text: To prove the statement, it suffices to find values of
+                      - emphasis [ref=f10e423]: a
+                      - text: and
+                      - emphasis [ref=f10e424]: b
+                      - text: that satisfy the property. Show that you can do this by entering appropriate values for
+                      - emphasis [ref=f10e425]: a
+                      - text: and
+                      - emphasis [ref=f10e426]: b
+                      - text: in the box below, as an ordered, comma-separated list of two numbers.
+                    - generic [ref=f10e427]:
+                      - generic [ref=f10e2502]:
+                        - generic [ref=f10e2506]:
+                          - generic [ref=f10e2507]: (
+                          - generic [ref=f10e2508]: a
+                          - generic [ref=f10e2509]: ","
+                          - generic [ref=f10e2510]: b
+                          - generic [ref=f10e2511]: )
+                          - generic [ref=f10e2512]: =
+                          - generic [ref=f10e2513]: (
+                        - math [ref=f10e2519]:
+                          - generic [ref=f10e2520]: (
+                          - generic [ref=f10e2521]: a
+                          - generic [ref=f10e2522]: ","
+                          - generic [ref=f10e2523]: b
+                          - generic [ref=f10e2524]: )
+                          - generic [ref=f10e2525]: =
+                          - generic [ref=f10e2526]: (
+                      - generic [ref=f10e429]:
+                        - generic [ref=f10e430]:
+                          - button [ref=f10e431]
+                          - button "Open full math pad" [ref=f10e433] [cursor=pointer]
+                        - generic [ref=f10e435]: Press Space or Enter to edit this math answer.
+                      - generic [ref=f10e2532]:
+                        - generic [ref=f10e2534]: )
+                        - math [ref=f10e2543]:
+                          - generic [ref=f10e2544]: )
+                  - generic "Resource box" [ref=f10e439]:
+                    - generic [ref=f10e440]:
+                      - generic [ref=f10e441]: Resources
+                      - generic [ref=f10e442]:
+                        - paragraph [ref=f10e443]:
+                          - link "Read It (opens in a new tab)" [ref=f10e444] [cursor=pointer]:
+                            - /url: "#"
+                            - text: Read It
+                        - button "Ask Student Assistant for question 3" [ref=f10e445] [cursor=pointer]: Student Assistant
+                - button "Submit Answer" [ref=f10e448] [cursor=pointer]
+            - generic [ref=f10e449]:
+              - region "Banner for question 4" [ref=f10e452]:
+                - generic [ref=f10e453]:
+                  - heading "Question 4" [level=2] [ref=f10e455]: "4."
+                  - strong [ref=f10e456]: "[– / 14.28 Points]"
+                - generic [ref=f10e457]:
+                  - button "Details for question 4." [ref=f10e458] [cursor=pointer]:
+                    - generic [ref=f10e459]: Details
+                  - button "My Notes For question 4" [ref=f10e462] [cursor=pointer]:
+                    - generic [ref=f10e463]: My Notes
+              - generic [ref=f10e464]:
+                - generic [ref=f10e466]:
+                  - generic [ref=f10e467]: EppDiscMath5 4.1.011.
+                  - region [ref=f10e468]:
+                    - strong [ref=f10e469]: Problem 4
+                    - generic [ref=f10e470]: Consider the following statement.
+                    - group [ref=f10e471]:
+                      - text: There is an integer
+                      - emphasis [ref=f10e472]: "n"
+                      - text: such that
+                      - generic [ref=f10e2549]:
+                        - generic [ref=f10e2553]:
+                          - generic [ref=f10e2554]: "2"
+                          - generic [ref=f10e2555]:
+                            - generic [ref=f10e2556]: "n"
+                            - generic [ref=f10e2558]: "2"
+                          - generic [ref=f10e2562]: −
+                          - generic [ref=f10e2563]: "5"
+                          - generic [ref=f10e2564]: "n"
+                          - generic [ref=f10e2565]: +
+                          - generic [ref=f10e2566]: "2"
+                        - math [ref=f10e2567]:
+                          - generic [ref=f10e2568]: "2"
+                          - generic [ref=f10e2569]:
+                            - generic [ref=f10e2570]: "n"
+                            - generic [ref=f10e2571]: "2"
+                          - generic [ref=f10e2573]: −
+                          - generic [ref=f10e2574]: "5"
+                          - generic [ref=f10e2575]: "n"
+                          - generic [ref=f10e2576]: +
+                          - generic [ref=f10e2577]: "2"
+                      - text: is prime.
+                    - generic [ref=f10e473]:
+                      - text: To prove the statement it suffices to find a value of
+                      - emphasis [ref=f10e474]: "n"
+                      - text: such that
+                      - generic [ref=f10e2580]:
+                        - generic [ref=f10e2584]:
+                          - generic [ref=f10e2585]: (
+                          - generic [ref=f10e2586]: "n"
+                          - generic [ref=f10e2587]: ","
+                          - generic [ref=f10e2588]: "2"
+                          - generic [ref=f10e2589]:
+                            - generic [ref=f10e2590]: "n"
+                            - generic [ref=f10e2592]: "2"
+                          - generic [ref=f10e2596]: −
+                          - generic [ref=f10e2597]: "5"
+                          - generic [ref=f10e2598]: "n"
+                          - generic [ref=f10e2599]: +
+                          - generic [ref=f10e2600]: "2"
+                          - generic [ref=f10e2601]: )
+                        - math [ref=f10e2602]:
+                          - generic [ref=f10e2603]: (
+                          - generic [ref=f10e2604]: "n"
+                          - generic [ref=f10e2605]: ","
+                          - generic [ref=f10e2606]: "2"
+                          - generic [ref=f10e2607]:
+                            - generic [ref=f10e2608]: "n"
+                            - generic [ref=f10e2609]: "2"
+                          - generic [ref=f10e2611]: −
+                          - generic [ref=f10e2612]: "5"
+                          - generic [ref=f10e2613]: "n"
+                          - generic [ref=f10e2614]: +
+                          - generic [ref=f10e2615]: "2"
+                          - generic [ref=f10e2616]: )
+                      - text: satisfies the property
+                      - generic [ref=f10e475]:
+                        - text: "\""
+                        - generic [ref=f10e2619]:
+                          - generic [ref=f10e2623]:
+                            - generic [ref=f10e2624]: "2"
+                            - generic [ref=f10e2625]:
+                              - generic [ref=f10e2626]: "n"
+                              - generic [ref=f10e2628]: "2"
+                            - generic [ref=f10e2632]: −
+                            - generic [ref=f10e2633]: "5"
+                            - generic [ref=f10e2634]: "n"
+                            - generic [ref=f10e2635]: +
+                            - generic [ref=f10e2636]: "2"
+                          - math [ref=f10e2637]:
+                            - generic [ref=f10e2638]: "2"
+                            - generic [ref=f10e2639]:
+                              - generic [ref=f10e2640]: "n"
+                              - generic [ref=f10e2641]: "2"
+                            - generic [ref=f10e2643]: −
+                            - generic [ref=f10e2644]: "5"
+                            - generic [ref=f10e2645]: "n"
+                            - generic [ref=f10e2646]: +
+                            - generic [ref=f10e2647]: "2"
+                        - text: is prime."
+                      - text: Show that you can do this by entering appropriate values for
+                      - emphasis [ref=f10e476]: "n"
+                      - text: and
+                      - generic [ref=f10e477]:
+                        - generic [ref=f10e2650]:
+                          - generic [ref=f10e2654]:
+                            - generic [ref=f10e2655]: "2"
+                            - generic [ref=f10e2656]:
+                              - generic [ref=f10e2657]: "n"
+                              - generic [ref=f10e2659]: "2"
+                            - generic [ref=f10e2663]: −
+                            - generic [ref=f10e2664]: "5"
+                            - generic [ref=f10e2665]: "n"
+                            - generic [ref=f10e2666]: +
+                            - generic [ref=f10e2667]: "2"
+                          - math [ref=f10e2668]:
+                            - generic [ref=f10e2669]: "2"
+                            - generic [ref=f10e2670]:
+                              - generic [ref=f10e2671]: "n"
+                              - generic [ref=f10e2672]: "2"
+                            - generic [ref=f10e2674]: −
+                            - generic [ref=f10e2675]: "5"
+                            - generic [ref=f10e2676]: "n"
+                            - generic [ref=f10e2677]: +
+                            - generic [ref=f10e2678]: "2"
+                        - text: .
+                    - generic [ref=f10e478]:
+                      - generic [ref=f10e2681]:
+                        - generic [ref=f10e2685]:
+                          - generic [ref=f10e2686]: (
+                          - generic [ref=f10e2687]: "n"
+                          - generic [ref=f10e2688]: ","
+                          - generic [ref=f10e2689]: "2"
+                          - generic [ref=f10e2690]:
+                            - generic [ref=f10e2691]: "n"
+                            - generic [ref=f10e2693]: "2"
+                          - generic [ref=f10e2697]: −
+                          - generic [ref=f10e2698]: "5"
+                          - generic [ref=f10e2699]: "n"
+                          - generic [ref=f10e2700]: +
+                          - generic [ref=f10e2701]: "2"
+                          - generic [ref=f10e2702]: )
+                          - generic [ref=f10e2703]: =
+                          - generic [ref=f10e2704]: (
+                        - math [ref=f10e2710]:
+                          - generic [ref=f10e2711]: (
+                          - generic [ref=f10e2712]: "n"
+                          - generic [ref=f10e2713]: ","
+                          - generic [ref=f10e2714]: "2"
+                          - generic [ref=f10e2715]:
+                            - generic [ref=f10e2716]: "n"
+                            - generic [ref=f10e2717]: "2"
+                          - generic [ref=f10e2719]: −
+                          - generic [ref=f10e2720]: "5"
+                          - generic [ref=f10e2721]: "n"
+                          - generic [ref=f10e2722]: +
+                          - generic [ref=f10e2723]: "2"
+                          - generic [ref=f10e2724]: )
+                          - generic [ref=f10e2725]: =
+                          - generic [ref=f10e2726]: (
+                      - generic [ref=f10e480]:
+                        - generic [ref=f10e481]:
+                          - button [ref=f10e482]
+                          - button "Open full math pad" [ref=f10e484] [cursor=pointer]
+                        - generic [ref=f10e486]: Press Space or Enter to edit this math answer.
+                      - generic [ref=f10e2732]:
+                        - generic [ref=f10e2734]: )
+                        - math [ref=f10e2743]:
+                          - generic [ref=f10e2744]: )
+                  - generic "Resource box" [ref=f10e490]:
+                    - generic [ref=f10e491]:
+                      - generic [ref=f10e492]: Resources
+                      - generic [ref=f10e493]:
+                        - paragraph [ref=f10e494]:
+                          - link "Read It (opens in a new tab)" [ref=f10e495] [cursor=pointer]:
+                            - /url: "#"
+                            - text: Read It
+                        - button "Ask Student Assistant for question 4" [ref=f10e496] [cursor=pointer]: Student Assistant
+                - button "Submit Answer" [ref=f10e499] [cursor=pointer]
+            - generic [ref=f10e500]:
+              - region "Banner for question 5" [ref=f10e503]:
+                - generic [ref=f10e504]:
+                  - heading "Question 5" [level=2] [ref=f10e506]: "5."
+                  - strong [ref=f10e507]: "[– / 14.28 Points]"
+                - generic [ref=f10e508]:
+                  - button "Details for question 5." [ref=f10e509] [cursor=pointer]:
+                    - generic [ref=f10e510]: Details
+                  - button "My Notes For question 5" [ref=f10e513] [cursor=pointer]:
+                    - generic [ref=f10e514]: My Notes
+              - generic [ref=f10e515]:
+                - generic [ref=f10e517]:
+                  - generic [ref=f10e518]: EppDiscMath5 4.1.015.
+                  - region [ref=f10e519]:
+                    - strong [ref=f10e520]: Problem 5
+                    - generic [ref=f10e521]: Disprove the following statement by giving a counterexample.
+                    - group [ref=f10e522]:
+                      - text: For every integer
+                      - emphasis [ref=f10e523]: p
+                      - text: ", if"
+                      - emphasis [ref=f10e524]: p
+                      - text: is prime then
+                      - generic [ref=f10e2749]:
+                        - generic [ref=f10e2753]:
+                          - generic [ref=f10e2754]:
+                            - generic [ref=f10e2755]: p
+                            - generic [ref=f10e2757]: "2"
+                          - generic [ref=f10e2761]: −
+                          - generic [ref=f10e2762]: "1"
+                        - math [ref=f10e2763]:
+                          - generic [ref=f10e2764]:
+                            - generic [ref=f10e2765]: p
+                            - generic [ref=f10e2766]: "2"
+                          - generic [ref=f10e2768]: −
+                          - generic [ref=f10e2769]: "1"
+                      - text: is even.
+                    - group "Read and complete the following." [ref=f10e526]:
+                      - generic [ref=f10e528]:
+                        - emphasis [ref=f10e529]: Counterexample
+                        - text: ": Consider the ordered pair"
+                        - generic [ref=f10e2772]:
+                          - generic [ref=f10e2776]:
+                            - generic [ref=f10e2777]: (
+                            - generic [ref=f10e2778]: p
+                            - generic [ref=f10e2779]: ","
+                            - generic [ref=f10e2780]:
+                              - generic [ref=f10e2781]: p
+                              - generic [ref=f10e2783]: "2"
+                            - generic [ref=f10e2787]: −
+                            - generic [ref=f10e2788]: "1"
+                            - generic [ref=f10e2789]: )
+                            - generic [ref=f10e2790]: =
+                            - generic [ref=f10e2791]: (
+                          - math [ref=f10e2797]:
+                            - generic [ref=f10e2798]: (
+                            - generic [ref=f10e2799]: p
+                            - generic [ref=f10e2800]: ","
+                            - generic [ref=f10e2801]:
+                              - generic [ref=f10e2802]: p
+                              - generic [ref=f10e2803]: "2"
+                            - generic [ref=f10e2805]: −
+                            - generic [ref=f10e2806]: "1"
+                            - generic [ref=f10e2807]: )
+                            - generic [ref=f10e2808]: =
+                            - generic [ref=f10e2809]: (
+                        - generic [ref=f10e531]:
+                          - generic [ref=f10e532]:
+                            - button [ref=f10e533]
+                            - button "Open full math pad" [ref=f10e535] [cursor=pointer]
+                          - generic [ref=f10e537]: Press Space or Enter to edit this math answer.
+                        - generic [ref=f10e538]:
+                          - generic [ref=f10e2815]:
+                            - generic [ref=f10e2817]: )
+                            - math [ref=f10e2826]:
+                              - generic [ref=f10e2827]: )
+                          - text: .
+                    - group "The values in the ordered pair show that the given statement is false because (choose one)" [ref=f10e540]:
+                      - generic [ref=f10e542]:
+                        - radio "p is prime and p 2 − 1 is even." [ref=f10e2830]
+                        - generic [ref=f10e544]:
+                          - emphasis [ref=f10e545]: p
+                          - text: is prime and
+                          - generic [ref=f10e2833]:
+                            - generic [ref=f10e2837]:
+                              - generic [ref=f10e2838]:
+                                - generic [ref=f10e2839]: p
+                                - generic [ref=f10e2841]: "2"
+                              - generic [ref=f10e2845]: −
+                              - generic [ref=f10e2846]: "1"
+                            - math [ref=f10e2847]:
+                              - generic [ref=f10e2848]:
+                                - generic [ref=f10e2849]: p
+                                - generic [ref=f10e2850]: "2"
+                              - generic [ref=f10e2852]: −
+                              - generic [ref=f10e2853]: "1"
+                          - text: is even.
+                      - generic [ref=f10e547]:
+                        - radio "p is prime and p 2 − 1 is not even." [ref=f10e2854]
+                        - generic [ref=f10e549]:
+                          - emphasis [ref=f10e550]: p
+                          - text: is prime and
+                          - generic [ref=f10e2857]:
+                            - generic [ref=f10e2861]:
+                              - generic [ref=f10e2862]:
+                                - generic [ref=f10e2863]: p
+                                - generic [ref=f10e2865]: "2"
+                              - generic [ref=f10e2869]: −
+                              - generic [ref=f10e2870]: "1"
+                            - math [ref=f10e2871]:
+                              - generic [ref=f10e2872]:
+                                - generic [ref=f10e2873]: p
+                                - generic [ref=f10e2874]: "2"
+                              - generic [ref=f10e2876]: −
+                              - generic [ref=f10e2877]: "1"
+                          - text: is not even.
+                      - generic [ref=f10e552]:
+                        - radio "p is not prime and p 2 − 1 is even." [ref=f10e2878]
+                        - generic [ref=f10e554]:
+                          - emphasis [ref=f10e555]: p
+                          - text: is not prime and
+                          - generic [ref=f10e2881]:
+                            - generic [ref=f10e2885]:
+                              - generic [ref=f10e2886]:
+                                - generic [ref=f10e2887]: p
+                                - generic [ref=f10e2889]: "2"
+                              - generic [ref=f10e2893]: −
+                              - generic [ref=f10e2894]: "1"
+                            - math [ref=f10e2895]:
+                              - generic [ref=f10e2896]:
+                                - generic [ref=f10e2897]: p
+                                - generic [ref=f10e2898]: "2"
+                              - generic [ref=f10e2900]: −
+                              - generic [ref=f10e2901]: "1"
+                          - text: is even.
+                      - generic [ref=f10e557]:
+                        - radio "p is not prime and p 2 − 1 is not even." [ref=f10e2902]
+                        - generic [ref=f10e559]:
+                          - emphasis [ref=f10e560]: p
+                          - text: is not prime and
+                          - generic [ref=f10e2905]:
+                            - generic [ref=f10e2909]:
+                              - generic [ref=f10e2910]:
+                                - generic [ref=f10e2911]: p
+                                - generic [ref=f10e2913]: "2"
+                              - generic [ref=f10e2917]: −
+                              - generic [ref=f10e2918]: "1"
+                            - math [ref=f10e2919]:
+                              - generic [ref=f10e2920]:
+                                - generic [ref=f10e2921]: p
+                                - generic [ref=f10e2922]: "2"
+                              - generic [ref=f10e2924]: −
+                              - generic [ref=f10e2925]: "1"
+                          - text: is not even.
+                  - generic "Resource box" [ref=f10e565]:
+                    - generic [ref=f10e566]:
+                      - generic [ref=f10e567]: Resources
+                      - generic [ref=f10e568]:
+                        - paragraph [ref=f10e569]:
+                          - link "Read It (opens in a new tab)" [ref=f10e570] [cursor=pointer]:
+                            - /url: "#"
+                            - text: Read It
+                          - link "Watch It (opens in a new tab)" [ref=f10e571] [cursor=pointer]:
+                            - /url: javascript:open_bc_enhanced('watch_it', 'https://college.cengage.com/geyser/cengage_9780538738101/html/watchit_player/?asset=eppdiscmath5_04_01_014&prod=eppdiscmath5', 1)
+                            - text: Watch It
+                        - button "Ask Student Assistant for question 5" [ref=f10e572] [cursor=pointer]: Student Assistant
+                - button "Submit Answer" [ref=f10e575] [cursor=pointer]
+            - generic [ref=f10e576]:
+              - region "Banner for question 6" [ref=f10e579]:
+                - generic [ref=f10e580]:
+                  - heading "Question 6" [level=2] [ref=f10e582]: "6."
+                  - strong [ref=f10e583]: "[– / 14.28 Points]"
+                - generic [ref=f10e584]:
+                  - button "Details for question 6." [ref=f10e585] [cursor=pointer]:
+                    - generic [ref=f10e586]: Details
+                  - button "My Notes For question 6" [ref=f10e589] [cursor=pointer]:
+                    - generic [ref=f10e590]: My Notes
+                  - button "Practice Another Version for question 6." [ref=f10e591] [cursor=pointer]:
+                    - generic [ref=f10e592]: Practice Another
+              - generic [ref=f10e593]:
+                - generic [ref=f10e595]:
+                  - generic [ref=f10e596]: EppDiscMath5 4.1.016.
+                  - region [ref=f10e597]:
+                    - strong [ref=f10e598]: Problem 6
+                    - generic [ref=f10e599]: Disprove the following statement by giving a counterexample.
+                    - group [ref=f10e600]:
+                      - text: For every integer
+                      - emphasis [ref=f10e601]: "n"
+                      - text: ", if"
+                      - emphasis [ref=f10e602]: "n"
+                      - text: is even then
+                      - generic [ref=f10e2928]:
+                        - generic [ref=f10e2932]:
+                          - generic [ref=f10e2933]:
+                            - generic [ref=f10e2934]: "n"
+                            - generic [ref=f10e2936]: "2"
+                          - generic [ref=f10e2940]: +
+                          - generic [ref=f10e2941]: "1"
+                        - math [ref=f10e2942]:
+                          - generic [ref=f10e2943]:
+                            - generic [ref=f10e2944]: "n"
+                            - generic [ref=f10e2945]: "2"
+                          - generic [ref=f10e2947]: +
+                          - generic [ref=f10e2948]: "1"
+                      - text: is prime.
+                    - group "Read and complete the following." [ref=f10e604]:
+                      - generic [ref=f10e606]:
+                        - emphasis [ref=f10e607]: Counterexample
+                        - text: ": Consider the ordered pair"
+                        - generic [ref=f10e2951]:
+                          - generic [ref=f10e2955]:
+                            - generic [ref=f10e2956]: (
+                            - generic [ref=f10e2957]: "n"
+                            - generic [ref=f10e2958]: ","
+                            - generic [ref=f10e2959]:
+                              - generic [ref=f10e2960]: "n"
+                              - generic [ref=f10e2962]: "2"
+                            - generic [ref=f10e2966]: +
+                            - generic [ref=f10e2967]: "1"
+                            - generic [ref=f10e2968]: )
+                            - generic [ref=f10e2969]: =
+                            - generic [ref=f10e2970]: (
+                          - math [ref=f10e2976]:
+                            - generic [ref=f10e2977]: (
+                            - generic [ref=f10e2978]: "n"
+                            - generic [ref=f10e2979]: ","
+                            - generic [ref=f10e2980]:
+                              - generic [ref=f10e2981]: "n"
+                              - generic [ref=f10e2982]: "2"
+                            - generic [ref=f10e2984]: +
+                            - generic [ref=f10e2985]: "1"
+                            - generic [ref=f10e2986]: )
+                            - generic [ref=f10e2987]: =
+                            - generic [ref=f10e2988]: (
+                        - generic [ref=f10e609]:
+                          - generic [ref=f10e610]:
+                            - button [ref=f10e611]
+                            - button "Open full math pad" [ref=f10e613] [cursor=pointer]
+                          - generic [ref=f10e615]: Press Space or Enter to edit this math answer.
+                        - generic [ref=f10e616]:
+                          - generic [ref=f10e2994]:
+                            - generic [ref=f10e2996]: )
+                            - math [ref=f10e3005]:
+                              - generic [ref=f10e3006]: )
+                          - text: .
+                    - group "The values in the ordered pair show that the given statement is false because (choose one)" [ref=f10e618]:
+                      - generic [ref=f10e620]:
+                        - radio "n is even and n 2 + 1 is prime." [ref=f10e3009]
+                        - generic [ref=f10e622]:
+                          - emphasis [ref=f10e623]: "n"
+                          - text: is even and
+                          - generic [ref=f10e3012]:
+                            - generic [ref=f10e3016]:
+                              - generic [ref=f10e3017]:
+                                - generic [ref=f10e3018]: "n"
+                                - generic [ref=f10e3020]: "2"
+                              - generic [ref=f10e3024]: +
+                              - generic [ref=f10e3025]: "1"
+                            - math [ref=f10e3026]:
+                              - generic [ref=f10e3027]:
+                                - generic [ref=f10e3028]: "n"
+                                - generic [ref=f10e3029]: "2"
+                              - generic [ref=f10e3031]: +
+                              - generic [ref=f10e3032]: "1"
+                          - text: is prime.
+                      - generic [ref=f10e625]:
+                        - radio "n is even and n 2 + 1 is not prime." [ref=f10e3033]
+                        - generic [ref=f10e627]:
+                          - emphasis [ref=f10e628]: "n"
+                          - text: is even and
+                          - generic [ref=f10e3036]:
+                            - generic [ref=f10e3040]:
+                              - generic [ref=f10e3041]:
+                                - generic [ref=f10e3042]: "n"
+                                - generic [ref=f10e3044]: "2"
+                              - generic [ref=f10e3048]: +
+                              - generic [ref=f10e3049]: "1"
+                            - math [ref=f10e3050]:
+                              - generic [ref=f10e3051]:
+                                - generic [ref=f10e3052]: "n"
+                                - generic [ref=f10e3053]: "2"
+                              - generic [ref=f10e3055]: +
+                              - generic [ref=f10e3056]: "1"
+                          - text: is not prime.
+                      - generic [ref=f10e630]:
+                        - radio "n is not even and n 2 + 1 is prime." [ref=f10e3057]
+                        - generic [ref=f10e632]:
+                          - emphasis [ref=f10e633]: "n"
+                          - text: is not even and
+                          - generic [ref=f10e3060]:
+                            - generic [ref=f10e3064]:
+                              - generic [ref=f10e3065]:
+                                - generic [ref=f10e3066]: "n"
+                                - generic [ref=f10e3068]: "2"
+                              - generic [ref=f10e3072]: +
+                              - generic [ref=f10e3073]: "1"
+                            - math [ref=f10e3074]:
+                              - generic [ref=f10e3075]:
+                                - generic [ref=f10e3076]: "n"
+                                - generic [ref=f10e3077]: "2"
+                              - generic [ref=f10e3079]: +
+                              - generic [ref=f10e3080]: "1"
+                          - text: is prime.
+                      - generic [ref=f10e635]:
+                        - radio "n is not even and n 2 + 1 is not prime." [ref=f10e3081]
+                        - generic [ref=f10e637]:
+                          - emphasis [ref=f10e638]: "n"
+                          - text: is not even and
+                          - generic [ref=f10e3084]:
+                            - generic [ref=f10e3088]:
+                              - generic [ref=f10e3089]:
+                                - generic [ref=f10e3090]: "n"
+                                - generic [ref=f10e3092]: "2"
+                              - generic [ref=f10e3096]: +
+                              - generic [ref=f10e3097]: "1"
+                            - math [ref=f10e3098]:
+                              - generic [ref=f10e3099]:
+                                - generic [ref=f10e3100]: "n"
+                                - generic [ref=f10e3101]: "2"
+                              - generic [ref=f10e3103]: +
+                              - generic [ref=f10e3104]: "1"
+                          - text: is not prime.
+                  - generic "Resource box" [ref=f10e643]:
+                    - generic [ref=f10e644]:
+                      - generic [ref=f10e645]: Resources
+                      - generic [ref=f10e646]:
+                        - paragraph [ref=f10e647]:
+                          - link "Read It (opens in a new tab)" [ref=f10e648] [cursor=pointer]:
+                            - /url: "#"
+                            - text: Read It
+                        - button "Ask Student Assistant for question 6" [ref=f10e649] [cursor=pointer]: Student Assistant
+                - button "Submit Answer" [ref=f10e652] [cursor=pointer]
+            - generic [ref=f10e653]:
+              - region "Banner for question 7" [ref=f10e656]:
+                - generic [ref=f10e657]:
+                  - heading "Question 7" [level=2] [ref=f10e659]: "7."
+                  - strong [ref=f10e660]: "[– / 14.32 Points]"
+                - generic [ref=f10e661]:
+                  - button "Details for question 7." [ref=f10e662] [cursor=pointer]:
+                    - generic [ref=f10e663]: Details
+                  - button "My Notes For question 7" [ref=f10e666] [cursor=pointer]:
+                    - generic [ref=f10e667]: My Notes
+              - generic [ref=f10e668]:
+                - generic [ref=f10e670]:
+                  - generic [ref=f10e671]: EppDiscMath5 4.1.024.
+                  - region [ref=f10e672]:
+                    - strong [ref=f10e673]: Problem 7
+                    - region "introduction" [ref=f10e674]:
+                      - generic [ref=f10e675]: The following statement is true. (Note that you do not need to understand the statement in order to be able to do this exercise.)
+                      - group [ref=f10e676]:
+                        - text: For every real number
+                        - emphasis [ref=f10e677]: x
+                        - text: ", if"
+                        - generic [ref=f10e3107]:
+                          - generic [ref=f10e3111]:
+                            - generic [ref=f10e3112]: x
+                            - generic [ref=f10e3113]: ">"
+                            - generic [ref=f10e3114]: "1"
+                          - math [ref=f10e3115]:
+                            - generic [ref=f10e3116]: x
+                            - generic [ref=f10e3117]: ">"
+                            - generic [ref=f10e3118]: "1"
+                        - text: then
+                        - generic [ref=f10e678]:
+                          - generic [ref=f10e3121]:
+                            - generic [ref=f10e3125]:
+                              - generic [ref=f10e3126]:
+                                - generic [ref=f10e3127]: x
+                                - generic [ref=f10e3129]: "2"
+                              - generic [ref=f10e3133]: ">"
+                              - generic [ref=f10e3134]: x
+                            - math [ref=f10e3135]:
+                              - generic [ref=f10e3136]:
+                                - generic [ref=f10e3137]: x
+                                - generic [ref=f10e3138]: "2"
+                              - generic [ref=f10e3140]: ">"
+                              - generic [ref=f10e3141]: x
+                          - text: .
+                    - region "(a)" [ref=f10e679]:
+                      - generic [ref=f10e680]:
+                        - generic [ref=f10e681]: (a)
+                        - generic [ref=f10e682]:
+                          - generic [ref=f10e683]: Fill in the blanks to rewrite the statement with the quantification implicit.
+                          - group "Read and complete the following." [ref=f10e685]:
+                            - generic [ref=f10e687]:
+                              - text: If
+                              - generic: Select your first answer in part (a).
+                              - combobox "Select your first answer in part (a)." [ref=f10e689] [cursor=pointer]:
+                                - option "Select" [selected]
+                                - option "is a real number"
+                                - option "is a positive real number"
+                                - option "is a real number greater than 1"
+                                - option "x > x"
+                                - option "x < x"
+                              - text: ", then"
+                              - generic: Select your second answer in part (a).
+                              - combobox "Select your second answer in part (a)." [ref=f10e691] [cursor=pointer]:
+                                - option "Select" [selected]
+                                - option "is a real number greater than 1"
+                                - option "is a positive real number"
+                                - option "is a real number"
+                                - option "x > x"
+                                - option "x < x"
+                              - text: .
+                    - region "(b)" [ref=f10e692]:
+                      - generic [ref=f10e693]:
+                        - generic [ref=f10e694]: (b)
+                        - generic [ref=f10e695]:
+                          - group "What could be the first sentence of a proof (the \"starting point\")?" [ref=f10e697]:
+                            - generic [ref=f10e699]:
+                              - radio "Suppose x is any real number such that x > 1 ." [ref=f10e3142]
+                              - generic [ref=f10e701]:
+                                - text: Suppose
+                                - emphasis [ref=f10e702]: x
+                                - text: is any real number such that
+                                - generic [ref=f10e703]:
+                                  - generic [ref=f10e3145]:
+                                    - generic [ref=f10e3149]:
+                                      - generic [ref=f10e3150]: x
+                                      - generic [ref=f10e3151]: ">"
+                                      - generic [ref=f10e3152]: "1"
+                                    - math [ref=f10e3153]:
+                                      - generic [ref=f10e3154]: x
+                                      - generic [ref=f10e3155]: ">"
+                                      - generic [ref=f10e3156]: "1"
+                                  - text: .
+                            - generic [ref=f10e704]:
+                              - radio "Suppose x = 2 ." [ref=f10e3157]
+                              - generic [ref=f10e706]:
+                                - text: Suppose
+                                - generic [ref=f10e707]:
+                                  - generic [ref=f10e3160]:
+                                    - generic [ref=f10e3164]:
+                                      - generic [ref=f10e3165]: x
+                                      - generic [ref=f10e3166]: =
+                                      - generic [ref=f10e3167]: "2"
+                                    - math [ref=f10e3168]:
+                                      - generic [ref=f10e3169]: x
+                                      - generic [ref=f10e3170]: =
+                                      - generic [ref=f10e3171]: "2"
+                                  - text: .
+                            - generic [ref=f10e708]:
+                              - radio "Suppose x = 1 ." [ref=f10e3172]
+                              - generic [ref=f10e710]:
+                                - text: Suppose
+                                - generic [ref=f10e711]:
+                                  - generic [ref=f10e3175]:
+                                    - generic [ref=f10e3179]:
+                                      - generic [ref=f10e3180]: x
+                                      - generic [ref=f10e3181]: =
+                                      - generic [ref=f10e3182]: "1"
+                                    - math [ref=f10e3183]:
+                                      - generic [ref=f10e3184]: x
+                                      - generic [ref=f10e3185]: =
+                                      - generic [ref=f10e3186]: "1"
+                                  - text: .
+                            - generic [ref=f10e712]:
+                              - radio "Suppose x is any positive real number." [ref=f10e713]
+                              - generic [ref=f10e714]:
+                                - text: Suppose
+                                - emphasis [ref=f10e715]: x
+                                - text: is any positive real number.
+                            - generic [ref=f10e716]:
+                              - radio "Suppose x is any real number such that x 2 > x ." [ref=f10e3187]
+                              - generic [ref=f10e718]:
+                                - text: Suppose
+                                - emphasis [ref=f10e719]: x
+                                - text: is any real number such that
+                                - generic [ref=f10e720]:
+                                  - generic [ref=f10e3190]:
+                                    - generic [ref=f10e3194]:
+                                      - generic [ref=f10e3195]:
+                                        - generic [ref=f10e3196]: x
+                                        - generic [ref=f10e3198]: "2"
+                                      - generic [ref=f10e3202]: ">"
+                                      - generic [ref=f10e3203]: x
+                                    - math [ref=f10e3204]:
+                                      - generic [ref=f10e3205]:
+                                        - generic [ref=f10e3206]: x
+                                        - generic [ref=f10e3207]: "2"
+                                      - generic [ref=f10e3209]: ">"
+                                      - generic [ref=f10e3210]: x
+                                  - text: .
+                          - group "What could be the last sentence of a proof (the \"conclusion to be shown\")?" [ref=f10e722]:
+                            - generic [ref=f10e724]:
+                              - radio "Therefore x 2 > x ." [ref=f10e3211]
+                              - generic [ref=f10e726]:
+                                - text: Therefore
+                                - generic [ref=f10e727]:
+                                  - generic [ref=f10e3214]:
+                                    - generic [ref=f10e3218]:
+                                      - generic [ref=f10e3219]:
+                                        - generic [ref=f10e3220]: x
+                                        - generic [ref=f10e3222]: "2"
+                                      - generic [ref=f10e3226]: ">"
+                                      - generic [ref=f10e3227]: x
+                                    - math [ref=f10e3228]:
+                                      - generic [ref=f10e3229]:
+                                        - generic [ref=f10e3230]: x
+                                        - generic [ref=f10e3231]: "2"
+                                      - generic [ref=f10e3233]: ">"
+                                      - generic [ref=f10e3234]: x
+                                  - text: .
+                            - generic [ref=f10e728]:
+                              - radio "Therefore x 2 < x ." [ref=f10e3235]
+                              - generic [ref=f10e730]:
+                                - text: Therefore
+                                - generic [ref=f10e731]:
+                                  - generic [ref=f10e3238]:
+                                    - generic [ref=f10e3242]:
+                                      - generic [ref=f10e3243]:
+                                        - generic [ref=f10e3244]: x
+                                        - generic [ref=f10e3246]: "2"
+                                      - generic [ref=f10e3250]: <
+                                      - generic [ref=f10e3251]: x
+                                    - math [ref=f10e3252]:
+                                      - generic [ref=f10e3253]:
+                                        - generic [ref=f10e3254]: x
+                                        - generic [ref=f10e3255]: "2"
+                                      - generic [ref=f10e3257]: <
+                                      - generic [ref=f10e3258]: x
+                                  - text: .
+                            - generic [ref=f10e732]:
+                              - radio "Because x = 2 , x 2 = 4 , thus x 2 > x ." [ref=f10e3259]
+                              - generic [ref=f10e734]:
+                                - text: Because
+                                - generic [ref=f10e735]:
+                                  - generic [ref=f10e3262]:
+                                    - generic [ref=f10e3266]:
+                                      - generic [ref=f10e3267]: x
+                                      - generic [ref=f10e3268]: =
+                                      - generic [ref=f10e3269]: "2"
+                                    - math [ref=f10e3270]:
+                                      - generic [ref=f10e3271]: x
+                                      - generic [ref=f10e3272]: =
+                                      - generic [ref=f10e3273]: "2"
+                                  - text: ","
+                                - generic [ref=f10e736]:
+                                  - generic [ref=f10e3276]:
+                                    - generic [ref=f10e3280]:
+                                      - generic [ref=f10e3281]:
+                                        - generic [ref=f10e3282]: x
+                                        - generic [ref=f10e3284]: "2"
+                                      - generic [ref=f10e3288]: =
+                                      - generic [ref=f10e3289]: "4"
+                                    - math [ref=f10e3290]:
+                                      - generic [ref=f10e3291]:
+                                        - generic [ref=f10e3292]: x
+                                        - generic [ref=f10e3293]: "2"
+                                      - generic [ref=f10e3295]: =
+                                      - generic [ref=f10e3296]: "4"
+                                  - text: ","
+                                - text: thus
+                                - generic [ref=f10e737]:
+                                  - generic [ref=f10e3299]:
+                                    - generic [ref=f10e3303]:
+                                      - generic [ref=f10e3304]:
+                                        - generic [ref=f10e3305]: x
+                                        - generic [ref=f10e3307]: "2"
+                                      - generic [ref=f10e3311]: ">"
+                                      - generic [ref=f10e3312]: x
+                                    - math [ref=f10e3313]:
+                                      - generic [ref=f10e3314]:
+                                        - generic [ref=f10e3315]: x
+                                        - generic [ref=f10e3316]: "2"
+                                      - generic [ref=f10e3318]: ">"
+                                      - generic [ref=f10e3319]: x
+                                  - text: .
+                            - generic [ref=f10e738]:
+                              - radio "Because x = 1 , x 2 = 1 , thus x 2 = x ." [ref=f10e3320]
+                              - generic [ref=f10e740]:
+                                - text: Because
+                                - generic [ref=f10e741]:
+                                  - generic [ref=f10e3323]:
+                                    - generic [ref=f10e3327]:
+                                      - generic [ref=f10e3328]: x
+                                      - generic [ref=f10e3329]: =
+                                      - generic [ref=f10e3330]: "1"
+                                    - math [ref=f10e3331]:
+                                      - generic [ref=f10e3332]: x
+                                      - generic [ref=f10e3333]: =
+                                      - generic [ref=f10e3334]: "1"
+                                  - text: ","
+                                - generic [ref=f10e742]:
+                                  - generic [ref=f10e3337]:
+                                    - generic [ref=f10e3341]:
+                                      - generic [ref=f10e3342]:
+                                        - generic [ref=f10e3343]: x
+                                        - generic [ref=f10e3345]: "2"
+                                      - generic [ref=f10e3349]: =
+                                      - generic [ref=f10e3350]: "1"
+                                    - math [ref=f10e3351]:
+                                      - generic [ref=f10e3352]:
+                                        - generic [ref=f10e3353]: x
+                                        - generic [ref=f10e3354]: "2"
+                                      - generic [ref=f10e3356]: =
+                                      - generic [ref=f10e3357]: "1"
+                                  - text: ","
+                                - text: thus
+                                - generic [ref=f10e743]:
+                                  - generic [ref=f10e3360]:
+                                    - generic [ref=f10e3364]:
+                                      - generic [ref=f10e3365]:
+                                        - generic [ref=f10e3366]: x
+                                        - generic [ref=f10e3368]: "2"
+                                      - generic [ref=f10e3372]: =
+                                      - generic [ref=f10e3373]: x
+                                    - math [ref=f10e3374]:
+                                      - generic [ref=f10e3375]:
+                                        - generic [ref=f10e3376]: x
+                                        - generic [ref=f10e3377]: "2"
+                                      - generic [ref=f10e3379]: =
+                                      - generic [ref=f10e3380]: x
+                                  - text: .
+                            - generic [ref=f10e744]:
+                              - radio "Therefore x > 1 ." [ref=f10e3381]
+                              - generic [ref=f10e746]:
+                                - text: Therefore
+                                - generic [ref=f10e747]:
+                                  - generic [ref=f10e3384]:
+                                    - generic [ref=f10e3388]:
+                                      - generic [ref=f10e3389]: x
+                                      - generic [ref=f10e3390]: ">"
+                                      - generic [ref=f10e3391]: "1"
+                                    - math [ref=f10e3392]:
+                                      - generic [ref=f10e3393]: x
+                                      - generic [ref=f10e3394]: ">"
+                                      - generic [ref=f10e3395]: "1"
+                                  - text: .
+                  - generic "Resource box" [ref=f10e751]:
+                    - generic [ref=f10e752]:
+                      - generic [ref=f10e753]: Resources
+                      - generic [ref=f10e754]:
+                        - paragraph [ref=f10e755]:
+                          - link "Read It (opens in a new tab)" [ref=f10e756] [cursor=pointer]:
+                            - /url: "#"
+                            - text: Read It
+                        - button "Ask Student Assistant for question 7" [ref=f10e757] [cursor=pointer]: Student Assistant
+                - button "Submit Answer" [ref=f10e760] [cursor=pointer]
+          - generic [ref=f10e762]:
+            - link "Home" [ref=f10e763] [cursor=pointer]
+            - link "My Assignments" [ref=f10e764] [cursor=pointer]
+            - button "Open Request Extension in modal window" [ref=f10e765] [cursor=pointer]:
+              - generic [ref=f10e768]: Request Extension
+      - contentinfo [ref=f10e770]:
+        - generic [ref=f10e771]:
+          - generic [ref=f10e772]: Copyright © 1998 - 2026 Cengage Learning, Inc. All Rights Reserved
+          - list [ref=f10e773]:
+            - listitem [ref=f10e774]:
+              - link "Open in a new tab. Terms of use" [ref=f10e775] [cursor=pointer]:
+                - /url: https://www.cengage.com/legal/#terms
+                - text: Terms of use
+            - listitem [ref=f10e776]:
+              - link "Open in a new tab. Privacy" [ref=f10e777] [cursor=pointer]:
+                - /url: https://www.cengage.com/privacy/
+                - text: Privacy
+  - application [ref=f10e779]:
+    - generic [ref=f10e3396]:
+      - tablist [ref=f10e3397]:
+        - tab [ref=f10e3398]: Operations
+        - tab [ref=f10e3399]: Relations
+        - tab [ref=f10e3400]: Other
+        - tab [ref=f10e3401]: Trig
+        - tab [ref=f10e3402]: Greek
+        - tab [ref=f10e3403]: Vectors
+        - tab [ref=f10e3404]
+      - table [ref=f10e3407]:
+        - rowgroup [ref=f10e3408]:
+          - row [ref=f10e3409]:
+            - cell [ref=f10e3410]:
+              - button [ref=f10e3411] [cursor=pointer]
+            - cell [ref=f10e3412]:
+              - button [ref=f10e3413] [cursor=pointer]
+            - cell [ref=f10e3414]:
+              - button [ref=f10e3415] [cursor=pointer]
+            - cell [ref=f10e3416]:
+              - button [ref=f10e3417] [cursor=pointer]
+            - cell [ref=f10e3418]:
+              - button [ref=f10e3419] [cursor=pointer]
+            - cell [ref=f10e3420]:
+              - button [ref=f10e3421] [cursor=pointer]
+            - cell [ref=f10e3422]:
+              - button [ref=f10e3423] [cursor=pointer]
+            - cell [ref=f10e3424]:
+              - button [ref=f10e3425] [cursor=pointer]
+            - cell [ref=f10e3426]:
+              - button [ref=f10e3427] [cursor=pointer]
+          - row [ref=f10e3428]:
+            - cell [ref=f10e3429]:
+              - button [ref=f10e3430] [cursor=pointer]
+            - cell [ref=f10e3431]:
+              - button [ref=f10e3432] [cursor=pointer]
+            - cell [ref=f10e3433]:
+              - button [ref=f10e3434] [cursor=pointer]
+            - cell [ref=f10e3435]:
+              - button [ref=f10e3436] [cursor=pointer]
+            - cell [ref=f10e3437]:
+              - button [ref=f10e3438] [cursor=pointer]
+            - cell [ref=f10e3439]:
+              - button [ref=f10e3440] [cursor=pointer]
+            - cell [ref=f10e3441]:
+              - button [ref=f10e3442] [cursor=pointer]
+            - cell [ref=f10e3443]:
+              - button [ref=f10e3444] [cursor=pointer]
+            - cell [ref=f10e3445]
+    - generic [ref=f10e781]:
+      - generic [ref=f10e783]: 
+      - generic [ref=f10e784]: x
+      - textbox [ref=f10e792]
+    - textbox [aria-hidden] [ref=f10e793]

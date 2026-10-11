@@ -1,0 +1,301 @@
+- generic [active] [ref=f2e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=f2e2] [cursor=pointer]
+      - link "Accessibility help" [ref=f2e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+  - generic [ref=f2e8]:
+    - search [ref=f2e9]:
+      - generic [ref=f2e11]:
+        - link [ref=f2e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&ictx=2&sa=X&ved=2ahUKEwihn6yzhK2XAxWgDjQIHf8XLIQQPXoECAYQBA
+          - img "Learn more about World Space Week 2026" [ref=f2e14]
+        - generic [ref=f2e16]:
+          - combobox "Search" [ref=f2e18]: NYU Tandon excused absence form Student Advocacy NYU Tandon excused absence form Student Advocacy
+          - generic [ref=f2e19]:
+            - button "Clear" [ref=f2e23] [cursor=pointer]
+            - generic [ref=f2e28]:
+              - button "Search by voice" [ref=f2e31] [cursor=pointer]
+              - button "Search by image" [ref=f2e36] [cursor=pointer]
+    - generic [ref=f2e39]:
+      - button "Settings" [ref=f2e41] [cursor=pointer]
+      - button "Share" [ref=f2e46] [cursor=pointer]
+      - generic [ref=f2e52]:
+        - button "Google apps" [ref=f2e54] [cursor=pointer]
+        - link "Sign in" [ref=f2e59] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3DNYU%2BTandon%2Bexcused%2Babsence%2Bform%2BStudent%2BAdvocacy%26sei%3DKuvIatHROoue0PEPkrCzoQM&ec=futura_srp_og_si_72236_p
+  - generic [ref=f2e62]:
+    - navigation [ref=f2e68]:
+      - generic [ref=f2e74]:
+        - list [ref=f2e75]:
+          - listitem [ref=f2e76]:
+            - link "AI Mode" [ref=f2e79] [cursor=pointer]:
+              - /url: /search?q=NYU+Tandon+excused+absence+form+Student+Advocacy&sca_esv=2cd7c0326b86c6e2&sxsrf=APpeQnttDTb0XK_Y_LnptAJFlnWBtZUBNw:1791552299675&udm=50&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832QGGMdFXpDyzkQgEdtB8w9w-GD6PIjvNPpUnrx3WoOVIqtB7m0uJCnmO69VZCGvjkJswfxpqShzBmeU9vLtlIzpB5qp_I4BbqEr0GaxOvSmJ498B6z8aPqL8CC6d_D-OMiOA1rp8cpiApSc4bqzrEFRQ0aGBJCBOrMEv10CvQfXRc0n9Aw&vsint=&aep=1&ntc=1&cs=0&sa=X&ved=2ahUKEwihn6yzhK2XAxWgDjQIHf8XLIQQ2J8OegQIFxAD
+          - listitem [ref=f2e83]:
+            - link "All" [disabled] [ref=f2e84]
+          - listitem [ref=f2e87]:
+            - link "Images" [ref=f2e88] [cursor=pointer]:
+              - /url: /search?sca_esv=2cd7c0326b86c6e2&sxsrf=APpeQnttDTb0XK_Y_LnptAJFlnWBtZUBNw:1791552299675&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832QGGMdFXpDyzkQgEdtB8w9w-GD6PIjvNPpUnrx3WoOVIqtB7m0uJCnmO69VZCGvjkJswfxpqShzBmeU9vLtlIzpB5qp_I4BbqEr0GaxOvSmJ498B6z8aPqL8CC6d_D-OMiOA1rp8cpiApSc4bqzrEFRQ0aGBJCBOrMEv10CvQfXRc0n9Aw&q=NYU+Tandon+excused+absence+form+Student+Advocacy&sa=X&ved=2ahUKEwihn6yzhK2XAxWgDjQIHf8XLIQQtKgLegQIGRAB
+          - listitem [ref=f2e91]:
+            - link "News" [ref=f2e92] [cursor=pointer]:
+              - /url: /search?sca_esv=2cd7c0326b86c6e2&sxsrf=APpeQnttDTb0XK_Y_LnptAJFlnWBtZUBNw:1791552299675&q=NYU+Tandon+excused+absence+form+Student+Advocacy&tbm=nws&source=lnms&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832QGGMdFXpDyzkQgEdtB8w9w-GD6PIjvNPpUnrx3WoOVIqtB7m0uJCnmO69VZCGvjkJswfxpqShzBmeU9vLtlIzpB5qp_I4BbqEr0GaxOvSmJ498B6z8aPqL8CC6d_D-OMiOA1rp8cpiApSc4bqzrEFRQ0aGBJCBOrMEv10CvQfXRc0n9Aw&sa=X&ved=2ahUKEwihn6yzhK2XAxWgDjQIHf8XLIQQ0pQJegQIGhAB
+          - listitem [ref=f2e95]:
+            - link "Videos" [ref=f2e96] [cursor=pointer]:
+              - /url: /search?sca_esv=2cd7c0326b86c6e2&sxsrf=APpeQnttDTb0XK_Y_LnptAJFlnWBtZUBNw:1791552299675&udm=vids&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832QGGMdFXpDyzkQgEdtB8w9w-GD6PIjvNPpUnrx3WoOVIqtB7m0uJCnmO69VZCGvjkJswfxpqShzBmeU9vLtlIzpB5qp_I4BbqEr0GaxOvSmJ498B6z8aPqL8CC6d_D-OMiOA1rp8cpiApSc4bqzrEFRQ0aGBJCBOrMEv10CvQfXRc0n9Aw&q=NYU+Tandon+excused+absence+form+Student+Advocacy&sa=X&ved=2ahUKEwihn6yzhK2XAxWgDjQIHf8XLIQQtKgLegQIGxAB
+          - listitem [ref=f2e99]:
+            - link "Forums" [ref=f2e100] [cursor=pointer]:
+              - /url: /search?sca_esv=2cd7c0326b86c6e2&sxsrf=APpeQnttDTb0XK_Y_LnptAJFlnWBtZUBNw:1791552299675&udm=forums&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832QGGMdFXpDyzkQgEdtB8w9w-GD6PIjvNPpUnrx3WoOVIqtB7m0uJCnmO69VZCGvjkJswfxpqShzBmeU9vLtlIzpB5qp_I4BbqEr0GaxOvSmJ498B6z8aPqL8CC6d_D-OMiOA1rp8cpiApSc4bqzrEFRQ0aGBJCBOrMEv10CvQfXRc0n9Aw&q=NYU+Tandon+excused+absence+form+Student+Advocacy&sa=X&ved=2ahUKEwihn6yzhK2XAxWgDjQIHf8XLIQQs6gLegQIHBAB
+          - listitem [ref=f2e103]:
+            - link "Shopping" [ref=f2e104] [cursor=pointer]:
+              - /url: /search?sca_esv=2cd7c0326b86c6e2&sxsrf=APpeQnttDTb0XK_Y_LnptAJFlnWBtZUBNw:1791552299675&udm=28&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832QGGMdFXpDyzkQgEdtB8w9w-GD6PIjvNPpUnrx3WoOVIqtB7m0uJCnmO69VZCGvjkJswfxpqShzBmeU9vLtlIzpB5qp_I4BbqEr0GaxOvSmJ498B6z8aPqL8CC6d_D-OMiOA1rp8cpiApSc4bqzrEFRQ0aGBJCBOrMEv10CvQfXRc0n9Aw&q=NYU+Tandon+excused+absence+form+Student+Advocacy&ved=1t:220175&ictx=111
+          - listitem [ref=f2e107]:
+            - button [ref=f2e108] [cursor=pointer]:
+              - generic "More filters" [ref=f2e109]: More
+        - button "Tools" [ref=f2e116] [cursor=pointer]
+    - heading "Search Results" [level=1] [ref=f2e123]
+    - main [ref=f2e129]:
+      - generic [ref=f2e133]:
+        - generic [ref=f2e136]:
+          - heading "Web results" [level=2] [ref=f2e137]
+          - generic [ref=f2e138]:
+            - generic [ref=f2e141]:
+              - link "Student Advocacy | NYU Tandon School of Engineering NYU Tandon School of Engineering https://engineering.nyu.edu › life-tandon › student-life" [ref=f2e143] [cursor=pointer]:
+                - /url: /goto?url=CAESgAEB6zswFchEQgyCOH5iPrdaG2FSSxMA2s4rqgZIEG4N3bQ_PJZs3-C4sAO0d6sIn-wEJwj3VUupsgZ2rW_ufP-ePJVE-EVlEzM5MLYF-sSA-602BPY9_lIZEOkW3bweWFi48Ei2lTgBzOf1mzR8tLKHX_pRd5D9tTLAgAq5CcQxeQ
+                - heading "Student Advocacy | NYU Tandon School of Engineering" [level=3] [ref=f2e144]
+                - generic [ref=f2e150]:
+                  - generic [ref=f2e151]: NYU Tandon School of Engineering
+                  - generic [ref=f2e153]: https://engineering.nyu.edu › life-tandon › student-life
+              - button "About this result" [ref=f2e159] [cursor=pointer]
+            - generic [ref=f2e165]:
+              - generic [ref=f2e166]:
+                - emphasis [ref=f2e167]: A completed Excused Absence form
+                - text: which states specific leave dates and return date. If you will be absent for a specific period of time, for example three ...
+              - link "Read more" [ref=f2e168] [cursor=pointer]:
+                - /url: /goto?url=CAESqgEB6zswFazzV3kDlAoeib1u8aUq8cWTEit9BoDPbF45UMS6xnZKKDM68KSQhiFZGcWhRq3wQqenvZCAAt5F_CNCTZLpYCZMUn3MBhB6YU_YZRfx9VATWbRjEU0An0_I8iDq3AVpNK4-iRN_-4v1I0K2yNI6HvHPI9cN7AEsi6RrGYAyi_Ll-dVzyc8cYxu1bDiD-6X97POult6hzoH_wtmuezRcvOi5A1OMaw
+        - generic [ref=f2e169]: Can't generate an AI overview right now. Try again later.
+        - generic [ref=f2e189]:
+          - heading "Web results" [level=2] [ref=f2e190]
+          - generic [ref=f2e191]:
+            - generic [ref=f2e194]:
+              - link "Student Services NYU Bulletins https://bulletins.nyu.edu › undergraduate › engineering" [ref=f2e196] [cursor=pointer]:
+                - /url: /goto?url=CAESgAEB6zswFXVI86ORd8v-4Yz3Qi2aK4wNlibt2FNRrygYV_VSpH3fpFFM65t8JWULKW3nWH5X0hG569svMp5K36mpAb3oMdX12xYzNuGC-SaLTJ64a3ECuAWXxqhT4RV6-iCxD2nhtnXfLXOVLqpjFdpcMUL6rxwgp-vOU4h84f6u_w
+                - heading "Student Services" [level=3] [ref=f2e197]
+                - generic [ref=f2e206]:
+                  - generic [ref=f2e207]: NYU Bulletins
+                  - generic [ref=f2e209]: https://bulletins.nyu.edu › undergraduate › engineering
+              - button "About this result" [ref=f2e215] [cursor=pointer]
+            - generic [ref=f2e221]:
+              - generic [ref=f2e222]:
+                - emphasis [ref=f2e223]: Complete Medical Leave of Absence Request Form
+                - text: and email it to advocacy.tandonstudentlife@nyu.edu. Submit a request for leave of absence through Albert (you ...
+              - link "Read more" [ref=f2e224] [cursor=pointer]:
+                - /url: /goto?url=CAES1gEB6zswFTpRrl05cknEFSIXJRE_InaLvxKAxdw0PwYO0SwS2W3zz1DSBAudDWdmfH38yqTp8H_ofnydcSX5IzyLIlLslwnWwhE7Zpe2wlfnDDZUZiuAaT86CjhMX8AQhr9qL62fLq-wGOBQT5xdSgJeBq6ZyM9DDR6_toHer1ku8Rg1VTJvGMAoJwrCu50drZ_V6Jp6UJqnfz2xDe1s1qbYNPPytTVsZqNxVrbETmi4uOflRvCIJSjTq7t0CaKrcc6u0PxGbM9Eb0USRJcmS9K0xs7wuOmT
+        - generic [ref=f2e228]:
+          - generic [ref=f2e231]:
+            - link "Office of Student Life & Services NYU Tandon School of Engineering https://engineering.nyu.edu › life-tandon › office-stude..." [ref=f2e233] [cursor=pointer]:
+              - /url: /goto?url=CAESjAEB6zswFQNpvigk37N6GsAn24myTOI6AQ86lfTsi2A7tCm1hsKYQlXQyKq-DM47YDzD8JYUc8_I-TGPpogEI3YFEIks749tydiv1kqsZkd-pqAdPbSrLKj4W_HuRzBc36_u_XuUZmK0S8EfxT6kNEkJHEvXDhY1Q2asuLo0EdoCrf9auKNSFsjdhJuUsg
+              - heading "Office of Student Life & Services" [level=3] [ref=f2e234]
+              - generic [ref=f2e240]:
+                - generic [ref=f2e241]: NYU Tandon School of Engineering
+                - generic [ref=f2e243]: https://engineering.nyu.edu › life-tandon › office-stude...
+            - button "About this result" [ref=f2e249] [cursor=pointer]
+          - generic [ref=f2e255]:
+            - generic [ref=f2e256]:
+              - text: The Office of Student Advocacy serves to promote a safe and respectful environment for all Tandon students. Services range from
+              - emphasis [ref=f2e257]: assistance with excused absences
+              - text: ...
+            - link "Read more" [ref=f2e258] [cursor=pointer]:
+              - /url: /goto?url=CAES8gEB6zswFdpcWO8ojYvK3nzqOSzBp1SEea8ASZf6I91Qkq2kFtbwlWWlvhjRScZxeNI30ip7G1cpsq0MXe8p19B1Earji2LO4Huhs5p4HCweskNUwT7L-1cLoYqiGn7-MB--ZWiXfaCgWc4AcqwqcNDMomVOy2Ft-v_MNOqCvgIBIP1EfhN20jDeAWGhgECauTz12uESYoY_WCidyK8U9QX4c76_Mjjt44qUhzKyxA3CoLYTZQkEwL5pftgJX8YiH9M7yEQhTxO-IpExd3cuS9PEXo8QvZyWv1dgTZpg3TpNgyc2EcEPaGadIYyGU4eGVRzQ8g
+          - generic [ref=f2e260]:
+            - text: "Missing: form ‎| Show results with:"
+            - link "form" [ref=f2e261] [cursor=pointer]:
+              - /url: /search?sca_esv=2cd7c0326b86c6e2&sxsrf=APpeQnttDTb0XK_Y_LnptAJFlnWBtZUBNw:1791552299675&q=NYU+Tandon+excused+absence+%22form%22+Student+Advocacy&sa=X&ved=2ahUKEwihn6yzhK2XAxWgDjQIHf8XLIQQ5t4CegQILhAB
+        - generic [ref=f2e265]:
+          - generic [ref=f2e268]:
+            - link "Information for Students | NYU Tandon School of Engineering NYU Tandon School of Engineering https://engineering.nyu.edu › information-students" [ref=f2e270] [cursor=pointer]:
+              - /url: /goto?url=CAESawHrOzAVO2VXkCZoJwSoJ4iQTQ9jt7utItXAh5lVK37X7Y6Nu4bbqu8otNBPKXSjFdcHvK7yOvSc4NuqVsfG_OlaBvycNr5wcmbD74X0BzMsaW0MfW9wJE7B_ds5cPKuFMBz9V2TtOYhfXuh
+              - heading "Information for Students | NYU Tandon School of Engineering" [level=3] [ref=f2e271]
+              - generic [ref=f2e277]:
+                - generic [ref=f2e278]: NYU Tandon School of Engineering
+                - generic [ref=f2e280]: https://engineering.nyu.edu › information-students
+            - button "About this result" [ref=f2e286] [cursor=pointer]
+          - generic [ref=f2e292]:
+            - generic [ref=f2e293]:
+              - text: ...
+              - emphasis [ref=f2e294]: Student Advocacy
+              - text: "· Student Link Center · Student Code of Conduct · Transportation. Financial Resources. Start Here: NYU Financial Aid Office; Information for ..."
+            - link "Read more" [ref=f2e295] [cursor=pointer]:
+              - /url: /goto?url=CAESuQEB6zswFXvmeSniwci9AYjvKanj7H-RmY1qNtQlufQVuK1iCGr81-vDKvXH012KQf5_tymC09NrbkOG1kjL6FZ8JxxSF7N1V1PLyaX9HrbSNqx0wqeDzcWJM7Cvhudf-TqksOaQoLyzBKjIBPhodME-5ilhrwPbMeFyCgsbIGixkeOFoCOuMatl1CTq3hoJ_BORPkRavnO60u5WGx8Zc5CZm-oD0lhVyETO099ApZhbU6OKG-EST8Sxgg
+        - generic [ref=f2e299]:
+          - generic [ref=f2e302]:
+            - 'link "Why is student advocacy so rude at tandon? : r/nyu Reddit · r/nyu 6 comments · 1 year ago" [ref=f2e304] [cursor=pointer]':
+              - /url: /goto?url=CAESkwEB6zswFWlnt4u6zX-NX7cwKSQf-UWMTvx7NwRfB7ZsVl_mH6T-sG5b24Lhc7UZGXs50BypSCE_XCwLOs0FW9-1A1QUNsH6D6bOzBHK9nhPSRegeSxk_oEhtGy5MmTxNUzjyFPxHT3e7bmwhOX1IWwYJtwe5zIWZkd9672m1d_7C8an6XSzaatmFomsRCzk8VRgGZc
+              - 'heading "Why is student advocacy so rude at tandon? : r/nyu" [level=3] [ref=f2e305]'
+              - generic [ref=f2e311]:
+                - generic [ref=f2e312]: Reddit · r/nyu
+                - generic [ref=f2e314]: 6 comments · 1 year ago
+            - button "About this result" [ref=f2e320] [cursor=pointer]
+          - generic [ref=f2e325]: I have recitation at 1 pm and all we do is just solve the quiz and we’re free to go. The same time around 1:00 pm Friday prayer starts and I really wanted ...
+          - generic [ref=f2e331]:
+            - link "6 answers" [ref=f2e332] [cursor=pointer]:
+              - /url: /goto?url=CAESeQHrOzAVydIYzH-_6V6AZPa40D4o7giK1JsA1OXSGqtNRU3X6A5uJFSUVMX9k5Z3RPEUjs_4YAr4xgXxRry2xGHvUW75NiswuJZqsHEh8JsohJOzMXX7IiC29O9pIDzkMROdOIZ15QtCXXWMFkj-_D87ZXYuh6QGAdM
+            - generic [ref=f2e333]: ·
+            - generic [ref=f2e334]: "Top answer:"
+            - generic [ref=f2e335]: You can get the Global Spiritual Life center involved! They have a form to request support that ...
+        - generic [ref=f2e339]:
+          - generic [ref=f2e342]:
+            - link "Academic Policies NYU Bulletins https://bulletins.nyu.edu › undergraduate › engineering" [ref=f2e344] [cursor=pointer]:
+              - /url: /goto?url=CAESgQEB6zswFUO46u7g05ga_2epoXmXAptHVtnZPk0cgqO9UUD31VbKI9NBQ4OfNZi7uN4B7JSPc3DWcuMY63HZvNC_gvXslSAevM5lrRphbLyGjUnLcMVOtoUBYV1-PI6n3WomXlqXK-EqVm4GrALkAci1_ICsJi-iDIM0dXM8PAUwrHs
+              - heading "Academic Policies" [level=3] [ref=f2e345]
+              - generic [ref=f2e354]:
+                - generic [ref=f2e355]: NYU Bulletins
+                - generic [ref=f2e357]: https://bulletins.nyu.edu › undergraduate › engineering
+            - button "About this result" [ref=f2e363] [cursor=pointer]
+          - generic [ref=f2e369]:
+            - generic [ref=f2e370]:
+              - text: To officially request a leave, the student must submit a Medical Leave of
+              - emphasis [ref=f2e371]: Absence
+              - text: Request
+              - emphasis [ref=f2e372]: Form
+              - text: to the Office of
+              - emphasis [ref=f2e373]: Student Advocacy
+              - text: . A leave is official only ...
+            - link "Read more" [ref=f2e374] [cursor=pointer]:
+              - /url: /goto?url=CAES3gEB6zswFTjwsH6_aPigVjZgZacX7Gz98ODK6VGd1gTdvK0P7NrZbLrS-DdBoFef4lDgGinLVdr8p79AyyKVmgFWCGNqaxDis0nnLScSEFbmcYBHC720UQkxjGhUcTnsaWIiI1cZ9qwUif_mNNOuM2A-dx6taB14detzJWGd5NZ81co_DaT1f17Ddo5OqsAuLpL-6BJdmdtv3fF-ishYgmNdaVs5jlmo6PCNs0OAXoisR3_1c2Goq4jUzd-OyBBgyjGJCHGhG1kCPLticlgMr5Fzk2-7ygkaSxM3ZiGHkRw
+        - generic [ref=f2e378]:
+          - generic [ref=f2e381]:
+            - link "Constitution of the Undergraduate Student Council NYU Tandon School of Engineering https://engineering.nyu.edu › sites › default › files" [ref=f2e383] [cursor=pointer]:
+              - /url: /goto?url=CAESwAEB6zswFSxvR7_EgDUb_NwhkZAswN4qTpJ-8sKbOQj6R8yAnL53zV0U5fUGeWmHWepptwjLBVNFVpbJq2ikVj5aZVFfSX9Zf6evvjSDMSXNZBS3SZqjEpN8_fF_jStE8BxjUlrbwuepEB6EjNcQzbjVDR5s9Dxu9oEjlgCtOYb_f0KAIR20VWyO0fKXic73--wYUgY4mJ-nLx9XiavMfe6cIwnCEsI-ZoRiA2X0TIx0xXjpcti1cv-NXdDdxepgPbw
+              - heading "Constitution of the Undergraduate Student Council" [level=3] [ref=f2e384]
+              - generic [ref=f2e390]:
+                - generic [ref=f2e391]: NYU Tandon School of Engineering
+                - generic [ref=f2e393]: https://engineering.nyu.edu › sites › default › files
+            - generic [ref=f2e395]: PDF
+            - button "About this result" [ref=f2e400] [cursor=pointer]
+          - generic [ref=f2e405]:
+            - generic [ref=f2e406]:
+              - generic [ref=f2e407]: Feb 24, 2025 —
+              - generic [ref=f2e408]:
+                - text: Halls to discuss pertinent issues related to the
+                - emphasis [ref=f2e409]: Tandon
+                - text: Undergraduate
+                - emphasis [ref=f2e410]: student
+                - text: for
+                - emphasis [ref=f2e411]: advocacy
+                - text: and initiatives to gather information on said ...
+              - link "Read more" [ref=f2e412] [cursor=pointer]:
+                - /url: /goto?url=CAESkwIB6zswFRlpIrwq9omZiF8_BcfGLVZgyPNjRLlEpAReoZHnVtLagLIRaBlKi07Zz9cYBT8dFG6bZanLliclTktscLgTqocblu8tWFdUPib0ayBdkQY70p0AO9BuyiFcYRSfKguR5xN8Y06NuP2dmOGwJeVl77gDCEtgGWO9rz1FQF_mHj02GXMxLispNECGF3vq5vgzRIi9E-TPPiTPCm5timVaL0hFn5xZOf8bfJHL20SqGYiZRX66nY5VbIRN4wBntWOhoLJ1QdmKVbQEpoIRB5upyLKHWTrSQMoNMHuVzqCeievfpuyIkFfXuSjZX9Dz89bWu-Vz0HUavbfdyDq28KXYE-ZerHPPp3RqqgAGU_XA8w
+            - generic [ref=f2e413]: 25 pages
+        - generic [ref=f2e417]:
+          - generic [ref=f2e420]:
+            - link "Tandon School of Engineering Medical Leave of Absence ... NYU Tandon School of Engineering https://engineering.nyu.edu › sites › default › files" [ref=f2e422] [cursor=pointer]:
+              - /url: /goto?url=CAESjAEB6zswFWjwf39O0Rlo4oOqx4L38vwJop9BZiqJ9tG-EXxZcdavw7drJFOzZDw7-FJB_YuC7TiB2xuc-Wa_KLABBXNkF7kJfbozvuqvEwj5v5xCrMvf-SWReAansR4Q6cYLhg9B-aI55bp2pcjTHHu5OGrBhKEtQhDAg_7KEZMHlAANTlM39JU-R5rmKA
+              - heading "Tandon School of Engineering Medical Leave of Absence ..." [level=3] [ref=f2e423]
+              - generic [ref=f2e429]:
+                - generic [ref=f2e430]: NYU Tandon School of Engineering
+                - generic [ref=f2e432]: https://engineering.nyu.edu › sites › default › files
+            - generic [ref=f2e434]: PDF
+            - button "About this result" [ref=f2e439] [cursor=pointer]
+          - generic [ref=f2e444]:
+            - generic [ref=f2e445]:
+              - generic [ref=f2e446]:
+                - text: "Please Note: A request for a leave for medical reasons must be approved by Counseling and Wellness Services and/or the Medical Services Division of the"
+                - emphasis [ref=f2e447]: Student
+                - text: ...
+              - link "Read more" [ref=f2e448] [cursor=pointer]:
+                - /url: /goto?url=CAES4AEB6zswFfzQRzpa9DOS75HtrSNCuks7dyYdGQsne_oFup03xyfyx88gTi1A_u1UsFgrHTBZpDkkTr-fLWlEj9pREG8JOJ2lawFGcLRp--uMjVs-lo8QXoSRbRVuY9x0XC8R9C4J1_lxAu0f0qH5gMoWT3o1HyZjPLYXV_aPB6XjvytvqAxfb3pIKynpCKwJyvtLe_XQlKZ7x_d21vgNIfTkF-2vXzNib2dCmCKbkuj5mmg0KB3IDrcO3ts9KDSAeHAbFllXdH0L4ggdKhL9JN0R-1YsPF5qwy7BBeW2hML44w
+            - generic [ref=f2e449]: 2 pages
+          - generic [ref=f2e450]: "Missing: excused ‎Advocacy"
+        - generic [ref=f2e455]:
+          - generic [ref=f2e458]:
+            - link "Syllabus (docx) CliffsNotes https://www.cliffsnotes.com › Computer Science" [ref=f2e460] [cursor=pointer]:
+              - /url: /goto?url=CAESawHrOzAVF46z_fGHUvOMDVXODT48IwLBducHQ8U9mlqs4mtOrCCFuLmoeFCKxD0e7saWEJIj4ymSXorO1K6-VDaaHfu3O89nmtt5pq1WFGYrOY0dJgNsk25MBhua8Zz34N8MsC20dD_P3DnX
+              - heading "Syllabus (docx)" [level=3] [ref=f2e461]
+              - generic [ref=f2e467]:
+                - generic [ref=f2e468]: CliffsNotes
+                - generic [ref=f2e470]: https://www.cliffsnotes.com › Computer Science
+            - button "About this result" [ref=f2e476] [cursor=pointer]
+          - generic [ref=f2e482]:
+            - generic [ref=f2e483]: Sep 29, 2025 —
+            - generic [ref=f2e484]:
+              - text: Any questions about what qualifies as an excused absence should email
+              - emphasis [ref=f2e485]: advocacy.tandonstudentlife@nyu.edu
+              - text: ". Please note: attendance policies ..."
+            - link "Read more" [ref=f2e486] [cursor=pointer]:
+              - /url: /goto?url=CAESwgEB6zswFZxVU0w_3hP_W1_tsneTaXGaaqJvAwf_C4juaCxAoJdBSiGoZQx7jWrLub5n_sxN19SfujL3FWE1HsXaBQdPKjdeLskfSHgV3gCDNWp1fZnfKFOZihppbc0qHwYEXL8bmhK-tiZBSJOtaX5NW6aRJgEDP3enr2yKX77SA_p6rZUgw473P_hFpNvB5imMOxO8NhN5Zz63eg2bZZBUjaN7yYXL-lNm3TfMkIwzFe07n8U2vjprgNM-QCDWf0h-6w
+      - generic [ref=f2e488]:
+        - generic [ref=f2e493]:
+          - heading "People also search for" [level=2] [ref=f2e495]
+          - generic [ref=f2e497]:
+            - generic [ref=f2e498]:
+              - link "Nyu tandon excused absence form student advocacy reddit" [ref=f2e502] [cursor=pointer]:
+                - /url: /search?sca_esv=2cd7c0326b86c6e2&sxsrf=APpeQnttDTb0XK_Y_LnptAJFlnWBtZUBNw:1791552299675&q=Nyu+tandon+excused+absence+form+student+advocacy+reddit&sa=X&ved=2ahUKEwihn6yzhK2XAxWgDjQIHf8XLIQQ1QJ6BAg4EAE
+              - link "Nyu tandon excused absence form student advocacy pdf" [ref=f2e516] [cursor=pointer]:
+                - /url: /search?sca_esv=2cd7c0326b86c6e2&sxsrf=APpeQnttDTb0XK_Y_LnptAJFlnWBtZUBNw:1791552299675&q=Nyu+tandon+excused+absence+form+student+advocacy+pdf&sa=X&ved=2ahUKEwihn6yzhK2XAxWgDjQIHf8XLIQQ1QJ6BAg9EAE
+              - link "Student Advocacy NYU" [ref=f2e530] [cursor=pointer]:
+                - /url: /search?sca_esv=2cd7c0326b86c6e2&sxsrf=APpeQnttDTb0XK_Y_LnptAJFlnWBtZUBNw:1791552299675&q=Student+Advocacy+NYU&sa=X&ved=2ahUKEwihn6yzhK2XAxWgDjQIHf8XLIQQ1QJ6BAg8EAE
+              - link "NYU Albert" [ref=f2e544] [cursor=pointer]:
+                - /url: /search?sca_esv=2cd7c0326b86c6e2&sxsrf=APpeQnttDTb0XK_Y_LnptAJFlnWBtZUBNw:1791552299675&q=NYU+Albert&sa=X&ved=2ahUKEwihn6yzhK2XAxWgDjQIHf8XLIQQ1QJ6BAg7EAE
+            - generic [ref=f2e555]:
+              - link "NYU Connect" [ref=f2e559] [cursor=pointer]:
+                - /url: /search?sca_esv=2cd7c0326b86c6e2&sxsrf=APpeQnttDTb0XK_Y_LnptAJFlnWBtZUBNw:1791552299675&q=NYU+Connect&sa=X&ved=2ahUKEwihn6yzhK2XAxWgDjQIHf8XLIQQ1QJ6BAg6EAE
+              - link "NYU Brightspace" [ref=f2e573] [cursor=pointer]:
+                - /url: /search?sca_esv=2cd7c0326b86c6e2&sxsrf=APpeQnttDTb0XK_Y_LnptAJFlnWBtZUBNw:1791552299675&q=NYU+Brightspace&sa=X&ved=2ahUKEwihn6yzhK2XAxWgDjQIHf8XLIQQ1QJ6BAg2EAE
+              - link "Student advocacy Queens College" [ref=f2e587] [cursor=pointer]:
+                - /url: /search?sca_esv=2cd7c0326b86c6e2&sxsrf=APpeQnttDTb0XK_Y_LnptAJFlnWBtZUBNw:1791552299675&q=Student+advocacy+Queens+College&sa=X&ved=2ahUKEwihn6yzhK2XAxWgDjQIHf8XLIQQ1QJ6BAg5EAE
+              - link "Nyu student advocacy reddit" [ref=f2e601] [cursor=pointer]:
+                - /url: /search?sca_esv=2cd7c0326b86c6e2&sxsrf=APpeQnttDTb0XK_Y_LnptAJFlnWBtZUBNw:1791552299675&q=Nyu+student+advocacy+reddit&sa=X&ved=2ahUKEwihn6yzhK2XAxWgDjQIHf8XLIQQ1QJ6BAg3EAE
+        - navigation [ref=f2e612]:
+          - heading "Page Navigation" [level=1] [ref=f2e613]
+          - text: "1"
+          - link "Page 2" [ref=f2e616] [cursor=pointer]:
+            - /url: /search?q=NYU+Tandon+excused+absence+form+Student+Advocacy&sca_esv=2cd7c0326b86c6e2&sxsrf=APpeQnttDTb0XK_Y_LnptAJFlnWBtZUBNw:1791552299675&ei=K-vIauHdKKCd0PEP_6-woQg&start=10&sa=N&sstk=AS6-VmI0IAc9TgVIANf_5-V34ylXRFnqv7Z9poe3qek3m8Ug7DolDGIDIF5nG2TGi8AxkLphX23JlWi8Cv9Pmnw3oXm7rWvl_mMwYA&ved=2ahUKEwihn6yzhK2XAxWgDjQIHf8XLIQQ8tMDegQILxAE
+            - text: "2"
+          - link "Page 3" [ref=f2e618] [cursor=pointer]:
+            - /url: /search?q=NYU+Tandon+excused+absence+form+Student+Advocacy&sca_esv=2cd7c0326b86c6e2&sxsrf=APpeQnttDTb0XK_Y_LnptAJFlnWBtZUBNw:1791552299675&ei=K-vIauHdKKCd0PEP_6-woQg&start=20&sa=N&sstk=AS6-VmI0IAc9TgVIANf_5-V34ylXRFnqv7Z9poe3qek3m8Ug7DolDGIDIF5nG2TGi8AxkLphX23JlWi8Cv9Pmnw3oXm7rWvl_mMwYA&ved=2ahUKEwihn6yzhK2XAxWgDjQIHf8XLIQQ8tMDegQILxAG
+            - text: "3"
+          - link "Page 4" [ref=f2e620] [cursor=pointer]:
+            - /url: /search?q=NYU+Tandon+excused+absence+form+Student+Advocacy&sca_esv=2cd7c0326b86c6e2&sxsrf=APpeQnttDTb0XK_Y_LnptAJFlnWBtZUBNw:1791552299675&ei=K-vIauHdKKCd0PEP_6-woQg&start=30&sa=N&sstk=AS6-VmI0IAc9TgVIANf_5-V34ylXRFnqv7Z9poe3qek3m8Ug7DolDGIDIF5nG2TGi8AxkLphX23JlWi8Cv9Pmnw3oXm7rWvl_mMwYA&ved=2ahUKEwihn6yzhK2XAxWgDjQIHf8XLIQQ8tMDegQILxAI
+            - text: "4"
+          - link "Page 5" [ref=f2e622] [cursor=pointer]:
+            - /url: /search?q=NYU+Tandon+excused+absence+form+Student+Advocacy&sca_esv=2cd7c0326b86c6e2&sxsrf=APpeQnttDTb0XK_Y_LnptAJFlnWBtZUBNw:1791552299675&ei=K-vIauHdKKCd0PEP_6-woQg&start=40&sa=N&sstk=AS6-VmI0IAc9TgVIANf_5-V34ylXRFnqv7Z9poe3qek3m8Ug7DolDGIDIF5nG2TGi8AxkLphX23JlWi8Cv9Pmnw3oXm7rWvl_mMwYA&ved=2ahUKEwihn6yzhK2XAxWgDjQIHf8XLIQQ8tMDegQILxAK
+            - text: "5"
+          - link "Page 6" [ref=f2e624] [cursor=pointer]:
+            - /url: /search?q=NYU+Tandon+excused+absence+form+Student+Advocacy&sca_esv=2cd7c0326b86c6e2&sxsrf=APpeQnttDTb0XK_Y_LnptAJFlnWBtZUBNw:1791552299675&ei=K-vIauHdKKCd0PEP_6-woQg&start=50&sa=N&sstk=AS6-VmI0IAc9TgVIANf_5-V34ylXRFnqv7Z9poe3qek3m8Ug7DolDGIDIF5nG2TGi8AxkLphX23JlWi8Cv9Pmnw3oXm7rWvl_mMwYA&ved=2ahUKEwihn6yzhK2XAxWgDjQIHf8XLIQQ8tMDegQILxAM
+            - text: "6"
+          - link "Page 7" [ref=f2e626] [cursor=pointer]:
+            - /url: /search?q=NYU+Tandon+excused+absence+form+Student+Advocacy&sca_esv=2cd7c0326b86c6e2&sxsrf=APpeQnttDTb0XK_Y_LnptAJFlnWBtZUBNw:1791552299675&ei=K-vIauHdKKCd0PEP_6-woQg&start=60&sa=N&sstk=AS6-VmI0IAc9TgVIANf_5-V34ylXRFnqv7Z9poe3qek3m8Ug7DolDGIDIF5nG2TGi8AxkLphX23JlWi8Cv9Pmnw3oXm7rWvl_mMwYA&ved=2ahUKEwihn6yzhK2XAxWgDjQIHf8XLIQQ8tMDegQILxAO
+            - text: "7"
+          - link "Page 8" [ref=f2e628] [cursor=pointer]:
+            - /url: /search?q=NYU+Tandon+excused+absence+form+Student+Advocacy&sca_esv=2cd7c0326b86c6e2&sxsrf=APpeQnttDTb0XK_Y_LnptAJFlnWBtZUBNw:1791552299675&ei=K-vIauHdKKCd0PEP_6-woQg&start=70&sa=N&sstk=AS6-VmI0IAc9TgVIANf_5-V34ylXRFnqv7Z9poe3qek3m8Ug7DolDGIDIF5nG2TGi8AxkLphX23JlWi8Cv9Pmnw3oXm7rWvl_mMwYA&ved=2ahUKEwihn6yzhK2XAxWgDjQIHf8XLIQQ8tMDegQILxAQ
+            - text: "8"
+          - link "Page 9" [ref=f2e630] [cursor=pointer]:
+            - /url: /search?q=NYU+Tandon+excused+absence+form+Student+Advocacy&sca_esv=2cd7c0326b86c6e2&sxsrf=APpeQnttDTb0XK_Y_LnptAJFlnWBtZUBNw:1791552299675&ei=K-vIauHdKKCd0PEP_6-woQg&start=80&sa=N&sstk=AS6-VmI0IAc9TgVIANf_5-V34ylXRFnqv7Z9poe3qek3m8Ug7DolDGIDIF5nG2TGi8AxkLphX23JlWi8Cv9Pmnw3oXm7rWvl_mMwYA&ved=2ahUKEwihn6yzhK2XAxWgDjQIHf8XLIQQ8tMDegQILxAS
+            - text: "9"
+          - link "Page 10" [ref=f2e632] [cursor=pointer]:
+            - /url: /search?q=NYU+Tandon+excused+absence+form+Student+Advocacy&sca_esv=2cd7c0326b86c6e2&sxsrf=APpeQnttDTb0XK_Y_LnptAJFlnWBtZUBNw:1791552299675&ei=K-vIauHdKKCd0PEP_6-woQg&start=90&sa=N&sstk=AS6-VmI0IAc9TgVIANf_5-V34ylXRFnqv7Z9poe3qek3m8Ug7DolDGIDIF5nG2TGi8AxkLphX23JlWi8Cv9Pmnw3oXm7rWvl_mMwYA&ved=2ahUKEwihn6yzhK2XAxWgDjQIHf8XLIQQ8tMDegQILxAU
+            - text: "10"
+          - heading [level=2] [ref=f2e634]:
+            - link "Next" [ref=f2e635] [cursor=pointer]:
+              - /url: /search?q=NYU+Tandon+excused+absence+form+Student+Advocacy&sca_esv=2cd7c0326b86c6e2&sxsrf=APpeQnttDTb0XK_Y_LnptAJFlnWBtZUBNw:1791552299675&ei=K-vIauHdKKCd0PEP_6-woQg&start=10&sa=N&sstk=AS6-VmI0IAc9TgVIANf_5-V34ylXRFnqv7Z9poe3qek3m8Ug7DolDGIDIF5nG2TGi8AxkLphX23JlWi8Cv9Pmnw3oXm7rWvl_mMwYA&ved=2ahUKEwihn6yzhK2XAxWgDjQIHf8XLIQQ8NMDegQILxAW
+      - navigation
+    - contentinfo [ref=f2e638]:
+      - heading "Footer Links" [level=1] [ref=f2e639]
+      - generic [ref=f2e643]:
+        - generic [ref=f2e647]:
+          - button "Lower Manhattan, New York, NY - From your IP address" [ref=f2e649] [cursor=pointer]:
+            - generic [ref=f2e650]: Lower Manhattan, New York, NY
+            - generic [ref=f2e652]:
+              - text: "-"
+              - generic [ref=f2e653]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=f2e655] [cursor=pointer]
+        - generic [ref=f2e658]:
+          - link "Help" [ref=f2e659] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=f2e660] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=f2e661] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=f2e662] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

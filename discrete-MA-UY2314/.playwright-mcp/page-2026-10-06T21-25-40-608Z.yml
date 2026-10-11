@@ -1,0 +1,113 @@
+- generic [ref=e1]:
+  - generic [ref=e5]:
+    - generic [ref=e8]:
+      - generic [ref=e9]:
+        - paragraph [ref=e14]: Pragun
+        - button "Expand Button" [ref=e17] [cursor=pointer]
+      - navigation [ref=e21]:
+        - generic [ref=e22]:
+          - list "Main Menu" [ref=e24]:
+            - listitem [ref=e25]:
+              - link "HOME" [ref=e27] [cursor=pointer]:
+                - /url: https://www.cengage.com/dashboard/home
+            - listitem [ref=e30]:
+              - link "PROFILE" [ref=e32] [cursor=pointer]:
+                - /url: https://account.cengage.com/profile/profile-data
+            - listitem [ref=e35]:
+              - link "ORDERS" [ref=e37] [cursor=pointer]:
+                - /url: https://www.cengage.com/dashboard/my-orders
+            - listitem [ref=e40]:
+              - link "RENTALS" [ref=e42] [cursor=pointer]:
+                - /url: https://www.cengage.com/dashboard/rentals
+            - listitem [ref=e45]:
+              - button "COURSES" [ref=e48] [cursor=pointer]
+          - list "Study tools and tips" [ref=e54]:
+            - listitem [ref=e55]:
+              - link "Study Tools" [ref=e57] [cursor=pointer]:
+                - /url: https://www.cengage.com/dashboard/explore-catalog
+            - listitem [ref=e60]:
+              - link "College Success Tips" [ref=e62] [cursor=pointer]:
+                - /url: https://www.cengage.com/dashboard/college-success
+            - listitem [ref=e65]:
+              - link "Career Success Tips" [ref=e67] [cursor=pointer]:
+                - /url: https://www.cengage.com/dashboard/career-center
+          - list "Help" [ref=e71]:
+            - listitem [ref=e72]:
+              - link "Help" [ref=e74] [cursor=pointer]:
+                - /url: https://cengageorg.my.site.com/Service/s/
+        - link [ref=e78] [cursor=pointer]
+    - generic [ref=e82]:
+      - navigation "Mindtap menu" [ref=e85]:
+        - img "Cengage MindTap" [ref=e87]
+        - generic [ref=e88]:
+          - text: 
+          - button "Search this course" [ref=e89] [cursor=pointer]:
+            - generic [ref=e90]:
+              - generic [ref=e91]: 
+              - text: Search this course
+          - text:  
+          - generic [ref=e92]:
+            - generic [ref=e94]:
+              - button " Help & Info" [ref=e95] [cursor=pointer]:
+                - generic [ref=e96]:
+                  - generic [ref=e97]: 
+                  - generic [ref=e98]: Help & Info
+              - text:    
+            - text:     
+      - generic [ref=e100]:
+        - generic [ref=e312]:
+          - generic [ref=e313]:
+            - 'heading "Chapter 4: Elementary Number Theory and Methods of Proof" [active] [level=1] [ref=e314]'
+            - 'button "Close Chapter 4: Elementary Number Theory and Methods of Proof" [ref=e315] [cursor=pointer]':
+              - generic [ref=e316]: 
+          - iframe [ref=e319]:
+            - generic [ref=f3e4]:
+              - generic [ref=f3e5]:
+                - generic:
+                  - button "Listen to this page using ReadSpeaker"
+              - generic [ref=f3e7] [cursor=pointer]
+        - generic:
+          - generic [ref=e297]:
+            - generic [ref=e298]:
+              - heading "Full Book" [level=2] [ref=e299]
+              - button "Close Enlarged Image" [ref=e302] [cursor=pointer]: 
+            - iframe [ref=e307]:
+              - generic [ref=f1e1]:
+                - navigation [ref=f1e8]: Application Opened
+                - generic [ref=f1e2]:
+                  - generic [ref=f1e3]:
+                    - generic:
+                      - link "Main content" [ref=f1e11] [cursor=pointer]:
+                        - /url: "#header"
+                      - text: 
+                      - button "Next Page" [ref=f1e12] [cursor=pointer]:
+                        - generic [ref=f1e13]: 
+                    - document [ref=f1e47]:
+                      - generic [ref=f1e15]: Katherine Gendreau Photography/Getty Images
+                  - button "Chapter contents" [ref=f1e19] [cursor=pointer]
+                  - generic [ref=f1e21]:
+                    - slider [ref=f1e22]: "1"
+                    - generic [ref=f1e23] [cursor=pointer]
+                  - generic [ref=f1e4]:
+                    - generic [ref=f1e25]:
+                      - generic [ref=f1e26]: Go to pg.
+                      - textbox "go to page" [ref=f1e27]
+                      - listbox
+                    - button "Fonts menu" [ref=f1e30] [cursor=pointer]
+                    - button "Print" [ref=f1e32] [cursor=pointer]
+                    - link "help" [ref=f1e33] [cursor=pointer]:
+                      - /url: Javascript://
+          - menu [ref=e283]:
+            - navigation "Applications Menu" [ref=e284]:
+              - generic [ref=e285]:
+                - menuitem "My Notes, button" [ref=e286] [cursor=pointer]:
+                  - img "My Notes" [ref=e287]
+                - menuitem "Full Book, button" [ref=e288] [cursor=pointer]:
+                  - img "Full Book" [ref=e289]
+                - menuitem "ReadSpeaker, button" [ref=e290] [cursor=pointer]:
+                  - img "ReadSpeaker" [ref=e291]
+                - menuitem "Glossary, button" [ref=e292] [cursor=pointer]:
+                  - img "Glossary" [ref=e293]
+                - menuitem "Flashcards, button" [ref=e294] [cursor=pointer]:
+                  - img "Flashcards" [ref=e295]
+  - text: Your device is connected to the internet. Reconnect

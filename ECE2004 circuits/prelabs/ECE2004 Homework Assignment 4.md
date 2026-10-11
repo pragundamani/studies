@@ -2,7 +2,7 @@
 
 a. Let the bottom wire be ground. $V_A=12\ \text{V}$, $V_1$ is the middle node, and $V_B=5\ \text{V}$
 
-![[Homework4_Q1_Circuit_Diagram.excalidraw.md]]
+![[ECE2004 circuits/prelabs/Homework4_Q1_Circuit_Diagram.excalidraw]]
 
 
 b. $\sum I_{OUT}=0$
@@ -30,7 +30,7 @@ $5\ \text{V}$ source: current enters the $+$ terminal, so $P=(5\ \text{V})\dfrac
 
 a. Let the bottom wire be ground. The left node is $V_L$ and the right node is $V_R$
 
-![[Homework4_Q2_Circuit_Diagram.excalidraw.md]]
+![[ECE2004 circuits/prelabs/Homework4_Q2_Circuit_Diagram.excalidraw]]
 
 
 b. $\sum I_{OUT}=0$
@@ -61,7 +61,7 @@ $2\ \text{A}$ source: current enters the bottom ($-$) terminal, so $P=-V_R(2\ \t
 
 a. Let the bottom wire be ground. The left, middle, and right nodes are $V_L$, $V_M$, and $V_R$
 
-![[Homework4_Q3_Circuit_Diagram.excalidraw.md]]
+![[ECE2004 circuits/prelabs/Homework4_Q3_Circuit_Diagram.excalidraw]]
 
 
 $V_M=1\ \text{V}$
@@ -97,7 +97,7 @@ $200\ \mathrm{mA}$ source: current enters the $-$ terminal, so $P=(V_R-V_M)(0.20
 
 a. Let the bottom wire be ground. $V_A=5\ \text{V}$. The nodes after the $40\ \Omega$, $50\ \Omega$, and $10\ \Omega$ resistors are $V_1$, $V_2$, and $V_3$
 
-![[Homework4_Q4_Circuit_Diagram.excalidraw.md]]
+![[ECE2004 circuits/prelabs/Homework4_Q4_Circuit_Diagram.excalidraw]]
 
 
 b. $\sum I_{OUT}=0$

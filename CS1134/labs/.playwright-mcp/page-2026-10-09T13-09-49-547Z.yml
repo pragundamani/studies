@@ -1,0 +1,266 @@
+- generic [ref=f43e1]:
+  - banner [ref=f43e2]:
+    - navigation "Main" [ref=f43e3]:
+      - generic [ref=f43e4]:
+        - link "skip to main content" [ref=f43e5] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - generic:
+          - generic [ref=f43e10]:
+            - generic [ref=f43e12]:
+              - link "My Home" [ref=f43e14] [cursor=pointer]:
+                - /url: /d2l/lp/ouHome/defaultHome.d2l
+                - img "My Home" [ref=f43e17]
+              - link "CS-UY 1134 - Fall 2026" [ref=f43e21] [cursor=pointer]:
+                - /url: /d2l/home/627027
+            - generic [ref=f43e22]:
+              - button "Select a course..." [ref=f43e25] [cursor=pointer]
+              - generic [ref=f43e31]:
+                - button "Message alerts" [ref=f43e34] [cursor=pointer]
+                - button "Subscription alerts" [ref=f43e39] [cursor=pointer]
+                - generic [ref=f43e43]:
+                  - button "Update alerts" [ref=f43e44] [cursor=pointer]
+                  - generic: Update alerts - You have new alerts
+              - button "Pragun Damani, avatar" [ref=f43e54] [cursor=pointer]:
+                - generic [ref=f43e56]:
+                  - generic [ref=f43e58]: PD
+                  - generic [ref=f43e59]: Pragun Damani
+              - button "Admin Tools" [ref=f43e62] [cursor=pointer]
+          - list [ref=f43e69]:
+            - listitem [ref=f43e70]:
+              - link "Content" [ref=f43e71] [cursor=pointer]:
+                - /url: /d2l/le/lessons/627027
+            - listitem [ref=f43e72]:
+              - link "Announcements" [ref=f43e73] [cursor=pointer]:
+                - /url: /d2l/lms/news/main.d2l?ou=627027
+            - listitem [ref=f43e74]:
+              - link "Assignments" [ref=f43e75] [cursor=pointer]:
+                - /url: /d2l/lms/dropbox/dropbox.d2l?ou=627027
+            - listitem [ref=f43e76]:
+              - link "Discussions" [ref=f43e77] [cursor=pointer]:
+                - /url: /d2l/le/627027/discussions/List
+            - listitem [ref=f43e78]:
+              - link "Quizzes" [ref=f43e79] [cursor=pointer]:
+                - /url: /d2l/lms/quizzing/quizzing.d2l?ou=627027
+            - listitem [ref=f43e80]:
+              - link "Grades" [ref=f43e81] [cursor=pointer]:
+                - /url: /d2l/lms/grades/index.d2l?ou=627027
+            - listitem [ref=f43e82]:
+              - link "Zoom" [ref=f43e83] [cursor=pointer]:
+                - /url: /d2l/common/dialogs/quickLink/quickLink.d2l?ou=627027&type=lti&rcode=438126FB-CB7E-4012-84DC-B926D628DF2A-1844200&srcou=6606&launchFramed=1&framedName=Zoom
+            - listitem [ref=f43e84]:
+              - button "More Tools" [ref=f43e86]
+            - listitem [ref=f43e90]:
+              - button "Course Reports" [ref=f43e92]
+            - listitem [ref=f43e96]:
+              - button "Help" [ref=f43e98]
+  - main [ref=f43e102]:
+    - iframe [active] [ref=f43e105]:
+      - generic [ref=f45e1]:
+        - generic [ref=f45e6]:
+          - generic [ref=f45e8]:
+            - generic [ref=f45e13]:
+              - searchbox "Search titles and descriptions" [ref=f45e14]
+              - button "Search" [ref=f45e17] [cursor=pointer]
+            - generic [ref=f45e20]:
+              - heading "Table of Contents" [level=2] [ref=f45e21]
+              - tree "Table of Contents" [ref=f45e22]:
+                - treeitem "Syllabus" [ref=f45e134] [cursor=pointer]:
+                  - generic [ref=f45e31]: Syllabus
+                - treeitem "Lecture Notes" [ref=f45e41] [cursor=pointer]:
+                  - generic [ref=f45e46]: Lecture Notes
+                - generic [ref=f45e55]:
+                  - treeitem "Labs" [expanded] [ref=f45e216] [cursor=pointer]:
+                    - generic [ref=f45e61]: Labs
+                  - group [ref=f45e137]:
+                    - treeitem "Lab 1" [ref=f45e141] [cursor=pointer]:
+                      - generic [ref=f45e146]: Lab 1
+                    - treeitem "Lab 2" [ref=f45e156] [cursor=pointer]:
+                      - generic [ref=f45e161]:
+                        - generic [ref=f45e162]: Lab 2
+                        - generic [ref=f45e168]: Started Sep 18
+                    - treeitem "Lab 3" [ref=f45e173] [cursor=pointer]:
+                      - generic [ref=f45e178]: Lab 3
+                    - generic [ref=f45e187]:
+                      - treeitem "Lab 4" [expanded] [ref=f45e265] [cursor=pointer]:
+                        - generic [ref=f45e193]: Lab 4
+                      - group [ref=f45e219]:
+                        - treeitem "FileArrayList" [ref=f45e223] [cursor=pointer]:
+                          - generic [ref=f45e226]: ArrayList
+                        - treeitem "FileLab 4 - Worksheet" [ref=f45e306] [cursor=pointer]:
+                          - generic [ref=f45e241]: Lab 4 - Worksheet
+                        - treeitem "FileLab 4 - Presentation" [ref=f45e252] [cursor=pointer]:
+                          - generic [ref=f45e256]: Lab 4 - Presentation
+                    - generic [ref=f45e202]:
+                      - treeitem "Lab 5" [expanded] [ref=f45e327] [cursor=pointer]:
+                        - generic [ref=f45e208]: Lab 5
+                      - group [ref=f45e309]:
+                        - treeitem "FileSelected. Lab 5 - Worksheet." [ref=f45e328] [cursor=pointer]:
+                          - generic [ref=f45e316]: Lab 5 - Worksheet
+                - treeitem "Platforms' Links" [ref=f45e71] [cursor=pointer]:
+                  - generic [ref=f45e76]: Platforms' Links
+                - treeitem "IDE Setup" [ref=f45e86] [cursor=pointer]:
+                  - generic [ref=f45e91]: IDE Setup
+                - treeitem "TA Office Hours & Contacts" [ref=f45e101] [cursor=pointer]:
+                  - generic [ref=f45e106]: TA Office Hours & Contacts
+          - generic [ref=f45e112]:
+            - generic [ref=f45e115]:
+              - link "Alternative formats" [ref=f45e330] [cursor=pointer]:
+                - /url: "#"
+              - button "Download" [ref=f45e117] [cursor=pointer]
+              - button "Open in full screen mode" [ref=f45e335] [cursor=pointer]
+              - generic [ref=f45e121]:
+                - button "Previous" [ref=f45e123] [cursor=pointer]
+                - button "Next" [ref=f45e127] [cursor=pointer]
+            - generic [ref=f45e129]:
+              - heading "Lab 5 - Worksheet" [level=1] [ref=f45e338]
+              - document [ref=f45e341]:
+                - toolbar:
+                  - generic:
+                    - generic:
+                      - generic: Page 5 / 6
+                      - group:
+                        - button "Zoom Out"
+                        - button "Zoom In"
+                        - button "Download"
+                        - button "Open new tab for printing"
+                        - button "Presentation Mode"
+                - generic [ref=f45e358]:
+                  - region "Page ⁨1⁩" [ref=f45e359]:
+                    - generic [ref=f45e361]:
+                      - text: CS-UY 1134 Lab 5 Fall 2026
+                      - generic: ● This lab will cover recursion.
+                      - generic: ● It is assumed that you have reviewed chapters 4 of the textbook. You may want to refer to the text and your lecture notes during the lab as you solve the problems.
+                      - generic: ● When approaching the problems, think before you code. Doing so is good practice and can help you lay out possible solutions.
+                      - generic: ● Think of any possible test cases that can potentially cause your solution to fail!
+                      - generic: ● You must stay for the duration of the lab. If you finish early, you may help other students. If you don’t finish by the end of the lab, we recommend you complete it on your own time. Ideally you should not spend more time than suggested for each problem.
+                      - generic: ● Your TAs are available to answer questions in lab, during office hours, and on Edstem.
+                      - generic: Vitamins (25 minutes)
+                      - generic: "1. For each of the following code snippets:"
+                      - generic: a. Given the following inputs, trace the execution of each code snippet.
+                      - generic: Write down all outputs in order and what the functions return.
+                      - generic: "b. Analyze the running time of each. For each snippet:"
+                      - generic: i. Draw the recursion tree that represents the execution process of the function, and the cost of each call
+                      - generic: ii. Conclude the total (asymptotic) run-time of the function.
+                      - generic: "a. def func1(n): # Draw out func1(16)"
+                      - generic: "if (n <= 1):"
+                      - generic: return 0
+                      - generic: "else:"
+                      - generic: return 10 + func1(n-2)
+                      - generic: "b. def func2(n): # Draw out func2(16)"
+                      - generic: "if (n <= 1):"
+                      - generic: return 1
+                      - generic: "else:"
+                      - generic: return 1 + func2(n//2)
+                      - generic: "c. def func3(lst): # Draw out func3([2, 4, 6, 8, 10, 12])"
+                      - generic: "if len(lst) == 1:"
+                      - generic: return lst[0]
+                      - generic: "else:"
+                      - generic: return lst[-1] + func3(lst[:-1])
+                  - region "Page ⁨2⁩" [ref=f45e362]:
+                    - generic [ref=f45e364]:
+                      - text: CS-UY 1134 Lab 5 Fall 2026
+                      - generic: "d. def func4(n): # Draw out func4(64)"
+                      - generic: "if n <= 1:"
+                      - generic: return 1
+                      - generic: "else:"
+                      - generic: return n + func4(n // 2)
+                      - generic: "e. def func5(n): # Trace func5(5)"
+                      - generic: "if n <= 0:"
+                      - generic: return 0
+                      - generic: total = 0
+                      - generic: "for i in range(n):"
+                      - generic: total += i
+                      - generic: return total + func5(n - 1)
+                      - generic: Coding
+                      - generic: In this section, it is strongly recommended that you solve the problem on paper before writing code.
+                      - generic: 1. Write a recursive function that returns the sum of all numbers from 0 to n. (5 minutes)
+                      - generic: "def sum_to(n): \"\"\" : n type: int : return type: int \"\"\""
+                      - generic: 2. Write a recursive function that returns the product of all the even numbers from 1 to n (assume n is passed in as an even number) . (5 minutes)
+                      - generic: "def product_evens(n): \"\"\" : n type: int : return type: int \"\"\""
+                      - generic: ex) if n = 8 →
+                      - generic: 2 * 4 * 6 * 8 = 384
+                  - region "Page ⁨3⁩" [ref=f45e365]:
+                    - generic [ref=f45e370]:
+                      - text: CS-UY 1134 Lab 5 Fall 2026
+                      - generic: 3. Sum of Digits
+                      - generic: Write a recursive function that returns the sum of the digits of a positive integer n. You must solve this problem without casting the input into a string.
+                      - generic: "def digit_sum(n):"
+                      - generic: “””
+                      - generic: ": n type: int"
+                      - generic: ": return type: int"
+                      - generic: “””
+                      - generic: ex)
+                      - generic: "digit_sum(5724) # 18"
+                      - generic: "digit_sum(8) # 8"
+                      - generic: "digit_sum(101) # 2"
+                      - generic: "Hint: Consider using n % 10 and n // 10 in your solution."
+                      - generic: 4. Is the List Strictly Increasing?
+                      - generic: A list is strictly increasing if every element is smaller than the element immediately after it. Write a recursive function that determines whether a non-empty list is strictly increasing.
+                      - generic: "def is_increasing(lst):"
+                      - generic: “””
+                      - generic: ": lst type: list"
+                      - generic: ": return type: bool"
+                      - generic: “””
+                      - generic: ex)
+                      - generic: "is_increasing([2, 5, 8, 13]) # True"
+                      - generic: "is_increasing([2, 5, 5, 9]) # False"
+                      - generic: "is_increasing([7]) # True"
+                  - region "Page ⁨4⁩" [ref=f45e366]:
+                    - generic [ref=f45e372]:
+                      - text: CS-UY 1134 Lab 5 Fall 2026
+                      - generic: 5. Count Adjacent Matches
+                      - generic: Write a recursive function that returns the number of times two equal values occur next to each other in a list.
+                      - generic: "def count_adjacent(lst, low, high):"
+                      - generic: “””
+                      - generic: ": lst type: list"
+                      - generic: ": low type: int"
+                      - generic: ": high type: int"
+                      - generic: ": return type: int"
+                      - generic: “””
+                      - generic: ex)
+                      - generic: "count_adjacent([1, 1, 3, 5, 5, 5], 0, 5) # 3"
+                      - generic: count_adjacent([1, 2, 3, 4], 0, 3) → 0
+                      - generic: "Explanation:"
+                      - generic: The matching adjacent pairs are (1, 1), (5, 5), and (5, 5) so the result is 3
+                      - generic: There are no matching adjacent pairs in the second example, so the result is 0
+                      - generic: 6. Valid Palindrome (Leetcode 125)
+                      - generic: A palindrome is a phrase where all characters are the same backward and forward. (must be recursive)
+                      - generic: Given a string str and its range of indices to consider, return True if it is a palindrome, or False otherwise. Assume all characters are lowercase. Must run in O(n) time.
+                      - generic: ex)
+                      - generic: "is_palindrome(\"racecar\", 0, 6) returns True # racecar"
+                      - generic: "is_palindrome(\"racecar\", 1, 5) returns True # aceca"
+                      - generic: is_palindrome("race car", 0, 6) returns False
+                      - generic: "# (empty space counts as a character)"
+                      - generic: "is_palindrome(\"racecar\", 1, 3) returns False # ace"
+                      - generic: "def is_palindrome(str, low, high): \"\"\" : str type: str"
+                      - generic: ": low, high type: int : return type: bool"
+                  - region "Page ⁨5⁩" [ref=f45e367]:
+                    - generic [ref=f45e374]:
+                      - text: CS-UY 1134 Lab 5 Fall 2026
+                      - generic: "\"\"\""
+                      - generic: 7. Binary Search (Leetcode 704)
+                      - generic: Given an array of integers nums which is sorted in ascending order, low and high indices, and an integer target , write a function to search for target in nums . If target exists between low and high , then return its index. Otherwise, return None .
+                      - generic: You must write an algorithm with O(log n) runtime complexity. (must be recursive)
+                      - generic: "def binary_search(lst, low, high, val): \"\"\" : lst type: list[int] : val type: int : low type, high type: int"
+                      - generic: ": return type: int (found), None \"\"\""
+                      - generic: 8. Count Peaks
+                      - generic: A peak is any element in a list strictly greater than both of their immediate neighbors. Write a recursive function that counts how peaks are in a list lst . Do not consider the first or last element to be peaks.
+                      - generic: "def count_peaks(lst, low, high):"
+                      - generic: "\"\"\" : lst type: list[int] : low type: int : high type: int"
+                      - generic: ": return type: int (found), None \"\"\""
+                      - generic: ex)
+                      - generic: "count_peaks([2, 7, 3, 8, 5, 9, 1], 0, 6) # 3"
+                      - generic: "E xplanation: 7, 8, and 9 are peaks because they are strictly greater than their adjacent elements."
+                  - region "Page ⁨6⁩" [ref=f45e368]:
+                    - generic [ref=f45e376]:
+                      - text: CS-UY 1134 Lab 5 Fall 2026
+                      - generic: 9. Vowel and Consonant Count
+                      - generic: "Given a string of letters representing a word(s), write a recursive function that returns a tuple of 2 integers: the number of vowels, and the number of consonants in the word."
+                      - generic: Remember that tuples are not mutable so you’ll have to create a new one to return each time when you’re updating the counts. Since we are always creating a tuple of 2 integers each time, the cost is constant. Implementation run-time must be linear. (25 minutes)
+                      - generic: "def vc_count(word, low, high): \"\"\" : word type: str"
+                      - generic: ": low, high type: int : return type: tuple (int, int) \"\"\""
+                      - generic: ex)
+                      - generic: word = “NYUTandonEngineering”
+                      - generic: vc_count(word, 0, len(word)-1) → (8, 12)
+                      - generic: "# 8 vowels, 12 consonants"
+        - log [ref=f45e133]

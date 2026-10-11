@@ -1,0 +1,57 @@
+- generic [ref=f50e1]:
+  - banner [ref=f50e2]:
+    - navigation "Main" [ref=f50e3]:
+      - generic [ref=f50e4]:
+        - link "skip to main content" [ref=f50e5] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - generic:
+          - generic [ref=f50e10]:
+            - generic [ref=f50e12]:
+              - link "My Home" [ref=f50e14] [cursor=pointer]:
+                - /url: /d2l/lp/ouHome/defaultHome.d2l
+                - img "My Home" [ref=f50e17]
+              - link "CS-UY 1134 - Fall 2026" [ref=f50e21] [cursor=pointer]:
+                - /url: /d2l/home/627027
+            - generic [ref=f50e22]:
+              - button "Select a course..." [ref=f50e25] [cursor=pointer]
+              - generic [ref=f50e31]:
+                - button "Message alerts" [ref=f50e34] [cursor=pointer]
+                - button "Subscription alerts" [ref=f50e39] [cursor=pointer]
+                - generic [ref=f50e43]:
+                  - button "Update alerts" [ref=f50e44] [cursor=pointer]
+                  - generic: Update alerts - You have new alerts
+              - button "Pragun Damani, avatar" [ref=f50e54] [cursor=pointer]:
+                - generic [ref=f50e56]:
+                  - generic [ref=f50e58]: PD
+                  - generic [ref=f50e59]: Pragun Damani
+              - button "Admin Tools" [ref=f50e62] [cursor=pointer]
+          - list [ref=f50e69]:
+            - listitem [ref=f50e70]:
+              - link "Content" [ref=f50e71] [cursor=pointer]:
+                - /url: /d2l/le/lessons/627027
+            - listitem [ref=f50e72]:
+              - link "Announcements" [ref=f50e73] [cursor=pointer]:
+                - /url: /d2l/lms/news/main.d2l?ou=627027
+            - listitem [ref=f50e74]:
+              - link "Assignments" [ref=f50e75] [cursor=pointer]:
+                - /url: /d2l/lms/dropbox/dropbox.d2l?ou=627027
+            - listitem [ref=f50e76]:
+              - link "Discussions" [ref=f50e77] [cursor=pointer]:
+                - /url: /d2l/le/627027/discussions/List
+            - listitem [ref=f50e78]:
+              - link "Quizzes" [ref=f50e79] [cursor=pointer]:
+                - /url: /d2l/lms/quizzing/quizzing.d2l?ou=627027
+            - listitem [ref=f50e80]:
+              - link "Grades" [ref=f50e81] [cursor=pointer]:
+                - /url: /d2l/lms/grades/index.d2l?ou=627027
+            - listitem [ref=f50e82]:
+              - link "Zoom" [ref=f50e83] [cursor=pointer]:
+                - /url: /d2l/common/dialogs/quickLink/quickLink.d2l?ou=627027&type=lti&rcode=438126FB-CB7E-4012-84DC-B926D628DF2A-1844200&srcou=6606&launchFramed=1&framedName=Zoom
+            - listitem [ref=f50e84]:
+              - button "More Tools" [ref=f50e86]
+            - listitem [ref=f50e90]:
+              - button "Course Reports" [ref=f50e92]
+            - listitem [ref=f50e96]:
+              - button "Help" [ref=f50e98]
+  - main [ref=f50e102]:
+    - iframe [ref=f50e105]

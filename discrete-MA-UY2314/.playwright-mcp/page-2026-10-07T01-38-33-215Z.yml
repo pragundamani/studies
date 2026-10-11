@@ -1,0 +1,1648 @@
+- generic [ref=f36e1]:
+  - generic [ref=f36e3]:
+    - generic [ref=f36e4]:
+      - link "Skip to content" [ref=f36e5] [cursor=pointer]:
+        - /url: ""
+      - link "Skip to navigation" [ref=f36e6] [cursor=pointer]:
+        - /url: ""
+    - generic [ref=f36e7]:
+      - banner [ref=f36e8]:
+        - generic [ref=f36e10]:
+          - button "Cengage WebAssign Homepage" [ref=f36e12] [cursor=pointer]:
+            - img "Cengage WebAssign Homepage" [ref=f36e13]
+          - generic [ref=f36e37]:
+            - generic [ref=f36e38]:
+              - link "My Cengage Home" [ref=f36e39] [cursor=pointer]:
+                - /url: https://www.cengage.com/dashboard/
+              - button "Open Email Notification Settings modal" [ref=f36e44] [cursor=pointer]
+              - link "Open Help page in a new browser tab." [ref=f36e48] [cursor=pointer]:
+                - /url: https://help.cengage.com/webassign/student_guide/
+              - link "Open My Account in a new browser tab." [ref=f36e52] [cursor=pointer]:
+                - /url: /web/User/Cengage/my_account
+              - button "Interface language setting. Language set to English" [ref=f36e57] [cursor=pointer]:
+                - generic [ref=f36e60]: EN
+            - generic [ref=f36e64]:
+              - generic [ref=f36e65]: pd2752@nyu.edu
+              - button "Sign out" [ref=f36e66] [cursor=pointer]
+        - navigation "WebAssign" [ref=f36e69]:
+          - link "Home" [ref=f36e70]
+          - link "My Assignments" [ref=f36e71]
+          - link "Grades" [ref=f36e72]
+          - link "Communication" [ref=f36e73]
+          - link "Calendar" [ref=f36e74]
+          - button "My eBooks" [ref=f36e77]
+      - main [ref=f36e80]:
+        - generic [ref=f36e81]:
+          - generic [ref=f36e82]:
+            - generic [ref=f36e84]:
+              - generic [ref=f36e85]:
+                - 'link "navigate back to MA-UY 2314: Discrete Mathematics, Fall 2026, Fall 2026" [ref=f36e87] [cursor=pointer]':
+                  - /url: /v4cgi/student.pl?course=1319576,1715067
+                  - text: "MA-UY 2314: Discrete Mathematics, Fall 2026, Fall 2026"
+                - heading "4.2 Direct Proof and Counterexample II (Homework)" [level=1] [ref=f36e90]
+              - generic [ref=f36e93]:
+                - generic [ref=f36e97]:
+                  - text: Instructor
+                  - generic [ref=f36e98]: Ken Cereste
+                - generic [ref=f36e99]: New York University
+            - generic [ref=f36e102]:
+              - generic [ref=f36e103]:
+                - generic [ref=f36e104]:
+                  - generic [ref=f36e105]:
+                    - generic [ref=f36e106]: "Due Date: Tuesday, October 6, 2026 at 11:59 PM EDT"
+                    - generic [aria-hidden] [ref=f36e107]: "Due Date:"
+                    - generic [aria-hidden] [ref=f36e108]: Tue, Oct 6, 2026 11:59 PM EDT
+                  - generic [ref=f36e109]:
+                    - generic [ref=f36e110]: "Current Score: 33.32 / 100 Points 33.3%"
+                    - generic [aria-hidden] [ref=f36e111]: "Current Score:"
+                    - generic [aria-hidden] [ref=f36e112]: 33.32 / 100 Points | 33.3 %
+                - generic [ref=f36e113]:
+                  - button "Open Request Extension in modal window" [ref=f36e114] [cursor=pointer]:
+                    - generic [ref=f36e115]: Request Extension
+                  - button "Print assignment" [ref=f36e119] [cursor=pointer]:
+                    - generic [ref=f36e120]: Print Assignment
+              - generic [ref=f36e126]:
+                - heading [level=2] [ref=f36e127]:
+                  - button "Scoring and Assignment Information" [expanded] [ref=f36e128] [cursor=pointer]
+                - generic "Scoring and Assignment Information" [ref=f36e135]:
+                  - generic [ref=f36e136]:
+                    - table [ref=f36e139]:
+                      - rowgroup [ref=f36e140]:
+                        - row [ref=f36e141]:
+                          - rowheader "Question" [ref=f36e142]
+                          - columnheader [ref=f36e143]:
+                            - link "Question 1 of 6," [ref=f36e144] [cursor=pointer]:
+                              - /url: "#Q1"
+                              - generic [ref=f36e145]: "1"
+                          - columnheader [ref=f36e147]:
+                            - link "Question 2 of 6," [ref=f36e148] [cursor=pointer]:
+                              - /url: "#Q2"
+                              - generic [ref=f36e149]: "2"
+                          - columnheader [ref=f36e151]:
+                            - link "Question 3 of 6," [ref=f36e152] [cursor=pointer]:
+                              - /url: "#Q3"
+                              - generic [ref=f36e153]: "3"
+                          - columnheader [ref=f36e155]:
+                            - link "Question 4 of 6," [ref=f36e156] [cursor=pointer]:
+                              - /url: "#Q4"
+                              - generic [ref=f36e157]: "4"
+                          - columnheader [ref=f36e159]:
+                            - link "Question 5 of 6," [ref=f36e160] [cursor=pointer]:
+                              - /url: "#Q5"
+                              - generic [ref=f36e161]: "5"
+                          - columnheader [ref=f36e163]:
+                            - link "Question 6 of 6," [ref=f36e164] [cursor=pointer]:
+                              - /url: "#Q6"
+                              - generic [ref=f36e165]: "6"
+                        - row [ref=f36e167]:
+                          - rowheader "Points" [ref=f36e168]
+                          - cell [ref=f36e169]:
+                            - link "Question 1 out of 6, correct, your score is 16.66 out of 16.66" [ref=f36e170] [cursor=pointer]:
+                              - /url: "#Q1"
+                              - generic [ref=f36e171]: 16.66 / 16.66
+                          - cell [ref=f36e172]:
+                            - link "Question 2 out of 6, correct, your score is 16.66 out of 16.66" [ref=f36e173] [cursor=pointer]:
+                              - /url: "#Q2"
+                              - generic [ref=f36e174]: 16.66 / 16.66
+                          - cell [ref=f36e175]:
+                            - link "Question 3 out of 6, your score is none out of 16.66" [ref=f36e176] [cursor=pointer]:
+                              - /url: "#Q3"
+                              - generic [ref=f36e177]: – / 16.66
+                          - cell [ref=f36e178]:
+                            - link "Question 4 out of 6, your score is none out of 16.66" [ref=f36e179] [cursor=pointer]:
+                              - /url: "#Q4"
+                              - generic [ref=f36e180]: – / 16.66
+                          - cell [ref=f36e181]:
+                            - link "Question 5 out of 6, your score is none out of 16.66" [ref=f36e182] [cursor=pointer]:
+                              - /url: "#Q5"
+                              - generic [ref=f36e183]: – / 16.66
+                          - cell [ref=f36e184]:
+                            - link "Question 6 out of 6, your score is none out of 16.7" [ref=f36e185] [cursor=pointer]:
+                              - /url: "#Q6"
+                              - generic [ref=f36e186]: – / 16.7
+                    - generic [ref=f36e187]:
+                      - heading "Assignment Submission" [level=3] [ref=f36e188]
+                      - paragraph [ref=f36e189]: For this assignment, you submit answers by question parts. The number of submissions remaining for each question part only changes if you submit or change the answer.
+                      - heading "Assignment Scoring" [level=3] [ref=f36e190]
+                      - paragraph [ref=f36e191]: Your last submission is used for your score.
+            - generic [ref=f36e192]:
+              - region "Banner for question 1" [ref=f36e195]:
+                - generic [ref=f36e196]:
+                  - heading "Question 1" [level=2] [ref=f36e198]: "1."
+                  - strong [ref=f36e199]: "[16.66 / 16.66 Points]"
+                - generic [ref=f36e200]:
+                  - button "Details for question 1." [ref=f36e201] [cursor=pointer]:
+                    - generic [ref=f36e202]: Details
+                  - button "My Notes For question 1" [ref=f36e205] [cursor=pointer]:
+                    - generic [ref=f36e206]: My Notes
+                  - button "Previous Answers for question 1" [ref=f36e207] [cursor=pointer]:
+                    - generic [ref=f36e208]: Previous Answers
+                  - button "Practice Another Version for question 1." [ref=f36e209] [cursor=pointer]:
+                    - generic [ref=f36e210]: Practice Another
+              - generic [ref=f36e211]:
+                - generic [ref=f36e213]:
+                  - generic [ref=f36e214]: eppdiscmath5 4.2.005.nva
+                  - generic [ref=f36e215]: Consider the following statement.
+                  - generic [ref=f36e216]:
+                    - text: If
+                    - emphasis [ref=f36e217]: a
+                    - text: and
+                    - emphasis [ref=f36e218]: b
+                    - text: are any odd integers, then
+                    - generic [ref=f36e221]:
+                      - generic [ref=f36e222]: a
+                      - superscript [ref=f36e223]: "2"
+                      - text: +
+                      - generic [ref=f36e224]: b
+                      - superscript [ref=f36e225]: "2"
+                    - text: is even.
+                  - generic [ref=f36e226]: Construct a proof for the statement by selecting sentences from the following scrambled list and putting them in the correct order.
+                  - list [ref=f36e227]:
+                    - listitem [ref=f36e228]:
+                      - text: Thus,
+                      - emphasis [ref=f36e229]: a
+                      - text: ² +
+                      - emphasis [ref=f36e230]: b
+                      - text: ² = 2
+                      - emphasis [ref=f36e231]: k
+                      - text: ", where"
+                      - emphasis [ref=f36e232]: k
+                      - text: is an integer.
+                    - listitem [ref=f36e233]:
+                      - text: By substitution and algebra,
+                      - emphasis [ref=f36e234]: a
+                      - text: ² +
+                      - emphasis [ref=f36e235]: b
+                      - text: ² = (2
+                      - emphasis [ref=f36e236]: r
+                      - text: )² + (2
+                      - emphasis [ref=f36e237]: s
+                      - text: )² = 2(2
+                      - emphasis [ref=f36e238]: r
+                      - text: ² + 2
+                      - emphasis [ref=f36e239]: s
+                      - text: ²).
+                    - listitem [ref=f36e240]:
+                      - text: By definition of odd integer,
+                      - emphasis [ref=f36e241]: a
+                      - text: = 2
+                      - emphasis [ref=f36e242]: r
+                      - text: + 1 and
+                      - emphasis [ref=f36e243]: b
+                      - text: = 2
+                      - emphasis [ref=f36e244]: s
+                      - text: + 1 for some integers
+                      - emphasis [ref=f36e245]: r
+                      - text: and
+                      - emphasis [ref=f36e246]: s
+                      - text: .
+                    - listitem [ref=f36e247]:
+                      - text: Let
+                      - emphasis [ref=f36e248]: k
+                      - text: = 2
+                      - emphasis [ref=f36e249]: r
+                      - text: ² + 2
+                      - emphasis [ref=f36e250]: s
+                      - text: ². Then
+                      - emphasis [ref=f36e251]: k
+                      - text: is an integer because sums and products of integers are integers.
+                    - listitem [ref=f36e252]:
+                      - text: Hence
+                      - emphasis [ref=f36e253]: a
+                      - text: ² +
+                      - emphasis [ref=f36e254]: b
+                      - text: ² is even by definition of even.
+                    - listitem [ref=f36e255]:
+                      - text: Suppose
+                      - emphasis [ref=f36e256]: a
+                      - text: and
+                      - emphasis [ref=f36e257]: b
+                      - text: are any odd integers.
+                    - listitem [ref=f36e258]:
+                      - text: By definition of odd integer,
+                      - generic [ref=f36e259]:
+                        - emphasis [ref=f36e260]: a
+                        - text: = 2
+                        - emphasis [ref=f36e261]: r
+                        - text: + 1
+                      - text: and
+                      - generic [ref=f36e262]:
+                        - emphasis [ref=f36e263]: b
+                        - text: = 2
+                        - emphasis [ref=f36e264]: r
+                        - text: + 1
+                      - text: for any integers
+                      - emphasis [ref=f36e265]: r
+                      - text: and
+                      - emphasis [ref=f36e266]: s
+                      - text: .
+                    - listitem [ref=f36e267]:
+                      - text: Let
+                      - emphasis [ref=f36e268]: k
+                      - text: = 2(
+                      - emphasis [ref=f36e269]: r
+                      - text: ² +
+                      - emphasis [ref=f36e270]: s
+                      - text: ²) + 2(
+                      - emphasis [ref=f36e271]: r
+                      - text: +
+                      - emphasis [ref=f36e272]: s
+                      - text: ) + 1. Then
+                      - emphasis [ref=f36e273]: k
+                      - text: is an integer because sums and products of integers are integers.
+                    - listitem [ref=f36e274]:
+                      - text: Suppose
+                      - emphasis [ref=f36e275]: a
+                      - text: and
+                      - emphasis [ref=f36e276]: b
+                      - text: are any integers.
+                    - listitem [ref=f36e277]:
+                      - text: By substitution and algebra,
+                      - emphasis [ref=f36e278]: a
+                      - text: ² +
+                      - emphasis [ref=f36e279]: b
+                      - text: ² = (2
+                      - emphasis [ref=f36e280]: r
+                      - text: + 1)² + (2
+                      - emphasis [ref=f36e281]: s
+                      - text: + 1)² = 2[2(
+                      - emphasis [ref=f36e282]: r
+                      - text: ² +
+                      - emphasis [ref=f36e283]: s
+                      - text: ²) + 2(
+                      - emphasis [ref=f36e284]: r
+                      - text: +
+                      - emphasis [ref=f36e285]: s
+                      - text: ) + 1].
+                  - generic [ref=f36e286]:
+                    - strong [ref=f36e287]: Proof
+                    - text: ":"
+                  - generic [ref=f36e289]:
+                    - generic [ref=f36e290]:
+                      - generic [ref=f36e291]: "1."
+                      - generic [ref=f36e292]:
+                        - combobox [ref=f36e293]:
+                          - button [ref=f36e294]:
+                            - generic [ref=f36e295]:
+                              - text: Suppose
+                              - emphasis [ref=f36e296]: a
+                              - text: and
+                              - emphasis [ref=f36e297]: b
+                              - text: are any odd integers.
+                          - option "---Select---"
+                          - option "Thus, + = 2 , where is an integer."
+                          - option "By substitution and algebra, + = (2 ) + (2 ) = 2(2 + 2 )."
+                          - option "By definition of odd integer, = 2 + 1 and = 2 + 1 for some integers and ."
+                          - option "Let = 2 + 2 . Then is an integer because sums and products of integers are integers."
+                          - option "Hence + is even by definition of even."
+                          - option "Suppose and are any odd integers." [selected]
+                          - option "By definition of odd integer, and for any integers and ."
+                          - option "Let = 2( + ) + 2( + ) + 1. Then is an integer because sums and products of integers are integers."
+                          - option "Suppose and are any integers."
+                          - option "By substitution and algebra, + = (2 + 1) + (2 + 1) = 2[2( + ) + 2( + ) + 1]."
+                        - 'img "Correct: Your answer is correct." [ref=f36e301]'
+                    - generic [ref=f36e302]:
+                      - generic [ref=f36e303]: "2."
+                      - generic [ref=f36e304]:
+                        - combobox [ref=f36e305]:
+                          - button [ref=f36e306]:
+                            - generic [ref=f36e307]:
+                              - text: By definition of odd integer,
+                              - emphasis [ref=f36e308]: a
+                              - text: = 2
+                              - emphasis [ref=f36e309]: r
+                              - text: + 1 and
+                              - emphasis [ref=f36e310]: b
+                              - text: = 2
+                              - emphasis [ref=f36e311]: s
+                              - text: + 1 for some integers
+                              - emphasis [ref=f36e312]: r
+                              - text: and
+                              - emphasis [ref=f36e313]: s
+                              - text: .
+                          - option "---Select---"
+                          - option "Thus, + = 2 , where is an integer."
+                          - option "By substitution and algebra, + = (2 ) + (2 ) = 2(2 + 2 )."
+                          - option "By definition of odd integer, = 2 + 1 and = 2 + 1 for some integers and ." [selected]
+                          - option "Let = 2 + 2 . Then is an integer because sums and products of integers are integers."
+                          - option "Hence + is even by definition of even."
+                          - option "Suppose and are any odd integers."
+                          - option "By definition of odd integer, and for any integers and ."
+                          - option "Let = 2( + ) + 2( + ) + 1. Then is an integer because sums and products of integers are integers."
+                          - option "Suppose and are any integers."
+                          - option "By substitution and algebra, + = (2 + 1) + (2 + 1) = 2[2( + ) + 2( + ) + 1]."
+                        - 'img "Correct: Your answer is correct." [ref=f36e317]'
+                    - generic [ref=f36e318]:
+                      - generic [ref=f36e319]: "3."
+                      - generic [ref=f36e320]:
+                        - combobox [ref=f36e321]:
+                          - button [ref=f36e322]:
+                            - generic [ref=f36e323]:
+                              - text: By substitution and algebra,
+                              - emphasis [ref=f36e324]: a
+                              - text: ² +
+                              - emphasis [ref=f36e325]: b
+                              - text: ² = (2
+                              - emphasis [ref=f36e326]: r
+                              - text: + 1)² + (2
+                              - emphasis [ref=f36e327]: s
+                              - text: + 1)² = 2[2(
+                              - emphasis [ref=f36e328]: r
+                              - text: ² +
+                              - emphasis [ref=f36e329]: s
+                              - text: ²) + 2(
+                              - emphasis [ref=f36e330]: r
+                              - text: +
+                              - emphasis [ref=f36e331]: s
+                              - text: ) + 1].
+                          - option "---Select---"
+                          - option "Thus, + = 2 , where is an integer."
+                          - option "By substitution and algebra, + = (2 ) + (2 ) = 2(2 + 2 )."
+                          - option "By definition of odd integer, = 2 + 1 and = 2 + 1 for some integers and ."
+                          - option "Let = 2 + 2 . Then is an integer because sums and products of integers are integers."
+                          - option "Hence + is even by definition of even."
+                          - option "Suppose and are any odd integers."
+                          - option "By definition of odd integer, and for any integers and ."
+                          - option "Let = 2( + ) + 2( + ) + 1. Then is an integer because sums and products of integers are integers."
+                          - option "Suppose and are any integers."
+                          - option "By substitution and algebra, + = (2 + 1) + (2 + 1) = 2[2( + ) + 2( + ) + 1]." [selected]
+                        - 'img "Correct: Your answer is correct." [ref=f36e335]'
+                    - generic [ref=f36e336]:
+                      - generic [ref=f36e337]: "4."
+                      - generic [ref=f36e338]:
+                        - combobox [ref=f36e339]:
+                          - button [ref=f36e340]:
+                            - generic [ref=f36e341]:
+                              - text: Let
+                              - emphasis [ref=f36e342]: k
+                              - text: = 2(
+                              - emphasis [ref=f36e343]: r
+                              - text: ² +
+                              - emphasis [ref=f36e344]: s
+                              - text: ²) + 2(
+                              - emphasis [ref=f36e345]: r
+                              - text: +
+                              - emphasis [ref=f36e346]: s
+                              - text: ) + 1. Then
+                              - emphasis [ref=f36e347]: k
+                              - text: is an integer because sums and products of integers are integers.
+                          - option "---Select---"
+                          - option "Thus, + = 2 , where is an integer."
+                          - option "By substitution and algebra, + = (2 ) + (2 ) = 2(2 + 2 )."
+                          - option "By definition of odd integer, = 2 + 1 and = 2 + 1 for some integers and ."
+                          - option "Let = 2 + 2 . Then is an integer because sums and products of integers are integers."
+                          - option "Hence + is even by definition of even."
+                          - option "Suppose and are any odd integers."
+                          - option "By definition of odd integer, and for any integers and ."
+                          - option "Let = 2( + ) + 2( + ) + 1. Then is an integer because sums and products of integers are integers." [selected]
+                          - option "Suppose and are any integers."
+                          - option "By substitution and algebra, + = (2 + 1) + (2 + 1) = 2[2( + ) + 2( + ) + 1]."
+                        - 'img "Correct: Your answer is correct." [ref=f36e351]'
+                    - generic [ref=f36e352]:
+                      - generic [ref=f36e353]: "5."
+                      - generic [ref=f36e354]:
+                        - combobox [ref=f36e355]:
+                          - button [ref=f36e356]:
+                            - generic [ref=f36e357]:
+                              - text: Thus,
+                              - emphasis [ref=f36e358]: a
+                              - text: ² +
+                              - emphasis [ref=f36e359]: b
+                              - text: ² = 2
+                              - emphasis [ref=f36e360]: k
+                              - text: ", where"
+                              - emphasis [ref=f36e361]: k
+                              - text: is an integer.
+                          - option "---Select---"
+                          - option "Thus, + = 2 , where is an integer." [selected]
+                          - option "By substitution and algebra, + = (2 ) + (2 ) = 2(2 + 2 )."
+                          - option "By definition of odd integer, = 2 + 1 and = 2 + 1 for some integers and ."
+                          - option "Let = 2 + 2 . Then is an integer because sums and products of integers are integers."
+                          - option "Hence + is even by definition of even."
+                          - option "Suppose and are any odd integers."
+                          - option "By definition of odd integer, and for any integers and ."
+                          - option "Let = 2( + ) + 2( + ) + 1. Then is an integer because sums and products of integers are integers."
+                          - option "Suppose and are any integers."
+                          - option "By substitution and algebra, + = (2 + 1) + (2 + 1) = 2[2( + ) + 2( + ) + 1]."
+                        - 'img "Correct: Your answer is correct." [ref=f36e365]'
+                    - generic [ref=f36e366]:
+                      - generic [ref=f36e367]: "6."
+                      - generic [ref=f36e368]:
+                        - combobox [ref=f36e369]:
+                          - button [ref=f36e370]:
+                            - generic [ref=f36e371]:
+                              - text: Hence
+                              - emphasis [ref=f36e372]: a
+                              - text: ² +
+                              - emphasis [ref=f36e373]: b
+                              - text: ² is even by definition of even.
+                          - option "---Select---"
+                          - option "Thus, + = 2 , where is an integer."
+                          - option "By substitution and algebra, + = (2 ) + (2 ) = 2(2 + 2 )."
+                          - option "By definition of odd integer, = 2 + 1 and = 2 + 1 for some integers and ."
+                          - option "Let = 2 + 2 . Then is an integer because sums and products of integers are integers."
+                          - option "Hence + is even by definition of even." [selected]
+                          - option "Suppose and are any odd integers."
+                          - option "By definition of odd integer, and for any integers and ."
+                          - option "Let = 2( + ) + 2( + ) + 1. Then is an integer because sums and products of integers are integers."
+                          - option "Suppose and are any integers."
+                          - option "By substitution and algebra, + = (2 + 1) + (2 + 1) = 2[2( + ) + 2( + ) + 1]."
+                        - 'img "Correct: Your answer is correct." [ref=f36e377]'
+                  - generic "Resource box" [ref=f36e381]:
+                    - generic [ref=f36e382]:
+                      - generic [ref=f36e383]: Resources
+                      - paragraph [ref=f36e385]:
+                        - link "Watch It (opens in a new tab)" [ref=f36e386] [cursor=pointer]:
+                          - /url: javascript:open_bc_enhanced('watch_it', 'https://college.cengage.com/geyser/cengage_9780538738101/html/watchit_player/?asset=eppdiscmath5_04_02_002&prod=eppdiscmath5', 1)
+                          - text: Watch It
+                - button "Submit Answer" [ref=f36e389] [cursor=pointer]
+            - generic [ref=f36e390]:
+              - region "Banner for question 2" [ref=f36e393]:
+                - generic [ref=f36e394]:
+                  - heading "Question 2" [level=2] [ref=f36e396]: "2."
+                  - strong [ref=f36e397]: "[16.66 / 16.66 Points]"
+                - generic [ref=f36e398]:
+                  - button "Details for question 2." [ref=f36e399] [cursor=pointer]:
+                    - generic [ref=f36e400]: Details
+                  - button "My Notes For question 2" [ref=f36e403] [cursor=pointer]:
+                    - generic [ref=f36e404]: My Notes
+                  - button "Previous Answers for question 2" [ref=f36e405] [cursor=pointer]:
+                    - generic [ref=f36e406]: Previous Answers
+              - generic [ref=f36e407]:
+                - generic [ref=f36e409]:
+                  - generic [ref=f36e410]: EppDiscMath5 4.2.013.
+                  - region [ref=f36e411]:
+                    - strong [ref=f36e412]: Problem 2
+                    - generic [ref=f36e413]: Prove that the following statement is false.
+                    - group [ref=f36e414]:
+                      - text: There exists an integer
+                      - emphasis [ref=f36e415]: "n"
+                      - text: such that
+                      - generic [ref=f36e418]:
+                        - generic [ref=f36e422]:
+                          - generic [ref=f36e423]: "6"
+                          - generic [ref=f36e424]:
+                            - generic [ref=f36e425]: "n"
+                            - generic [ref=f36e427]: "2"
+                          - generic [ref=f36e431]: +
+                          - generic [ref=f36e432]: "27"
+                        - math [ref=f36e433]:
+                          - generic [ref=f36e434]: "6"
+                          - generic [ref=f36e435]:
+                            - generic [ref=f36e436]: "n"
+                            - generic [ref=f36e437]: "2"
+                          - generic [ref=f36e439]: +
+                          - generic [ref=f36e440]: "27"
+                      - text: is prime.
+                    - group "To prove the statement is false, prove the negation is true. Write the negation of the statement." [ref=f36e442]:
+                      - generic [ref=f36e444]:
+                        - radio "There exists an integer n, such that 6 n 2 + 27 is prime." [ref=f36e445]
+                        - generic [ref=f36e446]:
+                          - text: There exists an integer
+                          - emphasis [ref=f36e447]: "n"
+                          - text: ", such that"
+                          - generic [ref=f36e450]:
+                            - generic [ref=f36e454]:
+                              - generic [ref=f36e455]: "6"
+                              - generic [ref=f36e456]:
+                                - generic [ref=f36e457]: "n"
+                                - generic [ref=f36e459]: "2"
+                              - generic [ref=f36e463]: +
+                              - generic [ref=f36e464]: "27"
+                            - math [ref=f36e465]:
+                              - generic [ref=f36e466]: "6"
+                              - generic [ref=f36e467]:
+                                - generic [ref=f36e468]: "n"
+                                - generic [ref=f36e469]: "2"
+                              - generic [ref=f36e471]: +
+                              - generic [ref=f36e472]: "27"
+                          - text: is prime.
+                      - generic [ref=f36e473]:
+                        - radio "There exists an integer n, such that 6 n 2 + 27 is not prime." [ref=f36e474]
+                        - generic [ref=f36e475]:
+                          - text: There exists an integer
+                          - emphasis [ref=f36e476]: "n"
+                          - text: ", such that"
+                          - generic [ref=f36e479]:
+                            - generic [ref=f36e483]:
+                              - generic [ref=f36e484]: "6"
+                              - generic [ref=f36e485]:
+                                - generic [ref=f36e486]: "n"
+                                - generic [ref=f36e488]: "2"
+                              - generic [ref=f36e492]: +
+                              - generic [ref=f36e493]: "27"
+                            - math [ref=f36e494]:
+                              - generic [ref=f36e495]: "6"
+                              - generic [ref=f36e496]:
+                                - generic [ref=f36e497]: "n"
+                                - generic [ref=f36e498]: "2"
+                              - generic [ref=f36e500]: +
+                              - generic [ref=f36e501]: "27"
+                          - text: is not prime.
+                      - generic [ref=f36e502]:
+                        - radio "There exists a composite number q = 6 n 2 + 27 , such that n is an integer." [ref=f36e503]
+                        - generic [ref=f36e504]:
+                          - text: There exists a composite number
+                          - generic [ref=f36e505]:
+                            - generic [ref=f36e508]:
+                              - generic [ref=f36e512]:
+                                - generic [ref=f36e513]: q
+                                - generic [ref=f36e515]: =
+                                - generic [ref=f36e516]: "6"
+                                - generic [ref=f36e517]:
+                                  - generic [ref=f36e518]: "n"
+                                  - generic [ref=f36e520]: "2"
+                                - generic [ref=f36e524]: +
+                                - generic [ref=f36e525]: "27"
+                              - math [ref=f36e526]:
+                                - generic [ref=f36e527]: q
+                                - generic [ref=f36e528]: =
+                                - generic [ref=f36e529]: "6"
+                                - generic [ref=f36e530]:
+                                  - generic [ref=f36e531]: "n"
+                                  - generic [ref=f36e532]: "2"
+                                - generic [ref=f36e534]: +
+                                - generic [ref=f36e535]: "27"
+                            - text: ","
+                          - text: such that
+                          - emphasis [ref=f36e536]: "n"
+                          - text: is an integer.
+                      - generic [ref=f36e537]:
+                        - radio "For every integer n, 6 n 2 + 27 is prime." [ref=f36e538]
+                        - generic [ref=f36e539]:
+                          - text: For every integer
+                          - emphasis [ref=f36e540]: "n"
+                          - text: ","
+                          - generic [ref=f36e543]:
+                            - generic [ref=f36e547]:
+                              - generic [ref=f36e548]: "6"
+                              - generic [ref=f36e549]:
+                                - generic [ref=f36e550]: "n"
+                                - generic [ref=f36e552]: "2"
+                              - generic [ref=f36e556]: +
+                              - generic [ref=f36e557]: "27"
+                            - math [ref=f36e558]:
+                              - generic [ref=f36e559]: "6"
+                              - generic [ref=f36e560]:
+                                - generic [ref=f36e561]: "n"
+                                - generic [ref=f36e562]: "2"
+                              - generic [ref=f36e564]: +
+                              - generic [ref=f36e565]: "27"
+                          - text: is prime.
+                      - generic [ref=f36e566]:
+                        - radio "For every integer n, 6 n 2 + 27 is not prime." [checked] [ref=f36e567]
+                        - generic [ref=f36e568]:
+                          - text: For every integer
+                          - emphasis [ref=f36e569]: "n"
+                          - text: ","
+                          - generic [ref=f36e572]:
+                            - generic [ref=f36e576]:
+                              - generic [ref=f36e577]: "6"
+                              - generic [ref=f36e578]:
+                                - generic [ref=f36e579]: "n"
+                                - generic [ref=f36e581]: "2"
+                              - generic [ref=f36e585]: +
+                              - generic [ref=f36e586]: "27"
+                            - math [ref=f36e587]:
+                              - generic [ref=f36e588]: "6"
+                              - generic [ref=f36e589]:
+                                - generic [ref=f36e590]: "n"
+                                - generic [ref=f36e591]: "2"
+                              - generic [ref=f36e593]: +
+                              - generic [ref=f36e594]: "27"
+                          - text: is not prime.
+                        - 'img "Correct: Your answer is correct." [ref=f36e598]'
+                    - generic [ref=f36e599]: Now prove the negation.
+                    - generic [ref=f36e600]:
+                      - text: Suppose
+                      - emphasis [ref=f36e601]: "n"
+                      - text: is any integer. Express
+                      - generic [ref=f36e604]:
+                        - generic [ref=f36e608]:
+                          - generic [ref=f36e609]: "6"
+                          - generic [ref=f36e610]:
+                            - generic [ref=f36e611]: "n"
+                            - generic [ref=f36e613]: "2"
+                          - generic [ref=f36e617]: +
+                          - generic [ref=f36e618]: "27"
+                        - math [ref=f36e619]:
+                          - generic [ref=f36e620]: "6"
+                          - generic [ref=f36e621]:
+                            - generic [ref=f36e622]: "n"
+                            - generic [ref=f36e623]: "2"
+                          - generic [ref=f36e625]: +
+                          - generic [ref=f36e626]: "27"
+                      - text: "as the following product:"
+                    - group "Read and complete the following." [ref=f36e628]:
+                      - generic [ref=f36e630]:
+                        - generic [ref=f36e633]:
+                          - generic [ref=f36e637]:
+                            - generic [ref=f36e638]: "6"
+                            - generic [ref=f36e639]:
+                              - generic [ref=f36e640]: "n"
+                              - generic [ref=f36e642]: "2"
+                            - generic [ref=f36e646]: +
+                            - generic [ref=f36e647]: "27"
+                            - generic [ref=f36e648]: =
+                            - generic [ref=f36e649]: "3"
+                            - generic [ref=f36e650]: (
+                          - math [ref=f36e656]:
+                            - generic [ref=f36e657]: "6"
+                            - generic [ref=f36e658]:
+                              - generic [ref=f36e659]: "n"
+                              - generic [ref=f36e660]: "2"
+                            - generic [ref=f36e662]: +
+                            - generic [ref=f36e663]: "27"
+                            - generic [ref=f36e664]: =
+                            - generic [ref=f36e665]: "3"
+                            - generic [ref=f36e666]: (
+                        - generic: Write your second answer.
+                        - generic [ref=f36e670]:
+                          - generic [ref=f36e671]:
+                            - button [ref=f36e672]:
+                              - generic [ref=f36e673]:
+                                - math [ref=f36e674]:
+                                  - generic [ref=f36e675]: "2"
+                                  - generic [ref=f36e676]: "n"
+                                  - generic [ref=f36e677]: ^
+                                  - generic [ref=f36e678]: "2"
+                                  - generic [ref=f36e679]: +
+                                  - generic [ref=f36e680]: "9"
+                                - generic [aria-hidden] [ref=f36e681]:
+                                  - generic [ref=f36e685]:
+                                    - generic [ref=f36e686]: "2"
+                                    - generic [ref=f36e687]: "n"
+                                    - generic [ref=f36e688]: ^
+                                    - generic [ref=f36e689]: "2"
+                                    - generic [ref=f36e690]: +
+                                    - generic [ref=f36e691]: "9"
+                                  - math [ref=f36e693]:
+                                    - generic [ref=f36e694]: "2"
+                                    - generic [ref=f36e695]: "n"
+                                    - generic [ref=f36e696]: ^
+                                    - generic [ref=f36e697]: "2"
+                                    - generic [ref=f36e698]: +
+                                    - generic [ref=f36e699]: "9"
+                            - button "Open full math pad" [ref=f36e700] [cursor=pointer]
+                          - generic [ref=f36e702]: Press Space or Enter to edit this math answer.
+                        - 'img "Correct: Your answer is correct." [ref=f36e707]'
+                        - generic [ref=f36e708]:
+                          - generic [ref=f36e711]:
+                            - generic [ref=f36e713]: )
+                            - math [ref=f36e722]:
+                              - generic [ref=f36e723]: )
+                          - text: .
+                    - group "Read and complete the following." [ref=f36e727]:
+                      - generic [ref=f36e729]:
+                        - text: The second factor is an integer because sums and products of integers are integers. Thus,
+                        - generic [ref=f36e732]:
+                          - generic [ref=f36e736]:
+                            - generic [ref=f36e737]: "6"
+                            - generic [ref=f36e738]:
+                              - generic [ref=f36e739]: "n"
+                              - generic [ref=f36e741]: "2"
+                            - generic [ref=f36e745]: +
+                            - generic [ref=f36e746]: "27"
+                          - math [ref=f36e747]:
+                            - generic [ref=f36e748]: "6"
+                            - generic [ref=f36e749]:
+                              - generic [ref=f36e750]: "n"
+                              - generic [ref=f36e751]: "2"
+                            - generic [ref=f36e753]: +
+                            - generic [ref=f36e754]: "27"
+                        - text: is not prime because it is a
+                        - generic: Select your third answer.
+                        - combobox "Select your third answer." [ref=f36e756] [cursor=pointer]:
+                          - option "Select"
+                          - option "sum"
+                          - option "difference"
+                          - option "product" [selected]
+                          - option "quotient"
+                        - 'img "Correct: Your answer is correct." [ref=f36e760]'
+                        - text: of
+                        - generic [ref=f36e761]:
+                          - generic: Select your fourth answer.
+                          - combobox "Select your fourth answer." [ref=f36e763] [cursor=pointer]:
+                            - option "Select"
+                            - option "two positive integers greater than 1" [selected]
+                            - option "1 and itself"
+                            - option "and 6"
+                            - option "6 and 27"
+                          - 'img "Correct: Your answer is correct." [ref=f36e767]'
+                          - text: .
+                  - generic "Resource box" [ref=f36e771]:
+                    - generic [ref=f36e772]:
+                      - generic [ref=f36e773]: Resources
+                      - generic [ref=f36e774]:
+                        - paragraph [ref=f36e775]:
+                          - link "Read It (opens in a new tab)" [ref=f36e776] [cursor=pointer]:
+                            - /url: "#"
+                            - text: Read It
+                        - button "Ask Student Assistant for question 2" [ref=f36e777] [cursor=pointer]: Student Assistant
+                - button "Submit Answer" [ref=f36e780] [cursor=pointer]
+            - generic [ref=f36e781]:
+              - region "Banner for question 3" [ref=f36e784]:
+                - generic [ref=f36e785]:
+                  - heading "Question 3" [level=2] [ref=f36e787]: "3."
+                  - strong [ref=f36e788]: "[– / 16.66 Points]"
+                - generic [ref=f36e789]:
+                  - button "Details for question 3." [ref=f36e790] [cursor=pointer]:
+                    - generic [ref=f36e791]: Details
+                  - button "My Notes For question 3" [ref=f36e794] [cursor=pointer]:
+                    - generic [ref=f36e795]: My Notes
+                  - button "Practice Another Version for question 3." [ref=f36e796] [cursor=pointer]:
+                    - generic [ref=f36e797]: Practice Another
+              - generic [ref=f36e798]:
+                - generic [ref=f36e800]:
+                  - generic [ref=f36e801]: eppdiscmath5 4.2.018.nva
+                  - generic [ref=f36e802]: Consider the following statement.
+                  - generic [ref=f36e803]: The product of any even integer and any odd integer is even.
+                  - generic [ref=f36e804]:
+                    - generic [ref=f36e805]: (a)
+                    - generic [ref=f36e806]:
+                      - generic [ref=f36e807]:
+                        - text: Suppose the given statement is rewritten in the form, ∀ integers
+                        - emphasis [ref=f36e808]: m
+                        - text: and
+                        - emphasis [ref=f36e809]: "n"
+                        - text: ", if [hypothesis] then [conclusion]. Fill in the blanks to describe the hypothesis and the conclusion."
+                      - generic [ref=f36e810]:
+                        - text: The hypothesis is
+                        - generic [ref=f36e811]:
+                          - combobox [ref=f36e812]:
+                            - button [ref=f36e1692]:
+                              - generic [ref=f36e814]:
+                                - emphasis [ref=f36e1693]: m
+                                - text: is any even integer and
+                                - emphasis [ref=f36e1694]: "n"
+                                - text: is any odd integer
+                            - option "---Select---"
+                            - option "is any integer and is any odd integer"
+                            - option "is any even integer and is any odd integer" [selected]
+                            - option "is any even integer and is any integer"
+                          - text: .
+                      - generic [ref=f36e815]:
+                        - text: The conclusion is
+                        - generic [ref=f36e816]:
+                          - combobox [ref=f36e817]:
+                            - button [ref=f36e1695]:
+                              - generic [ref=f36e819]:
+                                - emphasis [ref=f36e1696]: m
+                                - text: ·
+                                - emphasis [ref=f36e1697]: "n"
+                                - text: is even
+                            - option "---Select---"
+                            - option "is even" [selected]
+                            - option "can be either even or odd"
+                            - option "+ can be either even or odd"
+                            - option "+ is even"
+                          - text: .
+                  - generic [ref=f36e820]:
+                    - generic [ref=f36e821]: (b)
+                    - generic [ref=f36e822]:
+                      - generic [ref=f36e823]: The following is a proposed proof of the given statement.
+                      - list [ref=f36e824]:
+                        - listitem [ref=f36e825]:
+                          - text: Suppose
+                          - emphasis [ref=f36e826]: m
+                          - text: is any even integer and
+                          - emphasis [ref=f36e827]: "n"
+                          - text: is any odd integer.
+                        - listitem [ref=f36e828]:
+                          - text: If
+                          - generic [ref=f36e831]:
+                            - generic [ref=f36e832]: m
+                            - text: ·
+                            - generic [ref=f36e833]: "n"
+                          - text: is even, then by definition of even there exists an integer
+                          - emphasis [ref=f36e834]: r
+                          - text: such that
+                          - generic [ref=f36e837]:
+                            - generic [ref=f36e838]: m
+                            - text: ·
+                            - generic [ref=f36e839]: "n"
+                            - text: = 2
+                            - generic [ref=f36e840]: r
+                            - text: .
+                        - listitem [ref=f36e841]:
+                          - text: Also since
+                          - emphasis [ref=f36e842]: m
+                          - text: is even, there exists an integer
+                          - emphasis [ref=f36e843]: p
+                          - text: such that
+                          - generic [ref=f36e846]:
+                            - generic [ref=f36e847]: m
+                            - text: = 2
+                            - generic [ref=f36e848]: p
+                          - text: by definition of even.
+                        - listitem [ref=f36e849]:
+                          - text: And since
+                          - emphasis [ref=f36e850]: "n"
+                          - text: is odd, there exists an integer
+                          - emphasis [ref=f36e851]: q
+                          - text: such that
+                          - generic [ref=f36e854]:
+                            - generic [ref=f36e855]: "n"
+                            - text: = 2
+                            - generic [ref=f36e856]: q
+                            - text: + 1
+                          - text: by definition of odd.
+                        - listitem [ref=f36e857]:
+                          - text: Thus, by substitution,
+                          - generic [ref=f36e860]:
+                            - generic [ref=f36e861]: m
+                            - text: ·
+                            - generic [ref=f36e862]: "n"
+                            - text: = (2
+                            - generic [ref=f36e863]: p
+                            - text: )(2
+                            - generic [ref=f36e864]: q
+                            - text: + 1) = 2
+                            - generic [ref=f36e865]: r
+                            - text: ","
+                          - text: where
+                          - emphasis [ref=f36e866]: r
+                          - text: is an integer.
+                        - listitem [ref=f36e867]:
+                          - text: Hence, by definition of even, then,
+                          - generic [ref=f36e870]:
+                            - generic [ref=f36e871]: m
+                            - text: ·
+                            - generic [ref=f36e872]: "n"
+                          - text: is even, as was to be shown.
+                      - generic [ref=f36e873]: Reorder the sentences in the following scrambled list to explain the mistake in the proposed proof.
+                      - list [ref=f36e874]:
+                        - listitem [ref=f36e875]:
+                          - text: The truth of
+                          - emphasis [ref=f36e876]: S
+                          - text: is not known at the point where Step 5 occurs because the assumption that
+                          - generic [ref=f36e877]:
+                            - emphasis [ref=f36e878]: m
+                            - text: ·
+                            - emphasis [ref=f36e879]: "n"
+                          - text: is even has not been proved.
+                        - listitem [ref=f36e880]:
+                          - text: Let
+                          - emphasis [ref=f36e881]: S
+                          - text: be the sentence, "There is an integer
+                          - emphasis [ref=f36e882]: r
+                          - text: such that
+                          - generic [ref=f36e883]:
+                            - emphasis [ref=f36e884]: m
+                            - text: ·
+                            - emphasis [ref=f36e885]: "n"
+                          - text: equals 2
+                          - emphasis [ref=f36e886]: r
+                          - text: ."
+                        - listitem [ref=f36e887]:
+                          - text: Step 5 deduces a conclusion that would be true if
+                          - emphasis [ref=f36e888]: S
+                          - text: were known to be true.
+                        - listitem [ref=f36e889]: Hence, the proposed proof is circular; it assumes what is to be proved.
+                        - listitem [ref=f36e890]: Since the truth of Step 6 depends on the truth of the conclusion in Step 5, Step 6 is not a valid deduction.
+                        - listitem [ref=f36e891]:
+                          - text: Step 2 states that the truth of
+                          - emphasis [ref=f36e892]: S
+                          - text: would follow from the assumption that
+                          - generic [ref=f36e893]:
+                            - emphasis [ref=f36e894]: m
+                            - text: ·
+                            - emphasis [ref=f36e895]: "n"
+                          - text: is even.
+                        - listitem [ref=f36e896]: Thus, the conclusion in Step 5 is not a valid deduction.
+                      - generic [ref=f36e897]: Select appropriate sentences from the list and put them in the correct order to explain the mistake in the proposed proof.
+                      - list [ref=f36e899]:
+                        - listitem [ref=f36e900]:
+                          - combobox [ref=f36e901]:
+                            - button [ref=f36e1698]:
+                              - generic [ref=f36e903]:
+                                - text: Let
+                                - emphasis [ref=f36e1699]: S
+                                - text: be the sentence, "There is an integer
+                                - emphasis [ref=f36e1700]: r
+                                - text: such that
+                                - generic [ref=f36e1701]:
+                                  - emphasis [ref=f36e1702]: m
+                                  - text: ·
+                                  - emphasis [ref=f36e1703]: "n"
+                                - text: equals 2
+                                - emphasis [ref=f36e1704]: r
+                                - text: ."
+                            - option "---Select---"
+                            - option "The truth of is not known at the point where Step 5 occurs because the assumption that is even has not been proved."
+                            - option "Let be the sentence, \"There is an integer such that equals 2 .\"" [selected]
+                            - option "Step 5 deduces a conclusion that would be true if were known to be true."
+                            - option "Hence, the proposed proof is circular; it assumes what is to be proved."
+                            - option "Since the truth of Step 6 depends on the truth of the conclusion in Step 5, Step 6 is not a valid deduction."
+                            - option "Step 2 states that the truth of would follow from the assumption that is even."
+                            - option "Thus, the conclusion in Step 5 is not a valid deduction."
+                        - listitem [ref=f36e904]:
+                          - combobox [ref=f36e905]:
+                            - button [ref=f36e1705]:
+                              - generic [ref=f36e907]:
+                                - text: Step 2 states that the truth of
+                                - emphasis [ref=f36e1706]: S
+                                - text: would follow from the assumption that
+                                - generic [ref=f36e1707]:
+                                  - emphasis [ref=f36e1708]: m
+                                  - text: ·
+                                  - emphasis [ref=f36e1709]: "n"
+                                - text: is even.
+                            - option "---Select---"
+                            - option "The truth of is not known at the point where Step 5 occurs because the assumption that is even has not been proved."
+                            - option "Let be the sentence, \"There is an integer such that equals 2 .\""
+                            - option "Step 5 deduces a conclusion that would be true if were known to be true."
+                            - option "Hence, the proposed proof is circular; it assumes what is to be proved."
+                            - option "Since the truth of Step 6 depends on the truth of the conclusion in Step 5, Step 6 is not a valid deduction."
+                            - option "Step 2 states that the truth of would follow from the assumption that is even." [selected]
+                            - option "Thus, the conclusion in Step 5 is not a valid deduction."
+                        - listitem [ref=f36e908]:
+                          - combobox [ref=f36e909]:
+                            - button [ref=f36e1710]:
+                              - generic [ref=f36e911]:
+                                - text: Step 5 deduces a conclusion that would be true if
+                                - emphasis [ref=f36e1711]: S
+                                - text: were known to be true.
+                            - option "---Select---"
+                            - option "The truth of is not known at the point where Step 5 occurs because the assumption that is even has not been proved."
+                            - option "Let be the sentence, \"There is an integer such that equals 2 .\""
+                            - option "Step 5 deduces a conclusion that would be true if were known to be true." [selected]
+                            - option "Hence, the proposed proof is circular; it assumes what is to be proved."
+                            - option "Since the truth of Step 6 depends on the truth of the conclusion in Step 5, Step 6 is not a valid deduction."
+                            - option "Step 2 states that the truth of would follow from the assumption that is even."
+                            - option "Thus, the conclusion in Step 5 is not a valid deduction."
+                        - listitem [ref=f36e912]:
+                          - combobox [ref=f36e913]:
+                            - button [ref=f36e1712]:
+                              - generic [ref=f36e915]:
+                                - text: The truth of
+                                - emphasis [ref=f36e1713]: S
+                                - text: is not known at the point where Step 5 occurs because the assumption that
+                                - generic [ref=f36e1714]:
+                                  - emphasis [ref=f36e1715]: m
+                                  - text: ·
+                                  - emphasis [ref=f36e1716]: "n"
+                                - text: is even has not been proved.
+                            - option "---Select---"
+                            - option "The truth of is not known at the point where Step 5 occurs because the assumption that is even has not been proved." [selected]
+                            - option "Let be the sentence, \"There is an integer such that equals 2 .\""
+                            - option "Step 5 deduces a conclusion that would be true if were known to be true."
+                            - option "Hence, the proposed proof is circular; it assumes what is to be proved."
+                            - option "Since the truth of Step 6 depends on the truth of the conclusion in Step 5, Step 6 is not a valid deduction."
+                            - option "Step 2 states that the truth of would follow from the assumption that is even."
+                            - option "Thus, the conclusion in Step 5 is not a valid deduction."
+                        - listitem [ref=f36e916]:
+                          - combobox [ref=f36e917]:
+                            - button "Thus, the conclusion in Step 5 is not a valid deduction." [ref=f36e1717]
+                            - option "---Select---"
+                            - option "The truth of is not known at the point where Step 5 occurs because the assumption that is even has not been proved."
+                            - option "Let be the sentence, \"There is an integer such that equals 2 .\""
+                            - option "Step 5 deduces a conclusion that would be true if were known to be true."
+                            - option "Hence, the proposed proof is circular; it assumes what is to be proved."
+                            - option "Since the truth of Step 6 depends on the truth of the conclusion in Step 5, Step 6 is not a valid deduction."
+                            - option "Step 2 states that the truth of would follow from the assumption that is even."
+                            - option "Thus, the conclusion in Step 5 is not a valid deduction." [selected]
+                        - listitem [ref=f36e920]:
+                          - combobox [ref=f36e921]:
+                            - button "---Select---" [ref=f36e922]
+                            - option "---Select---" [selected]
+                            - option "The truth of is not known at the point where Step 5 occurs because the assumption that is even has not been proved."
+                            - option "Let be the sentence, \"There is an integer such that equals 2 .\""
+                            - option "Step 5 deduces a conclusion that would be true if were known to be true."
+                            - option "Hence, the proposed proof is circular; it assumes what is to be proved."
+                            - option "Since the truth of Step 6 depends on the truth of the conclusion in Step 5, Step 6 is not a valid deduction."
+                            - option "Step 2 states that the truth of would follow from the assumption that is even."
+                            - option "Thus, the conclusion in Step 5 is not a valid deduction."
+                        - listitem [ref=f36e924]:
+                          - combobox [ref=f36e925]:
+                            - button "---Select---" [ref=f36e926]
+                            - option "---Select---" [selected]
+                            - option "The truth of is not known at the point where Step 5 occurs because the assumption that is even has not been proved."
+                            - option "Let be the sentence, \"There is an integer such that equals 2 .\""
+                            - option "Step 5 deduces a conclusion that would be true if were known to be true."
+                            - option "Hence, the proposed proof is circular; it assumes what is to be proved."
+                            - option "Since the truth of Step 6 depends on the truth of the conclusion in Step 5, Step 6 is not a valid deduction."
+                            - option "Step 2 states that the truth of would follow from the assumption that is even."
+                            - option "Thus, the conclusion in Step 5 is not a valid deduction."
+                - button "Submit Answer" [ref=f36e932] [cursor=pointer]
+            - generic [ref=f36e933]:
+              - region "Banner for question 4" [ref=f36e936]:
+                - generic [ref=f36e937]:
+                  - heading "Question 4" [level=2] [ref=f36e939]: "4."
+                  - strong [ref=f36e940]: "[– / 16.66 Points]"
+                - generic [ref=f36e941]:
+                  - button "Details for question 4." [ref=f36e942] [cursor=pointer]:
+                    - generic [ref=f36e943]: Details
+                  - button "My Notes For question 4" [ref=f36e946] [cursor=pointer]:
+                    - generic [ref=f36e947]: My Notes
+              - generic [ref=f36e948]:
+                - generic [ref=f36e950]:
+                  - generic [ref=f36e951]: EppDiscMath5 4.2.027.
+                  - region [ref=f36e952]:
+                    - strong [ref=f36e953]: Problem 4
+                    - generic [ref=f36e954]: Prove the following statement.
+                    - group [ref=f36e955]: The difference of any two odd integers is even.
+                    - generic [ref=f36e956]:
+                      - strong [ref=f36e957]: "Proof:"
+                      - text: Let
+                      - emphasis [ref=f36e958]: m
+                      - text: and
+                      - emphasis [ref=f36e959]: "n"
+                      - text: be any odd integers. By definition of odd, there are integers
+                      - emphasis [ref=f36e960]: r
+                      - text: and
+                      - emphasis [ref=f36e961]: s
+                      - text: so that
+                      - emphasis [ref=f36e962]: m
+                      - text: can be expressed in terms of
+                      - emphasis [ref=f36e963]: r
+                      - text: and
+                      - emphasis [ref=f36e964]: "n"
+                      - text: can be expressed in terms of
+                      - emphasis [ref=f36e965]: s
+                      - text: as follows.
+                    - list [ref=f36e966]:
+                      - listitem [ref=f36e967]:
+                        - generic [ref=f36e968]:
+                          - generic [ref=f36e973]:
+                            - generic [ref=f36e977]:
+                              - generic [ref=f36e978]: m
+                              - generic [ref=f36e979]: =
+                            - math [ref=f36e980]:
+                              - generic [ref=f36e981]: m
+                              - generic [ref=f36e982]: =
+                          - generic [ref=f36e984]:
+                            - generic [ref=f36e985]:
+                              - button [ref=f36e986]
+                              - button "Open full math pad" [ref=f36e988] [cursor=pointer]
+                            - generic [ref=f36e990]: Press Space or Enter to edit this math answer.
+                      - listitem [ref=f36e991]:
+                        - generic [ref=f36e992]:
+                          - generic [ref=f36e997]:
+                            - generic [ref=f36e1001]:
+                              - generic [ref=f36e1002]: "n"
+                              - generic [ref=f36e1003]: =
+                            - math [ref=f36e1004]:
+                              - generic [ref=f36e1005]: "n"
+                              - generic [ref=f36e1006]: =
+                          - generic [ref=f36e1008]:
+                            - generic [ref=f36e1009]:
+                              - button [ref=f36e1010]
+                              - button "Open full math pad" [ref=f36e1012] [cursor=pointer]
+                            - generic [ref=f36e1014]: Press Space or Enter to edit this math answer.
+                    - group "Read and complete the following." [ref=f36e1016]:
+                      - generic [ref=f36e1018]:
+                        - text: Write
+                        - generic [ref=f36e1021]:
+                          - generic [ref=f36e1025]:
+                            - generic [ref=f36e1026]: m
+                            - generic [ref=f36e1027]: −
+                            - generic [ref=f36e1028]: "n"
+                          - math [ref=f36e1029]:
+                            - generic [ref=f36e1030]: m
+                            - generic [ref=f36e1031]: −
+                            - generic [ref=f36e1032]: "n"
+                        - text: in terms of
+                        - emphasis [ref=f36e1033]: r
+                        - text: and
+                        - emphasis [ref=f36e1034]: s
+                        - text: and factor out a 2 to obtain
+                        - generic [ref=f36e1038]:
+                          - generic [ref=f36e1042]:
+                            - generic [ref=f36e1043]: m
+                            - generic [ref=f36e1044]: −
+                            - generic [ref=f36e1045]: "n"
+                            - generic [ref=f36e1046]: =
+                          - math [ref=f36e1047]:
+                            - generic [ref=f36e1048]: m
+                            - generic [ref=f36e1049]: −
+                            - generic [ref=f36e1050]: "n"
+                            - generic [ref=f36e1051]: =
+                        - generic [ref=f36e1052]:
+                          - generic [ref=f36e1053]:
+                            - button [ref=f36e1054]
+                            - button "Open full math pad" [ref=f36e1056] [cursor=pointer]
+                          - generic [ref=f36e1058]: Press Space or Enter to edit this math answer.
+                        - text: .
+                    - generic [ref=f36e1060]:
+                      - generic [ref=f36e1061]: Read and complete the following.
+                      - generic [ref=f36e1062]:
+                        - text: Now
+                        - generic [ref=f36e1065]:
+                          - generic [ref=f36e1067]: (
+                          - math [ref=f36e1076]:
+                            - generic [ref=f36e1077]: (
+                        - generic: Write your fourth answer.
+                        - generic [ref=f36e1081]:
+                          - generic [ref=f36e1082]:
+                            - button [ref=f36e1083]
+                            - button "Open full math pad" [ref=f36e1085] [cursor=pointer]
+                          - generic [ref=f36e1087]: Press Space or Enter to edit this math answer.
+                        - generic [ref=f36e1090]:
+                          - generic [ref=f36e1092]: )
+                          - math [ref=f36e1101]:
+                            - generic [ref=f36e1102]: )
+                      - generic [ref=f36e1105]:
+                        - text: is an integer because
+                        - generic: Select your fifth answer.
+                        - combobox "Select your fifth answer." [ref=f36e1107] [cursor=pointer]:
+                          - option "Select" [selected]
+                          - option "sums"
+                          - option "differences"
+                          - option "products"
+                        - text: of integers are integers.
+                    - group "Read and complete the following." [ref=f36e1109]:
+                      - generic [ref=f36e1111]:
+                        - text: Therefore,
+                        - generic [ref=f36e1112]:
+                          - generic [ref=f36e1115]:
+                            - generic [ref=f36e1119]:
+                              - generic [ref=f36e1120]: m
+                              - generic [ref=f36e1121]: −
+                              - generic [ref=f36e1122]: "n"
+                              - generic [ref=f36e1123]: =
+                              - generic [ref=f36e1124]: "2"
+                              - generic [ref=f36e1125]: ⋅
+                              - generic [ref=f36e1126]: (an integer)
+                            - math [ref=f36e1127]:
+                              - generic [ref=f36e1128]: m
+                              - generic [ref=f36e1129]: −
+                              - generic [ref=f36e1130]: "n"
+                              - generic [ref=f36e1131]: =
+                              - generic [ref=f36e1132]: "2"
+                              - generic [ref=f36e1133]: ⋅
+                              - generic [ref=f36e1134]: (an integer)
+                          - text: ","
+                        - text: and so
+                        - generic [ref=f36e1137]:
+                          - generic [ref=f36e1141]:
+                            - generic [ref=f36e1142]: m
+                            - generic [ref=f36e1143]: −
+                            - generic [ref=f36e1144]: "n"
+                          - math [ref=f36e1145]:
+                            - generic [ref=f36e1146]: m
+                            - generic [ref=f36e1147]: −
+                            - generic [ref=f36e1148]: "n"
+                        - text: is
+                        - generic: Select your sixth answer.
+                        - combobox "Select your sixth answer." [ref=f36e1150] [cursor=pointer]:
+                          - option "Select" [selected]
+                          - option "even"
+                          - option "odd"
+                        - text: by definition of
+                        - generic: Select your seventh answer.
+                        - combobox "Select your seventh answer." [ref=f36e1152] [cursor=pointer]:
+                          - option "Select" [selected]
+                          - option "even"
+                          - option "odd"
+                        - text: .
+                  - generic "Resource box" [ref=f36e1156]:
+                    - generic [ref=f36e1157]:
+                      - generic [ref=f36e1158]: Resources
+                      - generic [ref=f36e1159]:
+                        - paragraph [ref=f36e1160]:
+                          - link "Read It (opens in a new tab)" [ref=f36e1161] [cursor=pointer]:
+                            - /url: "#"
+                            - text: Read It
+                          - link "Watch It (opens in a new tab)" [ref=f36e1162] [cursor=pointer]:
+                            - /url: javascript:open_bc_enhanced('watch_it', 'https://college.cengage.com/geyser/cengage_9780538738101/html/watchit_player/?asset=eppdiscmath5_04_02_026&prod=eppdiscmath5', 1)
+                            - text: Watch It
+                        - button "Ask Student Assistant for question 4" [ref=f36e1163] [cursor=pointer]: Student Assistant
+                - button "Submit Answer" [ref=f36e1166] [cursor=pointer]
+            - generic [ref=f36e1167]:
+              - region "Banner for question 5" [ref=f36e1170]:
+                - generic [ref=f36e1171]:
+                  - heading "Question 5" [level=2] [ref=f36e1173]: "5."
+                  - strong [ref=f36e1174]: "[– / 16.66 Points]"
+                - generic [ref=f36e1175]:
+                  - button "Details for question 5." [ref=f36e1176] [cursor=pointer]:
+                    - generic [ref=f36e1177]: Details
+                  - button "My Notes For question 5" [ref=f36e1180] [cursor=pointer]:
+                    - generic [ref=f36e1181]: My Notes
+                  - button "Practice Another Version for question 5." [ref=f36e1182] [cursor=pointer]:
+                    - generic [ref=f36e1183]: Practice Another
+              - generic [ref=f36e1184]:
+                - generic [ref=f36e1186]:
+                  - generic [ref=f36e1187]: EppDiscMath5 4.2.029.
+                  - region [ref=f36e1188]:
+                    - strong [ref=f36e1189]: Problem 5
+                    - generic [ref=f36e1190]: Is the following statement true or false?
+                    - group [ref=f36e1191]:
+                      - text: For every integer
+                      - emphasis [ref=f36e1192]: "n"
+                      - text: ", if"
+                      - emphasis [ref=f36e1193]: "n"
+                      - text: is prime then
+                      - generic [ref=f36e1194]:
+                        - generic [ref=f36e1197]:
+                          - generic [ref=f36e1201]:
+                            - generic [ref=f36e1202]: (
+                            - generic [ref=f36e1203]: −
+                            - generic [ref=f36e1204]: "1"
+                            - generic [ref=f36e1205]:
+                              - generic [ref=f36e1206]: )
+                              - generic [ref=f36e1208]: "n"
+                            - generic [ref=f36e1212]: =
+                            - generic [ref=f36e1213]: −
+                            - generic [ref=f36e1214]: "1"
+                          - math [ref=f36e1215]:
+                            - generic [ref=f36e1216]: (
+                            - generic [ref=f36e1217]: −
+                            - generic [ref=f36e1218]: "1"
+                            - generic [ref=f36e1219]:
+                              - generic [ref=f36e1220]: )
+                              - generic [ref=f36e1221]: "n"
+                            - generic [ref=f36e1223]: =
+                            - generic [ref=f36e1224]: −
+                            - generic [ref=f36e1225]: "1"
+                        - text: .
+                    - group "Which of the choices below answers the question? (Select all that apply.)" [ref=f36e1227]:
+                      - generic [ref=f36e1229]:
+                        - checkbox "The statement is true because all prime numbers are odd, and − 1 raised to any odd power is − 1 ." [ref=f36e1230]
+                        - generic [ref=f36e1231]:
+                          - text: The statement is true because all prime numbers are odd, and
+                          - generic [ref=f36e1234]:
+                            - generic [ref=f36e1238]:
+                              - generic [ref=f36e1239]: −
+                              - generic [ref=f36e1240]: "1"
+                            - math [ref=f36e1241]:
+                              - generic [ref=f36e1242]: −
+                              - generic [ref=f36e1243]: "1"
+                          - text: raised to any odd power is
+                          - generic [ref=f36e1246]:
+                            - generic [ref=f36e1250]:
+                              - generic [ref=f36e1251]: −
+                              - generic [ref=f36e1252]: "1"
+                            - math [ref=f36e1253]:
+                              - generic [ref=f36e1254]: −
+                              - generic [ref=f36e1255]: "1"
+                          - text: .
+                      - generic [ref=f36e1256]:
+                        - checkbox "The statement is true. For instance, when n = 3 , ( − 1 ) n = ( − 1 ) 3 = − 1 ." [ref=f36e1257]
+                        - generic [ref=f36e1258]:
+                          - text: The statement is true. For instance, when
+                          - generic [ref=f36e1259]:
+                            - generic [ref=f36e1262]:
+                              - generic [ref=f36e1266]:
+                                - generic [ref=f36e1267]: "n"
+                                - generic [ref=f36e1268]: =
+                                - generic [ref=f36e1269]: "3"
+                              - math [ref=f36e1270]:
+                                - generic [ref=f36e1271]: "n"
+                                - generic [ref=f36e1272]: =
+                                - generic [ref=f36e1273]: "3"
+                            - text: ","
+                          - generic [ref=f36e1274]:
+                            - generic [ref=f36e1277]:
+                              - generic [ref=f36e1281]:
+                                - generic [ref=f36e1282]: (
+                                - generic [ref=f36e1283]: −
+                                - generic [ref=f36e1284]: "1"
+                                - generic [ref=f36e1285]:
+                                  - generic [ref=f36e1286]: )
+                                  - generic [ref=f36e1288]: "n"
+                                - generic [ref=f36e1292]: =
+                                - generic [ref=f36e1293]: (
+                                - generic [ref=f36e1294]: −
+                                - generic [ref=f36e1295]: "1"
+                                - generic [ref=f36e1296]:
+                                  - generic [ref=f36e1297]: )
+                                  - generic [ref=f36e1299]: "3"
+                                - generic [ref=f36e1303]: =
+                                - generic [ref=f36e1304]: −
+                                - generic [ref=f36e1305]: "1"
+                              - math [ref=f36e1306]:
+                                - generic [ref=f36e1307]: (
+                                - generic [ref=f36e1308]: −
+                                - generic [ref=f36e1309]: "1"
+                                - generic [ref=f36e1310]:
+                                  - generic [ref=f36e1311]: )
+                                  - generic [ref=f36e1312]: "n"
+                                - generic [ref=f36e1314]: =
+                                - generic [ref=f36e1315]: (
+                                - generic [ref=f36e1316]: −
+                                - generic [ref=f36e1317]: "1"
+                                - generic [ref=f36e1318]:
+                                  - generic [ref=f36e1319]: )
+                                  - generic [ref=f36e1320]: "3"
+                                - generic [ref=f36e1322]: =
+                                - generic [ref=f36e1323]: −
+                                - generic [ref=f36e1324]: "1"
+                            - text: .
+                      - generic [ref=f36e1325]:
+                        - checkbox "The statement is false because not every prime number is odd, and − 1 raised to an even power is 1." [ref=f36e1326]
+                        - generic [ref=f36e1327]:
+                          - text: The statement is false because not every prime number is odd, and
+                          - generic [ref=f36e1330]:
+                            - generic [ref=f36e1334]:
+                              - generic [ref=f36e1335]: −
+                              - generic [ref=f36e1336]: "1"
+                            - math [ref=f36e1337]:
+                              - generic [ref=f36e1338]: −
+                              - generic [ref=f36e1339]: "1"
+                          - text: raised to an even power is 1.
+                      - generic [ref=f36e1340]:
+                        - checkbox "The statement is false because when n = 0 , ( − 1 ) n = ( − 1 ) 0 = 1 ." [ref=f36e1341]
+                        - generic [ref=f36e1342]:
+                          - text: The statement is false because when
+                          - generic [ref=f36e1343]:
+                            - generic [ref=f36e1346]:
+                              - generic [ref=f36e1350]:
+                                - generic [ref=f36e1351]: "n"
+                                - generic [ref=f36e1352]: =
+                                - generic [ref=f36e1353]: "0"
+                              - math [ref=f36e1354]:
+                                - generic [ref=f36e1355]: "n"
+                                - generic [ref=f36e1356]: =
+                                - generic [ref=f36e1357]: "0"
+                            - text: ","
+                          - generic [ref=f36e1358]:
+                            - generic [ref=f36e1361]:
+                              - generic [ref=f36e1365]:
+                                - generic [ref=f36e1366]: (
+                                - generic [ref=f36e1367]: −
+                                - generic [ref=f36e1368]: "1"
+                                - generic [ref=f36e1369]:
+                                  - generic [ref=f36e1370]: )
+                                  - generic [ref=f36e1372]: "n"
+                                - generic [ref=f36e1376]: =
+                                - generic [ref=f36e1377]: (
+                                - generic [ref=f36e1378]: −
+                                - generic [ref=f36e1379]: "1"
+                                - generic [ref=f36e1380]:
+                                  - generic [ref=f36e1381]: )
+                                  - generic [ref=f36e1383]: "0"
+                                - generic [ref=f36e1387]: =
+                                - generic [ref=f36e1388]: "1"
+                              - math [ref=f36e1389]:
+                                - generic [ref=f36e1390]: (
+                                - generic [ref=f36e1391]: −
+                                - generic [ref=f36e1392]: "1"
+                                - generic [ref=f36e1393]:
+                                  - generic [ref=f36e1394]: )
+                                  - generic [ref=f36e1395]: "n"
+                                - generic [ref=f36e1397]: =
+                                - generic [ref=f36e1398]: (
+                                - generic [ref=f36e1399]: −
+                                - generic [ref=f36e1400]: "1"
+                                - generic [ref=f36e1401]:
+                                  - generic [ref=f36e1402]: )
+                                  - generic [ref=f36e1403]: "0"
+                                - generic [ref=f36e1405]: =
+                                - generic [ref=f36e1406]: "1"
+                            - text: .
+                  - generic "Resource box" [ref=f36e1410]:
+                    - generic [ref=f36e1411]:
+                      - generic [ref=f36e1412]: Resources
+                      - generic [ref=f36e1413]:
+                        - paragraph [ref=f36e1414]:
+                          - link "Read It (opens in a new tab)" [ref=f36e1415] [cursor=pointer]:
+                            - /url: "#"
+                            - text: Read It
+                        - button "Ask Student Assistant for question 5" [ref=f36e1416] [cursor=pointer]: Student Assistant
+                - button "Submit Answer" [ref=f36e1419] [cursor=pointer]
+            - generic [ref=f36e1420]:
+              - region "Banner for question 6" [ref=f36e1423]:
+                - generic [ref=f36e1424]:
+                  - heading "Question 6" [level=2] [ref=f36e1426]: "6."
+                  - strong [ref=f36e1427]: "[– / 16.7 Points]"
+                - generic [ref=f36e1428]:
+                  - button "Details for question 6." [ref=f36e1429] [cursor=pointer]:
+                    - generic [ref=f36e1430]: Details
+                  - button "My Notes For question 6" [ref=f36e1433] [cursor=pointer]:
+                    - generic [ref=f36e1434]: My Notes
+                  - button "Practice Another Version for question 6." [ref=f36e1435] [cursor=pointer]:
+                    - generic [ref=f36e1436]: Practice Another
+              - generic [ref=f36e1437]:
+                - generic [ref=f36e1439]:
+                  - generic [ref=f36e1440]: EppDiscMath5 4.2.035.
+                  - region [ref=f36e1441]:
+                    - strong [ref=f36e1442]: Problem 6
+                    - generic [ref=f36e1443]: Consider the following statement.
+                    - group [ref=f36e1444]:
+                      - text: If
+                      - emphasis [ref=f36e1445]: m
+                      - text: and
+                      - emphasis [ref=f36e1446]: "n"
+                      - text: are any positive integers and
+                      - generic [ref=f36e1447]:
+                        - emphasis [ref=f36e1448]: m
+                        - emphasis [ref=f36e1450]: "n"
+                      - text: is a perfect square, then
+                      - emphasis [ref=f36e1451]: m
+                      - text: and
+                      - emphasis [ref=f36e1452]: "n"
+                      - text: are perfect squares.
+                    - generic [ref=f36e1453]:
+                      - text: Is the statement true or false? Find values of
+                      - emphasis [ref=f36e1454]: m
+                      - text: and
+                      - emphasis [ref=f36e1455]: "n"
+                      - text: that can be used to answer this question and enter them below.
+                    - group "Read and complete the following." [ref=f36e1457]:
+                      - generic [ref=f36e1459]:
+                        - generic [ref=f36e1462]:
+                          - generic [ref=f36e1466]:
+                            - generic [ref=f36e1467]: (
+                            - generic [ref=f36e1468]: m
+                            - generic [ref=f36e1469]: ","
+                            - generic [ref=f36e1470]: "n"
+                            - generic [ref=f36e1471]: )
+                            - generic [ref=f36e1472]: =
+                            - generic [ref=f36e1473]: (
+                          - math [ref=f36e1479]:
+                            - generic [ref=f36e1480]: (
+                            - generic [ref=f36e1481]: m
+                            - generic [ref=f36e1482]: ","
+                            - generic [ref=f36e1483]: "n"
+                            - generic [ref=f36e1484]: )
+                            - generic [ref=f36e1485]: =
+                            - generic [ref=f36e1486]: (
+                        - generic [ref=f36e1489]:
+                          - generic [ref=f36e1490]:
+                            - button [ref=f36e1491]
+                            - button "Open full math pad" [ref=f36e1493] [cursor=pointer]
+                          - generic [ref=f36e1495]: Press Space or Enter to edit this math answer.
+                        - generic [ref=f36e1496]:
+                          - generic [ref=f36e1499]:
+                            - generic [ref=f36e1501]: )
+                            - math [ref=f36e1510]:
+                              - generic [ref=f36e1511]: )
+                          - text: .
+                    - group [ref=f36e1515]:
+                      - generic [ref=f36e1516]:
+                        - text: When you substitute the values you filled in for
+                        - emphasis [ref=f36e1517]: m
+                        - text: and
+                        - emphasis [ref=f36e1518]: "n"
+                        - text: ", which of the choices below answers the question?"
+                      - generic [ref=f36e1519]:
+                        - 'radio "The statement is true. Proof: Let m and n be the numbers in the ordered pair above. Then m n is a perfect square and m and n are perfect squares." [ref=f36e1520]'
+                        - generic [ref=f36e1521]:
+                          - text: The statement is true.
+                          - emphasis [ref=f36e1522]: Proof
+                          - text: ": Let"
+                          - emphasis [ref=f36e1523]: m
+                          - text: and
+                          - emphasis [ref=f36e1524]: "n"
+                          - text: be the numbers in the ordered pair above. Then
+                          - generic [ref=f36e1526]:
+                            - generic [ref=f36e1530]:
+                              - generic [ref=f36e1531]: m
+                              - generic [ref=f36e1532]: "n"
+                            - math [ref=f36e1533]:
+                              - generic [ref=f36e1534]: m
+                              - generic [ref=f36e1535]: "n"
+                          - text: is a perfect square and
+                          - emphasis [ref=f36e1536]: m
+                          - text: and
+                          - emphasis [ref=f36e1537]: "n"
+                          - text: are perfect squares.
+                      - generic [ref=f36e1538]:
+                        - 'radio "The statement is false. Counterexample: Let m and n be the numbers in the ordered pair above. Then m n is not a perfect square but m and n are perfect squares." [ref=f36e1539]'
+                        - generic [ref=f36e1540]:
+                          - text: The statement is false.
+                          - emphasis [ref=f36e1541]: Counterexample
+                          - text: ": Let"
+                          - emphasis [ref=f36e1542]: m
+                          - text: and
+                          - emphasis [ref=f36e1543]: "n"
+                          - text: be the numbers in the ordered pair above. Then
+                          - generic [ref=f36e1545]:
+                            - generic [ref=f36e1549]:
+                              - generic [ref=f36e1550]: m
+                              - generic [ref=f36e1551]: "n"
+                            - math [ref=f36e1552]:
+                              - generic [ref=f36e1553]: m
+                              - generic [ref=f36e1554]: "n"
+                          - text: is not a perfect square but
+                          - emphasis [ref=f36e1555]: m
+                          - text: and
+                          - emphasis [ref=f36e1556]: "n"
+                          - text: are perfect squares.
+                      - generic [ref=f36e1557]:
+                        - 'radio "The statement is false. Counterexample: Let m and n be the numbers in the ordered pair above. Then m n is a perfect square and at least one of m and n is not a perfect square." [ref=f36e1558]'
+                        - generic [ref=f36e1559]:
+                          - text: The statement is false.
+                          - emphasis [ref=f36e1560]: Counterexample
+                          - text: ": Let"
+                          - emphasis [ref=f36e1561]: m
+                          - text: and
+                          - emphasis [ref=f36e1562]: "n"
+                          - text: be the numbers in the ordered pair above. Then
+                          - generic [ref=f36e1564]:
+                            - generic [ref=f36e1568]:
+                              - generic [ref=f36e1569]: m
+                              - generic [ref=f36e1570]: "n"
+                            - math [ref=f36e1571]:
+                              - generic [ref=f36e1572]: m
+                              - generic [ref=f36e1573]: "n"
+                          - text: is a perfect square and at least one of
+                          - emphasis [ref=f36e1574]: m
+                          - text: and
+                          - emphasis [ref=f36e1575]: "n"
+                          - text: is not a perfect square.
+                      - generic [ref=f36e1576]:
+                        - 'radio "The statement is false. Counterexample: Let m and n be the numbers in the ordered pair above. Then m n is not a perfect square and at least one of m and n is not a perfect square." [ref=f36e1577]'
+                        - generic [ref=f36e1578]:
+                          - text: The statement is false.
+                          - emphasis [ref=f36e1579]: Counterexample
+                          - text: ": Let"
+                          - emphasis [ref=f36e1580]: m
+                          - text: and
+                          - emphasis [ref=f36e1581]: "n"
+                          - text: be the numbers in the ordered pair above. Then
+                          - generic [ref=f36e1583]:
+                            - generic [ref=f36e1587]:
+                              - generic [ref=f36e1588]: m
+                              - generic [ref=f36e1589]: "n"
+                            - math [ref=f36e1590]:
+                              - generic [ref=f36e1591]: m
+                              - generic [ref=f36e1592]: "n"
+                          - text: is not a perfect square and at least one of
+                          - emphasis [ref=f36e1593]: m
+                          - text: and
+                          - emphasis [ref=f36e1594]: "n"
+                          - text: is not a perfect square.
+                  - generic "Resource box" [ref=f36e1598]:
+                    - generic [ref=f36e1599]:
+                      - generic [ref=f36e1600]: Resources
+                      - generic [ref=f36e1601]:
+                        - paragraph [ref=f36e1602]:
+                          - link "Read It (opens in a new tab)" [ref=f36e1603] [cursor=pointer]:
+                            - /url: "#"
+                            - text: Read It
+                        - button "Ask Student Assistant for question 6" [ref=f36e1604] [cursor=pointer]: Student Assistant
+                - button "Submit Answer" [ref=f36e1607] [cursor=pointer]
+          - alert
+          - generic [ref=f36e1609]:
+            - link "Home" [ref=f36e1610] [cursor=pointer]
+            - link "My Assignments" [ref=f36e1611] [cursor=pointer]
+            - button "Open Request Extension in modal window" [ref=f36e1612] [cursor=pointer]:
+              - generic [ref=f36e1615]: Request Extension
+      - contentinfo [ref=f36e1617]:
+        - generic [ref=f36e1618]:
+          - generic [ref=f36e1619]: Copyright © 1998 - 2026 Cengage Learning, Inc. All Rights Reserved
+          - list [ref=f36e1620]:
+            - listitem [ref=f36e1621]:
+              - link "Open in a new tab. Terms of use" [ref=f36e1622] [cursor=pointer]:
+                - /url: https://www.cengage.com/legal/#terms
+                - text: Terms of use
+            - listitem [ref=f36e1623]:
+              - link "Open in a new tab. Privacy" [ref=f36e1624] [cursor=pointer]:
+                - /url: https://www.cengage.com/privacy/
+                - text: Privacy
+  - application [ref=f36e1626]:
+    - generic [ref=f36e1627]:
+      - tablist [ref=f36e1628]:
+        - tab [ref=f36e1629]: Operations
+        - tab [ref=f36e1630]: Relations
+        - tab [ref=f36e1631]: Other
+        - tab [ref=f36e1632]: Trig
+        - tab [ref=f36e1633]: Greek
+        - tab [ref=f36e1634]: Vectors
+        - tab [ref=f36e1635]
+      - table [ref=f36e1638]:
+        - rowgroup [ref=f36e1639]:
+          - row [ref=f36e1640]:
+            - cell [ref=f36e1641]:
+              - button [ref=f36e1642] [cursor=pointer]
+            - cell [ref=f36e1643]:
+              - button [ref=f36e1644] [cursor=pointer]
+            - cell [ref=f36e1645]:
+              - button [ref=f36e1646] [cursor=pointer]
+            - cell [ref=f36e1647]:
+              - button [ref=f36e1648] [cursor=pointer]
+            - cell [ref=f36e1649]:
+              - button [ref=f36e1650] [cursor=pointer]
+            - cell [ref=f36e1651]:
+              - button [ref=f36e1652] [cursor=pointer]
+            - cell [ref=f36e1653]:
+              - button [ref=f36e1654] [cursor=pointer]
+            - cell [ref=f36e1655]:
+              - button [ref=f36e1656] [cursor=pointer]
+            - cell [ref=f36e1657]:
+              - button [ref=f36e1658] [cursor=pointer]
+          - row [ref=f36e1659]:
+            - cell [ref=f36e1660]:
+              - button [ref=f36e1661] [cursor=pointer]
+            - cell [ref=f36e1662]:
+              - button [ref=f36e1663] [cursor=pointer]
+            - cell [ref=f36e1664]:
+              - button [ref=f36e1665] [cursor=pointer]
+            - cell [ref=f36e1666]:
+              - button [ref=f36e1667] [cursor=pointer]
+            - cell [ref=f36e1668]:
+              - button [ref=f36e1669] [cursor=pointer]
+            - cell [ref=f36e1670]:
+              - button [ref=f36e1671] [cursor=pointer]
+            - cell [ref=f36e1672]:
+              - button [ref=f36e1673] [cursor=pointer]
+            - cell [ref=f36e1674]:
+              - button [ref=f36e1675] [cursor=pointer]
+            - cell [ref=f36e1676]
+    - generic [ref=f36e1679]:
+      - generic [ref=f36e1681]: 
+      - generic [ref=f36e1682]: x
+      - textbox [ref=f36e1690]
+    - textbox [aria-hidden] [ref=f36e1691]
