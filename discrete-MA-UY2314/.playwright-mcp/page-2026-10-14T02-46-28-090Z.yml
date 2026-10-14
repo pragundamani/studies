@@ -1,0 +1,91 @@
+- generic [ref=f8e1]:
+  - banner [ref=f8e2]:
+    - navigation "Main" [ref=f8e3]:
+      - generic [ref=f8e4]:
+        - link "skip to main content" [ref=f8e80] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - generic:
+          - generic [ref=f8e84]:
+            - generic [ref=f8e7]:
+              - link "My Home" [ref=f8e86] [cursor=pointer]:
+                - /url: /d2l/lp/ouHome/defaultHome.d2l
+                - img "My Home" [ref=f8e89]
+              - 'link "MA-UY 2314: Discrete Mathematics, Fall 2026" [ref=f8e9] [cursor=pointer]':
+                - /url: /d2l/home/608375
+            - generic [ref=f8e10]:
+              - button "Select a course..." [ref=f8e91] [cursor=pointer]
+              - generic [ref=f8e13]:
+                - button "Message alerts" [ref=f8e96] [cursor=pointer]
+                - button "Subscription alerts" [ref=f8e101] [cursor=pointer]
+                - generic [ref=f8e105]:
+                  - button "Update alerts" [ref=f8e106] [cursor=pointer]
+                  - generic: Update alerts - You have new alerts
+              - button "Pragun Damani, avatar" [ref=f8e112] [cursor=pointer]:
+                - generic: PD
+              - button "Admin Tools" [ref=f8e118] [cursor=pointer]
+          - list [ref=f8e41]:
+            - listitem [ref=f8e42]:
+              - link "Content" [ref=f8e43] [cursor=pointer]:
+                - /url: /d2l/le/lessons/608375
+            - listitem [ref=f8e44]:
+              - link "Announcements" [ref=f8e45] [cursor=pointer]:
+                - /url: /d2l/lms/news/main.d2l?ou=608375
+            - listitem [ref=f8e46]:
+              - link "Assignments" [ref=f8e47] [cursor=pointer]:
+                - /url: /d2l/lms/dropbox/dropbox.d2l?ou=608375
+            - listitem [ref=f8e48]:
+              - link "Discussions" [ref=f8e49] [cursor=pointer]:
+                - /url: /d2l/le/608375/discussions/List
+            - listitem [ref=f8e50]:
+              - link "Quizzes" [ref=f8e51] [cursor=pointer]:
+                - /url: /d2l/lms/quizzing/quizzing.d2l?ou=608375
+            - listitem [ref=f8e52]:
+              - link "Grades" [ref=f8e53] [cursor=pointer]:
+                - /url: /d2l/lms/grades/index.d2l?ou=608375
+            - listitem [ref=f8e54]:
+              - link "Zoom" [ref=f8e55] [cursor=pointer]:
+                - /url: /d2l/common/dialogs/quickLink/quickLink.d2l?ou=608375&type=lti&rcode=438126FB-CB7E-4012-84DC-B926D628DF2A-1844200&srcou=6606&launchFramed=1&framedName=Zoom
+            - listitem [ref=f8e74]:
+              - button "More" [ref=f8e76]
+  - main [ref=f8e123]:
+    - iframe [active] [ref=f8e126]:
+      - generic [ref=f10e1]:
+        - generic [ref=f10e3]:
+          - generic [ref=f10e6]:
+            - generic [ref=f10e32]:
+              - generic [ref=f10e34]:
+                - heading "Course options" [level=2] [ref=f10e35]
+                - button "Collapse Navigation Menu" [ref=f10e38] [cursor=pointer]
+              - generic [ref=f10e41]:
+                - generic [ref=f10e46]:
+                  - searchbox "Search titles and descriptions" [ref=f10e47]
+                  - button "Search" [ref=f10e50] [cursor=pointer]
+                - generic [ref=f10e53]:
+                  - heading "Table of Contents" [level=2] [ref=f10e54]
+                  - tree "Table of Contents" [ref=f10e55]:
+                    - treeitem "Selected unit. Syllabus & Course Schedule." [ref=f10e59] [cursor=pointer]:
+                      - generic [ref=f10e64]: Syllabus & Course Schedule
+                    - treeitem "Office Hours" [ref=f10e74] [cursor=pointer]:
+                      - generic [ref=f10e79]: Office Hours
+                    - treeitem "WebAssign" [ref=f10e88] [cursor=pointer]:
+                      - generic [ref=f10e93]: WebAssign
+                    - treeitem "Gradescope" [ref=f10e103] [cursor=pointer]:
+                      - generic [ref=f10e108]: Gradescope
+                    - treeitem "Class Notes (Section C)" [ref=f10e118] [cursor=pointer]:
+                      - generic [ref=f10e123]: Class Notes (Section C)
+                    - treeitem "Resources & eBook" [ref=f10e133] [cursor=pointer]:
+                      - generic [ref=f10e138]: Resources & eBook
+                    - treeitem "Gradescope Homework Solutions" [ref=f10e148] [cursor=pointer]:
+                      - generic [ref=f10e153]: Gradescope Homework Solutions
+            - generic [ref=f10e7]:
+              - generic [ref=f10e14]:
+                - button "Download" [ref=f10e161] [cursor=pointer]
+                - generic [ref=f10e16]:
+                  - button "Previous" [disabled] [ref=f10e18]
+                  - button "Next" [ref=f10e22] [cursor=pointer]
+              - generic [ref=f10e26]:
+                - heading "Syllabus & Course Schedule" [level=1] [ref=f10e27]
+                - paragraph [ref=f10e30]: Expand the menu on the left to find the syllabus and course schedule.
+              - generic [ref=f10e164] [cursor=pointer]
+          - generic [ref=f10e165]: Course navigation menu is expanded
+        - log [ref=f10e31]

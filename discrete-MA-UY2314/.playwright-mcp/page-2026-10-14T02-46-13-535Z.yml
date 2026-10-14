@@ -1,0 +1,94 @@
+- generic [active] [ref=f5e1]:
+  - generic [ref=f5e2]:
+    - banner [ref=f5e3]:
+      - navigation "Main" [ref=f5e4]:
+        - generic [ref=f5e5]:
+          - link "skip to main content" [ref=f5e6] [cursor=pointer]:
+            - /url: javascript:void(0);
+          - generic:
+            - generic [ref=f5e11]:
+              - generic [ref=f5e13]:
+                - link "My Home" [ref=f5e15] [cursor=pointer]:
+                  - /url: /d2l/lp/ouHome/defaultHome.d2l
+                  - img "My Home" [ref=f5e18]
+                - 'link "MA-UY 2314: Discrete Mathematics, Fall 2026" [ref=f5e20] [cursor=pointer]':
+                  - /url: /d2l/home/608375
+              - generic [ref=f5e21]:
+                - button "Select a course..." [ref=f5e24] [cursor=pointer]
+                - generic [ref=f5e28]:
+                  - button "Message alerts" [ref=f5e31] [cursor=pointer]
+                  - button "Subscription alerts" [ref=f5e36] [cursor=pointer]
+                  - generic [ref=f5e40]:
+                    - button "Update alerts" [ref=f5e41] [cursor=pointer]
+                    - generic: Update alerts - You have new alerts
+                - button "Pragun Damani, avatar" [ref=f5e49] [cursor=pointer]:
+                  - generic: PD
+                - button "Admin Tools" [ref=f5e56] [cursor=pointer]
+            - list [ref=f5e63]:
+              - listitem [ref=f5e64]:
+                - link "Content" [ref=f5e65] [cursor=pointer]:
+                  - /url: /d2l/le/lessons/608375
+              - listitem [ref=f5e66]:
+                - link "Announcements" [ref=f5e67] [cursor=pointer]:
+                  - /url: /d2l/lms/news/main.d2l?ou=608375
+              - listitem [ref=f5e68]:
+                - link "Assignments" [ref=f5e69] [cursor=pointer]:
+                  - /url: /d2l/lms/dropbox/dropbox.d2l?ou=608375
+              - listitem [ref=f5e70]:
+                - link "Discussions" [ref=f5e71] [cursor=pointer]:
+                  - /url: /d2l/le/608375/discussions/List
+              - listitem [ref=f5e72]:
+                - link "Quizzes" [ref=f5e73] [cursor=pointer]:
+                  - /url: /d2l/lms/quizzing/quizzing.d2l?ou=608375
+              - listitem [ref=f5e74]:
+                - link "Grades" [ref=f5e75] [cursor=pointer]:
+                  - /url: /d2l/lms/grades/index.d2l?ou=608375
+              - listitem [ref=f5e76]:
+                - link "Zoom" [ref=f5e77] [cursor=pointer]:
+                  - /url: /d2l/common/dialogs/quickLink/quickLink.d2l?ou=608375&type=lti&rcode=438126FB-CB7E-4012-84DC-B926D628DF2A-1844200&srcou=6606&launchFramed=1&framedName=Zoom
+              - listitem [ref=f5e78]:
+                - button "More" [ref=f5e80]
+    - main [ref=f5e84]:
+      - generic [ref=f5e88]:
+        - generic:
+          - generic:
+            - 'heading "MA-UY 2314: Discrete Mathematics, Fall 2026" [level=1]'
+      - generic [ref=f5e93]:
+        - generic:
+          - generic [ref=f5e94]:
+            - region [ref=f5e95]:
+              - generic [ref=f5e96]:
+                - heading "Updates" [level=2] [ref=f5e98]
+                - button "Actions for Updates" [ref=f5e102] [cursor=pointer]
+              - iframe [ref=f5e110]:
+                - generic [ref=f6e1]: "There are no current updates for MA-UY 2314: Discrete Mathematics, Fall 2026"
+            - region [ref=f5e111]:
+              - generic [ref=f5e112]:
+                - heading "Table of Contents" [level=2] [ref=f5e114]
+                - button "Actions for Table of Contents" [ref=f5e118] [cursor=pointer]
+          - generic [ref=f5e148]:
+            - region [ref=f5e149]:
+              - generic [ref=f5e150]:
+                - heading "Work To Do" [level=2] [ref=f5e152]
+                - button "Actions for Work To Do" [ref=f5e156] [cursor=pointer]
+              - generic [ref=f5e165]:
+                - heading "May 14 - May 23" [level=3] [ref=f5e166]
+                - list [ref=f5e170]
+            - region [ref=f5e172]:
+              - generic [ref=f5e173]:
+                - link [ref=f5e175] [cursor=pointer]:
+                  - /url: /d2l/lms/news/main.d2l?ou=608375
+                  - heading "Announcements" [level=2] [ref=f5e176]
+                - button "Actions for Announcements" [ref=f5e180] [cursor=pointer]
+              - generic [ref=f5e183]: Loading...
+            - region [ref=f5e211]:
+              - generic [ref=f5e212]:
+                - link [ref=f5e214] [cursor=pointer]:
+                  - /url: /d2l/le/calendar/608375
+                  - heading "Calendar" [level=2] [ref=f5e215]
+                - button "Actions for Calendar" [ref=f5e219] [cursor=pointer]
+              - generic [ref=f5e222]: Loading...
+  - contentinfo [ref=f5e250]:
+    - paragraph [ref=f5e252]:
+      - text: Powered by
+      - generic [ref=f5e253]: D2L Brightspace

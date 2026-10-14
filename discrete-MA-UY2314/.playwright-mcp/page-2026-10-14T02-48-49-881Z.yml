@@ -1,0 +1,144 @@
+- generic [ref=f8e1]:
+  - banner [ref=f8e2]:
+    - navigation "Main" [ref=f8e3]:
+      - generic [ref=f8e4]:
+        - link "skip to main content" [ref=f8e80] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - generic:
+          - generic [ref=f8e84]:
+            - generic [ref=f8e7]:
+              - link "My Home" [ref=f8e86] [cursor=pointer]:
+                - /url: /d2l/lp/ouHome/defaultHome.d2l
+                - img "My Home" [ref=f8e89]
+              - 'link "MA-UY 2314: Discrete Mathematics, Fall 2026" [ref=f8e9] [cursor=pointer]':
+                - /url: /d2l/home/608375
+            - generic [ref=f8e10]:
+              - button "Select a course..." [ref=f8e91] [cursor=pointer]
+              - generic [ref=f8e13]:
+                - button "Message alerts" [ref=f8e96] [cursor=pointer]
+                - button "Subscription alerts" [ref=f8e101] [cursor=pointer]
+                - generic [ref=f8e105]:
+                  - button "Update alerts" [ref=f8e106] [cursor=pointer]
+                  - generic: Update alerts - You have new alerts
+              - button "Pragun Damani, avatar" [ref=f8e112] [cursor=pointer]:
+                - generic: PD
+              - button "Admin Tools" [ref=f8e118] [cursor=pointer]
+          - list [ref=f8e41]:
+            - listitem [ref=f8e42]:
+              - link "Content" [ref=f8e43] [cursor=pointer]:
+                - /url: /d2l/le/lessons/608375
+            - listitem [ref=f8e44]:
+              - link "Announcements" [ref=f8e45] [cursor=pointer]:
+                - /url: /d2l/lms/news/main.d2l?ou=608375
+            - listitem [ref=f8e46]:
+              - link "Assignments" [ref=f8e47] [cursor=pointer]:
+                - /url: /d2l/lms/dropbox/dropbox.d2l?ou=608375
+            - listitem [ref=f8e48]:
+              - link "Discussions" [ref=f8e49] [cursor=pointer]:
+                - /url: /d2l/le/608375/discussions/List
+            - listitem [ref=f8e50]:
+              - link "Quizzes" [ref=f8e51] [cursor=pointer]:
+                - /url: /d2l/lms/quizzing/quizzing.d2l?ou=608375
+            - listitem [ref=f8e52]:
+              - link "Grades" [ref=f8e53] [cursor=pointer]:
+                - /url: /d2l/lms/grades/index.d2l?ou=608375
+            - listitem [ref=f8e54]:
+              - link "Zoom" [ref=f8e55] [cursor=pointer]:
+                - /url: /d2l/common/dialogs/quickLink/quickLink.d2l?ou=608375&type=lti&rcode=438126FB-CB7E-4012-84DC-B926D628DF2A-1844200&srcou=6606&launchFramed=1&framedName=Zoom
+            - listitem [ref=f8e74]:
+              - button "More" [ref=f8e76]
+  - main [ref=f8e123]:
+    - iframe [active] [ref=f8e126]:
+      - generic [ref=f10e1]:
+        - generic [ref=f10e3]:
+          - generic [ref=f10e6]:
+            - generic [ref=f10e32]:
+              - generic [ref=f10e173]:
+                - heading "Course options" [level=2] [ref=f10e174]
+                - button "Collapse Navigation Menu" [ref=f10e177] [cursor=pointer]
+              - generic [ref=f10e41]:
+                - generic [ref=f10e46]:
+                  - searchbox "Search titles and descriptions" [ref=f10e47]
+                  - button "Search" [ref=f10e50] [cursor=pointer]
+                - generic [ref=f10e53]:
+                  - heading "Table of Contents" [level=2] [ref=f10e54]
+                  - tree "Table of Contents" [ref=f10e55]:
+                    - treeitem "Syllabus & Course Schedule" [ref=f10e180] [cursor=pointer]:
+                      - generic [ref=f10e64]: Syllabus & Course Schedule
+                    - treeitem "Office Hours" [ref=f10e74] [cursor=pointer]:
+                      - generic [ref=f10e79]: Office Hours
+                    - treeitem "WebAssign" [ref=f10e88] [cursor=pointer]:
+                      - generic [ref=f10e93]: WebAssign
+                    - treeitem "Gradescope" [ref=f10e103] [cursor=pointer]:
+                      - generic [ref=f10e108]: Gradescope
+                    - generic [ref=f10e117]:
+                      - treeitem "Class Notes (Section C)" [expanded] [ref=f10e303] [cursor=pointer]:
+                        - generic [ref=f10e123]: Class Notes (Section C)
+                      - group [ref=f10e183]:
+                        - treeitem "FileNote Sep 2, 2026" [ref=f10e187] [cursor=pointer]:
+                          - generic [ref=f10e190]: Note Sep 2, 2026
+                        - treeitem "FileNote Sep 9, 2026" [ref=f10e201] [cursor=pointer]:
+                          - generic [ref=f10e205]: Note Sep 9, 2026
+                        - treeitem "FileNote Sep 14, 2026" [ref=f10e216] [cursor=pointer]:
+                          - generic [ref=f10e220]: Note Sep 14, 2026
+                        - treeitem "FileNote Sep 16, 2026" [ref=f10e231] [cursor=pointer]:
+                          - generic [ref=f10e235]: Note Sep 16, 2026
+                        - treeitem "FileNote Sep 21, 2026" [ref=f10e246] [cursor=pointer]:
+                          - generic [ref=f10e250]: Note Sep 21, 2026
+                        - treeitem "FileNote Sep 23, 2026" [ref=f10e261] [cursor=pointer]:
+                          - generic [ref=f10e265]: Note Sep 23, 2026
+                        - treeitem "FileNote Sep 28, 2026" [ref=f10e276] [cursor=pointer]:
+                          - generic [ref=f10e280]: Note Sep 28, 2026
+                        - treeitem "FileSelected. Note Oct 5, 2026." [active] [ref=f10e304] [cursor=pointer]:
+                          - generic [ref=f10e295]: Note Oct 5, 2026
+                    - treeitem "Resources & eBook" [ref=f10e133] [cursor=pointer]:
+                      - generic [ref=f10e138]: Resources & eBook
+                    - treeitem "Gradescope Homework Solutions" [ref=f10e148] [cursor=pointer]:
+                      - generic [ref=f10e153]: Gradescope Homework Solutions
+            - generic [ref=f10e7]:
+              - generic [ref=f10e14]:
+                - link "Alternative formats" [ref=f10e306] [cursor=pointer]:
+                  - /url: "#"
+                - button "Download" [ref=f10e161] [cursor=pointer]
+                - button "Open in full screen mode" [ref=f10e311] [cursor=pointer]
+                - generic [ref=f10e16]:
+                  - button "Previous" [ref=f10e18] [cursor=pointer]
+                  - button "Next" [ref=f10e22] [cursor=pointer]
+              - generic [ref=f10e24]:
+                - heading "Note Oct 5, 2026" [level=1] [ref=f10e314]
+                - document [ref=f10e317]:
+                  - toolbar:
+                    - generic:
+                      - generic:
+                        - generic: Page 5 / 11
+                        - group:
+                          - button "Zoom Out"
+                          - button "Zoom In"
+                          - button "Download"
+                          - button "Open new tab for printing"
+                          - button "Presentation Mode"
+                  - generic [ref=f10e319]:
+                    - region "Page ⁨1⁩" [ref=f10e320]:
+                      - generic [ref=f10e322]: 4.3 Direct Proof counterexample III Rational Numbers Q Rational numbers are real numbers r in mathbb Q iff exists a b in mathbb Z st r frac a b and b neq 0 Ex 1 in mathbb Q because 1 frac 1 1 1 in mathbb Z and denom f 0 0 5 in mathbb Q because 0 5 frac 1 2 1 in mathbb Z j in mathbb Z and 2 neq 0 O in mathbb Q because 0 frac 0 1 0 1 in mathbb Z and 140 could use any nonzero integer is frac 2 0 in mathbb Q No because b 0 is pi in Q 2 NO will prove later sqrt 2 in mathbb Q N 0
+                    - region "Page ⁨2⁩" [ref=f10e323]:
+                      - generic [ref=f10e325]: is 0 9 9 9 in mathbb Q 0 overline 9 sum _ n 1 infty frac 9 1 0 n converged 1 0 left 0 overline 9 right sum _ n 0 infty frac 9 1 0 n converges let x 0 9 9 9 ldots then 1 0 x 9 9 9 9 ldots So 1 0 x x 9 9 9 9 ldots 0 9 9 9 ldots frac 9 x 9 frac 9 9 x 1 frac 1 1 so X in mathbb Q and 0 overline 9 in mathbb Q divide every integer is mathbb Q S 0 if x in mathbb Z then X in mathbb Q is 0 overline 1 2 in mathbb Q Yes let x 0 1 2 1 2 1 2 ldots then loux 12.121212
+                    - region "Page ⁨3⁩" [ref=f10e326]:
+                      - generic [ref=f10e328]: Now 1 0 0 x x 1 2 sqrt 2 0 sqrt 2 9 9 x 1 2 x frac 1 2 9 9 frac 4 3 3 Works for 0 1 2 overline 3 8 7 let x 0 1 2 overline 3 8 7 1 0 0 x 1 2 overline 3 8 7 1 0 0 0 0 0 x 1 2 3 8 7 3 overline 8 7 1 0 0 0 0 0 x 1 0 0 x 1 2 3 8 7 overline 3 8 7 1 2 overline 3 8 7 9 9 9 0 0 times 1 2 3 7 5 So x frac 1 2 3 7 5 9 9 9 0 0 Subtract these two solve for x TIF The sum of any two rational numbers is rational
+                    - region "Page ⁨4⁩" [ref=f10e329]:
+                      - generic [ref=f10e344]: Proof Suppose min are any two rational numbers By definition of rational numbers m frac a b 1 a b in mathbb Z and b neq 0 and n frac c d c d in mathbb Z and d neq 0 So m n frac a b frac c d by substitution frac a d b c b d by finding common denominator Now adtbc ET L because integus are closed under multiplication and addition So we can let r a d b c and r in mathbb Z Also b d in mathbb Z because product of integers is an integer and since bto dto bdfo by Zero product propery
+                    - region "Page ⁨5⁩" [ref=f10e330]:
+                      - generic [ref=f10e346]: let s b d them SEE and S neq 0 a ber if a b 0 then a 0 or b 0 Contrapus By substitution m t n frac r s r s c mathbb Z wedge s neq 0 therefore m n in Q by definition of rational numbers a.be RifatoAbtothen.abt0 Some results are consequences of earlier Theorems Thm 4.3.2 The sum of any two rational s is rational proved this above now would you prove The double of any rational number is rational proof let r be any rational number by algebra Then 2 r r r
+                    - region "Page ⁨6⁩" [ref=f10e331]:
+                      - generic [ref=f10e348]: By Thm 4.3 2 2 r in mathbb Q we would call this result a Corollary Something that is easily proven with a previous Theorem TIF forall c in mathbb R if c is a not of a polynomial with rational coefficien then c is a not 0 8 a polynomial with integer coefficients Prof let p left x right be a polynomial with rational coefficien Then p left x right frac a n b n x n frac a n 1 b n 1 x n 1 ldots frac a 2 b 2 x 2 frac a 1 b 1 x frac a 0 b 0 when a i b i in mathbb Z for i 0 1 ldots n and b i neq 0 for i 0 1 ldots n and n in mathbb Z nonney Now let c in mathbb R such that P left C right 0 C is a root of the polynomi polynomial must show exists q left x right with integer coefficients and q left 1 right 0
+                    - region "Page ⁨7⁩" [ref=f10e332]:
+                      - generic [ref=f10e350]: Let g left x right left b n right left b n 1 right ldots left b 2 right left b 1 right left b 0 right p left x right left a n right left b n 1 right ldots left b 2 right left b 1 right left b 0 right x n left b n right left a n 1 right left b n 1 right ldots left b 1 right left b 0 right x n 1 ldots left b n right left b n 1 right ldots left b 2 right left a 1 right b 0 X left b n right left b n 1 right ldots left b 2 right left b 1 right left a 0 right all of these coefficients are integers because they are products of integers We can let them all be d 1 d 1 1 ldots a n d so q left x right d n x n d n 1 x n 1 ldots d 2 x 2 d 1 x d 0 where d i in mathbb Z for i 0 1 ldots n Now we know p left c right 0 and b i neq 0 for i 0 1 ldots n q left x right left b n right left b n 1 right ldots left b 2 right left b 1 right left b 0 right P left x right and nonzero integer substitute it as m So q left x right M rho left x right m neq 0 Then q left c right m p left c right m left 0 right 0 by algebu
+                    - region "Page ⁨8⁩" [ref=f10e333]
+                    - region "Page ⁨9⁩" [ref=f10e334]:
+                      - generic [ref=f10e338]: if n is not divisible by d then U KEZ nfdk order can't find KEZ sit n d k or d 0 Simple examples 4 2 left 2 right and LEZ 2 4 left frac 1 2 right and t notin mathbb Z 2 4 True 4 2 False 8 0 True because 0 8 left 0 right 0 8 False dividing by 0 because because 412 4 does not divide 2 integer q euro upsilon Thin 4.4.1 TIF forall a b in mathbb Z if a b 0 and a b then a leq b proof Let a b be any positive integers such that a b
+                    - region "Page ⁨10⁩" [ref=f10e335]:
+                      - generic [ref=f10e340]: By definition of divisibility exists k in mathbb Z st b a k Since a b 0 k 0 So 1 leq k Now multiply both sides by a by substitution a leq a k b therefore a leq b if we lose a 0 b 0 we lose this result Another important result Thin 44.2 The only divisors of 1 one 1 1 prom on your own TIF if a b in mathbb Z and 5 9 and 10lb 5 at3b Let a b be any integers such that 5 a and colb
+                    - region "Page ⁨11⁩" [ref=f10e336]:
+                      - generic [ref=f10e342]: By definition of divisibility a 5 k for some k in mathbb Z b 1 0 l for some l in mathbb Z Then 2 a b b 2 left 5 k right 3 left 1 0 l right 5 left 2 k 6 l right by substitution by factoring out 5 and 2 61 EZ because mathbb Z are closed under addition mult let m 2 k 6 l and thus m in mathbb Z Then by substitution 2 a 3 b 5 m for some m in mathbb Z by def of divisibility 5 2 36
+              - generic [ref=f10e164] [cursor=pointer]
+          - generic [ref=f10e165]: Course navigation menu is expanded
+        - log [ref=f10e31]

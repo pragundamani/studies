@@ -1,0 +1,40 @@
+[     327ms] [INFO] WebAssembly is supported in this environment @ chrome-extension://nngceckbapebfimnlniiiahkandclblb/popup/main.js:574
+[     428ms] [LOG] WASM SDK loaded in 79ms @ chrome-extension://nngceckbapebfimnlniiiahkandclblb/popup/main.js:0
+[     430ms] [LOG] State version: 85 @ chrome-extension://nngceckbapebfimnlniiiahkandclblb/popup/main.js:0
+[     456ms] [INFO]  INFO bitwarden_managed_settings::managed_settings_client: Managed settings profile cleared
+ @ chrome-extension://nngceckbapebfimnlniiiahkandclblb/popup/vendor.js:1
+[    3527ms] [INFO]  INFO initialize_user_crypto:initialize_user_crypto_decrypted_key{user_id=Some(UserId(5d494595-d88c-4a69-9ae9-b04400a54ea4))}: bitwarden_core::client::internal: Setting user key with ID Local(LocalId(0a1c8557-b22b-4be2-a130-7302bda746c8))
+ @ chrome-extension://nngceckbapebfimnlniiiahkandclblb/popup/vendor.js:1
+[    3527ms] [INFO]  INFO initialize_user_crypto:initialize_user_crypto_decrypted_key{user_id=Some(UserId(5d494595-d88c-4a69-9ae9-b04400a54ea4))}: bitwarden_core::key_management::account_cryptographic_state: Initializing V1 account cryptographic state state=WrappedAccountCryptographicState::V1
+ @ chrome-extension://nngceckbapebfimnlniiiahkandclblb/popup/vendor.js:1
+[    3531ms] [INFO]  INFO initialize_user_crypto: bitwarden_core::key_management::wasm_unlock_state: No user-key in state bridge, setting it
+ @ chrome-extension://nngceckbapebfimnlniiiahkandclblb/popup/vendor.js:1
+[    3532ms] [INFO]  INFO initialize_user_crypto: bitwarden_core::key_management::wasm_unlock_state: Setting the user-key to the state bridge from SDK
+ @ chrome-extension://nngceckbapebfimnlniiiahkandclblb/popup/vendor.js:1
+[    3546ms] [INFO]  INFO initialize_user_crypto: bitwarden_core::key_management::wasm_unlock_state: Getting the user-key from the state bridge in SDK
+ @ chrome-extension://nngceckbapebfimnlniiiahkandclblb/popup/vendor.js:1
+[    3550ms] [INFO]  INFO initialize_user_crypto:initialize_user_crypto_decrypted_key{user_id=Some(UserId(5d494595-d88c-4a69-9ae9-b04400a54ea4))}: bitwarden_core::client::internal: Setting user key with ID Local(LocalId(d15eead0-b434-4b9b-b34f-0bfcb892c381))
+ @ chrome-extension://nngceckbapebfimnlniiiahkandclblb/popup/vendor.js:1
+[    3551ms] [INFO]  INFO initialize_user_crypto:initialize_user_crypto_decrypted_key{user_id=Some(UserId(5d494595-d88c-4a69-9ae9-b04400a54ea4))}: bitwarden_core::key_management::account_cryptographic_state: Initializing V1 account cryptographic state state=WrappedAccountCryptographicState::V1
+ @ chrome-extension://nngceckbapebfimnlniiiahkandclblb/popup/vendor.js:1
+[    3556ms] [INFO]  INFO initialize_user_crypto: bitwarden_core::key_management::local_user_data_key_state: No V2 upgrade token available from state bridge, skipping WrappedLocalUserDataKey migration
+ @ chrome-extension://nngceckbapebfimnlniiiahkandclblb/popup/vendor.js:1
+[    3558ms] [INFO]  INFO initialize_user_crypto: bitwarden_core::key_management::local_user_data_key_state: WrappedLocalUserDataKey already exists in state, skipping
+ @ chrome-extension://nngceckbapebfimnlniiiahkandclblb/popup/vendor.js:1
+[    3558ms] [INFO]  INFO initialize_user_crypto: bitwarden_core::key_management::local_user_data_key_state: Getting the WrappedLocalUserDataKey from state
+ @ chrome-extension://nngceckbapebfimnlniiiahkandclblb/popup/vendor.js:1
+[    3559ms] [INFO]  INFO initialize_user_crypto: bitwarden_core::key_management::local_user_data_key_state: No V2 upgrade token available from state bridge, skipping WrappedLocalUserDataKey migration
+ @ chrome-extension://nngceckbapebfimnlniiiahkandclblb/popup/vendor.js:1
+[    3560ms] [INFO]  INFO initialize_user_crypto: bitwarden_core::key_management::local_user_data_key_state: WrappedLocalUserDataKey already exists in state, skipping
+ @ chrome-extension://nngceckbapebfimnlniiiahkandclblb/popup/vendor.js:1
+[    3561ms] [INFO]  INFO initialize_user_crypto: bitwarden_core::key_management::local_user_data_key_state: Getting the WrappedLocalUserDataKey from state
+ @ chrome-extension://nngceckbapebfimnlniiiahkandclblb/popup/vendor.js:1
+[    4593ms] [INFO]  INFO initialize_user_crypto: bitwarden_core::key_management::crypto: User crypto initialized successfully
+ @ chrome-extension://nngceckbapebfimnlniiiahkandclblb/popup/vendor.js:1
+[    5587ms] [INFO]  INFO initialize_user_crypto: bitwarden_core::key_management::crypto: User crypto initialized successfully
+ @ chrome-extension://nngceckbapebfimnlniiiahkandclblb/popup/vendor.js:1
+[    5588ms] [INFO]  INFO set_org_keys: bitwarden_core::client::encryption_settings: No organization keys to set
+ @ chrome-extension://nngceckbapebfimnlniiiahkandclblb/popup/vendor.js:1
+[    5590ms] [INFO]  INFO bitwarden_user_crypto_management::key_id_backfill: Server already knows the user key id recorded=KeyId(1d9d1e2161144986a5f934c74de5de95)
+ @ chrome-extension://nngceckbapebfimnlniiiahkandclblb/popup/vendor.js:1
+[    5592ms] [LOG] [LockComponent] Private key regeneration took 0ms @ chrome-extension://nngceckbapebfimnlniiiahkandclblb/popup/main.js:0
