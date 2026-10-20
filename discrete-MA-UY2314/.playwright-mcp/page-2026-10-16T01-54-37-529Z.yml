@@ -1,0 +1,275 @@
+- generic [ref=f2e1]:
+  - dialog [ref=f2e235]:
+    - heading "Submit Assignment" [level=1] [ref=f2e236]
+    - generic [ref=f2e237]:
+      - generic [aria-hidden] [ref=f2e239]: 
+      - generic [ref=f2e240]: Submit images for each question, or a single PDF.
+    - generic [ref=f2e241]:
+      - paragraph [ref=f2e243]:
+        - text: Your instructor has provided a PDF to help you complete your assignment.
+        - link " Download Homework 5 PDF" [active] [ref=f2e244] [cursor=pointer]:
+          - /url: https://production-gradescope-uploads.s3-us-west-2.amazonaws.com/uploads/pdf_attachment/file/284812944/Homework_5.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAV45MPIOW4T6VAGCF%2F20261016%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261016T005837Z&X-Amz-Expires=10800&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBEaCXVzLXdlc3QtMiJHMEUCIDF87Hk2QsT3ar%2BmO96X%2Fw6BzWwc%2FNkfQlsAi2oYSzOvAiEA8cN3Oo5gG4KcpJPFdrf%2BJnnISFRs5T6%2B6SsKTJq5S0oqwwUI2f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw0MDU2OTkyNDkwNjkiDNBrjSdIHXoJxhkJISqXBZSj8d2Ri1lwii6ub5UH%2BUuQ%2F%2BjUdGesE6rGUAyeYclaZUNWBky9zRL9NqamDcqhBznfWa70xzXxWXkTDxp%2F%2FdJFr43fy4GA5SnrJyKxdgnXxkwTpbql3Tkw86j18HXd%2BgZe0c%2BngmGR5O0jLLWaheIYzbN8RxHkQSHHuKOQ4DGDbfvlVNjufZBbArh42ZsiD4WRx9XU16UUIix75gqJvJRAv6WEqCd40vuqAVux9QmrO82rt%2F2cbhcGEWDDbvsmklJ%2FJbAE1BDSQouVsiQIs2nALjzVn959aGpfvUHml8a6tfM2mJfD5I10sZxbRyVTAyAlk7v3FyyKbO6wl8QiKyzbPwvYsSAjXBvtIg0h1MrSqibVR1vogvXVW3NmP2Uxn%2FE%2Fe6RXRD6VRKACzkgtXPGtN7ZGUMYLHzmJRgkKXrXB%2Fo9Hcu5kd%2FqveQU2hHv80tHto%2FYTdHLFmdnuL4OjgMwv5DAqDS8zePxDO%2BqGfv3aMqqpvABmqGTEECy1V7TU1KBVvMISnv%2BrE1IAot3b6K87wnlas1fUmb2e%2BbgBTmvlGgts7SYwvLcVB1IYnGYyYzf5W5bLfks513gUK8G3jSjwZedLF%2FC0Ztwf9RLl5SDYaQIA8JlW84KESgdlgjPtyNw6erfdtnDIIuxN%2FzYWUKW0kgvlUIBoJ38Q3pIa877WPY2isQZMD%2Bb6iOKjY9eZhpiBCGmo1qNDE2V2euV%2B9W5rsKlyRUHOWPbkoOI7UmPtru625yBlMrcEmz1Og6Gr%2F5n%2BrYUpyQVMkktRdWzNGfpccTE0uOuYdNQ%2FUzjasRMDAmLT8Fye6M0H47WbV5oA9wytmHfO1UQOpPPaYpwtVvTR18RjacnZEirfQzOWgGoJFGNiZFpjCTDL3MXWBjqxAf%2FvXQK25MUy4ye8cc0YEbumRlQIKWA5rBw4xM2bQE3B9AK6csR7IrWJP4Yi36ZlLiebZlNLRTdslkGuoiqXnPqrETCwZZUt1otqrkgf%2FCTI081iNq3BrYaROKE0QBG%2BYye90oIbjtPunYGF9k%2F%2BrrQeLE1ADAqdhxfcqAGPqdEkZsVvSbvaVpt%2Bn84dxKZe5ZTt68K1oXadqa7V5DvbZSC%2BUAUVlHXXAiU9XN14U2LPZg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=3ae415335561274190ac57cbc3f5f158f83000a56542c0a98dddec80bcbe0f73
+          - generic [ref=f2e245]: 
+          - text: Download Homework 5 PDF
+      - paragraph [ref=f2e246]: Submit images to answer questions individually or a single PDF for all. Don't forget to assign your PDF pages to their corresponding question.
+      - generic [ref=f2e247]:
+        - link "Submit Images" [ref=f2e248] [cursor=pointer]:
+          - /url: /courses/1377669/assignments/8749074/submissions/submit_images
+          - generic [aria-hidden] [ref=f2e249]: 
+        - button "Submit PDF" [ref=f2e251] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f2e252]: 
+      - generic [ref=f2e254]:
+        - paragraph [ref=f2e255]: Submit assignments using the Gradescope mobile app.
+        - list "Download the Gradescope mobile app" [ref=f2e256]:
+          - listitem [ref=f2e257]:
+            - link "Download on the App Store" [ref=f2e258] [cursor=pointer]:
+              - /url: https://apps.apple.com/us/app/gradescope/id1563280912
+          - listitem [ref=f2e259]:
+            - link "Get it on Google Play" [ref=f2e260] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=com.gradescope.student&hl=en_US&gl=US
+    - button [ref=f2e261] [cursor=pointer]
+  - status [aria-hidden]: Showing 12 rows
+  - link [aria-hidden]:
+    - /url: "#main-content"
+    - text: Skip to content
+  - navigation [aria-hidden]:
+    - generic:
+      - generic:
+        - generic:
+          - link:
+            - /url: /
+        - button:
+          - generic [aria-hidden]: 
+          - generic [aria-hidden]: 
+          - generic [aria-hidden]: 
+      - heading [level=2]:
+        - generic:
+          - link:
+            - /url: /courses/1377669
+            - text: MA-UY 2314
+          - generic: Navigation
+        - generic: Discrete Mathematics, Fall 2026
+      - list:
+        - listitem:
+          - link:
+            - /url: /courses/1377669
+            - generic: 
+            - generic: Dashboard
+        - listitem:
+          - link:
+            - /url: /courses/1377669/regrade_requests
+            - generic: 
+            - generic: Regrade Requests
+      - heading [level=2]: Instructors
+      - list:
+        - listitem:
+          - generic [aria-hidden]:
+            - generic:
+              - generic:
+                - generic: 
+                - generic: 
+          - generic: Joseph Esposito
+        - listitem:
+          - generic [aria-hidden]:
+            - generic:
+              - generic:
+                - generic: 
+                - generic: 
+          - generic: Vaishali Prabhu
+        - listitem:
+          - generic [aria-hidden]:
+            - generic:
+              - generic:
+                - generic: 
+                - generic: 
+          - generic: Ken Cereste
+        - listitem:
+          - generic [aria-hidden]:
+            - generic:
+              - generic:
+                - generic: 
+                - generic: 
+          - generic: Angelica Farin
+        - listitem:
+          - generic [aria-hidden]:
+            - generic:
+              - generic:
+                - generic: 
+                - generic: 
+          - generic: Alekzander Malcom
+        - listitem:
+          - generic [aria-hidden]:
+            - generic:
+              - generic:
+                - generic: 
+                - generic: 
+          - generic: Jacquelene Herbold
+      - heading [level=2]: Course Actions
+      - list:
+        - listitem:
+          - button:
+            - generic: 
+            - generic: Unenroll From Course
+      - text:   
+    - button:
+      - generic [aria-hidden]:
+        - generic:
+          - generic:
+            - generic [aria-hidden]: 
+            - generic [aria-hidden]: 
+      - heading [level=2]: Account
+      - generic:
+        - img: 
+  - generic [aria-hidden]:
+    - main:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - heading [level=1]: MA-UY 2314
+              - heading [level=2]: Fall 2026
+            - generic: "Course ID: 1377669"
+          - generic:
+            - generic:
+              - table:
+                - caption: Assignments List
+                - rowgroup:
+                  - row:
+                    - columnheader:  Name
+                    - columnheader:  Status
+                    - columnheader:
+                      - generic:
+                        - generic [aria-hidden]: Released
+                        - generic:
+                          - text: Due (
+                          - generic: EDT
+                          - text: )
+                      - text: 
+                - rowgroup:
+                  - row:
+                    - rowheader:
+                      - button: Homework 7
+                    - cell:
+                      - generic: No Submission
+                    - cell:
+                      - generic:
+                        - generic: 1 week, 5 days left
+                        - generic:
+                          - time: Oct 13 at 12:00AM
+                          - time: Oct 27 at 11:59PM
+                  - row:
+                    - rowheader:
+                      - button: Homework 6
+                    - cell:
+                      - generic: No Submission
+                    - cell:
+                      - generic:
+                        - generic: 5 days, 2 hours left
+                        - generic:
+                          - time: Oct 06 at 12:00AM
+                          - time: Oct 20 at 11:59PM
+                  - row:
+                    - rowheader:
+                      - button: Homework 5
+                    - cell:
+                      - generic: No Submission
+                    - cell:
+                      - generic:
+                        - generic: 2 hours, 5 minutes left
+                        - generic:
+                          - time: Sep 29 at 12:00AM
+                          - time: Oct 15 at 11:59PM
+                  - row:
+                    - rowheader:
+                      - link:
+                        - /url: /courses/1377669/assignments/8683898/submissions/435491889
+                        - text: Homework 4
+                    - cell:
+                      - generic: 2.0 / 2.0
+                    - cell:
+                      - generic:
+                        - generic:
+                          - time: Sep 22 at 12:00AM
+                          - time: Oct 08 at 11:59PM
+                  - row:
+                    - rowheader:
+                      - link:
+                        - /url: /courses/1377669/assignments/8627075/submissions/434552937
+                        - text: Homework 3
+                    - cell:
+                      - generic: 7.0 / 7.0
+                    - cell:
+                      - generic:
+                        - generic:
+                          - time: Sep 15 at 12:00AM
+                          - time: Oct 06 at 11:59PM
+                  - row:
+                    - rowheader:
+                      - link:
+                        - /url: /courses/1377669/assignments/8583248/submissions/430210300
+                        - text: Homework 2
+                    - cell:
+                      - generic: 5.0 / 5.0
+                    - cell:
+                      - generic:
+                        - generic:
+                          - time: Sep 08 at 12:00AM
+                          - time: Sep 24 at 11:59PM
+                  - row:
+                    - rowheader:
+                      - link:
+                        - /url: /courses/1377669/assignments/8522060/submissions/427657909
+                        - text: Homework 1
+                    - cell:
+                      - generic: 11.0 / 11.0
+                    - cell:
+                      - generic:
+                        - generic:
+                          - time: Sep 01 at 12:01AM
+                          - time: Sep 17 at 11:59PM
+                  - row:
+                    - rowheader:
+                      - link:
+                        - /url: /courses/1377669/assignments/8522053/submissions/422881572
+                        - text: Homework 0
+                    - cell:
+                      - generic: 3.0 / 3.0
+                    - cell:
+                      - generic:
+                        - generic:
+                          - time: Sep 01 at 12:00AM
+                          - time: Sep 15 at 11:59PM
+                  - row:
+                    - rowheader:
+                      - link:
+                        - /url: /courses/1377669/assignments/8674055/submissions/427746904
+                        - text: Quiz 1
+                    - cell:
+                      - generic: 4.0 / 8.0
+                    - cell
+                  - row:
+                    - rowheader:
+                      - link:
+                        - /url: /courses/1377669/assignments/8735751/submissions/430414833
+                        - text: Quiz 2
+                    - cell:
+                      - generic: 2.0 / 4.0
+                    - cell
+                  - row:
+                    - rowheader:
+                      - link:
+                        - /url: /courses/1377669/assignments/8792098/submissions/433002604
+                        - text: Exam 1
+                    - cell:
+                      - generic: 69.6 / 100.0
+                    - cell
+                  - row:
+                    - rowheader:
+                      - link:
+                        - /url: /courses/1377669/assignments/8843842/submissions/435698354
+                        - text: Quiz 3
+                    - cell:
+                      - generic: 4.0 / 4.0
+                    - cell
+          - text:        
+  - text:   

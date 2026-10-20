@@ -1,0 +1,554 @@
+- generic [ref=f1e1]:
+  - generic [ref=f1e5]:
+    - generic [ref=f1e9]:
+      - generic [ref=f1e10]:
+        - paragraph [ref=f1e15]: Pragun
+        - button "Collapse sidebar" [expanded] [ref=f1e18] [cursor=pointer]
+      - navigation [ref=f1e22]:
+        - generic [ref=f1e23]:
+          - list "Main Menu" [ref=f1e25]:
+            - listitem [ref=f1e26]:
+              - link "HOME" [ref=f1e28] [cursor=pointer]:
+                - /url: https://www.cengage.com/dashboard/home
+                - generic [aria-hidden] [ref=f1e31]: HOME
+            - listitem [ref=f1e32]:
+              - link "PROFILE (opens in a new tab)" [ref=f1e34] [cursor=pointer]:
+                - /url: https://account.cengage.com/profile/profile-data
+                - generic [aria-hidden] [ref=f1e37]: PROFILE
+            - listitem [ref=f1e38]:
+              - link "ORDERS" [ref=f1e40] [cursor=pointer]:
+                - /url: https://www.cengage.com/dashboard/my-orders
+                - generic [aria-hidden] [ref=f1e43]: ORDERS
+            - listitem [ref=f1e44]:
+              - link "RENTALS" [ref=f1e46] [cursor=pointer]:
+                - /url: https://www.cengage.com/dashboard/rentals
+                - generic [aria-hidden] [ref=f1e49]: RENTALS
+            - listitem [ref=f1e50]:
+              - button "EXPAND COURSES" [ref=f1e53] [cursor=pointer]:
+                - generic [ref=f1e54]: COURSES
+          - list "Study tools and tips" [ref=f1e62]:
+            - listitem [ref=f1e63]:
+              - link "Study Tools" [ref=f1e65] [cursor=pointer]:
+                - /url: https://www.cengage.com/dashboard/explore-catalog
+                - generic [aria-hidden] [ref=f1e68]: Study Tools
+            - listitem [ref=f1e69]:
+              - link "College Success Tips" [ref=f1e71] [cursor=pointer]:
+                - /url: https://www.cengage.com/dashboard/college-success
+                - generic [aria-hidden] [ref=f1e74]: College Success Tips
+            - listitem [ref=f1e75]:
+              - link "Career Success Tips" [ref=f1e77] [cursor=pointer]:
+                - /url: https://www.cengage.com/dashboard/career-center
+                - generic [aria-hidden] [ref=f1e80]: Career Success Tips
+          - link "Help (opens in a new tab)" [ref=f1e84] [cursor=pointer]:
+            - /url: https://cengageorg.my.site.com/Service/s/
+            - generic [aria-hidden] [ref=f1e87]: Help
+        - button "Sign Out" [ref=f1e89] [cursor=pointer]
+    - generic [ref=f1e94]:
+      - navigation "Mindtap menu" [ref=f1e97]:
+        - img "Cengage MindTap" [ref=f1e99]
+        - generic [ref=f1e100]:
+          - text: 
+          - button "Search this course" [ref=f1e101] [cursor=pointer]:
+            - generic [ref=f1e102]:
+              - generic [ref=f1e103]: 
+              - text: Search this course
+          - text:  
+          - generic [ref=f1e104]:
+            - generic [ref=f1e106]:
+              - button " Help & Info" [ref=f1e107] [cursor=pointer]:
+                - generic [ref=f1e108]:
+                  - generic [ref=f1e109]: 
+                  - generic [ref=f1e110]: Help & Info
+              - text:    
+            - text:     
+      - generic [ref=f1e112]:
+        - generic [ref=f1e115]:
+          - generic [ref=f1e116]:
+            - 'heading "Chapter 4: Elementary Number Theory and Methods of Proof" [level=1] [ref=f1e117]'
+            - 'button "Close Chapter 4: Elementary Number Theory and Methods of Proof" [ref=f1e118] [cursor=pointer]':
+              - generic [ref=f1e119]: 
+          - iframe [active] [ref=f1e122]:
+            - generic [ref=f8e2]:
+              - generic [ref=f8e3]:
+                - button "Chapter contents" [ref=f8e5] [cursor=pointer]
+                - generic [ref=f8e6]:
+                  - button "Listen to this page using ReadSpeaker" [ref=f8e9]
+                  - button "Fonts menu" [ref=f8e11] [cursor=pointer]
+                  - generic "Bookmark this Page" [ref=f8e14] [cursor=pointer]:
+                    - button "Bookmark" [ref=f8e15]
+                  - button "Print" [ref=f8e18] [cursor=pointer]
+                  - button "Help" [ref=f8e19] [cursor=pointer]:
+                    - generic [ref=f8e20]: help
+                - generic:
+                  - link "Main content" [ref=f8e21] [cursor=pointer]:
+                    - /url: "#header"
+                  - button "Previous Page" [ref=f8e22] [cursor=pointer]:
+                    - generic [ref=f8e23]: 
+                  - button "Next Page" [ref=f8e24] [cursor=pointer]:
+                    - generic [ref=f8e25]: 
+                - document [ref=f8e26]:
+                  - generic [ref=f8e30]:
+                    - heading "Exercise Set 4.4" [level=1] [ref=f8e32]
+                    - generic "practice quiz" [ref=f8e36]:
+                      - generic "instructions" [ref=f8e37]:
+                        - paragraph [ref=f8e38]:
+                          - text: Give a reason for your answer in each of
+                          - link "1" [ref=f8e39] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "2" [ref=f8e40] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "3" [ref=f8e41] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "4" [ref=f8e42] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "5" [ref=f8e43] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "6" [ref=f8e44] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "7" [ref=f8e45] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "8" [ref=f8e46] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "9" [ref=f8e47] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "10" [ref=f8e48] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "11" [ref=f8e49] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "12" [ref=f8e50] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ", and"
+                          - link "13" [ref=f8e51] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: . Assume that all variables represent integers.
+                      - list "short answer questions" [ref=f8e52]:
+                        - listitem [ref=f8e53]:
+                          - paragraph [ref=f8e54]: Is divisible by ?
+                          - generic [ref=f8e67] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f8e68]: Yes,
+                        - listitem [ref=f8e81]:
+                          - paragraph [ref=f8e82]: Does ?
+                          - generic [ref=f8e92] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f8e93]: Yes,
+                        - listitem [ref=f8e104]:
+                          - paragraph [ref=f8e105]: Does ?
+                        - listitem [ref=f8e113]:
+                          - paragraph [ref=f8e114]: Does divide ?
+                          - generic [ref=f8e142] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f8e143]: Yes, , and is an integer because is an integer and sums and products of integers are integers.
+                        - listitem [ref=f8e213]:
+                          - paragraph [ref=f8e214]: Is divisible by ?
+                        - listitem [ref=f8e234]:
+                          - paragraph [ref=f8e235]: Is a multiple of ?
+                          - generic [ref=f8e247] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f8e248]: No, , which is not an integer.
+                        - listitem [ref=f8e263]:
+                          - paragraph [ref=f8e264]: Is a factor of ?
+                          - generic [ref=f8e277] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f8e278]: Yes, .
+                        - listitem [ref=f8e296]:
+                          - paragraph [ref=f8e297]: Is a multiple of ?
+                          - generic [ref=f8e315] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f8e316]: Yes, , and is an integer because and are integers and sums and products of integers are integers.
+                        - listitem [ref=f8e359]:
+                          - paragraph [ref=f8e360]: Is a factor of ?
+                        - listitem [ref=f8e377]:
+                          - paragraph [ref=f8e378]: Does ?
+                          - generic [ref=f8e388] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f8e389]: No, , which is not an integer.
+                        - listitem [ref=f8e404]:
+                          - paragraph [ref=f8e405]: Does ?
+                        - listitem [ref=f8e416]:
+                          - paragraph [ref=f8e417]: If , does divide ?
+                          - generic [ref=f8e441] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f8e442]: Yes, , and is an integer because is an integer and sums and products of integers are integers.
+                        - listitem [ref=f8e513]:
+                          - paragraph [ref=f8e514]: If , does divide ?
+                        - listitem [ref=f8e538]:
+                          - paragraph [ref=f8e539]: Fill in the blanks in the following proof that for all integers and , if then .
+                          - paragraph [ref=f8e567]:
+                            - strong [ref=f8e568]: "Proof:"
+                            - text: Suppose and are any integers such that . By definition of divisibility, there exists an integer such that . By substitution,
+                          - paragraph [ref=f8e633]: Let . Then is an integer because , and both and are integers. Thus, by substitution, , where is an integer, and so by definition of divisibility, , as was to be shown.
+                          - generic [ref=f8e706] [cursor=pointer]:
+                            - generic: Answer
+                            - list [ref=f8e707]:
+                              - listitem [ref=f8e708]:
+                                - generic: (a)
+                                - paragraph [ref=f8e709]
+                              - listitem [ref=f8e717]:
+                                - generic: (b)
+                                - paragraph [ref=f8e718]
+                              - listitem [ref=f8e728]:
+                                - generic: (c)
+                                - paragraph [ref=f8e729]
+                              - listitem [ref=f8e736]:
+                                - generic: (d)
+                                - paragraph [ref=f8e737]
+                      - generic "instructions" [ref=f8e748]:
+                        - paragraph [ref=f8e749]:
+                          - text: Prove statements
+                          - link "15" [ref=f8e750] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: and
+                          - link "16" [ref=f8e751] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: directly from the definition of divisibility.
+                      - list "short answer questions" [ref=f8e752]:
+                        - listitem [ref=f8e753]:
+                          - paragraph [ref=f8e754]: For all integers , , and , if and then .
+                          - generic [ref=f8e795] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f8e796]:
+                              - text: "Proof: Suppose , , and are any integers such that and ."
+                              - emphasis [ref=f8e826]: "[We must show that"
+                              - text: .
+                              - emphasis [ref=f8e838]: "]"
+                              - text: By definition of divides, and for some integers and . Then
+                            - paragraph [ref=f8e867]:
+                              - text: Let . Then is an integer (being a sum of integers), and thus where is an integer. By definition of divides, then,
+                              - emphasis [ref=f8e909]: "[as was to be shown]."
+                        - listitem [ref=f8e910]:
+                          - paragraph [ref=f8e911]: For all integers , , and , if and then .
+                          - generic [ref=f8e952] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f8e953]:
+                              - emphasis [ref=f8e954]: "Hint:"
+                              - text: The conclusion to be shown is that a certain quantity is divisible by . To show this, you need to show that the quantity equals times some integer.
+                        - listitem [ref=f8e965]:
+                          - paragraph [ref=f8e966]: For all integers , , c, and , if and then .
+                        - listitem [ref=f8e1006]:
+                          - paragraph [ref=f8e1007]: "Consider the following statement: The negative of any multiple of is a multiple of ."
+                          - list [ref=f8e1018]:
+                            - listitem [ref=f8e1019]:
+                              - paragraph [ref=f8e1020]: Write the statement formally using a quantifier and a variable.
+                              - generic [ref=f8e1021] [cursor=pointer]:
+                                - generic: Answer
+                                - paragraph [ref=f8e1022]: integers if is a multiple of then is a multiple of .
+                            - listitem [ref=f8e1054]:
+                              - paragraph [ref=f8e1055]: Determine whether the statement is true or false and justify your answer.
+                              - generic [ref=f8e1056] [cursor=pointer]:
+                                - generic: Answer
+                                - paragraph [ref=f8e1057]:
+                                  - text: "The statement is true. Proof: Suppose is any integer that is a multiple of ."
+                                  - emphasis [ref=f8e1068]: "[We must show that"
+                                  - emphasis [ref=f8e1075]: is a multiple of
+                                  - text: .
+                                  - emphasis [ref=f8e1081]: "]"
+                                  - text: By definition of multiple, for some integer . Then
+                                - paragraph [ref=f8e1095]:
+                                  - text: Now is an integer because is. Hence, by definition of multiple, is a multiple of
+                                  - emphasis [ref=f8e1118]: "[as was to be shown]"
+                                  - text: .
+                        - listitem [ref=f8e1119]:
+                          - paragraph [ref=f8e1120]: "Show that the following statement is false: For all integers and , if then ."
+                          - generic [ref=f8e1153] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f8e1154]:
+                              - text: "Counterexample: Let and . Then , and so because . On the other hand, , and because is not an integer. Thus ."
+                              - emphasis [ref=f8e1244]: "[So the hypothesis of the statement is true and its conclusion is false.]"
+                      - generic "instructions" [ref=f8e1245]:
+                        - paragraph [ref=f8e1246]:
+                          - text: For each statement in
+                          - link "20" [ref=f8e1247] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "21" [ref=f8e1248] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "22" [ref=f8e1249] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "23" [ref=f8e1250] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "24" [ref=f8e1251] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "25" [ref=f8e1252] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "26" [ref=f8e1253] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "27" [ref=f8e1254] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "28" [ref=f8e1255] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "29" [ref=f8e1256] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "30" [ref=f8e1257] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ", and"
+                          - link "31" [ref=f8e1258] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ", determine whether the statement is true or false. Prove the statement directly from the definitions if it is true, and give a counterexample if it is false."
+                      - list "short answer questions" [ref=f8e1259]:
+                        - listitem [ref=f8e1260]:
+                          - paragraph [ref=f8e1261]: The sum of any three consecutive integers is divisible by .
+                          - generic [ref=f8e1267] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f8e1268]:
+                              - emphasis [ref=f8e1269]: "Hint:"
+                              - text: The consecutive integers can be conveniently represented as , , and or as , , , where is an integer.
+                        - listitem [ref=f8e1313]:
+                          - paragraph [ref=f8e1314]: The product of any two even integers is a multiple of .
+                        - listitem [ref=f8e1320]:
+                          - paragraph [ref=f8e1321]: A necessary condition for an integer to be divisible by is that it be divisible by .
+                          - generic [ref=f8e1332] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f8e1333]:
+                              - emphasis [ref=f8e1334]: "Hint:"
+                              - text: The given statement can be rewritten formally as “ integer. , if is divisible by then is divisible by .” This statement is true.
+                        - listitem [ref=f8e1365]:
+                          - paragraph [ref=f8e1366]: A sufficient condition for an integer to be divisible by is that it be divisible by .
+                        - listitem [ref=f8e1378]:
+                          - paragraph [ref=f8e1379]: For all integers , , and , if and then .
+                          - generic [ref=f8e1422] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f8e1423]:
+                              - text: "The statement is true. Proof: Suppose , , and are any integers such that and ."
+                              - emphasis [ref=f8e1453]: "[We must show that"
+                              - text: .
+                              - emphasis [ref=f8e1467]: "]"
+                              - text: By definition of divisibility, we know that and for some integers and . It follows that . Let . Then is an integer because it is a difference of products of integers. Hence , where is an integer, and so by definition of divisibility
+                              - emphasis [ref=f8e1609]: "[as was to be shown]"
+                              - text: .
+                        - listitem [ref=f8e1610]:
+                          - paragraph [ref=f8e1611]: For all integers , , and , if is a factor of and is a factor of then is a factor of .
+                          - generic [ref=f8e1658] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f8e1659]: "The statement is false. Counterexample: Let , , and . Then is a factor of because and is a factor of because , but and is not a factor of because for any integer since ."
+                        - listitem [ref=f8e1769]:
+                          - paragraph [ref=f8e1770]: For all integers , , and , if then and .
+                          - generic [ref=f8e1808] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f8e1809]:
+                              - emphasis [ref=f8e1810]: "Hint:"
+                              - text: The statement is true.
+                        - listitem [ref=f8e1811]:
+                          - paragraph [ref=f8e1812]: For all integers , , and , if then or .
+                          - generic [ref=f8e1853] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f8e1854]:
+                              - emphasis [ref=f8e1855]: "Hint:"
+                              - text: The statement is false.
+                        - listitem [ref=f8e1856]:
+                          - paragraph [ref=f8e1857]: For all integers , , and , if then or .
+                        - listitem [ref=f8e1896]:
+                          - paragraph [ref=f8e1897]: For all integers and , if then .
+                        - listitem [ref=f8e1925]:
+                          - paragraph [ref=f8e1926]: For all integers and , if and then .
+                        - listitem [ref=f8e1960]:
+                          - paragraph [ref=f8e1961]: For all integers and , if then or .
+                        - listitem [ref=f8e1998]:
+                          - paragraph [ref=f8e1999]: A fast-food chain has a contest in which a card with numbers on it is given to each customer who makes a purchase. If some of the numbers on the card add up to , then the customer wins . A certain customer receives a card containing the numbers
+                          - paragraph [ref=f8e2065]: Will the customer win ? Why or why not?
+                          - generic [ref=f8e2076] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f8e2077]: No. Each of these numbers is divisible by , and so their sum is also divisible by . But is not divisible by . Thus the sum cannot equal .
+                        - listitem [ref=f8e2110]:
+                          - paragraph [ref=f8e2111]: Is it possible to have a combination of nickels, dimes, and quarters that add up to ? Explain.
+                        - listitem [ref=f8e2123]:
+                          - paragraph [ref=f8e2124]: Consider a string consisting of ’s, ’s, and ’s where the number of ’s is three times the number of ’s and the number of ’s is five times the number of ’s. Prove that the length of the string is divisible by .
+                        - listitem [ref=f8e2165]:
+                          - paragraph [ref=f8e2166]:
+                            - text: Two athletes run a circular track at a steady pace so that the first completes one round in
+                            - generic [ref=f8e2167]: minutes
+                            - text: and the second in
+                            - generic [ref=f8e2172]: minutes
+                            - text: . If they both start from the same spot at 4 p.m., when will be the first time they return to the start together?
+                        - listitem [ref=f8e2178]:
+                          - paragraph [ref=f8e2179]:
+                            - text: It can be shown (see
+                            - link "exercises 44" [ref=f8e2180] [cursor=pointer]:
+                              - /url: javascript://
+                            - text: ","
+                            - link "45" [ref=f8e2181] [cursor=pointer]:
+                              - /url: javascript://
+                            - text: ","
+                            - link "46" [ref=f8e2182] [cursor=pointer]:
+                              - /url: javascript://
+                            - text: ","
+                            - link "47" [ref=f8e2183] [cursor=pointer]:
+                              - /url: javascript://
+                            - text: ", and"
+                            - link "48" [ref=f8e2184] [cursor=pointer]:
+                              - /url: javascript://
+                            - text: ) that an integer is divisible by if, and only if, the sum of its digits is divisible by ; an integer is divisible by if, and only if, the sum of its digits is divisible by ; an integer is divisible by if, and only if, its right-most digit is a or a ; and an integer is divisible by if, and only if, the number formed by its right-most two digits is divisible by . Check the following integers for divisibility by , , , and .
+                          - list [ref=f8e2250]:
+                            - listitem [ref=f8e2251]:
+                              - paragraph [ref=f8e2252]
+                              - generic [ref=f8e2276] [cursor=pointer]:
+                                - generic: Answer
+                                - paragraph [ref=f8e2277]: The sum of the digits is , which is divisible by . Therefore, is divisible by and hence also divisible by (by transitivity of divisibility). Because the rightmost digit is , then is divisible by . And because the two rightmost digits are 25, which is not divisible by , then is not divisible by .
+                            - listitem [ref=f8e2388]:
+                              - paragraph [ref=f8e2389]
+                            - listitem [ref=f8e2412]:
+                              - paragraph [ref=f8e2413]
+                            - listitem [ref=f8e2437]:
+                              - paragraph [ref=f8e2438]
+                        - listitem [ref=f8e2461]:
+                          - paragraph [ref=f8e2462]: Use the unique factorization theorem to write the following integers in standard factored form.
+                          - list [ref=f8e2463]:
+                            - listitem [ref=f8e2464]:
+                              - paragraph [ref=f8e2465]
+                              - generic [ref=f8e2475] [cursor=pointer]:
+                                - generic: Answer
+                                - paragraph [ref=f8e2476]
+                            - listitem [ref=f8e2496]:
+                              - paragraph [ref=f8e2497]
+                            - listitem [ref=f8e2507]:
+                              - paragraph [ref=f8e2508]
+                        - listitem [ref=f8e2518]:
+                          - paragraph [ref=f8e2519]: Let .
+                          - list [ref=f8e2532]:
+                            - listitem [ref=f8e2533]:
+                              - paragraph [ref=f8e2534]: Write the prime factorization for .
+                              - generic [ref=f8e2540] [cursor=pointer]:
+                                - generic: Answer
+                                - paragraph [ref=f8e2541]
+                            - listitem [ref=f8e2563]:
+                              - paragraph [ref=f8e2564]: Write the prime factorization for .
+                            - listitem [ref=f8e2571]:
+                              - paragraph [ref=f8e2572]: Is divisible by ? Explain.
+                              - generic [ref=f8e2585] [cursor=pointer]:
+                                - generic: Answer
+                                - paragraph [ref=f8e2586]:
+                                  - emphasis [ref=f8e2587]: "Hint:"
+                                  - text: The answer is no. Note that each factor of is comprised of a factor of and a factor of .
+                            - listitem [ref=f8e2604]:
+                              - paragraph [ref=f8e2605]: What is the least positive integer so that is a perfect square?
+                              - generic [ref=f8e2622] [cursor=pointer]:
+                                - generic: Answer
+                                - paragraph [ref=f8e2623]:
+                                  - emphasis [ref=f8e2624]: "Hint:"
+                                  - text: The answer is . Note that in order for to be a perfect square, each prime factor must be raised to an even power.
+                        - listitem [ref=f8e2642]:
+                          - paragraph [ref=f8e2643]: Suppose that in standard factored form , where is a positive integer; are prime numbers; and are positive integers.
+                          - list [ref=f8e2706]:
+                            - listitem [ref=f8e2707]:
+                              - paragraph [ref=f8e2708]: What is the standard factored form for ?
+                            - listitem [ref=f8e2715]:
+                              - paragraph [ref=f8e2716]: Find the least positive integer such that is a perfect cube (that is, it equals an integer to the third power). Write the resulting product as a perfect cube.
+                        - listitem [ref=f8e2741]:
+                          - list [ref=f8e2742]:
+                            - listitem [ref=f8e2743]:
+                              - paragraph [ref=f8e2744]: If and are integers and , does ? does ? Explain.
+                              - generic [ref=f8e2783] [cursor=pointer]:
+                                - generic: Answer
+                                - paragraph [ref=f8e2784]: Because , the unique factorization theorem guarantees that the standard factored forms of and must be the same. Thus contains the factors . But since neither nor divides , the factors must all occur in , and hence . Similarly, contains the factors , and since is not a factor of , the factors must occur in . So .
+                            - listitem [ref=f8e2916]:
+                              - paragraph [ref=f8e2917]: If and are integers and , does ? does ? Explain.
+                        - listitem [ref=f8e2953]:
+                          - paragraph [ref=f8e2954]:
+                            - text: How many zeros are at the end of ? Explain how you can answer this question without actually computing the number. (
+                            - emphasis [ref=f8e2967]: "Hint:"
+                            - text: .)
+                          - generic [ref=f8e2978] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f8e2979]:
+                              - emphasis [ref=f8e2980]: "Hint:"
+                              - text: . How many factors of does this number contain?
+                        - listitem [ref=f8e3042]:
+                          - paragraph [ref=f8e3043]: If is an integer and , then is the product of and every other positive integer that is less than . For example, .
+                          - list [ref=f8e3088]:
+                            - listitem [ref=f8e3089]:
+                              - paragraph [ref=f8e3090]: Write in standard factored form.
+                              - generic [ref=f8e3097] [cursor=pointer]:
+                                - generic: Answer
+                                - paragraph [ref=f8e3098]
+                            - listitem [ref=f8e3141]:
+                              - paragraph [ref=f8e3142]: Write in standard factored form.
+                            - listitem [ref=f8e3150]:
+                              - paragraph [ref=f8e3151]: Without computing the value of determine how many zeros are at the end of this number when it is written in decimal form. Justify your answer.
+                        - listitem [ref=f8e3163]:
+                          - paragraph [ref=f8e3164]: At a certain university of the mathematics students and of the computer science students have taken a discrete mathematics course. The number of mathematics students who have taken the course equals the number of computer science students who have taken the course. If there are at least mathematics students at the university, what are the least possible number of mathematics students and the least possible number of computer science students at the university?
+                          - generic [ref=f8e3191] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f8e3192]:
+                              - emphasis [ref=f8e3193]: "Hint:"
+                              - text: There are mathematics students and computer science students at the university.
+                        - generic [ref=f8e3210]:
+                          - paragraph [ref=f8e3211]:
+                            - text: "Definition: Given any nonnegative integer , the"
+                            - strong [ref=f8e3217]: decimal representation
+                            - text: of is an expression of the form
+                          - paragraph [ref=f8e3249]:
+                            - text: where is a nonnegative integer, (called the
+                            - strong [ref=f8e3275]: decimal digits
+                            - text: of ) are integers from to inclusive, unless and , and
+                          - paragraph [ref=f8e3369]: (For example, .)
+                        - listitem [ref=f8e3401]:
+                          - paragraph [ref=f8e3402]:
+                            - text: Prove that if is any nonnegative integer whose decimal representation ends in , then . (
+                            - emphasis [ref=f8e3420]: "Hint:"
+                            - text: If the decimal representation of a nonnegative integer ends in , then for some integer .)
+                          - generic [ref=f8e3451] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f8e3452]: "Proof: Suppose is a nonnegative integer whose decimal representation ends in . Then for some integer . Factoring out a yields , and is an integer since is an integer. Hence is divisible by , which is what was to be shown."
+                        - listitem [ref=f8e3529]:
+                          - paragraph [ref=f8e3530]: Prove that if is any nonnegative integer whose decimal representation ends in , then .
+                        - listitem [ref=f8e3548]:
+                          - paragraph [ref=f8e3549]:
+                            - text: Prove that if the decimal representation of a nonnegative integer ends in and if , then . (
+                            - emphasis [ref=f8e3589]: "Hint:"
+                            - text: If the decimal representation of a nonnegative integer ends in , then there is an integer such that .)
+                        - listitem [ref=f8e3631]:
+                          - paragraph [ref=f8e3632]: Observe that
+                          - paragraph [ref=f8e3888]:
+                            - text: Since the sum of the digits of is divisible by , can be written as a sum of two integers each of which is divisible by . It follows from
+                            - link "exercise 15" [ref=f8e3917] [cursor=pointer]:
+                              - /url: javascript://
+                            - text: that is divisible by .
+                          - paragraph [ref=f8e3932]: Generalize the argument given in this example to any nonnegative integer . In other words, prove that for any nonnegative integer , if the sum of the digits of is divisible by , then is divisible by .
+                          - generic [ref=f8e3963] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f8e3964]:
+                              - emphasis [ref=f8e3965]: "Hint:"
+                              - text: You may take it as a fact that for any positive integer ,
+                        - listitem [ref=f8e3971]:
+                          - paragraph [ref=f8e3972]: Prove that for any nonnegative integer , if the sum of the digits of is divisible by , then is divisible by .
+                        - listitem [ref=f8e4003]:
+                          - paragraph [ref=f8e4004]: Given a positive integer written in decimal form, the alternating sum of the digits of is obtained by starting with the right-most digit, subtracting the digit immediately to its left, adding the next digit to the left, subtracting the next digit, and so forth. For example, the alternating sum of the digits of is . Justify the fact that for any nonnegative integer , if the alternating sum of the digits of is divisible by , then is divisible by .
+                        - listitem [ref=f8e4077]:
+                          - paragraph [ref=f8e4078]: The integer has the form , where , , and are integers from through . Consider all six-digit integers of this form. Which prime numbers divide every one of these integers? Prove your answer.
+              - generic [ref=f8e4128]:
+                - slider [ref=f8e4129]: "30"
+                - generic [ref=f8e4130] [cursor=pointer]
+        - menu [ref=f1e123]:
+          - navigation "Applications Menu" [ref=f1e124]:
+            - generic [ref=f1e125]:
+              - menuitem "My Notes, button" [ref=f1e126] [cursor=pointer]:
+                - img "My Notes" [ref=f1e127]
+              - menuitem "Full Book, button" [ref=f1e128] [cursor=pointer]:
+                - img "Full Book" [ref=f1e129]
+              - menuitem "ReadSpeaker, button" [ref=f1e130] [cursor=pointer]:
+                - img "ReadSpeaker" [ref=f1e131]
+              - menuitem "Glossary, button" [ref=f1e132] [cursor=pointer]:
+                - img "Glossary" [ref=f1e133]
+              - menuitem "Flashcards, button" [ref=f1e134] [cursor=pointer]:
+                - img "Flashcards" [ref=f1e135]
+  - text: Your computer is connected to the internet. Reconnect

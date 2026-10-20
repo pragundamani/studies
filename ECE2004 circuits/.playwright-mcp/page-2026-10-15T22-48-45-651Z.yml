@@ -1,0 +1,103 @@
+- generic [active] [ref=f7e1]:
+  - generic [ref=f7e2]:
+    - banner [ref=f7e3]:
+      - navigation "Main" [ref=f7e4]:
+        - generic [ref=f7e5]:
+          - link "skip to main content" [ref=f7e6] [cursor=pointer]:
+            - /url: javascript:void(0);
+          - generic:
+            - generic [ref=f7e11]:
+              - generic [ref=f7e13]:
+                - link "My Home" [ref=f7e15] [cursor=pointer]:
+                  - /url: /d2l/lp/ouHome/defaultHome.d2l
+                  - img "My Home" [ref=f7e18]
+                - link "ECE2004 Lecture Sections A/B/C" [ref=f7e22] [cursor=pointer]:
+                  - /url: /d2l/home/621298
+              - generic [ref=f7e23]:
+                - button "Select a course..." [ref=f7e26] [cursor=pointer]
+                - generic [ref=f7e32]:
+                  - button "Message alerts" [ref=f7e35] [cursor=pointer]
+                  - button "Subscription alerts" [ref=f7e40] [cursor=pointer]
+                  - button "Update alerts" [ref=f7e45] [cursor=pointer]
+                - button "Pragun Damani, avatar" [ref=f7e52] [cursor=pointer]:
+                  - generic [ref=f7e54]:
+                    - generic [ref=f7e56]: PD
+                    - generic [ref=f7e57]: Pragun Damani
+                - button "Admin Tools" [ref=f7e60] [cursor=pointer]
+            - list [ref=f7e67]:
+              - listitem [ref=f7e68]:
+                - link "Content" [ref=f7e69] [cursor=pointer]:
+                  - /url: /d2l/le/lessons/621298
+              - listitem [ref=f7e70]:
+                - link "Announcements" [ref=f7e71] [cursor=pointer]:
+                  - /url: /d2l/lms/news/main.d2l?ou=621298
+              - listitem [ref=f7e72]:
+                - link "Assignments" [ref=f7e73] [cursor=pointer]:
+                  - /url: /d2l/lms/dropbox/dropbox.d2l?ou=621298
+              - listitem [ref=f7e74]:
+                - link "Discussions" [ref=f7e75] [cursor=pointer]:
+                  - /url: /d2l/le/621298/discussions/List
+              - listitem [ref=f7e76]:
+                - link "Quizzes" [ref=f7e77] [cursor=pointer]:
+                  - /url: /d2l/lms/quizzing/quizzing.d2l?ou=621298
+              - listitem [ref=f7e78]:
+                - link "Grades" [ref=f7e79] [cursor=pointer]:
+                  - /url: /d2l/lms/grades/index.d2l?ou=621298
+              - listitem [ref=f7e80]:
+                - link "Zoom" [ref=f7e81] [cursor=pointer]:
+                  - /url: /d2l/common/dialogs/quickLink/quickLink.d2l?ou=621298&type=lti&rcode=438126FB-CB7E-4012-84DC-B926D628DF2A-1844200&srcou=6606&launchFramed=1&framedName=Zoom
+              - listitem [ref=f7e82]:
+                - button "More Tools" [ref=f7e84]
+              - listitem [ref=f7e88]:
+                - button "Course Reports" [ref=f7e90]
+              - listitem [ref=f7e94]:
+                - button "Help" [ref=f7e96]
+    - main [ref=f7e100]:
+      - generic [ref=f7e101]:
+        - heading "ECE2004 Lecture Sections A/B/C" [level=1] [ref=f7e102]
+        - generic [ref=f7e105]:
+          - generic:
+            - generic [ref=f7e106]:
+              - region [ref=f7e107]:
+                - generic [ref=f7e108]:
+                  - heading "Updates" [level=2] [ref=f7e110]
+                  - button "Actions for Updates" [ref=f7e114] [cursor=pointer]
+                - iframe [ref=f7e122]:
+                  - list [ref=f8e13]:
+                    - listitem [ref=f8e14]:
+                      - link [ref=f8e16] [cursor=pointer]:
+                        - /url: https://brightspace.nyu.edu/d2l/lms/dropbox/dropbox.d2l?ou=621298
+                        - strong [ref=f8e18]: "2"
+                        - text: Assignments with Unread Feedback
+              - region [ref=f7e123]:
+                - generic [ref=f7e124]:
+                  - heading "Table of Contents" [level=2] [ref=f7e126]
+                  - button "Actions for Table of Contents" [ref=f7e130] [cursor=pointer]
+            - generic [ref=f7e160]:
+              - region [ref=f7e161]:
+                - generic [ref=f7e162]:
+                  - link [ref=f7e164] [cursor=pointer]:
+                    - /url: /d2l/le/worktodo/621298/view
+                    - heading "Work To Do" [level=2] [ref=f7e165]
+                  - button "Actions for Work To Do" [ref=f7e169] [cursor=pointer]
+                - generic [ref=f7e178]:
+                  - heading "May 14 - May 23" [level=3] [ref=f7e179]
+                  - list [ref=f7e183]
+              - region [ref=f7e185]:
+                - generic [ref=f7e186]:
+                  - link [ref=f7e188] [cursor=pointer]:
+                    - /url: /d2l/lms/news/main.d2l?ou=621298
+                    - heading "Announcements" [level=2] [ref=f7e189]
+                  - button "Actions for Announcements" [ref=f7e193] [cursor=pointer]
+                - generic [ref=f7e196]: Loading...
+              - region [ref=f7e224]:
+                - generic [ref=f7e225]:
+                  - link [ref=f7e227] [cursor=pointer]:
+                    - /url: /d2l/le/calendar/621298
+                    - heading "Calendar" [level=2] [ref=f7e228]
+                  - button "Actions for Calendar" [ref=f7e232] [cursor=pointer]
+                - generic [ref=f7e235]: Loading...
+  - contentinfo [ref=f7e263]:
+    - paragraph [ref=f7e265]:
+      - text: Powered by
+      - generic [ref=f7e266]: D2L Brightspace

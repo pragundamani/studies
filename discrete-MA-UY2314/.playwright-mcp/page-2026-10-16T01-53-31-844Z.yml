@@ -1,0 +1,83 @@
+- generic [active] [ref=f1e1]:
+  - status [ref=f1e2]
+  - link "Skip to content" [ref=f1e3] [cursor=pointer]:
+    - /url: "#main-content"
+  - navigation [ref=f1e4]:
+    - generic [ref=f1e5]:
+      - generic [ref=f1e6]:
+        - 'link "Gradescope: Back to Home" [ref=f1e8] [cursor=pointer]':
+          - /url: /
+          - img "Gradescope" [ref=f1e9]
+        - button "toggle sidebar" [ref=f1e10] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f1e11]: 
+          - generic [aria-hidden] [ref=f1e12]: 
+          - generic [aria-hidden] [ref=f1e13]: 
+      - heading "Your Courses" [level=2] [ref=f1e14]
+      - paragraph [ref=f1e16]: Welcome to Gradescope! Click on one of your courses to the right, or on the Account menu below.
+      - text:   
+    - 'button "Account: toggle more options" [ref=f1e17] [cursor=pointer]':
+      - generic [ref=f1e20]:
+        - generic [aria-hidden] [ref=f1e21]: 
+        - generic [aria-hidden] [ref=f1e22]: 
+      - heading "Account" [level=2] [ref=f1e24]
+      - img "toggle account menu" [ref=f1e26]: 
+  - main [ref=f1e28]:
+    - generic [ref=f1e31]:
+      - heading "Course Dashboard" [level=1] [ref=f1e32]
+      - generic [ref=f1e33]:
+        - heading [level=2]
+        - generic [ref=f1e34]:
+          - generic [ref=f1e35]: Fall 2026
+          - generic [ref=f1e36]:
+            - link "CS-UY-1134 Fall 2026 Data Structures and Algorithms 25 assignments" [ref=f1e37] [cursor=pointer]:
+              - /url: /courses/1384732
+              - heading "CS-UY-1134 Fall 2026" [level=3] [ref=f1e38]
+              - generic "Data Structures and Algorithms" [ref=f1e39]
+              - generic [ref=f1e40]: 25 assignments
+            - link "MA-UY 2034 Fall 2026 Differential Equations with Linear Algebra 2 assignments" [ref=f1e42] [cursor=pointer]:
+              - /url: /courses/1389287
+              - heading "MA-UY 2034 Fall 2026" [level=3] [ref=f1e43]
+              - generic "Differential Equations with Linear Algebra" [ref=f1e44]
+              - generic [ref=f1e45]: 2 assignments
+            - link "MA-UY 2314 Discrete Mathematics, Fall 2026 12 assignments" [ref=f1e47] [cursor=pointer]:
+              - /url: /courses/1377669
+              - heading "MA-UY 2314" [level=3] [ref=f1e48]
+              - generic "Discrete Mathematics, Fall 2026" [ref=f1e49]
+              - generic [ref=f1e50]: 12 assignments
+            - link "PH-UY 2023 ELECTRICITY, MAGNETISM, & FLUIDS 56 assignments" [ref=f1e52] [cursor=pointer]:
+              - /url: /courses/1365119
+              - heading "PH-UY 2023" [level=3] [ref=f1e53]
+              - generic "ELECTRICITY, MAGNETISM, & FLUIDS" [ref=f1e54]
+              - generic [ref=f1e55]: 56 assignments
+            - button [ref=f1e57] [cursor=pointer]:
+              - generic [ref=f1e58]:
+                - generic [aria-hidden] [ref=f1e59]: 
+                - text: Add a course
+          - generic [ref=f1e60]: Spring 2026
+          - generic [ref=f1e61]:
+            - link "CS2124 26S Object Oriented Programming 3 assignments" [ref=f1e62] [cursor=pointer]:
+              - /url: /courses/1276380
+              - heading "CS2124 26S" [level=3] [ref=f1e63]
+              - generic "Object Oriented Programming" [ref=f1e64]
+              - generic [ref=f1e65]: 3 assignments
+            - link "MA-UY 1124 Calculus II, Spring 2026 9 assignments" [ref=f1e67] [cursor=pointer]:
+              - /url: /courses/1231045
+              - heading "MA-UY 1124" [level=3] [ref=f1e68]
+              - generic "Calculus II, Spring 2026" [ref=f1e69]
+              - generic [ref=f1e70]: 9 assignments
+            - link "PH-UY 1013 MECHANICS 15 assignments" [ref=f1e72] [cursor=pointer]:
+              - /url: /courses/1224278
+              - heading "PH-UY 1013" [level=3] [ref=f1e73]
+              - generic "MECHANICS" [ref=f1e74]
+              - generic [ref=f1e75]: 15 assignments
+          - button "See older courses" [ref=f1e77] [cursor=pointer]:
+            - text: See older courses
+            - generic [aria-hidden] [ref=f1e78]: 
+        - text: 
+    - toolbar "action bar" [ref=f1e79]:
+      - list [ref=f1e80]:
+        - listitem [ref=f1e81]:
+          - button "Add Course" [ref=f1e82] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f1e83]: 
+            - text: Add Course
+  - text:   

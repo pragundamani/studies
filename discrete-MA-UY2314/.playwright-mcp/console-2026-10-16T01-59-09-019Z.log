@@ -1,0 +1,24 @@
+[    1388ms] [WARNING] Unsatisfied version 17.0.2 from mtevo-ui of shared singleton module react (required ~0.14.0 || ^15.0.0-0 || ^15.4.0-0 || ^16.0.0-0) @ https://ng.cengage.com/static/nb/ui/evo/bundle.min.5dafb3b8f57631cedf3c.js:0
+[    1388ms] [WARNING] Unsatisfied version 17.0.2 from mtevo-ui of shared singleton module react (required ^15.5.4) @ https://ng.cengage.com/static/nb/ui/evo/bundle.min.5dafb3b8f57631cedf3c.js:0
+[    1388ms] [WARNING] Unsatisfied version 17.0.2 from mtevo-ui of shared singleton module react (required ~0.14.0 || ^15.0.0 || ^16.0.0) @ https://ng.cengage.com/static/nb/ui/evo/bundle.min.5dafb3b8f57631cedf3c.js:0
+[    2205ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location:0
+[    2205ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://cdn.cookielaw.org/scripttemplates/202604.2.0/otBannerSdk.js:0
+[    2930ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://cdn.amplitude.com/libs/analytics-browser-gtm-wrapper-2.36.9.min.js.br:0
+[    3105ms] [LOG] IPM loaded package v0.19.0-SNAPSHOT @ https://ng.cengage.com/services/ipm/lib.js:1
+[    3226ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://zn71fwlbg6f6nsujt-cengage.siteintercept.qualtrics.com/WRSiteInterceptEngine/?Q_ZID=ZN_71fwlBg6F6NsuJT&Q_LOC=https%3A%2F%2Fng.cengage.com%2Fstatic%2Fnb%2Fui%2Fevo%2Findex.html%3FsnapshotId%3D1137285%26id%3D464517720%26eISBN%3D9780357035276&t=1792115952225:0
+[    3226ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://ng.cengage.com/services/ipm/bff/prebind:0
+[    3236ms] [ERROR] Error: 400 
+<!doctype html><html lang="en"><head><title>HTTP Status 400 – Bad Request</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 400 – Bad Request</h1></body></html>
+    at https://ng.cengage.com/services/ipm/lib.js:2:1228852 @ https://ng.cengage.com/services/ipm/lib.js:1
+[    3443ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://ng.cengage.com/static/nb/ui/evo/client/src/images/favicon.png:0
+[    4510ms] [INFO] Current Sidebar versions @ https://ng.cengage.com/static/nb/ui/evo/8350c0558f992602903c.js:1
+[    4510ms] [INFO] Universal Sidebar UI: universal-sidebar-ui-1.19.0-SNAPSHOT @ https://ng.cengage.com/static/nb/ui/evo/8350c0558f992602903c.js:1
+[    4510ms] [INFO] Universal Sidebar BFF: 2.7.1 @ https://ng.cengage.com/static/nb/ui/evo/8350c0558f992602903c.js:1
+[    5610ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://ng.cengage.com/progressapp/service/gradebook/1137285:0
+[    6052ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'. @ :0
+[    6052ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'run-ad-auction'. @ :0
+[    6052ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'join-ad-interest-group'. @ :0
+[    6052ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-redemption'. @ :0
+[    6052ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-issuance'. @ :0
+[    6052ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'private-aggregation'. @ :0
+[    6052ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'attribution-reporting'. @ :0

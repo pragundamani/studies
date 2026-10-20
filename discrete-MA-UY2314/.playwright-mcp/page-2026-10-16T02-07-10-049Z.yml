@@ -1,0 +1,605 @@
+- generic [ref=e1]:
+  - generic [ref=e5]:
+    - generic [ref=e9]:
+      - generic [ref=e10]:
+        - paragraph [ref=e15]: Pragun
+        - button "Collapse sidebar" [expanded] [ref=e18] [cursor=pointer]
+      - navigation [ref=e22]:
+        - generic [ref=e23]:
+          - list "Main Menu" [ref=e25]:
+            - listitem [ref=e26]:
+              - link "HOME" [ref=e28] [cursor=pointer]:
+                - /url: https://www.cengage.com/dashboard/home
+                - generic [aria-hidden] [ref=e31]: HOME
+            - listitem [ref=e32]:
+              - link "PROFILE (opens in a new tab)" [ref=e34] [cursor=pointer]:
+                - /url: https://account.cengage.com/profile/profile-data
+                - generic [aria-hidden] [ref=e37]: PROFILE
+            - listitem [ref=e38]:
+              - link "ORDERS" [ref=e40] [cursor=pointer]:
+                - /url: https://www.cengage.com/dashboard/my-orders
+                - generic [aria-hidden] [ref=e43]: ORDERS
+            - listitem [ref=e44]:
+              - link "RENTALS" [ref=e46] [cursor=pointer]:
+                - /url: https://www.cengage.com/dashboard/rentals
+                - generic [aria-hidden] [ref=e49]: RENTALS
+            - listitem [ref=e50]:
+              - button "EXPAND COURSES" [ref=e53] [cursor=pointer]:
+                - generic [ref=e54]: COURSES
+          - list "Study tools and tips" [ref=e62]:
+            - listitem [ref=e63]:
+              - link "Study Tools" [ref=e65] [cursor=pointer]:
+                - /url: https://www.cengage.com/dashboard/explore-catalog
+                - generic [aria-hidden] [ref=e68]: Study Tools
+            - listitem [ref=e69]:
+              - link "College Success Tips" [ref=e71] [cursor=pointer]:
+                - /url: https://www.cengage.com/dashboard/college-success
+                - generic [aria-hidden] [ref=e74]: College Success Tips
+            - listitem [ref=e75]:
+              - link "Career Success Tips" [ref=e77] [cursor=pointer]:
+                - /url: https://www.cengage.com/dashboard/career-center
+                - generic [aria-hidden] [ref=e80]: Career Success Tips
+          - link "Help (opens in a new tab)" [ref=e84] [cursor=pointer]:
+            - /url: https://cengageorg.my.site.com/Service/s/
+            - generic [aria-hidden] [ref=e87]: Help
+        - button "Sign Out" [ref=e89] [cursor=pointer]
+    - generic [ref=e94]:
+      - navigation "Mindtap menu" [ref=e97]:
+        - img "Cengage MindTap" [ref=e99]
+        - generic [ref=e100]:
+          - text: 
+          - button "Search this course" [ref=e101] [cursor=pointer]:
+            - generic [ref=e102]:
+              - generic [ref=e103]: 
+              - text: Search this course
+          - text:  
+          - generic [ref=e104]:
+            - generic [ref=e106]:
+              - button " Help & Info" [ref=e107] [cursor=pointer]:
+                - generic [ref=e108]:
+                  - generic [ref=e109]: 
+                  - generic [ref=e110]: Help & Info
+              - text:    
+            - text:     
+      - generic [ref=e112]:
+        - generic [ref=e115]:
+          - generic [ref=e116]:
+            - 'heading "Chapter 4: Elementary Number Theory and Methods of Proof" [level=1] [ref=e117]'
+            - 'button "Close Chapter 4: Elementary Number Theory and Methods of Proof" [ref=e118] [cursor=pointer]':
+              - generic [ref=e119]: 
+          - iframe [active] [ref=e122]:
+            - generic [ref=f1e2]:
+              - generic [ref=f1e3]:
+                - button "Chapter contents" [ref=f1e5481] [cursor=pointer]
+                - generic [ref=f1e6]:
+                  - button "Fonts menu" [ref=f1e11] [cursor=pointer]
+                  - generic "Bookmark this Page" [ref=f1e14] [cursor=pointer]:
+                    - button "Bookmark" [ref=f1e15]
+                  - button "Print" [ref=f1e18] [cursor=pointer]
+                  - button "Help" [ref=f1e19] [cursor=pointer]:
+                    - generic [ref=f1e20]: help
+                - generic:
+                  - link "Main content" [ref=f1e21] [cursor=pointer]:
+                    - /url: "#header"
+                  - button "Previous Page" [ref=f1e22] [cursor=pointer]:
+                    - generic [ref=f1e23]: 
+                  - button "Next Page" [ref=f1e24] [cursor=pointer]:
+                    - generic [ref=f1e25]: 
+                - document [ref=f1e26]:
+                  - generic [ref=f1e5484]:
+                    - heading "Exercise Set 4.5" [level=1] [ref=f1e5486]
+                    - generic "practice quiz" [ref=f1e5490]:
+                      - generic "instructions" [ref=f1e5491]:
+                        - paragraph [ref=f1e5492]:
+                          - text: For each of the values of and given in
+                          - link "1" [ref=f1e5503] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "2" [ref=f1e5504] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "3" [ref=f1e5505] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "4" [ref=f1e5506] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "5" [ref=f1e5507] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ", and"
+                          - link "6" [ref=f1e5508] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ", find integers and such that and ."
+                      - list "short answer questions" [ref=f1e5539]:
+                        - listitem [ref=f1e5540]:
+                          - paragraph [ref=f1e5541]: ","
+                          - generic [ref=f1e5558] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f1e5559]: ","
+                        - listitem [ref=f1e5574]:
+                          - paragraph [ref=f1e5575]: ","
+                        - listitem [ref=f1e5592]:
+                          - paragraph [ref=f1e5593]: ","
+                          - generic [ref=f1e5612] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f1e5613]: ","
+                        - listitem [ref=f1e5630]:
+                          - paragraph [ref=f1e5631]: ","
+                        - listitem [ref=f1e5648]:
+                          - paragraph [ref=f1e5649]: ","
+                          - generic [ref=f1e5669] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f1e5670]: ","
+                        - listitem [ref=f1e5688]:
+                          - paragraph [ref=f1e5689]: ","
+                      - generic "instructions" [ref=f1e5707]:
+                        - paragraph [ref=f1e5708]:
+                          - text: Evaluate the expressions in
+                          - link "7" [ref=f1e5709] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "8" [ref=f1e5710] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "9" [ref=f1e5711] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ", and"
+                          - link "10" [ref=f1e5712] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: .
+                      - list "short answer questions" [ref=f1e5713]:
+                        - listitem [ref=f1e5714]:
+                          - list [ref=f1e5715]:
+                            - listitem [ref=f1e5716]:
+                              - paragraph [ref=f1e5717]:
+                                - emphasis [ref=f1e5724]: div
+                              - generic [ref=f1e5730] [cursor=pointer]:
+                                - generic: Answer
+                                - paragraph [ref=f1e5731]
+                            - listitem [ref=f1e5737]:
+                              - paragraph [ref=f1e5738]:
+                                - emphasis [ref=f1e5745]: mod
+                              - generic [ref=f1e5751] [cursor=pointer]:
+                                - generic: Answer
+                                - paragraph [ref=f1e5752]
+                        - listitem [ref=f1e5758]:
+                          - list [ref=f1e5759]:
+                            - listitem [ref=f1e5760]:
+                              - paragraph [ref=f1e5761]:
+                                - emphasis [ref=f1e5768]: div
+                            - listitem [ref=f1e5774]:
+                              - paragraph [ref=f1e5775]:
+                                - emphasis [ref=f1e5782]: mod
+                        - listitem [ref=f1e5788]:
+                          - list [ref=f1e5789]:
+                            - listitem [ref=f1e5790]:
+                              - paragraph [ref=f1e5791]:
+                                - emphasis [ref=f1e5798]: div
+                            - listitem [ref=f1e5804]:
+                              - paragraph [ref=f1e5805]:
+                                - emphasis [ref=f1e5812]: mod
+                        - listitem [ref=f1e5818]:
+                          - list [ref=f1e5819]:
+                            - listitem [ref=f1e5820]:
+                              - paragraph [ref=f1e5821]:
+                                - emphasis [ref=f1e5828]: div
+                            - listitem [ref=f1e5834]:
+                              - paragraph [ref=f1e5835]:
+                                - emphasis [ref=f1e5842]: mod
+                        - listitem [ref=f1e5848]:
+                          - paragraph [ref=f1e5849]:
+                            - text: Check the correctness of
+                            - link "formula (4.5.1)" [ref=f1e5850] [cursor=pointer]:
+                              - /url: javascript://
+                            - text: given in
+                            - link "Example 4.5.3" [ref=f1e5851] [cursor=pointer]:
+                              - /url: javascript://
+                            - text: for the following values of and .
+                          - list [ref=f1e5865]:
+                            - listitem [ref=f1e5866]:
+                              - paragraph [ref=f1e5867]: (Saturday) and
+                              - generic [ref=f1e5887] [cursor=pointer]:
+                                - generic: Answer
+                                - paragraph [ref=f1e5888]:
+                                  - text: When today is Saturday,
+                                  - generic [ref=f1e5889]: days
+                                  - text: from today is two weeks (which is Saturday) plus one day (which is Sunday). Hence
+                                  - emphasis [ref=f1e5895]: DayN
+                                  - text: should be . According to the formula, when today is Saturday, , and so when ,
+                            - listitem [ref=f1e5920]:
+                              - paragraph [ref=f1e5921]: (Sunday) and
+                            - listitem [ref=f1e5939]:
+                              - paragraph [ref=f1e5940]: (Thursday) and
+                        - listitem [ref=f1e5960]:
+                          - paragraph [ref=f1e5961]:
+                            - text: Justify
+                            - link "formula (4.5.1)" [ref=f1e5967] [cursor=pointer]:
+                              - /url: javascript://
+                            - text: for general values of and .
+                        - listitem [ref=f1e5981]:
+                          - paragraph [ref=f1e5982]:
+                            - text: On a Monday a friend says he will meet you again in
+                            - generic [ref=f1e5983]: days
+                            - text: . What day of the week will that be?
+                          - generic [ref=f1e5989] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f1e5990]:
+                              - emphasis [ref=f1e5991]: "Solution 1:"
+                              - text: . Hence the answer is two days after Monday, which is Wednesday.
+                            - paragraph [ref=f1e6004]:
+                              - emphasis [ref=f1e6005]: "Solution 2:"
+                              - text: By the formula, the answer is , which is Wednesday.
+                        - listitem [ref=f1e6033]:
+                          - paragraph [ref=f1e6034]:
+                            - text: If today is Tuesday, what day of the week will it be
+                            - generic [ref=f1e6035]: days
+                            - text: from today?
+                          - generic [ref=f1e6044] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f1e6045]:
+                              - emphasis [ref=f1e6046]: "Hint:"
+                              - text: There are two ways to solve this problem. One is to find that and note that if today is Tuesday, then
+                              - generic [ref=f1e6065]: days
+                              - text: from today is
+                              - generic [ref=f1e6074]: weeks
+                              - text: plus
+                              - generic [ref=f1e6081]: days
+                              - text: from today. The other way is to use the formula , with (Tuesday) and .
+                        - listitem [ref=f1e6131]:
+                          - paragraph [ref=f1e6132]: January 1, 2000, was a Saturday, and 2000 was a leap year. What day of the week will January 1, 2050, be?
+                        - listitem [ref=f1e6133]:
+                          - paragraph [ref=f1e6134]: Suppose is a positive and is any integer. If , what is the remainder obtained when the quotient-remainder theorem is applied to with divisor ?
+                          - generic [ref=f1e6162] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f1e6163]: Because , for some integer . Thus the remainder is .
+                        - listitem [ref=f1e6192]:
+                          - paragraph [ref=f1e6193]: "Prove directly from the definitions that for every integer , is odd. Use division into two cases: is even and is odd."
+                        - listitem [ref=f1e6219]:
+                          - list [ref=f1e6220]:
+                            - listitem [ref=f1e6221]:
+                              - paragraph [ref=f1e6222]: Prove that the product of any two consecutive integers is even.
+                            - listitem [ref=f1e6223]:
+                              - paragraph [ref=f1e6224]:
+                                - text: The result of
+                                - link "part (a)" [ref=f1e6225] [cursor=pointer]:
+                                  - /url: javascript://
+                                - text: suggests that the second approach in the discussion of
+                                - link "Example 4.5.7" [ref=f1e6226] [cursor=pointer]:
+                                  - /url: javascript://
+                                - text: might be possible after all. Write a new proof of
+                                - link "Theorem 4.5.3" [ref=f1e6227] [cursor=pointer]:
+                                  - /url: javascript://
+                                - text: based on this observation.
+                              - generic [ref=f1e6228] [cursor=pointer]:
+                                - generic: Answer
+                                - list [ref=f1e6229]:
+                                  - listitem [ref=f1e6230]:
+                                    - generic: b.
+                                    - paragraph [ref=f1e6231]:
+                                      - text: "Proof: Suppose is any odd integer. By definition of odd, for some integer . Then . By the result of"
+                                      - link "part (a)" [ref=f1e6298]:
+                                        - /url: javascript://
+                                      - text: ", the product is even, so for some integer . Then, by substitution, ."
+                        - listitem [ref=f1e6345]:
+                          - paragraph [ref=f1e6346]: "Prove directly from the definitions that for all integers and , if and have the same parity, then is even. Divide into two cases: and are both even and and are both odd."
+                        - listitem [ref=f1e6396]:
+                          - paragraph [ref=f1e6397]:
+                            - text: Suppose is any integer. If , what is
+                            - emphasis [ref=f1e6420]: mod
+                            - text: "? In other words, if division of by gives a remainder of , what is the remainder when is divided by ? Your solution should show that you obtain the same answer no matter what integer you start with."
+                          - generic [ref=f1e6452] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f1e6453]: Because , the remainder obtained when is divided by is , and so for some integer . Multiplying this equation through by gives that . Because is an integer, is also an integer, and so . Thus, because , the remainder obtained when is divided by is , and so .
+                        - listitem [ref=f1e6610]:
+                          - paragraph [ref=f1e6611]:
+                            - text: Suppose is any integer. If , what is
+                            - emphasis [ref=f1e6636]: mod
+                            - text: "? In other words, if division of by gives a remainder of , what is the remainder when is divided by ? Your solution should show that you obtain the same answer no matter what integer you start with."
+                        - listitem [ref=f1e6671]:
+                          - paragraph [ref=f1e6672]:
+                            - text: Suppose is any integer. If , what is
+                            - emphasis [ref=f1e6698]: mod
+                            - text: "? In other words, if division of by gives a remainder of , what is the remainder when is divided by ? Your solution should show that you obtain the same answer no matter what integer you start with."
+                        - listitem [ref=f1e6734]:
+                          - paragraph [ref=f1e6735]: Prove that for every integer n, if then .
+                          - generic [ref=f1e6760] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f1e6761]:
+                              - text: "Proof: Suppose is any"
+                              - emphasis [ref=f1e6767]: "[particular but arbitrarily chosen]"
+                              - text: integer such that . Then the remainder obtained when is divided by is , and so for some integer . By substitution,
+                            - paragraph [ref=f1e6809]: Because products and sums of integers are integers, is an integer, and hence .
+                            - paragraph [ref=f1e6846]: Thus, since , the remainder obtained when is divided by is , and so .
+                        - listitem [ref=f1e6885]:
+                          - paragraph [ref=f1e6886]: Prove that for all integers and , if and then .
+                        - listitem [ref=f1e6931]:
+                          - paragraph [ref=f1e6932]: Prove that for all integers and , if and then .
+                        - listitem [ref=f1e6977]:
+                          - paragraph [ref=f1e6978]: Prove that a necessary and sufficient condition for an integer to be divisible by a positive integer is that .
+                          - generic [ref=f1e7000] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f1e7001]:
+                              - emphasis [ref=f1e7002]: "Hint:"
+                              - text: You need to show that
+                            - list [ref=f1e7003]:
+                              - listitem [ref=f1e7004]:
+                                - generic: (1)
+                                - paragraph [ref=f1e7005]: for each integer and positive integer , if is divisible by then ; and
+                              - listitem [ref=f1e7037]:
+                                - generic: (2)
+                                - paragraph [ref=f1e7038]: for each integer and positive integer , if then is divisible by .
+                        - listitem [ref=f1e7070]:
+                          - paragraph [ref=f1e7071]: Use the quotient-remainder theorem with divisor equal to to prove that the square of any integer can be written in one of the two forms or for some integer .
+                          - generic [ref=f1e7096] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f1e7097]:
+                              - emphasis [ref=f1e7098]: "Hint:"
+                              - text: Given any integer , by the quotient-remainder theorem with divisor equal to , , or for some integer .
+                        - listitem [ref=f1e7132]:
+                          - list [ref=f1e7133]:
+                            - listitem [ref=f1e7134]:
+                              - paragraph [ref=f1e7135]: "Prove: Given any set of three consecutive integers, one of the integers is a multiple of ."
+                              - generic [ref=f1e7141] [cursor=pointer]:
+                                - generic: Answer
+                                - paragraph [ref=f1e7142]:
+                                  - emphasis [ref=f1e7143]: "Hint:"
+                                  - text: "Start by supposing that , , and are any three consecutive integers. Then use the quotient-remainder theorem to divide into three cases:"
+                                - paragraph [ref=f1e7163]:
+                                  - strong [ref=f1e7164]:
+                                    - emphasis [ref=f1e7165]: Case 1
+                                  - strong [ref=f1e7192]: .
+                                  - text: In this case you will show that is a multiple of .
+                                - paragraph [ref=f1e7203]:
+                                  - strong [ref=f1e7204]:
+                                    - emphasis [ref=f1e7205]: Case 2
+                                  - strong [ref=f1e7234]: .
+                                  - text: In this case you will show that is a multiple of .
+                                - paragraph [ref=f1e7247]:
+                                  - strong [ref=f1e7248]:
+                                    - emphasis [ref=f1e7249]: Case 3
+                                  - strong [ref=f1e7278]: .
+                                  - text: In this case you will show that is a multiple of .
+                                - paragraph [ref=f1e7291]: Conclude that in all possible cases one of the integers is a multiple of .
+                            - listitem [ref=f1e7297]:
+                              - paragraph [ref=f1e7298]:
+                                - text: Use the result of
+                                - link "part (a)" [ref=f1e7299] [cursor=pointer]:
+                                  - /url: javascript://
+                                - text: to prove that any product of three consecutive integers is a multiple of .
+                        - listitem [ref=f1e7305]:
+                          - list [ref=f1e7306]:
+                            - listitem [ref=f1e7307]:
+                              - paragraph [ref=f1e7308]: Use the quotient-remainder theorem with divisor equal to to prove that the square of any integer has the form or for some integer .
+                              - generic [ref=f1e7333] [cursor=pointer]:
+                                - generic: Answer
+                                - paragraph [ref=f1e7334]:
+                                  - emphasis [ref=f1e7335]: "Hint:"
+                                  - text: "Given any integer , begin by using the quotient-remainder theorem to say that can be written in one of the three forms: , or , or for some integer . Then divide into three cases according to these three possibilities. Show that in each case either for some integer , or for some integer . For instance, when , then , and is an integer because it is a sum of products of integers."
+                            - listitem [ref=f1e7474]:
+                              - paragraph [ref=f1e7475]:
+                                - text: Use the
+                                - emphasis [ref=f1e7476]: mod
+                                - text: notation to rewrite the result of
+                                - link "part (a)" [ref=f1e7477] [cursor=pointer]:
+                                  - /url: javascript://
+                                - text: .
+                        - listitem [ref=f1e7478]:
+                          - list [ref=f1e7479]:
+                            - listitem [ref=f1e7480]:
+                              - paragraph [ref=f1e7481]: Use the quotient-remainder theorem with divisor equal to to prove that the product of any two consecutive integers has the form or for some integer .
+                            - listitem [ref=f1e7506]:
+                              - paragraph [ref=f1e7507]:
+                                - text: Use the
+                                - emphasis [ref=f1e7508]: mod
+                                - text: notation to rewrite the result of
+                                - link "part (a)" [ref=f1e7509] [cursor=pointer]:
+                                  - /url: javascript://
+                                - text: .
+                      - generic "instructions" [ref=f1e7510]:
+                        - paragraph [ref=f1e7511]:
+                          - text: In
+                          - link "31" [ref=f1e7512] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "32" [ref=f1e7513] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ", and"
+                          - link "33" [ref=f1e7514] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ", you may use the properties listed in"
+                          - link "Example 4.3.3" [ref=f1e7515] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: .
+                      - list "short answer questions" [ref=f1e7516]:
+                        - listitem [ref=f1e7517]:
+                          - list [ref=f1e7518]:
+                            - listitem [ref=f1e7519]:
+                              - paragraph [ref=f1e7520]: Prove that for all integers and , and are either both odd or both even.
+                            - listitem [ref=f1e7545]:
+                              - paragraph [ref=f1e7546]: Find all solutions to the equation for which both and are positive integers.
+                              - generic [ref=f1e7571] [cursor=pointer]:
+                                - generic: Answer
+                                - paragraph [ref=f1e7572]:
+                                  - text: If , then . Now , and by the unique factorization theorem, this factorization is unique. Hence the only representation of as a product of two positive integers are . By
+                                  - link "part (a)" [ref=f1e7650]:
+                                    - /url: javascript://
+                                  - text: ", and must both be odd or both be even. Thus the only solutions are either and or and . It follows that the only solutions are either and or and ."
+                            - listitem [ref=f1e7733]:
+                              - paragraph [ref=f1e7734]: Find all solutions to the equation for which both and are positive integers.
+                        - listitem [ref=f1e7759]:
+                          - paragraph [ref=f1e7760]: Given any integers , , and , if is even and is even, what can you say about the parity of ? Prove your answer.
+                          - generic [ref=f1e7802] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f1e7803]: Under the given conditions, is even.
+                            - paragraph [ref=f1e7816]:
+                              - text: "Proof: Suppose , , and are any integers such that is even and is even."
+                              - emphasis [ref=f1e7846]: "[We must show that"
+                              - emphasis [ref=f1e7859]: is even.]
+                              - text: Note first that . Also note that is a sum of two even integers and hence is even by
+                              - link "Example 4.3.3" [ref=f1e7899]:
+                                - /url: javascript://
+                              - text: "#1. But , and so is even. Hence is a sum of two even integers, and thus it is even"
+                              - emphasis [ref=f1e7938]: "[as was to be shown]."
+                        - listitem [ref=f1e7939]:
+                          - paragraph [ref=f1e7940]: Given any integers , , and , if is odd and is even, what can you say about the parity of ? Prove your answer.
+                        - listitem [ref=f1e7977]:
+                          - paragraph [ref=f1e7978]: Given any integer , if , could , , and all be prime? Prove or give a counterexample.
+                          - generic [ref=f1e8010] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f1e8011]:
+                              - emphasis [ref=f1e8012]: "Hint:"
+                              - text: Express using the quotient-remainder theorem with .
+                      - generic "instructions" [ref=f1e8025]:
+                        - paragraph [ref=f1e8026]:
+                          - text: Prove each of the statements in
+                          - link "35" [ref=f1e8027] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "36" [ref=f1e8028] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "37" [ref=f1e8029] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "38" [ref=f1e8030] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "39" [ref=f1e8031] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "40" [ref=f1e8032] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "41" [ref=f1e8033] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ","
+                          - link "42" [ref=f1e8034] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ", and"
+                          - link "43" [ref=f1e8035] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: .
+                      - list "short answer questions" [ref=f1e8036]:
+                        - listitem [ref=f1e8037]:
+                          - paragraph [ref=f1e8038]: The fourth power of any integer has the form or for some integer .
+                        - listitem [ref=f1e8058]:
+                          - paragraph [ref=f1e8059]: The product of any four consecutive integers is divisible by .
+                          - generic [ref=f1e8065] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f1e8066]:
+                              - emphasis [ref=f1e8067]: "Hint:"
+                              - text: Use the quotient-remainder theorem (as in
+                              - link "Example 4.5.6" [ref=f1e8068]:
+                                - /url: javascript://
+                              - text: ) to say that , , , or and divide into cases accordingly.
+                        - listitem [ref=f1e8107]:
+                          - paragraph [ref=f1e8108]: For any integer , is not divisible by .
+                          - generic [ref=f1e8127] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f1e8128]:
+                              - emphasis [ref=f1e8129]: "Hint:"
+                              - text: Given any integer , consider the two cases where is even and where is odd.
+                        - listitem [ref=f1e8145]:
+                          - paragraph [ref=f1e8146]: For every integer , , or , or for some integer .
+                        - listitem [ref=f1e8188]:
+                          - paragraph [ref=f1e8189]: Every prime number except and has the form or for some integer .
+                          - generic [ref=f1e8221] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f1e8222]:
+                              - emphasis [ref=f1e8223]: "Hint:"
+                              - text: Use the quotient-remainder theorem to say that must have one of the forms , , , , , or for some integer . Then use the fact that is prime and not equal to either or to show that you only need to consider two cases.
+                        - listitem [ref=f1e8295]:
+                          - paragraph [ref=f1e8296]: If is any odd integer, then .
+                        - listitem [ref=f1e8317]:
+                          - paragraph [ref=f1e8318]: For all real numbers and , .
+                          - generic [ref=f1e8346] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f1e8347]:
+                              - emphasis [ref=f1e8348]: "Hint:"
+                              - text: "There are four cases: Either and are both positive, or is positive and is negative, or is negative and is positive, or both and are negative."
+                        - listitem [ref=f1e8389]:
+                          - paragraph [ref=f1e8390]:
+                            - text: For all real numbers and with , if, and only if, . (
+                            - emphasis [ref=f1e8427]: "Hint:"
+                            - text: Proving if, and only if, requires proving both if then and if then .)
+                        - listitem [ref=f1e8458]:
+                          - paragraph [ref=f1e8459]: For all real numbers and , .
+                          - generic [ref=f1e8489] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f1e8490]:
+                              - emphasis [ref=f1e8491]: "Hint:"
+                              - text: Apply the triangle inequality with and and with and . Then use the result of
+                              - link "exercise 42" [ref=f1e8524]:
+                                - /url: javascript://
+                              - text: .
+                        - listitem [ref=f1e8525]:
+                          - paragraph [ref=f1e8526]:
+                            - text: A matrix
+                            - strong [ref=f1e8527]: M
+                            - text: has rows and columns.
+                          - paragraph [ref=f1e8620]:
+                            - text: The entries in the matrix are to be stored in
+                            - emphasis [ref=f1e8627]: row major
+                            - text: form in locations to in a computer’s memory. This means that the entries in the first row (reading left to right) are stored first, then the entries in the second row, and finally the entries in the third row.
+                          - list [ref=f1e8646]:
+                            - listitem [ref=f1e8647]:
+                              - paragraph [ref=f1e8648]: Which location will be stored in?
+                              - generic [ref=f1e8657] [cursor=pointer]:
+                                - generic: Answer
+                                - paragraph [ref=f1e8658]
+                            - listitem [ref=f1e8677]:
+                              - paragraph [ref=f1e8678]: Write a formula (in and ) that gives the integer so that is stored in location .
+                            - listitem [ref=f1e8713]:
+                              - paragraph [ref=f1e8714]: Find formulas (in ) for and so that is stored in location .
+                        - listitem [ref=f1e8749]:
+                          - paragraph [ref=f1e8750]:
+                            - text: Let
+                            - strong [ref=f1e8751]: M
+                            - text: be a matrix with rows and columns, and suppose that the entries of
+                            - strong [ref=f1e8762]: M
+                            - text: are stored in a computer’s memory in row major form (see
+                            - link "exercise 44" [ref=f1e8763] [cursor=pointer]:
+                              - /url: javascript://
+                            - text: ) in locations . Find formulas in for and so that is stored in location .
+                        - listitem [ref=f1e8817]:
+                          - paragraph [ref=f1e8818]: If , , and are integers, , and , does it necessarily follow that ? That is divisible by ? Prove your answers.
+                          - generic [ref=f1e8881] [cursor=pointer]:
+                            - generic: Answer
+                            - paragraph [ref=f1e8882]:
+                              - emphasis [ref=f1e8883]: "Answer to first question:"
+                              - text: "No. Counterexample: Let , , and . Then and but ."
+                            - paragraph [ref=f1e8934]:
+                              - emphasis [ref=f1e8935]: "Answer to second question:"
+                              - text: "Yes. Proof: Suppose , , and are integers such that . Let . By definition of"
+                              - emphasis [ref=f1e8986]: mod
+                              - text: ", and for some integers and . Then . But is an integer (being a difference of integers), and so is divisible by by definition of divisible."
+                        - listitem [ref=f1e9068]:
+                          - paragraph [ref=f1e9069]:
+                            - text: If , , and are integers, , and , what is the relation between
+                            - emphasis [ref=f1e9113]: mod
+                            - text: and
+                            - emphasis [ref=f1e9124]: mod
+                            - text: "? Prove your answer."
+                        - listitem [ref=f1e9130]:
+                          - paragraph [ref=f1e9131]: If , , , , and are integers, , and and , is ? Is ? Prove your answers.
+                        - listitem [ref=f1e9234]:
+                          - paragraph [ref=f1e9235]: If , , , , and are integers, , and and , is ? Is ? Prove your answers.
+                        - listitem [ref=f1e9335]:
+                          - paragraph [ref=f1e9336]: Prove that if , , and are integers and , then .
+              - generic [ref=f1e4128]:
+                - slider [ref=f1e4129]: "36"
+                - generic [ref=f1e4130] [cursor=pointer]
+        - menu [ref=e123]:
+          - navigation "Applications Menu" [ref=e124]:
+            - generic [ref=e125]:
+              - menuitem "My Notes, button" [ref=e126] [cursor=pointer]:
+                - img "My Notes" [ref=e127]
+              - menuitem "Full Book, button" [ref=e128] [cursor=pointer]:
+                - img "Full Book" [ref=e129]
+              - menuitem "ReadSpeaker, button" [ref=e130] [cursor=pointer]:
+                - img "ReadSpeaker" [ref=e131]
+              - menuitem "Glossary, button" [ref=e132] [cursor=pointer]:
+                - img "Glossary" [ref=e133]
+              - menuitem "Flashcards, button" [ref=e134] [cursor=pointer]:
+                - img "Flashcards" [ref=e135]
+  - text: Your computer is connected to the internet. Reconnect

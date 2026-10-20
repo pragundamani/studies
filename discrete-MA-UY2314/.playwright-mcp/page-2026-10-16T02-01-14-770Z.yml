@@ -1,0 +1,84 @@
+- generic [ref=e1]:
+  - generic [ref=e5]:
+    - generic [ref=e9]:
+      - generic [ref=e10]:
+        - paragraph [ref=e15]: Pragun
+        - button "Collapse sidebar" [expanded] [ref=e18] [cursor=pointer]
+      - navigation [ref=e22]:
+        - generic [ref=e23]:
+          - list "Main Menu" [ref=e25]:
+            - listitem [ref=e26]:
+              - link "HOME" [ref=e28] [cursor=pointer]:
+                - /url: https://www.cengage.com/dashboard/home
+                - generic [aria-hidden] [ref=e31]: HOME
+            - listitem [ref=e32]:
+              - link "PROFILE (opens in a new tab)" [ref=e34] [cursor=pointer]:
+                - /url: https://account.cengage.com/profile/profile-data
+                - generic [aria-hidden] [ref=e37]: PROFILE
+            - listitem [ref=e38]:
+              - link "ORDERS" [ref=e40] [cursor=pointer]:
+                - /url: https://www.cengage.com/dashboard/my-orders
+                - generic [aria-hidden] [ref=e43]: ORDERS
+            - listitem [ref=e44]:
+              - link "RENTALS" [ref=e46] [cursor=pointer]:
+                - /url: https://www.cengage.com/dashboard/rentals
+                - generic [aria-hidden] [ref=e49]: RENTALS
+            - listitem [ref=e50]:
+              - button "EXPAND COURSES" [ref=e53] [cursor=pointer]:
+                - generic [ref=e54]: COURSES
+          - list "Study tools and tips" [ref=e62]:
+            - listitem [ref=e63]:
+              - link "Study Tools" [ref=e65] [cursor=pointer]:
+                - /url: https://www.cengage.com/dashboard/explore-catalog
+                - generic [aria-hidden] [ref=e68]: Study Tools
+            - listitem [ref=e69]:
+              - link "College Success Tips" [ref=e71] [cursor=pointer]:
+                - /url: https://www.cengage.com/dashboard/college-success
+                - generic [aria-hidden] [ref=e74]: College Success Tips
+            - listitem [ref=e75]:
+              - link "Career Success Tips" [ref=e77] [cursor=pointer]:
+                - /url: https://www.cengage.com/dashboard/career-center
+                - generic [aria-hidden] [ref=e80]: Career Success Tips
+          - link "Help (opens in a new tab)" [ref=e84] [cursor=pointer]:
+            - /url: https://cengageorg.my.site.com/Service/s/
+            - generic [aria-hidden] [ref=e87]: Help
+        - button "Sign Out" [ref=e89] [cursor=pointer]
+    - generic [ref=e94]:
+      - navigation "Mindtap menu" [ref=e97]:
+        - img "Cengage MindTap" [ref=e99]
+        - generic [ref=e100]:
+          - text: 
+          - button "Search this course" [ref=e101] [cursor=pointer]:
+            - generic [ref=e102]:
+              - generic [ref=e103]: 
+              - text: Search this course
+          - text:  
+          - generic [ref=e104]:
+            - generic [ref=e106]:
+              - button " Help & Info" [ref=e107] [cursor=pointer]:
+                - generic [ref=e108]:
+                  - generic [ref=e109]: 
+                  - generic [ref=e110]: Help & Info
+              - text:    
+            - text:     
+      - generic [ref=e112]:
+        - generic [ref=e310]:
+          - generic [ref=e311]:
+            - 'heading "Chapter 4: Elementary Number Theory and Methods of Proof" [active] [level=1] [ref=e312]'
+            - 'button "Close Chapter 4: Elementary Number Theory and Methods of Proof" [ref=e313] [cursor=pointer]':
+              - generic [ref=e314]: 
+          - iframe [ref=e317]
+        - menu [ref=e295]:
+          - navigation "Applications Menu" [ref=e296]:
+            - generic [ref=e297]:
+              - menuitem "My Notes, button" [ref=e298] [cursor=pointer]:
+                - img "My Notes" [ref=e299]
+              - menuitem "Full Book, button" [ref=e300] [cursor=pointer]:
+                - img "Full Book" [ref=e301]
+              - menuitem "ReadSpeaker, button" [ref=e302] [cursor=pointer]:
+                - img "ReadSpeaker" [ref=e303]
+              - menuitem "Glossary, button" [ref=e304] [cursor=pointer]:
+                - img "Glossary" [ref=e305]
+              - menuitem "Flashcards, button" [ref=e306] [cursor=pointer]:
+                - img "Flashcards" [ref=e307]
+  - text: Your computer is connected to the internet. Reconnect

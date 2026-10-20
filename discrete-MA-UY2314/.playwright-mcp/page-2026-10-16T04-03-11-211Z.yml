@@ -1,0 +1,131 @@
+- generic [ref=f48e1]:
+  - generic [ref=f48e4]:
+    - banner [ref=f48e5]:
+      - generic [ref=f48e6]:
+        - link "Skip to content" [ref=f48e7] [cursor=pointer]:
+          - /url: ""
+        - link "Skip to navigation" [ref=f48e8] [cursor=pointer]:
+          - /url: ""
+      - generic [ref=f48e9]:
+        - generic [ref=f48e12]:
+          - button "Collapse Button" [ref=f48e20] [cursor=pointer]
+          - navigation [ref=f48e24]:
+            - link "Sign Out" [ref=f48e26] [cursor=pointer]
+        - generic:
+          - banner
+      - generic [ref=f48e31]:
+        - generic [ref=f48e35]:
+          - button "Cengage WebAssign Homepage" [ref=f48e37] [cursor=pointer]:
+            - img "Cengage WebAssign Homepage" [ref=f48e38]
+          - generic [ref=f48e63]:
+            - button "Open Email Notification Settings modal" [ref=f48e64] [cursor=pointer]
+            - link "Open Help page in a new browser tab." [ref=f48e68] [cursor=pointer]:
+              - /url: https://help.cengage.com/webassign/student_guide/
+            - button "Interface language setting. Language set to English" [ref=f48e73] [cursor=pointer]:
+              - generic [ref=f48e76]: EN
+        - navigation "WebAssign" [ref=f48e82]:
+          - link "Home" [ref=f48e83]
+          - link "My Assignments" [ref=f48e84]
+          - link "Grades" [ref=f48e85]
+          - link "Communication" [ref=f48e86]
+          - link "Calendar" [ref=f48e87]
+          - button "My eBooks" [ref=f48e90]
+    - main [ref=f48e93]:
+      - generic [ref=f48e96]:
+        - generic [ref=f48e97]:
+          - heading "Home" [level=1] [ref=f48e98]
+          - navigation "Course Select" [ref=f48e99]:
+            - text: Select Course
+            - generic [ref=f48e100]:
+              - combobox "Select Course" [ref=f48e101] [cursor=pointer]:
+                - 'option "MA-UY 2034: Linear Algebra and Differential Equations, Fall 2026, Fall 2026"'
+                - 'option "MA-UY 2314: Discrete Mathematics, Fall 2026, Fall 2026"'
+                - 'option "PH-UY 2023: ELECTRICITY, MAGNETISM, & FLUIDS (F26), Fall 2026" [selected]'
+                - text: "0"
+              - button "Go" [ref=f48e102] [cursor=pointer]
+        - generic [ref=f48e104]:
+          - generic [ref=f48e108]:
+            - text: Instructor
+            - generic [ref=f48e109]: John Di Bartolo
+          - generic [ref=f48e110]: New York University
+      - generic [ref=f48e112]:
+        - heading "WebAssign Notices" [level=2] [ref=f48e113]
+        - paragraph [ref=f48e115]: You were granted access to this class Friday, September 4, 2026 4:15:53 PM EDT
+      - generic [ref=f48e116]:
+        - generic [ref=f48e117]:
+          - region [ref=f48e119]:
+            - heading "My Assignments" [level=2] [ref=f48e120]
+            - generic [ref=f48e121]:
+              - generic [ref=f48e122]: Name
+              - generic [ref=f48e123]: Due
+            - list [ref=f48e124]:
+              - listitem [ref=f48e125]:
+                - link "Open PH-UY 2023 F26 HW06 Assignment, enabled. Due date Friday, October 16, 2026 at 8:00 AM EDT" [ref=f48e126] [cursor=pointer]:
+                  - /url: /web/Student/Assignment-Responses/last?dep=41038509
+                  - generic [ref=f48e127]: PH-UY 2023 F26 HW06
+                  - generic [ref=f48e129]: Fri, Oct 16, 2026, 8:00 AM EDT
+            - generic [ref=f48e130]:
+              - button "Show Current Assignments (1)" [ref=f48e131] [cursor=pointer]: Current Assignments (1)
+              - button "Show Past Assignments (5)" [ref=f48e132] [cursor=pointer]: Past Assignments (5)
+          - region [ref=f48e134]:
+            - heading "Communication" [level=2] [ref=f48e135]
+            - paragraph [ref=f48e137]: No current forums
+          - region [ref=f48e139]:
+            - heading "Grades" [level=2] [ref=f48e140]
+            - paragraph [ref=f48e142]: Your final grade has not yet been posted
+        - generic [ref=f48e143]:
+          - region [ref=f48e145]:
+            - heading "My Class Insights" [level=2] [ref=f48e146]
+            - generic [ref=f48e147]:
+              - heading "Make the most of your time." [level=3] [ref=f48e148]
+              - list [ref=f48e149]:
+                - listitem [ref=f48e150]: Target the topics you need to study.
+                - listitem [ref=f48e153]: See which topics you know.
+              - link "View My Class Insights" [ref=f48e158] [cursor=pointer]:
+                - /url: /web/User/LTI/go?url=https://users.webassign.net/service/control/api/1.0/authentication/lti&amp;redirect_uri=/conceptOverview/section/1707793/student/19847356
+          - region [ref=f48e160]:
+            - heading "Announcements" [level=2] [ref=f48e161]
+            - paragraph [ref=f48e163]: No Current Announcements
+          - region [ref=f48e165]:
+            - heading "About this Class" [level=2] [ref=f48e166]
+            - generic [ref=f48e167]:
+              - paragraph [ref=f48e168]:
+                - generic [ref=f48e169]: "Class Started:"
+                - text: Tuesday, September 1, 2026
+              - paragraph [ref=f48e170]:
+                - generic [ref=f48e171]: "Class Ends:"
+                - text: Monday, December 28, 2026
+              - list [ref=f48e172]:
+                - listitem [ref=f48e173]:
+                  - 'link "Open eBook in a new browser tab. Title: Physics for Scientists and Engineers with Modern Physics. Edition: 11. Authors: Serway, Jewett, and Peroomian." [ref=f48e174] [cursor=pointer]':
+                    - /url: waUtil.openMindtapReader("9798214193236", "", true)
+                    - generic [ref=f48e178]:
+                      - paragraph [ref=f48e179]:
+                        - text: Physics for Scientists and Engineers with Modern Physics
+                        - generic [ref=f48e180]: "- 11e"
+                      - paragraph [ref=f48e181]: Serway, Jewett, and Peroomian
+    - contentinfo [ref=f48e183]:
+      - generic [ref=f48e184]:
+        - generic [ref=f48e185]: Copyright © 1998 - 2026 Cengage Learning, Inc. All Rights Reserved
+        - list [ref=f48e186]:
+          - listitem [ref=f48e187]:
+            - link "Open in a new tab. Terms of use" [ref=f48e188] [cursor=pointer]:
+              - /url: https://www.cengage.com/legal/#terms
+              - text: Terms of use
+          - listitem [ref=f48e189]:
+            - link "Open in a new tab. Privacy" [ref=f48e190] [cursor=pointer]:
+              - /url: https://www.cengage.com/privacy/
+              - text: Privacy
+  - region "Use of Cookies" [ref=f48e191]:
+    - dialog "Use of Cookies" [ref=f48e192]:
+      - generic [ref=f48e194]:
+        - generic [ref=f48e196]:
+          - heading "Use of Cookies" [level=2] [ref=f48e197]
+          - generic [ref=f48e198]:
+            - text: We and our partners may use cookies, pixels, and similar technologies to collect information about you, including about your browsing activities and devices. This may result in your information being collected by our third-party partners. By choosing to "Accept All Cookies", you agree to these practices, including as described in the
+            - link "Privacy Policy, opens in a new tab" [ref=f48e199] [cursor=pointer]:
+              - /url: https://www.cengagegroup.com/privacy/
+              - text: Privacy Policy
+        - generic [ref=f48e201]:
+          - button "Manage Options" [ref=f48e202] [cursor=pointer]
+          - button "Accept All Cookies" [ref=f48e203] [cursor=pointer]

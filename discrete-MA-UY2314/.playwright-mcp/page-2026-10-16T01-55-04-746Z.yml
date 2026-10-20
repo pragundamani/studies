@@ -1,0 +1,196 @@
+- generic [active] [ref=e1]:
+  - link "Skip to Content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - paragraph [ref=e5]:
+    - text: NEW! The Cengage brand now represents global businesses supporting learners from K-12 to Career.
+    - link "Learn more - opens in a new tab" [ref=e7] [cursor=pointer]:
+      - /url: https://www.cengagegroup.com/news/perspectives/2026/cengage-next-chapter/
+      - text: Learn more
+  - banner [ref=e8]:
+    - generic [ref=e9]:
+      - generic [ref=e10]:
+        - generic [ref=e11]:
+          - link "Go to Cengage Homepage" [ref=e13] [cursor=pointer]:
+            - /url: /
+            - img "Cengage logo" [ref=e14]
+          - button "Select role" [ref=e16]
+        - list
+      - generic [ref=e22]:
+        - generic [ref=e23]:
+          - button "Search as..." [ref=e25]
+          - generic [ref=e30]:
+            - generic [ref=e31]: Search Our Catalog
+            - textbox "Search Our Catalog" [ref=e32]
+            - button [ref=e33]
+        - button "Support menu" [ref=e38] [cursor=pointer]
+        - 'link "Change region and language, current selection: United States" [ref=e43] [cursor=pointer]':
+          - /url: https://www.cengage.com/countries
+          - generic [ref=e47]: US
+        - link "SIGN IN" [ref=e49] [cursor=pointer]:
+          - /url: https://www.cengage.com/oauth2/login?targeturl=https://www.cengage.com/dashboard/home?loggedIn=true&cartId=null
+  - main [ref=e51]:
+    - generic "Mother hugging her daughter" [ref=e52]:
+      - heading "Learning That Powers Every Future" [level=1] [ref=e56]
+    - generic [ref=e60]:
+      - img "Cengage Logo" [ref=e63]
+      - generic [ref=e65]:
+        - paragraph [ref=e67]: Delivering powerful learning platforms from K-12 to career and preparing learners for every future.
+        - link "Learn more about Cengage" [ref=e69] [cursor=pointer]:
+          - /url: https://www.cengagegroup.com/about/
+          - text: Discover Cengage
+    - heading "Who We Are." [level=2] [ref=e71]
+    - generic [ref=e74]:
+      - generic [ref=e78]:
+        - paragraph [ref=e79]: Higher Education
+        - paragraph [ref=e80]: Enabling higher ed students to build meaningful careers
+      - generic [ref=e85]:
+        - paragraph [ref=e86]: Work
+        - paragraph [ref=e87]: Helping learners gain skills to thrive in tomorrow's workforce
+      - generic [ref=e92]:
+        - paragraph [ref=e93]: School
+        - paragraph [ref=e94]: Equipping K-12 teachers and learners for future success
+      - generic [ref=e99]:
+        - paragraph [ref=e100]: English Language Learning
+        - paragraph [ref=e101]: Empowering learners with the language of global opportunity
+    - generic [ref=e104]:
+      - generic [ref=e105]:
+        - link [ref=e108] [cursor=pointer]:
+          - /url: https://www.cengage.com/student/
+          - img "For Students" [ref=e109]
+        - generic [ref=e111]:
+          - heading "Students" [level=3] [ref=e112]
+          - generic [ref=e113]:
+            - paragraph [ref=e114]: Get the learning platforms and content you need for your classes, at an affordable price.
+            - paragraph [ref=e115]
+          - link "Search Course Materials" [ref=e117] [cursor=pointer]:
+            - /url: https://www.cengage.com/student/
+      - generic [ref=e120]:
+        - link [ref=e123] [cursor=pointer]:
+          - /url: https://www.cengage.com/instructors/
+          - img "For Instructors" [ref=e124]
+        - generic [ref=e126]:
+          - heading "Instructors" [level=3] [ref=e127]
+          - paragraph [ref=e129]: Streamline teaching with trusted content, customizable assignments and intuitive tools in Cengage’s Learning Platform Courses.
+          - link "FIND YOUR COURSE" [ref=e131] [cursor=pointer]:
+            - /url: https://www.cengage.com/instructors/
+      - generic [ref=e134]:
+        - link [ref=e137] [cursor=pointer]:
+          - /url: https://www.cengage.com/institutions/
+          - img "for administrators" [ref=e138]
+        - generic [ref=e140]:
+          - heading "Administrators" [level=3] [ref=e141]
+          - paragraph [ref=e143]: Lead bold transformation across your institution with a unified learning ecosystem powered by Cengage Unlimited.
+          - link "Explore CENGAGE UNLIMITED" [ref=e145] [cursor=pointer]:
+            - /url: https://www.cengage.com/institutions/
+    - heading "Build a future-ready learning ecosystem with Cengage Unlimited" [level=2] [ref=e150]
+    - generic [ref=e158]:
+      - paragraph [ref=e160]: Cengage Unlimited enables your campus to move faster, think bigger and innovate with intention. By uniting content, platforms, simulations, career resources and AI-powered tools into a single, connected learning ecosystem, you get everything you need to stay ahead of change and deliver powerful outcomes. Ready to discover what Cengage Unlimited can do for your institution?
+      - link "Explore Cengage Unlimited" [ref=e163] [cursor=pointer]:
+        - /url: https://www.cengage.com/institutions/
+    - generic [ref=e168]:
+      - img "Picture of Dr. Margaret M. McMenamin, President, Union College of Union County NJ (UCNJ)" [ref=e171]
+      - generic [ref=e174]:
+        - paragraph [ref=e175]
+        - paragraph [ref=e176]: “It’s one of the many changes we can make in higher ed that will benefit our students now and as we look into the future of technology, artificial intelligence, and virtual reality. Cengage Unlimited is part of that new world.”
+        - paragraph [ref=e177]:
+          - strong [ref=e178]: — Dr. Margaret M. McMenamin
+          - text: ", President, Union College of Union County NJ (UCNJ)"
+  - contentinfo [ref=e181]:
+    - generic [ref=e182]:
+      - generic [ref=e184]:
+        - link "Go to Cengage Homepage" [ref=e185] [cursor=pointer]:
+          - /url: /
+          - img "Cengage logo" [ref=e186]
+        - link "Change region, current region United States" [ref=e187] [cursor=pointer]:
+          - /url: https://www.cengage.com/countries
+          - generic [ref=e191]: United States
+      - navigation:
+        - generic [ref=e192]:
+          - region [ref=e193]:
+            - heading "Higher Ed" [level=2] [ref=e194]
+            - list [ref=e195]:
+              - listitem [ref=e196]:
+                - link "Blog - opens in a new tab" [ref=e197] [cursor=pointer]:
+                  - /url: https://blog.cengage.com/
+                  - text: Blog
+              - listitem [ref=e198]:
+                - link "Contact Us" [ref=e199] [cursor=pointer]:
+                  - /url: https://www.cengage.com/contact/
+              - listitem [ref=e200]:
+                - link "Content Development Philosophy - opens in a new tab" [ref=e201] [cursor=pointer]:
+                  - /url: https://www.cengagegroup.com/about/content-development-philosophy/
+                  - text: Content Development Philosophy
+              - listitem [ref=e202]:
+                - link "Events" [ref=e203] [cursor=pointer]:
+                  - /url: https://www.cengage.com/events/
+              - listitem [ref=e204]:
+                - link "Sitemap" [ref=e205] [cursor=pointer]:
+                  - /url: https://www.cengage.com/sitemap/
+          - region [ref=e206]:
+            - heading "Company" [level=2] [ref=e207]
+            - list [ref=e208]:
+              - listitem [ref=e209]:
+                - link "About - opens in a new tab" [ref=e210] [cursor=pointer]:
+                  - /url: https://www.cengagegroup.com/about/
+                  - text: About
+              - listitem [ref=e211]:
+                - link "Accessibility - opens in a new tab" [ref=e212] [cursor=pointer]:
+                  - /url: https://www.cengagegroup.com/accessibility/
+                  - text: Accessibility
+              - listitem [ref=e213]:
+                - link "Careers - opens in a new tab" [ref=e214] [cursor=pointer]:
+                  - /url: https://www.cengagegroup.com/careers/
+                  - text: Careers
+              - listitem [ref=e215]:
+                - link "Investors - opens in a new tab" [ref=e216] [cursor=pointer]:
+                  - /url: https://www.cengagegroup.com/investors/
+                  - text: Investors
+              - listitem [ref=e217]:
+                - link "News - opens in a new tab" [ref=e218] [cursor=pointer]:
+                  - /url: https://www.cengagegroup.com/news/
+                  - text: News
+              - listitem [ref=e219]:
+                - link "Royalties" [ref=e220] [cursor=pointer]:
+                  - /url: https://www.cengage.com/royalties/
+        - list [ref=e222]:
+          - listitem [ref=e223]:
+            - heading "Follow Cengage" [level=2] [ref=e224]
+            - list [ref=e225]:
+              - listitem [ref=e226]:
+                - link "linkedin" [ref=e227] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/showcase/cengage-higher-education
+                  - img "linkedin icon" [ref=e229]
+              - listitem [ref=e231]:
+                - link "facebook" [ref=e232] [cursor=pointer]:
+                  - /url: https://www.facebook.com/CengageHigherEd/
+                  - img "facebook icon" [ref=e234]
+              - listitem [ref=e236]:
+                - link "instagram" [ref=e237] [cursor=pointer]:
+                  - /url: https://instagram.com/cengagelearning
+                  - img "instagram icon" [ref=e239]
+              - listitem [ref=e243]:
+                - link "youtube" [ref=e244] [cursor=pointer]:
+                  - /url: https://www.youtube.com/user/CengageLearningCorp?feature=watch
+                  - img "youtube icon" [ref=e246]
+        - list [ref=e249]:
+          - listitem [ref=e250]:
+            - link "Terms Of Use - opens in a new tab" [ref=e251] [cursor=pointer]:
+              - /url: https://www.cengagegroup.com/legal/
+              - text: Terms Of Use
+          - listitem [ref=e252]:
+            - link "Privacy - opens in a new tab" [ref=e253] [cursor=pointer]:
+              - /url: https://www.cengagegroup.com/privacy/
+              - text: Privacy
+          - listitem [ref=e254]:
+            - link "Do Not Sell - opens in a new tab" [ref=e255] [cursor=pointer]:
+              - /url: https://cengage.my.site.com/s/rtbf/
+              - text: Do Not Sell
+          - listitem [ref=e256]:
+            - link "Piracy - opens in a new tab" [ref=e257] [cursor=pointer]:
+              - /url: https://www.cengagegroup.com/piracy/
+              - text: Piracy
+          - listitem [ref=e258]:
+            - link "Copyright - opens in a new tab" [ref=e259] [cursor=pointer]:
+              - /url: https://www.cengagegroup.com/permissions/
+              - text: Copyright
+    - generic [ref=e260]: © 2026 Cengage Learning, Inc. and its affiliates

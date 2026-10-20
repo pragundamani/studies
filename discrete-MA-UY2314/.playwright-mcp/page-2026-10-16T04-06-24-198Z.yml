@@ -1,0 +1,386 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Open the Google Gmail page" [ref=e6] [cursor=pointer]:
+        - /url: /gmail/
+        - img "Gmail" [ref=e7]
+        - generic [ref=e8]: Gmail
+      - navigation [ref=e9]:
+        - link "Skip to main content" [ref=e10] [cursor=pointer]:
+          - /url: "#main"
+      - generic [ref=e11]:
+        - generic [ref=e12]:
+          - button "Open search" [ref=e13] [cursor=pointer]
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - search:
+                        - generic:
+                          - generic:
+                            - combobox "Search"
+                            - generic [aria-hidden]:
+                              - generic: Search
+                              - generic: resources
+                          - button "Close search"
+                      - listbox "Popular suggestions":
+                        - generic: Popular
+                      - status
+        - link "Visit the Gmail product page" [ref=e19] [cursor=pointer]:
+          - /url: https://workspace.google.com/products/gmail/?from=gafb-gmail_asw-def-en
+          - generic [ref=e20]: For work
+        - link "Sign into Gmail" [ref=e22] [cursor=pointer]:
+          - /url: https://accounts.google.com/AccountChooser/signinchooser?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F%3Fservice%3Dmail%26flowName%3DGlifWebSignIn%26flowEntry%3DAccountChooser%26ec%3Dasw-gmail-globalnav-signin
+          - generic [ref=e23]: Sign in
+        - group [ref=e26]:
+          - generic "Create an account" [ref=e27] [cursor=pointer]
+  - main [ref=e33]:
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - heading "AI-powered email for everyone" [level=1] [ref=e41]
+        - generic [ref=e42]:
+          - paragraph [ref=e43]: Secure, smart and easy-to-use email, used by billions, now enhanced with Gemini.
+          - generic [ref=e44]:
+            - group [ref=e47]:
+              - generic "Create an account" [ref=e48] [cursor=pointer]
+            - link "Visit the Gmail product page" [ref=e55] [cursor=pointer]:
+              - /url: https://workspace.google.com/products/gmail/?from=gafb-gmail_asw-def-en
+              - generic [ref=e56]: For work
+      - img "AI helping someone prepare for a presentation within Gmail, with search assistance, writing prompts, and suggested replies based on writing styles." [ref=e59]
+    - generic [ref=e65]:
+      - heading "Gemini in Gmail" [level=2] [ref=e66]
+      - paragraph [ref=e67]: With Gemini in Gmail, you get a personal, proactive inbox assistant that helps you respond quickly in your own voice, get things done faster, and turn information into answers without the digging.
+    - generic [ref=e73]:
+      - img "Gmail suggesting an AI-generated reply to a pickleball class invitation, tailored to the user's writing style." [ref=e78]
+      - generic [ref=e81]:
+        - group [ref=e83]:
+          - heading "Write better emails with the help of AI" [level=3] [ref=e86] [cursor=pointer]
+          - paragraph [ref=e91]: Gemini in Gmail saves you time drafting or polishing emails, and suggested replies help you reply in one click, in your voice.
+        - group [ref=e93]:
+          - heading "Get caught up on email threads fast" [level=3] [ref=e96] [cursor=pointer]
+        - group [ref=e98]:
+          - heading "Ask Gemini to search your inbox" [level=3] [ref=e101] [cursor=pointer]
+    - generic [ref=e104]:
+      - heading "Email that’s secure, private, and puts you in control" [level=2] [ref=e108]
+      - generic [ref=e111]:
+        - generic [ref=e114]:
+          - group [ref=e116]:
+            - heading "We never use your Gmail content for any ads purposes" [level=3] [ref=e119] [cursor=pointer]
+            - paragraph [ref=e124]: Gmail uses industry-leading encryption for all messages you receive and send. We never use your Gmail content to personalize ads.
+          - group [ref=e126]:
+            - heading "Gmail keeps over a billion people safe every day" [level=3] [ref=e129] [cursor=pointer]
+          - group [ref=e131]:
+            - heading "The most advanced phishing protections available" [level=3] [ref=e134] [cursor=pointer]
+          - group [ref=e136]:
+            - heading "Best-in-class controls over emails you send" [level=3] [ref=e139] [cursor=pointer]
+        - img "Privacy notification superimposed on an email" [ref=e144]
+    - generic [ref=e147]:
+      - heading "Get more done with Gmail" [level=2] [ref=e151]
+      - generic [ref=e154]:
+        - img "Gmail chat function with document collaboration and video chat on one screen" [ref=e159]
+        - generic [ref=e162]:
+          - group [ref=e164]:
+            - heading "Stay connected and get organized" [level=3] [ref=e167] [cursor=pointer]
+            - paragraph [ref=e172]: Start a Chat, jump into a video call with Meet, or collaborate in a Doc, all right from Gmail.
+          - group [ref=e174]:
+            - heading "Get more done faster" [level=3] [ref=e177] [cursor=pointer]
+          - group [ref=e179]:
+            - heading "Never forget to reply" [level=3] [ref=e182] [cursor=pointer]
+    - generic [ref=e185]:
+      - heading "Gmail is better on the app" [level=2] [ref=e189]
+      - generic [ref=e192]:
+        - generic [ref=e195]:
+          - group [ref=e197]:
+            - heading "Express yourself with emojis" [level=3] [ref=e200] [cursor=pointer]
+            - paragraph [ref=e205]: Emoji reactions are a fast and fun way to reply to emails, only available with the Gmail app.
+          - group [ref=e207]:
+            - heading "Find your emails faster" [level=3] [ref=e210] [cursor=pointer]
+          - group [ref=e212]:
+            - heading "Switch between accounts" [level=3] [ref=e215] [cursor=pointer]
+        - generic [ref=e221]:
+          - generic: A simplified phone UI displays an email welcoming Helen to the team, enlarged emoji bar indicates simplicity in replying with an emoji.
+          - img "A simplified phone UI displays an email welcoming Helen to the team, enlarged emoji bar indicates simplicity in replying with an emoji." [ref=e222]
+    - generic [ref=e230]:
+      - heading "Bring the best of Gmail to your device" [level=2] [ref=e237]
+      - generic [ref=e244]:
+        - link "Download Gmail on the App Store" [ref=e246] [cursor=pointer]:
+          - /url: https://apps.apple.com/us/app/gmail-email-by-google/id422689480
+        - link "Download Gmail on the Google Play Store" [ref=e258] [cursor=pointer]:
+          - /url: https://play.google.com/store/apps/details?id=com.google.android.gm&hl=en_US&gl=US
+    - generic [ref=e284]:
+      - generic [ref=e285]:
+        - img "Checkmark" [ref=e288]
+        - paragraph [ref=e290]: Works with other tools
+        - paragraph [ref=e292]: Gmail works great with desktop clients like Microsoft Outlook, Apple Mail and Mozilla Thunderbird, including contact and event sync.
+      - generic [ref=e293]:
+        - img "Offline icon" [ref=e296]
+        - paragraph [ref=e298]: Stay productive, even offline
+        - paragraph [ref=e300]: Gmail offline lets you read, reply, delete, and search your Gmail messages when you’re not connected to the internet.
+      - generic [ref=e301]:
+        - img "Laptop, smart watch and mobile devices" [ref=e304]
+        - paragraph [ref=e306]: Experience Gmail on any device
+        - paragraph [ref=e308]: Enjoy the ease and simplicity of Gmail, wherever you are.
+    - generic [ref=e315]:
+      - img "A row of icons displaying Google Workspace products." [ref=e317]
+      - generic [ref=e318]:
+        - heading "Gmail is now part of Google Workspace" [level=2] [ref=e319]
+        - paragraph [ref=e320]: Collaborate faster, from any device, anytime, all in one place.
+        - paragraph [ref=e321]:
+          - text: Google Workspace is a set of productivity and collaboration tools that helps individuals, teams, and businesses stay on top of everything. It is a flexible, innovative solution for
+          - link "Open the business page" [ref=e323] [cursor=pointer]:
+            - /url: /solutions/business-email/
+            - text: business
+          - text: or personal use that includes all of your favorite apps like Gmail, Calendar, Drive, Docs, Meet, and more.
+        - link "Visit the Google Workspace website" [ref=e325] [cursor=pointer]:
+          - /url: https://workspace.google.com/
+          - generic [ref=e326]: Learn more
+    - generic [ref=e337]:
+      - heading "Find the answers you need" [level=2] [ref=e339]
+      - generic [ref=e340]:
+        - generic [ref=e343]:
+          - button "Expand all" [ref=e348] [cursor=pointer]:
+            - generic [ref=e349]: Expand all unfold_more
+          - list [ref=e350]:
+            - generic:
+              - listitem [ref=e351]:
+                - group [ref=e353]:
+                  - heading "How does Gmail keep my email communications secure and private?" [level=3] [ref=e355] [cursor=pointer]
+                  - paragraph [ref=e360]: Gmail has always had strong security as a foundation. We work hard to protect you from spam, phishing, and malware, before they reach your inbox. Our AI-enhanced spam-filtering capabilities block nearly 10 million spam emails every minute.
+              - listitem [ref=e361]:
+                - group [ref=e363]:
+                  - heading "Do you use my email for ads?" [level=3] [ref=e365] [cursor=pointer]
+              - listitem [ref=e368]:
+                - group [ref=e370]:
+                  - heading "How can I keep my emails even more safe and secure?" [level=3] [ref=e372] [cursor=pointer]
+              - listitem [ref=e375]:
+                - group [ref=e377]:
+                  - heading "What if I want to use Gmail for work or my business?" [level=3] [ref=e379] [cursor=pointer]
+        - generic [ref=e384]:
+          - heading "Need more help?" [level=3] [ref=e385]
+          - generic [ref=e386]:
+            - paragraph [ref=e387]: Browse tips and step-by-step guides made for both new users and power users.
+            - link "Visit the Gmail help center" [ref=e389] [cursor=pointer]:
+              - /url: https://support.google.com/mail/?hl=en#topic=7065107
+              - generic [ref=e390]: Help Center
+    - generic [ref=e398]:
+      - img "Gmail icon" [ref=e401]
+      - generic [ref=e403]:
+        - heading "Show the world how it’s done." [level=2] [ref=e404]
+        - paragraph [ref=e405]: Get started with a more powerful Gmail.
+        - generic [ref=e406]:
+          - group [ref=e409]:
+            - generic "Create an account" [ref=e410] [cursor=pointer]
+          - link "Visit the Gmail product page" [ref=e417] [cursor=pointer]:
+            - /url: https://workspace.google.com/products/gmail/?from=gafb-gmail_asw-def-en
+            - generic [ref=e418]: For work
+  - contentinfo [ref=e422]:
+    - generic [ref=e423]:
+      - generic [ref=e426]:
+        - paragraph [ref=e428]:
+          - text: Follow our
+          - link "Open the Blog page" [ref=e430] [cursor=pointer]:
+            - /url: https://workspace.google.com/blog/
+            - text: Blog
+        - list [ref=e431]:
+          - listitem [ref=e432]:
+            - link "Open the footer social links X page in a new tab" [ref=e433] [cursor=pointer]:
+              - /url: https://x.com/googleworkspace
+              - img "Follow us on X" [ref=e435]
+          - listitem [ref=e436]:
+            - link "Open the footer social links YouTube page in a new tab" [ref=e437] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCBmwzQnSoj9b6HzNmFrg_yw/
+              - img "YouTube" [ref=e439]
+          - listitem [ref=e440]:
+            - link "Open the footer social links LinkedIn page in a new tab" [ref=e441] [cursor=pointer]:
+              - /url: https://www.linkedin.com/showcase/googleworkspace/
+              - img "LinkedIn" [ref=e443]
+          - listitem [ref=e444]:
+            - link "Open the footer social links Instagram page in a new tab" [ref=e445] [cursor=pointer]:
+              - /url: https://www.instagram.com/googleworkspace/
+              - img "Instagram" [ref=e447]
+          - listitem [ref=e448]:
+            - link "Open the footer social links Facebook page in a new tab" [ref=e449] [cursor=pointer]:
+              - /url: https://www.facebook.com/googleworkspace/
+              - img "Facebook" [ref=e451]
+          - listitem [ref=e452]:
+            - link "Open the footer social links TikTok page in a new tab" [ref=e453] [cursor=pointer]:
+              - /url: https://goo.gle/3xj0b2F
+              - img "TikTok" [ref=e455]
+      - generic [ref=e456]:
+        - generic [ref=e457]:
+          - img "Google" [ref=e460]
+          - list [ref=e461]:
+            - listitem [ref=e462]:
+              - link "Open the Privacy page in a new tab" [ref=e463] [cursor=pointer]:
+                - /url: https://policies.google.com/privacy?hl=en_us
+                - text: Privacy
+            - listitem [ref=e464]:
+              - link "Open the Terms page in a new tab" [ref=e465] [cursor=pointer]:
+                - /url: https://policies.google.com/terms?hl=en_us
+                - text: Terms
+            - listitem [ref=e466]:
+              - link "Open the About Google page in a new tab" [ref=e467] [cursor=pointer]:
+                - /url: https://about.google/?hl=en_us
+                - text: About Google
+            - listitem [ref=e468]:
+              - link "Open the Google Products page in a new tab" [ref=e469] [cursor=pointer]:
+                - /url: https://www.google.com/intl/en_us/about/products/?from=gafb-gmail_asw-def-en
+                - text: Google Products
+            - listitem [ref=e470]:
+              - link "Open the Help page in a new tab" [ref=e471] [cursor=pointer]:
+                - /url: https://support.google.com/workspace/?hl=en_us
+                - text: Help
+          - generic [ref=e472]:
+            - link "Open the Help page in a new tab" [ref=e474] [cursor=pointer]:
+              - /url: https://support.google.com/a
+              - generic [ref=e478]: Help
+            - button "English Change Language" [ref=e481] [cursor=pointer]:
+              - generic [ref=e485]:
+                - generic [ref=e486]: English
+                - generic [ref=e488]: Change Language
+        - region "Language List":
+          - generic [ref=e489]:
+            - link "Open the Bahasa Indonesia locale page" [ref=e490] [cursor=pointer]:
+              - /url: /intl/id/gmail/
+              - text: Bahasa Indonesia
+            - link "Open the Čeština locale page" [ref=e491] [cursor=pointer]:
+              - /url: /intl/cs/gmail/
+              - text: Čeština
+            - link "Open the Dansk locale page" [ref=e492] [cursor=pointer]:
+              - /url: /intl/da/gmail/
+              - text: Dansk
+            - link "Open the Deutsch locale page" [ref=e493] [cursor=pointer]:
+              - /url: /intl/de/gmail/
+              - text: Deutsch
+            - link "Open the Deutsch – Schweiz locale page" [ref=e494] [cursor=pointer]:
+              - /url: /intl/de_ch/gmail/
+              - text: Deutsch – Schweiz
+            - generic [ref=e495]: English
+            - link "Open the English – Australia locale page" [ref=e496] [cursor=pointer]:
+              - /url: /intl/en_au/gmail/
+              - text: English – Australia
+            - link "Open the English – Canada locale page" [ref=e497] [cursor=pointer]:
+              - /url: /intl/en_ca/gmail/
+              - text: English – Canada
+            - link "Open the English – India locale page" [ref=e498] [cursor=pointer]:
+              - /url: /intl/en_in/gmail/
+              - text: English – India
+            - link "Open the English – Indonesia locale page" [ref=e499] [cursor=pointer]:
+              - /url: /intl/en_id/gmail/
+              - text: English – Indonesia
+            - link "Open the English – Ireland locale page" [ref=e500] [cursor=pointer]:
+              - /url: /intl/en_ie/gmail/
+              - text: English – Ireland
+            - link "Open the English – Malaysia locale page" [ref=e501] [cursor=pointer]:
+              - /url: /intl/en_my/gmail/
+              - text: English – Malaysia
+            - link "Open the English – New Zealand locale page" [ref=e502] [cursor=pointer]:
+              - /url: /intl/en_nz/gmail/
+              - text: English – New Zealand
+            - link "Open the English – Philippines locale page" [ref=e503] [cursor=pointer]:
+              - /url: /intl/en_ph/gmail/
+              - text: English – Philippines
+            - link "Open the English – Singapore locale page" [ref=e504] [cursor=pointer]:
+              - /url: /intl/en_sg/gmail/
+              - text: English – Singapore
+            - link "Open the English – South Africa locale page" [ref=e505] [cursor=pointer]:
+              - /url: /intl/en_za/gmail/
+              - text: English – South Africa
+            - link "Open the English – United Kingdom locale page" [ref=e506] [cursor=pointer]:
+              - /url: /intl/en_uk/gmail/
+              - text: English – United Kingdom
+            - link "Open the Español locale page" [ref=e507] [cursor=pointer]:
+              - /url: /intl/es/gmail/
+              - text: Español
+            - link "Open the Español (Latinoamérica) locale page" [ref=e508] [cursor=pointer]:
+              - /url: /intl/es-419/gmail/
+              - text: Español (Latinoamérica)
+            - link "Open the Español (Latinoamérica) – Argentina locale page" [ref=e509] [cursor=pointer]:
+              - /url: /intl/es-419_ar/gmail/
+              - text: Español (Latinoamérica) – Argentina
+            - link "Open the Español (Latinoamérica) – Estados Unidos locale page" [ref=e510] [cursor=pointer]:
+              - /url: /intl/es-419_us/gmail/
+              - text: Español (Latinoamérica) – Estados Unidos
+            - link "Open the Español (Latinoamérica) – México locale page" [ref=e511] [cursor=pointer]:
+              - /url: /intl/es-419_mx/gmail/
+              - text: Español (Latinoamérica) – México
+            - link "Open the Français locale page" [ref=e512] [cursor=pointer]:
+              - /url: /intl/fr/gmail/
+              - text: Français
+            - link "Open the Français – Canada locale page" [ref=e513] [cursor=pointer]:
+              - /url: /intl/fr_ca/gmail/
+              - text: Français – Canada
+            - link "Open the Français – Suisse locale page" [ref=e514] [cursor=pointer]:
+              - /url: /intl/fr_ch/gmail/
+              - text: Français – Suisse
+            - link "Open the Italiano locale page" [ref=e515] [cursor=pointer]:
+              - /url: /intl/it/gmail/
+              - text: Italiano
+            - link "Open the Magyar locale page" [ref=e516] [cursor=pointer]:
+              - /url: /intl/hu/gmail/
+              - text: Magyar
+            - link "Open the Nederlands locale page" [ref=e517] [cursor=pointer]:
+              - /url: /intl/nl/gmail/
+              - text: Nederlands
+            - link "Open the Norsk locale page" [ref=e518] [cursor=pointer]:
+              - /url: /intl/no/gmail/
+              - text: Norsk
+            - link "Open the Polski locale page" [ref=e519] [cursor=pointer]:
+              - /url: /intl/pl/gmail/
+              - text: Polski
+            - link "Open the Português (Brasil) locale page" [ref=e520] [cursor=pointer]:
+              - /url: /intl/pt-BR/gmail/
+              - text: Português (Brasil)
+            - link "Open the Português (Portugal) locale page" [ref=e521] [cursor=pointer]:
+              - /url: /intl/pt-PT/gmail/
+              - text: Português (Portugal)
+            - link "Open the Suomi locale page" [ref=e522] [cursor=pointer]:
+              - /url: /intl/fi/gmail/
+              - text: Suomi
+            - link "Open the Svenska locale page" [ref=e523] [cursor=pointer]:
+              - /url: /intl/sv/gmail/
+              - text: Svenska
+            - link "Open the Tiếng Việt locale page" [ref=e524] [cursor=pointer]:
+              - /url: /intl/vi/gmail/
+              - text: Tiếng Việt
+            - link "Open the Türkçe locale page" [ref=e525] [cursor=pointer]:
+              - /url: /intl/tr/gmail/
+              - text: Türkçe
+            - link "Open the Русский locale page" [ref=e526] [cursor=pointer]:
+              - /url: /intl/ru/gmail/
+              - text: Русский
+            - link "Open the Українська locale page" [ref=e527] [cursor=pointer]:
+              - /url: /intl/uk/gmail/
+              - text: Українська
+            - link "Open the עברית locale page" [ref=e528] [cursor=pointer]:
+              - /url: /intl/iw/gmail/
+              - text: עברית
+            - link "Open the العربية locale page" [ref=e529] [cursor=pointer]:
+              - /url: /intl/ar/gmail/
+              - text: العربية
+            - link "Open the العربية – مصر locale page" [ref=e530] [cursor=pointer]:
+              - /url: /intl/ar_eg/gmail/
+              - text: العربية – مصر
+            - link "Open the فارسی locale page" [ref=e531] [cursor=pointer]:
+              - /url: /intl/fa/gmail/
+              - text: فارسی
+            - link "Open the ไทย locale page" [ref=e532] [cursor=pointer]:
+              - /url: /intl/th/gmail/
+              - text: ไทย
+            - link "Open the 한국어 locale page" [ref=e533] [cursor=pointer]:
+              - /url: /intl/ko/gmail/
+              - text: 한국어
+            - link "Open the 中文 (香港) locale page" [ref=e534] [cursor=pointer]:
+              - /url: /intl/zh-HK/gmail/
+              - text: 中文 (香港)
+            - link "Open the 中文（简体中文） locale page" [ref=e535] [cursor=pointer]:
+              - /url: /intl/zh-CN/gmail/
+              - text: 中文（简体中文）
+            - link "Open the 中文（繁體中文） locale page" [ref=e536] [cursor=pointer]:
+              - /url: /intl/zh-TW/gmail/
+              - text: 中文（繁體中文）
+            - link "Open the 日本語 locale page" [ref=e537] [cursor=pointer]:
+              - /url: /intl/ja/gmail/
+              - text: 日本語

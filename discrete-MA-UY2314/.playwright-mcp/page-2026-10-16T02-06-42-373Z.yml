@@ -1,0 +1,1062 @@
+- generic [ref=e1]:
+  - generic [ref=e5]:
+    - generic [ref=e9]:
+      - generic [ref=e10]:
+        - paragraph [ref=e15]: Pragun
+        - button "Collapse sidebar" [expanded] [ref=e18] [cursor=pointer]
+      - navigation [ref=e22]:
+        - generic [ref=e23]:
+          - list "Main Menu" [ref=e25]:
+            - listitem [ref=e26]:
+              - link "HOME" [ref=e28] [cursor=pointer]:
+                - /url: https://www.cengage.com/dashboard/home
+                - generic [aria-hidden] [ref=e31]: HOME
+            - listitem [ref=e32]:
+              - link "PROFILE (opens in a new tab)" [ref=e34] [cursor=pointer]:
+                - /url: https://account.cengage.com/profile/profile-data
+                - generic [aria-hidden] [ref=e37]: PROFILE
+            - listitem [ref=e38]:
+              - link "ORDERS" [ref=e40] [cursor=pointer]:
+                - /url: https://www.cengage.com/dashboard/my-orders
+                - generic [aria-hidden] [ref=e43]: ORDERS
+            - listitem [ref=e44]:
+              - link "RENTALS" [ref=e46] [cursor=pointer]:
+                - /url: https://www.cengage.com/dashboard/rentals
+                - generic [aria-hidden] [ref=e49]: RENTALS
+            - listitem [ref=e50]:
+              - button "EXPAND COURSES" [ref=e53] [cursor=pointer]:
+                - generic [ref=e54]: COURSES
+          - list "Study tools and tips" [ref=e62]:
+            - listitem [ref=e63]:
+              - link "Study Tools" [ref=e65] [cursor=pointer]:
+                - /url: https://www.cengage.com/dashboard/explore-catalog
+                - generic [aria-hidden] [ref=e68]: Study Tools
+            - listitem [ref=e69]:
+              - link "College Success Tips" [ref=e71] [cursor=pointer]:
+                - /url: https://www.cengage.com/dashboard/college-success
+                - generic [aria-hidden] [ref=e74]: College Success Tips
+            - listitem [ref=e75]:
+              - link "Career Success Tips" [ref=e77] [cursor=pointer]:
+                - /url: https://www.cengage.com/dashboard/career-center
+                - generic [aria-hidden] [ref=e80]: Career Success Tips
+          - link "Help (opens in a new tab)" [ref=e84] [cursor=pointer]:
+            - /url: https://cengageorg.my.site.com/Service/s/
+            - generic [aria-hidden] [ref=e87]: Help
+        - button "Sign Out" [ref=e89] [cursor=pointer]
+    - generic [ref=e94]:
+      - navigation "Mindtap menu" [ref=e97]:
+        - img "Cengage MindTap" [ref=e99]
+        - generic [ref=e100]:
+          - text: 
+          - button "Search this course" [ref=e101] [cursor=pointer]:
+            - generic [ref=e102]:
+              - generic [ref=e103]: 
+              - text: Search this course
+          - text:  
+          - generic [ref=e104]:
+            - generic [ref=e106]:
+              - button " Help & Info" [ref=e107] [cursor=pointer]:
+                - generic [ref=e108]:
+                  - generic [ref=e109]: 
+                  - generic [ref=e110]: Help & Info
+              - text:    
+            - text:     
+      - generic [ref=e112]:
+        - generic [ref=e115]:
+          - generic [ref=e116]:
+            - 'heading "Chapter 4: Elementary Number Theory and Methods of Proof" [level=1] [ref=e117]'
+            - 'button "Close Chapter 4: Elementary Number Theory and Methods of Proof" [ref=e118] [cursor=pointer]':
+              - generic [ref=e119]: 
+          - iframe [active] [ref=e122]:
+            - generic [ref=f1e2]:
+              - generic [ref=f1e3]:
+                - button "Chapter contents" [ref=f1e4132] [cursor=pointer]
+                - generic [ref=f1e6]:
+                  - button "Listen to this page using ReadSpeaker" [ref=f1e9]
+                  - button "Fonts menu" [ref=f1e11] [cursor=pointer]
+                  - generic "Bookmark this Page" [ref=f1e14] [cursor=pointer]:
+                    - button "Bookmark" [ref=f1e15]
+                  - button "Print" [ref=f1e18] [cursor=pointer]
+                  - button "Help" [ref=f1e19] [cursor=pointer]:
+                    - generic [ref=f1e20]: help
+                - generic:
+                  - link "Main content" [ref=f1e21] [cursor=pointer]:
+                    - /url: "#header"
+                  - button "Previous Page" [ref=f1e22] [cursor=pointer]:
+                    - generic [ref=f1e23]: 
+                  - button "Next Page" [active] [ref=f1e24] [cursor=pointer]:
+                    - generic [ref=f1e25]: 
+                - document [ref=f1e26]:
+                  - generic [ref=f1e27]:
+                    - generic [ref=f1e4136]:
+                      - heading "div and mod" [level=2] [ref=f1e4138]
+                      - generic [ref=f1e4140]:
+                        - paragraph [ref=f1e4141]:
+                          - text: A number of computer languages have built-in functions that enable you to compute values of the quotients and remainders for the quotient-remainder theorem. In Python
+                          - generic [ref=f1e4142]: "n"
+                          - emphasis [ref=f1e4146]: div
+                          - generic [ref=f1e4147]: d
+                          - text: is written
+                          - generic [ref=f1e4151]: n//d
+                          - text: and
+                          - generic [ref=f1e4155]: "n"
+                          - emphasis [ref=f1e4159]: mod
+                          - generic [ref=f1e4160]: d
+                          - text: is written
+                          - generic [ref=f1e4164]: n⁢%⁢d
+                          - text: ", and for all integer inputs both operators give the values that satisfy the quotient-remainder theorem. In"
+                          - generic [ref=f1e4168]: C
+                          - text: ","
+                          - generic [ref=f1e4172]: C#
+                          - text: ", and Java,"
+                          - generic [ref=f1e4176]: "n"
+                          - emphasis [ref=f1e4180]: div
+                          - generic [ref=f1e4181]: d
+                          - text: is written
+                          - generic [ref=f1e4185]: n/d
+                          - text: and
+                          - generic [ref=f1e4189]: "n"
+                          - emphasis [ref=f1e4193]: mod
+                          - generic [ref=f1e4194]: d
+                          - text: is written
+                          - generic [ref=f1e4198]: n⁢%⁢d
+                          - text: . For all nonnegative integer inputs for
+                          - generic [ref=f1e4202]: "n"
+                          - text: and positive integer inputs for
+                          - generic [ref=f1e4206]: d
+                          - text: ", both operators give the values that satisfy the quotient-remainder theorem, but for negative integer inputs for"
+                          - generic [ref=f1e4210]: "n"
+                          - text: or
+                          - generic [ref=f1e4214]: d
+                          - text: the resulting values differ from their mathematical counterparts.
+                        - generic [ref=f1e4218]:
+                          - generic [ref=f1e4219]: Definition
+                          - generic [ref=f1e4221]:
+                            - paragraph [ref=f1e4222]:
+                              - text: Given an integer
+                              - generic [ref=f1e4223]: "n"
+                              - text: and a positive integer
+                              - generic [ref=f1e4227]: d
+                              - text: ","
+                            - generic [ref=f1e4237]:
+                              - generic [ref=f1e4238]:
+                                - generic [ref=f1e4239]: n div d
+                                - generic [ref=f1e4240]: =
+                                - generic [ref=f1e4241]: the integer quotient obtained
+                              - generic [ref=f1e4242]: when⁢n⁢is divided by⁢d, and
+                              - generic [ref=f1e4244]:
+                                - generic [ref=f1e4245]: n mod d
+                                - generic [ref=f1e4246]: =
+                                - generic [ref=f1e4247]: the nonnegative integer remainder obtained
+                              - generic [ref=f1e4248]: when⁢n⁢is divided by⁢d⁢.
+                            - paragraph [ref=f1e4250]:
+                              - text: Symbolically, if
+                              - generic [ref=f1e4251]: "n"
+                              - text: and
+                              - generic [ref=f1e4255]: d
+                              - text: are integers and
+                              - generic [ref=f1e4259]: d>0
+                              - text: ", then"
+                            - generic [ref=f1e4263]: n div d=qandn mod d=r⇔n=dq+r,
+                            - paragraph [ref=f1e4269]:
+                              - text: where
+                              - generic [ref=f1e4270]: q
+                              - text: and
+                              - generic [ref=f1e4274]: r
+                              - text: are integers and
+                              - generic [ref=f1e4278]: 0≤r<d
+                              - text: .
+                        - generic [ref=f1e4282]:
+                          - generic [ref=f1e4283]: Note
+                          - paragraph [ref=f1e4286]:
+                            - text: In 1801 Carl Friedrich Gauss introduced the word
+                            - emphasis [ref=f1e4287]: modulus
+                            - text: and its abbreviation
+                            - emphasis [ref=f1e4288]: mod
+                            - text: with the meaning shown here.
+                        - paragraph [ref=f1e4289]:
+                          - text: It follows from the quotient-remainder theorem that
+                          - generic [ref=f1e4290]: "n"
+                          - emphasis [ref=f1e4294]: mod
+                          - generic [ref=f1e4295]: d
+                          - text: equals one of the integers from
+                          - generic [ref=f1e4299]: "0"
+                          - text: through
+                          - generic [ref=f1e4303]: d-1
+                          - text: (since the remainder of the division of
+                          - generic [ref=f1e4307]: "n"
+                          - text: by
+                          - generic [ref=f1e4311]: d
+                          - text: must be one of these integers). Also a necessary and sufficient condition for an integer
+                          - generic [ref=f1e4315]: "n"
+                          - text: to be divisible by an integer
+                          - generic [ref=f1e4319]: d
+                          - text: is that
+                          - generic [ref=f1e4323]: n mod d=0
+                          - text: . You are asked to prove this in the exercises at the end of this section.
+                        - generic [ref=f1e4327]:
+                          - generic [ref=f1e4328]:
+                            - generic [ref=f1e4329]: Example 4.5.2
+                            - heading [level=3] [ref=f1e4330]:
+                              - text: Computing
+                              - emphasis [ref=f1e4331]: div
+                              - text: and
+                              - emphasis [ref=f1e4332]: mod
+                              - text: by Hand or with a Four-Function Calculator
+                          - paragraph [ref=f1e4333]:
+                            - text: Compute
+                            - generic [ref=f1e4334]: "32"
+                            - emphasis [ref=f1e4338]: div
+                            - generic [ref=f1e4339]: "9"
+                            - text: and
+                            - generic [ref=f1e4343]: "32"
+                            - emphasis [ref=f1e4347]: mod
+                            - generic [ref=f1e4348]: "9"
+                            - text: by hand or with a four-function calculator.
+                          - generic [ref=f1e4352]:
+                            - heading "Solution" [level=3] [ref=f1e4353]
+                            - paragraph [ref=f1e4354]: "Performing the division by hand gives the following results:"
+                            - img "32 divided by 9 yields 3 as quotient and 5 as remainder where, 3 is labeled, 32 divided by 8 and 5 is labeled 32 modulus of 9." [ref=f1e4359]
+                            - paragraph [ref=f1e4360]:
+                              - text: To use a four-function calculator to compute
+                              - generic [ref=f1e4361]: "n"
+                              - emphasis [ref=f1e4365]: div
+                              - generic [ref=f1e4366]: d
+                              - text: for a nonnegative integer
+                              - generic [ref=f1e4370]: "n"
+                              - text: and a positive integer
+                              - generic [ref=f1e4374]: d
+                              - text: ", just divide"
+                              - generic [ref=f1e4378]: "n"
+                              - text: by
+                              - generic [ref=f1e4382]: d
+                              - text: and ignore the part of the answer to the right of the decimal point. To compute
+                              - generic [ref=f1e4386]: "n"
+                              - emphasis [ref=f1e4390]: mod
+                              - generic [ref=f1e4391]: d
+                              - text: ", substitute"
+                              - generic [ref=f1e4395]: "n"
+                              - emphasis [ref=f1e4399]: div
+                              - generic [ref=f1e4400]: d
+                              - text: in place of
+                              - generic [ref=f1e4404]: q
+                              - text: and
+                              - generic [ref=f1e4408]: "n"
+                              - emphasis [ref=f1e4412]: mod
+                              - generic [ref=f1e4413]: d
+                              - text: in place of
+                              - generic [ref=f1e4417]: r
+                              - text: in the equation
+                              - generic [ref=f1e4421]: n=dq+r
+                              - text: . The result is
+                            - generic [ref=f1e4425]: n=d⋅(n div d)+n mod d⁢.
+                            - paragraph [ref=f1e4431]:
+                              - text: Solving for
+                              - generic [ref=f1e4432]: "n"
+                              - emphasis [ref=f1e4436]: mod
+                              - generic [ref=f1e4437]: d
+                              - text: gives
+                            - generic [ref=f1e4441]: n mod d=n-d⋅(n div d)⁢.
+                            - paragraph [ref=f1e4447]:
+                              - text: Thus when you use a four-function calculator to divide
+                              - generic [ref=f1e4448]: "32"
+                              - text: by
+                              - generic [ref=f1e4452]: "9"
+                              - text: ", you obtain an expression like"
+                              - generic [ref=f1e4456]: "3.555555556"
+                              - text: . Discarding the fractional part gives
+                              - generic [ref=f1e4460]: 32⁢div⁢9=3
+                              - text: ", and so"
+                            - generic [ref=f1e4464]: 32⁢mod⁢9=32-9⋅(32⁢div⁢9)=32-27=5⁢.
+                        - generic [ref=f1e4470]:
+                          - generic [ref=f1e4471]:
+                            - generic [ref=f1e4472]: Example 4.5.3
+                            - heading "Computing the Day of the Week" [level=3] [ref=f1e4473]
+                          - paragraph [ref=f1e4474]:
+                            - text: Suppose today is Tuesday, and neither this year nor next year is a leap year. What day of the week will it be
+                            - generic [ref=f1e4475]:
+                              - generic [ref=f1e4476]: "1"
+                              - text: year
+                            - text: from today?
+                          - generic [ref=f1e4479]:
+                            - heading "Solution" [level=3] [ref=f1e4480]
+                            - paragraph [ref=f1e4481]:
+                              - text: There are
+                              - generic [ref=f1e4482]:
+                                - generic [ref=f1e4483]: "365"
+                                - text: days
+                              - text: in a year that is not a leap year, and each week has
+                              - generic [ref=f1e4486]:
+                                - generic [ref=f1e4487]: "7"
+                                - text: days
+                              - text: .
+                            - paragraph [ref=f1e4490]: Now
+                            - generic [ref=f1e4491]: 365⁢div⁢7=52and365⁢mod⁢7=1
+                            - paragraph [ref=f1e4497]:
+                              - text: because
+                              - generic [ref=f1e4498]: 365=52⋅7+1
+                              - text: . Thus
+                              - generic [ref=f1e4502]:
+                                - generic [ref=f1e4503]: "52"
+                                - text: weeks
+                              - text: ", or"
+                              - generic [ref=f1e4506]:
+                                - generic [ref=f1e4507]: "364"
+                                - text: days
+                              - text: ", from today will be a Tuesday, and so"
+                              - generic [ref=f1e4510]:
+                                - generic [ref=f1e4511]: "365"
+                                - text: days
+                              - text: from today will be
+                              - generic [ref=f1e4514]:
+                                - generic [ref=f1e4515]: "1"
+                                - text: day
+                              - text: later, namely, Wednesday.
+                            - paragraph [ref=f1e4518]:
+                              - text: More generally, if
+                              - emphasis [ref=f1e4519]: DayT
+                              - text: is the day of the week today and
+                              - emphasis [ref=f1e4520]: DayN
+                              - text: is the day of the week in
+                              - generic [ref=f1e4521]: "N"
+                              - text: days, then
+                            - generic [ref=f1e4525]:
+                              - generic [ref=f1e4526]: DayN=(DayT+N)mod⁢7,
+                              - generic [ref=f1e4531]: 4.5.1
+                            - paragraph [ref=f1e4532]:
+                              - text: where
+                              - generic [ref=f1e4533]: Sunday=0
+                              - text: ","
+                              - generic [ref=f1e4537]: Monday=1,…, Saturday=6
+                              - text: .
+                        - generic [ref=f1e4541]:
+                          - generic [ref=f1e4542]:
+                            - generic [ref=f1e4543]: Example 4.5.4
+                            - heading [level=3] [ref=f1e4544]:
+                              - text: Solving Problems about
+                              - emphasis [ref=f1e4545]: mod
+                          - list [ref=f1e4546]:
+                            - listitem [ref=f1e4547]:
+                              - paragraph [ref=f1e4548]:
+                                - text: Prove that if
+                                - generic [ref=f1e4549]: "n"
+                                - text: is a positive integer, then
+                                - generic [ref=f1e4553]: "n"
+                                - emphasis [ref=f1e4557]: mod
+                                - generic [ref=f1e4558]: "10"
+                                - text: is the digit in the ones place in the decimal representation for
+                                - generic [ref=f1e4562]: "n"
+                                - text: . (See
+                                - link "Section 2.5" [ref=f1e4566] [cursor=pointer]:
+                                  - /url: javascript://
+                                - text: or the preamble to
+                                - link "exercises 44" [ref=f1e4567] [cursor=pointer]:
+                                  - /url: javascript://
+                                - text: ","
+                                - link "45" [ref=f1e4568] [cursor=pointer]:
+                                  - /url: javascript://
+                                - text: ","
+                                - link "46" [ref=f1e4569] [cursor=pointer]:
+                                  - /url: javascript://
+                                - text: ","
+                                - link "47" [ref=f1e4570] [cursor=pointer]:
+                                  - /url: javascript://
+                                - text: ","
+                                - link "48" [ref=f1e4571] [cursor=pointer]:
+                                  - /url: javascript://
+                                - text: ", and"
+                                - link "49" [ref=f1e4572] [cursor=pointer]:
+                                  - /url: javascript://
+                                - text: in
+                                - link "Section 4.4" [ref=f1e4573] [cursor=pointer]:
+                                  - /url: javascript://
+                                - text: for discussion about the decimal representation of integers.)
+                            - listitem [ref=f1e4574]:
+                              - paragraph [ref=f1e4575]:
+                                - text: Suppose
+                                - generic [ref=f1e4576]: m
+                                - text: is an integer. If
+                                - generic [ref=f1e4580]: m mod⁢11=6
+                                - text: ", what is"
+                                - generic [ref=f1e4584]: 4m
+                                - emphasis [ref=f1e4588]: mod
+                                - generic [ref=f1e4589]: "11"
+                                - text: "?"
+                          - generic [ref=f1e4593]:
+                            - heading "Solution" [level=3] [ref=f1e4594]
+                            - list [ref=f1e4595]:
+                              - listitem [ref=f1e4596]:
+                                - paragraph [ref=f1e4597]:
+                                  - strong [ref=f1e4598]: "Proof:"
+                                  - text: Suppose
+                                  - generic [ref=f1e4599]: "n"
+                                  - text: is any positive integer. The decimal representation for
+                                  - generic [ref=f1e4603]: "n"
+                                  - text: is
+                                  - generic [ref=f1e4610]:
+                                    - generic [ref=f1e4611]:
+                                      - text: d
+                                      - generic [ref=f1e4612]: k
+                                    - text: ⁢
+                                    - generic [ref=f1e4613]:
+                                      - text: d
+                                      - generic [ref=f1e4614]: k-1
+                                    - text: …
+                                    - generic [ref=f1e4615]:
+                                      - text: d
+                                      - generic [ref=f1e4616]: "2"
+                                    - text: ⁢
+                                    - generic [ref=f1e4617]:
+                                      - text: d
+                                      - generic [ref=f1e4618]: "1"
+                                    - text: ⁢
+                                    - generic [ref=f1e4619]: d0
+                                  - text: ", where"
+                                  - generic [ref=f1e4623]:
+                                    - generic [ref=f1e4624]: d0
+                                    - text: ","
+                                    - generic [ref=f1e4625]:
+                                      - generic [ref=f1e4626]: d
+                                      - text: "1"
+                                    - text: ","
+                                    - generic [ref=f1e4627]:
+                                      - generic [ref=f1e4628]: d
+                                      - text: "2"
+                                    - text: ",…,"
+                                    - generic [ref=f1e4629]:
+                                      - generic [ref=f1e4630]: d
+                                      - text: k
+                                  - text: are integers from
+                                  - generic [ref=f1e4631]: "0"
+                                  - text: to
+                                  - generic [ref=f1e4635]: "9"
+                                  - text: inclusive,
+                                  - generic [ref=f1e4642]:
+                                    - generic [ref=f1e4643]: dk
+                                    - text: ≠0
+                                  - text: unless
+                                  - generic [ref=f1e4644]: n=0
+                                  - text: and
+                                  - generic [ref=f1e4648]: k=0
+                                  - text: ","
+                                - generic [ref=f1e4657]:
+                                  - text: n=
+                                  - generic [ref=f1e4658]: dk
+                                  - text: ⋅
+                                  - generic [ref=f1e4659]:
+                                    - generic [ref=f1e4660]: "10"
+                                    - text: k
+                                  - text: +
+                                  - generic [ref=f1e4661]:
+                                    - text: d
+                                    - generic [ref=f1e4662]: k-1
+                                  - text: ⋅
+                                  - generic [ref=f1e4663]:
+                                    - generic [ref=f1e4664]: "10"
+                                    - generic [ref=f1e4665]: k-1
+                                  - text: +⋯+
+                                  - generic [ref=f1e4666]: d2
+                                  - text: ⋅
+                                  - generic [ref=f1e4667]:
+                                    - generic [ref=f1e4668]: "10"
+                                    - text: "2"
+                                  - text: +
+                                  - generic [ref=f1e4669]: d1
+                                  - text: ⋅10+
+                                  - generic [ref=f1e4670]: d0
+                                  - text: ⁢,
+                                - paragraph [ref=f1e4671]:
+                                  - text: and
+                                  - generic [ref=f1e4672]: d0
+                                  - text: is the digit in the ones place. Factoring out
+                                  - generic [ref=f1e4677]: "10"
+                                  - text: from all but the final term gives
+                                - generic [ref=f1e4686]:
+                                  - text: n=10⋅(
+                                  - generic [ref=f1e4687]: dk
+                                  - text: ⋅
+                                  - generic [ref=f1e4688]:
+                                    - generic [ref=f1e4689]: "10"
+                                    - generic [ref=f1e4690]: k-1
+                                  - text: +
+                                  - generic [ref=f1e4691]:
+                                    - text: d
+                                    - generic [ref=f1e4692]: k-1
+                                  - text: ⋅
+                                  - generic [ref=f1e4693]:
+                                    - generic [ref=f1e4694]: "10"
+                                    - generic [ref=f1e4695]: k-2
+                                  - text: +⋯+
+                                  - generic [ref=f1e4696]: d2
+                                  - text: ⋅
+                                  - generic [ref=f1e4697]:
+                                    - generic [ref=f1e4698]: "10"
+                                    - text: "1"
+                                  - text: +
+                                  - generic [ref=f1e4699]: d1
+                                  - text: )+
+                                  - generic [ref=f1e4700]: d0
+                                  - text: ⁢.
+                                - paragraph [ref=f1e4701]:
+                                  - text: Thus
+                                  - generic [ref=f1e4705]:
+                                    - text: n=10⋅(an integer)+
+                                    - generic [ref=f1e4706]: d0
+                                  - text: ", and so"
+                                  - generic [ref=f1e4710]:
+                                    - text: n mod⁢10=
+                                    - generic [ref=f1e4711]: d0
+                                  - text: ", which is the digit in the ones place in the decimal representation for"
+                                  - generic [ref=f1e4712]: "n"
+                                  - text: .
+                              - listitem [ref=f1e4716]:
+                                - paragraph [ref=f1e4717]:
+                                  - text: Because
+                                  - generic [ref=f1e4718]: m mod⁢11=6
+                                  - text: ", the remainder obtained when"
+                                  - generic [ref=f1e4722]: m
+                                  - text: is divided by
+                                  - generic [ref=f1e4726]: "11"
+                                  - text: is
+                                  - generic [ref=f1e4730]: "6"
+                                  - text: . This means that there is some integer
+                                  - generic [ref=f1e4734]: q
+                                  - text: so that
+                                - generic [ref=f1e4738]: m=11q+6⁢.
+                                - paragraph [ref=f1e4744]: Thus
+                                - generic [ref=f1e4745]: 4m=44q+24=44q+22+2=11(4q+2)+2.
+                                - paragraph [ref=f1e4751]:
+                                  - text: Since
+                                  - generic [ref=f1e4752]: 4q+2
+                                  - text: is an integer (because products and sums of integers are integers) and since
+                                  - generic [ref=f1e4756]: 2<11
+                                  - text: ", the remainder obtained when"
+                                  - generic [ref=f1e4760]: 4m
+                                  - text: is divided by
+                                  - generic [ref=f1e4764]: "11"
+                                  - text: is
+                                  - generic [ref=f1e4768]: "2"
+                                  - text: . Therefore,
+                                - generic [ref=f1e4772]: 4⁢m mod⁢11=2⁢.
+                    - generic [ref=f1e30]:
+                      - heading "Exercise Set 4.4" [level=1] [ref=f1e32]
+                      - generic "practice quiz" [ref=f1e36]:
+                        - generic "instructions" [ref=f1e37]:
+                          - paragraph [ref=f1e38]:
+                            - text: Give a reason for your answer in each of
+                            - link "1" [ref=f1e39] [cursor=pointer]:
+                              - /url: javascript://
+                            - text: ","
+                            - link "2" [ref=f1e40] [cursor=pointer]:
+                              - /url: javascript://
+                            - text: ","
+                            - link "3" [ref=f1e41] [cursor=pointer]:
+                              - /url: javascript://
+                            - text: ","
+                            - link "4" [ref=f1e42] [cursor=pointer]:
+                              - /url: javascript://
+                            - text: ","
+                            - link "5" [ref=f1e43] [cursor=pointer]:
+                              - /url: javascript://
+                            - text: ","
+                            - link "6" [ref=f1e44] [cursor=pointer]:
+                              - /url: javascript://
+                            - text: ","
+                            - link "7" [ref=f1e45] [cursor=pointer]:
+                              - /url: javascript://
+                            - text: ","
+                            - link "8" [ref=f1e46] [cursor=pointer]:
+                              - /url: javascript://
+                            - text: ","
+                            - link "9" [ref=f1e47] [cursor=pointer]:
+                              - /url: javascript://
+                            - text: ","
+                            - link "10" [ref=f1e48] [cursor=pointer]:
+                              - /url: javascript://
+                            - text: ","
+                            - link "11" [ref=f1e49] [cursor=pointer]:
+                              - /url: javascript://
+                            - text: ","
+                            - link "12" [ref=f1e50] [cursor=pointer]:
+                              - /url: javascript://
+                            - text: ", and"
+                            - link "13" [ref=f1e51] [cursor=pointer]:
+                              - /url: javascript://
+                            - text: . Assume that all variables represent integers.
+                        - list "short answer questions" [ref=f1e52]:
+                          - listitem [ref=f1e53]:
+                            - paragraph [ref=f1e54]: Is divisible by ?
+                            - generic [ref=f1e67] [cursor=pointer]:
+                              - generic: Answer
+                              - paragraph [ref=f1e68]: Yes,
+                          - listitem [ref=f1e81]:
+                            - paragraph [ref=f1e82]: Does ?
+                            - generic [ref=f1e92] [cursor=pointer]:
+                              - generic: Answer
+                              - paragraph [ref=f1e93]: Yes,
+                          - listitem [ref=f1e104]:
+                            - paragraph [ref=f1e105]: Does ?
+                          - listitem [ref=f1e113]:
+                            - paragraph [ref=f1e114]: Does divide ?
+                            - generic [ref=f1e142] [cursor=pointer]:
+                              - generic: Answer
+                              - paragraph [ref=f1e143]: Yes, , and is an integer because is an integer and sums and products of integers are integers.
+                          - listitem [ref=f1e213]:
+                            - paragraph [ref=f1e214]: Is divisible by ?
+                          - listitem [ref=f1e234]:
+                            - paragraph [ref=f1e235]: Is a multiple of ?
+                            - generic [ref=f1e247] [cursor=pointer]:
+                              - generic: Answer
+                              - paragraph [ref=f1e248]: No, , which is not an integer.
+                          - listitem [ref=f1e263]:
+                            - paragraph [ref=f1e264]: Is a factor of ?
+                            - generic [ref=f1e277] [cursor=pointer]:
+                              - generic: Answer
+                              - paragraph [ref=f1e278]: Yes, .
+                          - listitem [ref=f1e296]:
+                            - paragraph [ref=f1e297]: Is a multiple of ?
+                            - generic [ref=f1e315] [cursor=pointer]:
+                              - generic: Answer
+                              - paragraph [ref=f1e316]: Yes, , and is an integer because and are integers and sums and products of integers are integers.
+                          - listitem [ref=f1e359]:
+                            - paragraph [ref=f1e360]: Is a factor of ?
+                          - listitem [ref=f1e377]:
+                            - paragraph [ref=f1e378]: Does ?
+                            - generic [ref=f1e388] [cursor=pointer]:
+                              - generic: Answer
+                              - paragraph [ref=f1e389]: No, , which is not an integer.
+                          - listitem [ref=f1e404]:
+                            - paragraph [ref=f1e405]: Does ?
+                          - listitem [ref=f1e416]:
+                            - paragraph [ref=f1e417]: If , does divide ?
+                            - generic [ref=f1e441] [cursor=pointer]:
+                              - generic: Answer
+                              - paragraph [ref=f1e442]: Yes, , and is an integer because is an integer and sums and products of integers are integers.
+                          - listitem [ref=f1e513]:
+                            - paragraph [ref=f1e514]: If , does divide ?
+                          - listitem [ref=f1e538]:
+                            - paragraph [ref=f1e539]: Fill in the blanks in the following proof that for all integers and , if then .
+                            - paragraph [ref=f1e567]:
+                              - strong [ref=f1e568]: "Proof:"
+                              - text: Suppose and are any integers such that . By definition of divisibility, there exists an integer such that . By substitution,
+                            - paragraph [ref=f1e633]: Let . Then is an integer because , and both and are integers. Thus, by substitution, , where is an integer, and so by definition of divisibility, , as was to be shown.
+                            - generic [ref=f1e706] [cursor=pointer]:
+                              - generic: Answer
+                              - list [ref=f1e707]:
+                                - listitem [ref=f1e708]:
+                                  - generic: (a)
+                                  - paragraph [ref=f1e709]
+                                - listitem [ref=f1e717]:
+                                  - generic: (b)
+                                  - paragraph [ref=f1e718]
+                                - listitem [ref=f1e728]:
+                                  - generic: (c)
+                                  - paragraph [ref=f1e729]
+                                - listitem [ref=f1e736]:
+                                  - generic: (d)
+                                  - paragraph [ref=f1e737]
+                        - generic "instructions" [ref=f1e748]:
+                          - paragraph [ref=f1e749]:
+                            - text: Prove statements
+                            - link "15" [ref=f1e750] [cursor=pointer]:
+                              - /url: javascript://
+                            - text: and
+                            - link "16" [ref=f1e751] [cursor=pointer]:
+                              - /url: javascript://
+                            - text: directly from the definition of divisibility.
+                        - list "short answer questions" [ref=f1e752]:
+                          - listitem [ref=f1e753]:
+                            - paragraph [ref=f1e754]: For all integers , , and , if and then .
+                            - generic [ref=f1e795] [cursor=pointer]:
+                              - generic: Answer
+                              - paragraph [ref=f1e796]:
+                                - text: "Proof: Suppose , , and are any integers such that and ."
+                                - emphasis [ref=f1e826]: "[We must show that"
+                                - text: .
+                                - emphasis [ref=f1e838]: "]"
+                                - text: By definition of divides, and for some integers and . Then
+                              - paragraph [ref=f1e867]:
+                                - text: Let . Then is an integer (being a sum of integers), and thus where is an integer. By definition of divides, then,
+                                - emphasis [ref=f1e909]: "[as was to be shown]."
+                          - listitem [ref=f1e910]:
+                            - paragraph [ref=f1e911]: For all integers , , and , if and then .
+                            - generic [ref=f1e952] [cursor=pointer]:
+                              - generic: Answer
+                              - paragraph [ref=f1e953]:
+                                - emphasis [ref=f1e954]: "Hint:"
+                                - text: The conclusion to be shown is that a certain quantity is divisible by . To show this, you need to show that the quantity equals times some integer.
+                          - listitem [ref=f1e965]:
+                            - paragraph [ref=f1e966]: For all integers , , c, and , if and then .
+                          - listitem [ref=f1e1006]:
+                            - paragraph [ref=f1e1007]: "Consider the following statement: The negative of any multiple of is a multiple of ."
+                            - list [ref=f1e1018]:
+                              - listitem [ref=f1e1019]:
+                                - paragraph [ref=f1e1020]: Write the statement formally using a quantifier and a variable.
+                                - generic [ref=f1e1021] [cursor=pointer]:
+                                  - generic: Answer
+                                  - paragraph [ref=f1e1022]: integers if is a multiple of then is a multiple of .
+                              - listitem [ref=f1e1054]:
+                                - paragraph [ref=f1e1055]: Determine whether the statement is true or false and justify your answer.
+                                - generic [ref=f1e1056] [cursor=pointer]:
+                                  - generic: Answer
+                                  - paragraph [ref=f1e1057]:
+                                    - text: "The statement is true. Proof: Suppose is any integer that is a multiple of ."
+                                    - emphasis [ref=f1e1068]: "[We must show that"
+                                    - emphasis [ref=f1e1075]: is a multiple of
+                                    - text: .
+                                    - emphasis [ref=f1e1081]: "]"
+                                    - text: By definition of multiple, for some integer . Then
+                                  - paragraph [ref=f1e1095]:
+                                    - text: Now is an integer because is. Hence, by definition of multiple, is a multiple of
+                                    - emphasis [ref=f1e1118]: "[as was to be shown]"
+                                    - text: .
+                          - listitem [ref=f1e1119]:
+                            - paragraph [ref=f1e1120]: "Show that the following statement is false: For all integers and , if then ."
+                            - generic [ref=f1e1153] [cursor=pointer]:
+                              - generic: Answer
+                              - paragraph [ref=f1e1154]:
+                                - text: "Counterexample: Let and . Then , and so because . On the other hand, , and because is not an integer. Thus ."
+                                - emphasis [ref=f1e1244]: "[So the hypothesis of the statement is true and its conclusion is false.]"
+                        - generic "instructions" [ref=f1e1245]:
+                          - paragraph [ref=f1e1246]:
+                            - text: For each statement in
+                            - link "20" [ref=f1e1247] [cursor=pointer]:
+                              - /url: javascript://
+                            - text: ","
+                            - link "21" [ref=f1e1248] [cursor=pointer]:
+                              - /url: javascript://
+                            - text: ","
+                            - link "22" [ref=f1e1249] [cursor=pointer]:
+                              - /url: javascript://
+                            - text: ","
+                            - link "23" [ref=f1e1250] [cursor=pointer]:
+                              - /url: javascript://
+                            - text: ","
+                            - link "24" [ref=f1e1251] [cursor=pointer]:
+                              - /url: javascript://
+                            - text: ","
+                            - link "25" [ref=f1e1252] [cursor=pointer]:
+                              - /url: javascript://
+                            - text: ","
+                            - link "26" [ref=f1e1253] [cursor=pointer]:
+                              - /url: javascript://
+                            - text: ","
+                            - link "27" [ref=f1e1254] [cursor=pointer]:
+                              - /url: javascript://
+                            - text: ","
+                            - link "28" [ref=f1e1255] [cursor=pointer]:
+                              - /url: javascript://
+                            - text: ","
+                            - link "29" [ref=f1e1256] [cursor=pointer]:
+                              - /url: javascript://
+                            - text: ","
+                            - link "30" [ref=f1e1257] [cursor=pointer]:
+                              - /url: javascript://
+                            - text: ", and"
+                            - link "31" [ref=f1e1258] [cursor=pointer]:
+                              - /url: javascript://
+                            - text: ", determine whether the statement is true or false. Prove the statement directly from the definitions if it is true, and give a counterexample if it is false."
+                        - list "short answer questions" [ref=f1e1259]:
+                          - listitem [ref=f1e1260]:
+                            - paragraph [ref=f1e1261]: The sum of any three consecutive integers is divisible by .
+                            - generic [ref=f1e1267] [cursor=pointer]:
+                              - generic: Answer
+                              - paragraph [ref=f1e1268]:
+                                - emphasis [ref=f1e1269]: "Hint:"
+                                - text: The consecutive integers can be conveniently represented as , , and or as , , , where is an integer.
+                          - listitem [ref=f1e1313]:
+                            - paragraph [ref=f1e1314]: The product of any two even integers is a multiple of .
+                          - listitem [ref=f1e1320]:
+                            - paragraph [ref=f1e1321]: A necessary condition for an integer to be divisible by is that it be divisible by .
+                            - generic [ref=f1e1332] [cursor=pointer]:
+                              - generic: Answer
+                              - paragraph [ref=f1e1333]:
+                                - emphasis [ref=f1e1334]: "Hint:"
+                                - text: The given statement can be rewritten formally as “ integer. , if is divisible by then is divisible by .” This statement is true.
+                          - listitem [ref=f1e1365]:
+                            - paragraph [ref=f1e1366]: A sufficient condition for an integer to be divisible by is that it be divisible by .
+                          - listitem [ref=f1e1378]:
+                            - paragraph [ref=f1e1379]: For all integers , , and , if and then .
+                            - generic [ref=f1e1422] [cursor=pointer]:
+                              - generic: Answer
+                              - paragraph [ref=f1e1423]:
+                                - text: "The statement is true. Proof: Suppose , , and are any integers such that and ."
+                                - emphasis [ref=f1e1453]: "[We must show that"
+                                - text: .
+                                - emphasis [ref=f1e1467]: "]"
+                                - text: By definition of divisibility, we know that and for some integers and . It follows that . Let . Then is an integer because it is a difference of products of integers. Hence , where is an integer, and so by definition of divisibility
+                                - emphasis [ref=f1e1609]: "[as was to be shown]"
+                                - text: .
+                          - listitem [ref=f1e1610]:
+                            - paragraph [ref=f1e1611]: For all integers , , and , if is a factor of and is a factor of then is a factor of .
+                            - generic [ref=f1e1658] [cursor=pointer]:
+                              - generic: Answer
+                              - paragraph [ref=f1e1659]: "The statement is false. Counterexample: Let , , and . Then is a factor of because and is a factor of because , but and is not a factor of because for any integer since ."
+                          - listitem [ref=f1e1769]:
+                            - paragraph [ref=f1e1770]: For all integers , , and , if then and .
+                            - generic [ref=f1e1808] [cursor=pointer]:
+                              - generic: Answer
+                              - paragraph [ref=f1e1809]:
+                                - emphasis [ref=f1e1810]: "Hint:"
+                                - text: The statement is true.
+                          - listitem [ref=f1e1811]:
+                            - paragraph [ref=f1e1812]: For all integers , , and , if then or .
+                            - generic [ref=f1e1853] [cursor=pointer]:
+                              - generic: Answer
+                              - paragraph [ref=f1e1854]:
+                                - emphasis [ref=f1e1855]: "Hint:"
+                                - text: The statement is false.
+                          - listitem [ref=f1e1856]:
+                            - paragraph [ref=f1e1857]: For all integers , , and , if then or .
+                          - listitem [ref=f1e1896]:
+                            - paragraph [ref=f1e1897]: For all integers and , if then .
+                          - listitem [ref=f1e1925]:
+                            - paragraph [ref=f1e1926]: For all integers and , if and then .
+                          - listitem [ref=f1e1960]:
+                            - paragraph [ref=f1e1961]: For all integers and , if then or .
+                          - listitem [ref=f1e1998]:
+                            - paragraph [ref=f1e1999]: A fast-food chain has a contest in which a card with numbers on it is given to each customer who makes a purchase. If some of the numbers on the card add up to , then the customer wins . A certain customer receives a card containing the numbers
+                            - paragraph [ref=f1e2065]: Will the customer win ? Why or why not?
+                            - generic [ref=f1e2076] [cursor=pointer]:
+                              - generic: Answer
+                              - paragraph [ref=f1e2077]: No. Each of these numbers is divisible by , and so their sum is also divisible by . But is not divisible by . Thus the sum cannot equal .
+                          - listitem [ref=f1e2110]:
+                            - paragraph [ref=f1e2111]: Is it possible to have a combination of nickels, dimes, and quarters that add up to ? Explain.
+                          - listitem [ref=f1e2123]:
+                            - paragraph [ref=f1e2124]: Consider a string consisting of ’s, ’s, and ’s where the number of ’s is three times the number of ’s and the number of ’s is five times the number of ’s. Prove that the length of the string is divisible by .
+                          - listitem [ref=f1e2165]:
+                            - paragraph [ref=f1e2166]:
+                              - text: Two athletes run a circular track at a steady pace so that the first completes one round in
+                              - generic [ref=f1e2167]: minutes
+                              - text: and the second in
+                              - generic [ref=f1e2172]: minutes
+                              - text: . If they both start from the same spot at 4 p.m., when will be the first time they return to the start together?
+                          - listitem [ref=f1e2178]:
+                            - paragraph [ref=f1e2179]:
+                              - text: It can be shown (see
+                              - link "exercises 44" [ref=f1e2180] [cursor=pointer]:
+                                - /url: javascript://
+                              - text: ","
+                              - link "45" [ref=f1e2181] [cursor=pointer]:
+                                - /url: javascript://
+                              - text: ","
+                              - link "46" [ref=f1e2182] [cursor=pointer]:
+                                - /url: javascript://
+                              - text: ","
+                              - link "47" [ref=f1e2183] [cursor=pointer]:
+                                - /url: javascript://
+                              - text: ", and"
+                              - link "48" [ref=f1e2184] [cursor=pointer]:
+                                - /url: javascript://
+                              - text: ) that an integer is divisible by if, and only if, the sum of its digits is divisible by ; an integer is divisible by if, and only if, the sum of its digits is divisible by ; an integer is divisible by if, and only if, its right-most digit is a or a ; and an integer is divisible by if, and only if, the number formed by its right-most two digits is divisible by . Check the following integers for divisibility by , , , and .
+                            - list [ref=f1e2250]:
+                              - listitem [ref=f1e2251]:
+                                - paragraph [ref=f1e2252]
+                                - generic [ref=f1e2276] [cursor=pointer]:
+                                  - generic: Answer
+                                  - paragraph [ref=f1e2277]: The sum of the digits is , which is divisible by . Therefore, is divisible by and hence also divisible by (by transitivity of divisibility). Because the rightmost digit is , then is divisible by . And because the two rightmost digits are 25, which is not divisible by , then is not divisible by .
+                              - listitem [ref=f1e2388]:
+                                - paragraph [ref=f1e2389]
+                              - listitem [ref=f1e2412]:
+                                - paragraph [ref=f1e2413]
+                              - listitem [ref=f1e2437]:
+                                - paragraph [ref=f1e2438]
+                          - listitem [ref=f1e2461]:
+                            - paragraph [ref=f1e2462]: Use the unique factorization theorem to write the following integers in standard factored form.
+                            - list [ref=f1e2463]:
+                              - listitem [ref=f1e2464]:
+                                - paragraph [ref=f1e2465]
+                                - generic [ref=f1e2475] [cursor=pointer]:
+                                  - generic: Answer
+                                  - paragraph [ref=f1e2476]
+                              - listitem [ref=f1e2496]:
+                                - paragraph [ref=f1e2497]
+                              - listitem [ref=f1e2507]:
+                                - paragraph [ref=f1e2508]
+                          - listitem [ref=f1e2518]:
+                            - paragraph [ref=f1e2519]: Let .
+                            - list [ref=f1e2532]:
+                              - listitem [ref=f1e2533]:
+                                - paragraph [ref=f1e2534]: Write the prime factorization for .
+                                - generic [ref=f1e2540] [cursor=pointer]:
+                                  - generic: Answer
+                                  - paragraph [ref=f1e2541]
+                              - listitem [ref=f1e2563]:
+                                - paragraph [ref=f1e2564]: Write the prime factorization for .
+                              - listitem [ref=f1e2571]:
+                                - paragraph [ref=f1e2572]: Is divisible by ? Explain.
+                                - generic [ref=f1e2585] [cursor=pointer]:
+                                  - generic: Answer
+                                  - paragraph [ref=f1e2586]:
+                                    - emphasis [ref=f1e2587]: "Hint:"
+                                    - text: The answer is no. Note that each factor of is comprised of a factor of and a factor of .
+                              - listitem [ref=f1e2604]:
+                                - paragraph [ref=f1e2605]: What is the least positive integer so that is a perfect square?
+                                - generic [ref=f1e2622] [cursor=pointer]:
+                                  - generic: Answer
+                                  - paragraph [ref=f1e2623]:
+                                    - emphasis [ref=f1e2624]: "Hint:"
+                                    - text: The answer is . Note that in order for to be a perfect square, each prime factor must be raised to an even power.
+                          - listitem [ref=f1e2642]:
+                            - paragraph [ref=f1e2643]: Suppose that in standard factored form , where is a positive integer; are prime numbers; and are positive integers.
+                            - list [ref=f1e2706]:
+                              - listitem [ref=f1e2707]:
+                                - paragraph [ref=f1e2708]: What is the standard factored form for ?
+                              - listitem [ref=f1e2715]:
+                                - paragraph [ref=f1e2716]: Find the least positive integer such that is a perfect cube (that is, it equals an integer to the third power). Write the resulting product as a perfect cube.
+                          - listitem [ref=f1e2741]:
+                            - list [ref=f1e2742]:
+                              - listitem [ref=f1e2743]:
+                                - paragraph [ref=f1e2744]: If and are integers and , does ? does ? Explain.
+                                - generic [ref=f1e2783] [cursor=pointer]:
+                                  - generic: Answer
+                                  - paragraph [ref=f1e2784]: Because , the unique factorization theorem guarantees that the standard factored forms of and must be the same. Thus contains the factors . But since neither nor divides , the factors must all occur in , and hence . Similarly, contains the factors , and since is not a factor of , the factors must occur in . So .
+                              - listitem [ref=f1e2916]:
+                                - paragraph [ref=f1e2917]: If and are integers and , does ? does ? Explain.
+                          - listitem [ref=f1e2953]:
+                            - paragraph [ref=f1e2954]:
+                              - text: How many zeros are at the end of ? Explain how you can answer this question without actually computing the number. (
+                              - emphasis [ref=f1e2967]: "Hint:"
+                              - text: .)
+                            - generic [ref=f1e2978] [cursor=pointer]:
+                              - generic: Answer
+                              - paragraph [ref=f1e2979]:
+                                - emphasis [ref=f1e2980]: "Hint:"
+                                - text: . How many factors of does this number contain?
+                          - listitem [ref=f1e3042]:
+                            - paragraph [ref=f1e3043]: If is an integer and , then is the product of and every other positive integer that is less than . For example, .
+                            - list [ref=f1e3088]:
+                              - listitem [ref=f1e3089]:
+                                - paragraph [ref=f1e3090]: Write in standard factored form.
+                                - generic [ref=f1e3097] [cursor=pointer]:
+                                  - generic: Answer
+                                  - paragraph [ref=f1e3098]
+                              - listitem [ref=f1e3141]:
+                                - paragraph [ref=f1e3142]: Write in standard factored form.
+                              - listitem [ref=f1e3150]:
+                                - paragraph [ref=f1e3151]: Without computing the value of determine how many zeros are at the end of this number when it is written in decimal form. Justify your answer.
+                          - listitem [ref=f1e3163]:
+                            - paragraph [ref=f1e3164]: At a certain university of the mathematics students and of the computer science students have taken a discrete mathematics course. The number of mathematics students who have taken the course equals the number of computer science students who have taken the course. If there are at least mathematics students at the university, what are the least possible number of mathematics students and the least possible number of computer science students at the university?
+                            - generic [ref=f1e3191] [cursor=pointer]:
+                              - generic: Answer
+                              - paragraph [ref=f1e3192]:
+                                - emphasis [ref=f1e3193]: "Hint:"
+                                - text: There are mathematics students and computer science students at the university.
+                          - generic [ref=f1e3210]:
+                            - paragraph [ref=f1e3211]:
+                              - text: "Definition: Given any nonnegative integer , the"
+                              - strong [ref=f1e3217]: decimal representation
+                              - text: of is an expression of the form
+                            - paragraph [ref=f1e3249]:
+                              - text: where is a nonnegative integer, (called the
+                              - strong [ref=f1e3275]: decimal digits
+                              - text: of ) are integers from to inclusive, unless and , and
+                            - paragraph [ref=f1e3369]: (For example, .)
+                          - listitem [ref=f1e3401]:
+                            - paragraph [ref=f1e3402]:
+                              - text: Prove that if is any nonnegative integer whose decimal representation ends in , then . (
+                              - emphasis [ref=f1e3420]: "Hint:"
+                              - text: If the decimal representation of a nonnegative integer ends in , then for some integer .)
+                            - generic [ref=f1e3451] [cursor=pointer]:
+                              - generic: Answer
+                              - paragraph [ref=f1e3452]: "Proof: Suppose is a nonnegative integer whose decimal representation ends in . Then for some integer . Factoring out a yields , and is an integer since is an integer. Hence is divisible by , which is what was to be shown."
+                          - listitem [ref=f1e3529]:
+                            - paragraph [ref=f1e3530]: Prove that if is any nonnegative integer whose decimal representation ends in , then .
+                          - listitem [ref=f1e3548]:
+                            - paragraph [ref=f1e3549]:
+                              - text: Prove that if the decimal representation of a nonnegative integer ends in and if , then . (
+                              - emphasis [ref=f1e3589]: "Hint:"
+                              - text: If the decimal representation of a nonnegative integer ends in , then there is an integer such that .)
+                          - listitem [ref=f1e3631]:
+                            - paragraph [ref=f1e3632]: Observe that
+                            - paragraph [ref=f1e3888]:
+                              - text: Since the sum of the digits of is divisible by , can be written as a sum of two integers each of which is divisible by . It follows from
+                              - link "exercise 15" [ref=f1e3917] [cursor=pointer]:
+                                - /url: javascript://
+                              - text: that is divisible by .
+                            - paragraph [ref=f1e3932]: Generalize the argument given in this example to any nonnegative integer . In other words, prove that for any nonnegative integer , if the sum of the digits of is divisible by , then is divisible by .
+                            - generic [ref=f1e3963] [cursor=pointer]:
+                              - generic: Answer
+                              - paragraph [ref=f1e3964]:
+                                - emphasis [ref=f1e3965]: "Hint:"
+                                - text: You may take it as a fact that for any positive integer ,
+                          - listitem [ref=f1e3971]:
+                            - paragraph [ref=f1e3972]: Prove that for any nonnegative integer , if the sum of the digits of is divisible by , then is divisible by .
+                          - listitem [ref=f1e4003]:
+                            - paragraph [ref=f1e4004]: Given a positive integer written in decimal form, the alternating sum of the digits of is obtained by starting with the right-most digit, subtracting the digit immediately to its left, adding the next digit to the left, subtracting the next digit, and so forth. For example, the alternating sum of the digits of is . Justify the fact that for any nonnegative integer , if the alternating sum of the digits of is divisible by , then is divisible by .
+                          - listitem [ref=f1e4077]:
+                            - paragraph [ref=f1e4078]: The integer has the form , where , , and are integers from through . Consider all six-digit integers of this form. Which prime numbers divide every one of these integers? Prove your answer.
+                    - generic [ref=f1e4780]:
+                      - 'heading "4.5 Direct Proof and Counterexample V: Division into Cases and the Quotient-Remainder Theorem" [level=1] [ref=f1e4782]':
+                        - generic [ref=f1e4783]: "4.5"
+                        - generic [ref=f1e4784]: "Direct Proof and Counterexample V: Division into Cases and the Quotient-Remainder Theorem"
+                      - generic [ref=f1e4785]:
+                        - generic [ref=f1e4786]:
+                          - text: Be especially critical of any statement following the word “obviously.”
+                          - generic [ref=f1e4787]: — Anna Pell Wheeler, 1883–1966
+                        - paragraph [ref=f1e4788]: When you divide by , you get a quotient of and a remainder of .
+                        - img "A division reads, dividend 11 divided by the divisor 4. Multiplying 4 with 2, we get 8 and by subtracting it with the dividend, we get 3 as remainder. 2 is the quotient." [ref=f1e4814]
+                        - paragraph [ref=f1e4815]: "Another way to say this is that equals groups of with left over:"
+                        - img "2 rectangles with each rectangle consisting of three x's labeled, 2 groups of 4, and another group of 3 x's not in a rectangle and labeled, 3 left over." [ref=f1e4841]
+                        - paragraph [ref=f1e4842]: Or,
+                        - img "11 = 2 times 4 + 3, where 2 times 4 is labeled, 2 groups of 4 and 3 is labeled, 3 left over." [ref=f1e4847]
+                        - paragraph [ref=f1e4848]: The number left over (3) is less than the size of the groups (4) because if or more were left over, another group of could be formed.
+                        - paragraph [ref=f1e4859]: The quotient-remainder theorem says that when any integer is divided by any positive integer , the result is a quotient and a nonnegative integer remainder that is smaller than .
+                        - generic [ref=f1e4885]:
+                          - generic [ref=f1e4886]:
+                            - generic [ref=f1e4887]: Theorem 4.5.1
+                            - heading "The Quotient-Remainder Theorem" [level=3] [ref=f1e4888]
+                          - paragraph [ref=f1e4890]: Given any integer and positive integer , there exist unique integers and such that
+                        - paragraph [ref=f1e4935]:
+                          - text: The proof that there exist integers and with the given properties is in
+                          - link "Section 5.4" [ref=f1e4946] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: ; the proof that and are unique is outlined in
+                          - link "exercise 21" [ref=f1e4957] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: in
+                          - link "Section 4.8" [ref=f1e4958] [cursor=pointer]:
+                            - /url: javascript://
+                          - text: .
+                        - paragraph [ref=f1e4959]: "If is positive, the quotient-remainder theorem can be illustrated on the number line as follows:"
+                        - img "A number line from 0 to n, with entries 0, d, 2 d, 3 d, ellipsis, q d, n, where the interval between q d and n is labeled, r." [ref=f1e4969]
+                        - paragraph [ref=f1e4970]: "If is negative, the picture changes. Since , where is nonnegative, must be multiplied by a negative integer to bring either exactly to (in which case ) or to a point below (in which case the positive integer is added to bring back up to ). This is illustrated as follows:"
+                        - img "A number line from q d to 0, with entries q d, n, ellipsis, negative 3 d, negative 2 d, negative d, 0, where the interval between q d and n is labeled, r." [ref=f1e5047]
+                        - generic [ref=f1e5048]:
+                          - generic [ref=f1e5049]:
+                            - generic [ref=f1e5050]: Example 4.5.1
+                            - heading "The Quotient-Remainder Theorem" [level=3] [ref=f1e5051]
+                          - paragraph [ref=f1e5052]: For each of the following values of and , find integers and such that and .
+                          - list [ref=f1e5093]:
+                            - listitem [ref=f1e5094]:
+                              - paragraph [ref=f1e5095]: ","
+                            - listitem [ref=f1e5112]:
+                              - paragraph [ref=f1e5113]: ","
+                            - listitem [ref=f1e5131]:
+                              - paragraph [ref=f1e5132]: ","
+                          - generic [ref=f1e5151]:
+                            - heading "Solution" [level=3] [ref=f1e5152]
+                            - list [ref=f1e5153]:
+                              - listitem [ref=f1e5154]:
+                                - paragraph [ref=f1e5155]: ; hence and .
+                              - listitem [ref=f1e5186]:
+                                - paragraph [ref=f1e5187]: ; hence and .
+                              - listitem [ref=f1e5224]:
+                                - paragraph [ref=f1e5225]: ; hence and .
+              - generic [ref=f1e4128]:
+                - slider [ref=f1e4129]: "31"
+                - generic [ref=f1e4130] [cursor=pointer]
+        - menu [ref=e123]:
+          - navigation "Applications Menu" [ref=e124]:
+            - generic [ref=e125]:
+              - menuitem "My Notes, button" [ref=e126] [cursor=pointer]:
+                - img "My Notes" [ref=e127]
+              - menuitem "Full Book, button" [ref=e128] [cursor=pointer]:
+                - img "Full Book" [ref=e129]
+              - menuitem "ReadSpeaker, button" [ref=e130] [cursor=pointer]:
+                - img "ReadSpeaker" [ref=e131]
+              - menuitem "Glossary, button" [ref=e132] [cursor=pointer]:
+                - img "Glossary" [ref=e133]
+              - menuitem "Flashcards, button" [ref=e134] [cursor=pointer]:
+                - img "Flashcards" [ref=e135]
+  - text: Your computer is connected to the internet. Reconnect

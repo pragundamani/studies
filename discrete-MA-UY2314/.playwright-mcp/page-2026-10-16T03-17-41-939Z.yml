@@ -1,0 +1,1597 @@
+- generic [ref=f50e1]:
+  - generic [ref=f50e2]:
+    - generic [ref=f50e3]:
+      - generic [ref=f50e4]:
+        - link "Skip to content" [ref=f50e5] [cursor=pointer]:
+          - /url: ""
+        - link "Skip to navigation" [ref=f50e6] [cursor=pointer]:
+          - /url: ""
+      - generic [ref=f50e7]:
+        - banner [ref=f50e8]:
+          - generic [ref=f50e10]:
+            - button "Cengage WebAssign Homepage" [ref=f50e12] [cursor=pointer]:
+              - img "Cengage WebAssign Homepage" [ref=f50e13]
+            - generic [ref=f50e37]:
+              - generic [ref=f50e38]:
+                - link "My Cengage Home" [ref=f50e39] [cursor=pointer]:
+                  - /url: https://www.cengage.com/dashboard/
+                - button "Open Email Notification Settings modal" [ref=f50e44] [cursor=pointer]
+                - link "Open Help page in a new browser tab." [ref=f50e48] [cursor=pointer]:
+                  - /url: https://help.cengage.com/webassign/student_guide/
+                - link "Open My Account in a new browser tab." [ref=f50e52] [cursor=pointer]:
+                  - /url: /web/User/Cengage/my_account
+                - button "Interface language setting. Language set to English" [ref=f50e57] [cursor=pointer]:
+                  - generic [ref=f50e60]: EN
+              - generic [ref=f50e64]:
+                - generic [ref=f50e65]: pd2752@nyu.edu
+                - button "Sign out" [ref=f50e66] [cursor=pointer]
+          - navigation "WebAssign" [ref=f50e69]:
+            - link "Home" [ref=f50e70]
+            - link "My Assignments" [ref=f50e71]
+            - link "Grades" [ref=f50e72]
+            - link "Communication" [ref=f50e73]
+            - link "Calendar" [ref=f50e74]
+            - button "My eBooks" [ref=f50e77]
+        - main [ref=f50e80]:
+          - generic [ref=f50e81]:
+            - generic [ref=f50e82]:
+              - generic [ref=f50e84]:
+                - generic [ref=f50e85]:
+                  - 'link "navigate back to MA-UY 2314: Discrete Mathematics, Fall 2026, Fall 2026" [ref=f50e87] [cursor=pointer]':
+                    - /url: /v4cgi/student.pl?course=1319576,1715067
+                    - text: "MA-UY 2314: Discrete Mathematics, Fall 2026, Fall 2026"
+                  - heading "4.5 Direct Proof and Counterexample V (Homework)" [level=1] [ref=f50e90]
+                - generic [ref=f50e93]:
+                  - generic [ref=f50e97]:
+                    - text: Instructor
+                    - generic [ref=f50e98]: Ken Cereste
+                  - generic [ref=f50e99]: New York University
+              - generic [ref=f50e102]:
+                - generic [ref=f50e103]:
+                  - generic [ref=f50e104]:
+                    - generic [ref=f50e105]:
+                      - generic [ref=f50e106]: "Due Date: Tuesday, October 20, 2026 at 11:59 PM EDT"
+                      - generic [aria-hidden] [ref=f50e107]: "Due Date:"
+                      - generic [aria-hidden] [ref=f50e108]: Tue, Oct 20, 2026 11:59 PM EDT
+                    - generic [ref=f50e109]:
+                      - generic [ref=f50e110]: "Current Score: – / 100 Points 0.0%"
+                      - generic [aria-hidden] [ref=f50e111]: "Current Score:"
+                      - generic [aria-hidden] [ref=f50e112]: – / 100 Points | 0.0 %
+                  - generic [ref=f50e113]:
+                    - button "Open Request Extension in modal window" [ref=f50e114] [cursor=pointer]:
+                      - generic [ref=f50e115]: Request Extension
+                    - button "Print assignment" [ref=f50e119] [cursor=pointer]:
+                      - generic [ref=f50e120]: Print Assignment
+                - generic [ref=f50e126]:
+                  - heading [level=2] [ref=f50e127]:
+                    - button "Scoring and Assignment Information" [expanded] [ref=f50e128] [cursor=pointer]
+                  - generic "Scoring and Assignment Information" [ref=f50e135]:
+                    - generic [ref=f50e136]:
+                      - table [ref=f50e139]:
+                        - rowgroup [ref=f50e140]:
+                          - row [ref=f50e141]:
+                            - rowheader "Question" [ref=f50e142]
+                            - columnheader [ref=f50e143]:
+                              - link "Question 1 of 8," [ref=f50e144] [cursor=pointer]:
+                                - /url: "#Q1"
+                                - generic [ref=f50e145]: "1"
+                            - columnheader [ref=f50e147]:
+                              - link "Question 2 of 8," [ref=f50e148] [cursor=pointer]:
+                                - /url: "#Q2"
+                                - generic [ref=f50e149]: "2"
+                            - columnheader [ref=f50e151]:
+                              - link "Question 3 of 8," [ref=f50e152] [cursor=pointer]:
+                                - /url: "#Q3"
+                                - generic [ref=f50e153]: "3"
+                            - columnheader [ref=f50e155]:
+                              - link "Question 4 of 8," [ref=f50e156] [cursor=pointer]:
+                                - /url: "#Q4"
+                                - generic [ref=f50e157]: "4"
+                            - columnheader [ref=f50e159]:
+                              - link "Question 5 of 8," [ref=f50e160] [cursor=pointer]:
+                                - /url: "#Q5"
+                                - generic [ref=f50e161]: "5"
+                            - columnheader [ref=f50e163]:
+                              - link "Question 6 of 8," [ref=f50e164] [cursor=pointer]:
+                                - /url: "#Q6"
+                                - generic [ref=f50e165]: "6"
+                            - columnheader [ref=f50e167]:
+                              - link "Question 7 of 8," [ref=f50e168] [cursor=pointer]:
+                                - /url: "#Q7"
+                                - generic [ref=f50e169]: "7"
+                            - columnheader [ref=f50e171]:
+                              - link "Question 8 of 8," [ref=f50e172] [cursor=pointer]:
+                                - /url: "#Q8"
+                                - generic [ref=f50e173]: "8"
+                          - row [ref=f50e175]:
+                            - rowheader "Points" [ref=f50e176]
+                            - cell [ref=f50e177]:
+                              - link "Question 1 out of 8, your score is none out of 12.5" [ref=f50e178] [cursor=pointer]:
+                                - /url: "#Q1"
+                                - generic [ref=f50e179]: – / 12.5
+                            - cell [ref=f50e180]:
+                              - link "Question 2 out of 8, your score is none out of 12.5" [ref=f50e181] [cursor=pointer]:
+                                - /url: "#Q2"
+                                - generic [ref=f50e182]: – / 12.5
+                            - cell [ref=f50e183]:
+                              - link "Question 3 out of 8, your score is none out of 12.5" [ref=f50e184] [cursor=pointer]:
+                                - /url: "#Q3"
+                                - generic [ref=f50e185]: – / 12.5
+                            - cell [ref=f50e186]:
+                              - link "Question 4 out of 8, your score is none out of 12.5" [ref=f50e187] [cursor=pointer]:
+                                - /url: "#Q4"
+                                - generic [ref=f50e188]: – / 12.5
+                            - cell [ref=f50e189]:
+                              - link "Question 5 out of 8, your score is none out of 12.5" [ref=f50e190] [cursor=pointer]:
+                                - /url: "#Q5"
+                                - generic [ref=f50e191]: – / 12.5
+                            - cell [ref=f50e192]:
+                              - link "Question 6 out of 8, your score is none out of 12.5" [ref=f50e193] [cursor=pointer]:
+                                - /url: "#Q6"
+                                - generic [ref=f50e194]: – / 12.5
+                            - cell [ref=f50e195]:
+                              - link "Question 7 out of 8, your score is none out of 12.5" [ref=f50e196] [cursor=pointer]:
+                                - /url: "#Q7"
+                                - generic [ref=f50e197]: – / 12.5
+                            - cell [ref=f50e198]:
+                              - link "Question 8 out of 8, your score is none out of 12.5" [ref=f50e199] [cursor=pointer]:
+                                - /url: "#Q8"
+                                - generic [ref=f50e200]: – / 12.5
+                      - generic [ref=f50e201]:
+                        - heading "Assignment Submission" [level=3] [ref=f50e202]
+                        - paragraph [ref=f50e203]: For this assignment, you submit answers by question parts. The number of submissions remaining for each question part only changes if you submit or change the answer.
+                        - heading "Assignment Scoring" [level=3] [ref=f50e204]
+                        - paragraph [ref=f50e205]: Your last submission is used for your score.
+              - generic [ref=f50e206]:
+                - region "Banner for question 1" [ref=f50e209]:
+                  - generic [ref=f50e210]:
+                    - heading "Question 1" [level=2] [ref=f50e212]: "1."
+                    - strong [ref=f50e213]: "[– / 12.5 Points]"
+                  - generic [ref=f50e214]:
+                    - button "Details for question 1." [ref=f50e215] [cursor=pointer]:
+                      - generic [ref=f50e216]: Details
+                    - button "My Notes For question 1" [ref=f50e219] [cursor=pointer]:
+                      - generic [ref=f50e220]: My Notes
+                    - button "Practice Another Version for question 1." [ref=f50e221] [cursor=pointer]:
+                      - generic [ref=f50e222]: Practice Another
+                - generic [ref=f50e223]:
+                  - generic [ref=f50e225]:
+                    - generic [ref=f50e226]: EppDiscMath5 4.5.002.
+                    - region [ref=f50e227]:
+                      - strong [ref=f50e228]: Problem 1
+                      - generic [ref=f50e229]:
+                        - text: For the given values of
+                        - emphasis [ref=f50e230]: "n"
+                        - text: and
+                        - emphasis [ref=f50e231]: d
+                        - text: ", find integers"
+                        - emphasis [ref=f50e232]: q
+                        - text: and
+                        - emphasis [ref=f50e233]: r
+                        - text: such that
+                        - generic [ref=f50e236]:
+                          - generic [ref=f50e240]:
+                            - generic [ref=f50e241]: "n"
+                            - generic [ref=f50e242]: =
+                            - generic [ref=f50e243]: d
+                            - generic [ref=f50e245]: q
+                            - generic [ref=f50e247]: +
+                            - generic [ref=f50e248]: r
+                          - math [ref=f50e249]:
+                            - generic [ref=f50e250]: "n"
+                            - generic [ref=f50e251]: =
+                            - generic [ref=f50e252]: d
+                            - generic [ref=f50e253]: q
+                            - generic [ref=f50e254]: +
+                            - generic [ref=f50e255]: r
+                        - text: and
+                        - generic [ref=f50e256]:
+                          - generic [ref=f50e259]:
+                            - generic [ref=f50e263]:
+                              - generic [ref=f50e264]: "0"
+                              - generic [ref=f50e265]: ≤
+                              - generic [ref=f50e266]: r
+                              - generic [ref=f50e267]: <
+                              - generic [ref=f50e268]: d
+                            - math [ref=f50e270]:
+                              - generic [ref=f50e271]: "0"
+                              - generic [ref=f50e272]: ≤
+                              - generic [ref=f50e273]: r
+                              - generic [ref=f50e274]: <
+                              - generic [ref=f50e275]: d
+                          - text: .
+                      - group [ref=f50e276]:
+                        - generic [ref=f50e279]:
+                          - generic [ref=f50e283]:
+                            - generic [ref=f50e284]: "n"
+                            - generic [ref=f50e285]: =
+                            - generic [ref=f50e286]: "52"
+                            - generic [ref=f50e287]: ","
+                            - generic [ref=f50e288]: d
+                            - generic [ref=f50e290]: =
+                            - generic [ref=f50e291]: "7"
+                          - math [ref=f50e292]:
+                            - generic [ref=f50e293]: "n"
+                            - generic [ref=f50e294]: =
+                            - generic [ref=f50e295]: "52"
+                            - generic [ref=f50e296]: ","
+                            - generic [ref=f50e297]: d
+                            - generic [ref=f50e298]: =
+                            - generic [ref=f50e299]: "7"
+                      - list [ref=f50e300]:
+                        - listitem [ref=f50e301]:
+                          - generic [ref=f50e302]:
+                            - generic [ref=f50e307]:
+                              - generic [ref=f50e311]:
+                                - generic [ref=f50e312]: q
+                                - generic [ref=f50e314]: =
+                              - math [ref=f50e315]:
+                                - generic [ref=f50e316]: q
+                                - generic [ref=f50e317]: =
+                            - textbox "q =" [ref=f50e320]: "7"
+                        - listitem [ref=f50e321]:
+                          - generic [ref=f50e322]:
+                            - generic [ref=f50e327]:
+                              - generic [ref=f50e331]:
+                                - generic [ref=f50e332]: r
+                                - generic [ref=f50e333]: =
+                              - math [ref=f50e334]:
+                                - generic [ref=f50e335]: r
+                                - generic [ref=f50e336]: =
+                            - textbox "r =" [active] [ref=f50e339]: "3"
+                    - generic "Resource box" [ref=f50e343]:
+                      - generic [ref=f50e344]:
+                        - generic [ref=f50e345]: Resources
+                        - generic [ref=f50e346]:
+                          - paragraph [ref=f50e347]:
+                            - link "Read It (opens in a new tab)" [ref=f50e348] [cursor=pointer]:
+                              - /url: "#"
+                              - text: Read It
+                          - button "Ask Student Assistant for question 1" [ref=f50e349] [cursor=pointer]: Student Assistant
+                  - button "Submit Answer" [ref=f50e352] [cursor=pointer]
+              - generic [ref=f50e353]:
+                - region "Banner for question 2" [ref=f50e356]:
+                  - generic [ref=f50e357]:
+                    - heading "Question 2" [level=2] [ref=f50e359]: "2."
+                    - strong [ref=f50e360]: "[– / 12.5 Points]"
+                  - generic [ref=f50e361]:
+                    - button "Details for question 2." [ref=f50e362] [cursor=pointer]:
+                      - generic [ref=f50e363]: Details
+                    - button "My Notes For question 2" [ref=f50e366] [cursor=pointer]:
+                      - generic [ref=f50e367]: My Notes
+                    - button "Practice Another Version for question 2." [ref=f50e368] [cursor=pointer]:
+                      - generic [ref=f50e369]: Practice Another
+                - generic [ref=f50e370]:
+                  - generic [ref=f50e372]:
+                    - generic [ref=f50e373]: EppDiscMath5 4.5.004.
+                    - region [ref=f50e374]:
+                      - strong [ref=f50e375]: Problem 2
+                      - generic [ref=f50e376]:
+                        - text: For the given values of
+                        - emphasis [ref=f50e377]: "n"
+                        - text: and
+                        - emphasis [ref=f50e378]: d
+                        - text: ", find integers"
+                        - emphasis [ref=f50e379]: q
+                        - text: and
+                        - emphasis [ref=f50e380]: r
+                        - text: such that
+                        - generic [ref=f50e383]:
+                          - generic [ref=f50e387]:
+                            - generic [ref=f50e388]: "n"
+                            - generic [ref=f50e389]: =
+                            - generic [ref=f50e390]: d
+                            - generic [ref=f50e392]: q
+                            - generic [ref=f50e394]: +
+                            - generic [ref=f50e395]: r
+                          - math [ref=f50e396]:
+                            - generic [ref=f50e397]: "n"
+                            - generic [ref=f50e398]: =
+                            - generic [ref=f50e399]: d
+                            - generic [ref=f50e400]: q
+                            - generic [ref=f50e401]: +
+                            - generic [ref=f50e402]: r
+                        - text: and
+                        - generic [ref=f50e403]:
+                          - generic [ref=f50e406]:
+                            - generic [ref=f50e410]:
+                              - generic [ref=f50e411]: "0"
+                              - generic [ref=f50e412]: ≤
+                              - generic [ref=f50e413]: r
+                              - generic [ref=f50e414]: <
+                              - generic [ref=f50e415]: d
+                            - math [ref=f50e417]:
+                              - generic [ref=f50e418]: "0"
+                              - generic [ref=f50e419]: ≤
+                              - generic [ref=f50e420]: r
+                              - generic [ref=f50e421]: <
+                              - generic [ref=f50e422]: d
+                          - text: .
+                      - group [ref=f50e423]:
+                        - generic [ref=f50e426]:
+                          - generic [ref=f50e430]:
+                            - generic [ref=f50e431]: "n"
+                            - generic [ref=f50e432]: =
+                            - generic [ref=f50e433]: "4"
+                            - generic [ref=f50e434]: ","
+                            - generic [ref=f50e435]: d
+                            - generic [ref=f50e437]: =
+                            - generic [ref=f50e438]: "11"
+                          - math [ref=f50e439]:
+                            - generic [ref=f50e440]: "n"
+                            - generic [ref=f50e441]: =
+                            - generic [ref=f50e442]: "4"
+                            - generic [ref=f50e443]: ","
+                            - generic [ref=f50e444]: d
+                            - generic [ref=f50e445]: =
+                            - generic [ref=f50e446]: "11"
+                      - list [ref=f50e447]:
+                        - listitem [ref=f50e448]:
+                          - generic [ref=f50e449]:
+                            - generic [ref=f50e454]:
+                              - generic [ref=f50e458]:
+                                - generic [ref=f50e459]: q
+                                - generic [ref=f50e461]: =
+                              - math [ref=f50e462]:
+                                - generic [ref=f50e463]: q
+                                - generic [ref=f50e464]: =
+                            - textbox "q =" [ref=f50e467]
+                        - listitem [ref=f50e468]:
+                          - generic [ref=f50e469]:
+                            - generic [ref=f50e474]:
+                              - generic [ref=f50e478]:
+                                - generic [ref=f50e479]: r
+                                - generic [ref=f50e480]: =
+                              - math [ref=f50e481]:
+                                - generic [ref=f50e482]: r
+                                - generic [ref=f50e483]: =
+                            - textbox "r =" [ref=f50e486]
+                    - generic "Resource box" [ref=f50e490]:
+                      - generic [ref=f50e491]:
+                        - generic [ref=f50e492]: Resources
+                        - generic [ref=f50e493]:
+                          - paragraph [ref=f50e494]:
+                            - link "Read It (opens in a new tab)" [ref=f50e495] [cursor=pointer]:
+                              - /url: "#"
+                              - text: Read It
+                            - link "Watch It (opens in a new tab)" [ref=f50e496] [cursor=pointer]:
+                              - /url: javascript:open_bc_enhanced('watch_it', 'https://college.cengage.com/geyser/cengage_9780538738101/html/watchit_player/?asset=eppdiscmath5_04_05_004&prod=eppdiscmath5', 1)
+                              - text: Watch It
+                          - button "Ask Student Assistant for question 2" [ref=f50e497] [cursor=pointer]: Student Assistant
+                  - button "Submit Answer" [ref=f50e500] [cursor=pointer]
+              - generic [ref=f50e501]:
+                - region "Banner for question 3" [ref=f50e504]:
+                  - generic [ref=f50e505]:
+                    - heading "Question 3" [level=2] [ref=f50e507]: "3."
+                    - strong [ref=f50e508]: "[– / 12.5 Points]"
+                  - generic [ref=f50e509]:
+                    - button "Details for question 3." [ref=f50e510] [cursor=pointer]:
+                      - generic [ref=f50e511]: Details
+                    - button "My Notes For question 3" [ref=f50e514] [cursor=pointer]:
+                      - generic [ref=f50e515]: My Notes
+                    - button "Practice Another Version for question 3." [ref=f50e516] [cursor=pointer]:
+                      - generic [ref=f50e517]: Practice Another
+                - generic [ref=f50e518]:
+                  - generic [ref=f50e520]:
+                    - generic [ref=f50e521]: EppDiscMath5 4.5.007.
+                    - region [ref=f50e522]:
+                      - strong [ref=f50e523]: Problem 3
+                      - region "introduction" [ref=f50e524]:
+                        - generic [ref=f50e525]: Evaluate the expressions.
+                      - region "(a)" [ref=f50e526]:
+                        - generic [ref=f50e527]:
+                          - generic [ref=f50e528]: (a)
+                          - generic [ref=f50e529]:
+                            - generic [ref=f50e530]:
+                              - text: "43"
+                              - emphasis [ref=f50e531]: div
+                              - text: "9"
+                            - generic [ref=f50e532]:
+                              - generic: Write your answer for part (a).
+                              - textbox "Write your answer for part (a)." [ref=f50e535]
+                      - region "(b)" [ref=f50e536]:
+                        - generic [ref=f50e537]:
+                          - generic [ref=f50e538]: (b)
+                          - generic [ref=f50e539]:
+                            - generic [ref=f50e540]:
+                              - text: "43"
+                              - emphasis [ref=f50e541]: mod
+                              - text: "9"
+                            - generic [ref=f50e542]:
+                              - generic: Write your answer for part (b).
+                              - textbox "Write your answer for part (b)." [ref=f50e545]
+                    - generic "Resource box" [ref=f50e549]:
+                      - generic [ref=f50e550]:
+                        - generic [ref=f50e551]: Resources
+                        - generic [ref=f50e552]:
+                          - paragraph [ref=f50e553]:
+                            - link "Read It (opens in a new tab)" [ref=f50e554] [cursor=pointer]:
+                              - /url: "#"
+                              - text: Read It
+                          - button "Ask Student Assistant for question 3" [ref=f50e555] [cursor=pointer]: Student Assistant
+                  - button "Submit Answer" [ref=f50e558] [cursor=pointer]
+              - generic [ref=f50e559]:
+                - region "Banner for question 4" [ref=f50e562]:
+                  - generic [ref=f50e563]:
+                    - heading "Question 4" [level=2] [ref=f50e565]: "4."
+                    - strong [ref=f50e566]: "[– / 12.5 Points]"
+                  - generic [ref=f50e567]:
+                    - button "Details for question 4." [ref=f50e568] [cursor=pointer]:
+                      - generic [ref=f50e569]: Details
+                    - button "My Notes For question 4" [ref=f50e572] [cursor=pointer]:
+                      - generic [ref=f50e573]: My Notes
+                    - button "Practice Another Version for question 4." [ref=f50e574] [cursor=pointer]:
+                      - generic [ref=f50e575]: Practice Another
+                - generic [ref=f50e576]:
+                  - generic [ref=f50e578]:
+                    - generic [ref=f50e579]: EppDiscMath5 4.5.009.
+                    - region [ref=f50e580]:
+                      - strong [ref=f50e581]: Problem 4
+                      - region "introduction" [ref=f50e582]:
+                        - generic [ref=f50e583]: Evaluate the expressions.
+                      - region "(a)" [ref=f50e584]:
+                        - generic [ref=f50e585]:
+                          - generic [ref=f50e586]: (a)
+                          - generic [ref=f50e587]:
+                            - generic [ref=f50e588]:
+                              - text: "28"
+                              - emphasis [ref=f50e589]: div
+                              - text: "5"
+                            - generic [ref=f50e590]:
+                              - generic: Write your answer for part (a).
+                              - textbox "Write your answer for part (a)." [ref=f50e593]
+                      - region "(b)" [ref=f50e594]:
+                        - generic [ref=f50e595]:
+                          - generic [ref=f50e596]: (b)
+                          - generic [ref=f50e597]:
+                            - generic [ref=f50e598]:
+                              - text: "28"
+                              - emphasis [ref=f50e599]: mod
+                              - text: "5"
+                            - generic [ref=f50e600]:
+                              - generic: Write your answer for part (b).
+                              - textbox "Write your answer for part (b)." [ref=f50e603]
+                    - generic "Resource box" [ref=f50e607]:
+                      - generic [ref=f50e608]:
+                        - generic [ref=f50e609]: Resources
+                        - generic [ref=f50e610]:
+                          - paragraph [ref=f50e611]:
+                            - link "Read It (opens in a new tab)" [ref=f50e612] [cursor=pointer]:
+                              - /url: "#"
+                              - text: Read It
+                          - button "Ask Student Assistant for question 4" [ref=f50e613] [cursor=pointer]: Student Assistant
+                  - button "Submit Answer" [ref=f50e616] [cursor=pointer]
+              - generic [ref=f50e617]:
+                - region "Banner for question 5" [ref=f50e620]:
+                  - generic [ref=f50e621]:
+                    - heading "Question 5" [level=2] [ref=f50e623]: "5."
+                    - strong [ref=f50e624]: "[– / 12.5 Points]"
+                  - generic [ref=f50e625]:
+                    - button "Details for question 5." [ref=f50e626] [cursor=pointer]:
+                      - generic [ref=f50e627]: Details
+                    - button "My Notes For question 5" [ref=f50e630] [cursor=pointer]:
+                      - generic [ref=f50e631]: My Notes
+                    - button "Practice Another Version for question 5." [ref=f50e632] [cursor=pointer]:
+                      - generic [ref=f50e633]: Practice Another
+                - generic [ref=f50e634]:
+                  - generic [ref=f50e636]:
+                    - generic [ref=f50e637]: EppDiscMath5 4.5.014.EP.
+                    - region [ref=f50e638]:
+                      - strong [ref=f50e639]: Problem 5
+                      - generic [ref=f50e640]:
+                        - text: Find integers
+                        - emphasis [ref=f50e641]: q
+                        - text: and
+                        - emphasis [ref=f50e642]: r
+                        - text: such that
+                        - generic [ref=f50e643]:
+                          - generic [ref=f50e646]:
+                            - generic [ref=f50e650]:
+                              - generic [ref=f50e651]: "1000"
+                              - generic [ref=f50e652]: =
+                              - generic [ref=f50e653]: "7"
+                              - generic [ref=f50e654]: q
+                              - generic [ref=f50e656]: +
+                              - generic [ref=f50e657]: r
+                            - math [ref=f50e658]:
+                              - generic [ref=f50e659]: "1000"
+                              - generic [ref=f50e660]: =
+                              - generic [ref=f50e661]: "7"
+                              - generic [ref=f50e662]: q
+                              - generic [ref=f50e663]: +
+                              - generic [ref=f50e664]: r
+                          - text: ","
+                        - text: where
+                        - generic [ref=f50e665]:
+                          - generic [ref=f50e668]:
+                            - generic [ref=f50e672]:
+                              - generic [ref=f50e673]: "0"
+                              - generic [ref=f50e674]: ≤
+                              - generic [ref=f50e675]: r
+                              - generic [ref=f50e676]: <
+                              - generic [ref=f50e677]: "7"
+                            - math [ref=f50e678]:
+                              - generic [ref=f50e679]: "0"
+                              - generic [ref=f50e680]: ≤
+                              - generic [ref=f50e681]: r
+                              - generic [ref=f50e682]: <
+                              - generic [ref=f50e683]: "7"
+                          - text: .
+                      - list [ref=f50e684]:
+                        - listitem [ref=f50e685]:
+                          - generic [ref=f50e686]:
+                            - generic [ref=f50e691]:
+                              - generic [ref=f50e695]:
+                                - generic [ref=f50e696]: q
+                                - generic [ref=f50e698]: =
+                              - math [ref=f50e699]:
+                                - generic [ref=f50e700]: q
+                                - generic [ref=f50e701]: =
+                            - textbox "q =" [ref=f50e704]
+                        - listitem [ref=f50e705]:
+                          - generic [ref=f50e706]:
+                            - generic [ref=f50e711]:
+                              - generic [ref=f50e715]:
+                                - generic [ref=f50e716]: r
+                                - generic [ref=f50e717]: =
+                              - math [ref=f50e718]:
+                                - generic [ref=f50e719]: r
+                                - generic [ref=f50e720]: =
+                            - textbox "r =" [ref=f50e723]
+                      - group "If today is Thursday, what day of the week will it be 1,000 days from today?" [ref=f50e725]:
+                        - generic [ref=f50e727]:
+                          - radio "Sunday" [ref=f50e728]
+                          - generic [ref=f50e729]: Sunday
+                        - generic [ref=f50e730]:
+                          - radio "Monday" [ref=f50e731]
+                          - generic [ref=f50e732]: Monday
+                        - generic [ref=f50e733]:
+                          - radio "Tuesday" [ref=f50e734]
+                          - generic [ref=f50e735]: Tuesday
+                        - generic [ref=f50e736]:
+                          - radio "Wednesday" [ref=f50e737]
+                          - generic [ref=f50e738]: Wednesday
+                        - generic [ref=f50e739]:
+                          - radio "Thursday" [ref=f50e740]
+                          - generic [ref=f50e741]: Thursday
+                        - generic [ref=f50e742]:
+                          - radio "Friday" [ref=f50e743]
+                          - generic [ref=f50e744]: Friday
+                        - generic [ref=f50e745]:
+                          - radio "Saturday" [ref=f50e746]
+                          - generic [ref=f50e747]: Saturday
+                    - generic "Resource box" [ref=f50e751]:
+                      - generic [ref=f50e752]:
+                        - generic [ref=f50e753]: Resources
+                        - generic [ref=f50e754]:
+                          - paragraph [ref=f50e755]:
+                            - link "Read It (opens in a new tab)" [ref=f50e756] [cursor=pointer]:
+                              - /url: "#"
+                              - text: Read It
+                          - button "Ask Student Assistant for question 5" [ref=f50e757] [cursor=pointer]: Student Assistant
+                  - button "Submit Answer" [ref=f50e760] [cursor=pointer]
+              - generic [ref=f50e761]:
+                - region "Banner for question 6" [ref=f50e764]:
+                  - generic [ref=f50e765]:
+                    - heading "Question 6" [level=2] [ref=f50e767]: "6."
+                    - strong [ref=f50e768]: "[– / 12.5 Points]"
+                  - generic [ref=f50e769]:
+                    - button "Details for question 6." [ref=f50e770] [cursor=pointer]:
+                      - generic [ref=f50e771]: Details
+                    - button "My Notes For question 6" [ref=f50e774] [cursor=pointer]:
+                      - generic [ref=f50e775]: My Notes
+                    - button "Practice Another Version for question 6." [ref=f50e776] [cursor=pointer]:
+                      - generic [ref=f50e777]: Practice Another
+                - generic [ref=f50e778]:
+                  - generic [ref=f50e780]:
+                    - generic [ref=f50e781]: eppdiscmath5 4.5.021.nva
+                    - generic [ref=f50e782]:
+                      - text: Suppose
+                      - emphasis [ref=f50e783]: b
+                      - text: is any integer. If
+                      - generic [ref=f50e786]:
+                        - generic [ref=f50e787]: b
+                        - generic [ref=f50e788]: mod
+                        - text: 12 = 7,
+                      - text: what is 4
+                      - emphasis [ref=f50e789]: b
+                      - emphasis [ref=f50e790]: mod
+                      - text: 12? In other words, if division of
+                      - emphasis [ref=f50e791]: b
+                      - text: by 12 gives a remainder of 7, what is the remainder when 4
+                      - emphasis [ref=f50e792]: b
+                      - text: is divided by 12? Fill in the blanks to show that the same answer will be obtained no matter what integer is used for
+                      - emphasis [ref=f50e793]: b
+                      - text: at the start.
+                    - generic [ref=f50e794]:
+                      - text: Because
+                      - generic [ref=f50e797]:
+                        - generic [ref=f50e798]: b
+                        - generic [ref=f50e799]: mod
+                        - text: 12 = 7,
+                      - text: there is an integer
+                      - emphasis [ref=f50e800]: m
+                      - text: such that
+                      - generic [ref=f50e803]:
+                        - generic [ref=f50e804]: b
+                        - text: = 12
+                        - generic [ref=f50e805]: m
+                        - text: +
+                        - textbox [ref=f50e807]
+                        - text: .
+                      - text: Multiply both sides of this equation by 4 and then simplify the right-hand side to find values of
+                      - emphasis [ref=f50e808]: q
+                      - text: and
+                      - emphasis [ref=f50e809]: r
+                      - text: such that
+                      - generic [ref=f50e812]:
+                        - text: "4"
+                        - generic [ref=f50e813]: b
+                        - text: = 12
+                        - generic [ref=f50e814]: q
+                        - text: +
+                        - generic [ref=f50e815]: r
+                      - text: with
+                      - generic [ref=f50e818]:
+                        - text: 0 ≤
+                        - generic [ref=f50e819]: r
+                        - text: < 12.
+                      - text: The result is
+                    - generic [ref=f50e823]:
+                      - generic [ref=f50e824]: q
+                      - text: =
+                      - generic [ref=f50e825]:
+                        - generic [ref=f50e826]:
+                          - button [ref=f50e827]
+                          - button "Open full math pad" [ref=f50e829] [cursor=pointer]
+                        - generic [ref=f50e831]: Press Space or Enter to edit this math answer.
+                      - text: and
+                      - generic [ref=f50e832]: r
+                      - text: =
+                      - generic [ref=f50e833]:
+                        - generic [ref=f50e834]:
+                          - button [ref=f50e835]
+                          - button "Open full math pad" [ref=f50e837] [cursor=pointer]
+                        - generic [ref=f50e839]: Press Space or Enter to edit this math answer.
+                      - text: .
+                    - generic [ref=f50e840]:
+                      - text: Now
+                      - generic [ref=f50e843]:
+                        - text: 0 ≤
+                        - generic [ref=f50e844]: r
+                        - text: < 12,
+                      - text: and
+                      - emphasis [ref=f50e845]: q
+                      - text: is an integer because
+                      - generic [ref=f50e846]:
+                        - combobox [ref=f50e847]:
+                          - button "---Select---" [ref=f50e848]
+                          - option "---Select---" [selected]
+                          - option "products and differences of integers are integers"
+                          - option "products and sums of integers are integers"
+                          - option "products of integers are integers"
+                        - text: .
+                      - text: So the uniqueness part of the quotient remainder theorem guarantees that the remainder obtained when 4
+                      - emphasis [ref=f50e850]: b
+                      - text: is divided by 12 is
+                      - generic [ref=f50e851]:
+                        - generic [ref=f50e852]:
+                          - generic [ref=f50e853]:
+                            - button [ref=f50e854]
+                            - button "Open full math pad" [ref=f50e856] [cursor=pointer]
+                          - generic [ref=f50e858]: Press Space or Enter to edit this math answer.
+                        - text: .
+                  - button "Submit Answer" [ref=f50e863] [cursor=pointer]
+              - generic [ref=f50e864]:
+                - region "Banner for question 7" [ref=f50e867]:
+                  - generic [ref=f50e868]:
+                    - heading "Question 7" [level=2] [ref=f50e870]: "7."
+                    - strong [ref=f50e871]: "[– / 12.5 Points]"
+                  - generic [ref=f50e872]:
+                    - button "Details for question 7." [ref=f50e873] [cursor=pointer]:
+                      - generic [ref=f50e874]: Details
+                    - button "My Notes For question 7" [ref=f50e877] [cursor=pointer]:
+                      - generic [ref=f50e878]: My Notes
+                    - button "Practice Another Version for question 7." [ref=f50e879] [cursor=pointer]:
+                      - generic [ref=f50e880]: Practice Another
+                - generic [ref=f50e881]:
+                  - generic [ref=f50e883]:
+                    - generic [ref=f50e884]: eppdiscmath5 4.5.027.nva
+                    - generic [ref=f50e885]: Use the quotient-remainder theorem with divisor equal to 2 to prove the following statement.
+                    - generic [ref=f50e886]:
+                      - text: The square of any integer can be written in one of the two forms 4
+                      - emphasis [ref=f50e887]: k
+                      - text: or
+                      - generic [ref=f50e890]:
+                        - text: "4"
+                        - generic [ref=f50e891]: k
+                        - text: + 1
+                      - text: for some integer
+                      - emphasis [ref=f50e892]: k
+                      - text: .
+                    - generic [ref=f50e893]:
+                      - strong [ref=f50e894]: Proof
+                      - text: ": Suppose"
+                      - emphasis [ref=f50e895]: "n"
+                      - text: is any integer. By the quotient-remainder theorem with divisor equal to 2,
+                      - generic [ref=f50e898]:
+                        - generic [ref=f50e899]: "n"
+                        - text: = 2
+                        - generic [ref=f50e900]: q
+                      - text: or
+                      - generic [ref=f50e903]:
+                        - generic [ref=f50e904]: "n"
+                        - text: = 2
+                        - generic [ref=f50e905]: q
+                        - text: + 1
+                      - text: for some
+                      - generic [ref=f50e906]:
+                        - combobox [ref=f50e907]:
+                          - button "---Select---" [ref=f50e908]
+                          - option "---Select---" [selected]
+                          - option "negative integer"
+                          - option "integer"
+                          - option "positive integer"
+                        - emphasis [ref=f50e910]: q
+                        - text: .
+                      - text: Because
+                      - emphasis [ref=f50e911]: "n"
+                      - text: could have either one of these two forms, we must consider two separate cases.
+                    - generic [ref=f50e912]:
+                      - strong [ref=f50e913]:
+                        - text: Case 1,
+                        - generic [ref=f50e916]:
+                          - generic [ref=f50e917]: "n"
+                          - text: = 2
+                          - generic [ref=f50e918]: q
+                        - text: for some integer
+                        - emphasis [ref=f50e919]: q
+                      - text: ":"
+                    - generic [ref=f50e920]: Consider the sentences in the following scrambled list.
+                    - list [ref=f50e921]:
+                      - listitem [ref=f50e922]:
+                        - text: By substitution,
+                        - emphasis [ref=f50e923]: "n"
+                        - superscript [ref=f50e924]: "2"
+                        - text: = (2
+                        - emphasis [ref=f50e925]: q
+                        - text: )
+                        - superscript [ref=f50e926]: "2"
+                        - text: = 2
+                        - emphasis [ref=f50e927]: q
+                        - superscript [ref=f50e928]: "2"
+                        - text: .
+                      - listitem [ref=f50e929]:
+                        - text: By substitution,
+                        - emphasis [ref=f50e930]: "n"
+                        - superscript [ref=f50e931]: "2"
+                        - text: = 2(2
+                        - emphasis [ref=f50e932]: q
+                        - text: ) = 4
+                        - emphasis [ref=f50e933]: q
+                        - text: .
+                      - listitem [ref=f50e934]:
+                        - text: Then, by substitution,
+                        - emphasis [ref=f50e935]: k
+                        - text: is an integer with the property that
+                        - generic [ref=f50e936]:
+                          - emphasis [ref=f50e937]: "n"
+                          - superscript [ref=f50e938]: "2"
+                          - text: = 4
+                          - emphasis [ref=f50e939]: k
+                          - text: .
+                      - listitem [ref=f50e940]:
+                        - text: By substitution,
+                        - emphasis [ref=f50e941]: "n"
+                        - superscript [ref=f50e942]: "2"
+                        - text: = (2
+                        - emphasis [ref=f50e943]: q
+                        - text: )
+                        - superscript [ref=f50e944]: "2"
+                        - text: = 4
+                        - emphasis [ref=f50e945]: q
+                        - superscript [ref=f50e946]: "2"
+                        - text: .
+                      - listitem [ref=f50e947]:
+                        - text: Let
+                        - generic [ref=f50e950]:
+                          - generic [ref=f50e951]: k
+                          - text: =
+                          - table [ref=f50e953]:
+                            - rowgroup [ref=f50e954]:
+                              - row [ref=f50e955]:
+                                - cell [ref=f50e956]:
+                                  - text: q
+                                  - superscript [ref=f50e957]: "2"
+                              - row [ref=f50e958]:
+                                - cell "2" [ref=f50e959]
+                          - text: .
+                      - listitem [ref=f50e960]:
+                        - text: Let
+                        - generic [ref=f50e963]:
+                          - generic [ref=f50e964]: k
+                          - text: =
+                          - generic [ref=f50e965]: q
+                          - text: .
+                      - listitem [ref=f50e966]:
+                        - text: Let
+                        - emphasis [ref=f50e967]: k
+                        - text: =
+                        - emphasis [ref=f50e968]: q
+                        - superscript [ref=f50e969]: "2"
+                        - text: .
+                      - listitem [ref=f50e970]:
+                        - text: Since
+                        - emphasis [ref=f50e971]: q
+                        - text: is an integer, then 2
+                        - emphasis [ref=f50e972]: q
+                        - superscript [ref=f50e973]: "2"
+                        - text: is also an integer because it is a product of integers.
+                      - listitem [ref=f50e974]:
+                        - text: Since
+                        - emphasis [ref=f50e975]: "n"
+                        - text: is an even integer and
+                        - emphasis [ref=f50e976]: "n"
+                        - text: = 2
+                        - emphasis [ref=f50e977]: q
+                        - text: ", then"
+                        - emphasis [ref=f50e978]: q
+                        - text: is an integer.
+                      - listitem [ref=f50e979]:
+                        - text: Since
+                        - emphasis [ref=f50e980]: q
+                        - text: is an integer, then
+                        - emphasis [ref=f50e981]: q
+                        - superscript [ref=f50e982]: "2"
+                        - text: is also an integer because it is a product of integers.
+                      - listitem [ref=f50e983]:
+                        - text: By the assumption in Case 1,
+                        - emphasis [ref=f50e984]: "n"
+                        - text: = 2
+                        - emphasis [ref=f50e985]: q
+                        - text: for some integer
+                        - emphasis [ref=f50e986]: q
+                        - text: .
+                    - generic [ref=f50e987]: To prove Case 1, select sentences from the list and put them in the correct order below.
+                    - list [ref=f50e989]:
+                      - listitem [ref=f50e990]:
+                        - combobox [ref=f50e991]:
+                          - button "---Select---" [ref=f50e992]
+                          - option "---Select---" [selected]
+                          - option "Since is an integer, then 2 is also an integer because it is a product of integers."
+                          - option "Since is an even integer and = 2 , then is an integer."
+                          - option "Since is an integer, then is also an integer because it is a product of integers."
+                          - option "By the assumption in Case 1, = 2 for some integer ."
+                      - listitem [ref=f50e994]:
+                        - combobox [ref=f50e995]:
+                          - button "---Select---" [ref=f50e996]
+                          - option "---Select---" [selected]
+                          - option "By substitution, = (2 ) = 2 ."
+                          - option "By substitution, = 2(2 ) = 4 ."
+                          - option "Then, by substitution, is an integer with the property that"
+                          - option "By substitution, = (2 ) = 4 ."
+                      - listitem [ref=f50e998]:
+                        - combobox [ref=f50e999]:
+                          - button "---Select---" [ref=f50e1000]
+                          - option "---Select---" [selected]
+                          - option "Since is an integer, then 2 is also an integer because it is a product of integers."
+                          - option "Since is an even integer and = 2 , then is an integer."
+                          - option "Since is an integer, then is also an integer because it is a product of integers."
+                          - option "By the assumption in Case 1, = 2 for some integer ."
+                      - listitem [ref=f50e1002]:
+                        - combobox [ref=f50e1003]:
+                          - button "---Select---" [ref=f50e1004]
+                          - option "---Select---" [selected]
+                          - option "Let = ( )/(2)."
+                          - option "Let = ."
+                          - option "Let = ."
+                      - listitem [ref=f50e1006]:
+                        - combobox [ref=f50e1007]:
+                          - button "---Select---" [ref=f50e1008]
+                          - option "---Select---" [selected]
+                          - option "By substitution, = (2 ) = 2 ."
+                          - option "By substitution, = 2(2 ) = 4 ."
+                          - option "Then, by substitution, is an integer with the property that"
+                          - option "By substitution, = (2 ) = 4 ."
+                    - generic [ref=f50e1010]:
+                      - strong [ref=f50e1011]:
+                        - text: Case 2,
+                        - generic [ref=f50e1014]:
+                          - generic [ref=f50e1015]: "n"
+                          - text: = 2
+                          - generic [ref=f50e1016]: q
+                          - text: + 1
+                        - text: for some integer
+                        - emphasis [ref=f50e1017]: q
+                      - text: ":"
+                    - generic [ref=f50e1018]: Consider the sentences in the following scrambled list.
+                    - list [ref=f50e1019]:
+                      - listitem [ref=f50e1020]:
+                        - text: Now
+                        - generic [ref=f50e1023]:
+                          - text: "4"
+                          - generic [ref=f50e1024]: q
+                          - superscript [ref=f50e1025]: "2"
+                          - text: + 4
+                          - generic [ref=f50e1026]: q
+                          - text: + 1 = 4
+                          - generic [ref=f50e1027]: q
+                          - text: (
+                          - generic [ref=f50e1028]: q
+                          - superscript [ref=f50e1029]: "2"
+                          - text: +
+                          - generic [ref=f50e1030]: q
+                          - text: ) + 1.
+                      - listitem [ref=f50e1031]:
+                        - text: Now
+                        - generic [ref=f50e1032]:
+                          - text: "4"
+                          - emphasis [ref=f50e1033]: q
+                          - superscript [ref=f50e1034]: "2"
+                          - text: + 4
+                          - emphasis [ref=f50e1035]: q
+                          - text: + 1 = 4(
+                          - emphasis [ref=f50e1036]: q
+                          - superscript [ref=f50e1037]: "2"
+                          - text: +
+                          - emphasis [ref=f50e1038]: q
+                          - text: ) + 1.
+                      - listitem [ref=f50e1039]:
+                        - text: Now
+                        - generic [ref=f50e1040]:
+                          - text: "4"
+                          - emphasis [ref=f50e1041]: q
+                          - superscript [ref=f50e1042]: "2"
+                          - text: + 4
+                          - emphasis [ref=f50e1043]: q
+                          - text: + 1 = 4(
+                          - emphasis [ref=f50e1044]: q
+                          - text: + 1) + 1.
+                      - listitem [ref=f50e1045]:
+                        - text: Since
+                        - emphasis [ref=f50e1046]: q
+                        - text: is an integer, then
+                        - emphasis [ref=f50e1047]: q
+                        - superscript [ref=f50e1048]: "2"
+                        - text: +
+                        - emphasis [ref=f50e1049]: q
+                        - text: is also an integer because products and sums of integers are integers.
+                      - listitem [ref=f50e1050]:
+                        - text: Since
+                        - emphasis [ref=f50e1051]: q
+                        - text: is an integer, then
+                        - generic [ref=f50e1052]:
+                          - emphasis [ref=f50e1053]: q
+                          - text: (
+                          - emphasis [ref=f50e1054]: q
+                          - superscript [ref=f50e1055]: "2"
+                          - text: +
+                          - emphasis [ref=f50e1056]: q
+                          - text: )
+                        - text: is also an integer because products and sums of integers are integers.
+                      - listitem [ref=f50e1057]:
+                        - text: Since
+                        - emphasis [ref=f50e1058]: q
+                        - text: is an integer, then
+                        - generic [ref=f50e1059]:
+                          - emphasis [ref=f50e1060]: q
+                          - text: + 1
+                        - text: is also an integer because it is a sum of integers.
+                      - listitem [ref=f50e1061]:
+                        - text: Let
+                        - generic [ref=f50e1062]:
+                          - emphasis [ref=f50e1063]: k
+                          - text: =
+                          - emphasis [ref=f50e1064]: q
+                          - superscript [ref=f50e1065]: "2"
+                          - text: +
+                          - emphasis [ref=f50e1066]: q
+                          - text: .
+                      - listitem [ref=f50e1067]:
+                        - text: Let
+                        - generic [ref=f50e1068]:
+                          - emphasis [ref=f50e1069]: k
+                          - text: =
+                          - emphasis [ref=f50e1070]: q
+                          - text: + 1.
+                      - listitem [ref=f50e1071]:
+                        - text: Let
+                        - generic [ref=f50e1072]:
+                          - emphasis [ref=f50e1073]: k
+                          - text: =
+                          - emphasis [ref=f50e1074]: q
+                          - text: (
+                          - emphasis [ref=f50e1075]: q
+                          - superscript [ref=f50e1076]: "2"
+                          - text: +
+                          - emphasis [ref=f50e1077]: q
+                          - text: ).
+                      - listitem [ref=f50e1078]:
+                        - text: By substitution,
+                        - generic [ref=f50e1079]:
+                          - emphasis [ref=f50e1080]: "n"
+                          - superscript [ref=f50e1081]: "2"
+                          - text: = (2
+                          - emphasis [ref=f50e1082]: q
+                          - text: + 1)
+                          - superscript [ref=f50e1083]: "2"
+                          - text: = 4
+                          - emphasis [ref=f50e1084]: q
+                          - superscript [ref=f50e1085]: "2"
+                          - text: + 4
+                          - emphasis [ref=f50e1086]: q
+                          - text: + 1.
+                      - listitem [ref=f50e1087]:
+                        - text: Then, by substitution,
+                        - emphasis [ref=f50e1088]: k
+                        - text: is an integer with the property that
+                        - generic [ref=f50e1089]:
+                          - emphasis [ref=f50e1090]: "n"
+                          - superscript [ref=f50e1091]: "2"
+                          - text: = 4
+                          - emphasis [ref=f50e1092]: k
+                          - text: + 1.
+                      - listitem [ref=f50e1093]:
+                        - text: By the assumption in Case 2,
+                        - generic [ref=f50e1094]:
+                          - emphasis [ref=f50e1095]: "n"
+                          - text: = 2
+                          - emphasis [ref=f50e1096]: q
+                          - text: + 1
+                        - text: for some integer
+                        - emphasis [ref=f50e1097]: q
+                        - text: .
+                    - generic [ref=f50e1098]: To prove Case 2, select sentences from the list and put them in the correct order below.
+                    - list [ref=f50e1100]:
+                      - listitem [ref=f50e1101]:
+                        - combobox [ref=f50e1102]:
+                          - button "---Select---" [ref=f50e1103]
+                          - option "---Select---" [selected]
+                          - option "By substitution,"
+                          - option "Then, by substitution, is an integer with the property that"
+                          - option "By the assumption in Case 2, for some integer ."
+                      - listitem [ref=f50e1105]:
+                        - combobox [ref=f50e1106]:
+                          - button "---Select---" [ref=f50e1107]
+                          - option "---Select---" [selected]
+                          - option "By substitution,"
+                          - option "Then, by substitution, is an integer with the property that"
+                          - option "By the assumption in Case 2, for some integer ."
+                      - listitem [ref=f50e1109]:
+                        - combobox [ref=f50e1110]:
+                          - button "---Select---" [ref=f50e1111]
+                          - option "---Select---" [selected]
+                          - option "Now"
+                          - option "Now"
+                          - option "Now"
+                      - listitem [ref=f50e1113]:
+                        - combobox [ref=f50e1114]:
+                          - button "---Select---" [ref=f50e1115]
+                          - option "---Select---" [selected]
+                          - option "Since is an integer, then + is also an integer because products and sums of integers are integers."
+                          - option "Since is an integer, then is also an integer because products and sums of integers are integers."
+                          - option "Since is an integer, then is also an integer because it is a sum of integers."
+                      - listitem [ref=f50e1117]:
+                        - combobox [ref=f50e1118]:
+                          - button "---Select---" [ref=f50e1119]
+                          - option "---Select---" [selected]
+                          - option "Let"
+                          - option "Let"
+                          - option "Let"
+                      - listitem [ref=f50e1121]:
+                        - combobox [ref=f50e1122]:
+                          - button "---Select---" [ref=f50e1123]
+                          - option "---Select---" [selected]
+                          - option "By substitution,"
+                          - option "Then, by substitution, is an integer with the property that"
+                          - option "By the assumption in Case 2, for some integer ."
+                    - generic [ref=f50e1125]:
+                      - strong [ref=f50e1126]: Conclusion
+                      - text: ": Since any integer"
+                      - emphasis [ref=f50e1127]: "n"
+                      - text: can be expressed in one of the ways shown in cases 1 and 2, we conclude that no matter what integer
+                      - emphasis [ref=f50e1128]: "n"
+                      - text: is chosen,
+                      - emphasis [ref=f50e1129]: "n"
+                      - text: can be written in one of the two forms specified in the given statement.
+                  - button "Submit Answer" [ref=f50e1134] [cursor=pointer]
+              - generic [ref=f50e1135]:
+                - region "Banner for question 8" [ref=f50e1138]:
+                  - generic [ref=f50e1139]:
+                    - heading "Question 8" [level=2] [ref=f50e1141]: "8."
+                    - strong [ref=f50e1142]: "[– / 12.5 Points]"
+                  - generic [ref=f50e1143]:
+                    - button "Details for question 8." [ref=f50e1144] [cursor=pointer]:
+                      - generic [ref=f50e1145]: Details
+                    - button "My Notes For question 8" [ref=f50e1148] [cursor=pointer]:
+                      - generic [ref=f50e1149]: My Notes
+                    - button "Practice Another Version for question 8." [ref=f50e1150] [cursor=pointer]:
+                      - generic [ref=f50e1151]: Practice Another
+                - generic [ref=f50e1152]:
+                  - generic [ref=f50e1154]:
+                    - generic [ref=f50e1155]: EppDiscMath5 4.5.044.
+                    - region [ref=f50e1156]:
+                      - strong [ref=f50e1157]: Problem 8
+                      - region "introduction" [ref=f50e1158]:
+                        - generic [ref=f50e1159]:
+                          - text: A matrix
+                          - emphasis [ref=f50e1160]: M
+                          - text: has 3 rows and 4 columns.
+                        - group [ref=f50e1161]:
+                          - generic [ref=f50e1164]:
+                            - generic [ref=f50e1168]:
+                              - generic [ref=f50e1169]: M
+                              - generic [ref=f50e1171]: =
+                              - generic [ref=f50e1172]:
+                                - generic [ref=f50e1173]:
+                                  - generic [ref=f50e1174]: ⎡
+                                  - generic [ref=f50e1175]: ⎣
+                                  - generic [ref=f50e1176]: ⎢
+                                - generic [ref=f50e1177]:
+                                  - generic [ref=f50e1178]:
+                                    - generic [ref=f50e1182]:
+                                      - generic [ref=f50e1183]: a
+                                      - generic [ref=f50e1185]: "11"
+                                    - generic [ref=f50e1192]:
+                                      - generic [ref=f50e1193]: a
+                                      - generic [ref=f50e1195]: "21"
+                                    - generic [ref=f50e1202]:
+                                      - generic [ref=f50e1203]: a
+                                      - generic [ref=f50e1205]: "31"
+                                  - generic [ref=f50e1209]:
+                                    - generic [ref=f50e1213]:
+                                      - generic [ref=f50e1214]: a
+                                      - generic [ref=f50e1216]: "12"
+                                    - generic [ref=f50e1223]:
+                                      - generic [ref=f50e1224]: a
+                                      - generic [ref=f50e1226]: "22"
+                                    - generic [ref=f50e1233]:
+                                      - generic [ref=f50e1234]: a
+                                      - generic [ref=f50e1236]: "32"
+                                  - generic [ref=f50e1240]:
+                                    - generic [ref=f50e1244]:
+                                      - generic [ref=f50e1245]: a
+                                      - generic [ref=f50e1247]: "13"
+                                    - generic [ref=f50e1254]:
+                                      - generic [ref=f50e1255]: a
+                                      - generic [ref=f50e1257]: "23"
+                                    - generic [ref=f50e1264]:
+                                      - generic [ref=f50e1265]: a
+                                      - generic [ref=f50e1267]: "33"
+                                  - generic [ref=f50e1271]:
+                                    - generic [ref=f50e1275]:
+                                      - generic [ref=f50e1276]: a
+                                      - generic [ref=f50e1278]: "14"
+                                    - generic [ref=f50e1285]:
+                                      - generic [ref=f50e1286]: a
+                                      - generic [ref=f50e1288]: "24"
+                                    - generic [ref=f50e1295]:
+                                      - generic [ref=f50e1296]: a
+                                      - generic [ref=f50e1298]: "34"
+                                - generic [ref=f50e1302]:
+                                  - generic [ref=f50e1303]: ⎤
+                                  - generic [ref=f50e1304]: ⎦
+                                  - generic [ref=f50e1305]: ⎥
+                            - math [ref=f50e1306]:
+                              - generic [ref=f50e1307]: M
+                              - generic [ref=f50e1308]: =
+                              - generic [ref=f50e1309]:
+                                - generic [ref=f50e1310]: "["
+                                - generic [ref=f50e1311]:
+                                  - generic [ref=f50e1312]:
+                                    - generic [ref=f50e1314]:
+                                      - generic [ref=f50e1315]: a
+                                      - generic [ref=f50e1316]: "11"
+                                    - generic [ref=f50e1319]:
+                                      - generic [ref=f50e1320]: a
+                                      - generic [ref=f50e1321]: "12"
+                                    - generic [ref=f50e1324]:
+                                      - generic [ref=f50e1325]: a
+                                      - generic [ref=f50e1326]: "13"
+                                    - generic [ref=f50e1329]:
+                                      - generic [ref=f50e1330]: a
+                                      - generic [ref=f50e1331]: "14"
+                                  - generic [ref=f50e1333]:
+                                    - generic [ref=f50e1335]:
+                                      - generic [ref=f50e1336]: a
+                                      - generic [ref=f50e1337]: "21"
+                                    - generic [ref=f50e1340]:
+                                      - generic [ref=f50e1341]: a
+                                      - generic [ref=f50e1342]: "22"
+                                    - generic [ref=f50e1345]:
+                                      - generic [ref=f50e1346]: a
+                                      - generic [ref=f50e1347]: "23"
+                                    - generic [ref=f50e1350]:
+                                      - generic [ref=f50e1351]: a
+                                      - generic [ref=f50e1352]: "24"
+                                  - generic [ref=f50e1354]:
+                                    - generic [ref=f50e1356]:
+                                      - generic [ref=f50e1357]: a
+                                      - generic [ref=f50e1358]: "31"
+                                    - generic [ref=f50e1361]:
+                                      - generic [ref=f50e1362]: a
+                                      - generic [ref=f50e1363]: "32"
+                                    - generic [ref=f50e1366]:
+                                      - generic [ref=f50e1367]: a
+                                      - generic [ref=f50e1368]: "33"
+                                    - generic [ref=f50e1371]:
+                                      - generic [ref=f50e1372]: a
+                                      - generic [ref=f50e1373]: "34"
+                                - generic [ref=f50e1375]: "]"
+                        - generic [ref=f50e1376]:
+                          - text: The 12 entries in the matrix are to be stored in
+                          - emphasis [ref=f50e1377]: row major
+                          - text: form in locations 7,609 to 7,620 in a computer's memory. This means that the entries in the first row (reading left to right) are stored first, then the entries in the second row, and finally the entries in the third row.
+                      - region "(a)" [ref=f50e1378]:
+                        - generic [ref=f50e1379]:
+                          - generic [ref=f50e1380]: (a)
+                          - generic [ref=f50e1381]:
+                            - generic [ref=f50e1382]:
+                              - text: Which location will
+                              - generic [ref=f50e1385]:
+                                - generic [ref=f50e1390]:
+                                  - generic [ref=f50e1391]: a
+                                  - generic [ref=f50e1393]: "23"
+                                - math [ref=f50e1397]:
+                                  - generic [ref=f50e1398]:
+                                    - generic [ref=f50e1399]: a
+                                    - generic [ref=f50e1400]: "23"
+                              - text: be stored in?
+                            - generic [ref=f50e1402]:
+                              - generic: Write your answer for part (a).
+                              - textbox "Write your answer for part (a)." [ref=f50e1405]
+                      - region "(b)" [ref=f50e1406]:
+                        - generic [ref=f50e1407]:
+                          - generic [ref=f50e1408]: (b)
+                          - generic [ref=f50e1409]:
+                            - generic [ref=f50e1410]:
+                              - text: Write a formula (in
+                              - emphasis [ref=f50e1411]: i
+                              - text: and
+                              - emphasis [ref=f50e1412]: j
+                              - text: ) that gives the integer
+                              - emphasis [ref=f50e1413]: "n"
+                              - text: so that
+                              - generic [ref=f50e1416]:
+                                - generic [ref=f50e1421]:
+                                  - generic [ref=f50e1422]: a
+                                  - generic [ref=f50e1426]:
+                                    - generic [ref=f50e1427]: i
+                                    - generic [ref=f50e1428]: j
+                                - math [ref=f50e1429]:
+                                  - generic [ref=f50e1430]:
+                                    - generic [ref=f50e1431]: a
+                                    - generic [ref=f50e1432]:
+                                      - generic [ref=f50e1433]: i
+                                      - generic [ref=f50e1434]: j
+                              - text: is stored in location
+                              - generic [ref=f50e1435]:
+                                - generic [ref=f50e1438]:
+                                  - generic [ref=f50e1442]:
+                                    - generic [ref=f50e1443]: "7609"
+                                    - generic [ref=f50e1444]: +
+                                    - generic [ref=f50e1445]: "n"
+                                  - math [ref=f50e1446]:
+                                    - generic [ref=f50e1447]: "7609"
+                                    - generic [ref=f50e1448]: +
+                                    - generic [ref=f50e1449]: "n"
+                                - text: .
+                            - generic [ref=f50e1450]:
+                              - generic [ref=f50e1454]:
+                                - generic [ref=f50e1458]:
+                                  - generic [ref=f50e1459]: "n"
+                                  - generic [ref=f50e1460]: =
+                                - math [ref=f50e1461]:
+                                  - generic [ref=f50e1462]: "n"
+                                  - generic [ref=f50e1463]: =
+                              - generic [ref=f50e1464]:
+                                - generic [ref=f50e1465]:
+                                  - button [ref=f50e1466]
+                                  - button "Open full math pad" [ref=f50e1468] [cursor=pointer]
+                                - generic [ref=f50e1470]: Press Space or Enter to edit this math answer.
+                      - region "(c)" [ref=f50e1471]:
+                        - generic [ref=f50e1472]:
+                          - generic [ref=f50e1473]: (c)
+                          - group "Select the formulas for r and s with the property that a r s is stored in location 7609 + n ." [ref=f50e1476]:
+                            - generic [ref=f50e1477]:
+                              - text: Select the formulas for
+                              - emphasis [ref=f50e1478]: r
+                              - text: and
+                              - emphasis [ref=f50e1479]: s
+                              - text: with the property that
+                              - generic [ref=f50e1482]:
+                                - generic [ref=f50e1487]:
+                                  - generic [ref=f50e1488]: a
+                                  - generic [ref=f50e1492]:
+                                    - generic [ref=f50e1493]: r
+                                    - generic [ref=f50e1494]: s
+                                - math [ref=f50e1495]:
+                                  - generic [ref=f50e1496]:
+                                    - generic [ref=f50e1497]: a
+                                    - generic [ref=f50e1498]:
+                                      - generic [ref=f50e1499]: r
+                                      - generic [ref=f50e1500]: s
+                              - text: is stored in location
+                              - generic [ref=f50e1501]:
+                                - generic [ref=f50e1504]:
+                                  - generic [ref=f50e1508]:
+                                    - generic [ref=f50e1509]: "7609"
+                                    - generic [ref=f50e1510]: +
+                                    - generic [ref=f50e1511]: "n"
+                                  - math [ref=f50e1512]:
+                                    - generic [ref=f50e1513]: "7609"
+                                    - generic [ref=f50e1514]: +
+                                    - generic [ref=f50e1515]: "n"
+                                - text: .
+                            - generic [ref=f50e1516]:
+                              - radio "r = n div 1 + 4 and s = n mod 1 + 4" [ref=f50e1517]
+                              - generic [ref=f50e1518]:
+                                - generic [ref=f50e1521]:
+                                  - generic [ref=f50e1525]:
+                                    - generic [ref=f50e1526]: r
+                                    - generic [ref=f50e1527]: =
+                                    - generic [ref=f50e1528]: "n"
+                                    - generic [ref=f50e1529]: div
+                                    - generic [ref=f50e1530]: "1"
+                                    - generic [ref=f50e1531]: +
+                                    - generic [ref=f50e1532]: "4"
+                                  - math [ref=f50e1533]:
+                                    - generic [ref=f50e1534]: r
+                                    - generic [ref=f50e1535]: =
+                                    - generic [ref=f50e1536]: "n"
+                                    - generic [ref=f50e1537]: div
+                                    - generic [ref=f50e1538]: "1"
+                                    - generic [ref=f50e1539]: +
+                                    - generic [ref=f50e1540]: "4"
+                                - text: and
+                                - generic [ref=f50e1543]:
+                                  - generic [ref=f50e1547]:
+                                    - generic [ref=f50e1548]: s
+                                    - generic [ref=f50e1549]: =
+                                    - generic [ref=f50e1550]: "n"
+                                    - generic [ref=f50e1551]: mod
+                                    - generic [ref=f50e1552]: "1"
+                                    - generic [ref=f50e1553]: +
+                                    - generic [ref=f50e1554]: "4"
+                                  - math [ref=f50e1555]:
+                                    - generic [ref=f50e1556]: s
+                                    - generic [ref=f50e1557]: =
+                                    - generic [ref=f50e1558]: "n"
+                                    - generic [ref=f50e1559]: mod
+                                    - generic [ref=f50e1560]: "1"
+                                    - generic [ref=f50e1561]: +
+                                    - generic [ref=f50e1562]: "4"
+                            - generic [ref=f50e1563]:
+                              - radio "r = n mod 4 + 1 and s = n div 4 + 1" [ref=f50e1564]
+                              - generic [ref=f50e1565]:
+                                - generic [ref=f50e1568]:
+                                  - generic [ref=f50e1572]:
+                                    - generic [ref=f50e1573]: r
+                                    - generic [ref=f50e1574]: =
+                                    - generic [ref=f50e1575]: "n"
+                                    - generic [ref=f50e1576]: mod
+                                    - generic [ref=f50e1577]: "4"
+                                    - generic [ref=f50e1578]: +
+                                    - generic [ref=f50e1579]: "1"
+                                  - math [ref=f50e1580]:
+                                    - generic [ref=f50e1581]: r
+                                    - generic [ref=f50e1582]: =
+                                    - generic [ref=f50e1583]: "n"
+                                    - generic [ref=f50e1584]: mod
+                                    - generic [ref=f50e1585]: "4"
+                                    - generic [ref=f50e1586]: +
+                                    - generic [ref=f50e1587]: "1"
+                                - text: and
+                                - generic [ref=f50e1590]:
+                                  - generic [ref=f50e1594]:
+                                    - generic [ref=f50e1595]: s
+                                    - generic [ref=f50e1596]: =
+                                    - generic [ref=f50e1597]: "n"
+                                    - generic [ref=f50e1598]: div
+                                    - generic [ref=f50e1599]: "4"
+                                    - generic [ref=f50e1600]: +
+                                    - generic [ref=f50e1601]: "1"
+                                  - math [ref=f50e1602]:
+                                    - generic [ref=f50e1603]: s
+                                    - generic [ref=f50e1604]: =
+                                    - generic [ref=f50e1605]: "n"
+                                    - generic [ref=f50e1606]: div
+                                    - generic [ref=f50e1607]: "4"
+                                    - generic [ref=f50e1608]: +
+                                    - generic [ref=f50e1609]: "1"
+                            - generic [ref=f50e1610]:
+                              - radio "r = n mod 4 + 1 and s = n mod 4 + 1" [ref=f50e1611]
+                              - generic [ref=f50e1612]:
+                                - generic [ref=f50e1615]:
+                                  - generic [ref=f50e1619]:
+                                    - generic [ref=f50e1620]: r
+                                    - generic [ref=f50e1621]: =
+                                    - generic [ref=f50e1622]: "n"
+                                    - generic [ref=f50e1623]: mod
+                                    - generic [ref=f50e1624]: "4"
+                                    - generic [ref=f50e1625]: +
+                                    - generic [ref=f50e1626]: "1"
+                                  - math [ref=f50e1627]:
+                                    - generic [ref=f50e1628]: r
+                                    - generic [ref=f50e1629]: =
+                                    - generic [ref=f50e1630]: "n"
+                                    - generic [ref=f50e1631]: mod
+                                    - generic [ref=f50e1632]: "4"
+                                    - generic [ref=f50e1633]: +
+                                    - generic [ref=f50e1634]: "1"
+                                - text: and
+                                - generic [ref=f50e1637]:
+                                  - generic [ref=f50e1641]:
+                                    - generic [ref=f50e1642]: s
+                                    - generic [ref=f50e1643]: =
+                                    - generic [ref=f50e1644]: "n"
+                                    - generic [ref=f50e1645]: mod
+                                    - generic [ref=f50e1646]: "4"
+                                    - generic [ref=f50e1647]: +
+                                    - generic [ref=f50e1648]: "1"
+                                  - math [ref=f50e1649]:
+                                    - generic [ref=f50e1650]: s
+                                    - generic [ref=f50e1651]: =
+                                    - generic [ref=f50e1652]: "n"
+                                    - generic [ref=f50e1653]: mod
+                                    - generic [ref=f50e1654]: "4"
+                                    - generic [ref=f50e1655]: +
+                                    - generic [ref=f50e1656]: "1"
+                            - generic [ref=f50e1657]:
+                              - radio "r = n div 4 + 1 and s = n mod 4 + 1" [ref=f50e1658]
+                              - generic [ref=f50e1659]:
+                                - generic [ref=f50e1662]:
+                                  - generic [ref=f50e1666]:
+                                    - generic [ref=f50e1667]: r
+                                    - generic [ref=f50e1668]: =
+                                    - generic [ref=f50e1669]: "n"
+                                    - generic [ref=f50e1670]: div
+                                    - generic [ref=f50e1671]: "4"
+                                    - generic [ref=f50e1672]: +
+                                    - generic [ref=f50e1673]: "1"
+                                  - math [ref=f50e1674]:
+                                    - generic [ref=f50e1675]: r
+                                    - generic [ref=f50e1676]: =
+                                    - generic [ref=f50e1677]: "n"
+                                    - generic [ref=f50e1678]: div
+                                    - generic [ref=f50e1679]: "4"
+                                    - generic [ref=f50e1680]: +
+                                    - generic [ref=f50e1681]: "1"
+                                - text: and
+                                - generic [ref=f50e1684]:
+                                  - generic [ref=f50e1688]:
+                                    - generic [ref=f50e1689]: s
+                                    - generic [ref=f50e1690]: =
+                                    - generic [ref=f50e1691]: "n"
+                                    - generic [ref=f50e1692]: mod
+                                    - generic [ref=f50e1693]: "4"
+                                    - generic [ref=f50e1694]: +
+                                    - generic [ref=f50e1695]: "1"
+                                  - math [ref=f50e1696]:
+                                    - generic [ref=f50e1697]: s
+                                    - generic [ref=f50e1698]: =
+                                    - generic [ref=f50e1699]: "n"
+                                    - generic [ref=f50e1700]: mod
+                                    - generic [ref=f50e1701]: "4"
+                                    - generic [ref=f50e1702]: +
+                                    - generic [ref=f50e1703]: "1"
+                            - generic [ref=f50e1704]:
+                              - radio "r = n mod 1 + 4 and s = n div 1 + 4" [ref=f50e1705]
+                              - generic [ref=f50e1706]:
+                                - generic [ref=f50e1709]:
+                                  - generic [ref=f50e1713]:
+                                    - generic [ref=f50e1714]: r
+                                    - generic [ref=f50e1715]: =
+                                    - generic [ref=f50e1716]: "n"
+                                    - generic [ref=f50e1717]: mod
+                                    - generic [ref=f50e1718]: "1"
+                                    - generic [ref=f50e1719]: +
+                                    - generic [ref=f50e1720]: "4"
+                                  - math [ref=f50e1721]:
+                                    - generic [ref=f50e1722]: r
+                                    - generic [ref=f50e1723]: =
+                                    - generic [ref=f50e1724]: "n"
+                                    - generic [ref=f50e1725]: mod
+                                    - generic [ref=f50e1726]: "1"
+                                    - generic [ref=f50e1727]: +
+                                    - generic [ref=f50e1728]: "4"
+                                - text: and
+                                - generic [ref=f50e1731]:
+                                  - generic [ref=f50e1735]:
+                                    - generic [ref=f50e1736]: s
+                                    - generic [ref=f50e1737]: =
+                                    - generic [ref=f50e1738]: "n"
+                                    - generic [ref=f50e1739]: div
+                                    - generic [ref=f50e1740]: "1"
+                                    - generic [ref=f50e1741]: +
+                                    - generic [ref=f50e1742]: "4"
+                                  - math [ref=f50e1743]:
+                                    - generic [ref=f50e1744]: s
+                                    - generic [ref=f50e1745]: =
+                                    - generic [ref=f50e1746]: "n"
+                                    - generic [ref=f50e1747]: div
+                                    - generic [ref=f50e1748]: "1"
+                                    - generic [ref=f50e1749]: +
+                                    - generic [ref=f50e1750]: "4"
+                    - generic "Resource box" [ref=f50e1754]:
+                      - generic [ref=f50e1755]:
+                        - generic [ref=f50e1756]: Resources
+                        - generic [ref=f50e1757]:
+                          - paragraph [ref=f50e1758]:
+                            - link "Read It (opens in a new tab)" [ref=f50e1759] [cursor=pointer]:
+                              - /url: "#"
+                              - text: Read It
+                          - button "Ask Student Assistant for question 8" [ref=f50e1760] [cursor=pointer]: Student Assistant
+                  - button "Submit Answer" [ref=f50e1763] [cursor=pointer]
+            - generic [ref=f50e1765]:
+              - link "Home" [ref=f50e1766] [cursor=pointer]
+              - link "My Assignments" [ref=f50e1767] [cursor=pointer]
+              - button "Open Request Extension in modal window" [ref=f50e1768] [cursor=pointer]:
+                - generic [ref=f50e1771]: Request Extension
+        - contentinfo [ref=f50e1773]:
+          - generic [ref=f50e1774]:
+            - generic [ref=f50e1775]: Copyright © 1998 - 2026 Cengage Learning, Inc. All Rights Reserved
+            - list [ref=f50e1776]:
+              - listitem [ref=f50e1777]:
+                - link "Open in a new tab. Terms of use" [ref=f50e1778] [cursor=pointer]:
+                  - /url: https://www.cengage.com/legal/#terms
+                  - text: Terms of use
+              - listitem [ref=f50e1779]:
+                - link "Open in a new tab. Privacy" [ref=f50e1780] [cursor=pointer]:
+                  - /url: https://www.cengage.com/privacy/
+                  - text: Privacy
+    - tooltip "Write your answer in the form of an exact number." [ref=f50e1781]
+  - application [ref=f50e1783]:
+    - generic [ref=f50e1784]:
+      - tablist [ref=f50e1785]:
+        - tab [ref=f50e1786]: Operations
+        - tab [ref=f50e1787]: Relations
+        - tab [ref=f50e1788]: Other
+        - tab [ref=f50e1789]: Trig
+        - tab [ref=f50e1790]: Greek
+        - tab [ref=f50e1791]: Vectors
+        - tab [ref=f50e1792]
+      - table [ref=f50e1795]:
+        - rowgroup [ref=f50e1796]:
+          - row [ref=f50e1797]:
+            - cell [ref=f50e1798]:
+              - button [ref=f50e1799] [cursor=pointer]
+            - cell [ref=f50e1800]:
+              - button [ref=f50e1801] [cursor=pointer]
+            - cell [ref=f50e1802]:
+              - button [ref=f50e1803] [cursor=pointer]
+            - cell [ref=f50e1804]:
+              - button [ref=f50e1805] [cursor=pointer]
+            - cell [ref=f50e1806]:
+              - button [ref=f50e1807] [cursor=pointer]
+            - cell [ref=f50e1808]:
+              - button [ref=f50e1809] [cursor=pointer]
+            - cell [ref=f50e1810]:
+              - button [ref=f50e1811] [cursor=pointer]
+            - cell [ref=f50e1812]:
+              - button [ref=f50e1813] [cursor=pointer]
+            - cell [ref=f50e1814]:
+              - button [ref=f50e1815] [cursor=pointer]
+          - row [ref=f50e1816]:
+            - cell [ref=f50e1817]:
+              - button [ref=f50e1818] [cursor=pointer]
+            - cell [ref=f50e1819]:
+              - button [ref=f50e1820] [cursor=pointer]
+            - cell [ref=f50e1821]:
+              - button [ref=f50e1822] [cursor=pointer]
+            - cell [ref=f50e1823]:
+              - button [ref=f50e1824] [cursor=pointer]
+            - cell [ref=f50e1825]:
+              - button [ref=f50e1826] [cursor=pointer]
+            - cell [ref=f50e1827]:
+              - button [ref=f50e1828] [cursor=pointer]
+            - cell [ref=f50e1829]:
+              - button [ref=f50e1830] [cursor=pointer]
+            - cell [ref=f50e1831]:
+              - button [ref=f50e1832] [cursor=pointer]
+            - cell [ref=f50e1833]
+    - generic [ref=f50e1836]:
+      - generic [ref=f50e1838]: 
+      - generic [ref=f50e1839]: x
+      - textbox [ref=f50e1846]
+    - textbox [aria-hidden] [ref=f50e1847]

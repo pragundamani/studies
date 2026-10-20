@@ -1,0 +1,127 @@
+- generic [ref=f35e3]:
+  - link "Skip Navigation" [ref=f35e4] [cursor=pointer]:
+    - /url: "#reactMagmaMainContent"
+  - generic [ref=f35e8]:
+    - generic [ref=f35e9]:
+      - paragraph [ref=f35e14]: Pragun
+      - button "Collapse sidebar" [expanded] [ref=f35e17] [cursor=pointer]
+    - navigation [ref=f35e21]:
+      - generic [ref=f35e22]:
+        - list "Main Menu" [ref=f35e24]:
+          - listitem [ref=f35e25]:
+            - link "HOME" [ref=f35e27] [cursor=pointer]:
+              - /url: /dashboard/home
+          - listitem [ref=f35e31]:
+            - link "PROFILE (opens in a new tab)" [ref=f35e33] [cursor=pointer]:
+              - /url: https://account.cengage.com/profile/profile-data
+              - generic [ref=f35e36]: PROFILE
+          - listitem [ref=f35e37]:
+            - link "ORDERS" [ref=f35e39] [cursor=pointer]:
+              - /url: /dashboard/my-orders
+          - listitem [ref=f35e43]:
+            - link "RENTALS" [ref=f35e45] [cursor=pointer]:
+              - /url: /dashboard/rentals
+          - listitem [ref=f35e49]:
+            - button "EXPAND COURSES" [ref=f35e52] [cursor=pointer]:
+              - generic [ref=f35e53]: COURSES
+        - list "Study tools and tips" [ref=f35e61]:
+          - listitem [ref=f35e62]:
+            - link "Study Tools" [ref=f35e64] [cursor=pointer]:
+              - /url: /dashboard/explore-catalog
+          - listitem [ref=f35e68]:
+            - link "College Success Tips" [ref=f35e70] [cursor=pointer]:
+              - /url: /dashboard/college-success
+          - listitem [ref=f35e74]:
+            - link "Career Success Tips" [ref=f35e76] [cursor=pointer]:
+              - /url: /dashboard/career-center
+        - link "Help (opens in a new tab)" [ref=f35e83] [cursor=pointer]:
+          - /url: https://cengageorg.my.site.com/Service/s/
+          - generic [ref=f35e86]: Help
+      - button "Sign Out" [ref=f35e88] [cursor=pointer]
+  - generic [ref=f35e93]:
+    - banner [ref=f35e94]:
+      - img "Cengage Unlimited Logo" [ref=f35e95]
+      - search [ref=f35e96]:
+        - generic [ref=f35e98]:
+          - searchbox "Search products by ISBN, author, or title" [ref=f35e100]
+          - button "search" [ref=f35e101] [cursor=pointer]
+    - main [ref=f35e105]:
+      - generic [ref=f35e108]:
+        - heading "Courses" [level=1] [ref=f35e109]
+        - generic [ref=f35e110]:
+          - generic [ref=f35e111]:
+            - paragraph [ref=f35e112]:
+              - text: Add New Course
+              - button "More information" [ref=f35e113] [cursor=pointer]
+            - paragraph [ref=f35e117]: Access a new course by entering your access code, course key, or course link
+          - button "Enter Access Code, Course Key, Course Link" [ref=f35e118] [cursor=pointer]
+        - generic [ref=f35e123]:
+          - generic [ref=f35e125]:
+            - generic [ref=f35e126]:
+              - generic [ref=f35e128]:
+                - paragraph [ref=f35e129]: "MA-UY 2314: Discrete Mathematics, Fall 2026"
+                - paragraph [ref=f35e130]: "Instructor: Ken Cereste"
+              - generic [ref=f35e131]:
+                - 'link "OPEN WEBASSIGN for MA-UY 2314: Discrete Mathematics, Fall 2026, Opens in a New Window" [active] [ref=f35e132] [cursor=pointer]':
+                  - /url: https://gateway.cengage.com/ws/mlapi/content/dashboard/launch?deploymentId=6005242496511844397744544574&contextId=608375&componentLinkId=3712739&olrURL=https%3A%2F%2Fwww.webassign.net%2Fv4cgi%2Flogin.pl%3Fpid%3D567829%26eISBN%3D9780357035269%26courseKey%3DGWWA-XVWY-UVQ5-OUJ5%26fromCourseKey%3DGWWA-DG1Y-02RB-ZC1G%26copyActivityDates%3DN%26titleIsbn%3D9781337694193
+                  - text: OPEN WEBASSIGN
+                - 'link "Open Companion Site for MA-UY 2314: Discrete Mathematics, Fall 2026" [ref=f35e133] [cursor=pointer]':
+                  - /url: /dashboard/companion-sites/9781337694193
+                  - text: Open Companion Site
+                - 'button "Supplemental materials for MA-UY 2314: Discrete Mathematics, Fall 2026" [ref=f35e136] [cursor=pointer]':
+                  - generic [ref=f35e137]: Supplemental materials
+            - paragraph [ref=f35e142]: Course access until January 12, 2027
+          - generic [ref=f35e144]:
+            - generic [ref=f35e145]:
+              - generic [ref=f35e147]:
+                - paragraph [ref=f35e148]: "PH-UY 2023: ELECTRICITY, MAGNETISM, & FLUIDS (F26)"
+                - paragraph [ref=f35e149]: "Instructor: John Di Bartolo"
+              - generic [ref=f35e150]:
+                - 'link "OPEN WEBASSIGN for PH-UY 2023: ELECTRICITY, MAGNETISM, & FLUIDS (F26), Opens in a New Window" [ref=f35e151] [cursor=pointer]':
+                  - /url: https://gateway.cengage.com/ws/mlapi/content/dashboard/launch?deploymentId=10001192496511407667846007454&contextId=613524&componentLinkId=1000184&olrURL=https%3A%2F%2Fwww.webassign.net%2Fv4cgi%2Flogin.pl%3Fpid%3D600831%26eISBN%3D9798214453842%26courseKey%3DGWWA-1FSQ-Y3DT-4U0D%26copyActivityDates%3DN%26titleIsbn%3D9798214193151
+                  - text: OPEN WEBASSIGN
+                - 'link "Open Companion Site for PH-UY 2023: ELECTRICITY, MAGNETISM, & FLUIDS (F26)" [ref=f35e152] [cursor=pointer]':
+                  - /url: /dashboard/companion-sites/9798214193151
+                  - text: Open Companion Site
+                - 'button "Supplemental materials for PH-UY 2023: ELECTRICITY, MAGNETISM, & FLUIDS (F26)" [ref=f35e155] [cursor=pointer]':
+                  - generic [ref=f35e156]: Supplemental materials
+            - paragraph [ref=f35e161]: Course access until January 12, 2027
+          - generic [ref=f35e163]:
+            - generic [ref=f35e164]:
+              - generic [ref=f35e166]:
+                - paragraph [ref=f35e167]: "MA-UY 2034: Linear Algebra and Differential Equations, Fall 2026"
+                - paragraph [ref=f35e168]: "Instructor: Lindsey Van Wagenen"
+              - generic [ref=f35e169]:
+                - 'link "OPEN WEBASSIGN for MA-UY 2034: Linear Algebra and Differential Equations, Fall 2026, Opens in a New Window" [ref=f35e170] [cursor=pointer]':
+                  - /url: https://gateway.cengage.com/ws/mlapi/content/dashboard/launch?deploymentId=6020492496514876221009039174&contextId=608359&componentLinkId=3714784&olrURL=https%3A%2F%2Fwww.webassign.net%2Fv4cgi%2Flogin.pl%3Fpid%3D549424%26eISBN%3D9781337713108%26courseKey%3DGWWA-T1J3-VDHQ-0T2K%26fromCourseKey%3DGWWA-0531-0M1R-RWXN%26copyActivityDates%3DN%26titleIsbn%3D9781305965720
+                  - text: OPEN WEBASSIGN
+                - 'link "VIEW eBOOK for MA-UY 2034: Linear Algebra and Differential Equations, Fall 2026, Opens in a New Window" [ref=f35e171] [cursor=pointer]':
+                  - /url: https://etextlauncher.cengage.com/services/tribble/launch?token=952C7D806D6A6B5C0B1D32D67A48C8ACDE4120C8E8E643A7E0CCE19D443547788192B4D6FAEC3B7B392CDDAB279E342A5056FFBE33AA436F6756D919FC50286FED168D14809B4B58&eISBN=9780357539194&titleIsbn=9781305965720
+                  - text: VIEW eBOOK
+                - 'link "Open Companion Site for MA-UY 2034: Linear Algebra and Differential Equations, Fall 2026" [ref=f35e172] [cursor=pointer]':
+                  - /url: /dashboard/companion-sites/9781305965720
+                  - text: Open Companion Site
+                - 'button "Supplemental materials for MA-UY 2034: Linear Algebra and Differential Equations, Fall 2026" [ref=f35e175] [cursor=pointer]':
+                  - generic [ref=f35e176]: Supplemental materials
+            - paragraph [ref=f35e181]: Course access until January 12, 2027
+        - generic [ref=f35e185]:
+          - heading "Study Tools" [level=2] [ref=f35e186]
+          - list [ref=f35e189]:
+            - listitem [ref=f35e190]:
+              - button "Find more study tools for my courses" [ref=f35e191] [cursor=pointer]
+    - contentinfo "Footer" [ref=f35e194]:
+      - list [ref=f35e195]:
+        - listitem [ref=f35e196]:
+          - link "Accessibility link, Opens in a New Tab" [ref=f35e197] [cursor=pointer]:
+            - /url: https://www.cengagegroup.com/accessibility/
+            - text: Accessibility
+        - listitem [ref=f35e198]:
+          - link "Privacy Statement link, Opens in a New Tab" [ref=f35e199] [cursor=pointer]:
+            - /url: https://www.cengagegroup.com/legal/#privacy
+            - text: Privacy Statement
+        - listitem [ref=f35e200]:
+          - link "Report Piracy link, Opens in a New Tab" [ref=f35e201] [cursor=pointer]:
+            - /url: https://www.cengage.com/contact/#piracy
+            - text: Report Piracy
+        - listitem [ref=f35e202]:
+          - generic [ref=f35e203]: © 2026 Cengage

@@ -1,0 +1,169 @@
+- generic [ref=f2e4]:
+  - banner [ref=f2e5]:
+    - generic [ref=f2e6]:
+      - link "Skip to content" [ref=f2e7] [cursor=pointer]:
+        - /url: ""
+      - link "Skip to navigation" [ref=f2e8] [cursor=pointer]:
+        - /url: ""
+    - generic [ref=f2e9]:
+      - generic [ref=f2e12]:
+        - generic [ref=f2e13]:
+          - paragraph [ref=f2e18]: Pragun
+          - button "Collapse Button" [ref=f2e21] [cursor=pointer]
+        - navigation [ref=f2e25]:
+          - generic [ref=f2e26]:
+            - list "Main Menu" [ref=f2e28]:
+              - listitem [ref=f2e29]:
+                - link "HOME" [ref=f2e31] [cursor=pointer]:
+                  - /url: https://www.cengage.com/dashboard/home
+              - listitem [ref=f2e35]:
+                - link "PROFILE" [ref=f2e37] [cursor=pointer]:
+                  - /url: https://account.cengage.com/profile/profile-data
+              - listitem [ref=f2e41]:
+                - link "ORDERS" [ref=f2e43] [cursor=pointer]:
+                  - /url: https://www.cengage.com/dashboard/my-orders
+              - listitem [ref=f2e47]:
+                - link "RENTALS" [ref=f2e49] [cursor=pointer]:
+                  - /url: https://www.cengage.com/dashboard/rentals
+              - listitem [ref=f2e53]:
+                - button "COURSES" [ref=f2e56] [cursor=pointer]
+            - list "Study tools and tips" [ref=f2e65]:
+              - listitem [ref=f2e66]:
+                - link "Study Tools" [ref=f2e68] [cursor=pointer]:
+                  - /url: https://www.cengage.com/dashboard/explore-catalog
+              - listitem [ref=f2e72]:
+                - link "College Success Tips" [ref=f2e74] [cursor=pointer]:
+                  - /url: https://www.cengage.com/dashboard/college-success
+              - listitem [ref=f2e78]:
+                - link "Career Success Tips" [ref=f2e80] [cursor=pointer]:
+                  - /url: https://www.cengage.com/dashboard/career-center
+            - list "Help" [ref=f2e85]:
+              - listitem [ref=f2e86]:
+                - link "Help" [ref=f2e88] [cursor=pointer]:
+                  - /url: https://cengageorg.my.site.com/Service/s/
+          - link "Sign Out" [ref=f2e93] [cursor=pointer]
+      - generic:
+        - banner
+    - generic [ref=f2e98]:
+      - generic [ref=f2e102]:
+        - button "Cengage WebAssign Homepage" [ref=f2e104] [cursor=pointer]:
+          - img "Cengage WebAssign Homepage" [ref=f2e105]
+        - generic [ref=f2e130]:
+          - button "Open Email Notification Settings modal" [ref=f2e131] [cursor=pointer]
+          - link "Open Help page in a new browser tab." [ref=f2e135] [cursor=pointer]:
+            - /url: https://help.cengage.com/webassign/student_guide/
+          - button "Interface language setting. Language set to English" [ref=f2e140] [cursor=pointer]:
+            - generic [ref=f2e143]: EN
+      - navigation "WebAssign" [ref=f2e149]:
+        - link "Home" [ref=f2e150]
+        - link "My Assignments" [ref=f2e151]
+        - link "Grades" [ref=f2e152]
+        - link "Communication" [ref=f2e153]
+        - link "Calendar" [ref=f2e154]
+        - button "My eBooks" [ref=f2e157]
+  - main [ref=f2e160]:
+    - generic [ref=f2e163]:
+      - generic [ref=f2e164]:
+        - heading "Home" [level=1] [ref=f2e165]
+        - navigation "Course Select" [ref=f2e166]:
+          - text: Select Course
+          - generic [ref=f2e167]:
+            - combobox "Select Course" [ref=f2e168] [cursor=pointer]:
+              - 'option "MA-UY 2034: Linear Algebra and Differential Equations, Fall 2026, Fall 2026"'
+              - 'option "MA-UY 2314: Discrete Mathematics, Fall 2026, Fall 2026" [selected]'
+              - 'option "PH-UY 2023: ELECTRICITY, MAGNETISM, & FLUIDS (F26), Fall 2026"'
+              - text: "0"
+            - button "Go" [ref=f2e169] [cursor=pointer]
+      - generic [ref=f2e171]:
+        - generic [ref=f2e175]:
+          - text: Instructor
+          - generic [ref=f2e176]: Ken Cereste
+        - generic [ref=f2e177]: New York University
+    - generic [ref=f2e179]:
+      - heading "WebAssign Notices" [level=2] [ref=f2e180]
+      - paragraph [ref=f2e182]: You were granted access to this class Sunday, September 6, 2026 12:02:51 PM EDT
+    - generic [ref=f2e183]:
+      - generic [ref=f2e184]:
+        - region [ref=f2e186]:
+          - heading "My Assignments" [level=2] [ref=f2e187]
+          - generic [ref=f2e188]:
+            - generic [ref=f2e189]: Name
+            - generic [ref=f2e190]: Due
+          - list [ref=f2e191]:
+            - listitem [ref=f2e192]:
+              - link "Open 4.5 Direct Proof and Counterexample V Assignment, enabled. Due date Tuesday, October 20, 2026 at 11:59 PM EDT" [ref=f2e193] [cursor=pointer]:
+                - /url: /web/Student/Assignment-Responses/last?dep=40844629
+                - generic [ref=f2e194]: 4.5 Direct Proof and Counterexample V
+                - generic [ref=f2e196]: Tue, Oct 20, 2026, 11:59 PM EDT
+            - listitem [ref=f2e197]:
+              - link "Open 4.6 Direct Proof and Counterexample VI Assignment, enabled. Due date Tuesday, October 20, 2026 at 11:59 PM EDT" [ref=f2e198] [cursor=pointer]:
+                - /url: /web/Student/Assignment-Responses/last?dep=40844630
+                - generic [ref=f2e199]: 4.6 Direct Proof and Counterexample VI
+                - generic [ref=f2e201]: Tue, Oct 20, 2026, 11:59 PM EDT
+            - listitem [ref=f2e202]:
+              - 'link "Open 4.7 Indirect Argument: Contradiction & Composition Assignment, enabled. Due date Tuesday, October 27, 2026 at 11:59 PM EDT" [ref=f2e203] [cursor=pointer]':
+                - /url: /web/Student/Assignment-Responses/last?dep=40844631
+                - generic [ref=f2e204]: "4.7 Indirect Argument: Contradiction & Composition"
+                - generic [ref=f2e206]: Tue, Oct 27, 2026, 11:59 PM EDT
+            - listitem [ref=f2e207]:
+              - 'link "Open 4.8 Indirect Argument: Two Famous Theorems Assignment, enabled. Due date Tuesday, October 27, 2026 at 11:59 PM EDT" [ref=f2e208] [cursor=pointer]':
+                - /url: /web/Student/Assignment-Responses/last?dep=40844632
+                - generic [ref=f2e209]: "4.8 Indirect Argument: Two Famous Theorems"
+                - generic [ref=f2e211]: Tue, Oct 27, 2026, 11:59 PM EDT
+            - listitem [ref=f2e212]:
+              - 'link "Open 4.10 Application: Algorithms Assignment, enabled. Due date Tuesday, October 27, 2026 at 11:59 PM EDT" [ref=f2e213] [cursor=pointer]':
+                - /url: /web/Student/Assignment-Responses/last?dep=40844633
+                - generic [ref=f2e214]: "4.10 Application: Algorithms"
+                - generic [ref=f2e216]: Tue, Oct 27, 2026, 11:59 PM EDT
+          - generic [ref=f2e217]:
+            - button "Show Current Assignments (5)" [ref=f2e218] [cursor=pointer]: Current Assignments (5)
+            - button "Show Past Assignments (11)" [ref=f2e219] [cursor=pointer]: Past Assignments (11)
+        - region [ref=f2e221]:
+          - heading "Communication" [level=2] [ref=f2e222]
+          - paragraph [ref=f2e224]: No current forums
+        - region [ref=f2e226]:
+          - heading "Grades" [level=2] [ref=f2e227]
+          - paragraph [ref=f2e229]: Your final grade has not yet been posted
+      - generic [ref=f2e230]:
+        - region [ref=f2e232]:
+          - heading "My Class Insights" [level=2] [ref=f2e233]
+          - generic [ref=f2e234]:
+            - heading "Make the most of your time." [level=3] [ref=f2e235]
+            - list [ref=f2e236]:
+              - listitem [ref=f2e237]: Target the topics you need to study.
+              - listitem [ref=f2e240]: See which topics you know.
+            - link "View My Class Insights" [ref=f2e245] [cursor=pointer]:
+              - /url: /web/User/LTI/go?url=https://users.webassign.net/service/control/api/1.0/authentication/lti&amp;redirect_uri=/conceptOverview/section/1715067/student/19847356
+        - region [ref=f2e247]:
+          - heading "Announcements" [level=2] [ref=f2e248]
+          - paragraph [ref=f2e250]: No Current Announcements
+        - region [ref=f2e252]:
+          - heading "About this Class" [level=2] [ref=f2e253]
+          - generic [ref=f2e254]:
+            - paragraph [ref=f2e255]:
+              - generic [ref=f2e256]: "Class Started:"
+              - text: Tuesday, September 1, 2026
+            - paragraph [ref=f2e257]:
+              - generic [ref=f2e258]: "Class Ends:"
+              - text: Monday, December 28, 2026
+            - list [ref=f2e259]:
+              - listitem [ref=f2e260]:
+                - 'link "Open eBook in a new browser tab. Title: Discrete Mathematics with Applications. Edition: 5. Authors: Epp." [ref=f2e261] [cursor=pointer]':
+                  - /url: waUtil.openMindtapReader("9780357035276", "", true)
+                  - generic [ref=f2e265]:
+                    - paragraph [ref=f2e266]:
+                      - text: Discrete Mathematics with Applications
+                      - generic [ref=f2e267]: "- 5e"
+                    - paragraph [ref=f2e268]: Epp
+  - contentinfo [ref=f2e270]:
+    - generic [ref=f2e271]:
+      - generic [ref=f2e272]: Copyright © 1998 - 2026 Cengage Learning, Inc. All Rights Reserved
+      - list [ref=f2e273]:
+        - listitem [ref=f2e274]:
+          - link "Open in a new tab. Terms of use" [ref=f2e275] [cursor=pointer]:
+            - /url: https://www.cengage.com/legal/#terms
+            - text: Terms of use
+        - listitem [ref=f2e276]:
+          - link "Open in a new tab. Privacy" [ref=f2e277] [cursor=pointer]:
+            - /url: https://www.cengage.com/privacy/
+            - text: Privacy
