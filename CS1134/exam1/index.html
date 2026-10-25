@@ -1,0 +1,1603 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Interactive CS 1134 exam practice for data structures and algorithms.">
+  <title>CS 1134 Exam Practice</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0d1110;
+      --surface: #151a18;
+      --surface-raised: #1b211e;
+      --surface-soft: #202723;
+      --text: #eef2ef;
+      --muted: #9da7a0;
+      --line: #303934;
+      --accent: #74c69a;
+      --accent-strong: #95d5b2;
+      --accent-soft: #183a29;
+      --danger: #f08a68;
+      --danger-soft: #42241d;
+      --code-bg: #090c0b;
+      --radius: 12px;
+      --shadow: 0 12px 34px rgba(0, 0, 0, .24);
+
+      /* QUESTION TYPE STYLES
+         Change these variables to restyle every question of a type. */
+      --type-truefalse: #73c9f5;
+      --type-truefalse-bg: #142d39;
+      --type-multiple: #c4a7ef;
+      --type-multiple-bg: #2d2440;
+      --type-written: #efbd67;
+      --type-written-bg: #382d19;
+      --type-code: #74c69a;
+      --type-code-bg: #183a29;
+      --type-diagram: #f08a68;
+      --type-diagram-bg: #42241d;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--text);
+      background: var(--bg);
+      font: 16px/1.55 Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    button, input { font: inherit; }
+    button { cursor: pointer; }
+    button:focus-visible, input:focus-visible {
+      outline: 3px solid rgba(116, 198, 154, .3);
+      outline-offset: 2px;
+    }
+    .skip-link {
+      position: fixed;
+      top: 8px;
+      left: 8px;
+      z-index: 100;
+      transform: translateY(-150%);
+      padding: 8px 12px;
+      border-radius: 8px;
+      color: #08120c;
+      background: var(--accent-strong);
+    }
+    .skip-link:focus { transform: none; }
+    .shell { width: min(960px, calc(100% - 32px)); margin-inline: auto; }
+
+    .site-header { padding: 44px 0 26px; }
+    .kicker {
+      margin: 0 0 6px;
+      color: var(--accent-strong);
+      font-size: .76rem;
+      font-weight: 800;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+    h1 {
+      max-width: 720px;
+      margin: 0;
+      font-size: clamp(2.1rem, 6vw, 3.5rem);
+      line-height: 1.05;
+      letter-spacing: -.045em;
+    }
+    .lede { max-width: 650px; margin: 13px 0 0; color: var(--muted); font-size: 1.03rem; }
+    .exam-map {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+      margin-top: 18px;
+    }
+    .exam-map-item {
+      padding: 10px 12px;
+      border: 1px solid var(--line);
+      border-radius: 9px;
+      color: var(--muted);
+      background: rgba(21, 26, 24, .72);
+      font-size: .82rem;
+    }
+    .exam-map-item strong { display: block; color: var(--text); font-size: .9rem; }
+
+    .progress-card {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 8px 20px;
+      align-items: end;
+      margin-top: 25px;
+      padding: 15px 17px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--surface);
+    }
+    .progress-title { margin: 0; font-weight: 750; }
+    .progress-detail { color: var(--muted); font-size: .9rem; }
+    .progress-track {
+      grid-column: 1 / -1;
+      overflow: hidden;
+      height: 7px;
+      border-radius: 999px;
+      background: var(--surface-soft);
+    }
+    .progress-fill { width: 0; height: 100%; background: var(--accent); transition: width .2s ease; }
+
+    .study-tools {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      padding: 12px 0 14px;
+      background: rgba(13, 17, 16, .93);
+      backdrop-filter: blur(10px);
+    }
+    .tool-row { display: grid; grid-template-columns: minmax(0, 1fr) auto auto; gap: 8px; }
+    .search {
+      min-width: 0;
+      width: 100%;
+      height: 44px;
+      padding: 0 13px;
+      border: 1px solid var(--line);
+      border-radius: 9px;
+      color: var(--text);
+      background: var(--surface);
+    }
+    .search::placeholder { color: #7f8982; }
+    .button {
+      min-height: 42px;
+      padding: 0 14px;
+      border: 1px solid var(--line);
+      border-radius: 9px;
+      color: var(--text);
+      background: var(--surface-raised);
+      font-weight: 700;
+    }
+    .button:hover { border-color: #526159; background: var(--surface-soft); }
+    .button.primary { border-color: var(--accent); color: #07120c; background: var(--accent); }
+    .button.primary:hover { background: var(--accent-strong); }
+    .button.quiet { min-height: auto; padding: 6px 8px; border: 0; color: var(--muted); background: transparent; font-size: .86rem; }
+    .button.quiet:hover { color: var(--text); background: var(--surface-soft); }
+    .filters {
+      display: flex;
+      gap: 7px;
+      overflow-x: auto;
+      margin-top: 10px;
+      padding-bottom: 2px;
+      scrollbar-width: thin;
+    }
+    .filter {
+      flex: 0 0 auto;
+      padding: 7px 11px;
+      border: 1px solid transparent;
+      border-radius: 999px;
+      color: var(--muted);
+      background: transparent;
+      font-size: .88rem;
+      font-weight: 700;
+    }
+    .filter:hover { color: var(--text); background: var(--surface-soft); }
+    .filter[aria-pressed="true"] { border-color: #3e6b52; color: var(--accent-strong); background: var(--accent-soft); }
+
+    .sync-panel {
+      display: grid;
+      grid-template-columns: minmax(150px, 1fr) auto auto;
+      gap: 8px;
+      align-items: center;
+      margin: 18px 0 10px;
+      padding: 14px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--surface);
+    }
+    .sync-copy { grid-column: 1 / -1; }
+    .sync-title { margin: 0; font-weight: 750; }
+    .sync-note { margin: 2px 0 0; color: var(--muted); font-size: .82rem; }
+    .sync-name {
+      min-width: 0;
+      height: 42px;
+      padding: 0 12px;
+      border: 1px solid var(--line);
+      border-radius: 9px;
+      color: var(--text);
+      background: var(--surface-raised);
+    }
+    .sync-status { grid-column: 1 / -1; min-height: 1.3em; margin: 0; color: var(--muted); font-size: .84rem; }
+    .sync-status.success { color: var(--accent-strong); }
+    .sync-status.error { color: #ffad91; }
+    .button:disabled { cursor: not-allowed; opacity: .5; }
+
+    .list-summary {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      margin: 18px 0 10px;
+      color: var(--muted);
+      font-size: .9rem;
+    }
+    .question-list { display: grid; gap: 11px; padding-bottom: 70px; }
+    .question-card {
+      --type-color: var(--muted);
+      --type-bg: var(--surface-soft);
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-left: 4px solid var(--type-color);
+      border-radius: var(--radius);
+      background: var(--surface);
+      box-shadow: 0 1px 0 rgba(0, 0, 0, .2);
+    }
+
+    /* Each data-type automatically receives its shared color and controls. */
+    [data-type="truefalse"] { --type-color: var(--type-truefalse); --type-bg: var(--type-truefalse-bg); }
+    [data-type="multiple"]  { --type-color: var(--type-multiple);  --type-bg: var(--type-multiple-bg); }
+    [data-type="written"]   { --type-color: var(--type-written);   --type-bg: var(--type-written-bg); }
+    [data-type="code"]      { --type-color: var(--type-code);      --type-bg: var(--type-code-bg); }
+    [data-type="diagram"]   { --type-color: var(--type-diagram);   --type-bg: var(--type-diagram-bg); }
+
+    .question-card[data-status="mastered"] { box-shadow: inset 0 0 0 1px rgba(116, 198, 154, .5); }
+    .question-card[data-status="review"] { box-shadow: inset 0 0 0 1px rgba(240, 138, 104, .5); }
+    .question-top { padding: 18px 20px 17px; }
+    .meta { display: flex; flex-wrap: wrap; align-items: center; gap: 7px; margin-bottom: 9px; color: var(--muted); font-size: .73rem; font-weight: 800; letter-spacing: .05em; text-transform: uppercase; }
+    .type-badge { padding: 3px 7px; border-radius: 999px; color: var(--type-color); background: var(--type-bg); }
+    .status-label { margin-left: auto; color: var(--accent-strong); letter-spacing: 0; text-transform: none; }
+    .question-title { margin: 0; font-size: 1.06rem; line-height: 1.48; }
+    .question-title code { font-size: .92em; }
+    .prompt-code {
+      display: block;
+      overflow-x: auto;
+      margin-top: 11px;
+      padding: 13px 14px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      color: #e5ece7;
+      background: var(--code-bg);
+      font-size: .82rem;
+      font-weight: 400;
+      line-height: 1.55;
+      white-space: pre;
+    }
+    .response-area { margin-top: 16px; }
+    .choice-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+    .choice-grid.many { grid-template-columns: 1fr; }
+    .choice-button {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      min-height: 46px;
+      padding: 10px 12px;
+      border: 1px solid var(--line);
+      border-radius: 9px;
+      color: var(--text);
+      background: var(--surface-raised);
+      text-align: left;
+    }
+    .choice-button:hover:not(:disabled) { border-color: var(--type-color); background: var(--type-bg); }
+    .choice-button:disabled { cursor: default; opacity: .72; }
+    .choice-key {
+      display: grid;
+      flex: 0 0 26px;
+      place-items: center;
+      width: 26px;
+      height: 26px;
+      border: 1px solid #48534d;
+      border-radius: 7px;
+      color: var(--muted);
+      font-size: .76rem;
+      font-weight: 850;
+    }
+    .choice-button.selected { border-color: var(--type-color); background: var(--type-bg); }
+    .choice-button.correct { border-color: var(--accent); color: #c8f2d8; background: var(--accent-soft); opacity: 1; }
+    .choice-button.incorrect { border-color: var(--danger); color: #ffd2c3; background: var(--danger-soft); opacity: 1; }
+    .feedback { min-height: 22px; margin: 10px 0 0; font-size: .88rem; font-weight: 750; }
+    .feedback.good { color: var(--accent-strong); }
+    .feedback.bad { color: #ffad91; }
+    .answer {
+      margin: 0 20px 20px;
+      padding: 17px 18px;
+      border: 1px solid #35433b;
+      border-radius: 9px;
+      background: var(--surface-soft);
+    }
+    .answer[hidden], .grade-actions[hidden] { display: none; }
+    .answer-label { display: block; margin-bottom: 7px; color: var(--accent-strong); font-size: .72rem; font-weight: 850; letter-spacing: .1em; text-transform: uppercase; }
+    .answer p:first-of-type { margin-top: 0; }
+    .answer p:last-child, .answer ol:last-child { margin-bottom: 0; }
+    .grade-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 15px; }
+    .grade-prompt { margin-right: 3px; color: var(--muted); font-size: .87rem; }
+    .grade-button { min-height: 36px; padding: 0 11px; }
+    .grade-button.active[data-grade="mastered"], .grade-button.active[data-focus-grade="mastered"] { border-color: var(--accent); color: var(--accent-strong); background: var(--accent-soft); }
+    .grade-button.active[data-grade="review"], .grade-button.active[data-focus-grade="review"] { border-color: var(--danger); color: #ffad91; background: var(--danger-soft); }
+    code, pre { font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace; }
+    code { color: #f3a986; }
+    pre {
+      position: relative;
+      overflow-x: auto;
+      margin: 11px 0;
+      padding: 34px 15px 14px;
+      border: 1px solid #29332e;
+      border-radius: 8px;
+      color: #dbe6df;
+      background: var(--code-bg);
+      font-size: .86rem;
+      line-height: 1.55;
+      white-space: pre;
+      tab-size: 4;
+    }
+    pre[data-highlighted]::before {
+      content: "PYTHON";
+      position: absolute;
+      top: 10px;
+      left: 14px;
+      color: #718078;
+      font: 800 .62rem/1 ui-sans-serif, system-ui, sans-serif;
+      letter-spacing: .12em;
+    }
+    .tok-keyword { color: #c4a7ef; font-weight: 700; }
+    .tok-string { color: #b7d78b; }
+    .tok-number { color: #efbd67; }
+    .tok-comment { color: #718078; font-style: italic; }
+    .tok-builtin { color: #73c9f5; }
+    .tok-operator { color: #f3a986; }
+    .diagram-wrap { overflow-x: auto; margin: 14px 0; padding: 12px; border: 1px solid #35433b; border-radius: 9px; background: #0d1210; }
+    .diagram { display: block; min-width: 640px; width: 100%; height: auto; }
+    .diagram text { fill: var(--text); font: 14px "SFMono-Regular", Consolas, monospace; }
+    .diagram .label { fill: var(--accent-strong); font-weight: 800; }
+    .diagram .small { fill: var(--muted); font-size: 12px; }
+    .diagram .box { fill: var(--surface-raised); stroke: #718078; stroke-width: 1.5; rx: 7; }
+    .diagram .cell { fill: #111714; stroke: #718078; stroke-width: 1.3; }
+    .diagram .edge { fill: none; stroke: var(--accent-strong); stroke-width: 2; marker-end: url(#arrow); }
+    .diagram .tree-edge { fill: none; stroke: #718078; stroke-width: 1.6; }
+    .diagram .cost { fill: #efbd67; font-size: 12px; }
+    .diagram-note { color: var(--muted); font-size: .9rem; }
+    .empty { padding: 55px 0; color: var(--muted); text-align: center; }
+    .empty[hidden] { display: none; }
+
+    dialog {
+      width: min(720px, calc(100% - 24px));
+      max-height: calc(100dvh - 24px);
+      padding: 0;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      color: var(--text);
+      background: var(--surface);
+      box-shadow: 0 24px 80px rgba(0, 0, 0, .55);
+    }
+    dialog::backdrop { background: rgba(0, 0, 0, .72); }
+    .focus-header { display: flex; align-items: center; gap: 12px; padding: 14px 18px; border-bottom: 1px solid var(--line); }
+    .focus-progress { flex: 1; color: var(--muted); font-size: .87rem; }
+    .focus-body { --type-color: var(--accent); --type-bg: var(--accent-soft); overflow-y: auto; max-height: calc(100dvh - 76px); padding: clamp(22px, 5vw, 42px); }
+    .focus-topic { margin: 0 0 9px; color: var(--type-color); font-size: .75rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+    .focus-question { margin: 0 0 22px; font-size: clamp(1.35rem, 4vw, 2rem); line-height: 1.3; letter-spacing: -.02em; }
+    .focus-answer { margin: 18px 0 0; }
+    .focus-nav { display: flex; gap: 8px; margin-top: 24px; }
+    .focus-nav .next { margin-left: auto; }
+    .focus-nav button:disabled { cursor: not-allowed; opacity: .45; }
+
+    .visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+
+    @media (max-width: 640px) {
+      .site-header { padding-top: 32px; }
+      .exam-map { grid-template-columns: repeat(2, 1fr); }
+      .tool-row { grid-template-columns: 1fr 1fr; }
+      .sync-panel { grid-template-columns: 1fr 1fr; }
+      .sync-name { grid-column: 1 / -1; }
+      .search { grid-column: 1 / -1; }
+      .study-tools { position: static; }
+      .question-top { padding: 16px; }
+      .answer { margin: 0 16px 16px; }
+      .progress-card { grid-template-columns: 1fr; }
+      .progress-detail { grid-row: 2; }
+      .progress-track { grid-row: 3; }
+      .choice-grid { grid-template-columns: 1fr; }
+      .focus-header { padding-inline: 12px; }
+      .focus-body { padding: 24px 18px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; }
+    }
+    @media print {
+      body { color: #111; background: white; }
+      .study-tools, .response-area, .grade-actions, dialog, .progress-card { display: none !important; }
+      .site-header { padding: 20px 0; }
+      .question-list { gap: 14px; }
+      .question-card { break-inside: avoid; border: 1px solid #bbb; box-shadow: none; }
+      .answer[hidden] { display: block; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#questions">Skip to questions</a>
+
+  <header class="site-header shell">
+    <p class="kicker">CS 1134 · Exam 1</p>
+    <h1>Data structures and algorithms</h1>
+    <p class="lede">A focused guide built from the Fall 2017 midterm, Labs 1–6, and Homework 1–4. Answer first, then use the explanation to correct your reasoning.</p>
+    <div class="exam-map" aria-label="Exam skill map">
+      <div class="exam-map-item"><strong>Trace</strong>references, copies, objects</div>
+      <div class="exam-map-item"><strong>Analyze</strong>growth and runtimes</div>
+      <div class="exam-map-item"><strong>Implement</strong>in-place and search</div>
+      <div class="exam-map-item"><strong>Recurse</strong>base cases and trees</div>
+    </div>
+    <section class="progress-card" aria-labelledby="progressTitle">
+      <p class="progress-title" id="progressTitle">Study progress</p>
+      <span class="progress-detail" id="progressDetail">0 mastered · 0 to review</span>
+      <div class="progress-track" aria-hidden="true"><div class="progress-fill" id="progressFill"></div></div>
+    </section>
+  </header>
+
+  <main class="shell">
+    <section class="study-tools" aria-label="Study controls">
+      <div class="tool-row">
+        <label class="visually-hidden" for="search">Search questions</label>
+        <input class="search" id="search" type="search" placeholder="Search questions and answers">
+        <button class="button" id="shuffleButton" type="button">Shuffle</button>
+        <button class="button primary" id="focusButton" type="button">Focus mode</button>
+      </div>
+      <div class="filters" id="filters" aria-label="Filter by topic"></div>
+    </section>
+
+    <section class="sync-panel" aria-labelledby="syncTitle">
+      <div class="sync-copy">
+        <p class="sync-title" id="syncTitle">Cross-device progress</p>
+        <p class="sync-note">Enter your save name. These are public save slots; avoid saving at the same time as a friend.</p>
+      </div>
+      <label class="visually-hidden" for="saveName">Save name</label>
+      <input class="sync-name" id="saveName" type="text" maxlength="32" pattern="[A-Za-z0-9 _-]{1,32}" autocomplete="username" placeholder="Your save name">
+      <button class="button" id="loadCloudButton" type="button">Load</button>
+      <button class="button primary" id="saveCloudButton" type="button">Save</button>
+      <p class="sync-status" id="syncStatus" aria-live="polite">Progress is always saved locally first.</p>
+    </section>
+
+    <div class="list-summary">
+      <span id="resultCount" aria-live="polite">80 questions</span>
+      <button class="button quiet" id="resetButton" type="button">Clear progress</button>
+    </div>
+    <section class="question-list" id="questions" aria-label="Practice questions"></section>
+    <p class="empty" id="empty" hidden>No questions match this search.</p>
+  </main>
+
+  <dialog id="focusDialog" aria-labelledby="focusQuestion">
+    <div class="focus-header">
+      <span class="focus-progress" id="focusProgress"></span>
+      <button class="button quiet" id="closeFocus" type="button" aria-label="Close focus mode">Close</button>
+    </div>
+    <div class="focus-body" id="focusBody">
+      <p class="focus-topic" id="focusTopic"></p>
+      <h2 class="focus-question" id="focusQuestion" tabindex="-1"></h2>
+      <div id="focusResponse"></div>
+      <div class="answer focus-answer" id="focusAnswer" hidden></div>
+      <div class="grade-actions" id="focusGrades" hidden>
+        <span class="grade-prompt">How did you do?</span>
+        <button class="button grade-button" data-focus-grade="review" type="button">Needs review</button>
+        <button class="button grade-button" data-focus-grade="mastered" type="button">Got it</button>
+      </div>
+      <nav class="focus-nav" aria-label="Focus question navigation">
+        <button class="button" id="focusPrevious" type="button">Previous</button>
+        <button class="button next" id="focusNext" type="button">Next</button>
+      </nav>
+    </div>
+  </dialog>
+
+  <script>
+    // JSONBIN SYNC CONFIG — this access key is public in the published HTML.
+    const JSONBIN = {
+      binId: "6add7defac6210605a4fd704",
+      accessKey: "$2a$10$zamMDrWKCNkcDBpvMo1tSe0lxTx7Poq4p9x7HnGU.akLw3.4wHf3m"
+    };
+
+    // QUESTION TYPE CONFIG
+    // Add a new reusable type here. "choice" renders answer buttons;
+    // "written" renders a text area and a model-answer button.
+    const QUESTION_TYPES = {
+      truefalse: { label: "True / False", mode: "choice", keys: ["T", "F"] },
+      multiple:  { label: "Multiple choice", mode: "choice", keys: ["A", "B", "C", "D", "E"] },
+      written:   { label: "Written", mode: "written", placeholder: "Write your answer before revealing…" },
+      code:      { label: "Code", mode: "written", placeholder: "Write code or pseudocode…" },
+      diagram:   { label: "Diagram", mode: "written", placeholder: "Draw before revealing…" }
+    };
+
+    const topics = {
+      all: "All topics",
+      complexity: "Complexity",
+      lists: "Lists & memory",
+      python: "Python tools",
+      objects: "Classes & objects",
+      arrays: "Array lists",
+      generators: "Generators",
+      searching: "Binary search",
+      sorting: "Sorting",
+      recursion: "Recursion",
+      inplace: "In-place algorithms",
+      mixed: "Mixed checks",
+      diagrams: "Diagrams"
+    };
+
+    // QUESTION DATA
+    // To add a question, copy one object. Choice questions require `options`
+    // and a zero-based `correct` index. Written/code questions only need `answer`.
+    const questions = [
+      {
+        id: 1, topic: "complexity", type: "truefalse",
+        prompt: "3n² + 4n − 5 = Θ(n).",
+        options: ["True", "False"], correct: 1,
+        answer: `<p><strong>False.</strong> The n² term dominates for large n, so the expression is <strong>Θ(n²)</strong>.</p>`
+      },
+      {
+        id: 2, topic: "complexity", type: "truefalse",
+        prompt: "log₂(n²) = O(log₂ n).",
+        options: ["True", "False"], correct: 0,
+        answer: `<p><strong>True.</strong> By the power rule, log₂(n²) = 2log₂n. Constant factors do not change asymptotic growth.</p>`
+      },
+      {
+        id: 3, topic: "complexity", type: "multiple",
+        prompt: "What are the runtimes of reversal by repeated front insertion and by appending while scanning backward?",
+        options: ["Both are Θ(n)", "Front insertion is Θ(n²); backward append is Θ(n)", "Front insertion is Θ(n); backward append is Θ(n²)", "Both are Θ(n²)"], correct: 1,
+        answer: `<p><strong>Front insertion: Θ(n²).</strong> Each insertion can shift the current list. <strong>Backward append: Θ(n).</strong> There are n iterations and each append is amortized Θ(1).</p>`
+      },
+      {
+        id: 4, topic: "lists", type: "multiple",
+        prompt: `After this code runs, which description is correct?<code class="prompt-code">lst1 = [1, [2, 3], [4, 5], 6]\nlst2 = lst1\nlst3 = lst1[:]\nlst4 = copy.deepcopy(lst1)\nlst1[0] = 10\nlst1[1][1] = 30</code>`,
+        options: ["All four lists show both changes", "lst2 shows both; lst3 shows only the nested change; lst4 shows neither", "Only lst1 changes", "lst2 and lst3 show both; lst4 shows the nested change"], correct: 1,
+        answer: `<pre>lst1 = [10, [2, 30], [4, 5], 6]\nlst2 = [10, [2, 30], [4, 5], 6]\nlst3 = [1, [2, 30], [4, 5], 6]\nlst4 = [1, [2, 3], [4, 5], 6]</pre><p><code>lst2</code> aliases the outer list. <code>lst3</code> copies the outer list but shares nested lists. <code>lst4</code> shares neither.</p>`
+      },
+      {
+        id: 5, topic: "lists", type: "multiple",
+        prompt: "What does list concatenation copy?",
+        options: ["The outer list and every nested object", "Only nested objects", "A new outer list that still refers to the same element objects", "Nothing; it aliases the original list"], correct: 2,
+        answer: `<p>Concatenation creates a <strong>new outer list</strong>, but its elements refer to the same objects. Mutating a shared nested list is visible through both lists.</p>`
+      },
+      {
+        id: 6, topic: "lists", type: "multiple",
+        prompt: "Why can <code>elem = lst[0]</code> behave differently for an integer and for a nested list?",
+        options: ["Integers are always deep-copied", "Rebinding a name differs from mutating a shared object", "Nested assignment copies the outer list", "A list slot keeps every assigned name linked"], correct: 1,
+        answer: `<p>Assignment copies a reference. Rebinding <code>elem</code> to a new integer does not change the list. Mutating a nested object through <code>elem</code> changes the shared object.</p>`
+      },
+      {
+        id: 7, topic: "python", type: "code",
+        prompt: "Write one return statement that gives every index whose prefix sum is positive.",
+        answer: `<pre>return [i for i in range(len(lst))\n        if sum(lst[:i + 1]) &gt; 0]</pre><p>This matches the exam constraint. It is Θ(n²), but the question did not require an efficient solution.</p>`
+      },
+      {
+        id: 8, topic: "python", type: "code",
+        prompt: "Write a list comprehension that keeps only words whose length is not four.",
+        answer: `<pre>return [word for word in words if len(word) != 4]</pre>`
+      },
+      {
+        id: 9, topic: "python", type: "code",
+        prompt: "Write a generator that yields the first n triangular numbers: 1, 3, 6, 10, …",
+        answer: `<pre>def triangular_numbers(n):\n    total = 0\n    for value in range(1, n + 1):\n        total += value\n        yield total</pre><p>Each new term adds the next positive integer to the running total.</p>`
+      },
+      {
+        id: 10, topic: "recursion", type: "multiple",
+        prompt: "A recursive minimum function splits a range in half, solves both halves, and compares the results. What is its runtime?",
+        options: ["Θ(log n)", "Θ(n)", "Θ(n log n)", "Θ(n²)"], correct: 1,
+        answer: `<p><strong>Θ(n).</strong> T(n) = 2T(n/2) + Θ(1). The recursion tree has Θ(n) total nodes.</p>`
+      },
+      {
+        id: 11, topic: "recursion", type: "code",
+        prompt: "Implement recursive <code>is_sorted(lst, low, high)</code> in Θ(n).",
+        answer: `<pre>def is_sorted(lst, low, high):\n    if low &gt;= high:\n        return True\n    return (lst[low] &lt;= lst[low + 1]\n            and is_sorted(lst, low + 1, high))</pre><p>The base case handles zero or one item. Each call checks one adjacent pair.</p>`
+      },
+      {
+        id: 12, topic: "recursion", type: "code",
+        prompt: "Recursively count opposite pairs whose values are additive inverses.",
+        answer: `<pre>def inverse_pair_count(lst, low, high):\n    if low &gt;= high:\n        return 0\n    match = 1 if lst[low] == -lst[high] else 0\n    return match + inverse_pair_count(lst, low + 1, high - 1)</pre><p>The range shrinks from both ends. It makes about n/2 calls, so the runtime is Θ(n).</p>`
+      },
+      {
+        id: 13, topic: "inplace", type: "code",
+        prompt: "Remove all even values in-place in Θ(n) time and Θ(1) extra space. Order does not matter.",
+        answer: `<pre>def remove_all_evens(lst):\n    i = 0\n    while i &lt; len(lst):\n        if lst[i] % 2 == 0:\n            lst[i] = lst[-1]\n            lst.pop()\n        else:\n            i += 1</pre><p>After a swap, do not advance <code>i</code>: the moved value still needs a check.</p>`
+      },
+      {
+        id: 14, topic: "inplace", type: "code",
+        prompt: "Remove the items originally stored at even indices, in-place and in Θ(n).",
+        answer: `<pre>def remove_even_indices(lst):\n    n = len(lst)\n    write = 0\n    for read in range(1, n, 2):\n        lst[write] = lst[read]\n        write += 1\n    del lst[write:]</pre><p>This compacts the original odd-index items into the front, then removes the unused suffix.</p>`
+      },
+      {
+        id: 15, topic: "mixed", type: "truefalse",
+        prompt: "A loop doubles i each time and creates a list of length i each iteration. Its total runtime is Θ(log n).",
+        options: ["True", "False"], correct: 1,
+        answer: `<p><strong>False. It is Θ(n).</strong> The work is 1 + 2 + 4 + … + n, which is a geometric sum equal to Θ(n).</p>`
+      },
+      {
+        id: 16, topic: "mixed", type: "multiple",
+        prompt: "What should you check before claiming an algorithm is in-place, Θ(n) time, and Θ(1) extra space?",
+        options: ["Only the number of loop iterations", "Only whether it creates a list", "Work per operation, visits and moves, storage growth, and edge cases", "Only empty-input behavior"], correct: 2,
+        answer: `<ol><li>Count visits and moves.</li><li>Check the cost of operations such as insertion, slicing, and deletion.</li><li>Confirm that storage and recursive call depth do not grow with n.</li><li>Check empty, one-item, all-removed, and none-removed cases.</li></ol>`
+      },
+      {
+        id: 17, topic: "diagrams", type: "diagram",
+        prompt: `Draw the final memory image for this Spring 2019 code.<code class="prompt-code">lst1 = [1, [2, 3]]
+lst2 = [[4, 5], 6]
+lst3 = lst1 + lst2
+elem1 = lst1[0]
+elem2 = lst1[1]
+elem1 = 10
+elem2[0] = 20
+lst2[0][0] = 40
+lst2[1] = 60</code>`,
+        answer: `<div class="diagram-wrap"><svg class="diagram" viewBox="0 0 820 390" role="img" aria-label="Memory image with three outer lists sharing two nested lists"><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#95d5b2"/></marker></defs>
+          <text class="label" x="18" y="34">Names</text><text class="label" x="185" y="34">Outer list objects</text><text class="label" x="570" y="34">Shared nested objects</text>
+          <text x="25" y="88">lst1</text><rect class="box" x="90" y="65" width="115" height="38"/><path class="edge" d="M62 83 H88"/>
+          <text x="25" y="157">lst2</text><rect class="box" x="90" y="135" width="115" height="38"/><path class="edge" d="M62 152 H88"/>
+          <text x="25" y="247">lst3</text><rect class="box" x="90" y="225" width="235" height="38"/><path class="edge" d="M62 242 H88"/>
+          <text x="230" y="88">[ 1,  • ]</text><text x="230" y="157">[ •, 60 ]</text><text x="350" y="247">[ 1, •, •, 6 ]</text>
+          <rect class="box" x="585" y="70" width="130" height="44"/><text x="615" y="97">[20, 3]</text>
+          <rect class="box" x="585" y="175" width="130" height="44"/><text x="615" y="202">[40, 5]</text>
+          <path class="edge" d="M188 84 C360 84 430 90 582 91"/><path class="edge" d="M280 243 C430 243 460 120 582 96"/>
+          <path class="edge" d="M150 153 C360 153 430 190 582 195"/><path class="edge" d="M305 243 C440 243 475 210 582 199"/>
+          <text x="25" y="318">elem1</text><text class="small" x="92" y="318">→ 10 (rebound; no list changes)</text>
+          <text x="25" y="350">elem2</text><path class="edge" d="M83 345 C300 345 420 125 582 102"/>
+        </svg></div><p><code>lst1</code> and <code>lst3</code> share <code>[20, 3]</code>. <code>lst2</code> and <code>lst3</code> share <code>[40, 5]</code>. Concatenation copied outer references, not nested lists.</p>`
+      },
+      {
+        id: 18, topic: "diagrams", type: "diagram",
+        prompt: `Draw the recursion tree for <code>min_in_lst(lst, 0, n-1)</code>. Each call splits its range into two halves and does Θ(1) local work.`,
+        answer: `<div class="diagram-wrap"><svg class="diagram" viewBox="0 0 820 380" role="img" aria-label="Balanced binary recursion tree for divide and conquer minimum"><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#95d5b2"/></marker></defs>
+          <path class="tree-edge" d="M410 68 L230 140 M410 68 L590 140 M230 168 L135 245 M230 168 L325 245 M590 168 L495 245 M590 168 L685 245"/>
+          <rect class="box" x="315" y="35" width="190" height="42"/><text x="340" y="61">range of n</text><text class="cost" x="465" y="61">Θ(1)</text>
+          <rect class="box" x="145" y="132" width="170" height="42"/><text x="165" y="158">range n/2</text><text class="cost" x="270" y="158">Θ(1)</text>
+          <rect class="box" x="505" y="132" width="170" height="42"/><text x="525" y="158">range n/2</text><text class="cost" x="630" y="158">Θ(1)</text>
+          <rect class="box" x="70" y="237" width="130" height="40"/><text x="87" y="262">range n/4</text>
+          <rect class="box" x="260" y="237" width="130" height="40"/><text x="277" y="262">range n/4</text>
+          <rect class="box" x="430" y="237" width="130" height="40"/><text x="447" y="262">range n/4</text>
+          <rect class="box" x="620" y="237" width="130" height="40"/><text x="637" y="262">range n/4</text>
+          <text class="small" x="315" y="316">⋮  log₂n levels  ⋮</text><text x="260" y="354">n leaves of size 1 → total Θ(n)</text>
+        </svg></div><p><strong>Recurrence:</strong> T(n) = 2T(n/2) + Θ(1). Level <em>i</em> has 2ⁱ calls, so all nodes across the tree total 1 + 2 + … + n = Θ(n).</p>`
+      },
+      {
+        id: 19, topic: "diagrams", type: "diagram",
+        prompt: `Draw the final memory model for this Fall 2025 code.<code class="prompt-code">def func(a):
+    b = a
+    a[1] = 99
+    a = a + [100]
+    b.append(7)
+
+x = [1, 2, 3]
+y = x
+z = x[:]
+func(x)</code>`,
+        answer: `<div class="diagram-wrap"><svg class="diagram" viewBox="0 0 820 360" role="img" aria-label="Memory model showing x and y sharing one list and z referring to a shallow copy"><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#95d5b2"/></marker></defs>
+          <text class="label" x="30" y="40">Names after func returns</text><text class="label" x="390" y="40">List objects</text>
+          <text x="55" y="103">x</text><text x="55" y="153">y</text><text x="55" y="253">z</text>
+          <rect class="box" x="385" y="75" width="300" height="55"/><text x="425" y="108">[ 1, 99, 3, 7 ]</text>
+          <rect class="box" x="385" y="225" width="300" height="55"/><text x="445" y="258">[ 1, 2, 3 ]</text>
+          <path class="edge" d="M78 98 C190 98 265 96 382 99"/><path class="edge" d="M78 148 C210 148 270 115 382 108"/>
+          <path class="edge" d="M78 248 C210 248 270 250 382 251"/>
+          <text class="small" x="382" y="159">x and y alias this mutated list</text><text class="small" x="382" y="309">z is a separate shallow copy</text>
+          <text class="small" x="30" y="338">Local a and b disappear when func returns. a's [1, 99, 3, 100] list becomes unreachable.</text>
+        </svg></div><p><code>b = a</code> aliases the original list. Rebinding <code>a</code> after concatenation does not rebind <code>b</code>. Thus <code>b.append(7)</code> changes the list still referenced by <code>x</code> and <code>y</code>. The temporary list referenced only by local <code>a</code> is garbage-collectable.</p>`
+      },
+      {
+        id: 20, topic: "diagrams", type: "diagram",
+        prompt: `Draw the recursion tree for this Fall 2025 function and show each call's local cost.<code class="prompt-code">def mystery(s):
+    if len(s) &lt;= 1:
+        return s
+    rest_res = mystery(s[1:])
+    return s[0] + rest_res + s[0]</code>`,
+        answer: `<div class="diagram-wrap"><svg class="diagram" viewBox="0 0 820 430" role="img" aria-label="Single-branch recursion tree with decreasing string sizes and linear local costs"><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#95d5b2"/></marker></defs>
+          <path class="tree-edge" d="M410 72 L410 125 M410 171 L410 224 M410 270 L410 323"/>
+          <rect class="box" x="285" y="30" width="250" height="45"/><text x="310" y="58">mystery(s), size n</text><text class="cost" x="474" y="58">Θ(n)</text>
+          <rect class="box" x="285" y="128" width="250" height="45"/><text x="310" y="156">mystery(s[1:]), n−1</text><text class="cost" x="474" y="156">Θ(n−1)</text>
+          <rect class="box" x="285" y="227" width="250" height="45"/><text x="310" y="255">mystery(...), n−2</text><text class="cost" x="474" y="255">Θ(n−2)</text>
+          <rect class="box" x="285" y="326" width="250" height="45"/><text x="310" y="354">mystery(...), 1</text><text class="cost" x="474" y="354">Θ(1)</text>
+          <text x="180" y="410">n + (n−1) + … + 1 = n(n+1)/2 = Θ(n²)</text>
+        </svg></div><p>The tree is a single chain of n calls. Slicing and string concatenation take time proportional to the current string length, so T(n) = T(n−1) + Θ(n) = Θ(n²).</p>`
+      },
+      {
+        id: 21, topic: "lists", type: "multiple",
+        prompt: `What prints?<code class="prompt-code">lst1 = [1, 2, 3]
+lst2 = [lst1] * 3
+lst2[0][0] = 10
+print(lst2)</code>`,
+        options: ["[[10, 2, 3], [1, 2, 3], [1, 2, 3]]", "[[10, 2, 3], [10, 2, 3], [10, 2, 3]]", "[[1, 2, 3], [1, 2, 3], [1, 2, 3]]", "An error"], correct: 1,
+        answer: `<p>All three positions contain a reference to the same inner list. Mutating it through one position changes what every position sees.</p>`
+      },
+      {
+        id: 22, topic: "inplace", type: "code",
+        prompt: "Circularly shift lst right by k positions. Mutate the original list.",
+        answer: `<pre>def shift_right(lst, k):
+    if not lst:
+        return
+    k %= len(lst)
+    if k:
+        lst[:] = lst[-k:] + lst[:-k]</pre><p>Full-slice assignment preserves the identity of <code>lst</code>. The temporary slices use Θ(n) extra space.</p>`
+      },
+      {
+        id: 23, topic: "python", type: "multiple",
+        prompt: `What does this comprehension produce?<code class="prompt-code">[(-i) ** 3 for i in range(-2, 5)]</code>`,
+        options: ["[-8, -1, 0, 1, 8, 27, 64]", "[8, 1, 0, -1, -8, -27, -64]", "[8, 1, 0, 1, 8, 27, 64]", "[-8, -1, 0, -1, -8, -27, -64]"], correct: 1,
+        answer: `<p>The unary minus is applied to <code>i</code> before cubing because of the parentheses.</p>`
+      },
+      {
+        id: 24, topic: "generators", type: "code",
+        prompt: "Write a generator that yields the first n Fibonacci values, starting with 1, 1.",
+        answer: `<pre>def fibs(n):
+    a, b = 1, 1
+    for _ in range(n):
+        yield a
+        a, b = b, a + b</pre><p>For n = 8 it yields 1, 1, 2, 3, 5, 8, 13, 21.</p>`
+      },
+      {
+        id: 25, topic: "complexity", type: "multiple",
+        prompt: `What is the tight worst-case runtime?<code class="prompt-code">for i in range(n):
+    j = 1
+    while j &lt;= n:
+        j *= 2</code>`,
+        options: ["Θ(log n)", "Θ(n)", "Θ(n log n)", "Θ(n²)"], correct: 2,
+        answer: `<p>The outer loop runs n times. The inner loop doubles <code>j</code>, so it runs Θ(log n) times per outer iteration.</p>`
+      },
+      {
+        id: 26, topic: "complexity", type: "truefalse",
+        prompt: `This function is Θ(n) because it makes n recursive calls.<code class="prompt-code">def sum_lst(lst):
+    if len(lst) == 0:
+        return 0
+    return lst[0] + sum_lst(lst[1:])</code>`,
+        options: ["True", "False"], correct: 1,
+        answer: `<p><strong>False. It is Θ(n²).</strong> Each slice copies a shrinking list. The total copying work is n + (n−1) + … + 1.</p>`
+      },
+      {
+        id: 27, topic: "complexity", type: "multiple",
+        prompt: "Starting from an empty Python list, what are the total costs of n calls to append and n calls to insert(0, value)?",
+        options: ["Both Θ(n)", "append Θ(n); front insert Θ(n²)", "append Θ(n²); front insert Θ(n)", "Both Θ(n²)"], correct: 1,
+        answer: `<p>Appending n items is Θ(n) total by amortized analysis. Repeated front insertion shifts the current contents, producing 0 + 1 + … + (n−1) work.</p>`
+      },
+      {
+        id: 28, topic: "inplace", type: "code",
+        prompt: "Reverse lst from inclusive index low through high in-place. Use Θ(n) time and Θ(1) extra space.",
+        answer: `<pre>def reverse_range(lst, low, high):
+    while low &lt; high:
+        lst[low], lst[high] = lst[high], lst[low]
+        low += 1
+        high -= 1</pre><p>Each swap places two range elements. No second list is created.</p>`
+      },
+      {
+        id: 29, topic: "inplace", type: "code",
+        prompt: "Move all zeros to the end in-place while preserving the order of nonzero values. Use Θ(n) time.",
+        answer: `<pre>def move_zeros(nums):
+    write = 0
+    for read in range(len(nums)):
+        if nums[read] != 0:
+            nums[write] = nums[read]
+            write += 1
+    while write &lt; len(nums):
+        nums[write] = 0
+        write += 1</pre><p>The first pass compacts nonzero values. The second fills the unused suffix.</p>`
+      },
+      {
+        id: 30, topic: "inplace", type: "code",
+        prompt: "Remove every occurrence of target in-place in Θ(n), preserving the other values' order.",
+        answer: `<pre>def remove_all(lst, target):
+    write = 0
+    for read in range(len(lst)):
+        if lst[read] != target:
+            lst[write] = lst[read]
+            write += 1
+    del lst[write:]</pre><p>A write index performs stable compaction. One suffix deletion removes the unused positions.</p>`
+      },
+      {
+        id: 31, topic: "searching", type: "multiple",
+        prompt: `Using inclusive bounds and <code>mid = (low + high) // 2</code>, which values are inspected while searching for 15?<code class="prompt-code">[2, 5, 8, 12, 16, 23, 38, 56, 72]</code>`,
+        options: ["16, 8, 12", "16, 5, 8, 12", "16, 23, 12", "12, 16, 23"], correct: 1,
+        answer: `<p>The search checks 16, then 5, then 8, then 12. The bounds cross, so it reports that 15 is absent.</p>`
+      },
+      {
+        id: 32, topic: "searching", type: "code",
+        prompt: "A sorted list contains only 0s followed by 1s. Find the index of the first 1 in Θ(log n).",
+        answer: `<pre>def first_one(lst):
+    low, high = 0, len(lst) - 1
+    answer = None
+    while low &lt;= high:
+        mid = (low + high) // 2
+        if lst[mid] == 1:
+            answer = mid
+            high = mid - 1
+        else:
+            low = mid + 1
+    return answer</pre><p>On a 1, keep searching left. On a 0, discard the left half.</p>`
+      },
+      {
+        id: 33, topic: "searching", type: "code",
+        prompt: "A sorted list contains every number from 0 through n except one. Find the missing number in Θ(log n).",
+        answer: `<pre>def find_missing(lst):
+    low, high = 0, len(lst) - 1
+    while low &lt;= high:
+        mid = (low + high) // 2
+        if lst[mid] == mid:
+            low = mid + 1
+        else:
+            high = mid - 1
+    return low</pre><p>Before the missing value, each value equals its index. The returned insertion boundary is the missing number.</p>`
+      },
+      {
+        id: 34, topic: "searching", type: "code",
+        prompt: "Implement recursive binary search on the inclusive range low through high.",
+        answer: `<pre>def binary_search(lst, low, high, target):
+    if low &gt; high:
+        return None
+    mid = (low + high) // 2
+    if lst[mid] == target:
+        return mid
+    if target &lt; lst[mid]:
+        return binary_search(lst, low, mid - 1, target)
+    return binary_search(lst, mid + 1, high, target)</pre><p>Each call discards half of the remaining range, so the runtime is Θ(log n).</p>`
+      },
+      {
+        id: 35, topic: "sorting", type: "code",
+        prompt: "lst is a permutation of 0 through n−1. Sort it in-place in Θ(n) time.",
+        answer: `<pre>def sort_permutation(lst):
+    for i in range(len(lst)):
+        while lst[i] != i:
+            j = lst[i]
+            lst[i], lst[j] = lst[j], lst[i]</pre><p>Each swap puts at least one value into its final index, so there are at most n−1 swaps.</p>`
+      },
+      {
+        id: 36, topic: "sorting", type: "code",
+        prompt: "Write bubble sort with an early stop when a full pass makes no swaps.",
+        answer: `<pre>def bubble_sort(lst):
+    for end in range(len(lst) - 1, 0, -1):
+        swapped = False
+        for i in range(end):
+            if lst[i] &gt; lst[i + 1]:
+                lst[i], lst[i + 1] = lst[i + 1], lst[i]
+                swapped = True
+        if not swapped:
+            return</pre><p>Worst case is Θ(n²). An already sorted list stops after one pass, in Θ(n).</p>`
+      },
+      {
+        id: 37, topic: "recursion", type: "multiple",
+        prompt: `What does <code>func(64)</code> return, and what is its runtime?<code class="prompt-code">def func(n):
+    if n == 1:
+        return 1
+    return n + func(n // 2)</code>`,
+        options: ["64 and Θ(1)", "127 and Θ(log n)", "127 and Θ(n)", "126 and Θ(log n)"], correct: 1,
+        answer: `<p>64 + 32 + 16 + 8 + 4 + 2 + 1 = 127. The input halves at every call, giving Θ(log n) calls.</p>`
+      },
+      {
+        id: 38, topic: "inplace", type: "code",
+        prompt: "Partition a list in-place so all odd values come before all even values. Use Θ(n) time and no auxiliary list.",
+        answer: `<pre>def split_parity(lst):
+    left, right = 0, len(lst) - 1
+    while left &lt; right:
+        while left &lt; right and lst[left] % 2 == 1:
+            left += 1
+        while left &lt; right and lst[right] % 2 == 0:
+            right -= 1
+        if left &lt; right:
+            lst[left], lst[right] = lst[right], lst[left]
+            left += 1
+            right -= 1</pre><p>Each pointer moves only inward. The order inside each group is not required.</p>`
+      },
+      {
+        id: 39, topic: "inplace", type: "code",
+        prompt: "Given a sorted list and a target, return two indices whose values sum to the target in Θ(n), or return None.",
+        answer: `<pre>def two_sum(sorted_lst, target):
+    left, right = 0, len(sorted_lst) - 1
+    while left &lt; right:
+        total = sorted_lst[left] + sorted_lst[right]
+        if total == target:
+            return left, right
+        if total &lt; target:
+            left += 1
+        else:
+            right -= 1
+    return None</pre><p>Sorted order tells which pointer can move without skipping a possible pair.</p>`
+      },
+      {
+        id: 40, topic: "generators", type: "code",
+        prompt: "Write a generator that yields every positive factor of num in ascending order in Θ(√num) total time.",
+        answer: `<pre>def factors(num):
+    large = []
+    factor = 1
+    while factor * factor &lt;= num:
+        if num % factor == 0:
+            yield factor
+            partner = num // factor
+            if partner != factor:
+                large.append(partner)
+        factor += 1
+    while large:
+        yield large.pop()</pre><p>Small factors appear in ascending order. Their paired large factors are saved and produced in reverse order.</p>`
+      },
+      {
+        id: 41, topic: "complexity", type: "code",
+        prompt: "Give constants c and n₀ that prove n² + 5n − 2 is O(n³).",
+        answer: `<p>Choose <strong>c = 6</strong> and <strong>n₀ = 1</strong>. For n ≥ 1:</p><pre>n² + 5n − 2 ≤ n² + 5n ≤ 6n² ≤ 6n³</pre>`
+      },
+      {
+        id: 42, topic: "complexity", type: "truefalse",
+        prompt: "8n²√n is O(n³), but it is not Θ(n³).",
+        options: ["True", "False"], correct: 0,
+        answer: `<p><strong>True.</strong> The function is Θ(n<sup>5/2</sup>). It grows no faster than n³, but its ratio to n³ is 8/√n, which approaches 0.</p>`
+      },
+      {
+        id: 43, topic: "python", type: "multiple",
+        prompt: `Given u = Vector([2, -1, 4]) and v = Vector([3, 5, -2]), what should u * v return when __mul__ implements the vector dot product?`,
+        options: ["Vector([6, -5, -8])", "-7", "7", "Vector([-1, -6, 6])"], correct: 1,
+        answer: `<p>The dot product is 2·3 + (−1)·5 + 4·(−2) = 6 − 5 − 8 = <strong>−7</strong>.</p>`
+      },
+      {
+        id: 44, topic: "python", type: "code",
+        prompt: "Compute 1 + 1/1! + … + 1/n! in Θ(n) time without recomputing each factorial.",
+        answer: `<pre>def e_approx(n):
+    total = 1.0
+    factorial = 1
+    for i in range(1, n + 1):
+        factorial *= i
+        total += 1 / factorial
+    return total</pre><p>The running factorial makes every iteration Θ(1), so the total is Θ(n).</p>`
+      },
+      {
+        id: 45, topic: "python", type: "multiple",
+        prompt: "An array-backed list has capacity 8 and 2 elements after a pop. Under the rule ‘shrink only when size is strictly below one quarter of capacity,’ should it shrink now?",
+        options: ["Yes, to capacity 4", "No; 2 is equal to one quarter of 8", "Yes, to capacity 2", "It depends on the removed value"], correct: 1,
+        answer: `<p>No. The rule uses <strong>strictly below</strong>. Since 2 = 8/4, this pop does not trigger shrinking.</p>`
+      },
+      {
+        id: 46, topic: "python", type: "code",
+        prompt: "lst has n integers, all in 1 through n−1. Return its duplicate values in Θ(n) time.",
+        answer: `<pre>def find_duplicates(lst):
+    counts = [0] * len(lst)
+    duplicates = []
+    for value in lst:
+        counts[value] += 1
+        if counts[value] == 2:
+            duplicates.append(value)
+    return duplicates</pre><p>The restricted value range lets each value index a frequency array. Appending only when the count becomes 2 avoids repeated output.</p>`
+      },
+      {
+        id: 47, topic: "recursion", type: "multiple",
+        prompt: "Match the recurrences to their tight runtimes: T₁(n)=2T₁(n−1)+Θ(1), T₂(n)=T₂(n/2)+Θ(1), T₃(n)=T₃(n/2)+Θ(n).",
+        options: ["Θ(n²), Θ(n), Θ(n log n)", "Θ(2ⁿ), Θ(log n), Θ(n)", "Θ(2ⁿ), Θ(n), Θ(n log n)", "Θ(n), Θ(log n), Θ(n²)"], correct: 1,
+        answer: `<p>T₁ doubles the number of calls at every decrement. T₂ has one constant-cost call per halving level. T₃ has geometric level costs n + n/2 + n/4 + ….</p>`
+      },
+      {
+        id: 48, topic: "recursion", type: "code",
+        prompt: "Implement recursive flat_list(nested_lst, low, high) without a helper. Flatten the inclusive range from left to right.",
+        answer: `<pre>def flat_list(nested_lst, low, high):
+    if low &gt; high:
+        return []
+    if isinstance(nested_lst[low], list):
+        current = flat_list(nested_lst[low], 0,
+                            len(nested_lst[low]) - 1)
+    else:
+        current = [nested_lst[low]]
+    return current + flat_list(nested_lst, low + 1, high)</pre><p>The base case handles an empty range. Each item is flattened before the remaining range.</p>`
+      } ,
+      {
+        id: 49, topic: "complexity", type: "multiple", source: "Lab 5",
+        prompt: `What is the runtime of this recursive function?<code class="prompt-code">def increasing(lst):
+    if len(lst) &lt;= 1:
+        return True
+    return lst[0] &lt; lst[1] and increasing(lst[1:])</code>`,
+        options: ["Θ(log n)", "Θ(n)", "Θ(n log n)", "Θ(n²)"], correct: 3,
+        answer: `<p><strong>Θ(n²).</strong> There are Θ(n) calls, and each slice <code>lst[1:]</code> copies a list whose length decreases from n to 1.</p>`
+      },
+      {
+        id: 50, topic: "complexity", type: "multiple", source: "Lab 3 vitamins",
+        prompt: "A loop runs n times. Each iteration tests whether a value occurs in an unsorted list of length n. What is the worst-case runtime?",
+        options: ["Θ(log n)", "Θ(n)", "Θ(n log n)", "Θ(n²)"], correct: 3,
+        answer: `<p>Membership in an unsorted list can scan n items. Repeating that n times gives Θ(n²).</p>`
+      },
+      {
+        id: 51, topic: "complexity", type: "multiple", source: "Lab 4 vitamins",
+        prompt: "Which ordering is correct from slower to faster growth?",
+        options: ["√n, log n, n/log n, n", "log n, √n, n/log n, n", "log n, n/log n, √n, n", "n/log n, log n, √n, n"], correct: 1,
+        answer: `<p><strong>log n &lt; √n &lt; n/log n &lt; n.</strong> Ratios between adjacent functions grow without bound as n grows.</p>`
+      },
+      {
+        id: 52, topic: "python", type: "code", source: "Lab 1",
+        prompt: "Implement <code>can_construct(word, letters)</code> for lowercase letters in Θ(len(word) + len(letters)) time.",
+        answer: `<pre>def can_construct(word, letters):
+    counts = [0] * 26
+    offset = ord("a")
+    for char in letters:
+        counts[ord(char) - offset] += 1
+    for char in word:
+        index = ord(char) - offset
+        if counts[index] == 0:
+            return False
+        counts[index] -= 1
+    return True</pre><p>A 26-slot frequency table avoids repeated calls to <code>count</code> or <code>remove</code>.</p>`
+      },
+      {
+        id: 53, topic: "objects", type: "multiple", source: "Lab 1",
+        prompt: "If <code>z1 = Complex(5, 2)</code> and <code>z2 = Complex(3, 3)</code>, what should <code>z1 * z2</code> represent?",
+        options: ["21 + 9i", "9 + 21i", "15 + 6i", "8 + 5i"], correct: 1,
+        answer: `<p>(5 + 2i)(3 + 3i) = 15 + 15i + 6i + 6i² = <strong>9 + 21i</strong>.</p>`
+      },
+      {
+        id: 54, topic: "objects", type: "truefalse", source: "Lab 1",
+        prompt: "A correct <code>__iadd__</code> implementation must return the resulting object.",
+        options: ["True", "False"], correct: 0,
+        answer: `<p><strong>True.</strong> Augmented assignment rebinds the left-hand name to the value returned by <code>__iadd__</code>. Returning nothing would bind it to <code>None</code>.</p>`
+      },
+      {
+        id: 55, topic: "objects", type: "multiple", source: "Lab 2",
+        prompt: "Why is <code>def __init__(self, coefficients=[])</code> risky?",
+        options: ["Lists cannot be parameters", "The same default list can be shared by multiple instances", "It copies the list on every call", "It prevents operator overloading"], correct: 1,
+        answer: `<p>Default arguments are created once. Use <code>coefficients=None</code>, then create a fresh list inside the constructor.</p>`
+      },
+      {
+        id: 56, topic: "objects", type: "multiple", source: "Lab 2",
+        prompt: "After going back in browser history and visiting a new page, what should happen to the old forward history?",
+        options: ["Keep it after the new page", "Move it before the homepage", "Discard it before appending the new page", "Duplicate it"], correct: 2,
+        answer: `<p>A new visit creates a new branch. Keep history only through the current index, then append the new URL.</p>`
+      },
+      {
+        id: 57, topic: "objects", type: "code", source: "Lab 2",
+        prompt: "Implement <code>BrowserHistory.visit(url)</code> using a history list and current index.",
+        answer: `<pre>def visit(self, url):
+    self.history = self.history[:self.current + 1]
+    self.history.append(url)
+    self.current += 1</pre><p>The slice removes any pages that were ahead of the current page.</p>`
+      },
+      {
+        id: 58, topic: "objects", type: "multiple", source: "Lab 2",
+        prompt: "A polynomial stores coefficients as <code>[3, 7, 0, -9]</code>. What polynomial does it represent?",
+        options: ["3x³ + 7x² − 9", "3 + 7x − 9x³", "3 + 7x² − 9x³", "−9 + 7x + 3x³"], correct: 1,
+        answer: `<p>The list index is the exponent: coefficient 3 is for x⁰, 7 for x¹, 0 for x², and −9 for x³.</p>`
+      },
+      {
+        id: 59, topic: "objects", type: "code", source: "Lab 2",
+        prompt: "Implement polynomial addition when the coefficient lists may have different lengths.",
+        answer: `<pre>def __add__(self, other):
+    size = max(len(self.coefficients), len(other.coefficients))
+    result = []
+    for i in range(size):
+        a = self.coefficients[i] if i &lt; len(self.coefficients) else 0
+        b = other.coefficients[i] if i &lt; len(other.coefficients) else 0
+        result.append(a + b)
+    return Polynomial(result)</pre>`
+      },
+      {
+        id: 60, topic: "objects", type: "multiple", source: "Lab 2",
+        prompt: "During polynomial multiplication, coefficients at indices i and j contribute to which result index?",
+        options: ["i − j", "i + j", "i × j", "max(i, j)"], correct: 1,
+        answer: `<p>xⁱ · xʲ = xⁱ⁺ʲ, so their coefficient product is added to result index <strong>i + j</strong>.</p>`
+      },
+      {
+        id: 61, topic: "generators", type: "code", source: "Lab 3",
+        prompt: "Write <code>new_maximums(lst)</code>, which yields the first value and then every value that sets a new running maximum.",
+        answer: `<pre>def new_maximums(lst):
+    maximum = lst[0]
+    yield maximum
+    for value in lst[1:]:
+        if value &gt; maximum:
+            maximum = value
+            yield value</pre><p>For [3, 1, 4, 4, 2, 7], it yields 3, 4, 7.</p>`
+      },
+      {
+        id: 62, topic: "generators", type: "truefalse", source: "Labs 1 and 3",
+        prompt: "Calling a generator function runs its whole body immediately and returns a completed list.",
+        options: ["True", "False"], correct: 1,
+        answer: `<p><strong>False.</strong> It returns a generator object. Execution advances lazily as values are requested.</p>`
+      },
+      {
+        id: 63, topic: "searching", type: "multiple", source: "Lab 3",
+        prompt: "To find the first and last occurrence of a target in a sorted list in Θ(log n), what is the best method?",
+        options: ["One linear scan", "Two biased binary searches", "Sort the list twice", "Use list.index and count"], correct: 1,
+        answer: `<p>Run one binary search that continues left after a match and another that continues right. Each is Θ(log n).</p>`
+      },
+      {
+        id: 64, topic: "searching", type: "code", source: "Lab 4",
+        prompt: "Find the index of the smallest element in a rotated sorted list with distinct values in Θ(log n).",
+        answer: `<pre>def find_pivot(lst):
+    if not lst:
+        return None
+    left, right = 0, len(lst) - 1
+    while left &lt; right:
+        mid = (left + right) // 2
+        if lst[mid] &gt; lst[right]:
+            left = mid + 1
+        else:
+            right = mid
+    return left</pre>`
+      },
+      {
+        id: 65, topic: "searching", type: "multiple", source: "Lab 4",
+        prompt: "With jump size √n, what is the worst-case runtime of jump search on a sorted list of length n?",
+        options: ["Θ(log n)", "Θ(√n)", "Θ(n)", "Θ(n log n)"], correct: 1,
+        answer: `<p>There are at most √n jumps and then at most √n items in the final linear scan, for Θ(√n) total work.</p>`
+      },
+      {
+        id: 66, topic: "searching", type: "multiple", source: "Lab 4",
+        prompt: "Exponential search doubles an index until it brackets the target, then uses binary search. What is its worst-case runtime?",
+        options: ["Θ(1)", "Θ(log n)", "Θ(√n)", "Θ(n)"], correct: 1,
+        answer: `<p>Doubling takes Θ(log n) steps, and binary search within the bracket also takes Θ(log n).</p>`
+      },
+      {
+        id: 67, topic: "searching", type: "code", source: "Lab 4",
+        prompt: "For a lowercase string, return the length of the longest substring without repeated characters in Θ(n).",
+        answer: `<pre>def longest_unique(s):
+    last_seen = [-1] * 26
+    left = 0
+    best = 0
+    for right, char in enumerate(s):
+        index = ord(char) - ord("a")
+        left = max(left, last_seen[index] + 1)
+        last_seen[index] = right
+        best = max(best, right - left + 1)
+    return best</pre><p>The left boundary never moves backward, so the sliding window is linear.</p>`
+      },
+      {
+        id: 68, topic: "arrays", type: "multiple", source: "Lab 4 and HW 3",
+        prompt: "Why is append amortized Θ(1) in an array-backed list that doubles its capacity?",
+        options: ["Every append copies the array", "Resize copies are spread across many cheap appends", "The array never fills", "Indexing becomes logarithmic"], correct: 1,
+        answer: `<p>Most appends write one slot. Occasional resize costs form 1 + 2 + 4 + … + n = Θ(n) across n appends.</p>`
+      },
+      {
+        id: 69, topic: "arrays", type: "code", source: "HW 3",
+        prompt: "Implement <code>__getitem__</code> for an array-backed list, including valid negative indices.",
+        answer: `<pre>def __getitem__(self, index):
+    if not -self.n &lt;= index &lt; self.n:
+        raise IndexError("invalid index")
+    if index &lt; 0:
+        index += self.n
+    return self.data[index]</pre>`
+      },
+      {
+        id: 70, topic: "arrays", type: "multiple", source: "Lab 4 and HW 3",
+        prompt: "What is the worst-case runtime of inserting at index 0 in an array-backed list containing n items?",
+        options: ["Θ(1)", "Θ(log n)", "Θ(n)", "Θ(n²)"], correct: 2,
+        answer: `<p><strong>Θ(n).</strong> Every existing item may need to shift one position to the right.</p>`
+      },
+      {
+        id: 71, topic: "arrays", type: "code", source: "HW 3",
+        prompt: "Implement the shifting part of <code>pop(index)</code> for an array-backed list after saving the removed value.",
+        answer: `<pre>for i in range(index, self.n - 1):
+    self.data[i] = self.data[i + 1]
+self.data[self.n - 1] = None
+self.n -= 1</pre><p>Removing the final item needs no shifts; removing near the front can cost Θ(n).</p>`
+      },
+      {
+        id: 72, topic: "lists", type: "multiple", source: "Lab 1 vitamins",
+        prompt: `What prints?<code class="prompt-code">row = [0, 0]
+grid = [row] * 3
+grid[1][0] = 7
+print(grid)</code>`,
+        options: ["[[0, 0], [7, 0], [0, 0]]", "[[7, 0], [7, 0], [7, 0]]", "[[7, 0], [0, 0], [0, 0]]", "An error"], correct: 1,
+        answer: `<p>All three slots refer to the same <code>row</code> object, so the mutation appears through every reference.</p>`
+      },
+      {
+        id: 73, topic: "recursion", type: "multiple", source: "Lab 5",
+        prompt: `What does <code>digit_sum(5724)</code> return?<code class="prompt-code">def digit_sum(n):
+    if n &lt; 10:
+        return n
+    return n % 10 + digit_sum(n // 10)</code>`,
+        options: ["9", "14", "18", "5724"], correct: 2,
+        answer: `<p>4 + 2 + 7 + 5 = <strong>18</strong>. There is one call per decimal digit.</p>`
+      },
+      {
+        id: 74, topic: "recursion", type: "code", source: "Lab 5",
+        prompt: "Implement recursive palindrome checking on the inclusive range low through high.",
+        answer: `<pre>def is_palindrome(text, low, high):
+    if low &gt;= high:
+        return True
+    return (text[low] == text[high]
+            and is_palindrome(text, low + 1, high - 1))</pre>`
+      },
+      {
+        id: 75, topic: "recursion", type: "multiple", source: "Lab 5",
+        prompt: "A recursion processes one list item per call. Which implementation detail can accidentally change Θ(n) work into Θ(n²)?",
+        options: ["Passing integer indices", "Using a constant-time comparison", "Passing <code>lst[1:]</code> on every call", "Stopping at one item"], correct: 2,
+        answer: `<p>Each slice copies its remaining items. The total copied length is n + (n−1) + … + 1 = Θ(n²).</p>`
+      },
+      {
+        id: 76, topic: "recursion", type: "code", source: "HW 4",
+        prompt: "Recursively return a dictionary of character counts for <code>s[low:high+1]</code>.",
+        answer: `<pre>def appearances(s, low, high):
+    if low &gt; high:
+        return {}
+    counts = appearances(s, low, high - 1)
+    char = s[high]
+    counts[char] = counts.get(char, 0) + 1
+    return counts</pre>`
+      },
+      {
+        id: 77, topic: "recursion", type: "multiple", source: "HW 4",
+        prompt: `How many lines does <code>print_ruler(3)</code> print?<code class="prompt-code">def print_ruler(n):
+    if n == 0:
+        return
+    print_ruler(n - 1)
+    print("-" * n)
+    print_ruler(n - 1)</code>`,
+        options: ["3", "6", "7", "8"], correct: 2,
+        answer: `<p>The recurrence is L(n)=2L(n−1)+1 with L(0)=0, so L(n)=2ⁿ−1. For n=3, it prints 7 lines.</p>`
+      },
+      {
+        id: 78, topic: "recursion", type: "multiple", source: "HW 4",
+        prompt: "A recursive algorithm returns every permutation of n distinct items. What lower bound applies just to producing the output?",
+        options: ["Ω(log n)", "Ω(n)", "Ω(n²)", "Ω(n · n!)"], correct: 3,
+        answer: `<p>There are n! permutations, each containing n items, so materializing the full result requires Ω(n · n!) time and space.</p>`
+      },
+      {
+        id: 79, topic: "recursion", type: "code", source: "Lab 6",
+        prompt: "Recursively decide whether a string containing only parentheses is balanced.",
+        answer: `<pre>def balanced(text, index=0, count=0):
+    if count &lt; 0:
+        return False
+    if index == len(text):
+        return count == 0
+    if text[index] == "(":
+        count += 1
+    else:
+        count -= 1
+    return balanced(text, index + 1, count)</pre><p>A negative count means a closing parenthesis appeared before a matching opener.</p>`
+      },
+      {
+        id: 80, topic: "recursion", type: "code", source: "Lab 6",
+        prompt: "Recursively sum all numbers in a nested list of arbitrary depth.",
+        answer: `<pre>def nested_sum(lst):
+    total = 0
+    for item in lst:
+        if isinstance(item, list):
+            total += nested_sum(item)
+        else:
+            total += item
+    return total</pre><p>Each number is added once. Recursion handles nested list structure.</p>`
+      }  
+    ];
+
+    function validateQuestions(items) {
+      const ids = new Set();
+      items.forEach(question => {
+        if (ids.has(question.id)) throw new Error(`Duplicate question id: ${question.id}`);
+        ids.add(question.id);
+        const config = QUESTION_TYPES[question.type];
+        if (!config) throw new Error(`Unknown question type: ${question.type}`);
+        if (!topics[question.topic]) throw new Error(`Unknown topic: ${question.topic}`);
+        if (config.mode === "choice" && (!Array.isArray(question.options) || !Number.isInteger(question.correct) || !question.options[question.correct])) {
+          throw new Error(`Invalid choices for question ${question.id}`);
+        }
+      });
+    }
+    validateQuestions(questions);
+
+    const storageKey = "cs1134-exam1-progress-v3";
+    const saveNameKey = "cs1134-exam1-save-name-v1";
+    const jsonBinUrl = `https://api.jsonbin.io/v3/b/${JSONBIN.binId}`;
+    const list = document.querySelector("#questions");
+    const search = document.querySelector("#search");
+    const filters = document.querySelector("#filters");
+    const empty = document.querySelector("#empty");
+    const focusDialog = document.querySelector("#focusDialog");
+    const saveNameInput = document.querySelector("#saveName");
+    const loadCloudButton = document.querySelector("#loadCloudButton");
+    const saveCloudButton = document.querySelector("#saveCloudButton");
+    const syncStatus = document.querySelector("#syncStatus");
+    let activeTopic = "all";
+    let order = questions.map(question => question.id);
+    let visibleQuestions = [...questions];
+    let focusIndex = 0;
+    let progress = loadProgress();
+    let cloudBaseline = null;
+    const revealed = new Set();
+    const selections = {};
+
+    function loadProgress() {
+      try {
+        const saved = JSON.parse(localStorage.getItem(storageKey));
+        return cleanProgress(saved);
+      } catch { return {}; }
+    }
+    function cleanProgress(value) {
+      if (!value || typeof value !== "object" || Array.isArray(value)) return {};
+      return Object.fromEntries(Object.entries(value).filter(([id, status]) =>
+        /^\d+$/.test(id) && (status === "mastered" || status === "review")
+      ));
+    }
+    function saveProgress() {
+      localStorage.setItem(storageKey, JSON.stringify(progress));
+      updateProgress();
+    }
+    function normalizedSaveName() {
+      const name = saveNameInput.value.trim().replace(/\s+/g, " ");
+      if (!/^[A-Za-z0-9 _-]{1,32}$/.test(name)) return "";
+      return name;
+    }
+    function setSyncStatus(message, state = "") {
+      syncStatus.textContent = message;
+      syncStatus.className = `sync-status ${state}`.trim();
+    }
+    function setSyncBusy(busy) {
+      loadCloudButton.disabled = busy;
+      saveCloudButton.disabled = busy;
+      saveNameInput.disabled = busy;
+    }
+    function jsonBinHeaders(includeContentType = false) {
+      const headers = { "X-Access-Key": JSONBIN.accessKey };
+      if (includeContentType) headers["Content-Type"] = "application/json";
+      return headers;
+    }
+    async function fetchCloudDocument() {
+      const response = await fetch(`${jsonBinUrl}/latest`, { headers: jsonBinHeaders() });
+      if (!response.ok) throw new Error(`JSONBin returned ${response.status}`);
+      const payload = await response.json();
+      const document = payload.record;
+      if (!document || typeof document !== "object" || Array.isArray(document)) throw new Error("The bin format is invalid");
+      if (!document.users || typeof document.users !== "object" || Array.isArray(document.users)) document.users = {};
+      return document;
+    }
+    async function loadCloudProgress() {
+      const name = normalizedSaveName();
+      if (!name) { setSyncStatus("Use 1–32 letters, numbers, spaces, underscores, or hyphens.", "error"); saveNameInput.focus(); return; }
+      setSyncBusy(true);
+      setSyncStatus("Loading…");
+      try {
+        const document = await fetchCloudDocument();
+        const slot = document.users[name];
+        if (!slot) throw new Error(`No cloud save named “${name}”`);
+        progress = cleanProgress(slot.progress);
+        cloudBaseline = { name, updatedAt: slot.updatedAt || null };
+        saveProgress();
+        localStorage.setItem(saveNameKey, name);
+        saveNameInput.value = name;
+        renderQuestions();
+        if (focusDialog.open) renderFocus();
+        const when = slot.updatedAt ? new Date(slot.updatedAt).toLocaleString() : "an unknown time";
+        setSyncStatus(`Loaded “${name}” from ${when}.`, "success");
+      } catch (error) {
+        setSyncStatus(`${error.message}. Your local progress was not changed.`, "error");
+      } finally { setSyncBusy(false); }
+    }
+    async function saveCloudProgress() {
+      const name = normalizedSaveName();
+      if (!name) { setSyncStatus("Use 1–32 letters, numbers, spaces, underscores, or hyphens.", "error"); saveNameInput.focus(); return; }
+      setSyncBusy(true);
+      setSyncStatus("Saving…");
+      try {
+        const document = await fetchCloudDocument();
+        const current = document.users[name];
+        const changedSinceLoad = current && (!cloudBaseline || cloudBaseline.name !== name || cloudBaseline.updatedAt !== (current.updatedAt || null));
+        if (changedSinceLoad && !confirm(`The cloud save “${name}” has data you have not loaded. Overwrite it?`)) {
+          setSyncStatus("Save canceled. Load the cloud copy first.");
+          return;
+        }
+        const now = new Date().toISOString();
+        document.version = 1;
+        document.updatedAt = now;
+        document.users[name] = { updatedAt: now, progress: cleanProgress(progress) };
+        const response = await fetch(jsonBinUrl, {
+          method: "PUT",
+          headers: jsonBinHeaders(true),
+          body: JSON.stringify(document)
+        });
+        if (!response.ok) throw new Error(`JSONBin returned ${response.status}`);
+        cloudBaseline = { name, updatedAt: now };
+        localStorage.setItem(saveNameKey, name);
+        saveNameInput.value = name;
+        setSyncStatus(`Saved “${name}” at ${new Date(now).toLocaleTimeString()}.`, "success");
+      } catch (error) {
+        setSyncStatus(`${error.message}. Your progress remains saved locally.`, "error");
+      } finally { setSyncBusy(false); }
+    }
+    function plainText(html) {
+      const node = document.createElement("div");
+      node.innerHTML = html;
+      return node.textContent.toLowerCase();
+    }
+    function questionById(id) { return questions.find(question => question.id === Number(id)); }
+    function getVisibleQuestions() {
+      const term = search.value.trim().toLowerCase();
+      const byId = new Map(questions.map(question => [question.id, question]));
+      return order.map(id => byId.get(id))
+        .filter(question => activeTopic === "all" || question.topic === activeTopic)
+        .filter(question => !term || plainText(question.prompt + question.answer).includes(term));
+    }
+    function statusText(status) {
+      return status === "mastered" ? "Got it" : status === "review" ? "Review" : "";
+    }
+    function escapeCode(value) {
+      return value.replace(/[&<>]/g, character => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;" })[character]);
+    }
+    function highlightPython(source) {
+      const tokens = /(#.*$)|("(?:\\.|[^"\\])*"|'(?:\\.|[^'\\])*')|\b(def|return|if|else|elif|for|while|in|and|or|not|True|False|None|yield|import|from|as)\b|\b(print|len|range|sum|min|max|list|enumerate|append|deepcopy|pop)\b|\b(\d+)\b|([+\-*\/%=<>!]+)/gm;
+      let html = "";
+      let position = 0;
+      for (const match of source.matchAll(tokens)) {
+        html += escapeCode(source.slice(position, match.index));
+        const className = match[1] ? "tok-comment" : match[2] ? "tok-string" : match[3] ? "tok-keyword" : match[4] ? "tok-builtin" : match[5] ? "tok-number" : "tok-operator";
+        html += `<span class="${className}">${escapeCode(match[0])}</span>`;
+        position = match.index + match[0].length;
+      }
+      return html + escapeCode(source.slice(position));
+    }
+    function highlightCode(root = document) {
+      root.querySelectorAll("pre:not([data-highlighted])").forEach(block => {
+        block.innerHTML = highlightPython(block.textContent);
+        block.dataset.highlighted = "true";
+      });
+    }
+
+    function renderFilters() {
+      filters.innerHTML = Object.entries(topics).map(([key, label]) =>
+        `<button class="filter" type="button" data-topic="${key}" aria-pressed="${key === activeTopic}">${label}</button>`
+      ).join("");
+    }
+
+    function responseHTML(question, prefix = "card") {
+      const config = QUESTION_TYPES[question.type];
+      const isRevealed = revealed.has(question.id);
+      if (config.mode === "choice") {
+        const many = question.options.length > 2 ? " many" : "";
+        const choices = question.options.map((option, index) => {
+          const selected = selections[question.id] === index;
+          const state = !isRevealed ? (selected ? " selected" : "")
+            : index === question.correct ? " correct" : selected ? " incorrect" : "";
+          return `<button class="choice-button${state}" type="button" data-select="${index}" ${isRevealed ? "disabled" : ""}>
+            <span class="choice-key">${config.keys[index]}</span><span>${option}</span>
+          </button>`;
+        }).join("");
+        const feedback = isRevealed
+          ? selections[question.id] === question.correct
+            ? `<p class="feedback good" role="status">Correct.</p>`
+            : `<p class="feedback bad" role="status">Not quite. Review the explanation below.</p>`
+          : `<p class="feedback" aria-hidden="true"></p>`;
+        return `<div class="response-area"><div class="choice-grid${many}" role="group" aria-label="Answer choices">${choices}</div>${feedback}</div>`;
+      }
+      return `<div class="response-area">
+        <button class="button" type="button" data-reveal>${isRevealed ? "Hide answer" : "Show answer"}</button>
+      </div>`;
+    }
+
+    function gradesHTML(question, focus = false) {
+      const status = progress[question.id] || "";
+      const attr = focus ? "data-focus-grade" : "data-grade";
+      return `<div class="grade-actions" ${revealed.has(question.id) ? "" : "hidden"}>
+        <span class="grade-prompt">How did you do?</span>
+        <button class="button grade-button ${status === "review" ? "active" : ""}" ${attr}="review" type="button">Needs review</button>
+        <button class="button grade-button ${status === "mastered" ? "active" : ""}" ${attr}="mastered" type="button">Got it</button>
+      </div>`;
+    }
+
+    function renderQuestions() {
+      visibleQuestions = getVisibleQuestions();
+      document.querySelector("#resultCount").textContent = `${visibleQuestions.length} ${visibleQuestions.length === 1 ? "question" : "questions"}`;
+      empty.hidden = visibleQuestions.length !== 0;
+      document.querySelector("#focusButton").disabled = visibleQuestions.length === 0;
+      list.innerHTML = visibleQuestions.map(question => {
+        const type = QUESTION_TYPES[question.type];
+        const status = progress[question.id] || "";
+        const open = revealed.has(question.id);
+        return `<article class="question-card" data-id="${question.id}" data-type="${question.type}" data-status="${status}">
+          <div class="question-top">
+            <div class="meta"><span>Question ${question.id}</span><span>·</span><span>${topics[question.topic]}</span><span class="type-badge">${type.label}</span><span class="status-label">${statusText(status)}</span></div>
+            <h2 class="question-title">${question.prompt}</h2>
+            ${responseHTML(question)}
+          </div>
+          <div class="answer" ${open ? "" : "hidden"}><span class="answer-label">Explanation</span>${question.answer}${gradesHTML(question)}</div>
+        </article>`;
+      }).join("");
+      highlightCode(list);
+    }
+
+    function updateProgress() {
+      const mastered = Object.values(progress).filter(value => value === "mastered").length;
+      const review = Object.values(progress).filter(value => value === "review").length;
+      document.querySelector("#progressDetail").textContent = `${mastered} mastered · ${review} to review`;
+      document.querySelector("#progressFill").style.width = `${mastered / questions.length * 100}%`;
+      const track = document.querySelector(".progress-track");
+      track.setAttribute("role", "progressbar");
+      track.setAttribute("aria-label", `${mastered} of ${questions.length} questions mastered`);
+      track.setAttribute("aria-valuemin", "0");
+      track.setAttribute("aria-valuemax", String(questions.length));
+      track.setAttribute("aria-valuenow", String(mastered));
+    }
+    function setStatus(id, status) {
+      progress[id] = status;
+      saveProgress();
+      renderQuestions();
+      if (focusDialog.open) renderFocus();
+    }
+    function choose(question, index) {
+      if (revealed.has(question.id)) return;
+      selections[question.id] = index;
+      revealed.add(question.id);
+      renderQuestions();
+      if (focusDialog.open) renderFocus();
+    }
+    function toggleReveal(question) {
+      if (revealed.has(question.id)) revealed.delete(question.id);
+      else revealed.add(question.id);
+      renderQuestions();
+      if (focusDialog.open) renderFocus();
+    }
+
+    filters.addEventListener("click", event => {
+      const button = event.target.closest("[data-topic]");
+      if (!button) return;
+      activeTopic = button.dataset.topic;
+      renderFilters();
+      renderQuestions();
+    });
+    search.addEventListener("input", renderQuestions);
+    list.addEventListener("click", event => {
+      const card = event.target.closest("[data-id]");
+      if (!card) return;
+      const question = questionById(card.dataset.id);
+      const choice = event.target.closest("[data-select]");
+      const reveal = event.target.closest("[data-reveal]");
+      const grade = event.target.closest("[data-grade]");
+      if (choice) choose(question, Number(choice.dataset.select));
+      else if (reveal) toggleReveal(question);
+      else if (grade) setStatus(question.id, grade.dataset.grade);
+    });
+
+    document.querySelector("#shuffleButton").addEventListener("click", () => {
+      for (let i = order.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [order[i], order[j]] = [order[j], order[i]];
+      }
+      renderQuestions();
+    });
+    loadCloudButton.addEventListener("click", loadCloudProgress);
+    saveCloudButton.addEventListener("click", saveCloudProgress);
+    saveNameInput.addEventListener("change", () => {
+      const name = normalizedSaveName();
+      if (name) localStorage.setItem(saveNameKey, name);
+    });
+    document.querySelector("#resetButton").addEventListener("click", () => {
+      if (!Object.keys(progress).length) return;
+      if (confirm("Clear local progress? Your cloud save will remain until you press Save.")) {
+        progress = {};
+        saveProgress();
+        renderQuestions();
+        setSyncStatus("Local progress cleared. Cloud progress was not changed.");
+      }
+    });
+
+    function openFocus() {
+      visibleQuestions = getVisibleQuestions();
+      if (!visibleQuestions.length) return;
+      focusIndex = 0;
+      renderFocus();
+      focusDialog.showModal();
+      document.querySelector("#focusQuestion").focus();
+    }
+    function renderFocus() {
+      const question = visibleQuestions[focusIndex];
+      const config = QUESTION_TYPES[question.type];
+      const body = document.querySelector("#focusBody");
+      body.dataset.type = question.type;
+      document.querySelector("#focusProgress").textContent = `${focusIndex + 1} of ${visibleQuestions.length}`;
+      document.querySelector("#focusTopic").textContent = `Question ${question.id} · ${topics[question.topic]} · ${config.label}`;
+      document.querySelector("#focusQuestion").innerHTML = question.prompt;
+      document.querySelector("#focusResponse").innerHTML = responseHTML(question, "focus");
+      const answer = document.querySelector("#focusAnswer");
+      answer.innerHTML = `<span class="answer-label">Explanation</span>${question.answer}`;
+      answer.hidden = !revealed.has(question.id);
+      document.querySelector("#focusGrades").hidden = !revealed.has(question.id);
+      document.querySelector("#focusPrevious").disabled = focusIndex === 0;
+      document.querySelector("#focusNext").textContent = focusIndex === visibleQuestions.length - 1 ? "Finish" : "Next";
+      const status = progress[question.id] || "";
+      document.querySelectorAll("[data-focus-grade]").forEach(button => button.classList.toggle("active", button.dataset.focusGrade === status));
+      highlightCode(body);
+    }
+    function moveFocus(direction) {
+      if (direction > 0 && focusIndex === visibleQuestions.length - 1) { focusDialog.close(); return; }
+      focusIndex = Math.max(0, Math.min(visibleQuestions.length - 1, focusIndex + direction));
+      renderFocus();
+      document.querySelector("#focusQuestion").focus();
+    }
+    document.querySelector("#focusButton").addEventListener("click", openFocus);
+    document.querySelector("#closeFocus").addEventListener("click", () => focusDialog.close());
+    document.querySelector("#focusPrevious").addEventListener("click", () => moveFocus(-1));
+    document.querySelector("#focusNext").addEventListener("click", () => moveFocus(1));
+    document.querySelector("#focusResponse").addEventListener("click", event => {
+      const question = visibleQuestions[focusIndex];
+      const choice = event.target.closest("[data-select]");
+      if (choice) choose(question, Number(choice.dataset.select));
+      else if (event.target.closest("[data-reveal]")) toggleReveal(question);
+    });
+    document.querySelector("#focusGrades").addEventListener("click", event => {
+      const button = event.target.closest("[data-focus-grade]");
+      if (button) setStatus(visibleQuestions[focusIndex].id, button.dataset.focusGrade);
+    });
+    focusDialog.addEventListener("click", event => { if (event.target === focusDialog) focusDialog.close(); });
+
+    saveNameInput.value = localStorage.getItem(saveNameKey) || "";
+    renderFilters();
+    renderQuestions();
+    updateProgress();
+  </script>
+</body>
+</html>
