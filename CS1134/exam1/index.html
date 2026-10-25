@@ -437,7 +437,7 @@
     <section class="sync-panel" aria-labelledby="syncTitle">
       <div class="sync-copy">
         <p class="sync-title" id="syncTitle">Cross-device progress</p>
-        <p class="sync-note">Enter your save name. These are public save slots; avoid saving at the same time as a friend.</p>
+        <p class="sync-note">Load or Save your public slot once. After that, each Got it or Needs review grade saves automatically.</p>
       </div>
       <label class="visually-hidden" for="saveName">Save name</label>
       <input class="sync-name" id="saveName" type="text" maxlength="32" pattern="[A-Za-z0-9 _-]{1,32}" autocomplete="username" placeholder="Your save name">
@@ -447,7 +447,7 @@
     </section>
 
     <div class="list-summary">
-      <span id="resultCount" aria-live="polite">95 questions</span>
+      <span id="resultCount" aria-live="polite">124 questions</span>
       <button class="button quiet" id="resetButton" type="button">Clear progress</button>
     </div>
     <section class="question-list" id="questions" aria-label="Practice questions"></section>
@@ -1415,6 +1415,409 @@ print(grid)</code>`,
 
 def __rmul__(self, scalar):
     return self * scalar</pre><p><code>__rmul__</code> also supports expressions such as <code>3 * vector</code>.</p>`
+      },
+      {
+        id: 96, topic: "complexity", type: "truefalse", source: "Fall 2017 Midterm Q1.I",
+        prompt: "√(3n² + 4n − 5) = Θ(n).",
+        options: ["True", "False"], correct: 0,
+        answer: `<p><strong>True.</strong> Dividing by n leaves √(3 + 4/n − 5/n²), which approaches √3.</p>`
+      },
+      {
+        id: 97, topic: "complexity", type: "truefalse", source: "Fall 2017 Midterm Q1.III",
+        prompt: "log₂ n = Ω(√n).",
+        options: ["True", "False"], correct: 1,
+        answer: `<p><strong>False.</strong> A logarithm grows more slowly than every positive power of n.</p>`
+      },
+      {
+        id: 98, topic: "complexity", type: "truefalse", source: "Spring 2019 Midterm Q1.a.I",
+        prompt: "n² = Ω(n).",
+        options: ["True", "False"], correct: 0,
+        answer: `<p><strong>True.</strong> For n ≥ 1, n² ≥ n. Choose c = 1 and n₀ = 1.</p>`
+      },
+      {
+        id: 99, topic: "complexity", type: "truefalse", source: "Spring 2019 Midterm Q1.a.II",
+        prompt: "√(n² + 7n − 5) = Θ(n).",
+        options: ["True", "False"], correct: 0,
+        answer: `<p><strong>True.</strong> The n² term dominates inside the square root, giving Θ(√n²) = Θ(n).</p>`
+      },
+      {
+        id: 100, topic: "complexity", type: "truefalse", source: "Spring 2019 Midterm Q1.a.III",
+        prompt: "n√n / 8 = O(n).",
+        options: ["True", "False"], correct: 1,
+        answer: `<p><strong>False.</strong> n√n / 8 is Θ(n<sup>3/2</sup>), which grows faster than n.</p>`
+      },
+      {
+        id: 101, topic: "complexity", type: "truefalse", source: "Spring 2019 Midterm Q1.a.IV",
+        prompt: "The fourth root of n is O(log n).",
+        options: ["True", "False"], correct: 1,
+        answer: `<p><strong>False.</strong> n<sup>1/4</sup> grows faster than log n.</p>`
+      },
+      {
+        id: 102, topic: "complexity", type: "truefalse", source: "Spring 2019 Midterm Q1.a.V",
+        prompt: "1 + 2 + 4 + 8 + ··· + n² = Θ(n²), where n² is the final power of two.",
+        options: ["True", "False"], correct: 0,
+        answer: `<p><strong>True.</strong> The geometric sum is 2n² − 1, so it is Θ(n²).</p>`
+      },
+      {
+        id: 103, topic: "complexity", type: "multiple", source: "Spring 2019 Midterm Q1.b",
+        prompt: `What is the runtime?<code class="prompt-code">def reverse_list(lst):
+    result = []
+    for value in lst:
+        result = [value] + result
+    return result</code>`,
+        options: ["Θ(1)", "Θ(log n)", "Θ(n)", "Θ(n²)"], correct: 3,
+        answer: `<p><strong>Θ(n²).</strong> Each concatenation copies the growing result. Total work is 1 + 2 + ··· + n.</p>`
+      },
+      {
+        id: 104, topic: "lists", type: "code", source: "Spring 2019 Midterm Q2.a",
+        prompt: `Write the three printed lists.<code class="prompt-code">lst1 = [1, [2, 3]]
+lst2 = [[4, 5], 6]
+lst3 = lst1 + lst2
+elem1 = lst1[0]
+elem2 = lst1[1]
+elem1 = 10
+elem2[0] = 20
+lst2[0][0] = 40
+lst2[1] = 60
+print("lst1 =", lst1)
+print("lst2 =", lst2)
+print("lst3 =", lst3)</code>`,
+        answer: `<pre>lst1 = [1, [20, 3]]
+lst2 = [[40, 5], 60]
+lst3 = [1, [20, 3], [40, 5], 6]</pre><p>The concatenation made a new outer list but retained references to both nested lists.</p>`
+      },
+      {
+        id: 105, topic: "lists", type: "code", source: "Fall 2025 Midterm Q1.a",
+        prompt: `Write all five printed lines.<code class="prompt-code">def func(a):
+    b = a
+    a[1] = 99
+    a = a + [100]
+    b.append(7)
+    print("Inside func: a =", a)
+    print("Inside func: b =", b)
+
+x = [1, 2, 3]
+y = x
+z = x[:]
+func(x)
+print("Outside: x =", x)
+print("Outside: y =", y)
+print("Outside: z =", z)</code>`,
+        answer: `<pre>Inside func: a = [1, 99, 3, 100]
+Inside func: b = [1, 99, 3, 7]
+Outside: x = [1, 99, 3, 7]
+Outside: y = [1, 99, 3, 7]
+Outside: z = [1, 2, 3]</pre>`
+      },
+      {
+        id: 106, topic: "generators", type: "code", source: "Fall 2025 Midterm Q2.a",
+        prompt: `What is printed?<code class="prompt-code">def gen(n):
+    curr = 0
+    total = 0
+    while curr &lt; n:
+        curr += 1
+        total += curr
+        yield curr
+    yield total
+
+for num in gen(3):
+    print(num)</code>`,
+        answer: `<pre>1
+2
+3
+6</pre><p>The loop yields each counter value. The final yield produces their sum.</p>`
+      },
+      {
+        id: 107, topic: "complexity", type: "multiple", source: "Fall 2025 Midterm Q2.b",
+        prompt: `What is the tight runtime?<code class="prompt-code">def func1(n):
+    count = 0
+    i = n
+    while i &gt;= 1:
+        for j in range(i):
+            count += 1
+        i //= 2
+    return count</code>`,
+        options: ["Θ(log n)", "Θ(n)", "Θ(n log n)", "Θ(n²)"], correct: 1,
+        answer: `<p><strong>Θ(n).</strong> The work is n + n/2 + n/4 + ···, which is less than 2n.</p>`
+      },
+      {
+        id: 108, topic: "complexity", type: "multiple", source: "Fall 2025 Midterm Q2.c",
+        prompt: `What is the tight runtime? Assume n√n is an integer.<code class="prompt-code">def func2(n):
+    count = 0
+    for i in range(n * sqrt(n)):
+        for j in range(i):
+            count += 1
+    return count</code>`,
+        options: ["Θ(n<sup>3/2</sup>)", "Θ(n²)", "Θ(n<sup>5/2</sup>)", "Θ(n³)"], correct: 3,
+        answer: `<p><strong>Θ(n³).</strong> Let m = n√n. The work is 0 + 1 + ··· + (m−1) = Θ(m²) = Θ(n³).</p>`
+      },
+      {
+        id: 109, topic: "inplace", type: "code", source: "Fall 2025 Midterm Q3",
+        prompt: "Implement <code>remove_consecutive_duplicates(lst)</code> in Θ(n) time and Θ(1) extra space. Keep one value from each consecutive run.",
+        answer: `<pre>def remove_consecutive_duplicates(lst):
+    if not lst:
+        return
+    write = 1
+    for read in range(1, len(lst)):
+        if lst[read] != lst[write - 1]:
+            lst[write] = lst[read]
+            write += 1
+    del lst[write:]</pre><p>The read index visits every original item once. The write index compacts the run leaders.</p>`
+      },
+      {
+        id: 110, topic: "recursion", type: "written", source: "Fall 2025 Midterm Q4.1",
+        prompt: `What does <code>mystery("mad")</code> return?<code class="prompt-code">def mystery(s):
+    if len(s) &lt;= 1:
+        return s
+    rest = mystery(s[1:])
+    return s[0] + rest + s[0]</code>`,
+        answer: `<p><strong><code>"madam"</code>.</strong> The calls return <code>"d"</code>, then <code>"ada"</code>, then <code>"madam"</code>.</p>`
+      },
+      {
+        id: 111, topic: "recursion", type: "written", source: "Fall 2025 Midterm Q4.2",
+        prompt: `Give a meaningful name for this function.<code class="prompt-code">def mystery(s):
+    if len(s) &lt;= 1:
+        return s
+    rest = mystery(s[1:])
+    return s[0] + rest + s[0]</code>`,
+        answer: `<p><strong><code>make_palindrome</code></strong> is descriptive. For nonempty s, the result is <code>s + s[-2::-1]</code>.</p>`
+      },
+      {
+        id: 112, topic: "recursion", type: "code", source: "Fall 2025 Midterm Q5",
+        prompt: "Recursively return, in original order, the values in <code>orders[low:high+1]</code> divisible by k. Use Θ(n) time with no helper, added parameters, defaults, or globals.",
+        answer: `<pre>def select_gold_voucher_orders(orders, k, low, high):
+    if low == high:
+        if orders[low] % k == 0:
+            return [orders[low]]
+        return []
+    result = select_gold_voucher_orders(orders, k, low, high - 1)
+    if orders[high] % k == 0:
+        result.append(orders[high])
+    return result</pre><p>Each item is tested once. Appending on the return path preserves the original order.</p>`
+      },
+      {
+        id: 113, topic: "arrays", type: "code", source: "Challenge · Product Except Self",
+        prompt: "For each index, return the product of every other value without division. Use Θ(n) time and no auxiliary array besides the output.",
+        answer: `<pre>def product_except_self(nums):
+    result = [1] * len(nums)
+    prefix = 1
+    for i in range(len(nums)):
+        result[i] = prefix
+        prefix *= nums[i]
+    suffix = 1
+    for i in range(len(nums) - 1, -1, -1):
+        result[i] *= suffix
+        suffix *= nums[i]
+    return result</pre><p><strong>Time:</strong> Θ(n). <strong>Extra space:</strong> Θ(1), excluding the returned list.</p>`
+      },
+      {
+        id: 114, topic: "searching", type: "code", source: "Challenge · Binary Search on an Answer",
+        prompt: "Given positive pile sizes and h hours, find the smallest integer rate that can finish all piles. Only one pile can be processed per hour, and up to rate items are removed from it.",
+        answer: `<pre>def minimum_rate(piles, h):
+    low, high = 1, max(piles)
+    while low &lt; high:
+        rate = (low + high) // 2
+        hours = 0
+        for pile in piles:
+            hours += (pile + rate - 1) // rate
+        if hours &lt;= h:
+            high = rate
+        else:
+            low = rate + 1
+    return low</pre><p>Feasibility is monotonic. <strong>Time:</strong> Θ(n log M), where M is the largest pile. <strong>Space:</strong> Θ(1).</p>`
+      },
+      {
+        id: 115, topic: "inplace", type: "code", source: "Challenge · Three Sum",
+        prompt: "Return every distinct value triple whose sum is zero. Aim for Θ(n²) time. You may sort the input.",
+        answer: `<pre>def three_sum(nums):
+    nums.sort()
+    result = []
+    for i in range(len(nums) - 2):
+        if i &gt; 0 and nums[i] == nums[i - 1]:
+            continue
+        if nums[i] &gt; 0:
+            break
+        left, right = i + 1, len(nums) - 1
+        while left &lt; right:
+            total = nums[i] + nums[left] + nums[right]
+            if total &lt; 0:
+                left += 1
+            elif total &gt; 0:
+                right -= 1
+            else:
+                result.append([nums[i], nums[left], nums[right]])
+                left += 1
+                right -= 1
+                while left &lt; right and nums[left] == nums[left - 1]:
+                    left += 1
+                while left &lt; right and nums[right] == nums[right + 1]:
+                    right -= 1
+    return result</pre><p>Sorting enables a two-pointer search for each first value. <strong>Time:</strong> Θ(n²).</p>`
+      },
+      {
+        id: 116, topic: "inplace", type: "code", source: "Challenge · Next Permutation",
+        prompt: "Mutate nums into its next lexicographically larger permutation. If none exists, change it to ascending order. Use Θ(1) extra space.",
+        answer: `<pre>def next_permutation(nums):
+    pivot = len(nums) - 2
+    while pivot &gt;= 0 and nums[pivot] &gt;= nums[pivot + 1]:
+        pivot -= 1
+    if pivot &gt;= 0:
+        swap = len(nums) - 1
+        while nums[swap] &lt;= nums[pivot]:
+            swap -= 1
+        nums[pivot], nums[swap] = nums[swap], nums[pivot]
+    left, right = pivot + 1, len(nums) - 1
+    while left &lt; right:
+        nums[left], nums[right] = nums[right], nums[left]
+        left += 1
+        right -= 1</pre><p>Swap the rightmost improvable position with its smallest larger suffix value, then reverse the suffix. <strong>Time:</strong> Θ(n).</p>`
+      },
+      {
+        id: 117, topic: "inplace", type: "code", source: "Challenge · Maximum Container",
+        prompt: "Given vertical-line heights, choose two lines that enclose the greatest area with the baseline. Solve it in Θ(n) time.",
+        answer: `<pre>def max_container_area(heights):
+    left, right = 0, len(heights) - 1
+    best = 0
+    while left &lt; right:
+        width = right - left
+        best = max(best, width * min(heights[left], heights[right]))
+        if heights[left] &lt; heights[right]:
+            left += 1
+        else:
+            right -= 1
+    return best</pre><p>Moving the taller boundary cannot improve an area limited by the shorter one. <strong>Space:</strong> Θ(1).</p>`
+      },
+      {
+        id: 118, topic: "inplace", type: "code", source: "Challenge · First Missing Positive",
+        prompt: "Return the smallest missing positive integer from an unsorted list in Θ(n) time and Θ(1) extra space. You may mutate the list.",
+        answer: `<pre>def first_missing_positive(nums):
+    n = len(nums)
+    i = 0
+    while i &lt; n:
+        value = nums[i]
+        if 1 &lt;= value &lt;= n and nums[value - 1] != value:
+            nums[i], nums[value - 1] = nums[value - 1], nums[i]
+        else:
+            i += 1
+    for i in range(n):
+        if nums[i] != i + 1:
+            return i + 1
+    return n + 1</pre><p>Place each relevant value v at index v−1. Every swap permanently places at least one value, so total work is Θ(n).</p>`
+      },
+      {
+        id: 119, topic: "recursion", type: "code", source: "Challenge · Combination Sum",
+        prompt: "Given distinct positive candidates, return every combination that totals target. A candidate may be reused. Do not return duplicate combinations.",
+        answer: `<pre>def combination_sum(candidates, target):
+    candidates.sort()
+    result = []
+
+    def search(start, remaining, path):
+        if remaining == 0:
+            result.append(path.copy())
+            return
+        for i in range(start, len(candidates)):
+            value = candidates[i]
+            if value &gt; remaining:
+                break
+            path.append(value)
+            search(i, remaining - value, path)
+            path.pop()
+
+    search(0, target, [])
+    return result</pre><p>Keeping the same start index permits reuse; never moving backward prevents reordered duplicates. Runtime is output-sensitive.</p>`
+      },
+      {
+        id: 120, topic: "recursion", type: "code", source: "Challenge · N Queens",
+        prompt: "Return every n×n board that places n queens with no shared column or diagonal. Represent each board as a list of strings.",
+        answer: `<pre>def solve_n_queens(n):
+    result = []
+    board = [["."] * n for _ in range(n)]
+    columns, down_diagonals, up_diagonals = set(), set(), set()
+
+    def place(row):
+        if row == n:
+            result.append(["".join(line) for line in board])
+            return
+        for column in range(n):
+            down = row - column
+            up = row + column
+            if (column in columns or down in down_diagonals
+                    or up in up_diagonals):
+                continue
+            columns.add(column)
+            down_diagonals.add(down)
+            up_diagonals.add(up)
+            board[row][column] = "Q"
+            place(row + 1)
+            board[row][column] = "."
+            columns.remove(column)
+            down_diagonals.remove(down)
+            up_diagonals.remove(up)
+
+    place(0)
+    return result</pre><p>Each recursive level places one row, then backtracks. The search is bounded by O(n!), excluding board-copy output cost.</p>`
+      },
+      {
+        id: 121, topic: "objects", type: "code", source: "Challenge · Nested Iterator",
+        prompt: "Implement a lazy iterator over integers in an arbitrarily nested Python list. It must produce values left to right without flattening everything in advance.",
+        answer: `<pre>class NestedIterator:
+    def __init__(self, nested):
+        self.stack = list(reversed(nested))
+
+    def __iter__(self):
+        return self
+
+    def __next__(self):
+        while self.stack:
+            item = self.stack.pop()
+            if isinstance(item, list):
+                self.stack.extend(reversed(item))
+            else:
+                return item
+        raise StopIteration</pre><p>Across a full traversal, each integer and nested list is processed once: Θ(N) total time and O(N) worst-case stack space.</p>`
+      },
+      {
+        id: 122, topic: "recursion", type: "code", source: "Challenge · Fast Power",
+        prompt: "Recursively compute xⁿ for a nonnegative integer n in Θ(log n) time. Do not use Python's exponentiation operator.",
+        answer: `<pre>def fast_power(x, n):
+    if n == 0:
+        return 1
+    half = fast_power(x, n // 2)
+    if n % 2 == 0:
+        return half * half
+    return x * half * half</pre><p>Only one half-size recursive call is made per level. <strong>Time:</strong> Θ(log n). <strong>Stack:</strong> Θ(log n).</p>`
+      },
+      {
+        id: 123, topic: "searching", type: "code", source: "Challenge · Peak in a Unimodal List",
+        prompt: "A list strictly rises and then strictly falls. Return the peak index in Θ(log n) time.",
+        answer: `<pre>def peak_index(nums):
+    low, high = 0, len(nums) - 1
+    while low &lt; high:
+        mid = (low + high) // 2
+        if nums[mid] &lt; nums[mid + 1]:
+            low = mid + 1
+        else:
+            high = mid
+    return low</pre><p>An upward slope puts the peak to the right; a downward slope keeps it at mid or to the left.</p>`
+      },
+      {
+        id: 124, topic: "recursion", type: "code", source: "Challenge · Power Set",
+        prompt: "Recursively return every subset of a list of distinct values. Do not use <code>itertools</code>.",
+        answer: `<pre>def power_set(values):
+    result = []
+    path = []
+
+    def build(index):
+        if index == len(values):
+            result.append(path.copy())
+            return
+        build(index + 1)
+        path.append(values[index])
+        build(index + 1)
+        path.pop()
+
+    build(0)
+    return result</pre><p>Each value creates an exclude/include branch. Returning copied subsets costs Θ(n·2ⁿ) time and output space.</p>`
       }
     ];
 
@@ -1451,6 +1854,8 @@ def __rmul__(self, scalar):
     let focusIndex = 0;
     let progress = loadProgress();
     let cloudBaseline = null;
+    let cloudAutosavePromise = null;
+    let cloudAutosaveQueued = false;
     const revealed = new Set();
     const selections = {};
 
@@ -1520,18 +1925,31 @@ def __rmul__(self, scalar):
         setSyncStatus(`${error.message}. Your local progress was not changed.`, "error");
       } finally { setSyncBusy(false); }
     }
-    async function saveCloudProgress() {
+    async function saveCloudProgress(automatic = false) {
       const name = normalizedSaveName();
-      if (!name) { setSyncStatus("Use 1–32 letters, numbers, spaces, underscores, or hyphens.", "error"); saveNameInput.focus(); return; }
+      if (!name) {
+        if (!automatic) { setSyncStatus("Use 1–32 letters, numbers, spaces, underscores, or hyphens.", "error"); saveNameInput.focus(); }
+        return false;
+      }
+      if (automatic && (!cloudBaseline || cloudBaseline.name !== name)) {
+        setSyncStatus("Progress saved locally. Load or Save this slot once to enable cloud autosave.");
+        return false;
+      }
       setSyncBusy(true);
-      setSyncStatus("Saving…");
+      setSyncStatus(automatic ? "Autosaving…" : "Saving…");
       try {
         const document = await fetchCloudDocument();
         const current = document.users[name];
         const changedSinceLoad = current && (!cloudBaseline || cloudBaseline.name !== name || cloudBaseline.updatedAt !== (current.updatedAt || null));
-        if (changedSinceLoad && !confirm(`The cloud save “${name}” has data you have not loaded. Overwrite it?`)) {
-          setSyncStatus("Save canceled. Load the cloud copy first.");
-          return;
+        if (changedSinceLoad) {
+          if (automatic) {
+            cloudBaseline = null;
+            throw new Error(`Cloud save “${name}” changed elsewhere; load it before autosaving`);
+          }
+          if (!confirm(`The cloud save “${name}” has data you have not loaded. Overwrite it?`)) {
+            setSyncStatus("Save canceled. Load the cloud copy first.");
+            return false;
+          }
         }
         const now = new Date().toISOString();
         document.version = 1;
@@ -1546,10 +1964,23 @@ def __rmul__(self, scalar):
         cloudBaseline = { name, updatedAt: now };
         localStorage.setItem(saveNameKey, name);
         saveNameInput.value = name;
-        setSyncStatus(`Saved “${name}” at ${new Date(now).toLocaleTimeString()}.`, "success");
+        setSyncStatus(`${automatic ? "Autosaved" : "Saved"} “${name}” at ${new Date(now).toLocaleTimeString()}.`, "success");
+        return true;
       } catch (error) {
         setSyncStatus(`${error.message}. Your progress remains saved locally.`, "error");
+        return false;
       } finally { setSyncBusy(false); }
+    }
+    function queueCloudAutosave() {
+      cloudAutosaveQueued = true;
+      if (cloudAutosavePromise) return;
+      cloudAutosavePromise = (async () => {
+        while (cloudAutosaveQueued) {
+          cloudAutosaveQueued = false;
+          const saved = await saveCloudProgress(true);
+          if (!saved) cloudAutosaveQueued = false;
+        }
+      })().finally(() => { cloudAutosavePromise = null; });
     }
     function plainText(html) {
       const node = document.createElement("div");
@@ -1668,6 +2099,7 @@ def __rmul__(self, scalar):
       saveProgress();
       renderQuestions();
       if (focusDialog.open) renderFocus();
+      queueCloudAutosave();
     }
     function choose(question, index) {
       if (revealed.has(question.id)) return;
@@ -1711,10 +2143,11 @@ def __rmul__(self, scalar):
       renderQuestions();
     });
     loadCloudButton.addEventListener("click", loadCloudProgress);
-    saveCloudButton.addEventListener("click", saveCloudProgress);
+    saveCloudButton.addEventListener("click", () => saveCloudProgress(false));
     saveNameInput.addEventListener("change", () => {
       const name = normalizedSaveName();
       if (name) localStorage.setItem(saveNameKey, name);
+      if (!cloudBaseline || cloudBaseline.name !== name) cloudBaseline = null;
     });
     document.querySelector("#resetButton").addEventListener("click", () => {
       if (!Object.keys(progress).length) return;
