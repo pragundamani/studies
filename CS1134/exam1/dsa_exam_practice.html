@@ -447,7 +447,7 @@
     </section>
 
     <div class="list-summary">
-      <span id="resultCount" aria-live="polite">80 questions</span>
+      <span id="resultCount" aria-live="polite">95 questions</span>
       <button class="button quiet" id="resetButton" type="button">Clear progress</button>
     </div>
     <section class="question-list" id="questions" aria-label="Practice questions"></section>
@@ -1234,7 +1234,188 @@ print(grid)</code>`,
         else:
             total += item
     return total</pre><p>Each number is added once. Recursion handles nested list structure.</p>`
-      }  
+      },
+      {
+        id: 81, topic: "objects", type: "code", source: "Lab 2",
+        prompt: "Implement <code>BrowserHistory.back()</code>. Moving back from the first page must keep the current page unchanged.",
+        answer: `<pre>def back(self):
+    if self.current &gt; 0:
+        self.current -= 1
+    return self.history[self.current]</pre><p>The boundary check prevents a negative history index.</p>`
+      },
+      {
+        id: 82, topic: "objects", type: "code", source: "Lab 2",
+        prompt: "Implement polynomial multiplication when coefficients are stored from lowest to highest degree.",
+        answer: `<pre>def __mul__(self, other):
+    size = len(self.coefficients) + len(other.coefficients) - 1
+    result = [0] * size
+    for i in range(len(self.coefficients)):
+        for j in range(len(other.coefficients)):
+            result[i + j] += (self.coefficients[i]
+                              * other.coefficients[j])
+    return Polynomial(result)</pre><p>Multiplying terms of degrees i and j contributes to degree i + j.</p>`
+      },
+      {
+        id: 83, topic: "objects", type: "code", source: "Lab 2",
+        prompt: "Implement <code>Polynomial.derive()</code> so it mutates the coefficient list to represent the derivative.",
+        answer: `<pre>def derive(self):
+    result = []
+    for degree in range(1, len(self.coefficients)):
+        result.append(degree * self.coefficients[degree])
+    self.coefficients = result</pre><p>The constant term disappears. The old coefficient at degree d becomes d times that coefficient at degree d − 1.</p>`
+      },
+      {
+        id: 84, topic: "arrays", type: "code", source: "HW 3",
+        prompt: "Implement <code>resize(new_capacity)</code> for an array-backed list with <code>self.n</code> active items.",
+        answer: `<pre>def resize(self, new_capacity):
+    new_data = make_array(new_capacity)
+    for i in range(self.n):
+        new_data[i] = self.data[i]
+    self.data = new_data
+    self.capacity = new_capacity</pre><p>Copy only the active items, not every unused capacity slot.</p>`
+      },
+      {
+        id: 85, topic: "arrays", type: "code", source: "HW 3",
+        prompt: "Implement <code>insert(index, value)</code> for an array-backed list. Assume index is between 0 and <code>self.n</code>, inclusive.",
+        answer: `<pre>def insert(self, index, value):
+    if self.n == self.capacity:
+        self.resize(2 * self.capacity)
+    for i in range(self.n, index, -1):
+        self.data[i] = self.data[i - 1]
+    self.data[index] = value
+    self.n += 1</pre><p>Shift right from the end so no value is overwritten before it is copied.</p>`
+      },
+      {
+        id: 86, topic: "searching", type: "code", source: "Lab 4",
+        prompt: "Search for <code>target</code> in a rotated sorted list of distinct values in Θ(log n). Return its index or <code>None</code>.",
+        answer: `<pre>def rotated_search(lst, target):
+    low, high = 0, len(lst) - 1
+    while low &lt;= high:
+        mid = (low + high) // 2
+        if lst[mid] == target:
+            return mid
+        if lst[low] &lt;= lst[mid]:
+            if lst[low] &lt;= target &lt; lst[mid]:
+                high = mid - 1
+            else:
+                low = mid + 1
+        else:
+            if lst[mid] &lt; target &lt;= lst[high]:
+                low = mid + 1
+            else:
+                high = mid - 1
+    return None</pre><p>At least one half is sorted on each iteration.</p>`
+      },
+      {
+        id: 87, topic: "searching", type: "code", source: "Lab 4",
+        prompt: "Implement jump search on a sorted list using block size ⌊√n⌋. Return the target index or <code>None</code>.",
+        answer: `<pre>def jump_search(lst, target):
+    n = len(lst)
+    if n == 0:
+        return None
+    step = max(1, int(n ** 0.5))
+    start = 0
+    end = min(step, n) - 1
+    while end &lt; n - 1 and lst[end] &lt; target:
+        start = end + 1
+        end = min(end + step, n - 1)
+    for i in range(start, end + 1):
+        if lst[i] == target:
+            return i
+        if lst[i] &gt; target:
+            break
+    return None</pre><p>There are O(√n) jumps and at most O(√n) linear checks.</p>`
+      },
+      {
+        id: 88, topic: "recursion", type: "code", source: "Lab 5",
+        prompt: "Recursively return the sum of the decimal digits of a nonnegative integer <code>n</code>.",
+        answer: `<pre>def digit_sum(n):
+    if n &lt; 10:
+        return n
+    return n % 10 + digit_sum(n // 10)</pre><p>The recursive call removes the final digit; the current frame adds it back.</p>`
+      },
+      {
+        id: 89, topic: "recursion", type: "code", source: "Lab 5",
+        prompt: "Recursively count the peak values in <code>lst[low:high+1]</code>. A peak is greater than both immediate neighbors; endpoints are not peaks.",
+        answer: `<pre>def count_peaks(lst, low, high):
+    if low &gt; high:
+        return 0
+    is_peak = (0 &lt; low &lt; len(lst) - 1
+               and lst[low] &gt; lst[low - 1]
+               and lst[low] &gt; lst[low + 1])
+    return int(is_peak) + count_peaks(lst, low + 1, high)</pre>`
+      },
+      {
+        id: 90, topic: "recursion", type: "code", source: "HW 4",
+        prompt: "Recursively partition <code>lst[low:high+1]</code> in-place so negative values appear before nonnegative values. Order within each side does not matter.",
+        answer: `<pre>def split_by_sign(lst, low, high):
+    if low &gt;= high:
+        return
+    if lst[low] &lt; 0:
+        split_by_sign(lst, low + 1, high)
+    elif lst[high] &gt;= 0:
+        split_by_sign(lst, low, high - 1)
+    else:
+        lst[low], lst[high] = lst[high], lst[low]
+        split_by_sign(lst, low + 1, high - 1)</pre><p>Each call fixes or skips at least one boundary position.</p>`
+      },
+      {
+        id: 91, topic: "recursion", type: "code", source: "HW 4",
+        prompt: "Recursively return all permutations of <code>lst[low:high+1]</code> without using <code>itertools</code>.",
+        answer: `<pre>def permutations(lst, low, high):
+    if low &gt; high:
+        return [[]]
+    smaller = permutations(lst, low, high - 1)
+    result = []
+    value = lst[high]
+    for perm in smaller:
+        for position in range(len(perm) + 1):
+            result.append(perm[:position] + [value]
+                          + perm[position:])
+    return result</pre><p>Insert the final value into every position of every smaller permutation.</p>`
+      },
+      {
+        id: 92, topic: "generators", type: "code", source: "Lab 3",
+        prompt: "Write a generator <code>running_totals(lst)</code> that yields each prefix sum. For [3, −1, 4], yield 3, 2, 6.",
+        answer: `<pre>def running_totals(lst):
+    total = 0
+    for value in lst:
+        total += value
+        yield total</pre><p>The generator uses Θ(1) extra space.</p>`
+      },
+      {
+        id: 93, topic: "inplace", type: "code", source: "Lab 6",
+        prompt: "Recursively partition a list in-place so even values appear before odd values. Use inclusive indices <code>low</code> and <code>high</code>.",
+        answer: `<pre>def split_parity(lst, low, high):
+    if low &gt;= high:
+        return
+    if lst[low] % 2 == 0:
+        split_parity(lst, low + 1, high)
+    elif lst[high] % 2 == 1:
+        split_parity(lst, low, high - 1)
+    else:
+        lst[low], lst[high] = lst[high], lst[low]
+        split_parity(lst, low + 1, high - 1)</pre><p>The two pointers move inward, so the total work is Θ(n).</p>`
+      },
+      {
+        id: 94, topic: "python", type: "code", source: "Lab 1",
+        prompt: "Implement addition for two complex-number objects with fields <code>real</code> and <code>imag</code>.",
+        answer: `<pre>def __add__(self, other):
+    return Complex(self.real + other.real,
+                   self.imag + other.imag)</pre><p>Add the real parts together and the imaginary parts together.</p>`
+      },
+      {
+        id: 95, topic: "python", type: "code", source: "HW 1",
+        prompt: "Implement scalar multiplication for a <code>Vector</code> whose coordinates are stored in <code>self.coords</code>.",
+        answer: `<pre>def __mul__(self, scalar):
+    result = Vector(len(self.coords))
+    for i in range(len(self.coords)):
+        result[i] = self.coords[i] * scalar
+    return result
+
+def __rmul__(self, scalar):
+    return self * scalar</pre><p><code>__rmul__</code> also supports expressions such as <code>3 * vector</code>.</p>`
+      }
     ];
 
     function validateQuestions(items) {
