@@ -1,0 +1,434 @@
+\documentclass[11pt]{article}
+\usepackage[margin=0.65in]{geometry}
+\usepackage{fontspec}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{microtype}
+\usepackage{xcolor}
+\setmainfont{DejaVu Sans}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.45em}
+\setlength{\emergencystretch}{3em}
+\pagestyle{plain}
+\begin{document}
+\begin{center}\LARGE\bfseries Supernode Questions\end{center}
+\vspace{0.5em}
+
+\clearpage
+\section*{Question 1}
+
+Use a supernode to find both node voltages.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/supernode-Q04.png}}\end{center}
+
+\begin{quote}\small\textit{Ground is the reference. A 10 V source, positive on top, fixes a left node at 10 V. A 5 Ω resistor connects it to node a. Node a connects to ground through 8 Ω. A 4 V source connects a and b, with its positive terminal at a. Node b connects to ground through 6 Ω. A 1 A source points upward from ground into b.}\end{quote}
+
+\subsection*{Solution}
+
+Define $V_a$ and $V_b$ relative to ground. Take currents leaving the supernode as positive.\par
+
+Supernode KCL: $\frac{V_a-10}{5}+\frac{V_a}{8}+\frac{V_b}{6}-1=0.$\par
+
+Source constraint: $V_a-V_b=4.$\par
+
+Solving gives $V_a=7.458\ \text{V},\qquad V_b=3.458\ \text{V}.$\par
+
+\clearpage
+\section*{Question 2}
+
+Write the supernode KCL equation and the voltage-source constraint, then solve the node voltages.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/supernode-Q05.png}}\end{center}
+
+\begin{quote}\small\textit{Ground is the reference. A 14 V source, positive on top, fixes a left node at 14 V. A 7 Ω resistor connects it to node a. Node a connects to ground through 5 Ω. A 6 V source connects a and b, with its negative terminal at a. Node b connects to ground through 10 Ω. A 0.8 A source points upward from ground into b.}\end{quote}
+
+\subsection*{Solution}
+
+Define $V_a$ and $V_b$ relative to ground. Take currents leaving the supernode as positive.\par
+
+Supernode KCL: $\frac{V_a-14}{7}+\frac{V_a}{5}+\frac{V_b}{10}-0.8=0.$\par
+
+Source constraint: $V_a-V_b=-6.$\par
+
+Solving gives $V_a=4.968\ \text{V},\qquad V_b=10.968\ \text{V}.$\par
+
+\clearpage
+\section*{Question 3}
+
+Find both node voltages and the current through the floating voltage source. Define positive source current from node $a$ to node $b$.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/supernode-Q06.png}}\end{center}
+
+\begin{quote}\small\textit{Ground is the reference. A 9 V source, positive on top, fixes a left node at 9 V. A 3 Ω resistor connects it to node a. Node a connects to ground through 6 Ω. A 5 V source connects a and b, with its positive terminal at a. Node b connects to ground through 4 Ω. A 1.5 A source points upward from ground into b.}\end{quote}
+
+\subsection*{Solution}
+
+Define $V_a$ and $V_b$ relative to ground. Take currents leaving the supernode as positive.\par
+
+Supernode KCL: $\frac{V_a-9}{3}+\frac{V_a}{6}+\frac{V_b}{4}-1.5=0.$\par
+
+Source constraint: $V_a-V_b=5.$\par
+
+Solving gives $V_a=7.667\ \text{V},\qquad V_b=2.667\ \text{V}.$\par
+
+KCL at node $a$ gives $i_s=-\frac{V_a-9}{3}-\frac{V_a}{6}=-0.833\ \text{A}.$ Thus current is $ 0.833\ \text{A}$ from b to a.\par
+
+\clearpage
+\section*{Question 4}
+
+Find the node voltages and the current through the internal resistor. Explain why that resistor is omitted from the supernode KCL equation.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/supernode-Q07.png}}\end{center}
+
+\begin{quote}\small\textit{Ground is the reference. A 18 V source, positive on top, fixes a left node at 18 V. A 9 Ω resistor connects it to node a. Node a connects to ground through 12 Ω. A 7 V source connects a and b, with its positive terminal at a. Node b connects to ground through 6 Ω. A 0.5 A source points upward from ground into b. A 20 Ω resistor also connects a to b.}\end{quote}
+
+\subsection*{Solution}
+
+Define $V_a$ and $V_b$ relative to ground. Take currents leaving the supernode as positive.\par
+
+Supernode KCL: $\frac{V_a-18}{9}+\frac{V_a}{12}+\frac{V_b}{6}-0.5=0.$\par
+
+Source constraint: $V_a-V_b=7.$\par
+
+Solving gives $V_a=10.154\ \text{V},\qquad V_b=3.154\ \text{V}.$\par
+
+The internal current from $a$ to $b$ is $i_{ab}=\frac{V_a-V_b}{20}=0.35\ \text{A}.$ This branch stays inside the supernode boundary, so its current cancels when the two node equations are added.\par
+
+\clearpage
+\section*{Question 5}
+
+Find the node voltages. Explain the meaning of any negative voltage; do not reverse the reference node.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/supernode-Q08.png}}\end{center}
+
+\begin{quote}\small\textit{Ground is the reference. A 6 V source, positive on top, fixes a left node at 6 V. A 4 Ω resistor connects it to node a. Node a connects to ground through 10 Ω. A 12 V source connects a and b, with its negative terminal at a. Node b connects to ground through 5 Ω. A 0.2 A source points upward from ground into b.}\end{quote}
+
+\subsection*{Solution}
+
+Define $V_a$ and $V_b$ relative to ground. Take currents leaving the supernode as positive.\par
+
+Supernode KCL: $\frac{V_a-6}{4}+\frac{V_a}{10}+\frac{V_b}{5}-0.2=0.$\par
+
+Source constraint: $V_a-V_b=-12.$\par
+
+Solving gives $V_a=-1.273\ \text{V},\qquad V_b=10.727\ \text{V}.$\par
+
+A negative node voltage means that node is below the reference potential. It does not mean the calculation is invalid.\par
+
+\clearpage
+\section*{Question 6}
+
+Find the node voltages and the current in the 12 Ω resistor. State its actual direction.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/supernode-Q09.png}}\end{center}
+
+\begin{quote}\small\textit{Ground is the reference. A 16 V source, positive on top, fixes a left node at 16 V. A 8 Ω resistor connects it to node a. Node a connects to ground through 4 Ω. A 3 V source connects a and b, with its positive terminal at a. Node b connects to ground through 12 Ω. A 1 A source points upward from ground into b.}\end{quote}
+
+\subsection*{Solution}
+
+Define $V_a$ and $V_b$ relative to ground. Take currents leaving the supernode as positive.\par
+
+Supernode KCL: $\frac{V_a-16}{8}+\frac{V_a}{4}+\frac{V_b}{12}-1=0.$\par
+
+Source constraint: $V_a-V_b=3.$\par
+
+Solving gives $V_a=7.091\ \text{V},\qquad V_b=4.091\ \text{V}.$\par
+
+With downward current defined from $b$ to ground, $i_R=\frac{V_b}{12}=0.341\ \text{A}.$ The actual current is from b to ground.\par
+
+\clearpage
+\section*{Question 7}
+
+Find the node voltages and state whether the 9 V source absorbs or delivers power.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/supernode-Q10.png}}\end{center}
+
+\begin{quote}\small\textit{Ground is the reference. A 20 V source, positive on top, fixes a left node at 20 V. A 10 Ω resistor connects it to node a. Node a connects to ground through 5 Ω. A 9 V source connects a and b, with its positive terminal at a. Node b connects to ground through 8 Ω. A 0.6 A source points upward from ground into b.}\end{quote}
+
+\subsection*{Solution}
+
+Define $V_a$ and $V_b$ relative to ground. Take currents leaving the supernode as positive.\par
+
+Supernode KCL: $\frac{V_a-20}{10}+\frac{V_a}{5}+\frac{V_b}{8}-0.6=0.$\par
+
+Source constraint: $V_a-V_b=9.$\par
+
+Solving gives $V_a=8.765\ \text{V},\qquad V_b=-0.235\ \text{V}.$\par
+
+Let $i_s$ be positive from $a$ to $b$. Node-$a$ KCL gives $i_s=-0.629\ \text{A}.$ Using the passive sign convention, $p_{9\text{ V}}=(9)i_s=-5.665\ \text{W}.$ Therefore, the source delivers $ 5.665\ \text{W}.$\par
+
+\clearpage
+\section*{Question 8}
+
+Find the node voltages and classify the 1.2 A current source power as absorbed or delivered.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/supernode-Q11.png}}\end{center}
+
+\begin{quote}\small\textit{Ground is the reference. A 11 V source, positive on top, fixes a left node at 11 V. A 5 Ω resistor connects it to node a. Node a connects to ground through 7 Ω. A 4 V source connects a and b, with its negative terminal at a. Node b connects to ground through 9 Ω. A 1.2 A source points upward from ground into b.}\end{quote}
+
+\subsection*{Solution}
+
+Define $V_a$ and $V_b$ relative to ground. Take currents leaving the supernode as positive.\par
+
+Supernode KCL: $\frac{V_a-11}{5}+\frac{V_a}{7}+\frac{V_b}{9}-1.2=0.$\par
+
+Source constraint: $V_a-V_b=-4.$\par
+
+Solving gives $V_a=6.51\ \text{V},\qquad V_b=10.51\ \text{V}.$\par
+
+The current enters the grounded terminal, so $p_I=(0-V_b)(1.2)=-12.613\ \text{W}.$ The current source delivers $ 12.613\ \text{W}.$\par
+
+\clearpage
+\section*{Question 9}
+
+A student claims $V_a=8.458$ V and $V_b=4.458$ V. Test the claim using both required equations, then give the correct voltages.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/supernode-Q04.png}}\end{center}
+
+\begin{quote}\small\textit{Ground is the reference. A 10 V source, positive on top, fixes a left node at 10 V. A 5 Ω resistor connects it to node a. Node a connects to ground through 8 Ω. A 4 V source connects a and b, with its positive terminal at a. Node b connects to ground through 6 Ω. A 1 A source points upward from ground into b.}\end{quote}
+
+\subsection*{Solution}
+
+Define $V_a$ and $V_b$ relative to ground. Take currents leaving the supernode as positive.\par
+
+Supernode KCL: $\frac{V_a-10}{5}+\frac{V_a}{8}+\frac{V_b}{6}-1=0.$\par
+
+Source constraint: $V_a-V_b=4.$\par
+
+Solving gives $V_a=7.458\ \text{V},\qquad V_b=3.458\ \text{V}.$\par
+
+The proposed values satisfy the difference constraint but give a nonzero KCL residual, so the claim is false. The correct values are those above.\par
+
+\clearpage
+\section*{Question 10}
+
+Find the node voltages and state whether the 6 V source absorbs or delivers power.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/supernode-Q05.png}}\end{center}
+
+\begin{quote}\small\textit{Ground is the reference. A 14 V source, positive on top, fixes a left node at 14 V. A 7 Ω resistor connects it to node a. Node a connects to ground through 5 Ω. A 6 V source connects a and b, with its negative terminal at a. Node b connects to ground through 10 Ω. A 0.8 A source points upward from ground into b.}\end{quote}
+
+\subsection*{Solution}
+
+Define $V_a$ and $V_b$ relative to ground. Take currents leaving the supernode as positive.\par
+
+Supernode KCL: $\frac{V_a-14}{7}+\frac{V_a}{5}+\frac{V_b}{10}-0.8=0.$\par
+
+Source constraint: $V_a-V_b=-6.$\par
+
+Solving gives $V_a=4.968\ \text{V},\qquad V_b=10.968\ \text{V}.$\par
+
+Let $i_s$ be positive from $a$ to $b$. Node-$a$ KCL gives $i_s=0.297\ \text{A}.$ Using the passive sign convention, $p_{6\text{ V}}=(-6)i_s=-1.781\ \text{W}.$ Therefore, the source delivers $ 1.781\ \text{W}.$\par
+
+\clearpage
+\section*{Question 11}
+
+Find both node voltages and the total power absorbed by the three resistors.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/supernode-Q06.png}}\end{center}
+
+\begin{quote}\small\textit{Ground is the reference. A 9 V source, positive on top, fixes a left node at 9 V. A 3 Ω resistor connects it to node a. Node a connects to ground through 6 Ω. A 5 V source connects a and b, with its positive terminal at a. Node b connects to ground through 4 Ω. A 1.5 A source points upward from ground into b.}\end{quote}
+
+\subsection*{Solution}
+
+Define $V_a$ and $V_b$ relative to ground. Take currents leaving the supernode as positive.\par
+
+Supernode KCL: $\frac{V_a-9}{3}+\frac{V_a}{6}+\frac{V_b}{4}-1.5=0.$\par
+
+Source constraint: $V_a-V_b=5.$\par
+
+Solving gives $V_a=7.667\ \text{V},\qquad V_b=2.667\ \text{V}.$\par
+
+The resistor power is $P_R=\frac{(V_a-9)^2}{3}+\frac{V_a^2}{6}+\frac{V_b^2}{4}=12.167\ \text{W absorbed}.$\par
+
+\clearpage
+\section*{Question 12}
+
+Find the node voltages and the current through the internal resistor. Explain why that resistor is omitted from the supernode KCL equation.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/supernode-Q07.png}}\end{center}
+
+\begin{quote}\small\textit{Ground is the reference. A 18 V source, positive on top, fixes a left node at 18 V. A 9 Ω resistor connects it to node a. Node a connects to ground through 12 Ω. A 7 V source connects a and b, with its positive terminal at a. Node b connects to ground through 6 Ω. A 0.5 A source points upward from ground into b. A 20 Ω resistor also connects a to b.}\end{quote}
+
+\subsection*{Solution}
+
+Define $V_a$ and $V_b$ relative to ground. Take currents leaving the supernode as positive.\par
+
+Supernode KCL: $\frac{V_a-18}{9}+\frac{V_a}{12}+\frac{V_b}{6}-0.5=0.$\par
+
+Source constraint: $V_a-V_b=7.$\par
+
+Solving gives $V_a=10.154\ \text{V},\qquad V_b=3.154\ \text{V}.$\par
+
+The internal current from $a$ to $b$ is $i_{ab}=\frac{V_a-V_b}{20}=0.35\ \text{A}.$ This branch stays inside the supernode boundary, so its current cancels when the two node equations are added.\par
+
+\clearpage
+\section*{Question 13}
+
+Find the node voltages and state whether the 12 V source absorbs or delivers power.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/supernode-Q08.png}}\end{center}
+
+\begin{quote}\small\textit{Ground is the reference. A 6 V source, positive on top, fixes a left node at 6 V. A 4 Ω resistor connects it to node a. Node a connects to ground through 10 Ω. A 12 V source connects a and b, with its negative terminal at a. Node b connects to ground through 5 Ω. A 0.2 A source points upward from ground into b.}\end{quote}
+
+\subsection*{Solution}
+
+Define $V_a$ and $V_b$ relative to ground. Take currents leaving the supernode as positive.\par
+
+Supernode KCL: $\frac{V_a-6}{4}+\frac{V_a}{10}+\frac{V_b}{5}-0.2=0.$\par
+
+Source constraint: $V_a-V_b=-12.$\par
+
+Solving gives $V_a=-1.273\ \text{V},\qquad V_b=10.727\ \text{V}.$\par
+
+Let $i_s$ be positive from $a$ to $b$. Node-$a$ KCL gives $i_s=1.945\ \text{A}.$ Using the passive sign convention, $p_{12\text{ V}}=(-12)i_s=-23.345\ \text{W}.$ Therefore, the source delivers $ 23.345\ \text{W}.$\par
+
+\clearpage
+\section*{Question 14}
+
+Replace the labeled current-source value by an unknown $I$. Find $I$ required to make $V_a=9.091$ V.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/supernode-Q09.png}}\end{center}
+
+\begin{quote}\small\textit{Ground is the reference. A 16 V source, positive on top, fixes a left node at 16 V. A 8 Ω resistor connects it to node a. Node a connects to ground through 4 Ω. A 3 V source connects a and b, with its positive terminal at a. Node b connects to ground through 12 Ω. A 1 A source points upward from ground into b.}\end{quote}
+
+\subsection*{Solution}
+
+The source constraint gives $V_b=V_a-3=6.091\ \text{V}.$ With currents leaving positive, $I=\frac{V_a-16}{8}+\frac{V_a}{4}+\frac{V_b}{12}=1.917\ \text{A}.$ Positive means the required source points upward as drawn.\par
+
+\clearpage
+\section*{Question 15}
+
+Solve the circuit and verify conservation of power for all sources and resistors.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/supernode-Q10.png}}\end{center}
+
+\begin{quote}\small\textit{Ground is the reference. A 20 V source, positive on top, fixes a left node at 20 V. A 10 Ω resistor connects it to node a. Node a connects to ground through 5 Ω. A 9 V source connects a and b, with its positive terminal at a. Node b connects to ground through 8 Ω. A 0.6 A source points upward from ground into b.}\end{quote}
+
+\subsection*{Solution}
+
+Define $V_a$ and $V_b$ relative to ground. Take currents leaving the supernode as positive.\par
+
+Supernode KCL: $\frac{V_a-20}{10}+\frac{V_a}{5}+\frac{V_b}{8}-0.6=0.$\par
+
+Source constraint: $V_a-V_b=9.$\par
+
+Solving gives $V_a=8.765\ \text{V},\qquad V_b=-0.235\ \text{V}.$\par
+
+With the passive sign convention, $p_V=-5.665\ \text{W},\quad p_I=0.141\ \text{W},\quad p_{20\text{ V}}=-22.471\ \text{W}.$ Resistors absorb $P_R=27.994\ \text{W}.$ Hence $p_V+p_I+p_{20\text{ V}}+P_R=0\ \text{W}=0$ within rounding. Negative source power means delivered power.\par
+
+\clearpage
+\section*{Question 16}
+
+Find both node voltages. State the actual directions of current in each resistor connected to ground.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/supernode-Q11.png}}\end{center}
+
+\begin{quote}\small\textit{Ground is the reference. A 11 V source, positive on top, fixes a left node at 11 V. A 5 Ω resistor connects it to node a. Node a connects to ground through 7 Ω. A 4 V source connects a and b, with its negative terminal at a. Node b connects to ground through 9 Ω. A 1.2 A source points upward from ground into b.}\end{quote}
+
+\subsection*{Solution}
+
+Define $V_a$ and $V_b$ relative to ground. Take currents leaving the supernode as positive.\par
+
+Supernode KCL: $\frac{V_a-11}{5}+\frac{V_a}{7}+\frac{V_b}{9}-1.2=0.$\par
+
+Source constraint: $V_a-V_b=-4.$\par
+
+Solving gives $V_a=6.51\ \text{V},\qquad V_b=10.51\ \text{V}.$\par
+
+For node $a$, $i_a=V_a/7=0.93\ \text{A}$, so current flows to ground. For node $b$, $i_b=V_b/9=1.168\ \text{A}$, so current flows to ground.\par
+
+\clearpage
+\section*{Question 17}
+
+Find both node voltages and the current through the floating voltage source. Define positive source current from node $a$ to node $b$.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/supernode-Q06.png}}\end{center}
+
+\begin{quote}\small\textit{Ground is the reference. A 9 V source, positive on top, fixes a left node at 9 V. A 3 Ω resistor connects it to node a. Node a connects to ground through 6 Ω. A 5 V source connects a and b, with its positive terminal at a. Node b connects to ground through 4 Ω. A 1.5 A source points upward from ground into b.}\end{quote}
+
+\subsection*{Solution}
+
+Define $V_a$ and $V_b$ relative to ground. Take currents leaving the supernode as positive.\par
+
+Supernode KCL: $\frac{V_a-9}{3}+\frac{V_a}{6}+\frac{V_b}{4}-1.5=0.$\par
+
+Source constraint: $V_a-V_b=5.$\par
+
+Solving gives $V_a=7.667\ \text{V},\qquad V_b=2.667\ \text{V}.$\par
+
+KCL at node $a$ gives $i_s=-\frac{V_a-9}{3}-\frac{V_a}{6}=-0.833\ \text{A}.$ Thus current is $ 0.833\ \text{A}$ from b to a.\par
+
+\clearpage
+\section*{Question 18}
+
+Find the node voltages and power absorbed by the internal 20 Ω resistor.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/supernode-Q07.png}}\end{center}
+
+\begin{quote}\small\textit{Ground is the reference. A 18 V source, positive on top, fixes a left node at 18 V. A 9 Ω resistor connects it to node a. Node a connects to ground through 12 Ω. A 7 V source connects a and b, with its positive terminal at a. Node b connects to ground through 6 Ω. A 0.5 A source points upward from ground into b. A 20 Ω resistor also connects a to b.}\end{quote}
+
+\subsection*{Solution}
+
+Define $V_a$ and $V_b$ relative to ground. Take currents leaving the supernode as positive.\par
+
+Supernode KCL: $\frac{V_a-18}{9}+\frac{V_a}{12}+\frac{V_b}{6}-0.5=0.$\par
+
+Source constraint: $V_a-V_b=7.$\par
+
+Solving gives $V_a=10.154\ \text{V},\qquad V_b=3.154\ \text{V}.$\par
+
+The internal resistor absorbs $p=\frac{(V_a-V_b)^2}{20}=2.45\ \text{W}.$\par
+
+\clearpage
+\section*{Question 19}
+
+Solve the circuit and verify conservation of power for all sources and resistors.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/supernode-Q10.png}}\end{center}
+
+\begin{quote}\small\textit{Ground is the reference. A 20 V source, positive on top, fixes a left node at 20 V. A 10 Ω resistor connects it to node a. Node a connects to ground through 5 Ω. A 9 V source connects a and b, with its positive terminal at a. Node b connects to ground through 8 Ω. A 0.6 A source points upward from ground into b.}\end{quote}
+
+\subsection*{Solution}
+
+Define $V_a$ and $V_b$ relative to ground. Take currents leaving the supernode as positive.\par
+
+Supernode KCL: $\frac{V_a-20}{10}+\frac{V_a}{5}+\frac{V_b}{8}-0.6=0.$\par
+
+Source constraint: $V_a-V_b=9.$\par
+
+Solving gives $V_a=8.765\ \text{V},\qquad V_b=-0.235\ \text{V}.$\par
+
+With the passive sign convention, $p_V=-5.665\ \text{W},\quad p_I=0.141\ \text{W},\quad p_{20\text{ V}}=-22.471\ \text{W}.$ Resistors absorb $P_R=27.994\ \text{W}.$ Hence $p_V+p_I+p_{20\text{ V}}+P_R=0\ \text{W}=0$ within rounding. Negative source power means delivered power.\par
+
+\clearpage
+\section*{Question 20}
+
+Use a supernode to find both node voltages. The dependent voltage source is controlled by $V_a$. Then find its current and classify its power.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/Q17-supernode-dependent.png}}\end{center}
+
+\begin{quote}\small\textit{Ground is the reference. An 18 V independent source, positive on top, fixes a left node at 18 V. A 6 Ω resistor connects it to node a. Node a connects to ground through 4 Ω. A dependent voltage source connects a to b, positive at a, with value $1.5V_a$. Node b connects to ground through 8 Ω. A 1 A source points upward from ground into node b.}\end{quote}
+
+\subsection*{Solution}
+
+Define $V_a$ and $V_b$ relative to ground. Take currents leaving the supernode as positive.\par
+
+Supernode KCL is \$\par
+rac\{V\_a-18\}\{6\}+\par
+rac\{V\_a\}\{4\}+\par
+rac\{V\_b\}\{8\}-1=0.\$\par
+
+The dependent-source constraint is $V_a-V_b=1.5V_a,$ so $V_b=-0.5V_a.$\par
+
+Substitution gives \$\par
+rac\{V\_a-18\}\{6\}+\par
+rac\{V\_a\}\{4\}-\par
+rac\{0.5V\_a\}\{8\}-1=0,$ hence $V\_a=11.294\textbackslash{} \textbackslash{}text\{V\},\textbackslash{}qquad V\_b=-5.647\textbackslash{} \textbackslash{}text\{V\}.\$\par
+
+Let $i_d$ flow through the dependent source from $a$ to $b$. Node-$a$ KCL gives \$i\_d=-\par
+rac\{V\_a-18\}\{6\}-\par
+rac\{V\_a\}\{4\}=-1.706\textbackslash{} \textbackslash{}text\{A\}.$ Thus the actual current is $1.706\textbackslash{} \textbackslash{}text\{A\}$ from $b$ to $a\$.\par
+
+The source voltage is $1.5V_a=16.941\ \text{V}.$ Using the passive sign convention, $p_d=(1.5V_a)i_d=-28.898\ \text{W}.$ The dependent source delivers $28.898\ \text{W}$.\par
+\end{document}

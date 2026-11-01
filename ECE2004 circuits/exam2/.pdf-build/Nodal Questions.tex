@@ -1,0 +1,459 @@
+\documentclass[11pt]{article}
+\usepackage[margin=0.65in]{geometry}
+\usepackage{fontspec}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{microtype}
+\usepackage{xcolor}
+\setmainfont{DejaVu Sans}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.45em}
+\setlength{\emergencystretch}{3em}
+\pagestyle{plain}
+\begin{document}
+\begin{center}\LARGE\bfseries Nodal Questions\end{center}
+\vspace{0.5em}
+
+\clearpage
+\section*{Question 1}
+
+A 5 mA source injects current upward into node 1. Three resistors of 2 kΩ, 3 kΩ, and 6 kΩ connect node 1 to ground. Find the node voltage and state the current direction in the 3 kΩ resistor.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/nodal-Q04.png}}\end{center}
+
+\begin{quote}\small\textit{Node 1 has parallel 2 kΩ, 3 kΩ, and 6 kΩ branches to ground and a 5 mA source pointing upward from ground.}\end{quote}
+
+\subsection*{Solution}
+
+Let the labeled voltages be measured relative to ground. Take currents leaving each node as positive. Use kΩ and mA, so the computed voltages are in volts.\par
+
+At node 1: $v_1/2+v_1/3+v_1/6-5=0$\par
+
+Solving the simultaneous equations gives $v_1=5.000\ \mathrm{V}$ $i_{3\mathrm{k}}=v_1/(3\ \mathrm{k\Omega})=1.667\ \mathrm{mA}$\par
+The positive result means the current flows downward from node 1 to ground.\par
+
+\clearpage
+\section*{Question 2}
+
+A 3 mA source injects current into node 1. Node 1 has a 4 kΩ branch to ground and a 2 kΩ branch to node 2. Node 2 has a 6 kΩ branch to ground. Find both node voltages and the current from node 1 to node 2.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/nodal-Q05.png}}\end{center}
+
+\begin{quote}\small\textit{A 3 mA source points from ground to node 1; 4 kΩ joins node 1 to ground, 2 kΩ joins the nodes, and 6 kΩ joins node 2 to ground.}\end{quote}
+
+\subsection*{Solution}
+
+Let the labeled voltages be measured relative to ground. Take currents leaving each node as positive. Use kΩ and mA, so the computed voltages are in volts.\par
+
+At node 1: $v_1/4+(v_1-v_2)/2-3=0$\par
+
+At node 2: $v_2/6+(v_2-v_1)/2=0$\par
+
+Solving the simultaneous equations gives $v_1=8.000\ \mathrm{V},\qquad v_2=6.000\ \mathrm{V}$ $i_{12}=(v_1-v_2)/(2\ \mathrm{k\Omega})=1.000\ \mathrm{mA}$\par
+The current flows from node 1 to node 2.\par
+
+\clearpage
+\section*{Question 3}
+
+A 3 kΩ resistor connects a fixed 12 V node to node 1. A 6 kΩ resistor joins node 1 to node 2. Node 2 connects to ground through 4 kΩ, and a 2 mA source injects current from ground into node 2. Find both unknown node voltages.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/nodal-Q06.png}}\end{center}
+
+\begin{quote}\small\textit{A fixed 12 V node connects through 3 kΩ to node 1; 6 kΩ joins nodes 1 and 2; node 2 has a 4 kΩ branch and an upward 2 mA source to ground.}\end{quote}
+
+\subsection*{Solution}
+
+Let the labeled voltages be measured relative to ground. Take currents leaving each node as positive. Use kΩ and mA, so the computed voltages are in volts.\par
+
+At node 1: $(v_1-12)/3+(v_1-v_2)/6=0$\par
+
+At node 2: $(v_2-v_1)/6+v_2/4-2=0$\par
+
+Solving the simultaneous equations gives $v_1=11.077\ \mathrm{V},\qquad v_2=9.231\ \mathrm{V}$ $i_{12}=(v_1-v_2)/(6\ \mathrm{k\Omega})=0.308\ \mathrm{mA}$\par
+The current flows from node 1 to node 2.\par
+
+\clearpage
+\section*{Question 4}
+
+Three nodes form a ladder: 2 kΩ joins nodes 1 and 2, and 4 kΩ joins nodes 2 and 3. Node 1 has 3 kΩ to ground and receives 4 mA. Node 3 has 5 kΩ to ground and receives 1 mA. Find all node voltages.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/nodal-Q07.png}}\end{center}
+
+\begin{quote}\small\textit{Node 1 has 3 kΩ to ground and a 4 mA upward source; 2 kΩ joins nodes 1–2, 4 kΩ joins nodes 2–3, and node 3 has 5 kΩ plus a 1 mA upward source to ground.}\end{quote}
+
+\subsection*{Solution}
+
+Let the labeled voltages be measured relative to ground. Take currents leaving each node as positive. Use kΩ and mA, so the computed voltages are in volts.\par
+
+At node 1: $v_1/3+(v_1-v_2)/2-4=0$\par
+
+At node 2: $(v_2-v_1)/2+(v_2-v_3)/4=0$\par
+
+At node 3: $v_3/5+(v_3-v_2)/4-1=0$\par
+
+Solving the simultaneous equations gives $v_1=10.500\ \mathrm{V},\qquad v_2=9.500\ \mathrm{V},\qquad v_3=7.500\ \mathrm{V}$ $i_{23}=(v_2-v_3)/(4\ \mathrm{k\Omega})=0.500\ \mathrm{mA}$\par
+The current flows from node 2 to node 3.\par
+
+\clearpage
+\section*{Question 5}
+
+Nodes 1 and 2 are joined by a 3 kΩ resistor and a 2 mA source directed from node 2 to node 1. Node 1 has 4 kΩ to ground; node 2 has 6 kΩ to ground. Find both node voltages and interpret their signs.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/nodal-Q08.png}}\end{center}
+
+\begin{quote}\small\textit{A 3 kΩ resistor and a 2 mA source directed from node 2 toward node 1 lie between the nodes; 4 kΩ joins node 1 to ground and 6 kΩ joins node 2 to ground.}\end{quote}
+
+\subsection*{Solution}
+
+Let the labeled voltages be measured relative to ground. Take currents leaving each node as positive. Use kΩ and mA, so the computed voltages are in volts.\par
+
+At node 1: $v_1/4+(v_1-v_2)/3-2=0$\par
+
+At node 2: $v_2/6+(v_2-v_1)/3+2=0$\par
+
+Solving the simultaneous equations gives $v_1=1.846\ \mathrm{V},\qquad v_2=-2.769\ \mathrm{V}$ $i_{4\mathrm{k}}=v_1/(4\ \mathrm{k\Omega})=0.462\ \mathrm{mA}$\par
+Node 2 is negative because its voltage is below the chosen reference. Its 6 kΩ branch current actually flows upward.\par
+
+\clearpage
+\section*{Question 6}
+
+A 4 mA source injects node 1. Node 1 has 2 kΩ to ground and 4 kΩ to node 2. Node 2 has 5 kΩ to ground and an upward VCCS of 0.2 times node voltage 1 in mA. Find both voltages and the controlled current.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/nodal-Q09.png}}\end{center}
+
+\begin{quote}\small\textit{Node 1 receives 4 mA and has 2 kΩ to ground; 4 kΩ joins the nodes; node 2 has 5 kΩ to ground and an upward VCCS equal to 0.2 times node voltage 1 in mA.}\end{quote}
+
+\subsection*{Solution}
+
+Let the labeled voltages be measured relative to ground. Take currents leaving each node as positive. Use kΩ and mA, so the computed voltages are in volts.\par
+
+At node 1: $v_1/2+(v_1-v_2)/4-4=0$\par
+
+At node 2: $v_2/5+(v_2-v_1)/4-0.2v_1=0$\par
+
+Solving the simultaneous equations gives $v_1=8.000\ \mathrm{V},\qquad v_2=8.000\ \mathrm{V}$ $i_d=(0.2\ \mathrm{mS})v_1=1.600\ \mathrm{mA}$\par
+The controlled current points upward as drawn. Because the node voltages are equal, the 4 kΩ branch current is zero.\par
+
+\clearpage
+\section*{Question 7}
+
+A 5 kΩ resistor connects a 15 V node to node 1. A 2 kΩ resistor joins node 1 to node 2. Node 2 has a 4 kΩ resistor to ground and receives 1 mA from ground. Find both voltages and the current drawn from the 15 V node.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/nodal-Q10.png}}\end{center}
+
+\begin{quote}\small\textit{The fixed 15 V node connects through 5 kΩ to node 1; 2 kΩ joins the unknown nodes; node 2 has 4 kΩ and a 1 mA upward source to ground.}\end{quote}
+
+\subsection*{Solution}
+
+Let the labeled voltages be measured relative to ground. Take currents leaving each node as positive. Use kΩ and mA, so the computed voltages are in volts.\par
+
+At node 1: $(v_1-15)/5+(v_1-v_2)/2=0$\par
+
+At node 2: $(v_2-v_1)/2+v_2/4-1=0$\par
+
+Solving the simultaneous equations gives $v_1=10.000\ \mathrm{V},\qquad v_2=8.000\ \mathrm{V}$ $i_{15}=(15-v_1)/(5\ \mathrm{k\Omega})=1.000\ \mathrm{mA}$\par
+The 15 V node supplies 1.000 mA toward node 1.\par
+
+\clearpage
+\section*{Question 8}
+
+A 2 mA source points downward from node 1 to ground. Node 1 has 3 kΩ to ground and 6 kΩ to node 2. Node 2 has 2 kΩ to ground. Find both voltages and explain the negative sign.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/nodal-Q11.png}}\end{center}
+
+\begin{quote}\small\textit{A downward 2 mA source and 3 kΩ resistor join node 1 to ground; 6 kΩ joins the nodes; 2 kΩ joins node 2 to ground.}\end{quote}
+
+\subsection*{Solution}
+
+Let the labeled voltages be measured relative to ground. Take currents leaving each node as positive. Use kΩ and mA, so the computed voltages are in volts.\par
+
+At node 1: $v_1/3+(v_1-v_2)/6+2=0$\par
+
+At node 2: $v_2/2+(v_2-v_1)/6=0$\par
+
+Solving the simultaneous equations gives $v_1=-4.364\ \mathrm{V},\qquad v_2=-1.091\ \mathrm{V}$ $i_{12}=(v_1-v_2)/(6\ \mathrm{k\Omega})=-0.545\ \mathrm{mA}$\par
+Relative to the stated node-1-to-node-2 direction, the result is negative. The actual current is 0.545 mA from node 2 to node 1.\par
+
+\clearpage
+\section*{Question 9}
+
+Write the nodal equation for the one-node circuit, solve for the voltage, and verify that the resistor currents sum to the 5 mA source current.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/nodal-Q04.png}}\end{center}
+
+\begin{quote}\small\textit{Node 1 has parallel 2 kΩ, 3 kΩ, and 6 kΩ branches to ground and a 5 mA source pointing upward from ground.}\end{quote}
+
+\subsection*{Solution}
+
+Let $v_1$ be relative to ground and take currents leaving as positive.\par
+
+$\frac{v_1}{2}+\frac{v_1}{3}+\frac{v_1}{6}-5=0$ $v_1=5.000\ \mathrm{V}$\par
+
+The three downward currents are $i_2=2.500\ \mathrm{mA},\quad i_3=1.667\ \mathrm{mA},\quad i_6=0.833\ \mathrm{mA}$ $i_2+i_3+i_6=5.000\ \mathrm{mA}$\par
+
+KCL is satisfied.\par
+
+\clearpage
+\section*{Question 10}
+
+For the two-node circuit, form the conductance matrix and solve for the voltage across the 2 kΩ resistor, defined positive on the node 1 side.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/nodal-Q05.png}}\end{center}
+
+\begin{quote}\small\textit{A 3 mA source points from ground to node 1; 4 kΩ joins node 1 to ground, 2 kΩ joins the nodes, and 6 kΩ joins node 2 to ground.}\end{quote}
+
+\subsection*{Solution}
+
+Take currents leaving each node as positive. In mS, the matrix equation is $\displaystyle \begin{bmatrix}0.75&-0.50\\-0.50&0.667\end{bmatrix}\begin{bmatrix}v_1\\v_2\end{bmatrix}=\begin{bmatrix}3\\0\end{bmatrix}$\par
+
+Solving gives $v_1=8.000\ \mathrm{V},\qquad v_2=6.000\ \mathrm{V}$\par
+
+With the stated polarity, $v_{12}=v_1-v_2=2.000\ \mathrm{V}$\par
+
+\clearpage
+\section*{Question 11}
+
+Find the current and power of the 12 V source. State whether it absorbs or delivers power.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/nodal-Q06.png}}\end{center}
+
+\begin{quote}\small\textit{A 12 V source fixes the left node; 3 kΩ joins it to node 1, 6 kΩ joins nodes 1–2, and node 2 has 4 kΩ plus an upward 2 mA source to ground.}\end{quote}
+
+\subsection*{Solution}
+
+Take currents leaving each unknown node as positive.\par
+
+$\frac{v_1-12}{3}+\frac{v_1-v_2}{6}=0$\par
+
+$\frac{v_2-v_1}{6}+\frac{v_2}{4}-2=0$ $v_1=11.077\ \mathrm{V},\qquad v_2=9.231\ \mathrm{V}$\par
+
+Current leaves the positive terminal of the 12 V source:\par
+
+$i_s=\frac{12-v_1}{3\ \mathrm{k\Omega}}=0.308\ \mathrm{mA}$\par
+
+Using the passive sign convention,\par
+
+\$p\_\{12\}=-\textbackslash{}left(12\textbackslash{} \textbackslash{}mathrm\{V\}\par
+ight)\textbackslash{}left(0.308\textbackslash{} \textbackslash{}mathrm\{mA\}\par
+ight)=-3.69\textbackslash{} \textbackslash{}mathrm\{mW\}\$\par
+
+The source delivers $3.69\ \mathrm{mW}$.\par
+
+\clearpage
+\section*{Question 12}
+
+Use nodal analysis to find the voltage and current of the middle 4 kΩ branch. Define current from node 2 toward node 3.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/nodal-Q07.png}}\end{center}
+
+\begin{quote}\small\textit{Node 1 has 3 kΩ and an upward 4 mA source to ground; 2 kΩ joins nodes 1–2, 4 kΩ joins nodes 2–3, and node 3 has 5 kΩ plus an upward 1 mA source.}\end{quote}
+
+\subsection*{Solution}
+
+Take currents leaving each node as positive.\par
+
+$\frac{v_1}{3}+\frac{v_1-v_2}{2}-4=0$\par
+
+$\frac{v_2-v_1}{2}+\frac{v_2-v_3}{4}=0$\par
+
+$\frac{v_3}{5}+\frac{v_3-v_2}{4}-1=0$ $v_1=10.500\ \mathrm{V},\quad v_2=9.500\ \mathrm{V},\quad v_3=7.500\ \mathrm{V}$ $v_{23}=v_2-v_3=2.000\ \mathrm{V}$\par
+
+$i_{23}=\frac{v_{23}}{4\ \mathrm{k\Omega}}=0.500\ \mathrm{mA}$\par
+
+The current flows from node 2 to node 3.\par
+
+\clearpage
+\section*{Question 13}
+
+Determine the power of the 2 mA source between the nodes. Use the passive sign convention and state absorbed or delivered.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/nodal-Q08.png}}\end{center}
+
+\begin{quote}\small\textit{A 3 kΩ resistor and a 2 mA source directed from node 2 to node 1 lie between the nodes; 4 kΩ joins node 1 to ground and 6 kΩ joins node 2 to ground.}\end{quote}
+
+\subsection*{Solution}
+
+Take currents leaving each node as positive.\par
+
+$\frac{v_1}{4}+\frac{v_1-v_2}{3}-2=0$\par
+
+$\frac{v_2}{6}+\frac{v_2-v_1}{3}+2=0$ $v_1=1.846\ \mathrm{V},\qquad v_2=-2.769\ \mathrm{V}$\par
+
+The source current enters its node 2 terminal. Its passive voltage is $v_s=v_2-v_1=-4.615\ \mathrm{V}$ $p_s=v_s(2\ \mathrm{mA})=-9.23\ \mathrm{mW}$\par
+
+The source delivers $9.23\ \mathrm{mW}$.\par
+
+\clearpage
+\section*{Question 14}
+
+Find the power of the dependent current source. State whether it absorbs or delivers power.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/nodal-Q09.png}}\end{center}
+
+\begin{quote}\small\textit{Node 1 receives 4 mA and has 2 kΩ to ground; 4 kΩ joins the nodes; node 2 has 5 kΩ and an upward VCCS equal to 0.2 times node voltage 1 in mA.}\end{quote}
+
+\subsection*{Solution}
+
+Take currents leaving each node as positive.\par
+
+$\frac{v_1}{2}+\frac{v_1-v_2}{4}-4=0$\par
+
+$\frac{v_2}{5}+\frac{v_2-v_1}{4}-0.2v_1=0$ $v_1=v_2=8.000\ \mathrm{V}$ $i_d=(0.2\ \mathrm{mS})v_1=1.600\ \mathrm{mA}$\par
+
+The upward current enters the source at its ground terminal, so the passive voltage is $-v_2$. $p_d=(-8.000\ \mathrm{V})(1.600\ \mathrm{mA})=-12.8\ \mathrm{mW}$\par
+
+The dependent source delivers $12.8\ \mathrm{mW}$.\par
+
+\clearpage
+\section*{Question 15}
+
+Find the power delivered by the 15 V source and the power absorbed by the 4 kΩ resistor.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/nodal-Q10.png}}\end{center}
+
+\begin{quote}\small\textit{The 15 V source fixes the left node; 5 kΩ joins it to node 1, 2 kΩ joins the unknown nodes, and node 2 has 4 kΩ plus an upward 1 mA source.}\end{quote}
+
+\subsection*{Solution}
+
+Take currents leaving each unknown node as positive.\par
+
+$\frac{v_1-15}{5}+\frac{v_1-v_2}{2}=0$\par
+
+$\frac{v_2-v_1}{2}+\frac{v_2}{4}-1=0$ $v_1=10.000\ \mathrm{V},\qquad v_2=8.000\ \mathrm{V}$\par
+
+$i_{15}=\frac{15-v_1}{5\ \mathrm{k\Omega}}=1.000\ \mathrm{mA}$\par
+
+Current leaves the positive terminal, so $p_{15}=-(15\ \mathrm{V})(1.000\ \mathrm{mA})=-15.0\ \mathrm{mW}$\par
+
+The source delivers $15.0\ \mathrm{mW}$. The resistor absorbs\par
+
+$p_{4\mathrm{k}}=\frac{v_2^2}{4\ \mathrm{k\Omega}}=16.0\ \mathrm{mW}$\par
+
+\clearpage
+\section*{Question 16}
+
+The reference node is unchanged. Find the voltage across the 6 kΩ resistor with positive polarity at node 2, then state the actual current direction.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/nodal-Q11.png}}\end{center}
+
+\begin{quote}\small\textit{A downward 2 mA source and 3 kΩ resistor join node 1 to ground; 6 kΩ joins the nodes; 2 kΩ joins node 2 to ground.}\end{quote}
+
+\subsection*{Solution}
+
+Take currents leaving each node as positive.\par
+
+$\frac{v_1}{3}+\frac{v_1-v_2}{6}+2=0$\par
+
+$\frac{v_2}{2}+\frac{v_2-v_1}{6}=0$ $v_1=-4.364\ \mathrm{V},\qquad v_2=-1.091\ \mathrm{V}$\par
+
+With positive polarity at node 2, $v_{21}=v_2-v_1=3.273\ \mathrm{V}$\par
+
+$i_{21}=\frac{v_{21}}{6\ \mathrm{k\Omega}}=0.545\ \mathrm{mA}$\par
+
+The actual current flows from node 2 to node 1.\par
+
+\clearpage
+\section*{Question 17}
+
+For the one-node circuit, find the equivalent resistance seen from node 1 and use it to compute the node voltage.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/nodal-Q04.png}}\end{center}
+
+\begin{quote}\small\textit{Node 1 has parallel 2 kΩ, 3 kΩ, and 6 kΩ branches to ground and a 5 mA source pointing upward from ground.}\end{quote}
+
+\subsection*{Solution}
+
+The three resistors are in parallel from node 1 to ground.\par
+
+\$R\_\{eq\}=\textbackslash{}left(\textbackslash{}frac\{1\}\{2\}+\textbackslash{}frac\{1\}\{3\}+\textbackslash{}frac\{1\}\{6\}\par
+ight)\textasciicircum{}\{-1\}\textbackslash{}mathrm\{k\textbackslash{}Omega\}=1.000\textbackslash{} \textbackslash{}mathrm\{k\textbackslash{}Omega\}\$\par
+
+The 5 mA source drives this equivalent resistance: $v_1=(5.000\ \mathrm{mA})(1.000\ \mathrm{k\Omega})=5.000\ \mathrm{V}$\par
+
+This agrees with direct KCL:\par
+
+$\frac{v_1}{2}+\frac{v_1}{3}+\frac{v_1}{6}=5$\par
+
+\clearpage
+\section*{Question 18}
+
+Find the total power absorbed by all four resistors in the ladder and the power delivered by both current sources. Verify power balance.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/nodal-Q07.png}}\end{center}
+
+\begin{quote}\small\textit{Node 1 has 3 kΩ and an upward 4 mA source to ground; 2 kΩ joins nodes 1–2, 4 kΩ joins nodes 2–3, and node 3 has 5 kΩ plus an upward 1 mA source.}\end{quote}
+
+\subsection*{Solution}
+
+Using currents leaving each node as positive gives $v_1=10.500\ \mathrm{V},\quad v_2=9.500\ \mathrm{V},\quad v_3=7.500\ \mathrm{V}$\par
+
+The resistor powers are\par
+
+$p_{3\mathrm{k}}=\frac{v_1^2}{3\ \mathrm{k\Omega}}=36.75\ \mathrm{mW}$\par
+
+$p_{2\mathrm{k}}=\frac{(v_1-v_2)^2}{2\ \mathrm{k\Omega}}=0.50\ \mathrm{mW}$\par
+
+$p_{4\mathrm{k}}=\frac{(v_2-v_3)^2}{4\ \mathrm{k\Omega}}=1.00\ \mathrm{mW}$\par
+
+$p_{5\mathrm{k}}=\frac{v_3^2}{5\ \mathrm{k\Omega}}=11.25\ \mathrm{mW}$ $P_R=49.50\ \mathrm{mW}$\par
+
+Both source currents enter their negative-voltage terminals: $p_{4\mathrm{mA}}=-v_1(4\ \mathrm{mA})=-42.0\ \mathrm{mW}$ $p_{1\mathrm{mA}}=-v_3(1\ \mathrm{mA})=-7.50\ \mathrm{mW}$\par
+
+Thus the sources deliver $49.50\ \mathrm{mW}$, equal to the absorbed power.\par
+
+\clearpage
+\section*{Question 19}
+
+Suppose the controlled-source coefficient is written as an unknown transconductance. Find the transconductance that makes the current in the 4 kΩ resistor zero.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/nodal-Q09.png}}\end{center}
+
+\begin{quote}\small\textit{Node 1 receives 4 mA and has 2 kΩ to ground; 4 kΩ joins the nodes; node 2 has 5 kΩ and an upward VCCS equal to an unknown transconductance times node voltage 1.}\end{quote}
+
+\subsection*{Solution}
+
+Zero current in the 4 kΩ resistor requires $v_1=v_2=v$\par
+
+At node 1:\par
+
+$\frac{v}{2}-4=0$ $v=8.000\ \mathrm{V}$\par
+
+At node 2, with the controlled current directed upward:\par
+
+$\frac{v}{5}-g_mv=0$\par
+
+For nonzero voltage,\par
+
+$g_m=\frac{1}{5\ \mathrm{k\Omega}}=0.200\ \mathrm{mS}$\par
+
+The required transconductance is $0.200\ \mathrm{mS}$.\par
+
+\clearpage
+\section*{Question 20}
+
+A 24 V source fixes the left node. A 4 Ω resistor connects it to node a. An ideal 6 V source lies between node a, its positive terminal, and node b. Node a has 8 Ω to ground. Node b has 3 Ω to ground and receives 2 A upward from ground. Use a supernode to find both node voltages, the 6 V source power, and a complete power check.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/Q16-nodal-power-check.png}}\end{center}
+
+\begin{quote}\small\textit{The bottom wire is ground. A 24 V source fixes the left node; 4 Ω joins it to node a; a 6 V source with positive terminal at node a joins node a to node b; 8 Ω joins node a to ground; 3 Ω and an upward 2 A source join node b to ground.}\end{quote}
+
+\subsection*{Solution}
+
+Nodes $v_a$ and $v_b$ form a supernode because an ideal 6 V source lies between them. Take currents leaving the supernode as positive.\par
+
+$\frac{v_a-24}{4}+\frac{v_a}{8}+\frac{v_b}{3}-2=0$\par
+
+The source constraint is $v_a-v_b=6$\par
+
+Solving gives $v_a=14.118\ \mathrm{V},\qquad v_b=8.118\ \mathrm{V}$\par
+
+The current through the 6 V source, defined from $v_a$ to $v_b$, follows KCL at $v_a$:\par
+
+$i_6=\frac{24-v_a}{4}-\frac{v_a}{8}=0.706\ \mathrm{A}$\par
+
+It enters the positive terminal, so $p_6=(6\ \mathrm{V})(0.706\ \mathrm{A})=4.24\ \mathrm{W}$\par
+
+The 6 V source absorbs power. For a full check: $p_{4\Omega}=24.42\ \mathrm{W},\quad p_{8\Omega}=24.91\ \mathrm{W},\quad p_{3\Omega}=21.97\ \mathrm{W}$ $p_{24}=-59.29\ \mathrm{W},\qquad p_{2\mathrm{A}}=-16.24\ \mathrm{W}$ $\sum p=24.42+24.91+21.97+4.24-59.29-16.24=0.01\ \mathrm{W}\approx0$\par
+
+The small difference is rounding; the 24 V and 2 A sources deliver power.\par
+\end{document}

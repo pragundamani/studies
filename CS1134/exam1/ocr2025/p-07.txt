@@ -1,0 +1,30 @@
+Name: Peyqu Net ID: P.f A/ ><
+
+Question 3 (23 points)
+
+Implement the following function:
+def remove_consecutive_duplicates(lst)
+
+The above function gets a list of integers, Ist. When called, it should mutate Lst so
+that any consecutive duplicates collapse down to a single occurrence.
+
+For example, if lst = [2, 2, 2, 3, 3, 1, 1, % 2, 21, after calling
+remove_consecutive_duplicates(1st), lst should be the following 4-element
+dist: (2535, 1, 2).
+
+Your implementation should provide the following behavior:
+wen ist « (2, 2, 2, 3, 3, 1; I, 1, 2) 21
+>>> remove_consecutive_duplicates (1st)
+>>> Ist
+[2, 3, 1, 2]
+
+Implementation requirements:
+1. Your implementation should run in linear time. That is, if n is the number of
+
+elements in lst, your function should run in @(n).
+2. You are only allowed to use @(1) additional memory.
+
+That is, you are allowed to use any number of variables that take constant space
+| (int, double, etc). You are not allowed to use any additional data collections
+(such as list, tuple, string, dictionary, set, etc).
+

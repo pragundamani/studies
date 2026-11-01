@@ -1,0 +1,111 @@
+- generic [ref=e1]:
+  - iframe [ref=e2]
+  - generic [ref=e3]: None selected
+  - generic [ref=e11]:
+    - generic [ref=e13]:
+      - generic [ref=e14]:
+        - link "Skip to content" [ref=e15] [cursor=pointer]:
+          - /url: ""
+        - link "Using Gmail with screen readers" [ref=e16] [cursor=pointer]:
+          - /url: ""
+      - heading [level=1] [ref=e18]:
+        - banner [ref=e19]:
+          - generic [ref=e20]:
+            - generic [ref=e21]:
+              - button "Main menu" [expanded] [ref=e22] [cursor=pointer]
+              - link "Gmail" [ref=e27] [cursor=pointer]:
+                - /url: "#inbox"
+            - generic [ref=e29]:
+              - search [ref=e31]:
+                - heading "Search" [level=2] [ref=e32]
+                - table [ref=e34]:
+                  - rowgroup [ref=e35]:
+                    - row [ref=e36]:
+                      - cell [ref=e37]:
+                        - textbox "Search mail" [ref=e38]: daddy
+                - button "Advanced search options" [ref=e39] [cursor=pointer]
+                - button "Clear search" [ref=e42] [cursor=pointer]
+                - button "Search mail" [ref=e46] [cursor=pointer]
+              - generic [ref=e50]:
+                - button "Support" [ref=e52] [cursor=pointer]
+                - button "Settings" [ref=e57] [cursor=pointer]
+                - generic [ref=e62]:
+                  - generic:
+                    - button "Try Gemini" [ref=e69] [cursor=pointer]
+                    - tooltip [aria-hidden] [ref=e72]: Try Gemini
+                - generic [ref=e75]:
+                  - link "Upgrade" [ref=e77] [cursor=pointer]
+                  - tooltip [aria-hidden] [ref=e80]: Upgrade for premium features
+            - generic [ref=e82]:
+              - button "Google apps" [ref=e86] [cursor=pointer]
+              - 'button "Google Account: pragun damani (damanipragun@gmail.com)" [ref=e92] [cursor=pointer]'
+      - alert [ref=e97]
+    - generic [ref=e100]:
+      - navigation [ref=e101]:
+        - button "Compose" [ref=e104] [cursor=pointer]
+        - generic [ref=e110]:
+          - generic [ref=e112]:
+            - heading "Labels" [level=2] [ref=e113]
+            - generic [ref=e114]:
+              - generic [ref=e115]:
+                - generic [ref=e117]:
+                  - generic [ref=e847]:
+                    - link "Inbox 307 unread" [ref=e849] [cursor=pointer]:
+                      - /url: https://mail.google.com/mail/u/0/#inbox
+                      - text: Inbox
+                    - generic [ref=e850]: "307"
+                  - link "Starred" [ref=e132] [cursor=pointer]:
+                    - /url: https://mail.google.com/mail/u/0/#starred
+                  - link "Snoozed" [ref=e139] [cursor=pointer]:
+                    - /url: https://mail.google.com/mail/u/0/#snoozed
+                  - link "Sent" [ref=e146] [cursor=pointer]:
+                    - /url: https://mail.google.com/mail/u/0/#sent
+                  - generic [ref=e151]:
+                    - link "Drafts 2 unread" [ref=e153] [cursor=pointer]:
+                      - /url: https://mail.google.com/mail/u/0/#drafts
+                      - text: Drafts
+                    - generic [ref=e154]: "2"
+                - generic [ref=e161]:
+                  - link "Purchases 20 unread has menu" [ref=e163] [cursor=pointer]:
+                    - /url: https://mail.google.com/mail/u/0/#category/purchases
+                    - text: Purchases
+                  - generic [ref=e164]: "20"
+              - button "More labels" [ref=e166] [cursor=pointer]:
+                - generic [ref=e167]: More
+          - generic [ref=e170]:
+            - heading "Labels" [ref=e171]
+            - button "Create new label" [ref=e172] [cursor=pointer]
+          - generic [ref=e174]:
+            - heading "Labels" [level=2] [ref=e175]
+            - generic [ref=e179]:
+              - link "[Gmail]/Bin/[Gmail] has menu" [ref=e186] [cursor=pointer]:
+                - /url: https://mail.google.com/mail/u/0/#label/%5BGmail%5D/Bin/%5BGmail%5D
+                - text: "[Gmail]/Bin/[Gmail]"
+              - link "[Imap]/Archive has menu" [ref=e193] [cursor=pointer]:
+                - /url: https://mail.google.com/mail/u/0/#label/%5BImap%5D/Archive
+                - text: "[Imap]/Archive"
+              - link "[Imap]/Trash has menu" [ref=e200] [cursor=pointer]:
+                - /url: https://mail.google.com/mail/u/0/#label/%5BImap%5D/Trash
+                - text: "[Imap]/Trash"
+              - link "DeltaChat has menu" [ref=e207] [cursor=pointer]:
+                - /url: https://mail.google.com/mail/u/0/#label/DeltaChat
+                - text: DeltaChat
+      - generic [ref=e209]: Loading indicator
+      - generic [ref=e828]:
+        - complementary "Side panel" [ref=e829]:
+          - tablist [ref=e831]:
+            - tab "Calendar":
+              - generic [ref=e832] [cursor=pointer]
+            - tab "Keep":
+              - generic [ref=e833] [cursor=pointer]
+            - tab "Tasks":
+              - generic [ref=e834] [cursor=pointer]
+            - tab "Contacts":
+              - generic [ref=e835] [cursor=pointer]
+            - separator [disabled] [ref=e836]
+            - tab "Get add-ons":
+              - generic [ref=e837] [cursor=pointer]
+        - generic:
+          - button "Hide side panel":
+            - generic [ref=e838] [cursor=pointer]
+  - generic [ref=e842]: Page 2 of 3

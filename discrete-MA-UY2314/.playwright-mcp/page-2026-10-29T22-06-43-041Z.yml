@@ -1,0 +1,2145 @@
+- generic [ref=f4e3]:
+  - generic [ref=f4e4]:
+    - link "Skip to content" [ref=f4e5] [cursor=pointer]:
+      - /url: ""
+    - link "Skip to navigation" [ref=f4e6] [cursor=pointer]:
+      - /url: ""
+  - generic [ref=f4e7]:
+    - banner [ref=f4e8]:
+      - generic [ref=f4e10]:
+        - button "Cengage WebAssign Homepage" [ref=f4e12] [cursor=pointer]:
+          - img "Cengage WebAssign Homepage" [ref=f4e13]
+        - generic [ref=f4e34]:
+          - generic [ref=f4e35]:
+            - link "My Cengage Home" [ref=f4e36] [cursor=pointer]:
+              - /url: https://www.cengage.com/dashboard/
+            - button "Open Email Notification Settings modal" [ref=f4e41] [cursor=pointer]
+            - link "Open Help page in a new browser tab." [ref=f4e45] [cursor=pointer]:
+              - /url: https://help.cengage.com/webassign/student_guide/
+            - link "Open My Account in a new browser tab." [ref=f4e49] [cursor=pointer]:
+              - /url: /web/User/Cengage/my_account
+            - button "Interface language setting. Language set to English" [ref=f4e54] [cursor=pointer]:
+              - generic [ref=f4e57]: EN
+          - generic [ref=f4e61]:
+            - generic [ref=f4e62]: pd2752@nyu.edu
+            - button "Sign out" [ref=f4e63] [cursor=pointer]
+      - navigation "WebAssign" [ref=f4e66]:
+        - link "Home" [ref=f4e67]
+        - link "My Assignments" [ref=f4e68]
+        - link "Grades" [ref=f4e69]
+        - link "Communication" [ref=f4e70]
+        - link "Calendar" [ref=f4e71]
+        - button "My eBooks" [ref=f4e74]
+    - main [ref=f4e77]:
+      - generic [ref=f4e78]:
+        - generic [ref=f4e79]:
+          - generic [ref=f4e81]:
+            - generic [ref=f4e82]:
+              - 'link "navigate back to MA-UY 2314: Discrete Mathematics, Fall 2026, Fall 2026" [ref=f4e84] [cursor=pointer]':
+                - /url: /v4cgi/student.pl?course=1319576,1715067
+                - text: "MA-UY 2314: Discrete Mathematics, Fall 2026, Fall 2026"
+              - 'heading "4.7 Indirect Argument: Contradiction & Composition (Homework)" [level=1] [ref=f4e87]'
+            - generic [ref=f4e90]:
+              - generic [ref=f4e94]:
+                - text: Instructor
+                - generic [ref=f4e95]: Ken Cereste
+              - generic [ref=f4e96]: New York University
+          - generic [ref=f4e99]:
+            - generic [ref=f4e100]:
+              - generic [ref=f4e101]:
+                - generic [ref=f4e102]:
+                  - generic [ref=f4e103]: "Due Date: Thursday, October 29, 2026 at 11:59 PM EDT"
+                  - generic [aria-hidden] [ref=f4e104]: "Due Date:"
+                  - generic [aria-hidden] [ref=f4e105]: Thu, Oct 29, 2026 11:59 PM EDT
+                - generic [ref=f4e106]:
+                  - generic [ref=f4e107]: "Current Score: 11.11 / 100 Points 11.1%"
+                  - generic [aria-hidden] [ref=f4e108]: "Current Score:"
+                  - generic [aria-hidden] [ref=f4e109]: 11.11 / 100 Points | 11.1 %
+              - generic [ref=f4e110]:
+                - button "Open Request Extension in modal window" [ref=f4e111] [cursor=pointer]:
+                  - generic [ref=f4e112]: Request Extension
+                - button "Print assignment" [ref=f4e116] [cursor=pointer]:
+                  - generic [ref=f4e117]: Print Assignment
+            - generic [ref=f4e123]:
+              - heading [level=2] [ref=f4e124]:
+                - button "Scoring and Assignment Information" [expanded] [ref=f4e125] [cursor=pointer]
+              - generic "Scoring and Assignment Information" [ref=f4e132]:
+                - generic [ref=f4e133]:
+                  - table [ref=f4e136]:
+                    - rowgroup [ref=f4e137]:
+                      - row [ref=f4e138]:
+                        - rowheader "Question" [ref=f4e139]
+                        - columnheader [ref=f4e140]:
+                          - link "Question 1 of 9," [ref=f4e141] [cursor=pointer]:
+                            - /url: "#Q1"
+                            - generic [ref=f4e142]: "1"
+                        - columnheader [ref=f4e144]:
+                          - link "Question 2 of 9," [ref=f4e145] [cursor=pointer]:
+                            - /url: "#Q2"
+                            - generic [ref=f4e146]: "2"
+                        - columnheader [ref=f4e148]:
+                          - link "Question 3 of 9," [ref=f4e149] [cursor=pointer]:
+                            - /url: "#Q3"
+                            - generic [ref=f4e150]: "3"
+                        - columnheader [ref=f4e152]:
+                          - link "Question 4 of 9," [ref=f4e153] [cursor=pointer]:
+                            - /url: "#Q4"
+                            - generic [ref=f4e154]: "4"
+                        - columnheader [ref=f4e156]:
+                          - link "Question 5 of 9," [ref=f4e157] [cursor=pointer]:
+                            - /url: "#Q5"
+                            - generic [ref=f4e158]: "5"
+                        - columnheader [ref=f4e160]:
+                          - link "Question 6 of 9," [ref=f4e161] [cursor=pointer]:
+                            - /url: "#Q6"
+                            - generic [ref=f4e162]: "6"
+                        - columnheader [ref=f4e164]:
+                          - link "Question 7 of 9," [ref=f4e165] [cursor=pointer]:
+                            - /url: "#Q7"
+                            - generic [ref=f4e166]: "7"
+                        - columnheader [ref=f4e168]:
+                          - link "Question 8 of 9," [ref=f4e169] [cursor=pointer]:
+                            - /url: "#Q8"
+                            - generic [ref=f4e170]: "8"
+                        - columnheader [ref=f4e172]:
+                          - link "Question 9 of 9," [ref=f4e173] [cursor=pointer]:
+                            - /url: "#Q9"
+                            - generic [ref=f4e174]: "9"
+                      - row [ref=f4e176]:
+                        - rowheader "Points" [ref=f4e177]
+                        - cell [ref=f4e178]:
+                          - link "Question 1 out of 9, correct, your score is 11.11 out of 11.11" [ref=f4e179] [cursor=pointer]:
+                            - /url: "#Q1"
+                            - generic [ref=f4e180]: 11.11 / 11.11
+                        - cell [ref=f4e181]:
+                          - link "Question 2 out of 9, your score is none out of 11.11" [ref=f4e182] [cursor=pointer]:
+                            - /url: "#Q2"
+                            - generic [ref=f4e183]: – / 11.11
+                        - cell [ref=f4e184]:
+                          - link "Question 3 out of 9, your score is none out of 11.11" [ref=f4e185] [cursor=pointer]:
+                            - /url: "#Q3"
+                            - generic [ref=f4e186]: – / 11.11
+                        - cell [ref=f4e187]:
+                          - link "Question 4 out of 9, your score is none out of 11.11" [ref=f4e188] [cursor=pointer]:
+                            - /url: "#Q4"
+                            - generic [ref=f4e189]: – / 11.11
+                        - cell [ref=f4e190]:
+                          - link "Question 5 out of 9, your score is none out of 11.11" [ref=f4e191] [cursor=pointer]:
+                            - /url: "#Q5"
+                            - generic [ref=f4e192]: – / 11.11
+                        - cell [ref=f4e193]:
+                          - link "Question 6 out of 9, your score is none out of 11.11" [ref=f4e194] [cursor=pointer]:
+                            - /url: "#Q6"
+                            - generic [ref=f4e195]: – / 11.11
+                        - cell [ref=f4e196]:
+                          - link "Question 7 out of 9, your score is none out of 11.11" [ref=f4e197] [cursor=pointer]:
+                            - /url: "#Q7"
+                            - generic [ref=f4e198]: – / 11.11
+                        - cell [ref=f4e199]:
+                          - link "Question 8 out of 9, your score is none out of 11.11" [ref=f4e200] [cursor=pointer]:
+                            - /url: "#Q8"
+                            - generic [ref=f4e201]: – / 11.11
+                        - cell [ref=f4e202]:
+                          - link "Question 9 out of 9, your score is none out of 11.12" [ref=f4e203] [cursor=pointer]:
+                            - /url: "#Q9"
+                            - generic [ref=f4e204]: – / 11.12
+                  - generic [ref=f4e205]:
+                    - heading "Assignment Submission" [level=3] [ref=f4e206]
+                    - paragraph [ref=f4e207]: For this assignment, you submit answers by question parts. The number of submissions remaining for each question part only changes if you submit or change the answer.
+                    - heading "Assignment Scoring" [level=3] [ref=f4e208]
+                    - paragraph [ref=f4e209]: Your last submission is used for your score.
+          - generic [ref=f4e210]:
+            - region "Banner for question 1" [ref=f4e213]:
+              - generic [ref=f4e214]:
+                - heading "Question 1" [level=2] [ref=f4e216]: "1."
+                - strong [ref=f4e217]: "[11.11 / 11.11 Points]"
+              - generic [ref=f4e218]:
+                - button "Details for question 1." [ref=f4e219] [cursor=pointer]:
+                  - generic [ref=f4e220]: Details
+                - button "My Notes For question 1" [ref=f4e223] [cursor=pointer]:
+                  - generic [ref=f4e224]: My Notes
+                - button "Previous Answers for question 1" [ref=f4e225] [cursor=pointer]:
+                  - generic [ref=f4e226]: Previous Answers
+                - button "Practice Another Version for question 1." [ref=f4e227] [cursor=pointer]:
+                  - generic [ref=f4e228]: Practice Another
+            - generic [ref=f4e229]:
+              - generic [ref=f4e231]:
+                - generic [ref=f4e232]: eppdiscmath5 4.7.004.nva
+                - generic [ref=f4e233]: Consider the following statement.
+                - generic [ref=f4e234]:
+                  - text: For every integer
+                  - emphasis [ref=f4e235]: m
+                  - text: ","
+                  - generic [ref=f4e238]:
+                    - text: "7"
+                    - generic [ref=f4e239]: m
+                    - text: + 4
+                  - text: is not divisible by 7.
+                - generic [ref=f4e240]: Construct a proof for the statement by selecting sentences from the following scrambled list and putting them in the correct order.
+                - list [ref=f4e241]:
+                  - listitem [ref=f4e242]:
+                    - text: Subtracting 7
+                    - emphasis [ref=f4e243]: m
+                    - text: from both sides of the equation gives 4 = 7
+                    - emphasis [ref=f4e244]: k
+                    - text: − 7
+                    - emphasis [ref=f4e245]: m
+                    - text: = 7(
+                    - emphasis [ref=f4e246]: k
+                    - text: −
+                    - emphasis [ref=f4e247]: m
+                    - text: ).
+                  - listitem [ref=f4e248]:
+                    - text: But
+                    - emphasis [ref=f4e249]: k
+                    - text: −
+                    - emphasis [ref=f4e250]: m
+                    - text: is an integer and
+                    - table [ref=f4e255]:
+                      - rowgroup [ref=f4e256]:
+                        - row [ref=f4e257]:
+                          - cell "7" [ref=f4e258]
+                        - row [ref=f4e259]:
+                          - cell "4" [ref=f4e260]
+                    - text: is not an integer.
+                  - listitem [ref=f4e261]:
+                    - text: Dividing both sides of the equation by 7 results in
+                    - table [ref=f4e266]:
+                      - rowgroup [ref=f4e267]:
+                        - row [ref=f4e268]:
+                          - cell "4" [ref=f4e269]
+                        - row [ref=f4e270]:
+                          - cell "7" [ref=f4e271]
+                    - text: =
+                    - emphasis [ref=f4e272]: k
+                    - text: −
+                    - emphasis [ref=f4e273]: m
+                    - text: .
+                  - listitem [ref=f4e274]:
+                    - text: Suppose that there is an integer
+                    - emphasis [ref=f4e275]: m
+                    - text: such that 7
+                    - emphasis [ref=f4e276]: m
+                    - text: + 4 is not divisible by 7.
+                  - listitem [ref=f4e277]:
+                    - text: Subtracting 4
+                    - emphasis [ref=f4e278]: m
+                    - text: from both sides of the equation gives 7 = 4
+                    - emphasis [ref=f4e279]: k
+                    - text: − 4
+                    - emphasis [ref=f4e280]: m
+                    - text: = 4(
+                    - emphasis [ref=f4e281]: k
+                    - text: −
+                    - emphasis [ref=f4e282]: m
+                    - text: ).
+                  - listitem [ref=f4e283]:
+                    - text: Suppose that there is an integer
+                    - emphasis [ref=f4e284]: m
+                    - text: such that 7
+                    - emphasis [ref=f4e285]: m
+                    - text: + 4 is divisible by 7.
+                  - listitem [ref=f4e286]:
+                    - text: By definition of divisibility 7
+                    - emphasis [ref=f4e287]: m
+                    - text: + 4 = 7
+                    - emphasis [ref=f4e288]: k
+                    - text: for some integer
+                    - emphasis [ref=f4e289]: k
+                    - text: .
+                  - listitem [ref=f4e290]:
+                    - text: By definition of divisibility 4
+                    - emphasis [ref=f4e291]: m
+                    - text: + 7 = 4
+                    - emphasis [ref=f4e292]: k
+                    - text: ", for some integer"
+                    - emphasis [ref=f4e293]: k
+                    - text: .
+                  - listitem [ref=f4e294]:
+                    - text: But
+                    - emphasis [ref=f4e295]: k
+                    - text: −
+                    - emphasis [ref=f4e296]: m
+                    - text: is an integer and
+                    - table [ref=f4e301]:
+                      - rowgroup [ref=f4e302]:
+                        - row [ref=f4e303]:
+                          - cell "4" [ref=f4e304]
+                        - row [ref=f4e305]:
+                          - cell "7" [ref=f4e306]
+                    - text: is not an integer.
+                  - listitem [ref=f4e307]:
+                    - text: Dividing both sides of the equation by 4 results in
+                    - table [ref=f4e312]:
+                      - rowgroup [ref=f4e313]:
+                        - row [ref=f4e314]:
+                          - cell "7" [ref=f4e315]
+                        - row [ref=f4e316]:
+                          - cell "4" [ref=f4e317]
+                    - text: =
+                    - emphasis [ref=f4e318]: k
+                    - text: −
+                    - emphasis [ref=f4e319]: m
+                    - text: .
+                - strong [ref=f4e321]: "Proof by contradiction:"
+                - list [ref=f4e323]:
+                  - listitem [ref=f4e324]:
+                    - combobox [ref=f4e325]:
+                      - button [ref=f4e326]:
+                        - generic [ref=f4e327]:
+                          - text: Suppose that there is an integer
+                          - emphasis [ref=f4e328]: m
+                          - text: such that 7
+                          - emphasis [ref=f4e329]: m
+                          - text: + 4 is divisible by 7.
+                      - option "---Select---"
+                      - option "Subtracting 7 from both sides of the equation gives"
+                      - option "But is an integer and 7/4 is not an integer."
+                      - option "Dividing both sides of the equation by 7 results in"
+                      - option "Suppose that there is an integer such that 7 + 4 is not divisible by 7."
+                      - option "Subtracting 4 from both sides of the equation gives 7 = 4 4 = 4( )."
+                      - option "Suppose that there is an integer such that 7 + 4 is divisible by 7." [selected]
+                      - option "By definition of divisibility 7 + 4 = 7 for some integer ."
+                      - option "By definition of divisibility 4 + 7 = 4 , for some integer ."
+                      - option "But is an integer and 4/7 is not an integer."
+                      - option "Dividing both sides of the equation by 4 results in"
+                    - 'img "Correct: Your answer is correct." [ref=f4e333]'
+                  - listitem [ref=f4e334]:
+                    - combobox [ref=f4e335]:
+                      - button [ref=f4e336]:
+                        - generic [ref=f4e337]:
+                          - text: By definition of divisibility 7
+                          - emphasis [ref=f4e338]: m
+                          - text: + 4 = 7
+                          - emphasis [ref=f4e339]: k
+                          - text: for some integer
+                          - emphasis [ref=f4e340]: k
+                          - text: .
+                      - option "---Select---"
+                      - option "Subtracting 7 from both sides of the equation gives"
+                      - option "But is an integer and 7/4 is not an integer."
+                      - option "Dividing both sides of the equation by 7 results in"
+                      - option "Suppose that there is an integer such that 7 + 4 is not divisible by 7."
+                      - option "Subtracting 4 from both sides of the equation gives 7 = 4 4 = 4( )."
+                      - option "Suppose that there is an integer such that 7 + 4 is divisible by 7."
+                      - option "By definition of divisibility 7 + 4 = 7 for some integer ." [selected]
+                      - option "By definition of divisibility 4 + 7 = 4 , for some integer ."
+                      - option "But is an integer and 4/7 is not an integer."
+                      - option "Dividing both sides of the equation by 4 results in"
+                    - 'img "Correct: Your answer is correct." [ref=f4e344]'
+                  - listitem [ref=f4e345]:
+                    - combobox [ref=f4e346]:
+                      - button [ref=f4e347]:
+                        - generic [ref=f4e348]:
+                          - text: Subtracting 7
+                          - emphasis [ref=f4e349]: m
+                          - text: from both sides of the equation gives
+                          - generic [ref=f4e350]:
+                            - text: 4 = 7
+                            - emphasis [ref=f4e351]: k
+                            - text: − 7
+                            - emphasis [ref=f4e352]: m
+                            - text: = 7(
+                            - emphasis [ref=f4e353]: k
+                            - text: −
+                            - emphasis [ref=f4e354]: m
+                            - text: ).
+                      - option "---Select---"
+                      - option "Subtracting 7 from both sides of the equation gives" [selected]
+                      - option "But is an integer and 7/4 is not an integer."
+                      - option "Dividing both sides of the equation by 7 results in"
+                      - option "Suppose that there is an integer such that 7 + 4 is not divisible by 7."
+                      - option "Subtracting 4 from both sides of the equation gives 7 = 4 4 = 4( )."
+                      - option "Suppose that there is an integer such that 7 + 4 is divisible by 7."
+                      - option "By definition of divisibility 7 + 4 = 7 for some integer ."
+                      - option "By definition of divisibility 4 + 7 = 4 , for some integer ."
+                      - option "But is an integer and 4/7 is not an integer."
+                      - option "Dividing both sides of the equation by 4 results in"
+                    - 'img "Correct: Your answer is correct." [ref=f4e358]'
+                  - listitem [ref=f4e359]:
+                    - combobox [ref=f4e360]:
+                      - button [ref=f4e361]:
+                        - generic [ref=f4e362]:
+                          - text: Dividing both sides of the equation by 7 results in
+                          - generic [ref=f4e363]:
+                            - text: 4/7 =
+                            - emphasis [ref=f4e364]: k
+                            - text: −
+                            - emphasis [ref=f4e365]: m
+                            - text: .
+                      - option "---Select---"
+                      - option "Subtracting 7 from both sides of the equation gives"
+                      - option "But is an integer and 7/4 is not an integer."
+                      - option "Dividing both sides of the equation by 7 results in" [selected]
+                      - option "Suppose that there is an integer such that 7 + 4 is not divisible by 7."
+                      - option "Subtracting 4 from both sides of the equation gives 7 = 4 4 = 4( )."
+                      - option "Suppose that there is an integer such that 7 + 4 is divisible by 7."
+                      - option "By definition of divisibility 7 + 4 = 7 for some integer ."
+                      - option "By definition of divisibility 4 + 7 = 4 , for some integer ."
+                      - option "But is an integer and 4/7 is not an integer."
+                      - option "Dividing both sides of the equation by 4 results in"
+                    - 'img "Correct: Your answer is correct." [ref=f4e369]'
+                  - listitem [ref=f4e370]:
+                    - combobox [ref=f4e371]:
+                      - button "But k − m is an integer and 4/7 is not an integer." [ref=f4e372]:
+                        - generic [ref=f4e373]:
+                          - text: But
+                          - emphasis [ref=f4e374]: k
+                          - generic [ref=f4e375]: −
+                          - emphasis [ref=f4e376]: m
+                          - text: is an integer and 4/7 is not an integer.
+                      - option "---Select---"
+                      - option "Subtracting 7 from both sides of the equation gives"
+                      - option "But is an integer and 7/4 is not an integer."
+                      - option "Dividing both sides of the equation by 7 results in"
+                      - option "Suppose that there is an integer such that 7 + 4 is not divisible by 7."
+                      - option "Subtracting 4 from both sides of the equation gives 7 = 4 4 = 4( )."
+                      - option "Suppose that there is an integer such that 7 + 4 is divisible by 7."
+                      - option "By definition of divisibility 7 + 4 = 7 for some integer ."
+                      - option "By definition of divisibility 4 + 7 = 4 , for some integer ."
+                      - option "But is an integer and 4/7 is not an integer." [selected]
+                      - option "Dividing both sides of the equation by 4 results in"
+                    - 'img "Correct: Your answer is correct." [ref=f4e380]'
+                  - listitem [ref=f4e381]: This result is a contradiction. Hence we can conclude that the supposition is false and the given statement is true.
+              - button "Submit Answer" [ref=f4e386] [cursor=pointer]
+          - generic [ref=f4e387]:
+            - region "Banner for question 2" [ref=f4e390]:
+              - generic [ref=f4e391]:
+                - heading "Question 2" [level=2] [ref=f4e393]: "2."
+                - strong [ref=f4e394]: "[– / 11.11 Points]"
+              - generic [ref=f4e395]:
+                - button "Details for question 2." [ref=f4e396] [cursor=pointer]:
+                  - generic [ref=f4e397]: Details
+                - button "My Notes For question 2" [ref=f4e400] [cursor=pointer]:
+                  - generic [ref=f4e401]: My Notes
+                - button "Practice Another Version for question 2." [ref=f4e402] [cursor=pointer]:
+                  - generic [ref=f4e403]: Practice Another
+            - generic [ref=f4e404]:
+              - generic [ref=f4e406]:
+                - generic [ref=f4e407]: EppDiscMath5 4.7.006.
+                - region [ref=f4e408]:
+                  - strong [ref=f4e409]: Problem 2
+                  - generic [ref=f4e410]: Consider the following statement.
+                  - group [ref=f4e411]: There is no greatest negative real number.
+                  - group "Identify which of the following is a negation for the statement and then fill in the blanks to prove the statement by contradiction." [ref=f4e413]:
+                    - generic [ref=f4e415]:
+                      - radio "There is no greatest negative real number." [ref=f4e416]
+                      - generic [ref=f4e417]: There is no greatest negative real number.
+                    - generic [ref=f4e418]:
+                      - radio "There is a greatest negative real number." [checked] [ref=f4e419]
+                      - generic [ref=f4e420]: There is a greatest negative real number.
+                    - generic [ref=f4e421]:
+                      - radio "There is a least negative real number." [ref=f4e422]
+                      - generic [ref=f4e423]: There is a least negative real number.
+                    - generic [ref=f4e424]:
+                      - radio "There is no greatest positive real number." [ref=f4e425]
+                      - generic [ref=f4e426]: There is no greatest positive real number.
+                    - generic [ref=f4e427]:
+                      - radio "There is a greatest positive real number." [ref=f4e428]
+                      - generic [ref=f4e429]: There is a greatest positive real number.
+                  - generic [ref=f4e430]:
+                    - strong [ref=f4e431]: Proof by contradiction
+                    - text: ":"
+                  - generic [ref=f4e433]:
+                    - generic [ref=f4e434]: Read and complete the following.
+                    - generic [ref=f4e435]:
+                      - text: Suppose not. That is, suppose
+                      - generic: Select your second answer.
+                      - combobox "Select your second answer." [ref=f4e437] [cursor=pointer]:
+                        - option "Select"
+                        - option "there is no greatest negative real number"
+                        - option "there is a greatest negative real number" [selected]
+                        - option "there is a least negative real number"
+                        - option "there is no greatest positive real number"
+                        - option "there is a greatest positive real number"
+                      - text: .
+                    - generic [ref=f4e438]:
+                      - text: Then, by assumption,
+                      - generic [ref=f4e1443]:
+                        - generic [ref=f4e1447]:
+                          - generic [ref=f4e1448]: a
+                          - generic [ref=f4e1449]: <
+                        - math [ref=f4e1450]:
+                          - generic [ref=f4e1451]: a
+                          - generic [ref=f4e1452]: <
+                      - generic: Write your third answer.
+                      - generic [ref=f4e440]:
+                        - generic [ref=f4e441]:
+                          - button [ref=f4e2563]:
+                            - generic [ref=f4e2564]:
+                              - math [ref=f4e2565]:
+                                - generic [ref=f4e2566]: "0"
+                              - generic [aria-hidden] [ref=f4e2567]:
+                                - generic [ref=f4e2569]: "0"
+                                - math [ref=f4e2574]:
+                                  - generic [ref=f4e2575]: "0"
+                          - button "Open full math pad" [ref=f4e444] [cursor=pointer]
+                        - generic [ref=f4e446]: Press Space or Enter to edit this math answer.
+                      - text: and, for every negative real number
+                      - emphasis [ref=f4e447]: x
+                      - text: ","
+                      - generic [ref=f4e1455]:
+                        - generic [ref=f4e1459]:
+                          - generic [ref=f4e1460]: a
+                          - generic [ref=f4e1461]: ≥
+                        - math [ref=f4e1462]:
+                          - generic [ref=f4e1463]: a
+                          - generic [ref=f4e1464]: ≥
+                      - generic: Write your fourth answer.
+                      - generic [ref=f4e449]:
+                        - generic [ref=f4e450]:
+                          - button [ref=f4e2581]:
+                            - generic [ref=f4e2582]:
+                              - math [ref=f4e2583]:
+                                - generic [ref=f4e2584]: x
+                              - generic [aria-hidden] [ref=f4e2585]:
+                                - generic [ref=f4e2587]: x
+                                - math [ref=f4e2592]:
+                                  - generic [ref=f4e2593]: x
+                          - button "Open full math pad" [ref=f4e453] [cursor=pointer]
+                        - generic [ref=f4e455]: Press Space or Enter to edit this math answer.
+                      - text: .
+                  - generic [ref=f4e456]:
+                    - text: Find a new real number, expressed in terms of
+                    - emphasis [ref=f4e457]: a
+                    - text: ", that is both negative and greater than"
+                    - emphasis [ref=f4e458]: a
+                    - text: . Use this expression to fill in the blank in the following inequality.
+                  - group "Read and complete the following." [ref=f4e460]:
+                    - generic [ref=f4e462]:
+                      - generic [ref=f4e1467]:
+                        - generic [ref=f4e1471]:
+                          - generic [ref=f4e1472]: a
+                          - generic [ref=f4e1473]: <
+                        - math [ref=f4e1474]:
+                          - generic [ref=f4e1475]: a
+                          - generic [ref=f4e1476]: <
+                      - generic: Write your fifth answer.
+                      - generic [ref=f4e464]:
+                        - generic [ref=f4e465]:
+                          - application [ref=f4e1414]:
+                            - text: "link opens new window:"
+                            - generic [ref=f4e1416]:
+                              - generic [ref=f4e1418]:
+                                - generic [ref=f4e2543]: 
+                                - generic [ref=f4e2544]: 
+                                - generic [ref=f4e2545]: 
+                                - generic [ref=f4e2546]: 
+                                - generic [ref=f4e2547]: 
+                                - generic [ref=f4e2548]: 
+                                - generic [ref=f4e2549]: 
+                                - generic [ref=f4e2550]: 
+                                - generic [ref=f4e2551]: 
+                                - generic [ref=f4e2552]: 
+                                - generic [ref=f4e2553]: 
+                                - generic [ref=f4e2554]: 
+                                - generic [ref=f4e2555]: 
+                                - generic [ref=f4e2556]: 
+                              - generic: x
+                              - textbox "Math input" [active] [ref=f4e2559]
+                            - textbox [aria-hidden] [ref=f4e1427]
+                          - button "Open full math pad" [ref=f4e468] [cursor=pointer]
+                        - generic [ref=f4e470]: Press Space or Enter to edit this math answer.
+                      - generic [ref=f4e1479]:
+                        - generic [ref=f4e1483]:
+                          - generic [ref=f4e1484]: <
+                          - generic [ref=f4e1485]: "0"
+                        - math [ref=f4e1486]:
+                          - generic [ref=f4e1487]: <
+                          - generic [ref=f4e1488]: "0"
+                  - group "Read and complete the following." [ref=f4e472]:
+                    - generic [ref=f4e474]:
+                      - text: This result contradicts the assumption that
+                      - emphasis [ref=f4e475]: a
+                      - text: is
+                      - generic [ref=f4e476]:
+                        - generic: Select your sixth answer.
+                        - combobox "Select your sixth answer." [ref=f4e478] [cursor=pointer]:
+                          - option "Select"
+                          - option "not the greatest negative real number"
+                          - option "the greatest negative real number" [selected]
+                          - option "the least negative real number"
+                          - option "not the greatest positive real number"
+                          - option "the greatest positive real number"
+                        - text: .
+                      - text: Therefore the supposition is false and the given statement is true.
+                - generic "Resource box" [ref=f4e482]:
+                  - generic [ref=f4e483]:
+                    - generic [ref=f4e484]: Resources
+                    - generic [ref=f4e485]:
+                      - paragraph [ref=f4e486]:
+                        - link "Read It (opens in a new tab)" [ref=f4e487] [cursor=pointer]:
+                          - /url: "#"
+                          - text: Read It
+                      - button "Ask Student Assistant for question 2" [ref=f4e488] [cursor=pointer]: Student Assistant
+              - button "Submit Answer" [ref=f4e491] [cursor=pointer]
+          - generic [ref=f4e492]:
+            - region "Banner for question 3" [ref=f4e495]:
+              - generic [ref=f4e496]:
+                - heading "Question 3" [level=2] [ref=f4e498]: "3."
+                - strong [ref=f4e499]: "[– / 11.11 Points]"
+              - generic [ref=f4e500]:
+                - button "Details for question 3." [ref=f4e501] [cursor=pointer]:
+                  - generic [ref=f4e502]: Details
+                - button "My Notes For question 3" [ref=f4e505] [cursor=pointer]:
+                  - generic [ref=f4e506]: My Notes
+            - generic [ref=f4e507]:
+              - generic [ref=f4e509]:
+                - generic [ref=f4e510]: EppDiscMath5 4.7.011.
+                - region [ref=f4e511]:
+                  - strong [ref=f4e512]: Problem 3
+                  - generic [ref=f4e513]:
+                    - text: Let
+                    - emphasis [ref=f4e514]: T
+                    - text: "be the statement: The sum of any two rational numbers is rational."
+                    - emphasis [ref=f4e515]: T
+                    - text: is true, but the following proposed proof by contradiction is incorrect.
+                  - region "information box" [ref=f4e516]:
+                    - strong [ref=f4e518]: "Proposed proof:"
+                    - generic [ref=f4e519]: Suppose not. That is, suppose that the sum of any two rational numbers is not rational.
+                    - generic [ref=f4e520]:
+                      - text: This means that no matter what two rational numbers are chosen, their sum is not rational. Now, both 1 and 3 are rational because
+                      - generic [ref=f4e1491]:
+                        - generic [ref=f4e1495]:
+                          - generic [ref=f4e1496]: "1"
+                          - generic [ref=f4e1497]: =
+                          - generic [ref=f4e1500]:
+                            - generic [ref=f4e1501]: "1"
+                            - generic [ref=f4e1503]: "1"
+                        - math [ref=f4e1507]:
+                          - generic [ref=f4e1508]: "1"
+                          - generic [ref=f4e1509]: =
+                          - generic [ref=f4e1511]:
+                            - generic [ref=f4e1512]: "1"
+                            - generic [ref=f4e1513]: "1"
+                      - text: and
+                      - generic [ref=f4e521]:
+                        - generic [ref=f4e1516]:
+                          - generic [ref=f4e1520]:
+                            - generic [ref=f4e1521]: "3"
+                            - generic [ref=f4e1522]: =
+                            - generic [ref=f4e1525]:
+                              - generic [ref=f4e1526]: "3"
+                              - generic [ref=f4e1528]: "1"
+                          - math [ref=f4e1532]:
+                            - generic [ref=f4e1533]: "3"
+                            - generic [ref=f4e1534]: =
+                            - generic [ref=f4e1536]:
+                              - generic [ref=f4e1537]: "3"
+                              - generic [ref=f4e1538]: "1"
+                        - text: ","
+                      - text: and so both are ratios of integers with a nonzero denominator. Hence, by supposition, the sum of 1 and 3 is not rational. But
+                      - generic [ref=f4e522]:
+                        - generic [ref=f4e1541]:
+                          - generic [ref=f4e1545]:
+                            - generic [ref=f4e1546]: "1"
+                            - generic [ref=f4e1547]: +
+                            - generic [ref=f4e1548]: "3"
+                            - generic [ref=f4e1549]: =
+                            - generic [ref=f4e1550]: "4"
+                          - math [ref=f4e1551]:
+                            - generic [ref=f4e1552]: "1"
+                            - generic [ref=f4e1553]: +
+                            - generic [ref=f4e1554]: "3"
+                            - generic [ref=f4e1555]: =
+                            - generic [ref=f4e1556]: "4"
+                        - text: ","
+                      - text: and 4 is rational because
+                      - generic [ref=f4e523]:
+                        - generic [ref=f4e1559]:
+                          - generic [ref=f4e1563]:
+                            - generic [ref=f4e1564]: "4"
+                            - generic [ref=f4e1565]: =
+                            - generic [ref=f4e1568]:
+                              - generic [ref=f4e1569]: "4"
+                              - generic [ref=f4e1571]: "1"
+                          - math [ref=f4e1575]:
+                            - generic [ref=f4e1576]: "4"
+                            - generic [ref=f4e1577]: =
+                            - generic [ref=f4e1579]:
+                              - generic [ref=f4e1580]: "4"
+                              - generic [ref=f4e1581]: "1"
+                        - text: ","
+                      - text: which is a ratio of integers with a nonzero denominator. Hence, 4 is both rational and not rational, which is a contradiction.
+                    - generic [ref=f4e524]:
+                      - text: This contradiction shows that the supposition is false, and hence statement
+                      - emphasis [ref=f4e525]: T
+                      - text: is true.
+                  - group "Identify the error(s) in the proposed proof." [ref=f4e527]:
+                    - generic [ref=f4e529]:
+                      - radio "The error is that 1 1 + 3 1 = 4 3 , which does not have a terminating decimal representation and is therefore not rational." [ref=f4e1582]
+                      - generic [ref=f4e531]:
+                        - text: The error is that
+                        - generic [ref=f4e532]:
+                          - generic [ref=f4e1585]:
+                            - generic [ref=f4e1589]:
+                              - generic [ref=f4e1592]:
+                                - generic [ref=f4e1593]: "1"
+                                - generic [ref=f4e1595]: "1"
+                              - generic [ref=f4e1599]: +
+                              - generic [ref=f4e1602]:
+                                - generic [ref=f4e1603]: "3"
+                                - generic [ref=f4e1605]: "1"
+                              - generic [ref=f4e1609]: =
+                              - generic [ref=f4e1612]:
+                                - generic [ref=f4e1613]: "4"
+                                - generic [ref=f4e1615]: "3"
+                            - math [ref=f4e1619]:
+                              - generic [ref=f4e1621]:
+                                - generic [ref=f4e1622]: "1"
+                                - generic [ref=f4e1623]: "1"
+                              - generic [ref=f4e1624]: +
+                              - generic [ref=f4e1626]:
+                                - generic [ref=f4e1627]: "3"
+                                - generic [ref=f4e1628]: "1"
+                              - generic [ref=f4e1629]: =
+                              - generic [ref=f4e1631]:
+                                - generic [ref=f4e1632]: "4"
+                                - generic [ref=f4e1633]: "3"
+                          - text: ","
+                        - text: which does not have a terminating decimal representation and is therefore not rational.
+                    - generic [ref=f4e533]:
+                      - radio "The error is that 4 is both a rational number and an irrational number so there is no contradiction." [ref=f4e534]
+                      - generic [ref=f4e535]: The error is that 4 is both a rational number and an irrational number so there is no contradiction.
+                    - generic [ref=f4e536]:
+                      - radio "The error is that the negation for T that was used in the proposed proof is incorrect." [ref=f4e537]
+                      - generic [ref=f4e538]:
+                        - text: The error is that the negation for
+                        - emphasis [ref=f4e539]: T
+                        - text: that was used in the proposed proof is incorrect.
+                    - generic [ref=f4e540]:
+                      - radio "The error is that 1 1 + 3 1 = 4 2 not 4 1 ." [ref=f4e1634]
+                      - generic [ref=f4e542]:
+                        - text: The error is that
+                        - generic [ref=f4e1637]:
+                          - generic [ref=f4e1641]:
+                            - generic [ref=f4e1644]:
+                              - generic [ref=f4e1645]: "1"
+                              - generic [ref=f4e1647]: "1"
+                            - generic [ref=f4e1651]: +
+                            - generic [ref=f4e1654]:
+                              - generic [ref=f4e1655]: "3"
+                              - generic [ref=f4e1657]: "1"
+                            - generic [ref=f4e1661]: =
+                            - generic [ref=f4e1664]:
+                              - generic [ref=f4e1665]: "4"
+                              - generic [ref=f4e1667]: "2"
+                          - math [ref=f4e1671]:
+                            - generic [ref=f4e1673]:
+                              - generic [ref=f4e1674]: "1"
+                              - generic [ref=f4e1675]: "1"
+                            - generic [ref=f4e1676]: +
+                            - generic [ref=f4e1678]:
+                              - generic [ref=f4e1679]: "3"
+                              - generic [ref=f4e1680]: "1"
+                            - generic [ref=f4e1681]: =
+                            - generic [ref=f4e1683]:
+                              - generic [ref=f4e1684]: "4"
+                              - generic [ref=f4e1685]: "2"
+                        - text: not
+                        - generic [ref=f4e543]:
+                          - generic [ref=f4e1688]:
+                            - generic [ref=f4e1695]:
+                              - generic [ref=f4e1696]: "4"
+                              - generic [ref=f4e1698]: "1"
+                            - math [ref=f4e1702]:
+                              - generic [ref=f4e1704]:
+                                - generic [ref=f4e1705]: "4"
+                                - generic [ref=f4e1706]: "1"
+                          - text: .
+                    - generic [ref=f4e544]:
+                      - radio "The error is that 1, 3, and 4 are not rational numbers because they do not have a denominator." [ref=f4e545]
+                      - generic [ref=f4e546]: The error is that 1, 3, and 4 are not rational numbers because they do not have a denominator.
+                - generic "Resource box" [ref=f4e550]:
+                  - generic [ref=f4e551]:
+                    - generic [ref=f4e552]: Resources
+                    - generic [ref=f4e553]:
+                      - paragraph [ref=f4e554]:
+                        - link "Read It (opens in a new tab)" [ref=f4e555] [cursor=pointer]:
+                          - /url: "#"
+                          - text: Read It
+                      - button "Ask Student Assistant for question 3" [ref=f4e556] [cursor=pointer]: Student Assistant
+              - button "Submit Answer" [ref=f4e559] [cursor=pointer]
+          - generic [ref=f4e560]:
+            - region "Banner for question 4" [ref=f4e563]:
+              - generic [ref=f4e564]:
+                - heading "Question 4" [level=2] [ref=f4e566]: "4."
+                - strong [ref=f4e567]: "[– / 11.11 Points]"
+              - generic [ref=f4e568]:
+                - button "Details for question 4." [ref=f4e569] [cursor=pointer]:
+                  - generic [ref=f4e570]: Details
+                - button "My Notes For question 4" [ref=f4e573] [cursor=pointer]:
+                  - generic [ref=f4e574]: My Notes
+            - generic [ref=f4e575]:
+              - generic [ref=f4e577]:
+                - generic [ref=f4e578]: EppDiscMath5 4.7.018.
+                - region [ref=f4e579]:
+                  - strong [ref=f4e580]: Problem 4
+                  - generic [ref=f4e581]: Prove the following statement by contradiction.
+                  - group [ref=f4e582]:
+                    - text: If
+                    - emphasis [ref=f4e583]: a
+                    - text: and
+                    - emphasis [ref=f4e584]: b
+                    - text: are rational numbers,
+                    - generic [ref=f4e585]:
+                      - generic [ref=f4e1709]:
+                        - generic [ref=f4e1713]:
+                          - generic [ref=f4e1714]: b
+                          - generic [ref=f4e1715]: ≠
+                          - generic [ref=f4e1716]: "0"
+                        - math [ref=f4e1717]:
+                          - generic [ref=f4e1718]: b
+                          - generic [ref=f4e1719]: ≠
+                          - generic [ref=f4e1720]: "0"
+                      - text: ","
+                    - text: and
+                    - emphasis [ref=f4e586]: r
+                    - text: is an irrational number, then
+                    - generic [ref=f4e1723]:
+                      - generic [ref=f4e1727]:
+                        - generic [ref=f4e1728]: a
+                        - generic [ref=f4e1729]: +
+                        - generic [ref=f4e1730]: b
+                        - generic [ref=f4e1731]: r
+                      - math [ref=f4e1732]:
+                        - generic [ref=f4e1733]: a
+                        - generic [ref=f4e1734]: +
+                        - generic [ref=f4e1735]: b
+                        - generic [ref=f4e1736]: r
+                    - text: is irrational.
+                  - generic [ref=f4e587]:
+                    - strong [ref=f4e588]: Proof by contradiction
+                    - text: ":"
+                  - list [ref=f4e589]:
+                    - listitem [ref=f4e590]:
+                      - group "Select an appropriate statement to start the proof." [ref=f4e592]:
+                        - generic [ref=f4e594]:
+                          - radio "Suppose not. That is, suppose there exist rational numbers a and b such that b ≠ 0 , r is a rational number, and a + b r is irrational." [ref=f4e1737]
+                          - generic [ref=f4e596]:
+                            - text: Suppose not. That is, suppose there exist rational numbers
+                            - emphasis [ref=f4e597]: a
+                            - text: and
+                            - emphasis [ref=f4e598]: b
+                            - text: such that
+                            - generic [ref=f4e599]:
+                              - generic [ref=f4e1739]:
+                                - generic [ref=f4e1743]:
+                                  - generic [ref=f4e1744]: b
+                                  - generic [ref=f4e1745]: ≠
+                                  - generic [ref=f4e1746]: "0"
+                                - math [ref=f4e1747]:
+                                  - generic [ref=f4e1748]: b
+                                  - generic [ref=f4e1749]: ≠
+                                  - generic [ref=f4e1750]: "0"
+                              - text: ","
+                            - emphasis [ref=f4e600]: r
+                            - text: is a rational number, and
+                            - generic [ref=f4e1752]:
+                              - generic [ref=f4e1756]:
+                                - generic [ref=f4e1757]: a
+                                - generic [ref=f4e1758]: +
+                                - generic [ref=f4e1759]: b
+                                - generic [ref=f4e1760]: r
+                              - math [ref=f4e1761]:
+                                - generic [ref=f4e1762]: a
+                                - generic [ref=f4e1763]: +
+                                - generic [ref=f4e1764]: b
+                                - generic [ref=f4e1765]: r
+                            - text: is irrational.
+                        - generic [ref=f4e602]:
+                          - radio "Suppose not. That is, suppose there exist rational numbers a and b such that b ≠ 0 , r is an irrational number, and a + b r is irrational." [ref=f4e1766]
+                          - generic [ref=f4e604]:
+                            - text: Suppose not. That is, suppose there exist rational numbers
+                            - emphasis [ref=f4e605]: a
+                            - text: and
+                            - emphasis [ref=f4e606]: b
+                            - text: such that
+                            - generic [ref=f4e607]:
+                              - generic [ref=f4e1768]:
+                                - generic [ref=f4e1772]:
+                                  - generic [ref=f4e1773]: b
+                                  - generic [ref=f4e1774]: ≠
+                                  - generic [ref=f4e1775]: "0"
+                                - math [ref=f4e1776]:
+                                  - generic [ref=f4e1777]: b
+                                  - generic [ref=f4e1778]: ≠
+                                  - generic [ref=f4e1779]: "0"
+                              - text: ","
+                            - emphasis [ref=f4e608]: r
+                            - text: is an irrational number, and
+                            - generic [ref=f4e1781]:
+                              - generic [ref=f4e1785]:
+                                - generic [ref=f4e1786]: a
+                                - generic [ref=f4e1787]: +
+                                - generic [ref=f4e1788]: b
+                                - generic [ref=f4e1789]: r
+                              - math [ref=f4e1790]:
+                                - generic [ref=f4e1791]: a
+                                - generic [ref=f4e1792]: +
+                                - generic [ref=f4e1793]: b
+                                - generic [ref=f4e1794]: r
+                            - text: is irrational.
+                        - generic [ref=f4e610]:
+                          - radio "Suppose not. That is, suppose there exist irrational numbers a and b such that b ≠ 0 , r is a rational number, and a + b r is rational." [ref=f4e1795]
+                          - generic [ref=f4e612]:
+                            - text: Suppose not. That is, suppose there exist irrational numbers
+                            - emphasis [ref=f4e613]: a
+                            - text: and
+                            - emphasis [ref=f4e614]: b
+                            - text: such that
+                            - generic [ref=f4e615]:
+                              - generic [ref=f4e1797]:
+                                - generic [ref=f4e1801]:
+                                  - generic [ref=f4e1802]: b
+                                  - generic [ref=f4e1803]: ≠
+                                  - generic [ref=f4e1804]: "0"
+                                - math [ref=f4e1805]:
+                                  - generic [ref=f4e1806]: b
+                                  - generic [ref=f4e1807]: ≠
+                                  - generic [ref=f4e1808]: "0"
+                              - text: ","
+                            - emphasis [ref=f4e616]: r
+                            - text: is a rational number, and
+                            - generic [ref=f4e1810]:
+                              - generic [ref=f4e1814]:
+                                - generic [ref=f4e1815]: a
+                                - generic [ref=f4e1816]: +
+                                - generic [ref=f4e1817]: b
+                                - generic [ref=f4e1818]: r
+                              - math [ref=f4e1819]:
+                                - generic [ref=f4e1820]: a
+                                - generic [ref=f4e1821]: +
+                                - generic [ref=f4e1822]: b
+                                - generic [ref=f4e1823]: r
+                            - text: is rational.
+                        - generic [ref=f4e618]:
+                          - radio "Suppose not. That is, suppose there exist rational numbers a and b such that b ≠ 0 , r is an irrational number, and a + b r is rational." [ref=f4e1824]
+                          - generic [ref=f4e620]:
+                            - text: Suppose not. That is, suppose there exist rational numbers
+                            - emphasis [ref=f4e621]: a
+                            - text: and
+                            - emphasis [ref=f4e622]: b
+                            - text: such that
+                            - generic [ref=f4e623]:
+                              - generic [ref=f4e1826]:
+                                - generic [ref=f4e1830]:
+                                  - generic [ref=f4e1831]: b
+                                  - generic [ref=f4e1832]: ≠
+                                  - generic [ref=f4e1833]: "0"
+                                - math [ref=f4e1834]:
+                                  - generic [ref=f4e1835]: b
+                                  - generic [ref=f4e1836]: ≠
+                                  - generic [ref=f4e1837]: "0"
+                              - text: ","
+                            - emphasis [ref=f4e624]: r
+                            - text: is an irrational number, and
+                            - generic [ref=f4e1839]:
+                              - generic [ref=f4e1843]:
+                                - generic [ref=f4e1844]: a
+                                - generic [ref=f4e1845]: +
+                                - generic [ref=f4e1846]: b
+                                - generic [ref=f4e1847]: r
+                              - math [ref=f4e1848]:
+                                - generic [ref=f4e1849]: a
+                                - generic [ref=f4e1850]: +
+                                - generic [ref=f4e1851]: b
+                                - generic [ref=f4e1852]: r
+                            - text: is rational.
+                        - generic [ref=f4e626]:
+                          - radio "Suppose not. That is, suppose there exist irrational numbers a and b such that b ≠ 0 , r is an irrational number, and a + b r is rational." [ref=f4e1853]
+                          - generic [ref=f4e628]:
+                            - text: Suppose not. That is, suppose there exist irrational numbers
+                            - emphasis [ref=f4e629]: a
+                            - text: and
+                            - emphasis [ref=f4e630]: b
+                            - text: such that
+                            - generic [ref=f4e631]:
+                              - generic [ref=f4e1855]:
+                                - generic [ref=f4e1859]:
+                                  - generic [ref=f4e1860]: b
+                                  - generic [ref=f4e1861]: ≠
+                                  - generic [ref=f4e1862]: "0"
+                                - math [ref=f4e1863]:
+                                  - generic [ref=f4e1864]: b
+                                  - generic [ref=f4e1865]: ≠
+                                  - generic [ref=f4e1866]: "0"
+                              - text: ","
+                            - emphasis [ref=f4e632]: r
+                            - text: is an irrational number, and
+                            - generic [ref=f4e1868]:
+                              - generic [ref=f4e1872]:
+                                - generic [ref=f4e1873]: a
+                                - generic [ref=f4e1874]: +
+                                - generic [ref=f4e1875]: b
+                                - generic [ref=f4e1876]: r
+                              - math [ref=f4e1877]:
+                                - generic [ref=f4e1878]: a
+                                - generic [ref=f4e1879]: +
+                                - generic [ref=f4e1880]: b
+                                - generic [ref=f4e1881]: r
+                            - text: is rational.
+                    - listitem [ref=f4e634]:
+                      - group "Read and complete the following." [ref=f4e636]:
+                        - generic [ref=f4e638]: Then by definition of rational,
+                        - group [ref=f4e639]:
+                          - generic [ref=f4e640]:
+                            - generic [ref=f4e1884]:
+                              - generic [ref=f4e1888]:
+                                - generic [ref=f4e1889]: a
+                                - generic [ref=f4e1890]: =
+                                - generic [ref=f4e1893]:
+                                  - generic [ref=f4e1894]: c
+                                  - generic [ref=f4e1896]: d
+                                - generic [ref=f4e1901]: ","
+                                - generic [ref=f4e1902]: b
+                                - generic [ref=f4e1903]: =
+                                - generic [ref=f4e1906]:
+                                  - generic [ref=f4e1907]: i
+                                  - generic [ref=f4e1909]: j
+                              - math [ref=f4e1913]:
+                                - generic [ref=f4e1914]: a
+                                - generic [ref=f4e1915]: =
+                                - generic [ref=f4e1917]:
+                                  - generic [ref=f4e1918]: c
+                                  - generic [ref=f4e1919]: d
+                                - generic [ref=f4e1920]: ","
+                                - generic [ref=f4e1921]: b
+                                - generic [ref=f4e1922]: =
+                                - generic [ref=f4e1924]:
+                                  - generic [ref=f4e1925]: i
+                                  - generic [ref=f4e1926]: j
+                            - text: ","
+                          - text: and
+                          - generic [ref=f4e1929]:
+                            - generic [ref=f4e1933]:
+                              - generic [ref=f4e1934]: a
+                              - generic [ref=f4e1935]: +
+                              - generic [ref=f4e1936]: b
+                              - generic [ref=f4e1937]: r
+                              - generic [ref=f4e1938]: =
+                              - generic [ref=f4e1941]:
+                                - generic [ref=f4e1942]: m
+                                - generic [ref=f4e1944]: "n"
+                            - math [ref=f4e1948]:
+                              - generic [ref=f4e1949]: a
+                              - generic [ref=f4e1950]: +
+                              - generic [ref=f4e1951]: b
+                              - generic [ref=f4e1952]: r
+                              - generic [ref=f4e1953]: =
+                              - generic [ref=f4e1955]:
+                                - generic [ref=f4e1956]: m
+                                - generic [ref=f4e1957]: "n"
+                        - generic [ref=f4e641]:
+                          - text: where
+                          - emphasis [ref=f4e642]: c
+                          - text: ","
+                          - emphasis [ref=f4e643]: d
+                          - text: ","
+                          - emphasis [ref=f4e644]: i
+                          - text: ","
+                          - emphasis [ref=f4e645]: j
+                          - text: ","
+                          - emphasis [ref=f4e646]: m
+                          - text: ", and"
+                          - emphasis [ref=f4e647]: "n"
+                          - text: are
+                          - generic: Select your first answer in step 2.
+                          - combobox "Select your first answer in step 2." [ref=f4e649] [cursor=pointer]:
+                            - option "Select" [selected]
+                            - option "integers"
+                            - option "irrational numbers"
+                            - option "real numbers"
+                          - text: and
+                          - generic: Select your second answer in step 2.
+                          - combobox "Select your second answer in step 2." [ref=f4e651] [cursor=pointer]:
+                            - option "Select" [selected]
+                            - option "0, 0, and 0"
+                            - option "= 0, = 0, and = 0"
+                            - option "= 0, = 0, and = 0"
+                            - option "0, 0, and 0"
+                          - text: . Since
+                          - generic [ref=f4e652]:
+                            - generic [ref=f4e1960]:
+                              - generic [ref=f4e1964]:
+                                - generic [ref=f4e1965]: b
+                                - generic [ref=f4e1966]: ≠
+                                - generic [ref=f4e1967]: "0"
+                              - math [ref=f4e1968]:
+                                - generic [ref=f4e1969]: b
+                                - generic [ref=f4e1970]: ≠
+                                - generic [ref=f4e1971]: "0"
+                            - text: ","
+                          - text: we also have that
+                          - generic [ref=f4e1974]:
+                            - generic [ref=f4e1978]:
+                              - generic [ref=f4e1979]: i
+                              - generic [ref=f4e1980]: ≠
+                              - generic [ref=f4e1981]: "0"
+                            - math [ref=f4e1982]:
+                              - generic [ref=f4e1983]: i
+                              - generic [ref=f4e1984]: ≠
+                              - generic [ref=f4e1985]: "0"
+                          - text: .By substitution,
+                        - group [ref=f4e653]:
+                          - generic [ref=f4e654]:
+                            - generic [ref=f4e1988]:
+                              - generic [ref=f4e1992]:
+                                - generic [ref=f4e1995]:
+                                  - generic [ref=f4e1996]: c
+                                  - generic [ref=f4e1998]: d
+                                - generic [ref=f4e2003]: +
+                                - generic [ref=f4e2006]:
+                                  - generic [ref=f4e2007]: i
+                                  - generic [ref=f4e2009]: j
+                                - generic [ref=f4e2013]: r
+                                - generic [ref=f4e2014]: =
+                                - generic [ref=f4e2017]:
+                                  - generic [ref=f4e2018]: m
+                                  - generic [ref=f4e2020]: "n"
+                              - math [ref=f4e2024]:
+                                - generic [ref=f4e2026]:
+                                  - generic [ref=f4e2027]: c
+                                  - generic [ref=f4e2028]: d
+                                - generic [ref=f4e2029]: +
+                                - generic [ref=f4e2031]:
+                                  - generic [ref=f4e2032]: i
+                                  - generic [ref=f4e2033]: j
+                                - generic [ref=f4e2034]: r
+                                - generic [ref=f4e2035]: =
+                                - generic [ref=f4e2037]:
+                                  - generic [ref=f4e2038]: m
+                                  - generic [ref=f4e2039]: "n"
+                            - text: .
+                    - listitem [ref=f4e655]:
+                      - generic [ref=f4e656]:
+                        - text: Solving this equation for
+                        - emphasis [ref=f4e657]: r
+                        - text: and representing the result as a single quotient in terms of
+                        - emphasis [ref=f4e658]: c
+                        - text: ","
+                        - emphasis [ref=f4e659]: d
+                        - text: ","
+                        - emphasis [ref=f4e660]: i
+                        - text: ","
+                        - emphasis [ref=f4e661]: j
+                        - text: ","
+                        - emphasis [ref=f4e662]: m
+                        - text: ", and"
+                        - emphasis [ref=f4e663]: "n"
+                        - text: gives the following.
+                      - generic [ref=f4e664]:
+                        - generic [ref=f4e2041]:
+                          - generic [ref=f4e2045]:
+                            - generic [ref=f4e2046]: r
+                            - generic [ref=f4e2047]: =
+                          - math [ref=f4e2048]:
+                            - generic [ref=f4e2049]: r
+                            - generic [ref=f4e2050]: =
+                        - generic [ref=f4e666]:
+                          - generic [ref=f4e667]:
+                            - button [ref=f4e668]
+                            - button "Open full math pad" [ref=f4e670] [cursor=pointer]
+                          - generic [ref=f4e672]: Press Space or Enter to edit this math answer.
+                        - text: .
+                    - listitem [ref=f4e673]:
+                      - group "Read and complete the following." [ref=f4e675]:
+                        - generic [ref=f4e677]:
+                          - text: Note that
+                          - emphasis [ref=f4e678]: r
+                          - generic: Select your first answer in step 3.
+                          - combobox "Select your first answer in step 3." [ref=f4e680] [cursor=pointer]:
+                            - option "Select" [selected]
+                            - option "is"
+                            - option "is not"
+                          - text: a ratio of two integers because products and differences of integers
+                          - generic: Select your second answer in step 3.
+                          - combobox "Select your second answer in step 3." [ref=f4e682] [cursor=pointer]:
+                            - option "Select" [selected]
+                            - option "are"
+                            - option "are not"
+                          - text: integers. Also the denominator of
+                          - emphasis [ref=f4e683]: r
+                          - generic: Select your third answer in step 3.
+                          - combobox "Select your third answer in step 3." [ref=f4e685] [cursor=pointer]:
+                            - option "Select" [selected]
+                            - option "="
+                            - option
+                          - text: 0. Therefore, by definition of rational, it follows that
+                          - emphasis [ref=f4e686]: r
+                          - text: is
+                          - generic: Select your fourth answer in step 3.
+                          - combobox "Select your fourth answer in step 3." [ref=f4e688] [cursor=pointer]:
+                            - option "Select" [selected]
+                            - option "rational"
+                            - option "irrational"
+                          - text: ", which contradicts the supposition. Hence the supposition is false and the given statement is true."
+                - generic "Resource box" [ref=f4e692]:
+                  - generic [ref=f4e693]:
+                    - generic [ref=f4e694]: Resources
+                    - generic [ref=f4e695]:
+                      - paragraph [ref=f4e696]:
+                        - link "Read It (opens in a new tab)" [ref=f4e697] [cursor=pointer]:
+                          - /url: "#"
+                          - text: Read It
+                      - button "Ask Student Assistant for question 4" [ref=f4e698] [cursor=pointer]: Student Assistant
+              - button "Submit Answer" [ref=f4e701] [cursor=pointer]
+          - generic [ref=f4e702]:
+            - region "Banner for question 5" [ref=f4e705]:
+              - generic [ref=f4e706]:
+                - heading "Question 5" [level=2] [ref=f4e708]: "5."
+                - strong [ref=f4e709]: "[– / 11.11 Points]"
+              - generic [ref=f4e710]:
+                - button "Details for question 5." [ref=f4e711] [cursor=pointer]:
+                  - generic [ref=f4e712]: Details
+                - button "My Notes For question 5" [ref=f4e715] [cursor=pointer]:
+                  - generic [ref=f4e716]: My Notes
+            - generic [ref=f4e717]:
+              - generic [ref=f4e719]:
+                - generic [ref=f4e720]: eppdiscmath5 4.7.024.nva
+                - generic [ref=f4e721]:
+                  - text: Let
+                  - emphasis [ref=f4e722]: S
+                  - text: "be the statement: The reciprocal of any irrational number is irrational."
+                  - generic [ref=f4e725]:
+                    - table [ref=f4e727]:
+                      - rowgroup [ref=f4e728]:
+                        - row [ref=f4e729]:
+                          - cell [ref=f4e730]
+                    - text: The reciprocal of a nonzero real number
+                    - generic [ref=f4e732]: x
+                    - text: is
+                    - table [ref=f4e734]:
+                      - rowgroup [ref=f4e735]:
+                        - row [ref=f4e736]:
+                          - cell "1" [ref=f4e737]
+                        - row [ref=f4e738]:
+                          - cell "x" [ref=f4e739]
+                    - text: .
+                    - table [ref=f4e741]:
+                      - rowgroup [ref=f4e742]:
+                        - row [ref=f4e743]:
+                          - cell [ref=f4e744]
+                - generic [ref=f4e746]:
+                  - generic [ref=f4e747]: (a)
+                  - generic [ref=f4e748]:
+                    - generic [ref=f4e749]:
+                      - text: Which of the following is the
+                      - strong [ref=f4e750]: contrapositive
+                      - text: of
+                      - emphasis [ref=f4e751]: S
+                      - text: "?"
+                    - generic [ref=f4e753]:
+                      - generic [ref=f4e754]:
+                        - radio "If a real number is not irrational, then its reciprocal is not irrational." [ref=f4e755]
+                        - text: If a real number is not irrational, then its reciprocal is not irrational.
+                      - generic [ref=f4e756]:
+                        - radio "If a real number is irrational, then its reciprocal is irrational." [ref=f4e757]
+                        - text: If a real number is irrational, then its reciprocal is irrational.
+                      - generic [ref=f4e758]:
+                        - radio "If the reciprocal of a real number is not irrational, then the number is not irrational." [ref=f4e759]
+                        - text: If the reciprocal of a real number is not irrational, then the number is not irrational.
+                      - generic [ref=f4e760]:
+                        - radio "If the reciprocal of a real number is irrational, then the number is irrational." [ref=f4e761]
+                        - text: If the reciprocal of a real number is irrational, then the number is irrational.
+                      - generic [ref=f4e762]:
+                        - radio "If the reciprocal of a real number is not irrational, then the number is irrational." [ref=f4e763]
+                        - text: If the reciprocal of a real number is not irrational, then the number is irrational.
+                      - generic [ref=f4e764]:
+                        - radio "If the reciprocal of a real number is irrational, then the number is not irrational." [ref=f4e765]
+                        - text: If the reciprocal of a real number is irrational, then the number is not irrational.
+                    - generic [ref=f4e766]:
+                      - text: Write a proof by contraposition for
+                      - emphasis [ref=f4e767]: S
+                      - text: as a free response. (Submit a file with a maximum size of 1 MB.)
+                    - generic [ref=f4e768]:
+                      - button "Choose File" [ref=f4e769]
+                      - paragraph [ref=f4e772]: This answer has not been graded yet.
+                - generic [ref=f4e773]:
+                  - generic [ref=f4e774]: (b)
+                  - generic [ref=f4e775]:
+                    - generic [ref=f4e776]:
+                      - text: Which of the following is a negation for
+                      - emphasis [ref=f4e777]: S
+                      - text: "?"
+                    - generic [ref=f4e779]:
+                      - generic [ref=f4e780]:
+                        - radio "If a real number is not irrational, then its reciprocal is irrational." [ref=f4e781]
+                        - text: If a real number is not irrational, then its reciprocal is irrational.
+                      - generic [ref=f4e782]:
+                        - radio "If a real number is irrational, then the number is not irrational." [ref=f4e783]
+                        - text: If a real number is irrational, then the number is not irrational.
+                      - generic [ref=f4e784]:
+                        - radio "There is an irrational number whose reciprocal is not irrational." [ref=f4e785]
+                        - text: There is an irrational number whose reciprocal is not irrational.
+                      - generic [ref=f4e786]:
+                        - radio "There is a number that is not irrational whose reciprocal is irrational." [ref=f4e787]
+                        - text: There is a number that is not irrational whose reciprocal is irrational.
+                    - generic [ref=f4e788]:
+                      - text: Write a proof by contradiction for
+                      - emphasis [ref=f4e789]: S
+                      - text: as a free response. (Submit a file with a maximum size of 1 MB.)
+                    - generic [ref=f4e790]:
+                      - button "Choose File" [ref=f4e791]
+                      - paragraph [ref=f4e794]: This answer has not been graded yet.
+              - button "Submit Answer" [ref=f4e799] [cursor=pointer]
+          - generic [ref=f4e800]:
+            - region "Banner for question 6" [ref=f4e803]:
+              - generic [ref=f4e804]:
+                - heading "Question 6" [level=2] [ref=f4e806]: "6."
+                - strong [ref=f4e807]: "[– / 11.11 Points]"
+              - generic [ref=f4e808]:
+                - button "Details for question 6." [ref=f4e809] [cursor=pointer]:
+                  - generic [ref=f4e810]: Details
+                - button "My Notes For question 6" [ref=f4e813] [cursor=pointer]:
+                  - generic [ref=f4e814]: My Notes
+                - button "Practice Another Version for question 6." [ref=f4e815] [cursor=pointer]:
+                  - generic [ref=f4e816]: Practice Another
+            - generic [ref=f4e817]:
+              - generic [ref=f4e819]:
+                - generic [ref=f4e820]: eppdiscmath5 4.7.027.nva
+                - generic [ref=f4e821]: Consider the following statement.
+                - generic [ref=f4e822]:
+                  - text: For all positive real numbers
+                  - emphasis [ref=f4e823]: r
+                  - text: and
+                  - emphasis [ref=f4e824]: s
+                  - text: ","
+                  - generic [ref=f4e827]:
+                    - table [ref=f4e829]:
+                      - rowgroup [ref=f4e830]:
+                        - row [ref=f4e831]:
+                          - cell [ref=f4e832]
+                          - cell "r + s" [ref=f4e835]
+                    - text: ≠
+                    - table [ref=f4e838]:
+                      - rowgroup [ref=f4e839]:
+                        - row [ref=f4e840]:
+                          - cell [ref=f4e841]
+                          - cell "r" [ref=f4e844]
+                    - text: +
+                    - table [ref=f4e847]:
+                      - rowgroup [ref=f4e848]:
+                        - row [ref=f4e849]:
+                          - cell [ref=f4e850]
+                          - cell "s" [ref=f4e853]
+                    - text: .
+                - generic [ref=f4e855]: Construct a proof by contradiction for the statement by selecting sentences from the following scrambled list and putting them in the correct order.
+                - list [ref=f4e856]:
+                  - listitem [ref=f4e857]:
+                    - text: But this is a contradiction because
+                    - emphasis [ref=f4e858]: r
+                    - text: and
+                    - emphasis [ref=f4e859]: s
+                    - text: are positive.
+                  - listitem [ref=f4e860]:
+                    - text: Squaring both sides of the equation gives that
+                    - generic [ref=f4e863]:
+                      - generic [ref=f4e864]: r
+                      - text: +
+                      - generic [ref=f4e865]: s
+                      - text: =
+                      - generic [ref=f4e866]: r
+                      - text: + 2
+                      - table [ref=f4e868]:
+                        - rowgroup [ref=f4e869]:
+                          - row [ref=f4e870]:
+                            - cell [ref=f4e871]
+                            - cell "r" [ref=f4e874]
+                      - table [ref=f4e877]:
+                        - rowgroup [ref=f4e878]:
+                          - row [ref=f4e879]:
+                            - cell [ref=f4e880]
+                            - cell "s" [ref=f4e883]
+                      - text: +
+                      - generic [ref=f4e885]: s
+                      - text: .
+                  - listitem [ref=f4e886]:
+                    - text: Simplifying the equation gives that 0 = 2
+                    - emphasis [ref=f4e887]: r
+                    - emphasis [ref=f4e888]: s
+                    - text: .
+                  - listitem [ref=f4e889]:
+                    - text: Simplifying the equation gives that
+                    - generic [ref=f4e892]:
+                      - text: 0 = 2
+                      - table [ref=f4e894]:
+                        - rowgroup [ref=f4e895]:
+                          - row [ref=f4e896]:
+                            - cell [ref=f4e897]
+                            - cell "r" [ref=f4e900]
+                      - table [ref=f4e903]:
+                        - rowgroup [ref=f4e904]:
+                          - row [ref=f4e905]:
+                            - cell [ref=f4e906]
+                            - cell "s" [ref=f4e909]
+                      - text: .
+                  - listitem [ref=f4e911]:
+                    - text: By the zero product property, at least one of
+                    - emphasis [ref=f4e912]: r
+                    - text: or
+                    - emphasis [ref=f4e913]: s
+                    - text: equals 0.
+                  - listitem [ref=f4e914]:
+                    - text: Squaring both sides of the equation gives that
+                    - generic [ref=f4e917]:
+                      - generic [ref=f4e918]: r
+                      - text: +
+                      - generic [ref=f4e919]: s
+                      - text: =
+                      - generic [ref=f4e920]: r
+                      - text: + 2
+                      - generic [ref=f4e921]: rs
+                      - text: +
+                      - generic [ref=f4e922]: s
+                      - text: .
+                  - listitem [ref=f4e923]:
+                    - text: By the zero product property, at least one of
+                    - table [ref=f4e928]:
+                      - rowgroup [ref=f4e929]:
+                        - row [ref=f4e930]:
+                          - cell [ref=f4e931]
+                          - cell "r" [ref=f4e934]
+                    - text: or
+                    - table [ref=f4e940]:
+                      - rowgroup [ref=f4e941]:
+                        - row [ref=f4e942]:
+                          - cell [ref=f4e943]
+                          - cell "s" [ref=f4e946]
+                    - text: equals 0, which implies that
+                    - emphasis [ref=f4e948]: r
+                    - text: or
+                    - emphasis [ref=f4e949]: s
+                    - text: equals 0.
+                - generic [ref=f4e950]:
+                  - strong [ref=f4e951]: Proof by contradiction
+                  - text: ":"
+                - list [ref=f4e953]:
+                  - listitem [ref=f4e954]:
+                    - text: Suppose not. That is, suppose there exists positive real numbers
+                    - emphasis [ref=f4e955]: r
+                    - text: and
+                    - emphasis [ref=f4e956]: s
+                    - text: such that
+                    - generic [ref=f4e959]:
+                      - table [ref=f4e961]:
+                        - rowgroup [ref=f4e962]:
+                          - row [ref=f4e963]:
+                            - cell [ref=f4e964]
+                            - cell "r + s" [ref=f4e967]
+                      - text: =
+                      - table [ref=f4e970]:
+                        - rowgroup [ref=f4e971]:
+                          - row [ref=f4e972]:
+                            - cell [ref=f4e973]
+                            - cell "r" [ref=f4e976]
+                      - text: +
+                      - table [ref=f4e979]:
+                        - rowgroup [ref=f4e980]:
+                          - row [ref=f4e981]:
+                            - cell [ref=f4e982]
+                            - cell "s" [ref=f4e985]
+                      - text: .
+                  - listitem [ref=f4e987]:
+                    - combobox [ref=f4e988]:
+                      - button "---Select---" [ref=f4e989]
+                      - option "---Select---" [selected]
+                      - option "But this is a contradiction because and are positive."
+                      - option "Squaring both sides of the equation gives that + = + 2 ( ) ( ) + ."
+                      - option "Simplifying the equation gives that 0 = 2 ."
+                      - option "Simplifying the equation gives that 0 = 2 ( ) ( )."
+                      - option "By the zero product property, at least one of or equals 0."
+                      - option "Squaring both sides of the equation gives that + = + 2 + ."
+                      - option "By the zero product property, at least one of ( ) or ( ) equals 0, which implies that or equals 0."
+                  - listitem [ref=f4e991]:
+                    - combobox [ref=f4e992]:
+                      - button "---Select---" [ref=f4e993]
+                      - option "---Select---" [selected]
+                      - option "But this is a contradiction because and are positive."
+                      - option "Squaring both sides of the equation gives that + = + 2 ( ) ( ) + ."
+                      - option "Simplifying the equation gives that 0 = 2 ."
+                      - option "Simplifying the equation gives that 0 = 2 ( ) ( )."
+                      - option "By the zero product property, at least one of or equals 0."
+                      - option "Squaring both sides of the equation gives that + = + 2 + ."
+                      - option "By the zero product property, at least one of ( ) or ( ) equals 0, which implies that or equals 0."
+                  - listitem [ref=f4e995]:
+                    - combobox [ref=f4e996]:
+                      - button "---Select---" [ref=f4e997]
+                      - option "---Select---" [selected]
+                      - option "But this is a contradiction because and are positive."
+                      - option "Squaring both sides of the equation gives that + = + 2 ( ) ( ) + ."
+                      - option "Simplifying the equation gives that 0 = 2 ."
+                      - option "Simplifying the equation gives that 0 = 2 ( ) ( )."
+                      - option "By the zero product property, at least one of or equals 0."
+                      - option "Squaring both sides of the equation gives that + = + 2 + ."
+                      - option "By the zero product property, at least one of ( ) or ( ) equals 0, which implies that or equals 0."
+                  - listitem [ref=f4e999]:
+                    - combobox [ref=f4e1000]:
+                      - button "---Select---" [ref=f4e1001]
+                      - option "---Select---" [selected]
+                      - option "But this is a contradiction because and are positive."
+                      - option "Squaring both sides of the equation gives that + = + 2 ( ) ( ) + ."
+                      - option "Simplifying the equation gives that 0 = 2 ."
+                      - option "Simplifying the equation gives that 0 = 2 ( ) ( )."
+                      - option "By the zero product property, at least one of or equals 0."
+                      - option "Squaring both sides of the equation gives that + = + 2 + ."
+                      - option "By the zero product property, at least one of ( ) or ( ) equals 0, which implies that or equals 0."
+                  - listitem [ref=f4e1003]: Thus, we have reached a contradiction and have proved the statement.
+              - button "Submit Answer" [ref=f4e1008] [cursor=pointer]
+          - generic [ref=f4e1009]:
+            - region "Banner for question 7" [ref=f4e1012]:
+              - generic [ref=f4e1013]:
+                - heading "Question 7" [level=2] [ref=f4e1015]: "7."
+                - strong [ref=f4e1016]: "[– / 11.11 Points]"
+              - generic [ref=f4e1017]:
+                - button "Details for question 7." [ref=f4e1018] [cursor=pointer]:
+                  - generic [ref=f4e1019]: Details
+                - button "My Notes For question 7" [ref=f4e1022] [cursor=pointer]:
+                  - generic [ref=f4e1023]: My Notes
+                - button "Practice Another Version for question 7." [ref=f4e1024] [cursor=pointer]:
+                  - generic [ref=f4e1025]: Practice Another
+            - generic [ref=f4e1026]:
+              - generic [ref=f4e1028]:
+                - generic [ref=f4e1029]: EppDiscMath5 4.7.030.
+                - region [ref=f4e1030]:
+                  - strong [ref=f4e1031]: Problem 7
+                  - region "(a)" [ref=f4e1032]:
+                    - generic [ref=f4e1033]:
+                      - generic [ref=f4e1034]: (a)
+                      - generic [ref=f4e1035]:
+                        - generic [ref=f4e1036]:
+                          - text: Let
+                          - generic [ref=f4e1037]:
+                            - generic [ref=f4e2053]:
+                              - generic [ref=f4e2057]:
+                                - generic [ref=f4e2058]: "n"
+                                - generic [ref=f4e2059]: =
+                                - generic [ref=f4e2060]: "61"
+                              - math [ref=f4e2061]:
+                                - generic [ref=f4e2062]: "n"
+                                - generic [ref=f4e2063]: =
+                                - generic [ref=f4e2064]: "61"
+                            - text: .
+                        - generic [ref=f4e1038]:
+                          - text: Find the approximate value for
+                          - generic [ref=f4e1039]:
+                            - generic [ref=f4e2067]:
+                              - generic [ref=f4e2072]:
+                                - generic [ref=f4e2073]: "n"
+                                - generic [ref=f4e2076]:
+                                  - generic [ref=f4e2077]: −
+                                  - generic [ref=f4e2078]: −
+                                - generic [ref=f4e2079]: √
+                              - math [ref=f4e2081]:
+                                - generic [ref=f4e2082]: "n"
+                            - text: .
+                          - text: (Round your answer to two decimal places.)
+                        - generic [ref=f4e1040]:
+                          - generic [ref=f4e2086]:
+                            - generic [ref=f4e2090]:
+                              - generic [ref=f4e2091]:
+                                - generic [ref=f4e2092]: "n"
+                                - generic [ref=f4e2095]:
+                                  - generic [ref=f4e2096]: −
+                                  - generic [ref=f4e2097]: −
+                                - generic [ref=f4e2098]: √
+                              - generic [ref=f4e2100]: ≈
+                            - math [ref=f4e2101]:
+                              - generic [ref=f4e2102]: "n"
+                              - generic [ref=f4e2104]: ≈
+                          - generic: Write your first answer in part (a).
+                          - textbox "Write your first answer in part (a)." [ref=f4e1043]
+                        - generic [ref=f4e1044]:
+                          - text: Write a list of all the prime numbers less than or equal to
+                          - generic [ref=f4e1045]:
+                            - generic [ref=f4e2107]:
+                              - generic [ref=f4e2112]:
+                                - generic [ref=f4e2113]: "n"
+                                - generic [ref=f4e2116]:
+                                  - generic [ref=f4e2117]: −
+                                  - generic [ref=f4e2118]: −
+                                - generic [ref=f4e2119]: √
+                              - math [ref=f4e2121]:
+                                - generic [ref=f4e2122]: "n"
+                            - text: .
+                          - text: (Write your answers in the form of a comma-separated list.)
+                        - generic [ref=f4e1046]:
+                          - generic: Write your second answer in part (a).
+                          - generic [ref=f4e1048]:
+                            - generic [ref=f4e1049]:
+                              - button [ref=f4e1050]
+                              - button "Open full math pad" [ref=f4e1052] [cursor=pointer]
+                            - generic [ref=f4e1054]: Press Space or Enter to edit this math answer.
+                        - group "Is the following statement true or false? When n = 61 , n is not divisible by any prime number less than or equal to n ." [ref=f4e2124]:
+                          - generic [ref=f4e1057]:
+                            - text: Is the following statement true or false? When
+                            - generic [ref=f4e1058]:
+                              - generic [ref=f4e2127]:
+                                - generic [ref=f4e2131]:
+                                  - generic [ref=f4e2132]: "n"
+                                  - generic [ref=f4e2133]: =
+                                  - generic [ref=f4e2134]: "61"
+                                - math [ref=f4e2135]:
+                                  - generic [ref=f4e2136]: "n"
+                                  - generic [ref=f4e2137]: =
+                                  - generic [ref=f4e2138]: "61"
+                              - text: ","
+                            - emphasis [ref=f4e1059]: "n"
+                            - text: is not divisible by any prime number less than or equal to
+                            - generic [ref=f4e1060]:
+                              - generic [ref=f4e2141]:
+                                - generic [ref=f4e2146]:
+                                  - generic [ref=f4e2147]: "n"
+                                  - generic [ref=f4e2150]:
+                                    - generic [ref=f4e2151]: −
+                                    - generic [ref=f4e2152]: −
+                                  - generic [ref=f4e2153]: √
+                                - math [ref=f4e2155]:
+                                  - generic [ref=f4e2156]: "n"
+                              - text: .
+                          - generic [ref=f4e1061]:
+                            - radio "True." [ref=f4e1062]
+                            - generic [ref=f4e1063]: True.
+                          - generic [ref=f4e1064]:
+                            - radio "False." [ref=f4e1065]
+                            - generic [ref=f4e1066]: False.
+                  - region "(b)" [ref=f4e1067]:
+                    - generic [ref=f4e1068]:
+                      - generic [ref=f4e1069]: (b)
+                      - generic [ref=f4e1070]:
+                        - generic [ref=f4e1071]:
+                          - text: Suppose
+                          - emphasis [ref=f4e1072]: "n"
+                          - text: is a fixed integer. Let
+                          - emphasis [ref=f4e1073]: S
+                          - text: be the statement, "
+                          - generic [ref=f4e2160]:
+                            - generic [ref=f4e2162]: "n"
+                            - math [ref=f4e2166]:
+                              - generic [ref=f4e2167]: "n"
+                          - text: is not divisible by any prime number less than or equal to
+                          - generic [ref=f4e1074]:
+                            - generic [ref=f4e2170]:
+                              - generic [ref=f4e2175]:
+                                - generic [ref=f4e2176]: "n"
+                                - generic [ref=f4e2179]:
+                                  - generic [ref=f4e2180]: −
+                                  - generic [ref=f4e2181]: −
+                                - generic [ref=f4e2182]: √
+                              - math [ref=f4e2184]:
+                                - generic [ref=f4e2185]: "n"
+                            - text: ."
+                          - text: The following statement is equivalent to
+                          - emphasis [ref=f4e1075]: S
+                          - text: ":"
+                        - group [ref=f4e1076]:
+                          - generic [ref=f4e2189]:
+                            - generic [ref=f4e2191]: ∀
+                            - math [ref=f4e2195]:
+                              - generic [ref=f4e2196]: ∀
+                          - text: prime number
+                          - emphasis [ref=f4e1077]: p
+                          - text: ", if"
+                          - emphasis [ref=f4e1078]: p
+                          - text: is less than or equal to
+                          - generic [ref=f4e2199]:
+                            - generic [ref=f4e2204]:
+                              - generic [ref=f4e2205]: "n"
+                              - generic [ref=f4e2208]:
+                                - generic [ref=f4e2209]: −
+                                - generic [ref=f4e2210]: −
+                              - generic [ref=f4e2211]: √
+                            - math [ref=f4e2213]:
+                              - generic [ref=f4e2214]: "n"
+                          - text: then
+                          - emphasis [ref=f4e1079]: "n"
+                          - text: is not divisible by
+                          - emphasis [ref=f4e1080]: p
+                          - text: .
+                        - group [ref=f4e1082]:
+                          - generic [ref=f4e1083]:
+                            - text: Which of the following are negations for
+                            - emphasis [ref=f4e1084]: S
+                            - text: "? (Select all that apply.)"
+                          - generic [ref=f4e1085]:
+                            - checkbox "∃ a prime number p such that p ≤ n and n is divisible by p." [ref=f4e2216]
+                            - generic [ref=f4e1087]:
+                              - generic [ref=f4e2219]:
+                                - generic [ref=f4e2221]: ∃
+                                - math [ref=f4e2225]:
+                                  - generic [ref=f4e2226]: ∃
+                              - text: a prime number
+                              - emphasis [ref=f4e1088]: p
+                              - text: such that
+                              - generic [ref=f4e2229]:
+                                - generic [ref=f4e2233]:
+                                  - generic [ref=f4e2234]: p
+                                  - generic [ref=f4e2235]: ≤
+                                  - generic [ref=f4e2236]:
+                                    - generic [ref=f4e2237]: "n"
+                                    - generic [ref=f4e2240]:
+                                      - generic [ref=f4e2241]: −
+                                      - generic [ref=f4e2242]: −
+                                    - generic [ref=f4e2243]: √
+                                - math [ref=f4e2245]:
+                                  - generic [ref=f4e2246]: p
+                                  - generic [ref=f4e2247]: ≤
+                                  - generic [ref=f4e2248]: "n"
+                              - text: and
+                              - emphasis [ref=f4e1089]: "n"
+                              - text: is divisible by
+                              - emphasis [ref=f4e1090]: p
+                              - text: .
+                          - generic [ref=f4e1091]:
+                            - checkbox "n is divisible by every prime number less than or equal to n ." [ref=f4e2250]
+                            - generic [ref=f4e1093]:
+                              - emphasis [ref=f4e1094]: "n"
+                              - text: is divisible by every prime number less than or equal to
+                              - generic [ref=f4e1095]:
+                                - generic [ref=f4e2253]:
+                                  - generic [ref=f4e2258]:
+                                    - generic [ref=f4e2259]: "n"
+                                    - generic [ref=f4e2262]:
+                                      - generic [ref=f4e2263]: −
+                                      - generic [ref=f4e2264]: −
+                                    - generic [ref=f4e2265]: √
+                                  - math [ref=f4e2267]:
+                                    - generic [ref=f4e2268]: "n"
+                                - text: .
+                          - generic [ref=f4e1096]:
+                            - checkbox "∃ a prime number p such that p is a multiple of n and p is less than or equal to n ." [ref=f4e2270]
+                            - generic [ref=f4e1098]:
+                              - generic [ref=f4e2273]:
+                                - generic [ref=f4e2275]: ∃
+                                - math [ref=f4e2279]:
+                                  - generic [ref=f4e2280]: ∃
+                              - text: a prime number
+                              - emphasis [ref=f4e1099]: p
+                              - text: such that
+                              - emphasis [ref=f4e1100]: p
+                              - text: is a multiple of
+                              - emphasis [ref=f4e1101]: "n"
+                              - text: and
+                              - emphasis [ref=f4e1102]: p
+                              - text: is less than or equal to
+                              - generic [ref=f4e1103]:
+                                - generic [ref=f4e2283]:
+                                  - generic [ref=f4e2288]:
+                                    - generic [ref=f4e2289]: "n"
+                                    - generic [ref=f4e2292]:
+                                      - generic [ref=f4e2293]: −
+                                      - generic [ref=f4e2294]: −
+                                    - generic [ref=f4e2295]: √
+                                  - math [ref=f4e2297]:
+                                    - generic [ref=f4e2298]: "n"
+                                - text: .
+                          - generic [ref=f4e1104]:
+                            - checkbox "n is divisible by some prime number that is less than or equal to n ." [ref=f4e2300]
+                            - generic [ref=f4e1106]:
+                              - emphasis [ref=f4e1107]: "n"
+                              - text: is divisible by some prime number that is less than or equal to
+                              - generic [ref=f4e1108]:
+                                - generic [ref=f4e2303]:
+                                  - generic [ref=f4e2308]:
+                                    - generic [ref=f4e2309]: "n"
+                                    - generic [ref=f4e2312]:
+                                      - generic [ref=f4e2313]: −
+                                      - generic [ref=f4e2314]: −
+                                    - generic [ref=f4e2315]: √
+                                  - math [ref=f4e2317]:
+                                    - generic [ref=f4e2318]: "n"
+                                - text: .
+                          - generic [ref=f4e1109]:
+                            - checkbox "∀ prime number p, if p is less than or equal to n , then n is divisible by p." [ref=f4e2320]
+                            - generic [ref=f4e1111]:
+                              - generic [ref=f4e2323]:
+                                - generic [ref=f4e2325]: ∀
+                                - math [ref=f4e2329]:
+                                  - generic [ref=f4e2330]: ∀
+                              - text: prime number
+                              - emphasis [ref=f4e1112]: p
+                              - text: ", if"
+                              - emphasis [ref=f4e1113]: p
+                              - text: is less than or equal to
+                              - generic [ref=f4e1114]:
+                                - generic [ref=f4e2333]:
+                                  - generic [ref=f4e2338]:
+                                    - generic [ref=f4e2339]: "n"
+                                    - generic [ref=f4e2342]:
+                                      - generic [ref=f4e2343]: −
+                                      - generic [ref=f4e2344]: −
+                                    - generic [ref=f4e2345]: √
+                                  - math [ref=f4e2347]:
+                                    - generic [ref=f4e2348]: "n"
+                                - text: ","
+                              - text: then
+                              - emphasis [ref=f4e1115]: "n"
+                              - text: is divisible by
+                              - emphasis [ref=f4e1116]: p
+                              - text: .
+                - generic "Resource box" [ref=f4e1120]:
+                  - generic [ref=f4e1121]:
+                    - generic [ref=f4e1122]: Resources
+                    - generic [ref=f4e1123]:
+                      - paragraph [ref=f4e1124]:
+                        - link "Read It (opens in a new tab)" [ref=f4e1125] [cursor=pointer]:
+                          - /url: "#"
+                          - text: Read It
+                      - button "Ask Student Assistant for question 7" [ref=f4e1126] [cursor=pointer]: Student Assistant
+              - button "Submit Answer" [ref=f4e1129] [cursor=pointer]
+          - generic [ref=f4e1130]:
+            - region "Banner for question 8" [ref=f4e1133]:
+              - generic [ref=f4e1134]:
+                - heading "Question 8" [level=2] [ref=f4e1136]: "8."
+                - strong [ref=f4e1137]: "[– / 11.11 Points]"
+              - generic [ref=f4e1138]:
+                - button "Details for question 8." [ref=f4e1139] [cursor=pointer]:
+                  - generic [ref=f4e1140]: Details
+                - button "My Notes For question 8" [ref=f4e1143] [cursor=pointer]:
+                  - generic [ref=f4e1144]: My Notes
+                - button "Practice Another Version for question 8." [ref=f4e1145] [cursor=pointer]:
+                  - generic [ref=f4e1146]: Practice Another
+            - generic [ref=f4e1147]:
+              - generic [ref=f4e1149]:
+                - generic [ref=f4e1150]: EppDiscMath5 4.7.032.EP.
+                - region [ref=f4e1151]:
+                  - strong [ref=f4e1152]: Problem 8
+                  - generic [ref=f4e1153]: Use the test for primality to determine whether the following numbers are prime or not.
+                  - region "information box" [ref=f4e1154]:
+                    - strong [ref=f4e1156]: Test for Primality
+                    - generic [ref=f4e1157]:
+                      - text: Given an integer
+                      - generic [ref=f4e1158]:
+                        - generic [ref=f4e2352]:
+                          - generic [ref=f4e2356]:
+                            - generic [ref=f4e2357]: "n"
+                            - generic [ref=f4e2358]: ">"
+                            - generic [ref=f4e2359]: "1"
+                          - math [ref=f4e2360]:
+                            - generic [ref=f4e2361]: "n"
+                            - generic [ref=f4e2362]: ">"
+                            - generic [ref=f4e2363]: "1"
+                        - text: ","
+                      - text: to test whether
+                      - emphasis [ref=f4e1159]: "n"
+                      - text: is prime check to see if it is divisible by a prime number less than or equal to its square root. If it is not divisible by any of these numbers, then it is prime.
+                  - generic [ref=f4e1160]:
+                    - text: Write each number as a product of prime numbers. If the number is prime, write
+                    - generic [ref=f4e1161]: Prime
+                    - text: .
+                  - list [ref=f4e1162]:
+                    - listitem [ref=f4e1163]:
+                      - generic [ref=f4e1164]:
+                        - generic [ref=f4e2366]:
+                          - generic [ref=f4e2370]:
+                            - generic [ref=f4e2371]: "377"
+                            - generic [ref=f4e2372]: =
+                          - math [ref=f4e2373]:
+                            - generic [ref=f4e2374]: "377"
+                            - generic [ref=f4e2375]: =
+                        - generic [ref=f4e1168]:
+                          - generic [ref=f4e1169]:
+                            - button [ref=f4e1170]
+                            - button "Open full math pad" [ref=f4e1172] [cursor=pointer]
+                          - generic [ref=f4e1174]: Press Space or Enter to edit this math answer.
+                    - listitem [ref=f4e1175]:
+                      - generic [ref=f4e1176]:
+                        - generic [ref=f4e2378]:
+                          - generic [ref=f4e2382]:
+                            - generic [ref=f4e2383]: "613"
+                            - generic [ref=f4e2384]: =
+                          - math [ref=f4e2385]:
+                            - generic [ref=f4e2386]: "613"
+                            - generic [ref=f4e2387]: =
+                        - generic [ref=f4e1180]:
+                          - generic [ref=f4e1181]:
+                            - button [ref=f4e1182]
+                            - button "Open full math pad" [ref=f4e1184] [cursor=pointer]
+                          - generic [ref=f4e1186]: Press Space or Enter to edit this math answer.
+                    - listitem [ref=f4e1187]:
+                      - generic [ref=f4e1188]:
+                        - generic [ref=f4e2390]:
+                          - generic [ref=f4e2394]:
+                            - generic [ref=f4e2395]: "391"
+                            - generic [ref=f4e2396]: =
+                          - math [ref=f4e2397]:
+                            - generic [ref=f4e2398]: "391"
+                            - generic [ref=f4e2399]: =
+                        - generic [ref=f4e1192]:
+                          - generic [ref=f4e1193]:
+                            - button [ref=f4e1194]
+                            - button "Open full math pad" [ref=f4e1196] [cursor=pointer]
+                          - generic [ref=f4e1198]: Press Space or Enter to edit this math answer.
+                    - listitem [ref=f4e1199]:
+                      - generic [ref=f4e1200]:
+                        - generic [ref=f4e2402]:
+                          - generic [ref=f4e2406]:
+                            - generic [ref=f4e2407]: "701"
+                            - generic [ref=f4e2408]: =
+                          - math [ref=f4e2409]:
+                            - generic [ref=f4e2410]: "701"
+                            - generic [ref=f4e2411]: =
+                        - generic [ref=f4e1204]:
+                          - generic [ref=f4e1205]:
+                            - button [ref=f4e1206]
+                            - button "Open full math pad" [ref=f4e1208] [cursor=pointer]
+                          - generic [ref=f4e1210]: Press Space or Enter to edit this math answer.
+                - generic "Resource box" [ref=f4e1214]:
+                  - generic [ref=f4e1215]:
+                    - generic [ref=f4e1216]: Resources
+                    - generic [ref=f4e1217]:
+                      - paragraph [ref=f4e1218]:
+                        - link "Read It (opens in a new tab)" [ref=f4e1219] [cursor=pointer]:
+                          - /url: "#"
+                          - text: Read It
+                      - button "Ask Student Assistant for question 8" [ref=f4e1220] [cursor=pointer]: Student Assistant
+              - button "Submit Answer" [ref=f4e1223] [cursor=pointer]
+          - generic [ref=f4e1224]:
+            - region "Banner for question 9" [ref=f4e1227]:
+              - generic [ref=f4e1228]:
+                - heading "Question 9" [level=2] [ref=f4e1230]: "9."
+                - strong [ref=f4e1231]: "[– / 11.12 Points]"
+              - generic [ref=f4e1232]:
+                - button "Details for question 9." [ref=f4e1233] [cursor=pointer]:
+                  - generic [ref=f4e1234]: Details
+                - button "My Notes For question 9" [ref=f4e1237] [cursor=pointer]:
+                  - generic [ref=f4e1238]: My Notes
+                - button "Practice Another Version for question 9." [ref=f4e1239] [cursor=pointer]:
+                  - generic [ref=f4e1240]: Practice Another
+            - generic [ref=f4e1241]:
+              - generic [ref=f4e1243]:
+                - generic [ref=f4e1244]: EppDiscMath5 4.7.034.
+                - region [ref=f4e1245]:
+                  - strong [ref=f4e1246]: Problem 9
+                  - region "introduction" [ref=f4e1247]:
+                    - generic [ref=f4e1248]: Construct a sieve of Eratosthenes for the numbers from 2 to 100. (Write all the integers from 2 to 100. Cross out all multiples of 2 except 2 itself, then all the multiples of 3 except 3 itself, then all multiples of 5 except 5 itself, and so forth. Continue crossing out multiples of each successive prime number up to 100. The numbers that are not crossed out are the prime numbers from 2 to 100.) Use the test for primality and your sieve of Eratosthenes to determine whether the following numbers are prime.
+                    - region "information box" [ref=f4e1249]:
+                      - strong [ref=f4e1251]: Test for Primality
+                      - generic [ref=f4e1252]:
+                        - text: Given an integer
+                        - generic [ref=f4e1253]:
+                          - generic [ref=f4e2414]:
+                            - generic [ref=f4e2418]:
+                              - generic [ref=f4e2419]: "n"
+                              - generic [ref=f4e2420]: ">"
+                              - generic [ref=f4e2421]: "1"
+                            - math [ref=f4e2422]:
+                              - generic [ref=f4e2423]: "n"
+                              - generic [ref=f4e2424]: ">"
+                              - generic [ref=f4e2425]: "1"
+                          - text: ","
+                        - text: to test whether
+                        - emphasis [ref=f4e1254]: "n"
+                        - text: is prime check to see if it is divisible by a prime number less than or equal to its square root. If it is not divisible by any of these numbers, then it is prime.
+                  - region "(a)" [ref=f4e1255]:
+                    - generic [ref=f4e1256]:
+                      - generic [ref=f4e1257]: (a)
+                      - generic [ref=f4e1258]:
+                        - generic [ref=f4e1259]:
+                          - text: Let
+                          - generic [ref=f4e1260]:
+                            - generic [ref=f4e2428]:
+                              - generic [ref=f4e2432]:
+                                - generic [ref=f4e2433]: "n"
+                                - generic [ref=f4e2434]: =
+                                - generic [ref=f4e2435]: "8671"
+                              - math [ref=f4e2436]:
+                                - generic [ref=f4e2437]: "n"
+                                - generic [ref=f4e2438]: =
+                                - generic [ref=f4e2439]: "8671"
+                            - text: .
+                        - generic [ref=f4e1261]:
+                          - text: How many prime numbers are less than or equal to the square root of
+                          - emphasis [ref=f4e1262]: "n"
+                          - text: "?"
+                        - generic [ref=f4e1263]:
+                          - generic: Write your first answer for part (a).
+                          - textbox "Write your first answer for part (a)." [ref=f4e1266]
+                        - group [ref=f4e1268]:
+                          - generic [ref=f4e1269]:
+                            - text: Is
+                            - emphasis [ref=f4e1270]: "n"
+                            - text: divisible by any of these numbers?
+                          - generic [ref=f4e1271]:
+                            - radio "Yes" [ref=f4e1272]
+                            - generic [ref=f4e1273]: "Yes"
+                          - generic [ref=f4e1274]:
+                            - radio "No" [ref=f4e1275]
+                            - generic [ref=f4e1276]: "No"
+                        - group [ref=f4e1278]:
+                          - generic [ref=f4e1279]:
+                            - text: Is
+                            - emphasis [ref=f4e1280]: "n"
+                            - text: prime?
+                          - generic [ref=f4e1281]:
+                            - radio "Yes" [ref=f4e1282]
+                            - generic [ref=f4e1283]: "Yes"
+                          - generic [ref=f4e1284]:
+                            - radio "No" [ref=f4e1285]
+                            - generic [ref=f4e1286]: "No"
+                  - region "(b)" [ref=f4e1287]:
+                    - generic [ref=f4e1288]:
+                      - generic [ref=f4e1289]: (b)
+                      - generic [ref=f4e1290]:
+                        - generic [ref=f4e1291]:
+                          - text: Let
+                          - generic [ref=f4e1292]:
+                            - generic [ref=f4e2442]:
+                              - generic [ref=f4e2446]:
+                                - generic [ref=f4e2447]: "n"
+                                - generic [ref=f4e2448]: =
+                                - generic [ref=f4e2449]: "9173"
+                              - math [ref=f4e2450]:
+                                - generic [ref=f4e2451]: "n"
+                                - generic [ref=f4e2452]: =
+                                - generic [ref=f4e2453]: "9173"
+                            - text: .
+                        - generic [ref=f4e1293]:
+                          - text: How many prime numbers are less than or equal to the square root of
+                          - emphasis [ref=f4e1294]: "n"
+                          - text: "?"
+                        - generic [ref=f4e1295]:
+                          - generic: Write your first answer for part (b).
+                          - textbox "Write your first answer for part (b)." [ref=f4e1298]
+                        - group [ref=f4e1300]:
+                          - generic [ref=f4e1301]:
+                            - text: Is
+                            - emphasis [ref=f4e1302]: "n"
+                            - text: divisible by any of these numbers?
+                          - generic [ref=f4e1303]:
+                            - radio "Yes" [ref=f4e1304]
+                            - generic [ref=f4e1305]: "Yes"
+                          - generic [ref=f4e1306]:
+                            - radio "No" [ref=f4e1307]
+                            - generic [ref=f4e1308]: "No"
+                        - group [ref=f4e1310]:
+                          - generic [ref=f4e1311]:
+                            - text: Is
+                            - emphasis [ref=f4e1312]: "n"
+                            - text: prime?
+                          - generic [ref=f4e1313]:
+                            - radio "Yes" [ref=f4e1314]
+                            - generic [ref=f4e1315]: "Yes"
+                          - generic [ref=f4e1316]:
+                            - radio "No" [ref=f4e1317]
+                            - generic [ref=f4e1318]: "No"
+                  - region "(c)" [ref=f4e1319]:
+                    - generic [ref=f4e1320]:
+                      - generic [ref=f4e1321]: (c)
+                      - generic [ref=f4e1322]:
+                        - generic [ref=f4e1323]:
+                          - text: Let
+                          - generic [ref=f4e1324]:
+                            - generic [ref=f4e2456]:
+                              - generic [ref=f4e2460]:
+                                - generic [ref=f4e2461]: "n"
+                                - generic [ref=f4e2462]: =
+                                - generic [ref=f4e2463]: "8647"
+                              - math [ref=f4e2464]:
+                                - generic [ref=f4e2465]: "n"
+                                - generic [ref=f4e2466]: =
+                                - generic [ref=f4e2467]: "8647"
+                            - text: .
+                        - generic [ref=f4e1325]:
+                          - text: How many prime numbers are less than or equal to the square root of
+                          - emphasis [ref=f4e1326]: "n"
+                          - text: "?"
+                        - generic [ref=f4e1327]:
+                          - generic: Write your first answer for part (c).
+                          - textbox "Write your first answer for part (c)." [ref=f4e1330]
+                        - group [ref=f4e1332]:
+                          - generic [ref=f4e1333]:
+                            - text: Is
+                            - emphasis [ref=f4e1334]: "n"
+                            - text: divisible by any of these numbers?
+                          - generic [ref=f4e1335]:
+                            - radio "Yes" [ref=f4e1336]
+                            - generic [ref=f4e1337]: "Yes"
+                          - generic [ref=f4e1338]:
+                            - radio "No" [ref=f4e1339]
+                            - generic [ref=f4e1340]: "No"
+                        - group [ref=f4e1342]:
+                          - generic [ref=f4e1343]:
+                            - text: Is
+                            - emphasis [ref=f4e1344]: "n"
+                            - text: prime?
+                          - generic [ref=f4e1345]:
+                            - radio "Yes" [ref=f4e1346]
+                            - generic [ref=f4e1347]: "Yes"
+                          - generic [ref=f4e1348]:
+                            - radio "No" [ref=f4e1349]
+                            - generic [ref=f4e1350]: "No"
+                  - region "(d)" [ref=f4e1351]:
+                    - generic [ref=f4e1352]:
+                      - generic [ref=f4e1353]: (d)
+                      - generic [ref=f4e1354]:
+                        - generic [ref=f4e1355]:
+                          - text: Let
+                          - generic [ref=f4e1356]:
+                            - generic [ref=f4e2470]:
+                              - generic [ref=f4e2474]:
+                                - generic [ref=f4e2475]: "n"
+                                - generic [ref=f4e2476]: =
+                                - generic [ref=f4e2477]: "3927"
+                              - math [ref=f4e2478]:
+                                - generic [ref=f4e2479]: "n"
+                                - generic [ref=f4e2480]: =
+                                - generic [ref=f4e2481]: "3927"
+                            - text: .
+                        - generic [ref=f4e1357]:
+                          - text: How many prime numbers are less than or equal to the square root of
+                          - emphasis [ref=f4e1358]: "n"
+                          - text: "?"
+                        - generic [ref=f4e1359]:
+                          - generic: Write your first answer for part (d).
+                          - textbox "Write your first answer for part (d)." [ref=f4e1362]
+                        - group [ref=f4e1364]:
+                          - generic [ref=f4e1365]:
+                            - text: Is
+                            - emphasis [ref=f4e1366]: "n"
+                            - text: divisible by any of these numbers?
+                          - generic [ref=f4e1367]:
+                            - radio "Yes" [ref=f4e1368]
+                            - generic [ref=f4e1369]: "Yes"
+                          - generic [ref=f4e1370]:
+                            - radio "No" [ref=f4e1371]
+                            - generic [ref=f4e1372]: "No"
+                        - group [ref=f4e1374]:
+                          - generic [ref=f4e1375]:
+                            - text: Is
+                            - emphasis [ref=f4e1376]: "n"
+                            - text: prime?
+                          - generic [ref=f4e1377]:
+                            - radio "Yes" [ref=f4e1378]
+                            - generic [ref=f4e1379]: "Yes"
+                          - generic [ref=f4e1380]:
+                            - radio "No" [ref=f4e1381]
+                            - generic [ref=f4e1382]: "No"
+                - generic "Resource box" [ref=f4e1386]:
+                  - generic [ref=f4e1387]:
+                    - generic [ref=f4e1388]: Resources
+                    - generic [ref=f4e1389]:
+                      - paragraph [ref=f4e1390]:
+                        - link "Read It (opens in a new tab)" [ref=f4e1391] [cursor=pointer]:
+                          - /url: "#"
+                          - text: Read It
+                      - button "Ask Student Assistant for question 9" [ref=f4e1392] [cursor=pointer]: Student Assistant
+              - button "Submit Answer" [ref=f4e1395] [cursor=pointer]
+        - alert
+        - generic [ref=f4e1397]:
+          - link "Home" [ref=f4e1398] [cursor=pointer]
+          - link "My Assignments" [ref=f4e1399] [cursor=pointer]
+          - button "Open Request Extension in modal window" [ref=f4e1400] [cursor=pointer]:
+            - generic [ref=f4e1403]: Request Extension
+    - contentinfo [ref=f4e1405]:
+      - generic [ref=f4e1406]:
+        - generic [ref=f4e1407]: Copyright © 1998 - 2026 Cengage Learning, Inc. All Rights Reserved
+        - list [ref=f4e1408]:
+          - listitem [ref=f4e1409]:
+            - link "Open in a new tab. Terms of use" [ref=f4e1410] [cursor=pointer]:
+              - /url: https://www.cengage.com/legal/#terms
+              - text: Terms of use
+          - listitem [ref=f4e1411]:
+            - link "Open in a new tab. Privacy" [ref=f4e1412] [cursor=pointer]:
+              - /url: https://www.cengage.com/privacy/
+              - text: Privacy

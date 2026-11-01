@@ -19,3 +19,6 @@ TO prove that something exists we can prove it by showing the negation exist
 
 
 >Ex. prive that for any integer $k>1$, $k^2 +2k +1$ is composite
+
+
+

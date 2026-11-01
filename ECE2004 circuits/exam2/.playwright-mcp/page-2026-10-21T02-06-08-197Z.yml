@@ -1,0 +1,297 @@
+- generic [active] [ref=f1e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=f1e2] [cursor=pointer]
+      - link "Accessibility help" [ref=f1e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+  - generic [ref=f1e8]:
+    - search [ref=f1e9]:
+      - generic [ref=f1e11]:
+        - link "Go to Google Home" [ref=f1e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=2ahUKEwj4wPmEg8qXAxVRhSsGHV4zIvkQPHoECAYQBA
+        - generic [ref=f1e17]:
+          - combobox "Search" [ref=f1e19]: site:eng.libretexts.org mesh analysis exercises circuit site:eng.libretexts.org mesh analysis exercises circuit
+          - generic [ref=f1e20]:
+            - button "Clear" [ref=f1e24] [cursor=pointer]
+            - generic [ref=f1e29]:
+              - button "Search by voice" [ref=f1e32] [cursor=pointer]
+              - button "Search by image" [ref=f1e37] [cursor=pointer]
+    - generic [ref=f1e40]:
+      - button "Share" [ref=f1e41] [cursor=pointer]
+      - generic [ref=f1e47]:
+        - button "Google apps" [ref=f1e49] [cursor=pointer]
+        - 'button "Google Account: Pragun Damani (pd2752@nyu.edu)" [ref=f1e54] [cursor=pointer]'
+  - generic [ref=f1e57]:
+    - navigation [ref=f1e63]:
+      - generic [ref=f1e69]:
+        - list [ref=f1e70]:
+          - listitem [ref=f1e71]:
+            - link "AI Mode" [ref=f1e74] [cursor=pointer]:
+              - /url: /search?q=site:eng.libretexts.org+mesh+analysis+exercises+circuit&sca_esv=882e2611175d5c4b&sxsrf=APpeQnuvq1yBHPi0OfFrowVSla4t-k74og:1792548366355&udm=50&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqu7ocb7U6ah0xpkIrGMK4CuEddQ3ZmQozcvkgnTNQKh9YVaEr5mXVzABWj5nKQcJQ7U105Gk2oU-UBjyQxAF_wy3oW3H4PKHrepS-Qb5K2LjxqgJBWqB7MKC3wLJZX59A-1ajT2UmsOK-VstBhGk4Kw02ixnp51XjD80_XUUavN7ohO9Hy6g2mSZC4QhRadWK-Ckqg&vsint=&aep=1&ntc=1&cs=1&sa=X&ved=2ahUKEwj4wPmEg8qXAxVRhSsGHV4zIvkQ2J8OegQIExAD
+          - listitem [ref=f1e78]:
+            - link "All" [disabled] [ref=f1e79]
+          - listitem [ref=f1e82]:
+            - link "Short videos" [ref=f1e83] [cursor=pointer]:
+              - /url: /search?sca_esv=882e2611175d5c4b&sxsrf=APpeQnuvq1yBHPi0OfFrowVSla4t-k74og:1792548366355&udm=39&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqu7ocb7U6ah0xpkIrGMK4CuEddQ3ZmQozcvkgnTNQKh9YVaEr5mXVzABWj5nKQcJQ7U105Gk2oU-UBjyQxAF_wy3oW3H4PKHrepS-Qb5K2LjxqgJBWqB7MKC3wLJZX59A-1ajT2UmsOK-VstBhGk4Kw02ixnp51XjD80_XUUavN7ohO9Hy6g2mSZC4QhRadWK-Ckqg&q=site:eng.libretexts.org+mesh+analysis+exercises+circuit&sa=X&ved=2ahUKEwj4wPmEg8qXAxVRhSsGHV4zIvkQs6gLegQIFhAB
+          - listitem [ref=f1e86]:
+            - link "Images" [ref=f1e87] [cursor=pointer]:
+              - /url: /search?sca_esv=882e2611175d5c4b&sxsrf=APpeQnuvq1yBHPi0OfFrowVSla4t-k74og:1792548366355&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqu7ocb7U6ah0xpkIrGMK4CuEddQ3ZmQozcvkgnTNQKh9YVaEr5mXVzABWj5nKQcJQ7U105Gk2oU-UBjyQxAF_wy3oW3H4PKHrepS-Qb5K2LjxqgJBWqB7MKC3wLJZX59A-1ajT2UmsOK-VstBhGk4Kw02ixnp51XjD80_XUUavN7ohO9Hy6g2mSZC4QhRadWK-Ckqg&q=site:eng.libretexts.org+mesh+analysis+exercises+circuit&sa=X&ved=2ahUKEwj4wPmEg8qXAxVRhSsGHV4zIvkQtKgLegQIGBAB
+          - listitem [ref=f1e90]:
+            - link "Videos" [ref=f1e91] [cursor=pointer]:
+              - /url: /search?sca_esv=882e2611175d5c4b&sxsrf=APpeQnuvq1yBHPi0OfFrowVSla4t-k74og:1792548366355&udm=vids&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqu7ocb7U6ah0xpkIrGMK4CuEddQ3ZmQozcvkgnTNQKh9YVaEr5mXVzABWj5nKQcJQ7U105Gk2oU-UBjyQxAF_wy3oW3H4PKHrepS-Qb5K2LjxqgJBWqB7MKC3wLJZX59A-1ajT2UmsOK-VstBhGk4Kw02ixnp51XjD80_XUUavN7ohO9Hy6g2mSZC4QhRadWK-Ckqg&q=site:eng.libretexts.org+mesh+analysis+exercises+circuit&sa=X&ved=2ahUKEwj4wPmEg8qXAxVRhSsGHV4zIvkQtKgLegQIGRAB
+          - listitem [ref=f1e94]:
+            - link "Shopping" [ref=f1e95] [cursor=pointer]:
+              - /url: /search?sca_esv=882e2611175d5c4b&sxsrf=APpeQnuvq1yBHPi0OfFrowVSla4t-k74og:1792548366355&udm=28&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqu7ocb7U6ah0xpkIrGMK4CuEddQ3ZmQozcvkgnTNQKh9YVaEr5mXVzABWj5nKQcJQ7U105Gk2oU-UBjyQxAF_wy3oW3H4PKHrepS-Qb5K2LjxqgJBWqB7MKC3wLJZX59A-1ajT2UmsOK-VstBhGk4Kw02ixnp51XjD80_XUUavN7ohO9Hy6g2mSZC4QhRadWK-Ckqg&q=site:eng.libretexts.org+mesh+analysis+exercises+circuit&ved=1t:220175&ictx=111
+          - listitem [ref=f1e98]:
+            - link "Forums" [ref=f1e99] [cursor=pointer]:
+              - /url: /search?sca_esv=882e2611175d5c4b&sxsrf=APpeQnuvq1yBHPi0OfFrowVSla4t-k74og:1792548366355&udm=forums&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqu7ocb7U6ah0xpkIrGMK4CuEddQ3ZmQozcvkgnTNQKh9YVaEr5mXVzABWj5nKQcJQ7U105Gk2oU-UBjyQxAF_wy3oW3H4PKHrepS-Qb5K2LjxqgJBWqB7MKC3wLJZX59A-1ajT2UmsOK-VstBhGk4Kw02ixnp51XjD80_XUUavN7ohO9Hy6g2mSZC4QhRadWK-Ckqg&q=site:eng.libretexts.org+mesh+analysis+exercises+circuit&sa=X&ved=2ahUKEwj4wPmEg8qXAxVRhSsGHV4zIvkQs6gLegQIGxAB
+          - listitem [ref=f1e102]:
+            - button [ref=f1e103] [cursor=pointer]:
+              - generic "More filters" [ref=f1e104]: More
+        - button "Tools" [ref=f1e111] [cursor=pointer]
+    - heading "Search Results" [level=1] [ref=f1e118]
+    - main [ref=f1e124]:
+      - generic [ref=f1e128]:
+        - generic [ref=f1e131]:
+          - heading "Web results" [level=2] [ref=f1e132]
+          - generic [ref=f1e133]:
+            - generic [ref=f1e136]:
+              - 'link "3.6: Exercises Engineering LibreTexts https://eng.libretexts.org › Workbench › 3.06:_Exercises" [ref=f1e138] [cursor=pointer]':
+                - /url: https://eng.libretexts.org/Workbench/Introduction_to_Circuit_Analysis/03%3A_Nodal_and_Mesh_Analysis_Dependent_Sources/3.06%3A_Exercises
+                - 'heading "3.6: Exercises" [level=3] [ref=f1e139]'
+                - generic [ref=f1e145]:
+                  - generic [ref=f1e146]: Engineering LibreTexts
+                  - generic [ref=f1e148]: https://eng.libretexts.org › Workbench › 3.06:_Exercises
+              - button "About this result" [ref=f1e154] [cursor=pointer]
+            - generic [ref=f1e160]:
+              - generic [ref=f1e161]: Dec 21, 2023 —
+              - generic [ref=f1e162]:
+                - emphasis [ref=f1e163]: Using mesh analysis, determine the value of V b for the circuit shown in Figure 7.6.2
+                - text: . 6. For the circuit shown in Figure 7.6.2 , use mesh ...
+              - link "Read more" [ref=f1e164] [cursor=pointer]:
+                - /url: https://eng.libretexts.org/Workbench/Introduction_to_Circuit_Analysis/03%3A_Nodal_and_Mesh_Analysis_Dependent_Sources/3.06%3A_Exercises#:~:text=Using%20mesh%20analysis%2C%20determine%20the,the%20current%20through%20the%20500
+        - generic [ref=f1e168]:
+          - generic [ref=f1e171]:
+            - 'link "3.3: Mesh Analysis Engineering LibreTexts https://eng.libretexts.org › Workbench › 3.03:_Mesh_An..." [ref=f1e173] [cursor=pointer]':
+              - /url: https://eng.libretexts.org/Workbench/Introduction_to_Circuit_Analysis/03%3A_Nodal_and_Mesh_Analysis_Dependent_Sources/3.03%3A_Mesh_Analysis
+              - 'heading "3.3: Mesh Analysis" [level=3] [ref=f1e174]'
+              - generic [ref=f1e180]:
+                - generic [ref=f1e181]: Engineering LibreTexts
+                - generic [ref=f1e183]: https://eng.libretexts.org › Workbench › 3.03:_Mesh_An...
+            - button "About this result" [ref=f1e189] [cursor=pointer]
+          - generic [ref=f1e195]:
+            - generic [ref=f1e196]: Dec 21, 2023 —
+            - generic [ref=f1e197]:
+              - text: "1 :"
+              - emphasis [ref=f1e198]: Circuit for mesh analysis
+              - text: ". We begin by writing KVL ... 3 : Circuit of Example 7.3.1 with current loops and polarities added ..."
+            - link "Read more" [ref=f1e199] [cursor=pointer]:
+              - /url: https://eng.libretexts.org/Workbench/Introduction_to_Circuit_Analysis/03%3A_Nodal_and_Mesh_Analysis_Dependent_Sources/3.03%3A_Mesh_Analysis#:~:text=Figure%207.3.1%20%3A%20Circuit%20for,KVL%20equations%20for%20each%20loop.&text=Figure%207.3.3%20%3A%20Circuit%20of,current%20loops%20and%20polarities%20added.
+        - generic [ref=f1e203]:
+          - generic [ref=f1e206]:
+            - 'link "5.2: Mesh Analysis Engineering LibreTexts https://eng.libretexts.org › Courses › Canada_College › 5...." [ref=f1e208] [cursor=pointer]':
+              - /url: https://eng.libretexts.org/Courses/Canada_College/Circuits_and_Devices%3A_Laboratory/05%3A_Circuit_Analysis_Techniques/5.02%3A_Mesh_Analysis
+              - 'heading "5.2: Mesh Analysis" [level=3] [ref=f1e209]'
+              - generic [ref=f1e215]:
+                - generic [ref=f1e216]: Engineering LibreTexts
+                - generic [ref=f1e218]: https://eng.libretexts.org › Courses › Canada_College › 5....
+            - button "About this result" [ref=f1e224] [cursor=pointer]
+          - generic [ref=f1e230]:
+            - generic [ref=f1e231]: Jan 15, 2022 —
+            - generic [ref=f1e232]:
+              - text: Objective. The study of
+              - emphasis [ref=f1e233]: mesh analysis
+              - text: is the objective of this
+              - emphasis [ref=f1e234]: exercise
+              - text: ", specifically its usage in multi-source DC"
+              - emphasis [ref=f1e235]: circuits
+              - text: .
+            - link "Read more" [ref=f1e236] [cursor=pointer]:
+              - /url: https://eng.libretexts.org/Courses/Canada_College/Circuits_and_Devices%3A_Laboratory/05%3A_Circuit_Analysis_Techniques/5.02%3A_Mesh_Analysis#:~:text=Objective,usage%20in%20multi%2Dsource%20DC%20circuits.
+        - generic [ref=f1e240]:
+          - generic [ref=f1e243]:
+            - 'link "5.2.6: Questions Engineering LibreTexts https://eng.libretexts.org › ... › 5.2: Mesh Analysis" [ref=f1e245] [cursor=pointer]':
+              - /url: https://eng.libretexts.org/Courses/Canada_College/Circuits_and_Devices%3A_Laboratory/05%3A_Circuit_Analysis_Techniques/5.02%3A_Mesh_Analysis/5.2.06%3A_Questions
+              - 'heading "5.2.6: Questions" [level=3] [ref=f1e246]'
+              - generic [ref=f1e252]:
+                - generic [ref=f1e253]: Engineering LibreTexts
+                - generic [ref=f1e255]: "https://eng.libretexts.org › ... › 5.2: Mesh Analysis"
+            - button "About this result" [ref=f1e261] [cursor=pointer]
+          - generic [ref=f1e267]:
+            - generic [ref=f1e268]: Oct 5, 2021 —
+            - generic [ref=f1e269]:
+              - text: In both
+              - emphasis [ref=f1e270]: circuits
+              - text: of this
+              - emphasis [ref=f1e271]: exercise
+              - text: the negative terminals of the sources are connected to ground. Is this a requirement for
+              - emphasis [ref=f1e272]: mesh analysis
+              - text: "?"
+            - link "Read more" [ref=f1e273] [cursor=pointer]:
+              - /url: https://eng.libretexts.org/Courses/Canada_College/Circuits_and_Devices%3A_Laboratory/05%3A_Circuit_Analysis_Techniques/5.02%3A_Mesh_Analysis/5.2.06%3A_Questions#:~:text=In%20both%20circuits%20of%20this,a%20requirement%20for%20mesh%20analysis%3F
+        - generic [ref=f1e277]:
+          - generic [ref=f1e280]:
+            - 'link "6.9: Exercises Engineering LibreTexts https://eng.libretexts.org › Bookshelves › Electronics › 6...." [ref=f1e282] [cursor=pointer]':
+              - /url: https://eng.libretexts.org/Bookshelves/Electrical_Engineering/Electronics/DC_Electrical_Circuit_Analysis_-_A_Practical_Approach_(Fiore)/06%3A_Analysis_Theorems_and_Techniques/6.9%3A_Exercises
+              - 'heading "6.9: Exercises" [level=3] [ref=f1e283]'
+              - generic [ref=f1e289]:
+                - generic [ref=f1e290]: Engineering LibreTexts
+                - generic [ref=f1e292]: https://eng.libretexts.org › Bookshelves › Electronics › 6....
+            - button "About this result" [ref=f1e298] [cursor=pointer]
+          - generic [ref=f1e304]:
+            - generic [ref=f1e305]:
+              - text: Analysis ; 11.
+              - emphasis [ref=f1e306]: Using source conversion, find the current through the 3 k · resistor in the circuit of Figure
+              - text: 6.9.11 . ; 16. Using superposition, find the current ...
+            - link "Read more" [ref=f1e307] [cursor=pointer]:
+              - /url: https://eng.libretexts.org/Bookshelves/Electrical_Engineering/Electronics/DC_Electrical_Circuit_Analysis_-_A_Practical_Approach_(Fiore)/06%3A_Analysis_Theorems_and_Techniques/6.9%3A_Exercises#:~:text=Analysis&text=11.%20Using%20source%20conversion%2C%20find,current%20through%20the%203%20k&text=resistor%20in%20the%20circuit%20of,Figure%206.9.11%20.&text=16.%20Using%20superposition%2C%20find%20the,current%20through%20the%203%20k
+        - generic [ref=f1e311]:
+          - heading "Images" [level=2] [ref=f1e315]
+          - generic [ref=f1e319]:
+            - generic [ref=f1e323] [cursor=pointer]:
+              - 'link "7.2: Nodal Analysis - Engineering LibreTexts Engineering LibreTexts" [ref=f1e324]':
+                - /url: https://eng.libretexts.org/Bookshelves/Electrical_Engineering/Electronics/DC_Electrical_Circuit_Analysis_-_A_Practical_Approach_(Fiore)/07%3A_Nodal_and_Mesh_Analysis_Dependent_Sources/7.2%3A_Nodal_Analysis
+              - button [ref=f1e326]:
+                - 'img "7.2: Nodal Analysis - Engineering LibreTexts" [ref=f1e328]'
+              - generic [ref=f1e330]:
+                - generic [ref=f1e332]: "7.2: Nodal Analysis - Engineering LibreTexts"
+                - generic [ref=f1e333]:
+                  - generic [ref=f1e335]: Engineering LibreTexts
+                  - button "About this result" [ref=f1e345]
+            - generic [ref=f1e353] [cursor=pointer]:
+              - 'link "7.6: Exercises - Engineering LibreTexts Engineering LibreTexts" [ref=f1e354]':
+                - /url: https://eng.libretexts.org/Bookshelves/Electrical_Engineering/Electronics/DC_Electrical_Circuit_Analysis_-_A_Practical_Approach_(Fiore)/07%3A_Nodal_and_Mesh_Analysis_Dependent_Sources/7.6%3A_Exercises
+              - button [ref=f1e356]:
+                - 'img "7.6: Exercises - Engineering LibreTexts" [ref=f1e358]'
+              - generic [ref=f1e360]:
+                - generic [ref=f1e362]: "7.6: Exercises - Engineering LibreTexts"
+                - generic [ref=f1e363]:
+                  - generic [ref=f1e365]: Engineering LibreTexts
+                  - button "About this result" [ref=f1e375]
+            - generic [ref=f1e383] [cursor=pointer]:
+              - 'link "7.2: Nodal Analysis - Engineering LibreTexts Engineering LibreTexts" [ref=f1e384]':
+                - /url: https://eng.libretexts.org/Bookshelves/Electrical_Engineering/Electronics/DC_Electrical_Circuit_Analysis_-_A_Practical_Approach_(Fiore)/07%3A_Nodal_and_Mesh_Analysis_Dependent_Sources/7.2%3A_Nodal_Analysis
+              - button [ref=f1e386]:
+                - 'img "7.2: Nodal Analysis - Engineering LibreTexts" [ref=f1e388]'
+              - generic [ref=f1e390]:
+                - generic [ref=f1e392]: "7.2: Nodal Analysis - Engineering LibreTexts"
+                - generic [ref=f1e393]:
+                  - generic [ref=f1e395]: Engineering LibreTexts
+                  - button "About this result" [ref=f1e405]
+          - button "Show more images" [ref=f1e411] [cursor=pointer]:
+            - separator [aria-hidden] [ref=f1e412]
+        - generic [ref=f1e420]:
+          - heading "Web results" [level=2] [ref=f1e421]
+          - generic [ref=f1e422]:
+            - generic [ref=f1e425]:
+              - 'link "4.5: Mesh Analysis Engineering LibreTexts https://eng.libretexts.org › Courses › Canada_College › 4...." [ref=f1e427] [cursor=pointer]':
+                - /url: https://eng.libretexts.org/Courses/Canada_College/Circuits_and_Electronics_Laboratory/04%3A_Theorems_and_Analysis_Methods/4.05%3A_Mesh_Analysis
+                - 'heading "4.5: Mesh Analysis" [level=3] [ref=f1e428]'
+                - generic [ref=f1e434]:
+                  - generic [ref=f1e435]: Engineering LibreTexts
+                  - generic [ref=f1e437]: https://eng.libretexts.org › Courses › Canada_College › 4....
+              - button "About this result" [ref=f1e443] [cursor=pointer]
+            - generic [ref=f1e449]:
+              - generic [ref=f1e450]: Jan 14, 2025 —
+              - generic [ref=f1e451]:
+                - text: Objective. The study of
+                - emphasis [ref=f1e452]: mesh analysis
+                - text: is the objective of this
+                - emphasis [ref=f1e453]: exercise
+                - text: ", specifically its usage in multi-source DC"
+                - emphasis [ref=f1e454]: circuits
+                - text: .
+              - link "Read more" [ref=f1e455] [cursor=pointer]:
+                - /url: https://eng.libretexts.org/Courses/Canada_College/Circuits_and_Electronics_Laboratory/04%3A_Theorems_and_Analysis_Methods/4.05%3A_Mesh_Analysis#:~:text=Objective,usage%20in%20multi%2Dsource%20DC%20circuits.
+        - generic [ref=f1e459]:
+          - generic [ref=f1e462]:
+            - 'link "14: Mesh Analysis Engineering LibreTexts https://eng.libretexts.org › Bookshelves › Electronics › 1..." [ref=f1e464] [cursor=pointer]':
+              - /url: https://eng.libretexts.org/Bookshelves/Electrical_Engineering/Electronics/Laboratory_Manual_-_DC_Electrical_Circuit_Analysis_(Fiore)/14%3A_Mesh_Analysis
+              - 'heading "14: Mesh Analysis" [level=3] [ref=f1e465]'
+              - generic [ref=f1e471]:
+                - generic [ref=f1e472]: Engineering LibreTexts
+                - generic [ref=f1e474]: https://eng.libretexts.org › Bookshelves › Electronics › 1...
+            - button "About this result" [ref=f1e480] [cursor=pointer]
+          - generic [ref=f1e487]:
+            - text: The study of
+            - emphasis [ref=f1e488]: mesh analysis
+            - text: is the objective of this
+            - emphasis [ref=f1e489]: exercise
+            - text: ", specifically its usage in multi-source DC"
+            - emphasis [ref=f1e490]: circuits
+            - text: . Its application to finding
+            - emphasis [ref=f1e491]: circuit
+            - text: currents ...
+        - generic [ref=f1e495]:
+          - generic [ref=f1e498]:
+            - 'link "6.3: Mesh Analysis Engineering LibreTexts https://eng.libretexts.org › ... › 6: Nodal and Mesh Analysis" [ref=f1e500] [cursor=pointer]':
+              - /url: https://eng.libretexts.org/Bookshelves/Electrical_Engineering/Electronics/AC_Electrical_Circuit_Analysis%3A_A_Practical_Approach_(Fiore)/06%3A_Nodal_and_Mesh_Analysis/6.3%3A_Mesh_Analysis
+              - 'heading "6.3: Mesh Analysis" [level=3] [ref=f1e501]'
+              - generic [ref=f1e507]:
+                - generic [ref=f1e508]: Engineering LibreTexts
+                - generic [ref=f1e510]: "https://eng.libretexts.org › ... › 6: Nodal and Mesh Analysis"
+            - button "About this result" [ref=f1e516] [cursor=pointer]
+          - generic [ref=f1e522]:
+            - generic [ref=f1e523]: May 22, 2022 —
+            - generic [ref=f1e524]:
+              - emphasis [ref=f1e525]: Mesh analysis
+              - text: is similar to
+              - emphasis [ref=f1e526]: nodal analysis
+              - text: in that it can handle complex multi-source
+              - emphasis [ref=f1e527]: circuits
+              - text: . In some ways it is the mirror image of nodal ...
+            - link "Read more" [ref=f1e528] [cursor=pointer]:
+              - /url: https://eng.libretexts.org/Bookshelves/Electrical_Engineering/Electronics/AC_Electrical_Circuit_Analysis%3A_A_Practical_Approach_(Fiore)/06%3A_Nodal_and_Mesh_Analysis/6.3%3A_Mesh_Analysis#:~:text=Mesh%20analysis%20is%20similar%20to,the%20mirror%20image%20of%20nodal
+        - generic [ref=f1e532]:
+          - generic [ref=f1e535]:
+            - 'link "7: Nodal and Mesh Analysis, Dependent Sources Engineering LibreTexts https://eng.libretexts.org › Bookshelves › Electronics › 0..." [ref=f1e537] [cursor=pointer]':
+              - /url: https://eng.libretexts.org/Bookshelves/Electrical_Engineering/Electronics/DC_Electrical_Circuit_Analysis_-_A_Practical_Approach_(Fiore)/07%3A_Nodal_and_Mesh_Analysis_Dependent_Sources
+              - 'heading "7: Nodal and Mesh Analysis, Dependent Sources" [level=3] [ref=f1e538]'
+              - generic [ref=f1e544]:
+                - generic [ref=f1e545]: Engineering LibreTexts
+                - generic [ref=f1e547]: https://eng.libretexts.org › Bookshelves › Electronics › 0...
+            - button "About this result" [ref=f1e553] [cursor=pointer]
+          - generic [ref=f1e559]:
+            - generic [ref=f1e560]: Sep 12, 2021 —
+            - generic [ref=f1e561]:
+              - emphasis [ref=f1e562]: Utilize mesh analysis techniques
+              - text: to solve for currents in multi-source series-parallel networks. Analyze networks using dependent voltage and ...
+            - link "Read more" [ref=f1e563] [cursor=pointer]:
+              - /url: https://eng.libretexts.org/Bookshelves/Electrical_Engineering/Electronics/DC_Electrical_Circuit_Analysis_-_A_Practical_Approach_(Fiore)/07%3A_Nodal_and_Mesh_Analysis_Dependent_Sources#:~:text=Utilize%20mesh%20analysis%20techniques%20to,dependent%20voltage%20and%20current%20sources.
+      - navigation [ref=f1e566]:
+        - heading "Page Navigation" [level=1] [ref=f1e567]
+        - text: "1"
+        - link "Page 2" [ref=f1e570] [cursor=pointer]:
+          - /url: /search?q=site:eng.libretexts.org+mesh+analysis+exercises+circuit&sca_esv=882e2611175d5c4b&sxsrf=APpeQnuvq1yBHPi0OfFrowVSla4t-k74og:1792548366355&ei=Dh7YaviBFdGKruEP3uaIyQ8&start=10&sa=N&sstk=AS6-VmJsoXebC3JRYYzD5iVA0kzxT-SzGPVYfsgkXuIpssLnVH2F0MmBK98KoNcWKulahxC3hEWAI1N_vTeB1sByLVMipMaC3pf6BQ&ved=2ahUKEwj4wPmEg8qXAxVRhSsGHV4zIvkQ8tMDegQIMBAE
+          - text: "2"
+        - link "Page 3" [ref=f1e572] [cursor=pointer]:
+          - /url: /search?q=site:eng.libretexts.org+mesh+analysis+exercises+circuit&sca_esv=882e2611175d5c4b&sxsrf=APpeQnuvq1yBHPi0OfFrowVSla4t-k74og:1792548366355&ei=Dh7YaviBFdGKruEP3uaIyQ8&start=20&sa=N&sstk=AS6-VmJsoXebC3JRYYzD5iVA0kzxT-SzGPVYfsgkXuIpssLnVH2F0MmBK98KoNcWKulahxC3hEWAI1N_vTeB1sByLVMipMaC3pf6BQ&ved=2ahUKEwj4wPmEg8qXAxVRhSsGHV4zIvkQ8tMDegQIMBAG
+          - text: "3"
+        - link "Page 4" [ref=f1e574] [cursor=pointer]:
+          - /url: /search?q=site:eng.libretexts.org+mesh+analysis+exercises+circuit&sca_esv=882e2611175d5c4b&sxsrf=APpeQnuvq1yBHPi0OfFrowVSla4t-k74og:1792548366355&ei=Dh7YaviBFdGKruEP3uaIyQ8&start=30&sa=N&sstk=AS6-VmJsoXebC3JRYYzD5iVA0kzxT-SzGPVYfsgkXuIpssLnVH2F0MmBK98KoNcWKulahxC3hEWAI1N_vTeB1sByLVMipMaC3pf6BQ&ved=2ahUKEwj4wPmEg8qXAxVRhSsGHV4zIvkQ8tMDegQIMBAI
+          - text: "4"
+        - heading [level=2] [ref=f1e576]:
+          - link "Next" [ref=f1e577] [cursor=pointer]:
+            - /url: /search?q=site:eng.libretexts.org+mesh+analysis+exercises+circuit&sca_esv=882e2611175d5c4b&sxsrf=APpeQnuvq1yBHPi0OfFrowVSla4t-k74og:1792548366355&ei=Dh7YaviBFdGKruEP3uaIyQ8&start=10&sa=N&sstk=AS6-VmJsoXebC3JRYYzD5iVA0kzxT-SzGPVYfsgkXuIpssLnVH2F0MmBK98KoNcWKulahxC3hEWAI1N_vTeB1sByLVMipMaC3pf6BQ&ved=2ahUKEwj4wPmEg8qXAxVRhSsGHV4zIvkQ8NMDegQIMBAK
+      - navigation
+    - contentinfo [ref=f1e580]:
+      - heading "Footer Links" [level=1] [ref=f1e581]
+      - generic [ref=f1e585]:
+        - generic [ref=f1e586]: Results are not personalized
+        - generic [ref=f1e593]:
+          - button "Bedford-Stuyvesant, New York - From your IP address" [ref=f1e595] [cursor=pointer]:
+            - generic [ref=f1e596]: Bedford-Stuyvesant, New York
+            - generic [ref=f1e598]:
+              - text: "-"
+              - generic [ref=f1e599]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=f1e601] [cursor=pointer]
+        - generic [ref=f1e604]:
+          - link "Help" [ref=f1e605] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=f1e606] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=f1e607] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=f1e608] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

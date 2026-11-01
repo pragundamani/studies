@@ -1,0 +1,817 @@
+- generic [ref=e1]:
+  - iframe [aria-hidden] [ref=e2]
+  - generic [aria-hidden] [ref=e3]: None selected
+  - generic [ref=e11]:
+    - generic [ref=e13]:
+      - generic [ref=e14]:
+        - link [ref=e1901] [cursor=pointer]:
+          - /url: ""
+          - text: Skip to content
+        - link [ref=e1902] [cursor=pointer]:
+          - /url: ""
+          - text: Using Gmail with screen readers
+      - heading [level=1] [ref=e18]:
+        - banner [ref=e19]:
+          - generic [ref=e20]:
+            - generic [ref=e21]:
+              - button [expanded] [ref=e1903] [cursor=pointer]
+              - link [ref=e1904] [cursor=pointer]:
+                - /url: "#inbox"
+            - generic [ref=e29]:
+              - search [ref=e31]:
+                - heading [level=2] [ref=e1905]: Search
+                - table [ref=e34]:
+                  - rowgroup [ref=e35]:
+                    - row [ref=e1906]:
+                      - cell [ref=e1907]:
+                        - textbox [ref=e1908]:
+                          - /placeholder: Search mail
+                          - text: ("quiz 7" OR "quiz 07" OR "HW07" OR "electric potential")
+                - button [ref=e1909] [cursor=pointer]
+                - button [ref=e1910] [cursor=pointer]
+                - button [ref=e1911] [cursor=pointer]
+              - generic [ref=e50]:
+                - button [ref=e1912] [cursor=pointer]
+                - button [ref=e1913] [cursor=pointer]
+                - generic [ref=e62]:
+                  - button [ref=e1914] [cursor=pointer]
+                  - tooltip [aria-hidden] [ref=e72]: Try Gemini
+                - generic [ref=e75]:
+                  - link [ref=e1915] [cursor=pointer]:
+                    - generic [ref=e79]: Upgrade
+                  - tooltip [aria-hidden] [ref=e80]: Upgrade for premium features
+            - generic [ref=e82]:
+              - button [ref=e1916] [cursor=pointer]
+              - button [ref=e1917] [cursor=pointer]
+      - alert [ref=e97]
+    - generic [ref=e100]:
+      - navigation [ref=e101]:
+        - button [ref=e1918] [cursor=pointer]: Compose
+        - generic [ref=e110]:
+          - generic [ref=e1919]:
+            - heading [level=2] [ref=e1920]: Labels
+            - generic [ref=e114]:
+              - generic [ref=e115]:
+                - generic [ref=e117]:
+                  - generic [ref=e847]:
+                    - link [ref=e1921] [cursor=pointer]:
+                      - /url: https://mail.google.com/mail/u/0/#inbox
+                      - text: Inbox
+                    - generic [ref=e850]: "307"
+                  - link [ref=e1922] [cursor=pointer]:
+                    - /url: https://mail.google.com/mail/u/0/#starred
+                    - text: Starred
+                  - link [ref=e1923] [cursor=pointer]:
+                    - /url: https://mail.google.com/mail/u/0/#snoozed
+                    - text: Snoozed
+                  - link [ref=e1924] [cursor=pointer]:
+                    - /url: https://mail.google.com/mail/u/0/#sent
+                    - text: Sent
+                  - generic [ref=e151]:
+                    - link [ref=e1925] [cursor=pointer]:
+                      - /url: https://mail.google.com/mail/u/0/#drafts
+                      - text: Drafts
+                    - generic [ref=e154]: "2"
+                - generic [ref=e161]:
+                  - link [ref=e1926] [cursor=pointer]:
+                    - /url: https://mail.google.com/mail/u/0/#category/purchases
+                    - text: Purchases
+                  - generic [ref=e164]: "20"
+              - button [ref=e1927] [cursor=pointer]:
+                - generic [ref=e167]: More
+          - generic [ref=e170]:
+            - heading [ref=e1928]: Labels
+            - button [ref=e1929] [cursor=pointer]
+          - generic [ref=e1930]:
+            - heading [level=2] [ref=e1931]: Labels
+            - generic [ref=e179]:
+              - link [ref=e1932] [cursor=pointer]:
+                - /url: https://mail.google.com/mail/u/0/#label/%5BGmail%5D/Bin/%5BGmail%5D
+                - text: "[Gmail]/Bin/[Gmail]"
+              - link [ref=e1933] [cursor=pointer]:
+                - /url: https://mail.google.com/mail/u/0/#label/%5BImap%5D/Archive
+                - text: "[Imap]/Archive"
+              - link [ref=e1934] [cursor=pointer]:
+                - /url: https://mail.google.com/mail/u/0/#label/%5BImap%5D/Trash
+                - text: "[Imap]/Trash"
+              - link [ref=e1935] [cursor=pointer]:
+                - /url: https://mail.google.com/mail/u/0/#label/DeltaChat
+                - text: DeltaChat
+      - main [ref=e1051]:
+        - generic [ref=e1052]:
+          - toolbar [ref=e1936]:
+            - generic [ref=e1057]:
+              - button [ref=e1937] [cursor=pointer]:
+                - generic [ref=e1061]: From
+              - button [ref=e1938] [cursor=pointer]:
+                - generic [ref=e1069]: Any time
+              - button [ref=e1939] [cursor=pointer]:
+                - generic [ref=e1076]: Has attachment
+              - button [ref=e1940] [cursor=pointer]:
+                - generic [ref=e1081]: To
+              - button [ref=e1941] [cursor=pointer]:
+                - generic [ref=e1088]: Advanced search
+          - generic [ref=e1090]:
+            - generic [ref=e1093]:
+              - button [ref=e1942] [cursor=pointer]:
+                - checkbox [ref=e1097]
+              - generic [ref=e1197]:
+                - button [ref=e1943] [cursor=pointer]
+                - button [ref=e1944] [cursor=pointer]
+                - button [ref=e1945] [cursor=pointer]
+              - generic [ref=e1207]:
+                - button [ref=e1946] [cursor=pointer]
+                - button [ref=e1947] [cursor=pointer]
+              - button [ref=e1948] [cursor=pointer]
+            - generic [ref=e1107]:
+              - button [ref=e1949] [cursor=pointer]:
+                - generic [ref=e1115]: Showing most relevant
+              - generic [ref=e1121]:
+                - button [ref=e1950] [cursor=pointer]:
+                  - generic [ref=e1123]:
+                    - generic [ref=e1124]: 1–1
+                    - text: of 1
+                - button [disabled] [ref=e1951]
+                - button [disabled] [ref=e1952]
+              - generic [ref=e1127]:
+                - button [ref=e1953] [cursor=pointer]
+                - button [ref=e1131] [cursor=pointer]
+        - heading [level=2] [ref=e1954]: Conversations
+        - generic [ref=e1135]:
+          - grid [ref=e1140]:
+            - rowgroup [ref=e1141]:
+              - row [ref=e1955] [cursor=pointer]:
+                - gridcell [ref=e1956]
+                - gridcell [ref=e1957]:
+                  - checkbox [ref=e1958]
+                - gridcell [ref=e1959]:
+                  - button [ref=e1960]
+                - gridcell [ref=e1961]:
+                  - generic [ref=e1962]:
+                    - generic [ref=e1963]: Manav Kapoor
+                    - generic [ref=e1964]: "2"
+                - gridcell [ref=e1965]:
+                  - link [ref=e1966]:
+                    - generic [ref=e1967]:
+                      - generic [ref=e1968]: Inbox
+                      - generic [ref=e1973]: "Re: Daddy?"
+                      - generic [ref=e1975]: "From: William Chen Date: Thu, Sep 10, 2026 at 6:23 PM Subject: Daddy? To: Manav Kapoor . i faded quizzes 7,8,10,11"
+                - gridcell [ref=e1976]
+                - gridcell [ref=e1978]:
+                  - generic [ref=e1979]: 18 Sept
+          - generic [ref=e1224]:
+            - generic [ref=e1226]:
+              - generic [ref=e1228]:
+                - generic [ref=e1229]:
+                  - button [ref=e1980] [cursor=pointer]
+                  - tooltip [aria-hidden] [ref=e1236]: Forward all
+                - generic [ref=e1237]:
+                  - button [ref=e1981] [cursor=pointer]
+                  - tooltip [aria-hidden] [ref=e1244]: Collapse all
+                - generic [ref=e1245]:
+                  - button [ref=e1982] [cursor=pointer]
+                  - tooltip [aria-hidden] [ref=e1252]: Turn off highlighting
+                - generic [ref=e1253]:
+                  - button [ref=e1983] [cursor=pointer]
+                  - tooltip [aria-hidden] [ref=e1260]: Print all
+                - generic [ref=e1261]:
+                  - button [ref=e1984] [cursor=pointer]
+                  - tooltip [aria-hidden] [ref=e1268]: In new window
+              - generic [ref=e1270]:
+                - heading [level=2] [ref=e1985]: "Re: Daddy?"
+                - generic [ref=e1273] [cursor=pointer]:
+                  - generic [ref=e1274]:
+                    - button [ref=e1986]: Inbox
+                    - tooltip [aria-hidden] [ref=e1277]: Search for all messages with label Inbox
+                  - generic [ref=e1278]:
+                    - button [ref=e1987]: ×
+                    - tooltip [aria-hidden] [ref=e1281]: Remove label Inbox from this conversation
+            - list [ref=e1284]:
+              - listitem [ref=e1285]:
+                - generic [ref=e1291]:
+                  - generic [ref=e1292] [cursor=pointer]
+                  - generic [ref=e1296]:
+                    - table [ref=e1298] [cursor=pointer]:
+                      - rowgroup [ref=e1299]:
+                        - row [ref=e1988]:
+                          - cell [ref=e1989]:
+                            - table [ref=e1302]:
+                              - rowgroup [ref=e1303]:
+                                - row [ref=e1990]:
+                                  - cell [ref=e1991]:
+                                    - heading [level=3] [ref=e1992]:
+                                      - gridcell [ref=e1993]:
+                                        - generic [ref=e1308]: Manav Kapoor
+                                        - generic [ref=e1309]: <mk10223@nyu.edu>
+                          - cell [ref=e1994]:
+                            - generic [ref=e1311]:
+                              - gridcell [ref=e1995]: Fri 18 Sept, 18:08
+                              - checkbox [ref=e1996]
+                          - cell [ref=e1997]:
+                            - generic [ref=e1318]:
+                              - button [ref=e1998]
+                              - tooltip [aria-hidden] [ref=e1325]: Add reaction
+                            - generic [ref=e1326]:
+                              - button [ref=e1999]
+                              - tooltip [aria-hidden] [ref=e1333]: Reply
+                            - generic [ref=e1336]:
+                              - button [ref=e2001]
+                              - tooltip [aria-hidden] [ref=e1342]: More
+                        - row [ref=e2002]:
+                          - cell [ref=e2003]:
+                            - table [ref=e1345]:
+                              - rowgroup [ref=e1346]:
+                                - row [ref=e2004]:
+                                  - cell [ref=e2005]:
+                                    - generic [ref=e1349]: to me
+                                    - button [ref=e2006]
+                    - generic [ref=e1359]:
+                      - generic [ref=e1360]:
+                        - text: On Fri, Sep 11, 2026 at 12:05 PM Manav Kapoor <
+                        - link [ref=e2007] [cursor=pointer]:
+                          - /url: mailto:mk10223@nyu.edu
+                          - text: mk10223@nyu.edu
+                        - text: "> wrote:"
+                      - blockquote [ref=e1362]:
+                        - generic [ref=e1365]:
+                          - generic [ref=e1366]:
+                            - text: "---------- Forwarded message --------- From:"
+                            - strong [ref=e1367]: William Chen
+                            - generic [ref=e1368]:
+                              - text: <
+                              - link [ref=e2008] [cursor=pointer]:
+                                - /url: mailto:wc2715@nyu.edu
+                                - text: wc2715@nyu.edu
+                              - text: ">"
+                            - text: "Date: Thu, Sep 10, 2026 at 6:23 PM Subject: Daddy? To: Manav Kapoor <"
+                            - link [ref=e2009] [cursor=pointer]:
+                              - /url: mailto:mk10223@nyu.edu
+                              - text: mk10223@nyu.edu
+                            - text: ">"
+                          - generic [ref=e1371]: i faded quizzes 7,8,10,11
+              - listitem [ref=e1372]:
+                - generic [ref=e1383]:
+                  - table [ref=e1385]:
+                    - rowgroup [ref=e1386]:
+                      - row [ref=e2010]:
+                        - cell [ref=e2011]:
+                          - table [ref=e1389]:
+                            - rowgroup [ref=e1390]:
+                              - row [ref=e2012]:
+                                - cell [ref=e2013]:
+                                  - heading [level=3] [ref=e2014]:
+                                    - gridcell [ref=e2015]:
+                                      - generic [ref=e1395]: Manav Kapoor
+                                      - generic [ref=e1396]: <mk10223@nyu.edu>
+                        - cell [ref=e2016]:
+                          - generic [ref=e1398]:
+                            - gridcell [ref=e2018]: Fri 18 Sept, 18:23
+                            - checkbox [ref=e2019] [cursor=pointer]
+                        - cell [ref=e2020]:
+                          - generic [ref=e1407]:
+                            - button [ref=e2021] [cursor=pointer]
+                            - tooltip [aria-hidden] [ref=e1414]: Add reaction
+                          - generic [ref=e1415]:
+                            - button [ref=e2022] [cursor=pointer]
+                            - tooltip [aria-hidden] [ref=e1422]: Reply
+                          - generic [ref=e1425]:
+                            - button [ref=e2024] [cursor=pointer]
+                            - tooltip [aria-hidden] [ref=e1431]: More
+                      - row [ref=e2025]:
+                        - cell [ref=e2026]:
+                          - table [ref=e1434]:
+                            - rowgroup [ref=e1435]:
+                              - row [ref=e2027]:
+                                - cell [ref=e2028]:
+                                  - generic [ref=e1438]: to me
+                                  - button [ref=e2029]
+                  - generic [ref=e1441]:
+                    - button [ref=e2030] [cursor=pointer]
+                    - generic [ref=e1445]:
+                      - generic [ref=e1447]:
+                        - generic [ref=e1448]:
+                          - generic [ref=e1449]: 12 attachment
+                          - generic [ref=e1450]: • Scanned by Gmail
+                        - generic [ref=e1453]:
+                          - generic [ref=e1454]:
+                            - button [ref=e2032] [cursor=pointer]
+                            - tooltip [aria-hidden] [ref=e1461]: Download all attachments
+                          - button [ref=e2033] [cursor=pointer]:
+                            - generic [ref=e1470]: Add all to Drive
+                      - generic [ref=e1471]:
+                        - generic [ref=e1472]:
+                          - link [ref=e2034] [cursor=pointer]:
+                            - /url: https://mail.google.com/mail/u/0?ui=2&ik=76bcabf10f&attid=0.1&permmsgid=msg-f:1876710073651835739&th=1a0b69de666a335b&view=att&disp=safe&realattid=f_mtw3d5j90&zw
+                            - generic [ref=e1474]: Preview attachment Print Submission | Gradescope
+                            - generic [ref=e1475]: Preview attachment Print Submission | Gradescope
+                            - generic [ref=e1479]: Print Submission | Gradescope
+                          - generic [ref=e1489]:
+                            - button [ref=e2035] [cursor=pointer]
+                            - tooltip [aria-hidden] [ref=e1495]: Download
+                            - button [ref=e2036] [cursor=pointer]
+                            - tooltip [aria-hidden] [ref=e1502]: Add to Drive
+                            - tooltip [aria-hidden] [ref=e1503]: Edit with
+                        - generic [ref=e1504]:
+                          - link [ref=e2037] [cursor=pointer]:
+                            - /url: https://mail.google.com/mail/u/0?ui=2&ik=76bcabf10f&attid=0.2&permmsgid=msg-f:1876710073651835739&th=1a0b69de666a335b&view=att&disp=safe&realattid=f_mtw3d5jd1&zw
+                            - generic [ref=e1506]: Preview attachment Print Submission | Gradescope
+                            - generic [ref=e1507]: Preview attachment Print Submission | Gradescope
+                            - generic [ref=e1511]: Print Submission | Gradescope
+                          - generic [ref=e1521]:
+                            - button [ref=e2038] [cursor=pointer]
+                            - tooltip [aria-hidden] [ref=e1527]: Download
+                            - button [ref=e2039] [cursor=pointer]
+                            - tooltip [aria-hidden] [ref=e1534]: Add to Drive
+                            - tooltip [aria-hidden] [ref=e1535]: Edit with
+                        - generic [ref=e1536]:
+                          - link [ref=e2040] [cursor=pointer]:
+                            - /url: https://mail.google.com/mail/u/0?ui=2&ik=76bcabf10f&attid=0.3&permmsgid=msg-f:1876710073651835739&th=1a0b69de666a335b&view=att&disp=safe&realattid=f_mtw3d5jf2&zw
+                            - generic [ref=e1538]: Preview attachment Print Submission | Gradescope
+                            - generic [ref=e1539]: Preview attachment Print Submission | Gradescope
+                            - generic [ref=e1543]: Print Submission | Gradescope
+                          - generic [ref=e1553]:
+                            - button [ref=e2041] [cursor=pointer]
+                            - tooltip [aria-hidden] [ref=e1559]: Download
+                            - button [ref=e2042] [cursor=pointer]
+                            - tooltip [aria-hidden] [ref=e1566]: Add to Drive
+                            - tooltip [aria-hidden] [ref=e1567]: Edit with
+                        - generic [ref=e1568]:
+                          - link [ref=e2043] [cursor=pointer]:
+                            - /url: https://mail.google.com/mail/u/0?ui=2&ik=76bcabf10f&attid=0.4&permmsgid=msg-f:1876710073651835739&th=1a0b69de666a335b&view=att&disp=safe&realattid=f_mtw3d5ji3&zw
+                            - generic [ref=e1570]: Preview attachment Print Submission | Gradescope
+                            - generic [ref=e1571]: Preview attachment Print Submission | Gradescope
+                            - generic [ref=e1575]: Print Submission | Gradescope
+                          - generic [ref=e1585]:
+                            - button [ref=e2044] [cursor=pointer]
+                            - tooltip [aria-hidden] [ref=e1591]: Download
+                            - button [ref=e2045] [cursor=pointer]
+                            - tooltip [aria-hidden] [ref=e1598]: Add to Drive
+                            - tooltip [aria-hidden] [ref=e1599]: Edit with
+                        - generic [ref=e1600]:
+                          - link [ref=e2046] [cursor=pointer]:
+                            - /url: https://mail.google.com/mail/u/0?ui=2&ik=76bcabf10f&attid=0.5&permmsgid=msg-f:1876710073651835739&th=1a0b69de666a335b&view=att&disp=safe&realattid=f_mtw3d5jk4&zw
+                            - generic [ref=e1602]: Preview attachment Print Submission | Gradescope
+                            - generic [ref=e1603]: Preview attachment Print Submission | Gradescope
+                            - generic [ref=e1607]: Print Submission | Gradescope
+                          - generic [ref=e1617]:
+                            - button [ref=e2047] [cursor=pointer]
+                            - tooltip [aria-hidden] [ref=e1623]: Download
+                            - button [ref=e2048] [cursor=pointer]
+                            - tooltip [aria-hidden] [ref=e1630]: Add to Drive
+                            - tooltip [aria-hidden] [ref=e1631]: Edit with
+                        - generic [ref=e1632]:
+                          - link [ref=e2049] [cursor=pointer]:
+                            - /url: https://mail.google.com/mail/u/0?ui=2&ik=76bcabf10f&attid=0.6&permmsgid=msg-f:1876710073651835739&th=1a0b69de666a335b&view=att&disp=safe&realattid=f_mtw3d5jm5&zw
+                            - generic [ref=e1634]: Preview attachment Print Submission | Gradescope
+                            - generic [ref=e1635]: Preview attachment Print Submission | Gradescope
+                            - generic [ref=e1639]: Print Submission | Gradescope
+                          - generic [ref=e1649]:
+                            - button [ref=e2050] [cursor=pointer]
+                            - tooltip [aria-hidden] [ref=e1655]: Download
+                            - button [ref=e2051] [cursor=pointer]
+                            - tooltip [aria-hidden] [ref=e1662]: Add to Drive
+                            - tooltip [aria-hidden] [ref=e1663]: Edit with
+                        - generic [ref=e1664]:
+                          - link [ref=e2052] [cursor=pointer]:
+                            - /url: https://mail.google.com/mail/u/0?ui=2&ik=76bcabf10f&attid=0.7&permmsgid=msg-f:1876710073651835739&th=1a0b69de666a335b&view=att&disp=safe&realattid=f_mtw3d5jn6&zw
+                            - generic [ref=e1666]: Preview attachment Print Submission | Gradescope
+                            - generic [ref=e1667]: Preview attachment Print Submission | Gradescope
+                            - generic [ref=e1671]: Print Submission | Gradescope
+                          - generic [ref=e1681]:
+                            - button [ref=e2053] [cursor=pointer]
+                            - tooltip [aria-hidden] [ref=e1687]: Download
+                            - button [ref=e2054] [cursor=pointer]
+                            - tooltip [aria-hidden] [ref=e1694]: Add to Drive
+                            - tooltip [aria-hidden] [ref=e1695]: Edit with
+                        - generic [ref=e1696]:
+                          - link [ref=e2055] [cursor=pointer]:
+                            - /url: https://mail.google.com/mail/u/0?ui=2&ik=76bcabf10f&attid=0.8&permmsgid=msg-f:1876710073651835739&th=1a0b69de666a335b&view=att&disp=safe&realattid=f_mtw3d5jp7&zw
+                            - generic [ref=e1698]: Preview attachment Print Submission | Gradescope
+                            - generic [ref=e1699]: Preview attachment Print Submission | Gradescope
+                            - generic [ref=e1703]: Print Submission | Gradescope
+                          - generic [ref=e1713]:
+                            - button [ref=e2056] [cursor=pointer]
+                            - tooltip [aria-hidden] [ref=e1719]: Download
+                            - button [ref=e2057] [cursor=pointer]
+                            - tooltip [aria-hidden] [ref=e1726]: Add to Drive
+                            - tooltip [aria-hidden] [ref=e1727]: Edit with
+                        - generic [ref=e1728]:
+                          - link [ref=e2058] [cursor=pointer]:
+                            - /url: https://mail.google.com/mail/u/0?ui=2&ik=76bcabf10f&attid=0.9&permmsgid=msg-f:1876710073651835739&th=1a0b69de666a335b&view=att&disp=safe&realattid=f_mtw3d5jr8&zw
+                            - generic [ref=e1730]: Preview attachment Print Submission | Gradescope
+                            - generic [ref=e1731]: Preview attachment Print Submission | Gradescope
+                            - generic [ref=e1735]: Print Submission | Gradescope
+                          - generic [ref=e1745]:
+                            - button [ref=e2059] [cursor=pointer]
+                            - tooltip [aria-hidden] [ref=e1751]: Download
+                            - button [ref=e2060] [cursor=pointer]
+                            - tooltip [aria-hidden] [ref=e1758]: Add to Drive
+                            - tooltip [aria-hidden] [ref=e1759]: Edit with
+                        - generic [ref=e1760]:
+                          - link [ref=e2061] [cursor=pointer]:
+                            - /url: https://mail.google.com/mail/u/0?ui=2&ik=76bcabf10f&attid=0.10&permmsgid=msg-f:1876710073651835739&th=1a0b69de666a335b&view=att&disp=safe&realattid=f_mtw3de0h9&zw
+                            - generic [ref=e1762]: Preview attachment 2023X2aF25.pdf
+                            - generic [ref=e1763]: Preview attachment 2023X2aF25.pdf
+                            - generic [ref=e1767]: 2023X2aF25.pdf
+                          - generic [ref=e1777]:
+                            - button [ref=e2062] [cursor=pointer]
+                            - tooltip [aria-hidden] [ref=e1783]: Download
+                            - button [ref=e2063] [cursor=pointer]
+                            - tooltip [aria-hidden] [ref=e1790]: Add to Drive
+                            - tooltip [aria-hidden] [ref=e1791]: Edit with
+                        - generic [ref=e1792]:
+                          - link [ref=e2064] [cursor=pointer]:
+                            - /url: https://mail.google.com/mail/u/0?ui=2&ik=76bcabf10f&attid=0.11&permmsgid=msg-f:1876710073651835739&th=1a0b69de666a335b&view=att&disp=safe&realattid=f_mtw3dhsg10&zw
+                            - generic [ref=e1794]: Preview attachment 2023X2aS25.pdf
+                            - generic [ref=e1795]: Preview attachment 2023X2aS25.pdf
+                            - generic [ref=e1799]: 2023X2aS25.pdf
+                          - generic [ref=e1809]:
+                            - button [ref=e2065] [cursor=pointer]
+                            - tooltip [aria-hidden] [ref=e1815]: Download
+                            - button [ref=e2066] [cursor=pointer]
+                            - tooltip [aria-hidden] [ref=e1822]: Add to Drive
+                            - tooltip [aria-hidden] [ref=e1823]: Edit with
+                        - generic [ref=e1824]:
+                          - link [ref=e2067] [cursor=pointer]:
+                            - /url: https://mail.google.com/mail/u/0?ui=2&ik=76bcabf10f&attid=0.12&permmsgid=msg-f:1876710073651835739&th=1a0b69de666a335b&view=att&disp=safe&realattid=f_mtw3e3r511&zw
+                            - generic [ref=e1826]: Preview attachment fall 25 phys 2 midterm.pdf
+                            - generic [ref=e1827]: Preview attachment fall 25 phys 2 midterm.pdf
+                            - generic [ref=e1831]: fall 25 phys 2 midterm.pdf
+                          - generic [ref=e1841]:
+                            - button [ref=e2068] [cursor=pointer]
+                            - tooltip [aria-hidden] [ref=e1847]: Download
+                            - button [ref=e2069] [cursor=pointer]
+                            - tooltip [aria-hidden] [ref=e1854]: Add to Drive
+                            - tooltip [aria-hidden] [ref=e1855]: Edit with
+            - generic [ref=e1861]:
+              - link [ref=e2070] [cursor=pointer]: Reply
+              - link [ref=e2071] [cursor=pointer]: Forward
+              - generic [ref=e1865]:
+                - button [ref=e2072] [cursor=pointer]
+                - tooltip [aria-hidden] [ref=e1872]: Add reaction
+      - generic [ref=e828]:
+        - complementary [ref=e2073]:
+          - tablist [ref=e831]:
+            - tab:
+              - generic [ref=e832] [cursor=pointer]
+            - tab:
+              - generic [ref=e833] [cursor=pointer]
+            - tab:
+              - generic [ref=e834] [cursor=pointer]
+            - tab:
+              - generic [ref=e835] [cursor=pointer]
+            - separator [disabled] [ref=e836]
+            - tab:
+              - generic [ref=e837] [cursor=pointer]
+        - generic:
+          - button:
+            - generic [ref=e838] [cursor=pointer]
+  - generic [ref=e2076]:
+    - generic [ref=e2077]:
+      - generic [ref=e2080]:
+        - generic [ref=e2082]:
+          - button "Close" [ref=e2083] [cursor=pointer]
+          - tooltip [aria-hidden] [ref=e2088]: Close
+        - heading "Print Submission | Gradescope" [level=2] [ref=e2098]
+        - generic [ref=e2102]:
+          - button "Add to My Drive" [ref=e2103] [cursor=pointer]
+          - tooltip [aria-hidden] [ref=e2109]: Add to My Drive
+        - menubar "Menu bar" [ref=e2111]:
+          - generic [ref=e2112]:
+            - generic [ref=e2113]:
+              - menuitem "File" [ref=e2118] [cursor=pointer]
+              - menuitem "View" [ref=e2124] [cursor=pointer]
+              - menuitem "Tools" [ref=e2130] [cursor=pointer]
+              - menuitem "Help" [ref=e2136] [cursor=pointer]
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - tooltip [aria-hidden]: More
+        - generic [ref=e2142]:
+          - button "Open with Google Docs" [ref=e2143] [cursor=pointer]
+          - button "Open with" [ref=e2146] [cursor=pointer]
+      - generic [ref=e2152]:
+        - generic [ref=e2153]:
+          - generic [ref=e2155]:
+            - generic [ref=e2156]: Page
+            - group "Page number input container. Press ENTER to begin typing and ESC to exit." [ref=e2157]:
+              - textbox "Page 1 of 3" [ref=e2161]: "1"
+            - generic [ref=e2162]: /
+            - generic [ref=e2163]: "3"
+          - generic [ref=e2165]:
+            - generic [ref=e2167]:
+              - button "Download" [ref=e2168] [cursor=pointer]
+              - tooltip [aria-hidden] [ref=e2174]: Download
+            - generic [ref=e2176]:
+              - button "Print" [ref=e2177] [cursor=pointer]
+              - tooltip [aria-hidden] [ref=e2183]: Print
+          - generic [ref=e2186]:
+            - generic [ref=e2187]:
+              - button "Zoom out" [ref=e2188] [cursor=pointer]
+              - tooltip [aria-hidden] [ref=e2193]: Zoom out
+            - group "Zoom autocomplete container. Press ENTER to begin typing, ESC to exit and arrow keys to navigate the drop-down menu." [ref=e2194]:
+              - combobox "Page zoom control" [ref=e2199]: 100%
+            - generic [ref=e2201]:
+              - button "Zoom in" [ref=e2202] [cursor=pointer]
+              - tooltip [aria-hidden] [ref=e2207]: Zoom in
+        - toolbar [ref=e2209]:
+          - button "Request eSignature" [ref=e2215] [cursor=pointer]:
+            - generic [aria-hidden] [ref=e2221]: Request eSignature
+      - generic [ref=e2223]:
+        - button "Next" [ref=e2224] [cursor=pointer]
+        - tooltip [aria-hidden] [ref=e2230]: Next
+      - generic [ref=e2231]:
+        - generic [ref=e2232]:
+          - toolbar "Navigation" [ref=e2233]:
+            - generic [ref=e2236]:
+              - button "Hide thumbnails" [pressed] [ref=e2237] [cursor=pointer]
+              - tooltip [aria-hidden] [ref=e2249]: Hide thumbnails
+          - generic [ref=e2252]:
+            - button "Hide navigation pane" [pressed] [ref=e2253] [cursor=pointer]
+            - tooltip [aria-hidden] [ref=e2263]: Hide navigation pane
+        - listbox "Page thumbnails" [ref=e2267]:
+          - option "Page thumbnail" [selected] [ref=e2268]:
+            - generic [aria-hidden] [ref=e2269]: "1"
+            - generic [ref=e2270] [cursor=pointer]
+          - option "Page thumbnail" [ref=e2272]:
+            - generic [aria-hidden] [ref=e2273]: "2"
+            - generic [ref=e2274] [cursor=pointer]
+          - option "Page thumbnail" [ref=e2276]:
+            - generic [aria-hidden] [ref=e2277]: "3"
+            - generic [ref=e2278] [cursor=pointer]
+    - dialog "Showing viewer." [ref=e2281]:
+      - generic "Displaying Print Submission | Gradescope." [active]
+      - generic [ref=e2282]:
+        - generic "Previous" [ref=e2283]
+        - generic "Next" [ref=e2284]
+        - main [ref=e2285]:
+          - generic [ref=e2286]:
+            - textbox [aria-hidden] [ref=e2287]
+            - document [ref=e2289]:
+              - generic:
+                - generic:
+                  - heading "Page 1 of 3" [level=2]
+                  - paragraph: "2"
+                  - paragraph: "0"
+                  - paragraph: "2"
+                  - paragraph: "3"
+                  - paragraph: "-"
+                  - paragraph: q
+                  - paragraph: u
+                  - paragraph: i
+                  - paragraph: z
+                  - paragraph: "2"
+                  - paragraph: G
+                  - paragraph: r
+                  - paragraph: a
+                  - paragraph: d
+                  - paragraph: e
+                  - paragraph: d
+                  - paragraph: S
+                  - paragraph: t
+                  - paragraph: u
+                  - paragraph: d
+                  - paragraph: e
+                  - paragraph: "n"
+                  - paragraph: t
+                  - paragraph: Willia
+                  - paragraph: m
+                  - paragraph: C
+                  - paragraph: h
+                  - paragraph: e
+                  - paragraph: "n"
+                  - paragraph: To
+                  - paragraph: t
+                  - paragraph: al P
+                  - paragraph: o
+                  - paragraph: i
+                  - paragraph: "n"
+                  - paragraph: t
+                  - paragraph: s
+                  - paragraph: "1"
+                  - paragraph: "0"
+                  - paragraph: /
+                  - paragraph: "1"
+                  - paragraph: "0"
+                  - paragraph: p
+                  - paragraph: t
+                  - paragraph: s
+                  - paragraph: Q
+                  - paragraph: u
+                  - paragraph: e
+                  - paragraph: s
+                  - paragraph: t
+                  - paragraph: i
+                  - paragraph: o
+                  - paragraph: "n"
+                  - paragraph: "1"
+                  - paragraph: W
+                  - paragraph: a
+                  - paragraph: t
+                  - paragraph: e
+                  - paragraph: r
+                  - paragraph: fl
+                  - paragraph: o
+                  - paragraph: w
+                  - paragraph: s
+                  - paragraph: .
+                  - paragraph: .
+                  - paragraph: .
+                  - paragraph: "5"
+                  - paragraph: /
+                  - paragraph: "5"
+                  - paragraph: p
+                  - paragraph: t
+                  - paragraph: s
+                  - paragraph: 
+                  - paragraph: −
+                  - paragraph: "0"
+                  - paragraph: p
+                  - paragraph: t
+                  - paragraph: s
+                  - paragraph: C
+                  - paragraph: o
+                  - paragraph: r
+                  - paragraph: r
+                  - paragraph: e
+                  - paragraph: c
+                  - paragraph: t
+                  - paragraph: −
+                  - paragraph: "2"
+                  - paragraph: p
+                  - paragraph: t
+                  - paragraph: s
+                  - paragraph: a
+                  - paragraph: p
+                  - paragraph: p
+                  - paragraph: r
+                  - paragraph: o
+                  - paragraph: a
+                  - paragraph: c
+                  - paragraph: h
+                  - paragraph: e
+                  - paragraph: r
+                  - paragraph: r
+                  - paragraph: o
+                  - paragraph: r
+                  - paragraph: −
+                  - paragraph: "3"
+                  - paragraph: p
+                  - paragraph: t
+                  - paragraph: s
+                  - paragraph: w
+                  - paragraph: r
+                  - paragraph: o
+                  - paragraph: "n"
+                  - paragraph: g
+                  - paragraph: a
+                  - paragraph: p
+                  - paragraph: p
+                  - paragraph: r
+                  - paragraph: o
+                  - paragraph: a
+                  - paragraph: c
+                  - paragraph: h
+                  - paragraph: −
+                  - paragraph: "1"
+                  - paragraph: p
+                  - paragraph: t
+                  - paragraph: u
+                  - paragraph: nit
+                  - paragraph: e
+                  - paragraph: r
+                  - paragraph: r
+                  - paragraph: o
+                  - paragraph: r
+                  - paragraph: o
+                  - paragraph: r
+                  - paragraph: c
+                  - paragraph: alc
+                  - paragraph: ula
+                  - paragraph: tio
+                  - paragraph: "n"
+                  - paragraph: e
+                  - paragraph: r
+                  - paragraph: r
+                  - paragraph: o
+                  - paragraph: r
+                  - paragraph: Q
+                  - paragraph: u
+                  - paragraph: e
+                  - paragraph: s
+                  - paragraph: t
+                  - paragraph: i
+                  - paragraph: o
+                  - paragraph: "n"
+                  - paragraph: "2"
+                  - paragraph: T
+                  - paragraph: h
+                  - paragraph: e
+                  - paragraph: fi
+                  - paragraph: g
+                  - paragraph: u
+                  - paragraph: r
+                  - paragraph: e
+                  - paragraph: .
+                  - paragraph: .
+                  - paragraph: .
+                  - paragraph: "5"
+                  - paragraph: /
+                  - paragraph: "5"
+                  - paragraph: p
+                  - paragraph: t
+                  - paragraph: s
+                  - paragraph: 
+                  - paragraph: −
+                  - paragraph: "0"
+                  - paragraph: p
+                  - paragraph: t
+                  - paragraph: s
+                  - paragraph: C
+                  - paragraph: o
+                  - paragraph: r
+                  - paragraph: r
+                  - paragraph: e
+                  - paragraph: c
+                  - paragraph: t
+                  - paragraph: −
+                  - paragraph: "2"
+                  - paragraph: p
+                  - paragraph: t
+                  - paragraph: s
+                  - paragraph: a
+                  - paragraph: p
+                  - paragraph: p
+                  - paragraph: r
+                  - paragraph: o
+                  - paragraph: a
+                  - paragraph: c
+                  - paragraph: h
+                  - paragraph: e
+                  - paragraph: r
+                  - paragraph: r
+                  - paragraph: o
+                  - paragraph: r
+                  - paragraph: −
+                  - paragraph: "3"
+                  - paragraph: p
+                  - paragraph: t
+                  - paragraph: s
+                  - paragraph: w
+                  - paragraph: r
+                  - paragraph: o
+                  - paragraph: "n"
+                  - paragraph: g
+                  - paragraph: a
+                  - paragraph: p
+                  - paragraph: p
+                  - paragraph: r
+                  - paragraph: o
+                  - paragraph: a
+                  - paragraph: c
+                  - paragraph: h
+                  - paragraph: −
+                  - paragraph: "1"
+                  - paragraph: p
+                  - paragraph: t
+                  - paragraph: c
+                  - paragraph: alc
+                  - paragraph: ula
+                  - paragraph: tio
+                  - paragraph: "n"
+                  - paragraph: e
+                  - paragraph: r
+                  - paragraph: r
+                  - paragraph: o
+                  - paragraph: r
+                  - paragraph: −
+                  - paragraph: "4"
+                  - paragraph: p
+                  - paragraph: t
+                  - paragraph: s
+                  - paragraph: w
+                  - paragraph: r
+                  - paragraph: o
+                  - paragraph: "n"
+                  - paragraph: g
+                  - paragraph: m
+                  - paragraph: e
+                  - paragraph: t
+                  - paragraph: h
+                  - paragraph: o
+                  - paragraph: d
+                  - paragraph: 
+              - generic:
+                - generic:
+                  - heading "Page 2 of 3" [level=2]
+              - generic:
+                - generic:
+                  - heading "Page 3 of 3" [level=2]
+            - generic [aria-hidden] [ref=e2293]:
+              - textbox [ref=e2296]:
+                - /placeholder: Find in document
+              - button [ref=e2299] [cursor=pointer]
+              - button [ref=e2301] [cursor=pointer]
+              - button [ref=e2303] [cursor=pointer]
+  - generic [ref=e842]: Page 1 of 3 Page 1 of 3

@@ -1,0 +1,430 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Exam Practice Template</title>
+  <style>
+    :root {
+      --bg: #0b1020;
+      --panel: #121a2e;
+      --panel-2: #18233b;
+      --text: #eef3ff;
+      --muted: #9eabc4;
+      --line: #293653;
+      --accent: #70a5ff;
+      --accent-2: #93c5fd;
+      --good: #4ade80;
+      --warn: #fbbf24;
+      --bad: #fb7185;
+      --shadow: 0 18px 50px rgb(0 0 0 / 0.25);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; background: radial-gradient(circle at top, #142142 0, var(--bg) 38rem); color: var(--text); min-height: 100vh; }
+    button, input { font: inherit; }
+    button { cursor: pointer; }
+    .shell { width: min(1120px, calc(100% - 28px)); margin: 0 auto; padding: 32px 0 64px; }
+    .hero, .panel, .card, dialog { border: 1px solid var(--line); background: rgb(18 26 46 / 0.94); box-shadow: var(--shadow); }
+    .hero { border-radius: 24px; padding: clamp(22px, 5vw, 42px); margin-bottom: 20px; }
+    .eyebrow { color: var(--accent-2); font-size: .78rem; font-weight: 800; letter-spacing: .13em; text-transform: uppercase; }
+    h1 { margin: 8px 0 10px; font-size: clamp(2rem, 6vw, 4.25rem); line-height: .98; letter-spacing: -.045em; }
+    .subtitle { color: var(--muted); margin: 0; max-width: 64ch; line-height: 1.65; }
+    .stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin-top: 24px; }
+    .stat { background: var(--panel-2); border: 1px solid var(--line); border-radius: 15px; padding: 14px; }
+    .stat strong { display: block; font-size: 1.35rem; }
+    .stat span { color: var(--muted); font-size: .82rem; }
+    .progress-track { height: 8px; background: #080d19; border-radius: 99px; overflow: hidden; margin-top: 16px; }
+    .progress-fill { height: 100%; width: 0; background: linear-gradient(90deg, var(--accent), var(--good)); transition: width .25s ease; }
+    .panel { border-radius: 18px; padding: 16px; margin-bottom: 18px; }
+    .toolbar { display: grid; grid-template-columns: minmax(180px, 1fr) auto auto auto; gap: 10px; }
+    input[type="search"] { width: 100%; color: var(--text); background: #0a1121; border: 1px solid var(--line); border-radius: 11px; padding: 10px 12px; outline: none; }
+    input[type="search"]:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgb(112 165 255 / .15); }
+    .button { border: 1px solid var(--line); border-radius: 11px; padding: 10px 13px; color: var(--text); background: var(--panel-2); font-weight: 750; }
+    .button:hover { border-color: var(--accent); transform: translateY(-1px); }
+    .button.primary { color: #071225; background: var(--accent); border-color: var(--accent); }
+    .button.danger { color: #fecdd3; }
+    .filters { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+    .filter { border: 1px solid var(--line); border-radius: 999px; padding: 7px 11px; color: var(--muted); background: transparent; }
+    .filter.active { color: #071225; background: var(--accent-2); border-color: var(--accent-2); font-weight: 800; }
+    .setup { color: var(--muted); line-height: 1.6; }
+    .setup summary { color: var(--text); cursor: pointer; font-weight: 800; }
+    .setup code, code { color: #bfdbfe; }
+    .question-list { display: grid; gap: 14px; }
+    .card { border-radius: 18px; padding: clamp(16px, 3vw, 24px); }
+    .card.mastered { border-color: rgb(74 222 128 / .65); }
+    .card.review { border-color: rgb(251 191 36 / .65); }
+    .card-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
+    .meta { display: flex; flex-wrap: wrap; gap: 7px; align-items: center; }
+    .tag { border: 1px solid var(--line); color: var(--muted); border-radius: 999px; padding: 4px 8px; font-size: .75rem; }
+    .status { font-weight: 850; font-size: .78rem; }
+    .status.mastered { color: var(--good); }
+    .status.review { color: var(--warn); }
+    .prompt { margin: 17px 0; font-size: 1.03rem; line-height: 1.65; }
+    .prompt-code, pre { display: block; white-space: pre-wrap; overflow-wrap: anywhere; background: #080e1b; border: 1px solid var(--line); border-radius: 12px; padding: 13px; color: #dbeafe; line-height: 1.55; }
+    .choices { display: grid; gap: 8px; margin: 14px 0; }
+    .choice { text-align: left; border: 1px solid var(--line); border-radius: 11px; padding: 11px 12px; background: #0c1426; color: var(--text); }
+    .choice:hover { border-color: var(--accent); }
+    .choice.selected.correct { border-color: var(--good); background: rgb(74 222 128 / .1); }
+    .choice.selected.incorrect { border-color: var(--bad); background: rgb(251 113 133 / .1); }
+    .choice.correct-answer { box-shadow: inset 4px 0 var(--good); }
+    .answer { display: none; border-left: 3px solid var(--accent); background: #0b1325; border-radius: 0 12px 12px 0; padding: 13px 15px; color: #d8e2f5; line-height: 1.65; margin: 13px 0; }
+    .answer.visible { display: block; }
+    .feedback { margin: 10px 0 0; color: var(--muted); }
+    .feedback.correct { color: var(--good); }
+    .feedback.incorrect { color: var(--bad); }
+    .actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 15px; }
+    .empty { text-align: center; color: var(--muted); padding: 36px; }
+    dialog { width: min(780px, calc(100% - 24px)); border-radius: 20px; color: var(--text); padding: 0; }
+    dialog::backdrop { background: rgb(2 6 23 / .8); backdrop-filter: blur(4px); }
+    .dialog-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; border-bottom: 1px solid var(--line); padding: 15px 18px; }
+    .dialog-body { padding: 20px; max-height: 70vh; overflow: auto; }
+    .dialog-foot { display: flex; justify-content: space-between; gap: 10px; border-top: 1px solid var(--line); padding: 14px 18px; }
+    @media (max-width: 720px) {
+      .shell { width: min(100% - 18px, 1120px); padding-top: 10px; }
+      .hero { border-radius: 18px; }
+      .toolbar { grid-template-columns: 1fr 1fr; }
+      .toolbar input { grid-column: 1 / -1; }
+      .stats { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <header class="hero">
+      <div class="eyebrow" id="courseName"></div>
+      <h1 id="examTitle"></h1>
+      <p class="subtitle" id="examSubtitle"></p>
+      <div class="stats">
+        <div class="stat"><strong id="masteredCount">0</strong><span>Got it</span></div>
+        <div class="stat"><strong id="reviewCount">0</strong><span>Needs review</span></div>
+        <div class="stat"><strong id="remainingCount">0</strong><span>Not graded</span></div>
+      </div>
+      <div class="progress-track" aria-label="Study progress"><div class="progress-fill" id="progressFill"></div></div>
+    </header>
+
+    <section class="panel">
+      <div class="toolbar">
+        <input id="search" type="search" placeholder="Search questions and answers…" aria-label="Search questions">
+        <button class="button" id="shuffleButton" type="button">Shuffle</button>
+        <button class="button primary" id="focusButton" type="button">Focus mode</button>
+        <button class="button danger" id="resetButton" type="button">Reset</button>
+      </div>
+      <div class="filters" id="filters" aria-label="Topic filters"></div>
+    </section>
+
+    <details class="panel setup">
+      <summary>Template setup</summary>
+      <ol>
+        <li>Edit <code>APP_CONFIG</code> near the top of the script.</li>
+        <li>Replace the example objects in <code>questions</code>.</li>
+        <li>Use unique numeric IDs. Topic buttons are generated automatically.</li>
+        <li>Use <code>truefalse</code>, <code>multiple</code>, <code>written</code>, or <code>code</code> as the question type.</li>
+        <li>Change <code>storageKey</code> for each new exam so saved progress does not overlap.</li>
+      </ol>
+      <p>Answer selection reveals feedback but does not change progress. Only <strong>Got it</strong> and <strong>Needs review</strong> grade a question.</p>
+    </details>
+
+    <p id="resultCount" aria-live="polite"></p>
+    <section class="question-list" id="questionList"></section>
+  </main>
+
+  <dialog id="focusDialog">
+    <div class="dialog-head">
+      <strong id="focusProgress"></strong>
+      <button class="button" id="closeFocusButton" type="button">Close</button>
+    </div>
+    <div class="dialog-body" id="focusBody" tabindex="-1"></div>
+    <div class="dialog-foot">
+      <button class="button" id="previousButton" type="button">Previous</button>
+      <button class="button primary" id="nextButton" type="button">Next</button>
+    </div>
+  </dialog>
+
+  <script>
+    // ================================================================
+    // EDIT THIS SECTION FOR A NEW SUBJECT OR EXAM.
+    // ================================================================
+    const APP_CONFIG = {
+      course: "YOUR SUBJECT",
+      title: "Exam Practice",
+      subtitle: "Replace this sentence with the exam scope, date, or study instructions.",
+      storageKey: "exam-practice-template-v1"
+    };
+
+    const QUESTION_TYPES = {
+      truefalse: { label: "True / False", objective: true },
+      multiple: { label: "Multiple Choice", objective: true },
+      written: { label: "Written Response", objective: false },
+      code: { label: "Worked Problem", objective: false }
+    };
+
+    // answer accepts trusted HTML. For objective questions, correct is the
+    // zero-based index in options. Delete these examples and add your own.
+    const questions = [
+      {
+        id: 1,
+        topic: "Topic One",
+        type: "truefalse",
+        source: "Example",
+        prompt: "Replace this with a statement that the student must judge.",
+        options: ["True", "False"],
+        correct: 0,
+        answer: "<p><strong>Example answer:</strong> Explain why the statement is true or false.</p>"
+      },
+      {
+        id: 2,
+        topic: "Topic One",
+        type: "multiple",
+        source: "Example",
+        prompt: "Replace this with a multiple-choice question.",
+        options: ["First option", "Second option", "Third option", "Fourth option"],
+        correct: 1,
+        answer: "<p><strong>Second option.</strong> Add a concise explanation here.</p>"
+      },
+      {
+        id: 3,
+        topic: "Topic Two",
+        type: "written",
+        source: "Example",
+        prompt: "Replace this with a short-answer or essay prompt.",
+        answer: "<p>Add the expected answer, key points, or grading guide here.</p>"
+      },
+      {
+        id: 4,
+        topic: "Topic Two",
+        type: "code",
+        source: "Example",
+        prompt: `Replace this with a worked problem. You can include formatted text:<code class="prompt-code">Given information
+or starter code</code>`,
+        answer: `<pre>Put a model solution or worked steps here.</pre><p>Add reasoning and common mistakes.</p>`
+      }
+    ];
+    // ================================================================
+    // END OF THE SECTION MOST USERS NEED TO EDIT.
+    // ================================================================
+
+    function validateQuestions(items) {
+      const ids = new Set();
+      items.forEach((question, index) => {
+        if (!Number.isInteger(question.id) || ids.has(question.id)) throw new Error(`Question ${index + 1} needs a unique integer id.`);
+        ids.add(question.id);
+        if (!question.topic || !QUESTION_TYPES[question.type] || !question.prompt || !question.answer) throw new Error(`Question ${question.id} is incomplete.`);
+        if (QUESTION_TYPES[question.type].objective) {
+          if (!Array.isArray(question.options) || question.options.length < 2) throw new Error(`Question ${question.id} needs at least two options.`);
+          if (!Number.isInteger(question.correct) || question.correct < 0 || question.correct >= question.options.length) throw new Error(`Question ${question.id} has an invalid correct index.`);
+        }
+      });
+    }
+    validateQuestions(questions);
+
+    const list = document.querySelector("#questionList");
+    const filters = document.querySelector("#filters");
+    const search = document.querySelector("#search");
+    const resultCount = document.querySelector("#resultCount");
+    const focusDialog = document.querySelector("#focusDialog");
+    let activeTopic = "all";
+    let order = questions.map(question => question.id);
+    let progress = loadProgress();
+    let visibleQuestions = [];
+    let focusIndex = 0;
+    const revealed = new Set();
+    const selections = {};
+
+    document.title = `${APP_CONFIG.course} · ${APP_CONFIG.title}`;
+    document.querySelector("#courseName").textContent = APP_CONFIG.course;
+    document.querySelector("#examTitle").textContent = APP_CONFIG.title;
+    document.querySelector("#examSubtitle").textContent = APP_CONFIG.subtitle;
+
+    function loadProgress() {
+      try {
+        const saved = JSON.parse(localStorage.getItem(APP_CONFIG.storageKey) || "{}");
+        return cleanProgress(saved);
+      } catch { return {}; }
+    }
+    function cleanProgress(value) {
+      const validIds = new Set(questions.map(question => String(question.id)));
+      const result = {};
+      if (!value || typeof value !== "object" || Array.isArray(value)) return result;
+      for (const [id, status] of Object.entries(value)) {
+        if (validIds.has(id) && (status === "mastered" || status === "review")) result[id] = status;
+      }
+      return result;
+    }
+    function saveProgress() { localStorage.setItem(APP_CONFIG.storageKey, JSON.stringify(cleanProgress(progress))); }
+    function escapeText(value) {
+      return String(value).replace(/[&<>"']/g, char => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[char]);
+    }
+    function plainText(html) {
+      const node = document.createElement("div");
+      node.innerHTML = html;
+      return node.textContent.toLowerCase();
+    }
+    function questionById(id) { return questions.find(question => question.id === Number(id)); }
+    function getVisibleQuestions() {
+      const term = search.value.trim().toLowerCase();
+      const byId = new Map(questions.map(question => [question.id, question]));
+      return order.map(id => byId.get(id))
+        .filter(question => activeTopic === "all" || question.topic === activeTopic)
+        .filter(question => !term || plainText(`${question.prompt} ${question.answer} ${question.source || ""}`).includes(term));
+    }
+    function statusLabel(status) { return status === "mastered" ? "Got it" : status === "review" ? "Needs review" : ""; }
+
+    function renderFilters() {
+      const topics = [...new Set(questions.map(question => question.topic))];
+      filters.innerHTML = ["all", ...topics].map(topic => {
+        const label = topic === "all" ? "All topics" : topic;
+        return `<button type="button" class="filter ${topic === activeTopic ? "active" : ""}" data-topic="${escapeText(topic)}">${escapeText(label)}</button>`;
+      }).join("");
+    }
+
+    function choicesHtml(question) {
+      if (!QUESTION_TYPES[question.type].objective) return "";
+      return `<div class="choices">${question.options.map((option, index) => {
+        const selected = selections[question.id] === index;
+        const answered = revealed.has(question.id);
+        const classes = ["choice"];
+        if (selected) classes.push("selected", index === question.correct ? "correct" : "incorrect");
+        if (answered && index === question.correct) classes.push("correct-answer");
+        return `<button type="button" class="${classes.join(" ")}" data-select="${index}">${escapeText(option)}</button>`;
+      }).join("")}</div>`;
+    }
+
+    function feedbackHtml(question) {
+      if (!QUESTION_TYPES[question.type].objective || !revealed.has(question.id)) return "";
+      const correct = selections[question.id] === question.correct;
+      return `<p class="feedback ${correct ? "correct" : "incorrect"}">${correct ? "Correct." : `Not quite. The answer is ${escapeText(question.options[question.correct])}.`}</p>`;
+    }
+
+    function questionHtml(question, focused = false) {
+      const status = progress[question.id] || "";
+      const isRevealed = revealed.has(question.id);
+      const type = QUESTION_TYPES[question.type];
+      return `<article class="${focused ? "" : "card "}${status}" data-id="${question.id}">
+        <div class="card-head">
+          <div class="meta">
+            <span class="tag">Question ${question.id}</span>
+            <span class="tag">${escapeText(question.topic)}</span>
+            <span class="tag">${escapeText(type.label)}</span>
+            ${question.source ? `<span class="tag">${escapeText(question.source)}</span>` : ""}
+          </div>
+          <span class="status ${status}">${statusLabel(status)}</span>
+        </div>
+        <div class="prompt">${question.prompt}</div>
+        ${choicesHtml(question)}
+        ${feedbackHtml(question)}
+        <div class="answer ${isRevealed ? "visible" : ""}">${question.answer}</div>
+        <div class="actions">
+          ${type.objective ? "" : `<button class="button" type="button" data-reveal>${isRevealed ? "Hide answer" : "Show answer"}</button>`}
+          <button class="button" type="button" data-grade="review">Needs review</button>
+          <button class="button primary" type="button" data-grade="mastered">Got it</button>
+        </div>
+      </article>`;
+    }
+
+    function updateStats() {
+      const mastered = questions.filter(question => progress[question.id] === "mastered").length;
+      const review = questions.filter(question => progress[question.id] === "review").length;
+      const graded = mastered + review;
+      document.querySelector("#masteredCount").textContent = mastered;
+      document.querySelector("#reviewCount").textContent = review;
+      document.querySelector("#remainingCount").textContent = questions.length - graded;
+      document.querySelector("#progressFill").style.width = `${questions.length ? (mastered / questions.length) * 100 : 0}%`;
+    }
+
+    function renderQuestions() {
+      const items = getVisibleQuestions();
+      resultCount.textContent = `${items.length} ${items.length === 1 ? "question" : "questions"}`;
+      list.innerHTML = items.length ? items.map(question => questionHtml(question)).join("") : `<div class="panel empty">No questions match this filter.</div>`;
+      updateStats();
+    }
+
+    function setStatus(id, status) {
+      progress[id] = status;
+      saveProgress();
+      renderQuestions();
+      if (focusDialog.open) renderFocus();
+    }
+    function choose(question, index) {
+      if (revealed.has(question.id)) return;
+      selections[question.id] = index;
+      revealed.add(question.id);
+      renderQuestions();
+      if (focusDialog.open) renderFocus();
+    }
+    function toggleReveal(question) {
+      if (revealed.has(question.id)) revealed.delete(question.id);
+      else revealed.add(question.id);
+      renderQuestions();
+      if (focusDialog.open) renderFocus();
+    }
+    function handleQuestionAction(event) {
+      const card = event.target.closest("[data-id]");
+      if (!card) return;
+      const question = questionById(card.dataset.id);
+      const choice = event.target.closest("[data-select]");
+      const reveal = event.target.closest("[data-reveal]");
+      const grade = event.target.closest("[data-grade]");
+      if (choice) choose(question, Number(choice.dataset.select));
+      else if (reveal) toggleReveal(question);
+      else if (grade) setStatus(question.id, grade.dataset.grade);
+    }
+
+    filters.addEventListener("click", event => {
+      const button = event.target.closest("[data-topic]");
+      if (!button) return;
+      activeTopic = button.dataset.topic;
+      renderFilters();
+      renderQuestions();
+    });
+    search.addEventListener("input", renderQuestions);
+    list.addEventListener("click", handleQuestionAction);
+    document.querySelector("#shuffleButton").addEventListener("click", () => {
+      for (let i = order.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [order[i], order[j]] = [order[j], order[i]];
+      }
+      renderQuestions();
+    });
+    document.querySelector("#resetButton").addEventListener("click", () => {
+      if (Object.keys(progress).length && confirm("Clear all saved progress for this exam?")) {
+        progress = {};
+        saveProgress();
+        renderQuestions();
+      }
+    });
+
+    function renderFocus() {
+      if (!visibleQuestions.length) return;
+      const question = visibleQuestions[focusIndex];
+      document.querySelector("#focusProgress").textContent = `${focusIndex + 1} of ${visibleQuestions.length}`;
+      document.querySelector("#focusBody").innerHTML = questionHtml(question, true);
+      document.querySelector("#previousButton").disabled = focusIndex === 0;
+      document.querySelector("#nextButton").disabled = focusIndex === visibleQuestions.length - 1;
+    }
+    function openFocus() {
+      visibleQuestions = getVisibleQuestions();
+      if (!visibleQuestions.length) return;
+      focusIndex = 0;
+      renderFocus();
+      focusDialog.showModal();
+      document.querySelector("#focusBody").focus();
+    }
+    document.querySelector("#focusButton").addEventListener("click", openFocus);
+    document.querySelector("#closeFocusButton").addEventListener("click", () => focusDialog.close());
+    document.querySelector("#focusBody").addEventListener("click", handleQuestionAction);
+    document.querySelector("#previousButton").addEventListener("click", () => { if (focusIndex > 0) { focusIndex -= 1; renderFocus(); } });
+    document.querySelector("#nextButton").addEventListener("click", () => { if (focusIndex < visibleQuestions.length - 1) { focusIndex += 1; renderFocus(); } });
+    document.addEventListener("keydown", event => {
+      if (!focusDialog.open || ["INPUT", "TEXTAREA"].includes(document.activeElement.tagName)) return;
+      if (event.key === "ArrowLeft" && focusIndex > 0) { focusIndex -= 1; renderFocus(); }
+      if (event.key === "ArrowRight" && focusIndex < visibleQuestions.length - 1) { focusIndex += 1; renderFocus(); }
+    });
+
+    renderFilters();
+    renderQuestions();
+  </script>
+</body>
+</html>

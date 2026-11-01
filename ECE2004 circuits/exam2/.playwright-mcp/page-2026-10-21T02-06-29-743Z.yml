@@ -1,0 +1,134 @@
+- generic [active] [ref=f14e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=f14e2] [cursor=pointer]
+      - link "Accessibility help" [ref=f14e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+  - generic [ref=f14e8]:
+    - search [ref=f14e9]:
+      - generic [ref=f14e11]:
+        - link "Go to Google Home" [ref=f14e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=2ahUKEwij0sWPg8qXAxX6qysGHZSWOaIQPHoECAYQBA
+        - generic [ref=f14e17]:
+          - combobox "Search" [ref=f14e19]: "site:eng.libretexts.org/Bookshelves/Electrical_Engineering/Electronics/AC_Electrical_Circuit_Analysis \"6.6: Exercises\" site:eng.libretexts.org/Bookshelves/Electrical_Engineering/Electronics/AC_Electrical_Circuit_Analysis \"6.6: Exercises\""
+          - generic [ref=f14e20]:
+            - button "Clear" [ref=f14e24] [cursor=pointer]
+            - generic [ref=f14e29]:
+              - button "Search by voice" [ref=f14e32] [cursor=pointer]
+              - button "Search by image" [ref=f14e37] [cursor=pointer]
+    - generic [ref=f14e40]:
+      - button "Share" [ref=f14e41] [cursor=pointer]
+      - generic [ref=f14e47]:
+        - button "Google apps" [ref=f14e49] [cursor=pointer]
+        - 'button "Google Account: Pragun Damani (pd2752@nyu.edu)" [ref=f14e54] [cursor=pointer]'
+  - generic [ref=f14e57]:
+    - navigation [ref=f14e63]:
+      - generic [ref=f14e69]:
+        - list [ref=f14e70]:
+          - listitem [ref=f14e71]:
+            - link "AI Mode" [ref=f14e74] [cursor=pointer]:
+              - /url: /search?q=site:eng.libretexts.org/Bookshelves/Electrical_Engineering/Electronics/AC_Electrical_Circuit_Analysis+%226.6:+Exercises%22&sca_esv=882e2611175d5c4b&sxsrf=APpeQnvt9c-RPM6x2aJhaycIRVZbzNyXPQ:1792548388570&udm=50&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832VstEKsVDqPorK0Gahnm2no1YAFtlsByIZaJlK7yr6gIShz8_nfnRyCFKBFanfbilXpMs-cznwqr4eRh15jLYnTY1jneHErIL1s8ylJ677g0-Yzv9SeiVzusgosrLmIdC_Li_URL_fqqHo09-SPTQ8fS7ou1p27xw7ju_YWEy8MXRBbSOQ&vsint=&aep=1&ntc=1&cs=1&sa=X&ved=2ahUKEwij0sWPg8qXAxX6qysGHZSWOaIQ2J8OegQIFBAD
+          - listitem [ref=f14e78]:
+            - link "All" [disabled] [ref=f14e79]
+          - listitem [ref=f14e82]:
+            - link "Images" [ref=f14e83] [cursor=pointer]:
+              - /url: /search?sca_esv=882e2611175d5c4b&sxsrf=APpeQnvt9c-RPM6x2aJhaycIRVZbzNyXPQ:1792548388570&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832VstEKsVDqPorK0Gahnm2no1YAFtlsByIZaJlK7yr6gIShz8_nfnRyCFKBFanfbilXpMs-cznwqr4eRh15jLYnTY1jneHErIL1s8ylJ677g0-Yzv9SeiVzusgosrLmIdC_Li_URL_fqqHo09-SPTQ8fS7ou1p27xw7ju_YWEy8MXRBbSOQ&q=site:eng.libretexts.org/Bookshelves/Electrical_Engineering/Electronics/AC_Electrical_Circuit_Analysis+%226.6:+Exercises%22&sa=X&ved=2ahUKEwij0sWPg8qXAxX6qysGHZSWOaIQtKgLegQIGhAB
+          - listitem [ref=f14e86]:
+            - link "Videos" [ref=f14e87] [cursor=pointer]:
+              - /url: /search?sca_esv=882e2611175d5c4b&sxsrf=APpeQnvt9c-RPM6x2aJhaycIRVZbzNyXPQ:1792548388570&udm=vids&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832VstEKsVDqPorK0Gahnm2no1YAFtlsByIZaJlK7yr6gIShz8_nfnRyCFKBFanfbilXpMs-cznwqr4eRh15jLYnTY1jneHErIL1s8ylJ677g0-Yzv9SeiVzusgosrLmIdC_Li_URL_fqqHo09-SPTQ8fS7ou1p27xw7ju_YWEy8MXRBbSOQ&q=site:eng.libretexts.org/Bookshelves/Electrical_Engineering/Electronics/AC_Electrical_Circuit_Analysis+%226.6:+Exercises%22&sa=X&ved=2ahUKEwij0sWPg8qXAxX6qysGHZSWOaIQtKgLegQIFhAB
+          - listitem [ref=f14e90]:
+            - link "Shopping" [ref=f14e91] [cursor=pointer]:
+              - /url: /search?sca_esv=882e2611175d5c4b&sxsrf=APpeQnvt9c-RPM6x2aJhaycIRVZbzNyXPQ:1792548388570&udm=28&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832VstEKsVDqPorK0Gahnm2no1YAFtlsByIZaJlK7yr6gIShz8_nfnRyCFKBFanfbilXpMs-cznwqr4eRh15jLYnTY1jneHErIL1s8ylJ677g0-Yzv9SeiVzusgosrLmIdC_Li_URL_fqqHo09-SPTQ8fS7ou1p27xw7ju_YWEy8MXRBbSOQ&q=site:eng.libretexts.org/Bookshelves/Electrical_Engineering/Electronics/AC_Electrical_Circuit_Analysis+%226.6:+Exercises%22&ved=1t:220175&ictx=111
+          - listitem [ref=f14e94]:
+            - link "Short videos" [ref=f14e95] [cursor=pointer]:
+              - /url: /search?sca_esv=882e2611175d5c4b&sxsrf=APpeQnvt9c-RPM6x2aJhaycIRVZbzNyXPQ:1792548388570&udm=39&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832VstEKsVDqPorK0Gahnm2no1YAFtlsByIZaJlK7yr6gIShz8_nfnRyCFKBFanfbilXpMs-cznwqr4eRh15jLYnTY1jneHErIL1s8ylJ677g0-Yzv9SeiVzusgosrLmIdC_Li_URL_fqqHo09-SPTQ8fS7ou1p27xw7ju_YWEy8MXRBbSOQ&q=site:eng.libretexts.org/Bookshelves/Electrical_Engineering/Electronics/AC_Electrical_Circuit_Analysis+%226.6:+Exercises%22&sa=X&ved=2ahUKEwij0sWPg8qXAxX6qysGHZSWOaIQs6gLegQIFxAB
+          - listitem [ref=f14e98]:
+            - link "Forums" [ref=f14e99] [cursor=pointer]:
+              - /url: /search?sca_esv=882e2611175d5c4b&sxsrf=APpeQnvt9c-RPM6x2aJhaycIRVZbzNyXPQ:1792548388570&udm=forums&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832VstEKsVDqPorK0Gahnm2no1YAFtlsByIZaJlK7yr6gIShz8_nfnRyCFKBFanfbilXpMs-cznwqr4eRh15jLYnTY1jneHErIL1s8ylJ677g0-Yzv9SeiVzusgosrLmIdC_Li_URL_fqqHo09-SPTQ8fS7ou1p27xw7ju_YWEy8MXRBbSOQ&q=site:eng.libretexts.org/Bookshelves/Electrical_Engineering/Electronics/AC_Electrical_Circuit_Analysis+%226.6:+Exercises%22&sa=X&ved=2ahUKEwij0sWPg8qXAxX6qysGHZSWOaIQs6gLegQIGBAB
+          - listitem [ref=f14e102]:
+            - button [ref=f14e103] [cursor=pointer]:
+              - generic "More filters" [ref=f14e104]: More
+        - button "Tools" [ref=f14e111] [cursor=pointer]
+    - heading "Search Results" [level=1] [ref=f14e118]
+    - main [ref=f14e124]:
+      - generic [ref=f14e128]:
+        - generic [ref=f14e131]:
+          - heading "Web results" [level=2] [ref=f14e132]
+          - generic [ref=f14e133]:
+            - generic [ref=f14e136]:
+              - 'link "7: AC Power Engineering LibreTexts https://eng.libretexts.org › Bookshelves › Electronics › 0..." [ref=f14e138] [cursor=pointer]':
+                - /url: https://eng.libretexts.org/Bookshelves/Electrical_Engineering/Electronics/AC_Electrical_Circuit_Analysis%3A_A_Practical_Approach_(Fiore)/07%3A_AC_Power
+                - 'heading "7: AC Power" [level=3] [ref=f14e139]'
+                - generic [ref=f14e145]:
+                  - generic [ref=f14e146]: Engineering LibreTexts
+                  - generic [ref=f14e148]: https://eng.libretexts.org › Bookshelves › Electronics › 0...
+              - button "About this result" [ref=f14e154] [cursor=pointer]
+            - generic [ref=f14e161]:
+              - text: Fiore via source content that was edited to the style and standards of the LibreTexts platform. Back to top.
+              - emphasis [ref=f14e162]: "6.6: Exercises"
+              - text: "· 7.1: Introduction. Was this ..."
+        - generic [ref=f14e166]:
+          - generic [ref=f14e169]:
+            - 'link "6: Nodal and Mesh Analysis Engineering LibreTexts https://eng.libretexts.org › Bookshelves › Electronics › 0..." [ref=f14e171] [cursor=pointer]':
+              - /url: https://eng.libretexts.org/Bookshelves/Electrical_Engineering/Electronics/AC_Electrical_Circuit_Analysis%3A_A_Practical_Approach_(Fiore)/06%3A_Nodal_and_Mesh_Analysis
+              - 'heading "6: Nodal and Mesh Analysis" [level=3] [ref=f14e172]'
+              - generic [ref=f14e178]:
+                - generic [ref=f14e179]: Engineering LibreTexts
+                - generic [ref=f14e181]: https://eng.libretexts.org › Bookshelves › Electronics › 0...
+            - button "About this result" [ref=f14e187] [cursor=pointer]
+          - generic [ref=f14e193]:
+            - generic [ref=f14e194]: Mar 22, 2021 —
+            - generic [ref=f14e195]:
+              - emphasis [ref=f14e196]: "6.6: Exercises"
+              - text: ". This page titled 6: Nodal and Mesh Analysis was last modified on Mon, 22 Mar 2021 02:57:55 GMT and is shared under a CC BY-NC ..."
+            - link "Read more" [ref=f14e197] [cursor=pointer]:
+              - /url: https://eng.libretexts.org/Bookshelves/Electrical_Engineering/Electronics/AC_Electrical_Circuit_Analysis%3A_A_Practical_Approach_(Fiore)/06%3A_Nodal_and_Mesh_Analysis#:~:text=6.6%3A%20Exercises,and%2For%20curated%20by%20James%20M.
+        - generic [ref=f14e201]:
+          - generic [ref=f14e204]:
+            - 'link "6.5: Summary Engineering LibreTexts https://eng.libretexts.org › ... › 6: Nodal and Mesh Analysis" [ref=f14e206] [cursor=pointer]':
+              - /url: https://eng.libretexts.org/Bookshelves/Electrical_Engineering/Electronics/AC_Electrical_Circuit_Analysis%3A_A_Practical_Approach_(Fiore)/06%3A_Nodal_and_Mesh_Analysis/6.5%3A_Summary
+              - 'heading "6.5: Summary" [level=3] [ref=f14e207]'
+              - generic [ref=f14e213]:
+                - generic [ref=f14e214]: Engineering LibreTexts
+                - generic [ref=f14e216]: "https://eng.libretexts.org › ... › 6: Nodal and Mesh Analysis"
+            - button "About this result" [ref=f14e222] [cursor=pointer]
+          - generic [ref=f14e229]:
+            - emphasis [ref=f14e230]: "6.6: Exercises"
+            - text: ". Was this article helpful? Yes; No. Recommended articles. Article type: Section or Page. Author: James M. Fiore. License: CC BY-NC-SA. License ..."
+        - generic [ref=f14e234]:
+          - generic [ref=f14e237]:
+            - link "Detailed Licensing Engineering LibreTexts https://eng.libretexts.org › ... › Back Matter" [ref=f14e239] [cursor=pointer]:
+              - /url: https://eng.libretexts.org/Bookshelves/Electrical_Engineering/Electronics/AC_Electrical_Circuit_Analysis%3A_A_Practical_Approach_(Fiore)/zz%3A_Back_Matter/30%3A_Detailed_Licensing
+              - heading "Detailed Licensing" [level=3] [ref=f14e240]
+              - generic [ref=f14e246]:
+                - generic [ref=f14e247]: Engineering LibreTexts
+                - generic [ref=f14e249]: https://eng.libretexts.org › ... › Back Matter
+            - button "About this result" [ref=f14e255] [cursor=pointer]
+          - generic [ref=f14e262]:
+            - emphasis [ref=f14e263]: "6.6: Exercises"
+            - text: "— CC BY-NC-SA 4.0 · 7: AC Power — CC BY-NC-SA 4.0 · 7.1: Introduction — CC BY-NC-SA 4.0 · 7.2: Power Waveforms — CC BY-NC-SA 4.0 · 7.3: Power ..."
+      - generic:
+        - generic:
+          - navigation
+      - navigation
+    - contentinfo [ref=f14e264]:
+      - heading "Footer Links" [level=1] [ref=f14e265]
+      - generic [ref=f14e269]:
+        - generic [ref=f14e270]: Results are not personalized
+        - generic [ref=f14e277]:
+          - button "Bedford-Stuyvesant, New York - From your IP address" [ref=f14e279] [cursor=pointer]:
+            - generic [ref=f14e280]: Bedford-Stuyvesant, New York
+            - generic [ref=f14e282]:
+              - text: "-"
+              - generic [ref=f14e283]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=f14e285] [cursor=pointer]
+        - generic [ref=f14e288]:
+          - link "Help" [ref=f14e289] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=f14e290] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=f14e291] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=f14e292] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

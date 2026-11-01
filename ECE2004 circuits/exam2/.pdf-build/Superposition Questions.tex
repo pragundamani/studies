@@ -1,0 +1,372 @@
+\documentclass[11pt]{article}
+\usepackage[margin=0.65in]{geometry}
+\usepackage{fontspec}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{microtype}
+\usepackage{xcolor}
+\setmainfont{DejaVu Sans}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.45em}
+\setlength{\emergencystretch}{3em}
+\pagestyle{plain}
+\begin{document}
+\begin{center}\LARGE\bfseries Superposition Questions\end{center}
+\vspace{0.5em}
+
+\clearpage
+\section*{Question 1}
+
+Use superposition to find the downward current in the $6\,\Omega$ resistor.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/superposition-A.png}}\end{center}
+
+\begin{quote}\small\textit{Ground is the bottom wire. A grounded 12 V source feeds node v through 4 Ω. A 6 Ω resistor joins v to ground with downward load current. A 2 A source points upward from ground to v.}\end{quote}
+
+\subsection*{Solution}
+
+Take ground as zero and downward load current as positive. With the current source open, $v_V=12\left(\frac{6}{4+6}\right)=7.20\,\mathrm{V},\qquad i_{6,V}=\frac{7.20}{6}=1.20\,\mathrm{A}$\par
+
+With the voltage source shorted, $v_I=2(4\parallel6)=2(2.40)=4.80\,\mathrm{V},\qquad i_{6,I}=\frac{4.80}{6}=0.800\,\mathrm{A}$ $i_6=i_{6,V}+i_{6,I}=2.00\,\mathrm{A}\quad\text{downward}$\par
+
+\clearpage
+\section*{Question 2}
+
+For the same circuit, find the node voltage and power absorbed by the $6\,\Omega$ resistor. Explain why power is not directly superposed.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/superposition-A.png}}\end{center}
+
+\begin{quote}\small\textit{Ground is the bottom wire. A grounded 12 V source feeds node v through 4 Ω. A 6 Ω resistor joins v to ground with downward load current. A 2 A source points upward from ground to v.}\end{quote}
+
+\subsection*{Solution}
+
+The source contributions give $v=v_V+v_I=7.20+4.80=12.0\,\mathrm{V}$\par
+
+Power is nonlinear in voltage or current, so the partial powers cannot be added. Use the total response: $P_6=\frac{v^2}{6}=\frac{(12.0)^2}{6}=24.0\,\mathrm{W}\quad\text{absorbed}$\par
+
+\clearpage
+\section*{Question 3}
+
+Use superposition to find the top-branch current, referenced left to right.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/superposition-B.png}}\end{center}
+
+\begin{quote}\small\textit{A single loop has a 20 V source on the left and an 8 V source on the right, both positive at the top. The top branch contains 5 Ω then 7 Ω; the bottom wire is ground. Current is referenced left to right across the top.}\end{quote}
+
+\subsection*{Solution}
+
+Define clockwise mesh current $i$, left to right across the top. With only the $20\,\mathrm{V}$ source active, short the $8\,\mathrm{V}$ source: $i_{20}=\frac{20}{5+7}=1.6667\,\mathrm{A}$\par
+
+With only the $8\,\mathrm{V}$ source active, short the $20\,\mathrm{V}$ source. Its polarity drives counterclockwise: $i_{8}=-\frac{8}{5+7}=-0.6667\,\mathrm{A}$ $i=i_{20}+i_8=1.000\,\mathrm{A}\quad\text{left to right}$\par
+
+\clearpage
+\section*{Question 4}
+
+Write the governing mesh equation for the full circuit and use it to check the superposition result. State whether the $8\,\mathrm{V}$ source absorbs or delivers power.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/superposition-B.png}}\end{center}
+
+\begin{quote}\small\textit{A single loop has a 20 V source on the left and an 8 V source on the right, both positive at the top. The top branch contains 5 Ω then 7 Ω; the bottom wire is ground. Current is referenced left to right across the top.}\end{quote}
+
+\subsection*{Solution}
+
+For clockwise $i$, KVL is $-20+5i+7i+8=0$ $12i=12\;\Rightarrow\;i=1.000\,\mathrm{A}$\par
+
+The clockwise current enters the positive terminal of the right-hand source, so $P_{8}=8i=8.00\,\mathrm{W}\quad\text{absorbed}$\par
+
+\clearpage
+\section*{Question 5}
+
+Set up nodal superposition equations and find $v_b$.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/superposition-C.png}}\end{center}
+
+\begin{quote}\small\textit{Ground is the bottom wire. A grounded 12 V source feeds va through 3 Ω. A 6 Ω resistor joins va to ground. A 4 Ω resistor joins va to vb. An 8 Ω resistor joins vb to ground, and a 1 A source points upward from ground to vb.}\end{quote}
+
+\subsection*{Solution}
+
+Take ground as zero. With only the voltage source active,\par
+
+\[\frac{v_{a,V}-12}{3}+\frac{v_{a,V}}{6}+\frac{v_{a,V}-v_{b,V}}{4}=0\]
+
+\[\frac{v_{b,V}-v_{a,V}}{4}+\frac{v_{b,V}}{8}=0\]
+
+Solving gives $v_{a,V}=6.8571\,\mathrm{V},\qquad v_{b,V}=4.5714\,\mathrm{V}$.\par
+
+With only the current source active, short the voltage source:\par
+
+\[\frac{v_{a,I}}{3}+\frac{v_{a,I}}{6}+\frac{v_{a,I}-v_{b,I}}{4}=0\]
+
+\[\frac{v_{b,I}-v_{a,I}}{4}+\frac{v_{b,I}}{8}-1=0\]
+
+Solving gives $v_{a,I}=1.1429\,\mathrm{V},\qquad v_{b,I}=3.4286\,\mathrm{V}$. Thus $v_b=4.5714+3.4286=8.000\,\mathrm{V}$.\par
+
+\clearpage
+\section*{Question 6}
+
+Find the current in the $4\,\Omega$ resistor, positive from $v_a$ to $v_b$. Interpret a zero result.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/superposition-C.png}}\end{center}
+
+\begin{quote}\small\textit{Ground is the bottom wire. A grounded 12 V source feeds va through 3 Ω. A 6 Ω resistor joins va to ground. A 4 Ω resistor joins va to vb. An 8 Ω resistor joins vb to ground, and a 1 A source points upward from ground to vb.}\end{quote}
+
+\subsection*{Solution}
+
+Using the node contributions, $i_{4,V}=\frac{6.8571-4.5714}{4}=0.5714\,\mathrm{A}$ $i_{4,I}=\frac{1.1429-3.4286}{4}=-0.5714\,\mathrm{A}$ $i_4=i_{4,V}+i_{4,I}=0$\par
+
+The sources create equal and opposite branch-current contributions. Thus $v_a=v_b=8.000\,\mathrm{V}$ and no current flows through the $4\,\Omega$ resistor.\par
+
+\clearpage
+\section*{Question 7}
+
+Use superposition to find $v_a$ and $v_b$.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/superposition-D.png}}\end{center}
+
+\begin{quote}\small\textit{Ground is the bottom wire. A grounded 18 V source feeds va through 6 Ω. A 3 Ω resistor joins va to ground. A 6 Ω resistor joins va to vb. A 4 Ω resistor joins vb to ground, and a 2 A source points upward from ground to vb.}\end{quote}
+
+\subsection*{Solution}
+
+With the current source open,\par
+
+\$\$\textbackslash{}frac\{v\_\{a,V\}-18\}\{6\}+\textbackslash{}frac\{v\_\{a,V\}\}\{3\}+\textbackslash{}frac\{v\_\{a,V\}-v\_\{b,V\}\}\{6\}=0,\par
+\textbackslash{}qquad \textbackslash{}frac\{v\_\{b,V\}-v\_\{a,V\}\}\{6\}+\textbackslash{}frac\{v\_\{b,V\}\}\{4\}=0\$\$\par
+
+Solving gives $v_{a,V}=5.000\,\mathrm{V},\qquad v_{b,V}=2.000\,\mathrm{V}$.\par
+
+With the voltage source shorted,\par
+
+\$\$\textbackslash{}frac\{v\_\{a,I\}\}\{6\}+\textbackslash{}frac\{v\_\{a,I\}\}\{3\}+\textbackslash{}frac\{v\_\{a,I\}-v\_\{b,I\}\}\{6\}=0,\par
+\textbackslash{}qquad \textbackslash{}frac\{v\_\{b,I\}-v\_\{a,I\}\}\{6\}+\textbackslash{}frac\{v\_\{b,I\}\}\{4\}-2=0\$\$\par
+
+Solving gives $v_{a,I}=1.333\,\mathrm{V},\qquad v_{b,I}=5.333\,\mathrm{V}$. Thus $v_a=6.333\,\mathrm{V},\qquad v_b=7.333\,\mathrm{V}$.\par
+
+\clearpage
+\section*{Question 8}
+
+Find the current through the resistor between $v_a$ and $v_b$, positive from $v_a$ to $v_b$. Which source sets its final direction?\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/superposition-D.png}}\end{center}
+
+\begin{quote}\small\textit{Ground is the bottom wire. A grounded 18 V source feeds va through 6 Ω. A 3 Ω resistor joins va to ground. A 6 Ω resistor joins va to vb. A 4 Ω resistor joins vb to ground, and a 2 A source points upward from ground to vb.}\end{quote}
+
+\subsection*{Solution}
+
+The partial currents are $i_{6,V}=\frac{5.000-2.000}{6}=0.500\,\mathrm{A}$ $i_{6,I}=\frac{1.333-5.333}{6}=-0.6667\,\mathrm{A}$ $i_6=0.500-0.6667=-0.1667\,\mathrm{A}$\par
+
+Thus the actual current is $0.1667\,\mathrm{A}$ from $v_b$ to $v_a$. The current source contribution is larger and sets the final direction.\par
+
+\clearpage
+\section*{Question 9}
+
+Use superposition to determine the downward current in the $10\,\Omega$ resistor.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/superposition-E.png}}\end{center}
+
+\begin{quote}\small\textit{Ground is the bottom wire. A grounded 10 V source feeds va through 2 Ω. A 5 Ω shunt joins va to ground. A 5 Ω resistor joins va to vb. A 10 Ω shunt joins vb to ground, and a 1 A source points upward from ground to vb.}\end{quote}
+
+\subsection*{Solution}
+
+With only the voltage source active, nodal KCL gives $v_{a,V}=6.5217\,\mathrm{V},\qquad v_{b,V}=4.3478\,\mathrm{V}$\par
+
+With only the current source active, $v_{a,I}=0.8696\,\mathrm{V},\qquad v_{b,I}=3.9130\,\mathrm{V}$\par
+
+Therefore $i_{10}=\frac{v_{b,V}+v_{b,I}}{10}=\frac{8.2609}{10}=0.8261\,\mathrm{A}\quad\text{downward}$\par
+
+\clearpage
+\section*{Question 10}
+
+Find the power absorbed by the $10\,\Omega$ resistor and check total source power against total resistor power.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/superposition-E.png}}\end{center}
+
+\begin{quote}\small\textit{Ground is the bottom wire. A grounded 10 V source feeds va through 2 Ω. A 5 Ω shunt joins va to ground. A 5 Ω resistor joins va to vb. A 10 Ω shunt joins vb to ground, and a 1 A source points upward from ground to vb.}\end{quote}
+
+\subsection*{Solution}
+
+The total node voltages are $v_a=7.3913\,\mathrm{V},\qquad v_b=8.2609\,\mathrm{V}$ $P_{10}=\frac{v_b^2}{10}=6.824\,\mathrm{W}\quad\text{absorbed}$\par
+
+The resistor powers are\par
+
+\[P_R=\frac{(10-v_a)^2}{2}+\frac{v_a^2}{5}+\frac{(v_a-v_b)^2}{5}+\frac{v_b^2}{10}=21.304\,\mathrm{W}\]
+
+The voltage source supplies current $i_V=(10-v_a)/2=1.30435\,\mathrm{A}$, while the current source has voltage $v_b$ and points upward: $P_{\text{delivered}}=10(1.30435)+8.2609(1)=21.304\,\mathrm{W}$\par
+
+Thus delivered and absorbed powers agree.\par
+
+\clearpage
+\section*{Question 11}
+
+Before calculating, state how each independent source is deactivated for superposition. Then find $v$.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/superposition-F.png}}\end{center}
+
+\begin{quote}\small\textit{Ground is the bottom wire. A grounded 15 V source feeds node v through 5 Ω. A 10 Ω resistor joins v to ground with downward current. A 1 A source points upward from ground to v.}\end{quote}
+
+\subsection*{Solution}
+
+An ideal voltage source is deactivated by replacing it with a short circuit. An ideal current source is deactivated by replacing it with an open circuit.\par
+
+With only the voltage source active, $v_V=15\left(\frac{10}{5+10}\right)=10.0\,\mathrm{V}$\par
+
+With only the current source active, $v_I=1(5\parallel10)=3.333\,\mathrm{V}$ $v=v_V+v_I=13.333\,\mathrm{V}$\par
+
+\clearpage
+\section*{Question 12}
+
+Reverse only the $1\,\mathrm{A}$ source so it points downward. Use signed contributions to find the new node voltage and state the current direction in the $10\,\Omega$ resistor.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/superposition-F.png}}\end{center}
+
+\begin{quote}\small\textit{Use the shown circuit except reverse the 1 A source so it points downward from v to ground. The 15 V source feeds v through 5 Ω, and 10 Ω joins v to ground.}\end{quote}
+
+\subsection*{Solution}
+
+Keep downward load current positive. The voltage-source contribution is unchanged: $v_V=10.0\,\mathrm{V}$\par
+
+Reversing the current source reverses its contribution: $v_I=-1(5\parallel10)=-3.333\,\mathrm{V}$ $v=10.0-3.333=6.667\,\mathrm{V}$ $i_{10}=\frac{v}{10}=0.6667\,\mathrm{A}\quad\text{downward}$\par
+
+\clearpage
+\section*{Question 13}
+
+Find the loop current by superposition and give both signed source contributions.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/superposition-G.png}}\end{center}
+
+\begin{quote}\small\textit{A single loop has a 30 V source on the left and a 10 V source on the right, both positive at the top. The top branch contains 6 Ω then 4 Ω. The bottom wire is ground, and current is referenced left to right across the top.}\end{quote}
+
+\subsection*{Solution}
+
+Define clockwise current $i$, left to right on the top branch. $i_{30}=\frac{30}{6+4}=3.00\,\mathrm{A}$\par
+
+The right source opposes the reference direction: $i_{10}=-\frac{10}{6+4}=-1.00\,\mathrm{A}$ $i=i_{30}+i_{10}=2.00\,\mathrm{A}\quad\text{left to right}$\par
+
+\clearpage
+\section*{Question 14}
+
+Find the voltage across the $4\,\Omega$ resistor, positive on its left terminal, and the power delivered or absorbed by each source.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/superposition-G.png}}\end{center}
+
+\begin{quote}\small\textit{A single loop has a 30 V source on the left and a 10 V source on the right, both positive at the top. The top branch contains 6 Ω then 4 Ω. The bottom wire is ground, and current is referenced left to right across the top.}\end{quote}
+
+\subsection*{Solution}
+
+From the superposed current, $v_4=4i=4(2.00)=8.00\,\mathrm{V}$\par
+
+Current leaves the positive terminal of the $30\,\mathrm{V}$ source, so it delivers $P_{30}=30(2.00)=60.0\,\mathrm{W}\quad\text{delivered}$\par
+
+Current enters the positive terminal of the $10\,\mathrm{V}$ source, so it absorbs $P_{10}=10(2.00)=20.0\,\mathrm{W}\quad\text{absorbed}$\par
+
+The resistors absorb $i^2(6+4)=40.0\,\mathrm{W}$, which checks the balance.\par
+
+\clearpage
+\section*{Question 15}
+
+Add a dependent current source of value $0.20v\,\mathrm{A}$ pointing upward from ground to node $v$ in parallel with the shown elements. Use superposition of the independent sources to find $v$. Keep the dependent source active in every subproblem.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/superposition-F.png}}\end{center}
+
+\begin{quote}\small\textit{Ground is the bottom wire. A grounded 15 V source feeds node v through 5 Ω. A 10 Ω resistor joins v to ground. Independent 1 A and added dependent 0.20v A sources both point upward from ground to v.}\end{quote}
+
+\subsection*{Solution}
+
+Dependent sources are never deactivated. With only the $15\,\mathrm{V}$ source active, $\frac{v_V-15}{5}+\frac{v_V}{10}-0.20v_V=0$ $0.10v_V=3\;\Rightarrow\;v_V=30.0\,\mathrm{V}$\par
+
+With only the independent $1\,\mathrm{A}$ source active, $\frac{v_I}{5}+\frac{v_I}{10}-0.20v_I-1=0$ $0.10v_I=1\;\Rightarrow\;v_I=10.0\,\mathrm{V}$ $v=v_V+v_I=40.0\,\mathrm{V}$\par
+
+\clearpage
+\section*{Question 16}
+
+For the modified circuit in Question 15, check the result using one full-circuit KCL equation and find the dependent-source current.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/superposition-F.png}}\end{center}
+
+\begin{quote}\small\textit{Use the Question 15 circuit: the 15 V source feeds v through 5 Ω; 10 Ω joins v to ground; independent 1 A and dependent 0.20v A sources point upward from ground to v.}\end{quote}
+
+\subsection*{Solution}
+
+KCL at $v$ for the full circuit is $\frac{v-15}{5}+\frac{v}{10}-1-0.20v=0$ $0.10v-4=0\;\Rightarrow\;v=40.0\,\mathrm{V}$\par
+
+The controlled current is $i_d=0.20v=0.20(40.0)=8.00\,\mathrm{A}\quad\text{upward}$\par
+
+\clearpage
+\section*{Question 17}
+
+Use superposition to find $v_a$ and $v_b$ for this challenge network.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/superposition-H.png}}\end{center}
+
+\begin{quote}\small\textit{Ground is the bottom wire. A grounded 24 V source feeds va through 3 Ω. A 6 Ω resistor joins va to ground. A 5 Ω resistor joins va to vb. A 10 Ω resistor joins vb to ground, and a 2 A source points upward from ground to vb.}\end{quote}
+
+\subsection*{Solution}
+
+With the current source open,\par
+
+\$\$\textbackslash{}frac\{v\_\{a,V\}-24\}\{3\}+\textbackslash{}frac\{v\_\{a,V\}\}\{6\}+\textbackslash{}frac\{v\_\{a,V\}-v\_\{b,V\}\}\{5\}=0,\par
+\textbackslash{}qquad \textbackslash{}frac\{v\_\{b,V\}-v\_\{a,V\}\}\{5\}+\textbackslash{}frac\{v\_\{b,V\}\}\{10\}=0\$\$\par
+
+Solving gives $v_{a,V}=14.1176\,\mathrm{V},\qquad v_{b,V}=9.4118\,\mathrm{V}$.\par
+
+With the voltage source shorted,\par
+
+\$\$\textbackslash{}frac\{v\_\{a,I\}\}\{3\}+\textbackslash{}frac\{v\_\{a,I\}\}\{6\}+\textbackslash{}frac\{v\_\{a,I\}-v\_\{b,I\}\}\{5\}=0,\par
+\textbackslash{}qquad \textbackslash{}frac\{v\_\{b,I\}-v\_\{a,I\}\}\{5\}+\textbackslash{}frac\{v\_\{b,I\}\}\{10\}-2=0\$\$\par
+
+Solving gives $v_{a,I}=2.3529\,\mathrm{V},\qquad v_{b,I}=8.2353\,\mathrm{V}$. Thus $v_a=16.4706\,\mathrm{V},\qquad v_b=17.6471\,\mathrm{V}$.\par
+
+\clearpage
+\section*{Question 18}
+
+Find the current in the $5\,\Omega$ resistor, positive from $v_a$ to $v_b$, and interpret its sign.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/superposition-H.png}}\end{center}
+
+\begin{quote}\small\textit{Ground is the bottom wire. A grounded 24 V source feeds va through 3 Ω. A 6 Ω resistor joins va to ground. A 5 Ω resistor joins va to vb. A 10 Ω resistor joins vb to ground, and a 2 A source points upward from ground to vb.}\end{quote}
+
+\subsection*{Solution}
+
+The source contributions are $i_{5,V}=\frac{14.1176-9.4118}{5}=0.9412\,\mathrm{A}$ $i_{5,I}=\frac{2.3529-8.2353}{5}=-1.1765\,\mathrm{A}$ $i_5=0.9412-1.1765=-0.2353\,\mathrm{A}$\par
+
+The negative sign means the actual current is $0.2353\,\mathrm{A}$ from $v_b$ to $v_a$.\par
+
+\clearpage
+\section*{Question 19}
+
+Find the power absorbed by the $10\,\Omega$ resistor. Show why adding partial powers would be wrong.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/superposition-H.png}}\end{center}
+
+\begin{quote}\small\textit{Ground is the bottom wire. A grounded 24 V source feeds va through 3 Ω. A 6 Ω resistor joins va to ground. A 5 Ω resistor joins va to vb. A 10 Ω resistor joins vb to ground, and a 2 A source points upward from ground to vb.}\end{quote}
+
+\subsection*{Solution}
+
+First add the voltage contributions: $v_b=9.4118+8.2353=17.6471\,\mathrm{V}$\par
+
+Then calculate power from the total response: $P_{10}=\frac{v_b^2}{10}=31.14\,\mathrm{W}\quad\text{absorbed}$\par
+
+Adding partial powers would give $\frac{(9.4118)^2}{10}+\frac{(8.2353)^2}{10}=15.64\,\mathrm{W}\neq31.14\,\mathrm{W}$\par
+
+The missing cross term shows that power does not obey superposition.\par
+
+\clearpage
+\section*{Question 20}
+
+Perform a full-circuit power check. State the absorbed or delivered status of both independent sources.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/superposition-H.png}}\end{center}
+
+\begin{quote}\small\textit{Ground is the bottom wire. A grounded 24 V source feeds va through 3 Ω. A 6 Ω resistor joins va to ground. A 5 Ω resistor joins va to vb. A 10 Ω resistor joins vb to ground, and a 2 A source points upward from ground to vb.}\end{quote}
+
+\subsection*{Solution}
+
+Using $v_a=16.4706\,\mathrm{V}$ and $v_b=17.6471\,\mathrm{V}$, total resistor absorption is\par
+
+\[P_R=\frac{(24-v_a)^2}{3}+\frac{v_a^2}{6}+\frac{(v_a-v_b)^2}{5}+\frac{v_b^2}{10}=95.53\,\mathrm{W}\]
+
+The $24\,\mathrm{V}$ source current leaving its positive terminal is $i_{24}=\frac{24-v_a}{3}=2.5098\,\mathrm{A}$ $P_{24}=24i_{24}=60.24\,\mathrm{W}\quad\text{delivered}$\par
+
+The $2\,\mathrm{A}$ source current leaves its positive top terminal, so $P_{2A}=v_b(2)=35.29\,\mathrm{W}\quad\text{delivered}$ $P_{\text{delivered}}=60.24+35.29=95.53\,\mathrm{W}$\par
+
+Thus $P_R=P_{\text{delivered}}=95.53\,\mathrm{W}$ within rounding. Both sources deliver power.\par
+\end{document}

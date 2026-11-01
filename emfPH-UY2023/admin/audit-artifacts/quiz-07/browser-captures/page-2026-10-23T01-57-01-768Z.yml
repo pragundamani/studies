@@ -1,0 +1,24 @@
+- main [ref=f1e3]:
+  - heading [level=1] [ref=f1e5]:
+    - img "Cengage Learning logo" [ref=f1e6]
+  - generic [ref=f1e8]:
+    - generic [ref=f1e9]:
+      - generic [ref=f1e10]:
+        - generic [ref=f1e11]:
+          - heading "Sign in" [level=2] [ref=f1e12]
+          - generic [ref=f1e14]:
+            - generic [ref=f1e15]: Email or Username
+            - generic [ref=f1e16]:
+              - generic:
+                - textbox "Email or Username" [disabled]:
+                  - /placeholder: ""
+                  - text: pd2752@nyu.edu@
+        - button "NEXT" [disabled] [ref=f1e20]
+      - generic [ref=f1e21]:
+        - link "Need help signing in?":
+          - /url: "#"
+    - generic [ref=f1e23]:
+      - separator [aria-hidden] [ref=f1e24]
+      - text: New to Cengage?
+      - link "Create Account" [ref=f1e25] [cursor=pointer]:
+        - /url: /register?SAMLRequest=fZLdauMwEIVfxejetqT4ryJOCRsKgW5Y%2BkfpnZAnrlh75GrkZPP26zpNaS92b8XMdw7faHn9p%2B%2BiA3iyDmsmEs4iQOMai23NHh9u4opdr5ak%2B04Oaj2GV7yDtxEoRGsi8GFa%2B%2BGQxh78PfiDNfB4d1uz1xAGUmmqp43EALa6hcS4PiVy6UxLudOyyCuxR9o957t2vchLFm0mtEUd5jqfFGPciOEbqHOtRRbdOG9g7lWzve4IWLTd1Mw2WVVIXsjsasGzMpe5qBai5JUoq6tsytkSjbBFChpDzSSXRSx4LBcPXKi8UDlPqqx8YdHTRY18VzPJQlJnGzUbPSqnyZJC3QOpYNT9%2BuetmkbV4F1wxnXsQ56aA%2F1Xwv8B%2BqKXrS4ajsdj4n4HfRY5S6Sz83iKO9gGfErDAZseUJ%2Fc4Ns33ZyasEy%2FVvi85m7K3G5%2Buc6a07vHXod%2FVxKJmF9sE%2B%2FnUTUiDWDs3kLD0tVHxvc%2FsvoL&RelayState=%252Foauth2%252Fv1%252Fauthorize%252Fredirect%253Fokta_key%253DJJ7vswHdGR8HhYab8nLvnvOEuh9tMYgRKy-kJNVP_nE&SigAlg=http%3A%2F%2Fwww.w3.org%2F2001%2F04%2Fxmldsig-more%23rsa-sha256&Signature=jFctlZ3ykJ9qw3U0OaiI1vX5hmMTK3A4y6apMChYx9LQeVovJrgLRNcnFfzULStV6pUiSuTwirYFLUkmQDiL2l8SsNKYbw6C1Kcr%2F8UTuTJ9Rr5%2BuT1BKqCY0RCV6YC3%2F2LXSe3d8k0LL%2B9zzahYGFmkwe%2F5bfPZ%2BHAHH%2B87CmPRhHTW866JeqQGIBgqgZCMrdYUgIGmlzD9sFMHSc8esSkYhlCB1BkkBAw6jTBKNxndJMBNQcWUZJGOvdYDAKFJciJ2EV3eJADinZlu0W9JCIiozBYd9gcgulKcOU%2FWJXvqB2z9EvXi6jFk1zzVxZSV7iE6XFCpTa%2FbOwjt8tVl7g%3D%3D

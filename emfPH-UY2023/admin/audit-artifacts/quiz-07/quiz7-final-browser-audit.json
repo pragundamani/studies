@@ -1,0 +1,98 @@
+{
+  "statuses": [
+    {
+      "q": "Banner for question 1",
+      "text": "1.\n[3 / 3 Points]\nDETAILS\nMY NOTES\nPREVIOUS ANSWERS\nASK YOUR TEACHER\nPRACTICE ANOTHER"
+    },
+    {
+      "q": "Banner for question 2",
+      "text": "2.\n[4 / 4 Points]\nDETAILS\nMY NOTES\nPREVIOUS ANSWERS\nASK YOUR TEACHER"
+    },
+    {
+      "q": "Banner for question 3",
+      "text": "3.\n[8 / 8 Points]\nDETAILS\nMY NOTES\nPREVIOUS ANSWERS\nASK YOUR TEACHER"
+    },
+    {
+      "q": "Banner for question 4",
+      "text": "4.\n[2 / 2 Points]\nDETAILS\nMY NOTES\nPREVIOUS ANSWERS\nASK YOUR TEACHER\nPRACTICE ANOTHER"
+    },
+    {
+      "q": "Banner for question 5",
+      "text": "5.\n[10 / 10 Points]\nDETAILS\nMY NOTES\nPREVIOUS ANSWERS\nASK YOUR TEACHER\nPRACTICE ANOTHER"
+    },
+    {
+      "q": "Banner for question 6",
+      "text": "6.\n[3 / 3 Points]\nDETAILS\nMY NOTES\nPREVIOUS ANSWERS\nASK YOUR TEACHER\nPRACTICE ANOTHER"
+    },
+    {
+      "q": "Banner for question 7",
+      "text": "7.\n[2 / 2 Points]\nDETAILS\nMY NOTES\nPREVIOUS ANSWERS\nASK YOUR TEACHER\nPRACTICE ANOTHER"
+    },
+    {
+      "q": "Banner for question 8",
+      "text": "8.\n[2 / 2 Points]\nDETAILS\nMY NOTES\nPREVIOUS ANSWERS\nASK YOUR TEACHER\nPRACTICE ANOTHER"
+    },
+    {
+      "q": "Banner for question 9",
+      "text": "9.\n[11 / 11 Points]\nDETAILS\nMY NOTES\nPREVIOUS ANSWERS\nASK YOUR TEACHER\nPRACTICE ANOTHER"
+    },
+    {
+      "q": "Banner for question 10",
+      "text": "10.\n[30 / 30 Points]\nDETAILS\nMY NOTES\nPREVIOUS ANSWERS\nASK YOUR TEACHER\nPRACTICE ANOTHER"
+    }
+  ],
+  "q5": "SerPSE11 24.DWB.003.\nElectricity: Electric Potential III (Electric Field from the Potential)\nElectricity—Electric Potential III (Electric Field from the Potential)\nWe know from previous lessons that we have a relationship between the electric potential and the electric field. Recall that this relationship was expressed as \nΔV = − \n\n\n\n\n · d.\n In this lesson, we'll be looking at the inverse of this relationship; that is, how we can determine the electric field by measuring the electric potential. We'll also look at a way to visualize electric potential due to charged particles.\nPart 1 of 5 - Step 1\nStep 1\nIt's useful for us to be able to define the inverse of this relationship, as we have tools that make it very easy to measure the electric potential at different locations in space. If we know the electric potential, we can then find the electric field. The device one would use to measure the electric potential is called a voltmeter.\nRecall that\nΔV = − \n\n\n\n\n · d\nand\ndV = − · d.\nBased on this, which of the following expressions gives the correct relationship between the electric field component along the r direction, the electric potential V, and the radial distance r?\n \ndr = − \ndV\n\n\ndEr\n \nEr = \ndV\n\n\ndr\n     \n \nEr = − \ndV\n\n\ndr\n✓ Yes. This is what we'll be looking at in this workbook.\nSo, a more general way of writing this would be\nEs = − \ndV\n\n\nds\nwhere ds is an element of distance in any direction, and Es is the electric field component along that direction. So, if we have an electric field with only one component (e.g., Ex), then we can say\nEx = − \ndV\n\n\ndx\n.\nWe know that the electric field is expressed in units of newtons per coulomb (N/C), but based on this new definition, how else can we express the electric field?\n coulombs per meter squared\n volts per meter     \n newtons per meter\n✓ Yes! Either unit is valid, so we can say N/C or V/m.\nIf we were to use a voltmeter to measure the electric potential at different points along the x-axis, and plot a graph of V vs. x, which part of the graph could we use to find the electric field?\n the x-intercept\n the y-intercept     \n the slope\n✓ Yes. To be more precise, the opposite of the slope is equal to the x-component of the electric field.\nPart 2 of 5 - Step 2\nStep 2\nConsider a charged particle at the origin of a coordinate system. The electric potential along the x-axis due to the charged particle is\nV = \n1\n\n\n4𝜋𝜀0\n \nq\n\n\nx\n.\nWhat is the electric field along the x-axis?\n \nEx = \nq\n\n\n4𝜋𝜀0x\n \nEx = − \nq\n\n\n4𝜋𝜀0x2\n     \n \nEx = \nq\n\n\n4𝜋𝜀0x2\n✓ Yes! Let's rewrite this with \nke.\nSubstituting in \nke = \n1\n\n\n4𝜋𝜀0\n,\n we get\nEx = \nkeq\n\n\nx2\n.\nDoes this make sense? If we recall the expression for the magnitude of the electric field of a point charge, it was\nE = \nkeq\n\n\nr2\n.\nSo here we have worked backwards to get Ex from V.\nNow consider a large, uniformly charged surface, lying in the xy-plane of a coordinate system, with a surface charge density (charge per unit area) of 𝜎 . The electric potential at a point a distance z away from the surface is given by\nV = \n𝜎\n\n\n2𝜀0\nz.\nUse this to find the z-component of the electric field due to this charged sheet, Ez.\n \nEz = − \n𝜎\n\n\n2𝜀0\n \nEz = − \n𝜎\n\n\n2𝜀0\n \n1\n\n\nz2\n     \n \nEz = \n𝜎\n\n\n2𝜀0\n✓ Yes, so the electric field is constant.\nPart 3 of 5 - Step 3\nStep 3\nLet's look at a charged particle, with charge q. This charge has electric field lines that radiate outward. We know that the potential difference can be written as \nV = ke\nq\n\n\nr\n,\n and the electric field is therefore \nE = \nkeq\n\n\nr2\n.\n Because ke is a constant and our point charge doesn't magically change its charge q, the only thing that has an effect on E is the radius r. So, for fixed values of r, we would guess what we have fixed values of the magnitude of the electric field, E.\nA small circle labeled q represents a point charge. Eight arrows begin at evenly spaced points on the circle (45° apart) and extend radially outward. A dashed blue circle centered on the charge is labeled r = r1. A larger dashed red circle, also centered on the charge, is labeled r = r2.\nThe diagram above shows electric field lines for the case of positive q. Looking at the diagram, fixed values of r (in a 3D space) would create spheres, where on the surface of the sphere, the magnitude of the electric field is constant. This is called an equipotential surface. We have two equipotential surfaces drawn in here, one at \nr = r1\n and one at \nr = r2.\nHave a look at the diagram. What can we conclude about the electric field lines and the equipotential surfaces?\n They are always parallel to each other.\n They are always perpendicular to each other.     \n✓ Yes. The surface of a sphere is always perpendicular to lines pointing radially outward.\nThe other important fact we need to know about the electric field is the direction of the field lines. The lines always point from a higher potential to a lower potential.\nFour evenly spaced concentric circles are shown. From the innermost to the outermost circle, they are labeled V = 10 V, V = 20 V, V = 30 V, and V = 40 V. A red rectangle oulines a small portion of the third circle from the center (V = 30 V).\nLook at the image of equipotential surfaces above. These represent regions in space where V is constant along the line. If we were to zoom in to the red square, what would the electric field lines look like on this section of the equipotential surface?\nA small section of a circle is shown. Three horizontal arrows of equal lengths originate at points on the circle and point to the right.\n \nA small section of a circle is shown. Five arrows of equal lengths originate at regularly spaced points on the circle and point radially outward.\n  \nA small section of a circle is shown. Five arrows of equal lengths originate outside the circle and point radially inward, terminating at regularly spaced points on the circle.\n\n\n ✓ Yes! The field lines must point from a higher to a lower potential.\nIf you know that the measurements along the 20.0 V line and the 10.0 V line were measured at \nr = 8.00 cm\n and \nr = 4.00 cm,\n respectively, what is the magnitude of the average electric field (in N/C or V/m) in the region between the two surfaces?\n250 \n  \n\n250\n\n ✓ Correct! N/C or V/m\nPart 4 of 5 - Step 4\nStep 4\nThe last step is to look at what happens when we use the equation \nΔV = −\n\n\n\n\n · d\n and integrate over a closed loop. First, let's define the integral over a closed loop by replacing the symbol.\nΔV = −\n\n\n\n\n · d\nWe find that when we integrate the electric field over closed loop, the potential difference is\nΔV = −\n\n\n\n\n · d = 0\nΔV = 0\nLet's look at a few examples of this. Firstly, one can conceptually understand that if we choose the closed loop to be on an equipotential surface, V doesn't change along the surface and so \nΔV = 0.\nSecondly, we look at a closed path of the shape seen below.\nA small circle labeled + represents a point charge. Six arrows begin at evenly spaced points on the circle (60° apart) and extend radially outward. A dashed blue circle centered on the charge is labeled r = r1. A larger dashed blue circle, also centered on the charge, is labeled r = r2. A directed path consists of four segments shown as red arrows.\nSegment 1 begins at a point on the inner (r1) circle and extends radially outward, ending at a point on the outer (r2) circle.\nSegment 2 begins at the endpoint of segment 1 and continues on the outer circle, forming an arc of approximately 50°.\nSegment 3 begins on the outer circle at the endpoint of segment 2 and extends radially inward, ending at a point on the inner circle.\nSegment 4 begins at the endpoint of segment 3 and continues on the inner circle, ending at the starting point of segment 1.\nWe wish to find the path integral \nΔV = −\n\n\n\n\n · d\n along the direction indicated along the closed path. We can do this by breaking the path into segments, labeled 1 to 4, and considering the potential differences found along each segment.\nWhich of the following statements are true? (Select all that apply.)\n Segment 1 from \nr1\n to \nr2\n will give us a negative value for ΔV.\n Segment 1 from \nr1\n to \nr2\n will give us a positive value for ΔV.\n Segment 2 is along an equipotential surface, so this will give us a positive value ΔV.\n Segment 2 is along an equipotential surface, so ΔV along this segment is zero.\n\n✓ Correct! Let's look at the next segments.\nSo, segment 1 has a positive value for ΔV. Let's call this value 𝜆.\nWhat is true for the last 2 segments? (Select all that apply.)\n Segment 3 from \nr2\n to \nr1\n will give us a positive value for ΔV, so ΔV = 𝜆.\n Segment 3 is equal in magnitude to segment 1 but it will be negative, ΔV = −𝜆.\n Segment 4 is along an equipotential surface, so V along this segment is zero.\n\nYes! Let's add all the segments up.\nAdding all these up, we get\nΔVloop = segment 1 + segment 2 + segment 3 + segment 4\nΔVloop = 𝜆 + 0 − 𝜆 − 0\nΔVloop = 0\nAlthough we won't prove it here, it can be shown that any closed path near a single charged particle will give a potential difference of zero. Since electric potential obeys superposition, if the closed path integral is zero for one charge, it will be zero for any distribution of charges. The fact that ΔV over a closed path is zero reflects that electric forces are conservative, and that the potential difference between any two points does not depend on the path.\nPart 5 of 5 - Conclusion\nConclusion\nWe can use our previous knowledge of \nΔV = −\n\n\n\n\n · d\n to define \nEr = − \ndV\n\n\ndr\n.\nA plot of V vs. position will give us a graph where the slope represents the electric field, E. Because in practice V is easier to measure directly (with a voltmeter) than E, this gives us a useful way to find electric field.\nEquipotential surfaces are regions in space where V is constant along the surface and E is constant along the surface. The shapes of these surfaces depend on the charge distribution.\nFor a closed loop, \nΔV = −\n\n\n\n\n · d.\nYou have completed the Workbook lesson.\nResources\n\nREAD IT",
+  "q10": "10.\n[30 / 30 Points]\nDETAILS\nMY NOTES\nPREVIOUS ANSWERS\nASK YOUR TEACHER\nPRACTICE ANOTHER\nSerPSE11 25.6.OP.019.MI.SA.\nThis question has several parts that must be completed sequentially. If you skip a part of the question, you will not receive any points for the skipped part, and you will not be able to come back to the skipped part.\n\n\nTutorial Exercise\nA small, rigid object carries positive and negative 4.50-nC charges. It is oriented so that the positive charge has coordinates (−1.20 mm, 1.70 mm) and the negative charge is at the point (1.80 mm, −1.30 mm).\n(a) Find the electric dipole moment of the object. The object is placed in an electric field \nE\n= (7.80  103î − 4.90  103ĵ) N/C.\n\n\n(b) Find the torque acting on the object.\n\n(c) Find the potential energy of the object–field system when the object is in this orientation.\n\n(d) Assuming the orientation of the object can change, find the difference between the maximum and the minimum potential energies of the system.\nPart 1 of 8 - Conceptualize\nAn electric dipole in an external electric field behaves like a needle mounted at its midpoint on a vertical pivot. The dipole can be forced to another orientation by exerting a torque on it to move it from its position of lowest energy. When released, it will oscillate like a torsional pendulum. The electric dipole in this problem is small in size like one that might be used in a classroom experiment. The dipole moment will be in the picocoulomb-meter range and the torque, which tends to turn it clockwise to align it with the field, will be on the order of a few nanonewton-meters, with the potential energy on the order of nanojoules. In the orientation described, the dipole is close to its maximum potential energy since its moment is close to being opposite the field direction.\nAn electric dipole lies on an x y coordinate plane in an external electric field labeled vector E that points down and right. The negative charge of the dipole is in the fourth quadrant and the positive charge is in the second quadrant. Vector p points from the negative charge up and left to the positive charge and is nearly antiparallel to the electric field.\nPart 2 of 8 - Categorize\nWe use the definition of dipole moment and the equation for torque exerted on a dipole by an electric field. We compute the dot product of the moment and the electric field vectors to find the potential energy and compute the maximum potential energy for the dipole when its moment is opposite in direction to the electric field.\nPart 3 of 8 - Analyze\n(a) The displacement in vector notation from negative to positive charge along the dipole is given by the following.\n2a\n\t = \t\n-1.2 \n  \n\n-1.2\n\n î + 1.7 \n  \n\n1.7\n\n ĵ\n mm − \n1.8 \n  \n\n1.8\n\n î + −1.3 ĵ\n mm\n\n\n\t = \t\n-3.0 \n  \n\n-3\n\n î + 3.0 \n  \n\n3\n\n ĵ\n × 10−3 m\nPart 4 of 8 - Analyze\nThe electric dipole moment is given by\np\n\t = \t2a\nq\n\n\n\t = \t\n-3.0 \n  \n\n-3\n\n î + 3.0 \n  \n\n3\n\n ĵ\n × 10−3 m\n4.50 \n  \n\n4.5\n\n × 10−9 C\n\n\n\n\t = \t\n-13.5 \n  \n\n-13.5\n\n î + 13.5 \n  \n\n13.5\n\n ĵ\n × 10−12 C · m.\nPart 5 of 8 - Analyze\n(b) The torque exerted by the field on the dipole is given by the following cross product.\n𝜏\n\t = \tp\n × E\n\n\n\n\t = \t\n-13.5 \n  \n\n-13.5\n\n î + 13.5 \n  \n\n13.5\n\n ĵ\n × 10−12 C · m\n × \n7.80 \n  \n\n7.8\n\n î + -4.90 \n  \n\n-4.9\n\n ĵ\n × 103 N/C\n\n\n\n\t = \t\n-3.92 \n  \n\n-3.92\n\n × 10−8 N · m\nPart 6 of 8 - Analyze\n(c) Relative to zero energy when it is perpendicular to the field, the dipole has the following potential energy.\nU\t = \t−p\n · E\n\n\n\n\t = \t−\n-13.5 \n  \n\n-13.5\n\n î + 13.5 \n  \n\n13.5\n\n ĵ\n × 10−12 C · m\n · \n7.80 \n  \n\n7.8\n\n î + -4.90 \n  \n\n-4.9\n\n ĵ\n × 103 N/C\n\n\n\n\t = \t171 \n  \n\n171\n\n × 10−9 J = 171 \n  \n\n171\n\n nJ\nPart 7 of 8 - Analyze\n(d) For convenience, we compute the magnitudes of the dipole moment vector and the electric field vector as follows. For the dipole, we have\np\n\t = \t\n\t\npx2 + py2\n\n\n\n\t = \t\n\t\n-13.5 \n  \n\n13.5\n\n \n\t2\n \n + 13.52\n × 10−12 C · m = 19.1 \n  \n\n19.1\n\n × 10−12 C · m,\nand for the electric field, we have\nE\n\t = \t\n\t\nEx2 + Ey2\n\n\n\n\t = \t\n\t\n7.8 \n  \n\n7.8\n\n \n\t2\n \n + 4.92\n × 103 N/C = 9.21 \n  \n\n9.21\n\n × 103 N/C.\nPart 8 of 8 - Analyze\nThe maximum potential energy occurs when the dipole moment is opposite in direction to the field. It is given by the following.\nUmax\t = \t\np\nE\n\n\n\n\t = \t\n19.1 \n  \n\n19.1\n\n × 10−12 C · m\n9.21 \n  \n\n9.21\n\n × 103 N/C\n = 176 \n  \n\n176\n\n nJ\nThe minimum potential energy configuration is the stable equilibrium position with the dipole aligned with the field. This value is given by\nUmin = −Umax = −176 \n  \n\n176\n\n nJ.\nThe difference between the minimum potential energy and the maximum potential energy represents the range of energies of the dipole, and is given by\nUmax − Umin = 352 \n  \n\n352\n\n nJ.\nFinalize\nAll of our estimates were within the ranges of our calculated answers. We reviewed vector multiplication by a scalar as well as the dot and cross products of vectors. We can extrapolate the behavior of a dipole in an electric field to the behavior of dipoles such as atoms and nuclei in a magnetic field.\nResources\n\nREAD IT",
+  "images": [
+    {
+      "src": "https://www.webassign.net/serpse9/24-p-054.gif",
+      "w": 241,
+      "h": 163
+    },
+    {
+      "src": "https://www.webassign.net/serpse10/24-dwb-003a.png",
+      "w": 375,
+      "h": 363
+    },
+    {
+      "src": "https://www.webassign.net/serpse10/24-dwb-003b.png",
+      "w": 275,
+      "h": 426
+    },
+    {
+      "src": "https://www.webassign.net/serpse10/24-dwb-003c.png",
+      "w": 225,
+      "h": 200
+    },
+    {
+      "src": "https://www.webassign.net/serpse10/24-dwb-003d.png",
+      "w": 225,
+      "h": 232
+    },
+    {
+      "src": "https://www.webassign.net/serpse10/24-dwb-003e.png",
+      "w": 225,
+      "h": 232
+    },
+    {
+      "src": "https://www.webassign.net/serpse10/24-dwb-003f.png",
+      "w": 400,
+      "h": 432
+    },
+    {
+      "src": "https://www.webassign.net/serpop5/20-p-019-alt.gif",
+      "w": 213,
+      "h": 338
+    },
+    {
+      "src": "https://www.webassign.net/serpse8/25-figure-20.gif",
+      "w": 146,
+      "h": 273
+    },
+    {
+      "src": "https://www.webassign.net/serpse8/26-p-051-mi.gif",
+      "w": 263,
+      "h": 234
+    }
+  ]
+}

@@ -1,0 +1,999 @@
+- generic [ref=f50e3]:
+  - generic [ref=f50e4]:
+    - link "Skip to content" [ref=f50e5] [cursor=pointer]:
+      - /url: ""
+    - link "Skip to navigation" [ref=f50e6] [cursor=pointer]:
+      - /url: ""
+  - generic [ref=f50e7]:
+    - banner [ref=f50e8]:
+      - generic [ref=f50e10]:
+        - button "Cengage WebAssign Homepage" [ref=f50e12] [cursor=pointer]:
+          - img "Cengage WebAssign Homepage" [ref=f50e13]
+        - generic [ref=f50e34]:
+          - generic [ref=f50e35]:
+            - link "My Cengage Home" [ref=f50e36] [cursor=pointer]:
+              - /url: https://www.cengage.com/dashboard/
+            - button "Open Email Notification Settings modal" [ref=f50e41] [cursor=pointer]
+            - link "Open Help page in a new browser tab." [ref=f50e45] [cursor=pointer]:
+              - /url: https://help.cengage.com/webassign/student_guide/
+            - link "Open My Account in a new browser tab." [ref=f50e49] [cursor=pointer]:
+              - /url: /web/User/Cengage/my_account
+            - button "Interface language setting. Language set to English" [ref=f50e54] [cursor=pointer]:
+              - generic [ref=f50e57]: EN
+          - generic [ref=f50e61]:
+            - generic [ref=f50e62]: pd2752@nyu.edu
+            - button "Sign out" [ref=f50e63] [cursor=pointer]
+      - navigation "WebAssign" [ref=f50e66]:
+        - link "Home" [ref=f50e67]
+        - link "My Assignments" [ref=f50e68]
+        - link "Grades" [ref=f50e69]
+        - link "Communication" [ref=f50e70]
+        - link "Calendar" [ref=f50e71]
+        - button "My eBooks" [ref=f50e74]
+    - main [ref=f50e77]:
+      - generic [ref=f50e78]:
+        - generic [ref=f50e79]:
+          - generic [ref=f50e81]:
+            - generic [ref=f50e82]:
+              - 'link "navigate back to MA-UY 2314: Discrete Mathematics, Fall 2026, Fall 2026" [ref=f50e84] [cursor=pointer]':
+                - /url: /v4cgi/student.pl?course=1319576,1715067
+                - text: "MA-UY 2314: Discrete Mathematics, Fall 2026, Fall 2026"
+              - 'heading "4.10 Application: Algorithms (Homework)" [level=1] [ref=f50e87]'
+            - generic [ref=f50e90]:
+              - generic [ref=f50e94]:
+                - text: Instructor
+                - generic [ref=f50e95]: Ken Cereste
+              - generic [ref=f50e96]: New York University
+          - generic [ref=f50e99]:
+            - generic [ref=f50e100]:
+              - generic [ref=f50e101]:
+                - generic [ref=f50e102]:
+                  - generic [ref=f50e103]: "Due Date: Thursday, October 29, 2026 at 11:59 PM EDT"
+                  - generic [aria-hidden] [ref=f50e104]: "Due Date:"
+                  - generic [aria-hidden] [ref=f50e105]: Thu, Oct 29, 2026 11:59 PM EDT
+                - generic [ref=f50e106]:
+                  - generic [ref=f50e107]: "Current Score: 73.78 / 100 Points 73.8%"
+                  - generic [aria-hidden] [ref=f50e108]: "Current Score:"
+                  - generic [aria-hidden] [ref=f50e109]: 73.78 / 100 Points | 73.8 %
+              - generic [ref=f50e110]:
+                - button "Open Request Extension in modal window" [ref=f50e111] [cursor=pointer]:
+                  - generic [ref=f50e112]: Request Extension
+                - button "Print assignment" [ref=f50e116] [cursor=pointer]:
+                  - generic [ref=f50e117]: Print Assignment
+            - generic [ref=f50e123]:
+              - heading [level=2] [ref=f50e124]:
+                - button "Scoring and Assignment Information" [expanded] [ref=f50e125] [cursor=pointer]
+              - generic "Scoring and Assignment Information" [ref=f50e132]:
+                - generic [ref=f50e133]:
+                  - table [ref=f50e136]:
+                    - rowgroup [ref=f50e137]:
+                      - row [ref=f50e138]:
+                        - rowheader "Question" [ref=f50e139]
+                        - columnheader [ref=f50e140]:
+                          - link "Question 1 of 6," [ref=f50e141] [cursor=pointer]:
+                            - /url: "#Q1"
+                            - generic [ref=f50e142]: "1"
+                        - columnheader [ref=f50e144]:
+                          - link "Question 2 of 6," [ref=f50e145] [cursor=pointer]:
+                            - /url: "#Q2"
+                            - generic [ref=f50e146]: "2"
+                        - columnheader [ref=f50e148]:
+                          - link "Question 3 of 6," [ref=f50e149] [cursor=pointer]:
+                            - /url: "#Q3"
+                            - generic [ref=f50e150]: "3"
+                        - columnheader [ref=f50e152]:
+                          - link "Question 4 of 6," [ref=f50e153] [cursor=pointer]:
+                            - /url: "#Q4"
+                            - generic [ref=f50e154]: "4"
+                        - columnheader [ref=f50e156]:
+                          - link "Question 5 of 6," [ref=f50e157] [cursor=pointer]:
+                            - /url: "#Q5"
+                            - generic [ref=f50e158]: "5"
+                        - columnheader [ref=f50e160]:
+                          - link "Question 6 of 6," [ref=f50e161] [cursor=pointer]:
+                            - /url: "#Q6"
+                            - generic [ref=f50e162]: "6"
+                      - row [ref=f50e164]:
+                        - rowheader "Points" [ref=f50e165]
+                        - cell [ref=f50e166]:
+                          - link "Question 1 out of 6, correct, your score is 16.66 out of 16.66" [ref=f50e167] [cursor=pointer]:
+                            - /url: "#Q1"
+                            - generic [ref=f50e168]: 16.66 / 16.66
+                        - cell [ref=f50e169]:
+                          - link "Question 2 out of 6, correct, your score is 16.66 out of 16.66" [ref=f50e170] [cursor=pointer]:
+                            - /url: "#Q2"
+                            - generic [ref=f50e171]: 16.66 / 16.66
+                        - cell [ref=f50e172]:
+                          - link "Question 3 out of 6, correct, your score is 16.66 out of 16.66" [ref=f50e173] [cursor=pointer]:
+                            - /url: "#Q3"
+                            - generic [ref=f50e174]: 16.66 / 16.66
+                        - cell [ref=f50e175]:
+                          - link "Question 4 out of 6, correct, your score is 16.66 out of 16.66" [ref=f50e176] [cursor=pointer]:
+                            - /url: "#Q4"
+                            - generic [ref=f50e177]: 16.66 / 16.66
+                        - cell [ref=f50e178]:
+                          - link "Question 5 out of 6, your score is 7.14 out of 16.66" [ref=f50e179] [cursor=pointer]:
+                            - /url: "#Q5"
+                            - generic [ref=f50e180]: 7.14 / 16.66
+                        - cell [ref=f50e181]:
+                          - link "Question 6 out of 6, your score is none out of 16.7" [ref=f50e182] [cursor=pointer]:
+                            - /url: "#Q6"
+                            - generic [ref=f50e183]: – / 16.7
+                  - generic [ref=f50e184]:
+                    - heading "Assignment Submission" [level=3] [ref=f50e185]
+                    - paragraph [ref=f50e186]: For this assignment, you submit answers by question parts. The number of submissions remaining for each question part only changes if you submit or change the answer.
+                    - heading "Assignment Scoring" [level=3] [ref=f50e187]
+                    - paragraph [ref=f50e188]: Your last submission is used for your score.
+          - generic [ref=f50e189]:
+            - region "Banner for question 1" [ref=f50e192]:
+              - generic [ref=f50e193]:
+                - heading "Question 1" [level=2] [ref=f50e195]: "1."
+                - strong [ref=f50e196]: "[16.66 / 16.66 Points]"
+              - generic [ref=f50e197]:
+                - button "Details for question 1." [ref=f50e198] [cursor=pointer]:
+                  - generic [ref=f50e199]: Details
+                - button "My Notes For question 1" [ref=f50e202] [cursor=pointer]:
+                  - generic [ref=f50e203]: My Notes
+                - button "Previous Answers for question 1" [ref=f50e204] [cursor=pointer]:
+                  - generic [ref=f50e205]: Previous Answers
+                - button "Practice Another Version for question 1." [ref=f50e206] [cursor=pointer]:
+                  - generic [ref=f50e207]: Practice Another
+            - generic [ref=f50e208]:
+              - generic [ref=f50e210]:
+                - generic [ref=f50e211]: EppDiscMath5 4.10.011.
+                - region [ref=f50e212]:
+                  - strong [ref=f50e213]: Problem 1
+                  - generic [ref=f50e214]: Find the greatest common divisor for the integers given below. (Use any method you wish.)
+                  - group [ref=f50e215]: 4 and 16
+                  - generic [ref=f50e216]:
+                    - textbox [ref=f50e219]: "4"
+                    - 'img "Correct: Your answer is correct." [ref=f50e223]'
+                - generic "Resource box" [ref=f50e227]:
+                  - generic [ref=f50e228]:
+                    - generic [ref=f50e229]: Resources
+                    - generic [ref=f50e230]:
+                      - paragraph [ref=f50e231]:
+                        - link "Read It (opens in a new tab)" [ref=f50e232] [cursor=pointer]:
+                          - /url: "#"
+                          - text: Read It
+                      - button "Ask Student Assistant for question 1" [ref=f50e233] [cursor=pointer]: Student Assistant
+              - button "Submit Answer" [ref=f50e236] [cursor=pointer]
+          - generic [ref=f50e237]:
+            - region "Banner for question 2" [ref=f50e240]:
+              - generic [ref=f50e241]:
+                - heading "Question 2" [level=2] [ref=f50e243]: "2."
+                - strong [ref=f50e244]: "[16.66 / 16.66 Points]"
+              - generic [ref=f50e245]:
+                - button "Details for question 2." [ref=f50e246] [cursor=pointer]:
+                  - generic [ref=f50e247]: Details
+                - button "My Notes For question 2" [ref=f50e250] [cursor=pointer]:
+                  - generic [ref=f50e251]: My Notes
+                - button "Previous Answers for question 2" [ref=f50e252] [cursor=pointer]:
+                  - generic [ref=f50e253]: Previous Answers
+                - button "Practice Another Version for question 2." [ref=f50e254] [cursor=pointer]:
+                  - generic [ref=f50e255]: Practice Another
+            - generic [ref=f50e256]:
+              - generic [ref=f50e258]:
+                - generic [ref=f50e259]: EppDiscMath5 4.10.012.
+                - region [ref=f50e260]:
+                  - strong [ref=f50e261]: Problem 2
+                  - generic [ref=f50e262]: Find the greatest common divisor for the integers given below. (Use any method you wish.)
+                  - group [ref=f50e263]: 40 and 35
+                  - generic [ref=f50e264]:
+                    - textbox [ref=f50e267]: "5"
+                    - 'img "Correct: Your answer is correct." [ref=f50e271]'
+                - generic "Resource box" [ref=f50e275]:
+                  - generic [ref=f50e276]:
+                    - generic [ref=f50e277]: Resources
+                    - generic [ref=f50e278]:
+                      - paragraph [ref=f50e279]:
+                        - link "Read It (opens in a new tab)" [ref=f50e280] [cursor=pointer]:
+                          - /url: "#"
+                          - text: Read It
+                      - button "Ask Student Assistant for question 2" [ref=f50e281] [cursor=pointer]: Student Assistant
+              - button "Submit Answer" [ref=f50e284] [cursor=pointer]
+          - generic [ref=f50e285]:
+            - region "Banner for question 3" [ref=f50e288]:
+              - generic [ref=f50e289]:
+                - heading "Question 3" [level=2] [ref=f50e291]: "3."
+                - strong [ref=f50e292]: "[16.66 / 16.66 Points]"
+              - generic [ref=f50e293]:
+                - button "Details for question 3." [ref=f50e294] [cursor=pointer]:
+                  - generic [ref=f50e295]: Details
+                - button "My Notes For question 3" [ref=f50e298] [cursor=pointer]:
+                  - generic [ref=f50e299]: My Notes
+                - button "Previous Answers for question 3" [ref=f50e300] [cursor=pointer]:
+                  - generic [ref=f50e301]: Previous Answers
+                - button "Practice Another Version for question 3." [ref=f50e302] [cursor=pointer]:
+                  - generic [ref=f50e303]: Practice Another
+            - generic [ref=f50e304]:
+              - generic [ref=f50e306]:
+                - generic [ref=f50e307]: EppDiscMath5 4.10.013.
+                - region [ref=f50e308]:
+                  - strong [ref=f50e309]: Problem 3
+                  - generic [ref=f50e310]: Use the Euclidean algorithm to hand-calculate the greatest common divisor for the integers given below.
+                  - group [ref=f50e311]: 2,808 and 455
+                  - list [ref=f50e312]:
+                    - listitem [ref=f50e313]:
+                      - generic [ref=f50e314]: Find and so that
+                      - group [ref=f50e315]:
+                        - generic [ref=f50e316]: ","
+                        - text: where
+                        - generic [ref=f50e317]: .
+                      - group "Read and complete the following." [ref=f50e319]:
+                        - generic [ref=f50e321]:
+                          - text: Then
+                          - generic [ref=f50e322]:
+                            - generic: Write your answer for step 1.
+                            - textbox "Write your answer for step 1." [ref=f50e325]: "78"
+                            - 'img "Correct: Your answer is correct." [ref=f50e329]'
+                            - text: .
+                    - listitem [ref=f50e330]:
+                      - generic [ref=f50e331]: Find and so that
+                      - group [ref=f50e332]:
+                        - generic [ref=f50e333]: ","
+                        - text: where
+                        - generic [ref=f50e334]: .
+                      - group "Read and complete the following." [ref=f50e336]:
+                        - generic [ref=f50e338]:
+                          - text: Then
+                          - generic: Write your first answer for step 2.
+                          - textbox "Write your first answer for step 2." [ref=f50e341]: "65"
+                          - 'img "Correct: Your answer is correct." [ref=f50e345]'
+                          - generic: Write your second answer for step 2.
+                          - textbox "Write your second answer for step 2." [ref=f50e348]: "78"
+                          - 'img "Correct: Your answer is correct." [ref=f50e352]'
+                          - generic [ref=f50e353]: .
+                    - listitem [ref=f50e354]:
+                      - generic [ref=f50e355]: Find and so that
+                      - group [ref=f50e356]:
+                        - generic [ref=f50e357]: ","
+                        - text: where
+                        - generic [ref=f50e358]: .
+                      - group "Read and complete the following." [ref=f50e360]:
+                        - generic [ref=f50e362]:
+                          - text: Then
+                          - generic: Write your first answer for step 3.
+                          - textbox "Write your first answer for step 3." [ref=f50e365]: "13"
+                          - 'img "Correct: Your answer is correct." [ref=f50e369]'
+                          - generic [ref=f50e370]: Write your second answer for step 3.
+                          - textbox "Write your second answer for step 3." [ref=f50e373]: "78"
+                          - 'img "Correct: Your answer is correct." [ref=f50e377]'
+                          - generic: Write your third answer for step 3.
+                          - textbox "Write your third answer for step 3." [ref=f50e380]: "65"
+                          - 'img "Correct: Your answer is correct." [ref=f50e384]'
+                          - generic [ref=f50e385]: .
+                    - listitem [ref=f50e386]:
+                      - generic [ref=f50e387]: Find and so that
+                      - group [ref=f50e388]:
+                        - generic [ref=f50e389]: ","
+                        - text: where
+                        - generic [ref=f50e390]: .
+                      - group "Read and complete the following." [ref=f50e392]:
+                        - generic [ref=f50e394]:
+                          - text: Then
+                          - generic: ">Write your first answer for step 4."
+                          - textbox ">Write your first answer for step 4." [ref=f50e397]: "0"
+                          - 'img "Correct: Your answer is correct." [ref=f50e401]'
+                          - generic [ref=f50e402]: Write your second answer for step 4.
+                          - textbox "Write your second answer for step 4." [ref=f50e405]: "65"
+                          - 'img "Correct: Your answer is correct." [ref=f50e409]'
+                          - generic: Write your third answer for step 4.
+                          - textbox "Write your third answer for step 4." [ref=f50e412]: "13"
+                          - 'img "Correct: Your answer is correct." [ref=f50e416]'
+                          - generic [ref=f50e417]: .
+                    - listitem [ref=f50e418]:
+                      - group "Read and complete the following." [ref=f50e420]:
+                        - generic [ref=f50e422]:
+                          - generic [ref=f50e423]: Conclude that
+                          - textbox "Conclude that" [ref=f50e425]: "13"
+                          - 'img "Correct: Your answer is correct." [ref=f50e429]'
+                          - text: .
+                - generic "Resource box" [ref=f50e433]:
+                  - generic [ref=f50e434]:
+                    - generic [ref=f50e435]: Resources
+                    - generic [ref=f50e436]:
+                      - paragraph [ref=f50e437]:
+                        - link "Read It (opens in a new tab)" [ref=f50e438] [cursor=pointer]:
+                          - /url: "#"
+                          - text: Read It
+                      - button "Ask Student Assistant for question 3" [ref=f50e439] [cursor=pointer]: Student Assistant
+              - button "Submit Answer" [ref=f50e442] [cursor=pointer]
+          - generic [ref=f50e443]:
+            - region "Banner for question 4" [ref=f50e446]:
+              - generic [ref=f50e447]:
+                - heading "Question 4" [level=2] [ref=f50e449]: "4."
+                - strong [ref=f50e450]: "[16.66 / 16.66 Points]"
+              - generic [ref=f50e451]:
+                - button "Details for question 4." [ref=f50e452] [cursor=pointer]:
+                  - generic [ref=f50e453]: Details
+                - button "My Notes For question 4" [ref=f50e456] [cursor=pointer]:
+                  - generic [ref=f50e457]: My Notes
+                - button "Previous Answers for question 4" [ref=f50e458] [cursor=pointer]:
+                  - generic [ref=f50e459]: Previous Answers
+                - button "Practice Another Version for question 4." [ref=f50e460] [cursor=pointer]:
+                  - generic [ref=f50e461]: Practice Another
+            - generic [ref=f50e462]:
+              - generic [ref=f50e464]:
+                - generic [ref=f50e465]: EppDiscMath5 4.10.014.
+                - region [ref=f50e466]:
+                  - strong [ref=f50e467]: Problem 4
+                  - generic [ref=f50e468]: Use the Euclidean algorithm to hand-calculate the greatest common divisor for the integers given below.
+                  - group [ref=f50e469]: 521 and 2,071
+                  - list [ref=f50e470]:
+                    - listitem [ref=f50e471]:
+                      - generic [ref=f50e472]: Find and so that
+                      - group [ref=f50e473]:
+                        - generic [ref=f50e474]: ","
+                        - text: where
+                        - generic [ref=f50e475]: .
+                      - group "Read and complete the following." [ref=f50e477]:
+                        - generic [ref=f50e479]:
+                          - text: Then
+                          - generic [ref=f50e480]:
+                            - generic: Write your answer for step 1.
+                            - textbox "Write your answer for step 1." [ref=f50e483]: "508"
+                            - 'img "Correct: Your answer is correct." [ref=f50e487]'
+                            - text: .
+                    - listitem [ref=f50e488]:
+                      - generic [ref=f50e489]: Find and so that
+                      - group [ref=f50e490]:
+                        - generic [ref=f50e491]: ","
+                        - text: where
+                        - generic [ref=f50e492]: .
+                      - group "Read and complete the following." [ref=f50e494]:
+                        - generic [ref=f50e496]:
+                          - text: Then
+                          - generic: Write your first answer for step 2.
+                          - textbox "Write your first answer for step 2." [ref=f50e499]: "13"
+                          - 'img "Correct: Your answer is correct." [ref=f50e503]'
+                          - generic: Write your second answer for step 2.
+                          - textbox "Write your second answer for step 2." [ref=f50e506]: "508"
+                          - 'img "Correct: Your answer is correct." [ref=f50e510]'
+                          - generic [ref=f50e511]: .
+                    - listitem [ref=f50e512]:
+                      - generic [ref=f50e513]: Find and so that
+                      - group [ref=f50e514]:
+                        - generic [ref=f50e515]: ","
+                        - text: where
+                        - generic [ref=f50e516]: .
+                      - group "Read and complete the following." [ref=f50e518]:
+                        - generic [ref=f50e520]:
+                          - text: Then
+                          - generic: Write your first answer for step 3.
+                          - textbox "Write your first answer for step 3." [ref=f50e523]: "1"
+                          - 'img "Correct: Your answer is correct." [ref=f50e527]'
+                          - generic [ref=f50e528]: Write your second answer for step 3.
+                          - textbox "Write your second answer for step 3." [ref=f50e531]: "508"
+                          - 'img "Correct: Your answer is correct." [ref=f50e535]'
+                          - generic: Write your third answer for step 3.
+                          - textbox "Write your third answer for step 3." [ref=f50e538]: "13"
+                          - 'img "Correct: Your answer is correct." [ref=f50e542]'
+                          - generic [ref=f50e543]: .
+                    - listitem [ref=f50e544]:
+                      - generic [ref=f50e545]: Find and so that
+                      - group [ref=f50e546]:
+                        - generic [ref=f50e547]: ","
+                        - text: where
+                        - generic [ref=f50e548]: .
+                      - group "Read and complete the following." [ref=f50e550]:
+                        - generic [ref=f50e552]:
+                          - text: Then
+                          - generic: Write your first answer for step 4.
+                          - textbox "Write your first answer for step 4." [ref=f50e555]: "0"
+                          - 'img "Correct: Your answer is correct." [ref=f50e559]'
+                          - generic [ref=f50e560]: Write your second answer for step 4.
+                          - textbox "Write your second answer for step 4." [ref=f50e563]: "13"
+                          - 'img "Correct: Your answer is correct." [ref=f50e567]'
+                          - generic: Write your third answer for step 4.
+                          - textbox "Write your third answer for step 4." [ref=f50e570]: "1"
+                          - 'img "Correct: Your answer is correct." [ref=f50e574]'
+                          - generic [ref=f50e575]: .
+                    - listitem [ref=f50e576]:
+                      - group "Read and complete the following." [ref=f50e578]:
+                        - generic [ref=f50e580]:
+                          - generic [ref=f50e581]: Conclude that
+                          - textbox "Conclude that" [ref=f50e583]: "1"
+                          - 'img "Correct: Your answer is correct." [ref=f50e587]'
+                          - text: .
+                - generic "Resource box" [ref=f50e591]:
+                  - generic [ref=f50e592]:
+                    - generic [ref=f50e593]: Resources
+                    - generic [ref=f50e594]:
+                      - paragraph [ref=f50e595]:
+                        - link "Read It (opens in a new tab)" [ref=f50e596] [cursor=pointer]:
+                          - /url: "#"
+                          - text: Read It
+                      - button "Ask Student Assistant for question 4" [ref=f50e597] [cursor=pointer]: Student Assistant
+              - button "Submit Answer" [ref=f50e600] [cursor=pointer]
+          - generic [ref=f50e601]:
+            - region "Banner for question 5" [ref=f50e604]:
+              - generic [ref=f50e605]:
+                - heading "Question 5" [level=2] [ref=f50e607]: "5."
+                - strong [ref=f50e608]: "[7.14 / 16.66 Points]"
+              - generic [ref=f50e609]:
+                - button "Details for question 5." [ref=f50e610] [cursor=pointer]:
+                  - generic [ref=f50e611]: Details
+                - button "My Notes For question 5" [ref=f50e614] [cursor=pointer]:
+                  - generic [ref=f50e615]: My Notes
+                - button "Previous Answers for question 5" [ref=f50e616] [cursor=pointer]:
+                  - generic [ref=f50e617]: Previous Answers
+                - button "Practice Another Version for question 5." [ref=f50e618] [cursor=pointer]:
+                  - generic [ref=f50e619]: Practice Another
+            - generic [ref=f50e620]:
+              - generic [ref=f50e622]:
+                - generic [ref=f50e623]: eppdiscmath5 4.10.030.nva
+                - generic [ref=f50e624]:
+                  - text: "Definition: The"
+                  - strong [ref=f50e625]: least common multiple
+                  - text: of two nonzero integers
+                  - emphasis [ref=f50e626]: a
+                  - text: and
+                  - emphasis [ref=f50e627]: b
+                  - text: ", denoted"
+                  - generic [ref=f50e628]:
+                    - text: lcm(
+                    - emphasis [ref=f50e629]: a
+                    - text: ","
+                    - emphasis [ref=f50e630]: b
+                    - text: ),
+                  - text: is the positive integer
+                  - emphasis [ref=f50e631]: c
+                  - text: such that
+                - list [ref=f50e632]:
+                  - listitem [ref=f50e633]:
+                    - generic [ref=f50e636]:
+                      - generic [ref=f50e637]: a
+                      - text: "|"
+                      - generic [ref=f50e640]: c
+                    - text: and
+                    - generic [ref=f50e643]:
+                      - generic [ref=f50e644]: b
+                      - text: "|"
+                      - generic [ref=f50e647]: c
+                  - listitem [ref=f50e648]:
+                    - text: for every positive integer
+                    - emphasis [ref=f50e649]: m
+                    - text: ", if"
+                    - generic [ref=f50e652]:
+                      - generic [ref=f50e653]: a
+                      - text: "|"
+                      - generic [ref=f50e656]: m
+                    - text: and
+                    - generic [ref=f50e659]:
+                      - generic [ref=f50e660]: b
+                      - text: "|"
+                      - generic [ref=f50e663]: m
+                      - text: ","
+                    - text: then
+                    - generic [ref=f50e666]:
+                      - generic [ref=f50e667]: c
+                      - text: ≤
+                      - generic [ref=f50e668]: m
+                      - text: .
+                - generic [ref=f50e669]:
+                  - text: Prove that for all positive integers
+                  - emphasis [ref=f50e670]: a
+                  - text: and
+                  - emphasis [ref=f50e671]: b
+                  - text: ","
+                  - generic [ref=f50e672]:
+                    - emphasis [ref=f50e673]: a
+                    - text: "|"
+                    - emphasis [ref=f50e676]: b
+                  - text: if, and only if,
+                  - generic [ref=f50e677]:
+                    - text: lcm(
+                    - emphasis [ref=f50e678]: a
+                    - text: ","
+                    - emphasis [ref=f50e679]: b
+                    - text: ) =
+                    - emphasis [ref=f50e680]: b
+                    - text: .
+                - generic [ref=f50e681]:
+                  - strong [ref=f50e682]: Proof
+                  - text: ":"
+                - generic [ref=f50e683]: Some of the sentences in the following scrambled list can be used in part 1 of the proof. Select appropriate sentences from the list, and put them in the correct order.
+                - strong [ref=f50e685]:
+                  - text: Part 1 (Proof that for all positive integers
+                  - emphasis [ref=f50e686]: a
+                  - text: and
+                  - emphasis [ref=f50e687]: b
+                  - text: ", if"
+                  - generic [ref=f50e688]:
+                    - emphasis [ref=f50e689]: a
+                    - text: "|"
+                    - emphasis [ref=f50e692]: b
+                  - text: then
+                  - generic [ref=f50e693]:
+                    - text: lcm(
+                    - emphasis [ref=f50e694]: a
+                    - text: ","
+                    - emphasis [ref=f50e695]: b
+                    - text: ) =
+                    - emphasis [ref=f50e696]: b
+                    - text: .
+                  - text: )
+                - generic [ref=f50e697]: Consider the sentences in the following scrambled list.
+                - list [ref=f50e698]:
+                  - listitem [ref=f50e699]:
+                    - text: By part (1) of the definition of least common multiple,
+                    - generic [ref=f50e700]:
+                      - emphasis [ref=f50e701]: c
+                      - text: "|"
+                      - emphasis [ref=f50e704]: b
+                      - text: .
+                  - listitem [ref=f50e705]:
+                    - text: By part (1) of the definition of least common multiple,
+                    - generic [ref=f50e706]:
+                      - emphasis [ref=f50e707]: b
+                      - text: "|"
+                      - emphasis [ref=f50e710]: c
+                      - text: .
+                  - listitem [ref=f50e711]:
+                    - text: Both
+                    - emphasis [ref=f50e712]: b
+                    - text: and
+                    - emphasis [ref=f50e713]: c
+                    - text: are positive integers and
+                    - generic [ref=f50e714]:
+                      - emphasis [ref=f50e715]: b
+                      - text: "|"
+                      - emphasis [ref=f50e718]: c
+                      - text: .
+                    - text: Thus
+                    - generic [ref=f50e719]:
+                      - emphasis [ref=f50e720]: b
+                      - text: ≤
+                      - emphasis [ref=f50e721]: c
+                    - text: by Theorem 4.4.1.
+                  - listitem [ref=f50e722]:
+                    - text: Since
+                    - generic [ref=f50e723]:
+                      - emphasis [ref=f50e724]: b
+                      - text: ≤
+                      - emphasis [ref=f50e725]: c
+                    - text: and
+                    - generic [ref=f50e726]:
+                      - emphasis [ref=f50e727]: c
+                      - text: ≤
+                      - emphasis [ref=f50e728]: b
+                      - text: ","
+                    - text: then
+                    - generic [ref=f50e729]:
+                      - emphasis [ref=f50e730]: b
+                      - text: =
+                      - emphasis [ref=f50e731]: c
+                      - text: .
+                  - listitem [ref=f50e732]:
+                    - text: Hence, by part (2) of the definition of least common multiple,
+                    - generic [ref=f50e733]:
+                      - text: lcm(
+                      - emphasis [ref=f50e734]: a
+                      - text: ","
+                      - emphasis [ref=f50e735]: b
+                      - text: ) ≤
+                      - emphasis [ref=f50e736]: b
+                      - text: ","
+                    - text: or, equivalently,
+                    - generic [ref=f50e737]:
+                      - emphasis [ref=f50e738]: c
+                      - text: ≤
+                      - emphasis [ref=f50e739]: b
+                      - text: .
+                  - listitem [ref=f50e740]:
+                    - text: Now it is also the case that
+                    - generic [ref=f50e741]:
+                      - emphasis [ref=f50e742]: b
+                      - text: "|"
+                      - emphasis [ref=f50e745]: b
+                      - text: ","
+                    - text: and, since we also know that
+                    - generic [ref=f50e746]:
+                      - emphasis [ref=f50e747]: a
+                      - text: "|"
+                      - emphasis [ref=f50e750]: b
+                      - text: ","
+                    - emphasis [ref=f50e751]: b
+                    - text: is a common multiple of
+                    - emphasis [ref=f50e752]: a
+                    - text: and
+                    - emphasis [ref=f50e753]: b
+                    - text: .
+                  - listitem [ref=f50e754]:
+                    - text: So, since
+                    - generic [ref=f50e755]:
+                      - emphasis [ref=f50e756]: c
+                      - text: = lcm(
+                      - emphasis [ref=f50e757]: a
+                      - text: ","
+                      - emphasis [ref=f50e758]: b
+                      - text: )
+                    - text: and
+                    - generic [ref=f50e759]:
+                      - emphasis [ref=f50e760]: b
+                      - text: =
+                      - emphasis [ref=f50e761]: c
+                      - text: ","
+                    - text: we conclude that
+                    - generic [ref=f50e762]:
+                      - text: lcm(
+                      - emphasis [ref=f50e763]: a
+                      - text: ","
+                      - emphasis [ref=f50e764]: b
+                      - text: ) =
+                      - emphasis [ref=f50e765]: b
+                      - text: .
+                - generic [ref=f50e766]: To prove Part 1, select sentences from the list and put them in the correct order.
+                - list [ref=f50e768]:
+                  - listitem [ref=f50e769]:
+                    - text: Let
+                    - emphasis [ref=f50e770]: a
+                    - text: and
+                    - emphasis [ref=f50e771]: b
+                    - text: be any positive integers such that
+                    - generic [ref=f50e774]:
+                      - generic [ref=f50e775]: a
+                      - text: "|"
+                      - generic [ref=f50e778]: b
+                      - text: ","
+                    - text: and let
+                    - generic [ref=f50e781]:
+                      - generic [ref=f50e782]: c
+                      - text: =
+                      - generic [ref=f50e783]: lcm
+                      - text: (
+                      - generic [ref=f50e784]: a
+                      - text: ","
+                      - generic [ref=f50e785]: b
+                      - text: ).
+                  - listitem [ref=f50e786]:
+                    - combobox [ref=f50e787]:
+                      - button "Now it is also the case that b | b, and, since we also know that a | b, b is a common multiple of a and b ." [ref=f50e788]:
+                        - generic [ref=f50e789]:
+                          - text: Now it is also the case that
+                          - generic [ref=f50e790]:
+                            - emphasis [ref=f50e791]: b
+                            - text: "|"
+                            - emphasis [ref=f50e794]: b
+                            - text: ","
+                          - text: and, since we also know that
+                          - generic [ref=f50e795]:
+                            - emphasis [ref=f50e796]: a
+                            - text: "|"
+                            - emphasis [ref=f50e799]: b
+                            - text: ","
+                          - emphasis [ref=f50e800]: b
+                          - text: is a common multiple of
+                          - emphasis [ref=f50e801]: a
+                          - text: and
+                          - emphasis [ref=f50e802]: b
+                          - text: .
+                      - option "---Select---"
+                      - option "By part (1) of the definition of least common multiple,"
+                      - option "By part (1) of the definition of least common multiple,"
+                      - option "Both and are positive integers and Thus by Theorem 4.4.1."
+                      - option "Since and then"
+                      - option "Hence, by part (2) of the definition of least common multiple, or, equivalently,"
+                      - option "Now it is also the case that and, since we also know that is a common multiple of and ." [selected]
+                      - option "So, since and we conclude that"
+                    - 'img "Incorrect: Your answer is incorrect." [ref=f50e806]'
+                  - listitem [ref=f50e807]:
+                    - combobox [ref=f50e808]:
+                      - button [ref=f50e809]:
+                        - generic [ref=f50e810]:
+                          - text: Hence, by part (2) of the definition of least common multiple,
+                          - generic [ref=f50e811]:
+                            - text: lcm(
+                            - emphasis [ref=f50e812]: a
+                            - text: ","
+                            - emphasis [ref=f50e813]: b
+                            - text: ) ≤
+                            - emphasis [ref=f50e814]: b
+                            - text: ","
+                          - text: or, equivalently,
+                          - generic [ref=f50e815]:
+                            - emphasis [ref=f50e816]: c
+                            - text: ≤
+                            - emphasis [ref=f50e817]: b
+                            - text: .
+                      - option "---Select---"
+                      - option "By part (1) of the definition of least common multiple,"
+                      - option "By part (1) of the definition of least common multiple,"
+                      - option "Both and are positive integers and Thus by Theorem 4.4.1."
+                      - option "Since and then"
+                      - option "Hence, by part (2) of the definition of least common multiple, or, equivalently," [selected]
+                      - option "Now it is also the case that and, since we also know that is a common multiple of and ."
+                      - option "So, since and we conclude that"
+                    - 'img "Incorrect: Your answer is incorrect." [ref=f50e821]'
+                  - listitem [ref=f50e822]:
+                    - combobox [ref=f50e823]:
+                      - button "By part (1) of the definition of least common multiple, b | c." [ref=f50e824]:
+                        - generic [ref=f50e825]:
+                          - text: By part (1) of the definition of least common multiple,
+                          - generic [ref=f50e826]:
+                            - emphasis [ref=f50e827]: b
+                            - text: "|"
+                            - emphasis [ref=f50e830]: c
+                            - text: .
+                      - option "---Select---"
+                      - option "By part (1) of the definition of least common multiple,"
+                      - option "By part (1) of the definition of least common multiple," [selected]
+                      - option "Both and are positive integers and Thus by Theorem 4.4.1."
+                      - option "Since and then"
+                      - option "Hence, by part (2) of the definition of least common multiple, or, equivalently,"
+                      - option "Now it is also the case that and, since we also know that is a common multiple of and ."
+                      - option "So, since and we conclude that"
+                    - 'img "Incorrect: Your answer is incorrect." [ref=f50e834]'
+                  - listitem [ref=f50e835]:
+                    - combobox [ref=f50e836]:
+                      - button "Both b and c are positive integers and b | c. Thus b ≤ c by Theorem 4.4.1." [ref=f50e837]:
+                        - generic [ref=f50e838]:
+                          - text: Both
+                          - emphasis [ref=f50e839]: b
+                          - text: and
+                          - emphasis [ref=f50e840]: c
+                          - text: are positive integers and
+                          - generic [ref=f50e841]:
+                            - emphasis [ref=f50e842]: b
+                            - text: "|"
+                            - emphasis [ref=f50e845]: c
+                            - text: .
+                          - text: Thus
+                          - generic [ref=f50e846]:
+                            - emphasis [ref=f50e847]: b
+                            - text: ≤
+                            - emphasis [ref=f50e848]: c
+                          - text: by Theorem 4.4.1.
+                      - option "---Select---"
+                      - option "By part (1) of the definition of least common multiple,"
+                      - option "By part (1) of the definition of least common multiple,"
+                      - option "Both and are positive integers and Thus by Theorem 4.4.1." [selected]
+                      - option "Since and then"
+                      - option "Hence, by part (2) of the definition of least common multiple, or, equivalently,"
+                      - option "Now it is also the case that and, since we also know that is a common multiple of and ."
+                      - option "So, since and we conclude that"
+                    - 'img "Incorrect: Your answer is incorrect." [ref=f50e852]'
+                  - listitem [ref=f50e853]:
+                    - combobox [ref=f50e854]:
+                      - button [ref=f50e855]:
+                        - generic [ref=f50e856]:
+                          - text: Since
+                          - generic [ref=f50e857]:
+                            - emphasis [ref=f50e858]: b
+                            - text: ≤
+                            - emphasis [ref=f50e859]: c
+                          - text: and
+                          - generic [ref=f50e860]:
+                            - emphasis [ref=f50e861]: c
+                            - text: ≤
+                            - emphasis [ref=f50e862]: b
+                            - text: ","
+                          - text: then
+                          - generic [ref=f50e863]:
+                            - emphasis [ref=f50e864]: b
+                            - text: =
+                            - emphasis [ref=f50e865]: c
+                            - text: .
+                      - option "---Select---"
+                      - option "By part (1) of the definition of least common multiple,"
+                      - option "By part (1) of the definition of least common multiple,"
+                      - option "Both and are positive integers and Thus by Theorem 4.4.1."
+                      - option "Since and then" [selected]
+                      - option "Hence, by part (2) of the definition of least common multiple, or, equivalently,"
+                      - option "Now it is also the case that and, since we also know that is a common multiple of and ."
+                      - option "So, since and we conclude that"
+                    - 'img "Correct: Your answer is correct." [ref=f50e869]'
+                  - listitem [ref=f50e870]:
+                    - combobox [ref=f50e871]:
+                      - button [ref=f50e872]:
+                        - generic [ref=f50e873]:
+                          - text: So, since
+                          - generic [ref=f50e874]:
+                            - emphasis [ref=f50e875]: c
+                            - text: = lcm(
+                            - emphasis [ref=f50e876]: a
+                            - text: ","
+                            - emphasis [ref=f50e877]: b
+                            - text: )
+                          - text: and
+                          - generic [ref=f50e878]:
+                            - emphasis [ref=f50e879]: b
+                            - text: =
+                            - emphasis [ref=f50e880]: c
+                            - text: ","
+                          - text: we conclude that
+                          - generic [ref=f50e881]:
+                            - text: lcm(
+                            - emphasis [ref=f50e882]: a
+                            - text: ","
+                            - emphasis [ref=f50e883]: b
+                            - text: ) =
+                            - emphasis [ref=f50e884]: b
+                            - text: .
+                      - option "---Select---"
+                      - option "By part (1) of the definition of least common multiple,"
+                      - option "By part (1) of the definition of least common multiple,"
+                      - option "Both and are positive integers and Thus by Theorem 4.4.1."
+                      - option "Since and then"
+                      - option "Hence, by part (2) of the definition of least common multiple, or, equivalently,"
+                      - option "Now it is also the case that and, since we also know that is a common multiple of and ."
+                      - option "So, since and we conclude that" [selected]
+                    - 'img "Correct: Your answer is correct." [ref=f50e888]'
+                - strong [ref=f50e890]:
+                  - text: Part 2 (Proof that for all positive integers
+                  - emphasis [ref=f50e891]: a
+                  - text: and
+                  - emphasis [ref=f50e892]: b
+                  - text: ", if lcm("
+                  - emphasis [ref=f50e893]: a
+                  - text: ","
+                  - emphasis [ref=f50e894]: b
+                  - text: ) =
+                  - emphasis [ref=f50e895]: b
+                  - text: then
+                  - generic [ref=f50e898]:
+                    - generic [ref=f50e899]: a
+                    - text: "|"
+                    - generic [ref=f50e902]: b
+                    - text: .)
+                - generic [ref=f50e903]:
+                  - text: Let
+                  - emphasis [ref=f50e904]: a
+                  - text: and
+                  - emphasis [ref=f50e905]: b
+                  - text: be any positive integers with
+                  - generic [ref=f50e908]:
+                    - text: lcm(
+                    - generic [ref=f50e909]: a
+                    - text: ","
+                    - generic [ref=f50e910]: b
+                    - text: ) =
+                    - generic [ref=f50e911]: b
+                    - text: .
+                - generic [ref=f50e912]: Complete the proof by selecting one of the following sentences.
+                - generic [ref=f50e916]:
+                  - generic [ref=f50e917]:
+                    - radio "Since lcm(a, b) = b, substitution from part 1 of the definition for least common multiple implies that a | b." [checked] [ref=f50e918]
+                    - generic [ref=f50e919]:
+                      - text: Since
+                      - generic [ref=f50e920]:
+                        - text: lcm(
+                        - emphasis [ref=f50e921]: a
+                        - text: ","
+                        - emphasis [ref=f50e922]: b
+                        - text: ) =
+                        - emphasis [ref=f50e923]: b
+                        - text: ","
+                      - text: substitution from part 1 of the definition for least common multiple implies that
+                      - generic [ref=f50e924]:
+                        - emphasis [ref=f50e925]: a
+                        - text: "|"
+                        - emphasis [ref=f50e928]: b
+                        - text: .
+                  - generic [ref=f50e929]:
+                    - radio "Since lcm(a, b) = b, substitution from part 2 of the definition for least common multiple implies that a ≤ b and thus that a | b." [ref=f50e930]
+                    - generic [ref=f50e931]:
+                      - text: Since
+                      - generic [ref=f50e932]:
+                        - text: lcm(
+                        - emphasis [ref=f50e933]: a
+                        - text: ","
+                        - emphasis [ref=f50e934]: b
+                        - text: ) =
+                        - emphasis [ref=f50e935]: b
+                        - text: ","
+                      - text: substitution from part 2 of the definition for least common multiple implies that
+                      - generic [ref=f50e936]:
+                        - emphasis [ref=f50e937]: a
+                        - text: ≤
+                        - emphasis [ref=f50e938]: b
+                      - text: and thus that
+                      - generic [ref=f50e939]:
+                        - emphasis [ref=f50e940]: a
+                        - text: "|"
+                        - emphasis [ref=f50e943]: b
+                        - text: .
+                  - generic [ref=f50e944]:
+                    - radio "Since lcm(a, b) = b, substitution from part 1 of the definition for least common multiple implies that b | b and thus that a | b." [ref=f50e945]
+                    - generic [ref=f50e946]:
+                      - text: Since
+                      - generic [ref=f50e947]:
+                        - text: lcm(
+                        - emphasis [ref=f50e948]: a
+                        - text: ","
+                        - emphasis [ref=f50e949]: b
+                        - text: ) =
+                        - emphasis [ref=f50e950]: b
+                        - text: ","
+                      - text: substitution from part 1 of the definition for least common multiple implies that
+                      - generic [ref=f50e951]:
+                        - emphasis [ref=f50e952]: b
+                        - text: "|"
+                        - emphasis [ref=f50e955]: b
+                      - text: and thus that
+                      - generic [ref=f50e956]:
+                        - emphasis [ref=f50e957]: a
+                        - text: "|"
+                        - emphasis [ref=f50e960]: b
+                        - text: .
+                  - 'img "Correct: Your answer is correct." [ref=f50e963]'
+              - button "Submit Answer" [ref=f50e968] [cursor=pointer]
+          - generic [ref=f50e969]:
+            - region "Banner for question 6" [ref=f50e972]:
+              - generic [ref=f50e973]:
+                - heading "Question 6" [level=2] [ref=f50e975]: "6."
+                - strong [ref=f50e976]: "[– / 16.7 Points]"
+              - generic [ref=f50e977]:
+                - button "Details for question 6." [ref=f50e978] [cursor=pointer]:
+                  - generic [ref=f50e979]: Details
+                - button "My Notes For question 6" [ref=f50e982] [cursor=pointer]:
+                  - generic [ref=f50e983]: My Notes
+            - generic [ref=f50e984]:
+              - generic [ref=f50e986]:
+                - generic [ref=f50e987]: EppDiscMath5 4.10.031.
+                - region [ref=f50e988]:
+                  - strong [ref=f50e989]: Problem 6
+                  - generic [ref=f50e990]: Prove the following statement.
+                  - group [ref=f50e991]:
+                    - text: For all nonzero integers
+                    - emphasis [ref=f50e992]: a
+                    - text: and
+                    - emphasis [ref=f50e993]: b
+                    - text: ","
+                    - generic [ref=f50e994]: .
+                  - generic [ref=f50e995]:
+                    - strong [ref=f50e996]: Proof
+                    - text: ":"
+                  - group "Read and complete the following." [ref=f50e998]:
+                    - generic [ref=f50e1000]:
+                      - text: Let
+                      - emphasis [ref=f50e1001]: a
+                      - text: and
+                      - emphasis [ref=f50e1002]: b
+                      - text: be any integers. Then by
+                      - generic: Select your first answer.
+                      - combobox "Select your first answer." [ref=f50e1004] [cursor=pointer]:
+                        - option "Select" [selected]
+                        - option "definition of greatest common divisor"
+                        - option "definition of least common multiple"
+                        - option "the greatest common divisor is a multiple of"
+                        - option "the least common multiple is a divisor of"
+                      - text: ", and by"
+                      - generic: Select your second answer.
+                      - combobox "Select your second answer." [ref=f50e1006] [cursor=pointer]:
+                        - option "Select" [selected]
+                        - option "definition of greatest common divisor"
+                        - option "definition of least common multiple"
+                        - option "the greatest common divisor is a multiple of"
+                        - option "the least common multiple is a divisor of"
+                      - text: . Hence by transitivity of divisibility,
+                      - generic [ref=f50e1007]: .
+                - generic "Resource box" [ref=f50e1011]:
+                  - generic [ref=f50e1012]:
+                    - generic [ref=f50e1013]: Resources
+                    - generic [ref=f50e1014]:
+                      - paragraph [ref=f50e1015]:
+                        - link "Read It (opens in a new tab)" [ref=f50e1016] [cursor=pointer]:
+                          - /url: "#"
+                          - text: Read It
+                      - button "Ask Student Assistant for question 6" [ref=f50e1017] [cursor=pointer]: Student Assistant
+              - button "Submit Answer" [ref=f50e1020] [cursor=pointer]
+        - alert
+        - generic [ref=f50e1022]:
+          - link "Home" [ref=f50e1023] [cursor=pointer]
+          - link "My Assignments" [ref=f50e1024] [cursor=pointer]
+          - button "Open Request Extension in modal window" [ref=f50e1025] [cursor=pointer]:
+            - generic [ref=f50e1028]: Request Extension
+    - contentinfo [ref=f50e1030]:
+      - generic [ref=f50e1031]:
+        - generic [ref=f50e1032]: Copyright © 1998 - 2026 Cengage Learning, Inc. All Rights Reserved
+        - list [ref=f50e1033]:
+          - listitem [ref=f50e1034]:
+            - link "Open in a new tab. Terms of use" [ref=f50e1035] [cursor=pointer]:
+              - /url: https://www.cengage.com/legal/#terms
+              - text: Terms of use
+          - listitem [ref=f50e1036]:
+            - link "Open in a new tab. Privacy" [ref=f50e1037] [cursor=pointer]:
+              - /url: https://www.cengage.com/privacy/
+              - text: Privacy

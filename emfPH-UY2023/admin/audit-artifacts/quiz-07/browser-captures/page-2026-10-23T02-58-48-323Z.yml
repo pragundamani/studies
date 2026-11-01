@@ -1,0 +1,486 @@
+- generic [ref=e1]:
+  - iframe [ref=e2]
+  - generic [ref=e3]: None selected
+  - generic [ref=e11]:
+    - generic [ref=e13]:
+      - generic [ref=e14]:
+        - link "Skip to content" [ref=e2305] [cursor=pointer]:
+          - /url: ""
+        - link "Using Gmail with screen readers" [ref=e2306] [cursor=pointer]:
+          - /url: ""
+      - heading [level=1] [ref=e18]:
+        - banner [ref=e19]:
+          - generic [ref=e20]:
+            - generic [ref=e21]:
+              - button "Main menu" [expanded] [ref=e2307] [cursor=pointer]
+              - link "Gmail" [ref=e2308] [cursor=pointer]:
+                - /url: "#inbox"
+            - generic [ref=e29]:
+              - search [ref=e31]:
+                - heading "Search" [level=2] [ref=e2309]
+                - table [ref=e34]:
+                  - rowgroup [ref=e35]:
+                    - row [ref=e2310]:
+                      - cell [ref=e2311]:
+                        - textbox "Search mail" [ref=e2312]: ("quiz 7" OR "quiz 07" OR "HW07" OR "electric potential")
+                - button "Advanced search options" [ref=e2313] [cursor=pointer]
+                - button "Clear search" [ref=e2314] [cursor=pointer]
+                - button "Search mail" [ref=e2315] [cursor=pointer]
+              - generic [ref=e50]:
+                - button "Support" [ref=e2316] [cursor=pointer]
+                - button "Settings" [ref=e2317] [cursor=pointer]
+                - generic [ref=e62]:
+                  - generic:
+                    - button "Try Gemini" [ref=e2318] [cursor=pointer]
+                    - tooltip [aria-hidden] [ref=e72]: Try Gemini
+                - generic [ref=e75]:
+                  - link "Upgrade" [ref=e2319] [cursor=pointer]
+                  - tooltip [aria-hidden] [ref=e80]: Upgrade for premium features
+            - generic [ref=e82]:
+              - button "Google apps" [ref=e2320] [cursor=pointer]
+              - 'button "Google Account: pragun damani (damanipragun@gmail.com)" [ref=e2321] [cursor=pointer]'
+      - alert [ref=e97]
+    - generic [ref=e100]:
+      - navigation [ref=e101]:
+        - button "Compose" [ref=e2322] [cursor=pointer]
+        - generic [ref=e110]:
+          - generic [ref=e2323]:
+            - heading "Labels" [level=2] [ref=e2324]
+            - generic [ref=e114]:
+              - generic [ref=e115]:
+                - generic [ref=e117]:
+                  - generic [ref=e847]:
+                    - link "Inbox 307 unread" [ref=e2325] [cursor=pointer]:
+                      - /url: https://mail.google.com/mail/u/0/#inbox
+                      - text: Inbox
+                    - generic [ref=e850]: "307"
+                  - link "Starred" [ref=e2326] [cursor=pointer]:
+                    - /url: https://mail.google.com/mail/u/0/#starred
+                  - link "Snoozed" [ref=e2327] [cursor=pointer]:
+                    - /url: https://mail.google.com/mail/u/0/#snoozed
+                  - link "Sent" [ref=e2328] [cursor=pointer]:
+                    - /url: https://mail.google.com/mail/u/0/#sent
+                  - generic [ref=e151]:
+                    - link "Drafts 2 unread" [ref=e2329] [cursor=pointer]:
+                      - /url: https://mail.google.com/mail/u/0/#drafts
+                      - text: Drafts
+                    - generic [ref=e154]: "2"
+                - generic [ref=e161]:
+                  - link "Purchases 20 unread has menu" [ref=e2330] [cursor=pointer]:
+                    - /url: https://mail.google.com/mail/u/0/#category/purchases
+                    - text: Purchases
+                  - generic [ref=e164]: "20"
+              - button "More labels" [ref=e2331] [cursor=pointer]:
+                - generic [ref=e167]: More
+          - generic [ref=e170]:
+            - heading "Labels" [ref=e2332]
+            - button "Create new label" [ref=e2333] [cursor=pointer]
+          - generic [ref=e2334]:
+            - heading "Labels" [level=2] [ref=e2335]
+            - generic [ref=e179]:
+              - link "[Gmail]/Bin/[Gmail] has menu" [ref=e2336] [cursor=pointer]:
+                - /url: https://mail.google.com/mail/u/0/#label/%5BGmail%5D/Bin/%5BGmail%5D
+                - text: "[Gmail]/Bin/[Gmail]"
+              - link "[Imap]/Archive has menu" [ref=e2337] [cursor=pointer]:
+                - /url: https://mail.google.com/mail/u/0/#label/%5BImap%5D/Archive
+                - text: "[Imap]/Archive"
+              - link "[Imap]/Trash has menu" [ref=e2338] [cursor=pointer]:
+                - /url: https://mail.google.com/mail/u/0/#label/%5BImap%5D/Trash
+                - text: "[Imap]/Trash"
+              - link "DeltaChat has menu" [ref=e2339] [cursor=pointer]:
+                - /url: https://mail.google.com/mail/u/0/#label/DeltaChat
+                - text: DeltaChat
+      - main [ref=e1051]:
+        - generic [ref=e1052]:
+          - toolbar "search refinement" [ref=e2340]:
+            - generic [ref=e1057]:
+              - button "From" [ref=e2341] [cursor=pointer]
+              - button "Any time" [ref=e2342] [cursor=pointer]
+              - button "Has attachment" [ref=e2343] [cursor=pointer]
+              - button "To" [ref=e2344] [cursor=pointer]
+              - button "Advanced search" [ref=e2345] [cursor=pointer]
+          - generic [ref=e1090]:
+            - generic [ref=e1093]:
+              - button "Select" [ref=e2346] [cursor=pointer]:
+                - checkbox [ref=e1097]
+              - generic [ref=e1197]:
+                - button "Archive" [ref=e2347] [cursor=pointer]
+                - button "Report spam" [ref=e2348] [cursor=pointer]
+                - button "Delete" [ref=e2349] [cursor=pointer]
+              - generic [ref=e1207]:
+                - button "Mark as unread" [ref=e2350] [cursor=pointer]
+                - button "Move to Inbox" [ref=e2351] [cursor=pointer]
+              - button "More email options" [ref=e2352] [cursor=pointer]
+            - generic [ref=e1107]:
+              - button "Showing most relevant" [ref=e2353] [cursor=pointer]
+              - generic [ref=e1121]:
+                - button "Show more messages" [ref=e2354] [cursor=pointer]:
+                  - generic [ref=e1123]:
+                    - generic [ref=e1124]: 1–1
+                    - text: of 1
+                - button "Previous results" [disabled] [ref=e2355]
+                - button "Next results" [disabled] [ref=e2356]
+              - generic [ref=e1127]:
+                - button "Toggle split pane mode" [ref=e2357] [cursor=pointer]
+                - button [ref=e1131] [cursor=pointer]
+        - heading "Conversations" [level=2] [ref=e2358]
+        - generic [ref=e1135]:
+          - grid [ref=e1140]:
+            - rowgroup [ref=e1141]:
+              - 'row "Manav Kapoor 2, Re: Daddy?, has attachment, 18 Sept, From: William Chen Date: Thu, Sep 10, 2026 at 6:23 PM Subject: Daddy? To: Manav Kapoor . i faded quizzes 7,8,10,11." [ref=e2359] [cursor=pointer]':
+                - gridcell [ref=e1956]
+                - 'gridcell "Manav Kapoor 2, Re: Daddy?, has attachment, 18 Sept, From: William Chen Date: Thu, Sep 10, 2026 at 6:23 PM Subject: Daddy? To: Manav Kapoor . i faded quizzes 7,8,10,11." [ref=e2360]':
+                  - 'checkbox "Manav Kapoor 2, Re: Daddy?, has attachment, 18 Sept, From: William Chen Date: Thu, Sep 10, 2026 at 6:23 PM Subject: Daddy? To: Manav Kapoor . i faded quizzes 7,8,10,11." [ref=e2361]'
+                - gridcell [ref=e2362]:
+                  - button "Not starred" [ref=e2363]
+                - gridcell "Manav Kapoor 2" [ref=e2364]:
+                  - generic [ref=e1962]:
+                    - generic [ref=e1963]: Manav Kapoor
+                    - generic [ref=e1964]: "2"
+                - gridcell [ref=e2365]:
+                  - 'link "Inbox Re: Daddy? From: William Chen Date: Thu, Sep 10, 2026 at 6:23 PM Subject: Daddy? To: Manav Kapoor . i faded quizzes 7,8,10,11" [ref=e2366]':
+                    - generic [ref=e1967]:
+                      - generic "Inbox" [ref=e2367]
+                      - generic [ref=e1973]: "Re: Daddy?"
+                      - generic [ref=e1975]: "From: William Chen Date: Thu, Sep 10, 2026 at 6:23 PM Subject: Daddy? To: Manav Kapoor . i faded quizzes 7,8,10,11"
+                - gridcell [ref=e2368]:
+                  - img "Has attachment" [ref=e2369]
+                - gridcell "Fri, 18 Sept 2026, 18:08" [ref=e2370]:
+                  - generic "Fri, 18 Sept 2026, 18:08" [ref=e2371]: 18 Sept
+                - gridcell
+          - generic [ref=e1224]:
+            - generic [ref=e1226]:
+              - generic [ref=e1228]:
+                - generic [ref=e1229]:
+                  - button "Forward all" [ref=e2372] [cursor=pointer]
+                  - tooltip [aria-hidden] [ref=e1236]: Forward all
+                - generic [ref=e1237]:
+                  - button "Collapse all" [ref=e2373] [cursor=pointer]
+                  - tooltip [aria-hidden] [ref=e1244]: Collapse all
+                - generic [ref=e1245]:
+                  - button "Turn off highlighting" [ref=e2374] [cursor=pointer]
+                  - tooltip [aria-hidden] [ref=e1252]: Turn off highlighting
+                - generic [ref=e1253]:
+                  - button "Print all" [ref=e2375] [cursor=pointer]
+                  - tooltip [aria-hidden] [ref=e1260]: Print all
+                - generic [ref=e1261]:
+                  - button "In new window" [ref=e2376] [cursor=pointer]
+                  - tooltip [aria-hidden] [ref=e1268]: In new window
+              - generic [ref=e1270]:
+                - 'heading "Re: Daddy?" [level=2] [ref=e2377]'
+                - generic [ref=e1273] [cursor=pointer]:
+                  - generic [ref=e1274]:
+                    - button "Search for all messages with label Inbox" [ref=e2378]: Inbox
+                    - tooltip [aria-hidden] [ref=e1277]: Search for all messages with label Inbox
+                  - generic [ref=e1278]:
+                    - button "Remove label Inbox from this conversation" [ref=e2379]: ×
+                    - tooltip [aria-hidden] [ref=e1281]: Remove label Inbox from this conversation
+            - list [ref=e1284]:
+              - listitem [ref=e1285]:
+                - generic [ref=e1291]:
+                  - generic [ref=e1292] [cursor=pointer]
+                  - generic [ref=e1296]:
+                    - table [ref=e1298] [cursor=pointer]:
+                      - rowgroup [ref=e1299]:
+                        - row [ref=e2380]:
+                          - cell [ref=e2381]:
+                            - table [ref=e1302]:
+                              - rowgroup [ref=e1303]:
+                                - row [ref=e2382]:
+                                  - cell [ref=e2383]:
+                                    - heading [level=3] [ref=e2384]:
+                                      - gridcell "Manav Kapoor mk10223@nyu.edu" [ref=e2385]:
+                                        - generic [ref=e1308]: Manav Kapoor
+                                        - generic [ref=e1309]: <mk10223@nyu.edu>
+                                    - heading [level=3]
+                          - cell [ref=e2386]:
+                            - generic [ref=e1311]:
+                              - gridcell "Fri 18 Sept, 18:08" [ref=e2387]
+                              - checkbox "Not starred" [ref=e2388]
+                          - cell
+                          - cell [ref=e2389]:
+                            - generic [ref=e1318]:
+                              - button "Add reaction" [ref=e2390]
+                              - tooltip [aria-hidden] [ref=e1325]: Add reaction
+                            - generic [ref=e1326]:
+                              - button "Reply" [ref=e2391]
+                              - tooltip [aria-hidden] [ref=e1333]: Reply
+                            - generic [ref=e1336]:
+                              - button "More message options" [ref=e2393]
+                              - tooltip [aria-hidden] [ref=e1342]: More
+                        - row [ref=e2394]:
+                          - cell [ref=e2395]:
+                            - table [ref=e1345]:
+                              - rowgroup [ref=e1346]:
+                                - row [ref=e2396]:
+                                  - cell "to me Show details" [ref=e2397]:
+                                    - generic [ref=e1349]: to me
+                                    - button "Show details" [ref=e2398]
+                    - generic [ref=e1359]:
+                      - generic [ref=e1360]:
+                        - text: On Fri, Sep 11, 2026 at 12:05 PM Manav Kapoor <
+                        - link "mk10223@nyu.edu" [ref=e2399] [cursor=pointer]:
+                          - /url: mailto:mk10223@nyu.edu
+                        - text: "> wrote:"
+                      - blockquote [ref=e1362]:
+                        - generic [ref=e1365]:
+                          - generic [ref=e1366]:
+                            - text: "---------- Forwarded message ---------From:"
+                            - strong [ref=e1367]: William Chen
+                            - generic [ref=e1368]:
+                              - text: <
+                              - link "wc2715@nyu.edu" [ref=e2400] [cursor=pointer]:
+                                - /url: mailto:wc2715@nyu.edu
+                              - text: ">"
+                            - text: "Date: Thu, Sep 10, 2026 at 6:23 PMSubject: Daddy?To: Manav Kapoor <"
+                            - link "mk10223@nyu.edu" [ref=e2401] [cursor=pointer]:
+                              - /url: mailto:mk10223@nyu.edu
+                            - text: ">"
+                          - generic [ref=e1371]: i faded quizzes 7,8,10,11
+              - listitem [ref=e1372]:
+                - generic [ref=e1383]:
+                  - table [ref=e1385]:
+                    - rowgroup [ref=e1386]:
+                      - row [ref=e2402]:
+                        - cell [ref=e2403]:
+                          - table [ref=e1389]:
+                            - rowgroup [ref=e1390]:
+                              - row [ref=e2404]:
+                                - cell [ref=e2405]:
+                                  - heading [level=3] [ref=e2406]:
+                                    - gridcell "Manav Kapoor mk10223@nyu.edu" [ref=e2407]:
+                                      - generic [ref=e1395]: Manav Kapoor
+                                      - generic [ref=e1396]: <mk10223@nyu.edu>
+                                  - heading [level=3]
+                        - cell [ref=e2408]:
+                          - generic [ref=e1398]:
+                            - img "Attachments" [ref=e2409]
+                            - gridcell "Fri 18 Sept, 18:23" [ref=e2410]
+                            - checkbox "Not starred" [ref=e2411] [cursor=pointer]
+                        - cell
+                        - cell [ref=e2412]:
+                          - generic [ref=e1407]:
+                            - button "Add reaction" [ref=e2413] [cursor=pointer]
+                            - tooltip [aria-hidden] [ref=e1414]: Add reaction
+                          - generic [ref=e1415]:
+                            - button "Reply" [ref=e2414] [cursor=pointer]
+                            - tooltip [aria-hidden] [ref=e1422]: Reply
+                          - generic "More message options" [ref=e2415]:
+                            - generic [ref=e1425]:
+                              - button "More message options" [ref=e2416] [cursor=pointer]
+                              - tooltip [aria-hidden] [ref=e1431]: More
+                      - row [ref=e2417]:
+                        - cell [ref=e2418]:
+                          - table [ref=e1434]:
+                            - rowgroup [ref=e1435]:
+                              - row [ref=e2419]:
+                                - cell "to me Show details" [ref=e2420]:
+                                  - generic [ref=e1438]: to me
+                                  - button "Show details" [ref=e2421]
+                  - generic [ref=e1441]:
+                    - button "Show trimmed content" [ref=e2422] [cursor=pointer]
+                    - generic [ref=e1445]:
+                      - generic [ref=e1447]:
+                        - generic [ref=e1448]:
+                          - generic [ref=e1449]: 12 attachment
+                          - generic [ref=e1450]: • Scanned by Gmail
+                          - img "Attachment scanning in Gmail To help protect your inbox, Gmail blocks attachments when malware is detected. You should still only download attachments from people you trust. Learn more Safer with Google logo" [ref=e2423]
+                        - generic [ref=e1453]:
+                          - generic [ref=e1454]:
+                            - button "Download all attachments" [ref=e2424] [cursor=pointer]
+                            - tooltip [aria-hidden] [ref=e1461]: Download all attachments
+                          - button "Add all to Drive" [ref=e2425] [cursor=pointer]
+                      - generic [ref=e1471]:
+                        - generic [ref=e1472]:
+                          - link "Preview attachment Print Submission | Gradescope Preview attachment Print Submission | Gradescope" [active] [ref=e2426] [cursor=pointer]:
+                            - /url: https://mail.google.com/mail/u/0?ui=2&ik=76bcabf10f&attid=0.1&permmsgid=msg-f:1876710073651835739&th=1a0b69de666a335b&view=att&disp=safe&realattid=f_mtw3d5j90&zw
+                            - generic [ref=e1474]: Preview attachment Print Submission | Gradescope
+                            - generic [ref=e1475]: Preview attachment Print Submission | Gradescope
+                            - generic [ref=e1479]: Print Submission | Gradescope
+                          - generic [ref=e1489]:
+                            - generic:
+                              - button "Download attachment Print Submission | Gradescope" [ref=e2427] [cursor=pointer]
+                              - tooltip [aria-hidden] [ref=e1495]: Download
+                            - generic:
+                              - button "Add attachment to Drive Print Submission | Gradescope" [ref=e2428] [cursor=pointer]
+                              - tooltip [aria-hidden] [ref=e1502]: Add to Drive
+                            - tooltip [aria-hidden] [ref=e1503]: Edit with
+                        - generic [ref=e1504]:
+                          - link "Preview attachment Print Submission | Gradescope Preview attachment Print Submission | Gradescope" [ref=e2429] [cursor=pointer]:
+                            - /url: https://mail.google.com/mail/u/0?ui=2&ik=76bcabf10f&attid=0.2&permmsgid=msg-f:1876710073651835739&th=1a0b69de666a335b&view=att&disp=safe&realattid=f_mtw3d5jd1&zw
+                            - generic [ref=e1506]: Preview attachment Print Submission | Gradescope
+                            - generic [ref=e1507]: Preview attachment Print Submission | Gradescope
+                            - generic [ref=e1511]: Print Submission | Gradescope
+                          - generic [ref=e1521]:
+                            - generic:
+                              - button "Download attachment Print Submission | Gradescope" [ref=e2430] [cursor=pointer]
+                              - tooltip [aria-hidden] [ref=e1527]: Download
+                            - generic:
+                              - button "Add attachment to Drive Print Submission | Gradescope" [ref=e2431] [cursor=pointer]
+                              - tooltip [aria-hidden] [ref=e1534]: Add to Drive
+                            - tooltip [aria-hidden] [ref=e1535]: Edit with
+                        - generic [ref=e1536]:
+                          - link "Preview attachment Print Submission | Gradescope Preview attachment Print Submission | Gradescope" [ref=e2432] [cursor=pointer]:
+                            - /url: https://mail.google.com/mail/u/0?ui=2&ik=76bcabf10f&attid=0.3&permmsgid=msg-f:1876710073651835739&th=1a0b69de666a335b&view=att&disp=safe&realattid=f_mtw3d5jf2&zw
+                            - generic [ref=e1538]: Preview attachment Print Submission | Gradescope
+                            - generic [ref=e1539]: Preview attachment Print Submission | Gradescope
+                            - generic [ref=e1543]: Print Submission | Gradescope
+                          - generic [ref=e1553]:
+                            - generic:
+                              - button "Download attachment Print Submission | Gradescope" [ref=e2433] [cursor=pointer]
+                              - tooltip [aria-hidden] [ref=e1559]: Download
+                            - generic:
+                              - button "Add attachment to Drive Print Submission | Gradescope" [ref=e2434] [cursor=pointer]
+                              - tooltip [aria-hidden] [ref=e1566]: Add to Drive
+                            - tooltip [aria-hidden] [ref=e1567]: Edit with
+                        - generic [ref=e1568]:
+                          - link "Preview attachment Print Submission | Gradescope Preview attachment Print Submission | Gradescope" [ref=e2435] [cursor=pointer]:
+                            - /url: https://mail.google.com/mail/u/0?ui=2&ik=76bcabf10f&attid=0.4&permmsgid=msg-f:1876710073651835739&th=1a0b69de666a335b&view=att&disp=safe&realattid=f_mtw3d5ji3&zw
+                            - generic [ref=e1570]: Preview attachment Print Submission | Gradescope
+                            - generic [ref=e1571]: Preview attachment Print Submission | Gradescope
+                            - generic [ref=e1575]: Print Submission | Gradescope
+                          - generic [ref=e1585]:
+                            - generic:
+                              - button "Download attachment Print Submission | Gradescope" [ref=e2436] [cursor=pointer]
+                              - tooltip [aria-hidden] [ref=e1591]: Download
+                            - generic:
+                              - button "Add attachment to Drive Print Submission | Gradescope" [ref=e2437] [cursor=pointer]
+                              - tooltip [aria-hidden] [ref=e1598]: Add to Drive
+                            - tooltip [aria-hidden] [ref=e1599]: Edit with
+                        - generic [ref=e1600]:
+                          - link "Preview attachment Print Submission | Gradescope Preview attachment Print Submission | Gradescope" [ref=e2438] [cursor=pointer]:
+                            - /url: https://mail.google.com/mail/u/0?ui=2&ik=76bcabf10f&attid=0.5&permmsgid=msg-f:1876710073651835739&th=1a0b69de666a335b&view=att&disp=safe&realattid=f_mtw3d5jk4&zw
+                            - generic [ref=e1602]: Preview attachment Print Submission | Gradescope
+                            - generic [ref=e1603]: Preview attachment Print Submission | Gradescope
+                            - generic [ref=e1607]: Print Submission | Gradescope
+                          - generic [ref=e1617]:
+                            - generic:
+                              - button "Download attachment Print Submission | Gradescope" [ref=e2439] [cursor=pointer]
+                              - tooltip [aria-hidden] [ref=e1623]: Download
+                            - generic:
+                              - button "Add attachment to Drive Print Submission | Gradescope" [ref=e2440] [cursor=pointer]
+                              - tooltip [aria-hidden] [ref=e1630]: Add to Drive
+                            - tooltip [aria-hidden] [ref=e1631]: Edit with
+                        - generic [ref=e1632]:
+                          - link "Preview attachment Print Submission | Gradescope Preview attachment Print Submission | Gradescope" [ref=e2441] [cursor=pointer]:
+                            - /url: https://mail.google.com/mail/u/0?ui=2&ik=76bcabf10f&attid=0.6&permmsgid=msg-f:1876710073651835739&th=1a0b69de666a335b&view=att&disp=safe&realattid=f_mtw3d5jm5&zw
+                            - generic [ref=e1634]: Preview attachment Print Submission | Gradescope
+                            - generic [ref=e1635]: Preview attachment Print Submission | Gradescope
+                            - generic [ref=e1639]: Print Submission | Gradescope
+                          - generic [ref=e1649]:
+                            - generic:
+                              - button "Download attachment Print Submission | Gradescope" [ref=e2442] [cursor=pointer]
+                              - tooltip [aria-hidden] [ref=e1655]: Download
+                            - generic:
+                              - button "Add attachment to Drive Print Submission | Gradescope" [ref=e2443] [cursor=pointer]
+                              - tooltip [aria-hidden] [ref=e1662]: Add to Drive
+                            - tooltip [aria-hidden] [ref=e1663]: Edit with
+                        - generic [ref=e1664]:
+                          - link "Preview attachment Print Submission | Gradescope Preview attachment Print Submission | Gradescope" [ref=e2444] [cursor=pointer]:
+                            - /url: https://mail.google.com/mail/u/0?ui=2&ik=76bcabf10f&attid=0.7&permmsgid=msg-f:1876710073651835739&th=1a0b69de666a335b&view=att&disp=safe&realattid=f_mtw3d5jn6&zw
+                            - generic [ref=e1666]: Preview attachment Print Submission | Gradescope
+                            - generic [ref=e1667]: Preview attachment Print Submission | Gradescope
+                            - generic [ref=e1671]: Print Submission | Gradescope
+                          - generic [ref=e1681]:
+                            - generic:
+                              - button "Download attachment Print Submission | Gradescope" [ref=e2445] [cursor=pointer]
+                              - tooltip [aria-hidden] [ref=e1687]: Download
+                            - generic:
+                              - button "Add attachment to Drive Print Submission | Gradescope" [ref=e2446] [cursor=pointer]
+                              - tooltip [aria-hidden] [ref=e1694]: Add to Drive
+                            - tooltip [aria-hidden] [ref=e1695]: Edit with
+                        - generic [ref=e1696]:
+                          - link "Preview attachment Print Submission | Gradescope Preview attachment Print Submission | Gradescope" [ref=e2447] [cursor=pointer]:
+                            - /url: https://mail.google.com/mail/u/0?ui=2&ik=76bcabf10f&attid=0.8&permmsgid=msg-f:1876710073651835739&th=1a0b69de666a335b&view=att&disp=safe&realattid=f_mtw3d5jp7&zw
+                            - generic [ref=e1698]: Preview attachment Print Submission | Gradescope
+                            - generic [ref=e1699]: Preview attachment Print Submission | Gradescope
+                            - generic [ref=e1703]: Print Submission | Gradescope
+                          - generic [ref=e1713]:
+                            - generic:
+                              - button "Download attachment Print Submission | Gradescope" [ref=e2448] [cursor=pointer]
+                              - tooltip [aria-hidden] [ref=e1719]: Download
+                            - generic:
+                              - button "Add attachment to Drive Print Submission | Gradescope" [ref=e2449] [cursor=pointer]
+                              - tooltip [aria-hidden] [ref=e1726]: Add to Drive
+                            - tooltip [aria-hidden] [ref=e1727]: Edit with
+                        - generic [ref=e1728]:
+                          - link "Preview attachment Print Submission | Gradescope Preview attachment Print Submission | Gradescope" [ref=e2450] [cursor=pointer]:
+                            - /url: https://mail.google.com/mail/u/0?ui=2&ik=76bcabf10f&attid=0.9&permmsgid=msg-f:1876710073651835739&th=1a0b69de666a335b&view=att&disp=safe&realattid=f_mtw3d5jr8&zw
+                            - generic [ref=e1730]: Preview attachment Print Submission | Gradescope
+                            - generic [ref=e1731]: Preview attachment Print Submission | Gradescope
+                            - generic [ref=e1735]: Print Submission | Gradescope
+                          - generic [ref=e1745]:
+                            - generic:
+                              - button "Download attachment Print Submission | Gradescope" [ref=e2451] [cursor=pointer]
+                              - tooltip [aria-hidden] [ref=e1751]: Download
+                            - generic:
+                              - button "Add attachment to Drive Print Submission | Gradescope" [ref=e2452] [cursor=pointer]
+                              - tooltip [aria-hidden] [ref=e1758]: Add to Drive
+                            - tooltip [aria-hidden] [ref=e1759]: Edit with
+                        - generic [ref=e1760]:
+                          - link "Preview attachment 2023X2aF25.pdf Preview attachment 2023X2aF25.pdf" [ref=e2453] [cursor=pointer]:
+                            - /url: https://mail.google.com/mail/u/0?ui=2&ik=76bcabf10f&attid=0.10&permmsgid=msg-f:1876710073651835739&th=1a0b69de666a335b&view=att&disp=safe&realattid=f_mtw3de0h9&zw
+                            - generic [ref=e1762]: Preview attachment 2023X2aF25.pdf
+                            - generic [ref=e1763]: Preview attachment 2023X2aF25.pdf
+                            - generic [ref=e1767]: 2023X2aF25.pdf
+                          - generic [ref=e1777]:
+                            - generic:
+                              - button "Download attachment 2023X2aF25.pdf" [ref=e2454] [cursor=pointer]
+                              - tooltip [aria-hidden] [ref=e1783]: Download
+                            - generic:
+                              - button "Add attachment to Drive 2023X2aF25.pdf" [ref=e2455] [cursor=pointer]
+                              - tooltip [aria-hidden] [ref=e1790]: Add to Drive
+                            - tooltip [aria-hidden] [ref=e1791]: Edit with
+                        - generic [ref=e1792]:
+                          - link "Preview attachment 2023X2aS25.pdf Preview attachment 2023X2aS25.pdf" [ref=e2456] [cursor=pointer]:
+                            - /url: https://mail.google.com/mail/u/0?ui=2&ik=76bcabf10f&attid=0.11&permmsgid=msg-f:1876710073651835739&th=1a0b69de666a335b&view=att&disp=safe&realattid=f_mtw3dhsg10&zw
+                            - generic [ref=e1794]: Preview attachment 2023X2aS25.pdf
+                            - generic [ref=e1795]: Preview attachment 2023X2aS25.pdf
+                            - generic [ref=e1799]: 2023X2aS25.pdf
+                          - generic [ref=e1809]:
+                            - generic:
+                              - button "Download attachment 2023X2aS25.pdf" [ref=e2457] [cursor=pointer]
+                              - tooltip [aria-hidden] [ref=e1815]: Download
+                            - generic:
+                              - button "Add attachment to Drive 2023X2aS25.pdf" [ref=e2458] [cursor=pointer]
+                              - tooltip [aria-hidden] [ref=e1822]: Add to Drive
+                            - tooltip [aria-hidden] [ref=e1823]: Edit with
+                        - generic [ref=e1824]:
+                          - link "Preview attachment fall 25 phys 2 midterm.pdf Preview attachment fall 25 phys 2 midterm.pdf" [ref=e2459] [cursor=pointer]:
+                            - /url: https://mail.google.com/mail/u/0?ui=2&ik=76bcabf10f&attid=0.12&permmsgid=msg-f:1876710073651835739&th=1a0b69de666a335b&view=att&disp=safe&realattid=f_mtw3e3r511&zw
+                            - generic [ref=e1826]: Preview attachment fall 25 phys 2 midterm.pdf
+                            - generic [ref=e1827]: Preview attachment fall 25 phys 2 midterm.pdf
+                            - generic [ref=e1831]: fall 25 phys 2 midterm.pdf
+                          - generic [ref=e1841]:
+                            - generic:
+                              - button "Download attachment fall 25 phys 2 midterm.pdf" [ref=e2460] [cursor=pointer]
+                              - tooltip [aria-hidden] [ref=e1847]: Download
+                            - generic:
+                              - button "Add attachment to Drive fall 25 phys 2 midterm.pdf" [ref=e2461] [cursor=pointer]
+                              - tooltip [aria-hidden] [ref=e1854]: Add to Drive
+                            - tooltip [aria-hidden] [ref=e1855]: Edit with
+            - generic [ref=e1861]:
+              - link "Reply" [ref=e2462] [cursor=pointer]
+              - link "Forward" [ref=e2463] [cursor=pointer]
+              - generic [ref=e1865]:
+                - button "Add reaction" [ref=e2464] [cursor=pointer]
+                - tooltip [aria-hidden] [ref=e1872]: Add reaction
+      - generic [ref=e828]:
+        - complementary "Side panel" [ref=e2465]:
+          - tablist [ref=e831]:
+            - tab "Calendar":
+              - generic [ref=e832] [cursor=pointer]
+            - tab "Keep":
+              - generic [ref=e833] [cursor=pointer]
+            - tab "Tasks":
+              - generic [ref=e834] [cursor=pointer]
+            - tab "Contacts":
+              - generic [ref=e835] [cursor=pointer]
+            - separator [disabled] [ref=e836]
+            - tab "Get add-ons":
+              - generic [ref=e837] [cursor=pointer]
+        - generic:
+          - button "Hide side panel":
+            - generic [ref=e838] [cursor=pointer]
+  - dialog [aria-hidden] [ref=e2466]
+  - generic [ref=e842]: Page 1 of 3 Page 1 of 3

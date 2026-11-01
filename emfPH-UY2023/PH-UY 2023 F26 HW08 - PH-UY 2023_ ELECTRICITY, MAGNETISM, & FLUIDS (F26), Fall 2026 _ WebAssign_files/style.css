@@ -1,0 +1,4133 @@
+/* Table of Contents:
+	1.0.0 Style
+		1.1.0 Global Adjustments
+			1.1.1 Sub/Sup Padding Fixes For Answer Blanks
+			1.1.2 Sub/Sup Sizing
+			1.1.3 Font Declaration
+		1.2.0 Application Fixes
+			1.2.1 Cascading Subscript (wa1down) Fix
+			1.2.2 MS Bottom Padding (msel) Fix
+			1.2.3 Essay Top Padding (essay) Fix
+			1.2.4 MC Premature Wrapping (nobr) Fix
+		1.3.0 Additional Features
+			1.3.1 Emphasis and color (wa1emph1/2/3, etc.)
+			1.3.2 Strikeout (wa1line)
+			1.3.3 Overline (wa1bar)
+			1.3.4 Augmented Matrix (augmented/matrix)
+			1.3.5 Content Box (wa1box for labs, wa1boxproof for proofs)
+			1.3.6 Lab Button (labbtn)
+			1.3.7 Venn Diagram Formatting (wa1venn, labels and boxes)
+			1.3.8 Checkpoint Container (checkblock/checklabel/checkpart)
+			1.3.9 Multicolumn MS (accplotsubul)
+			1.3.10 Hint Button (may be legacy)
+			1.3.11 Updated Hint Button
+		1.4.0 Watex Updates
+			1.4.1 Watex Tag Padding Removal
+			1.4.2 Fraction Bar Padding Adjustment
+			1.4.3 Sum Spacing Fix
+			1.4.4 Int Spacing Fix
+		1.5.0 Tables
+			1.5.1 Table Caption
+			1.5.2 Grid Table, Right-Aligned (wa1basicr)
+			1.5.3 Grid Table, Center-Aligned (wa1basicc)
+			1.5.4 Grid Table, Left-Aligned (wa1basicl)
+			1.5.5 Row-Lined Table, Right-Aligned (wa1rowlinr)
+			1.5.6 Row-Lined Table, Center-Aligned (wa1rowlinc)
+			1.5.7 Row-Lined Table, Left-Aligned (wa1rowlinl)
+			1.5.8 Spreadsheet Tables (wa1spreads)
+			1.5.9 Computer Output Table (wa1compout)
+			1.5.10 Accounting Table (wa1balance)
+			1.5.11 T Account Table (wa1taccount)
+			1.5.12 Transition Table (wa1trans)
+			1.5.13 Answer Blank Table (tableans)
+			1.5.14 Answer Blank Table: Chemistry ICE Table (icetable)
+			1.5.15 Answer Blank Table: Stem (wa1stem)
+			1.5.16 Answer Blank Table: Leaf (wa1bbleaf)
+			1.5.17 Answer Blank Table: Side (wa1side)
+			1.5.18 Answer Blank Table: Framed Columns (wa1framcol)
+			1.5.19 Answer Blank Table: Physics Staggered (pwa1stag)
+			1.5.20 Man. Science Table: Simplex Expanded (wa1simex)
+			1.5.21 "Bowling Score Card" Traffic Tables with Strikeouts
+			1.5.22 Reference Table (Stats)
+			1.5.23 Truth Tables (wa1truthr)
+			1.5.24 Logic Steps Table (logicsteps)
+		1.6.0 Question Format Tags
+			1.6.1 Ordered Lists (wa1list, wa1listnoin, wa1liststeps)
+			1.6.2 Unordered Lists (wa1list)
+			1.6.3 Unordered and Unlabeled List (none)
+			1.6.4 Unordered and Unlabeled and Inline List (wa1inline/inlinenoin)
+			1.6.5 Lists for Proofs (wa1listproofv and wa1listproofh)
+			1.6.6 Paragraph Container (wa1par)
+			1.6.7 Given Information Container (wa1given)
+			1.6.8 Answer Blank Containers
+			1.6.9 h3 Header (primarily for accessibility)
+			1.6.10 h4 Header 
+			1.6.11 Blue Subpremise h4 and h5
+			1.6.12 h5 Header
+			1.6.13 Figure and Figcaption Tags
+			1.6.14 Footnote Tags (wa1foot)
+			1.6.15 Video Tags
+			1.6.16 Subpart Containers (subblock/sublabel/subpart)
+			1.6.17 Secondary Subpart Containers (subsublab/subsubpart)
+			1.6.18 Stacked Answer Blanks (stackblock/line/text/op/math + texandfig for MC text+figure)
+			1.6.19 Accessible Stacked Answer Blanks (as above, also stackmathop)
+			1.6.20 Stacked Element Labeling/SBS Containers (elemblock/line and alignments)
+			1.6.21 Flex Equation Label Containers (eqnblock/label, wa1eqn)
+			1.6.22 Reactions and Affiliated Info Containers (rxnblock/line and alignments)
+			1.6.23 Pop-up Citation (citation-box/text)
+			1.6.24 Pop-up Definition (definition-box/text)
+			1.6.25 New Hint Button (hint button)
+			1.6.26 Compout Font for par/given/list
+			1.6.27 SALT Button /  Dataset Button
+			1.6.28 header styling 
+			1.6.29 demo specific styling
+			1.6.30 Chemistry hotspot styling
+			1.6.31 2026 Solution Button
+		1.7.0 Legacy or Unknown (DO NOT USE)
+			1.7.1 Inline Block (ilb - sunsetted; broke in answer field)
+			1.7.2 Old Answer Table Class (answer - sunsetted; broke chempad)
+			1.7.3 Sup/Sub Resize (unknown use)
+	2.0.0 Accessibility
+		2.1.0 General Purpose
+			2.1.1 MC Responsive Design
+			2.1.2 Aria Landmark Tags
+			2.1.3 Accessible Accordion
+			2.1.4 Figcaption Alt Text 
+			2.1.5 Figcaption Alt Text Update December 2021
+			2.1.6 Tabbed Display for Figures with Associated Text
+			2.1.7 Popup Feedback Resizing
+			2.1.8 Alt text close button
+			2.1.9 Smallcaps Span Class
+			2.1.10 Inline Block for Labels
+			2.1.11 Symbolic Previewer Prompt
+*/
+
+/* 1.0.0 STYLE ...................................................... */
+
+/* 1.1.0 GLOBAL ADJUSTMENTS */
+
+/* 1.1.1 Sub/Sup Padding Fixes For Answer Blanks (outside qContent required to affect answer blank positions) */
+
+sub {
+padding-left: .05em;
+}
+
+sup {
+padding-top: 1.2px;
+padding-left: .05em;
+}
+
+/* 1.1.2 Sub/Sup Sizing (inside qContent to avoid interaction with other answer elements) */
+
+.qContent sup, sup *, sub, sub *
+{ font-size: .7rem !important; }
+.qContent sub
+{ position: relative;
+top: .15rem; }
+.qContent sup
+{ position: relative;
+top: -.05rem; }
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+.qContent sup, sup *, sub, sub *
+{ font-size: .8rem !important; }
+.qContent sup{ 
+top: .1rem !important; }
+}
+} 
+
+*/ to adjust watex frac-in-frac size in IE */
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+.qContent .watexnumerator .watexinlineblock .watexfraction .watexnumerator, .qContent .watexnumerator .watexinlineblock .watexfraction .watexdenominator, .qContent .watexdenominator .watexinlineblock .watexfraction .watexdenominator, .qContent .watexdenominator .watexinlineblock .watexfraction .watexnumerator{
+font-size: .75rem !important;
+}
+}
+
+/* 1.1.3 Font Declaration */
+
+.qContent > *{
+font-family: verdana, geneva, sans-serif;
+font-size: 13px;
+}
+
+/* 1.2.0 APPLICATION FIXES  */
+
+/* 1.2.1. Cascading Subscript Fix (for greek letters, etc. that ignore global adjustments) */
+
+sub.wa1down{
+position: relative;
+top: .45em;
+}
+
+/* 1.2.2 MS Bottom Padding Fix */
+
+.qContent .msel .multBox{
+margin-bottom: -1.5em;
+}
+
+/* 1.2.3 Essay Top Padding Fix */
+
+.qContent div.essay{
+margin-top: -2em;
+}
+
+.qContent .subblock .subpart .essay{
+margin-top: -2em;
+}
+
+.qContent .subblock .subsubpart .essay{
+margin-top: -2em;
+}
+
+/* 1.2.4 MC Premature Wrapping (nobr) Fix */
+
+.qContent .subpart div.nobr{
+white-space: normal;
+}
+
+.qContent div.nobr .multBox{
+ white-space: nowrap;
+}
+
+
+/* 1.3.0 ADDITIONAL FEATURES  */
+
+/* 1.3.1 Emphasis and color */
+
+.qContent .wa1emph1{
+font-weight: bold;
+color: #690494;
+}
+
+.qContent .wa1emph2{
+font-weight: bold;
+color: #2F872F;
+}
+ 
+.qContent .wa1emph3{
+font-weight: bold;
+color: #B36200;
+}
+
+.qContent .codestatsblue{
+color: #0100CB;
+}
+
+.qContent .codestatsgreen{
+color: #4A896C;
+}
+
+.qContent .codestatsgray{
+color: #556578;
+}
+
+.qContent .codestatsred{
+color: #c70f14;
+}
+
+/* 1.3.2 Strikeout */
+
+.wa1line {
+display: inline-block;
+margin: 1px;
+padding: 1px;
+position: relative;
+background: url(/csstyle/line.svg);
+background-size: 100% 100%;
+}
+
+/* 1.3.3 Overline */
+
+.qContent .wa1bar{
+border-top: 1px solid black; 
+margin-top: 2px;
+line-height: normal;
+}
+
+.qContent .wa1bar {
+padding-top:.4rem;
+}
+.qContent .watexline .wa1bar {
+padding-top:.4rem;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+.qContent .wa1bar {
+padding-top:.4rem;
+}
+.qContent .watexline .wa1bar {
+padding-top:.4rem;
+}
+}
+
+/* For figcaption line adjustment so bar does not hit above line */
+
+.desc .wa1bar {
+line-height: 1.2rem;
+}
+
+@-moz-document url-prefix() {
+.desc .wa1bar {
+line-height: 1.7rem;
+}
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+.desc .wa1bar {
+line-height: 1.1rem;
+}
+}
+
+/* Fix for Wa1bar in Cascading Superscripts (JEure) */
+
+.qContent .wa1supbar{
+border-top: 1px solid black; 
+margin-top: 2px;
+line-height: normal;
+padding-top:0.68em
+}
+
+/* Fix for Radicals in Superscripts (JEure) */
+
+.qContent .supsqrt:before {
+content: "\221A";
+display: inline-flex;
+flex-direction: row;
+flex: initial;
+flex-wrap: nowrap;
+position: relative;
+margin: 0 0 12px 0;
+height: auto;
+line-height: 2.0;
+text-align: center;
+vertical-align: middle;
+justify-content: center;
+align-items: stretch; 
+width: auto;
+font-family: Verdana, Geneva, sans-serif;
+font-style: normal; 
+font-size: 0.83rem;
+font-weight: lighter;
+transform: scaleY(1.478);
+}
+
+.qContent .desc .supsqrt:before {
+padding-top: 0.13em;
+}
+
+
+/* Media Queries for Wa1supbar and Supsqrt (JEure) */
+
+@media all and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: .001dpcm) { /** Chrome only **/  
+.qContent .wa1supbar {
+padding-top:0.58em;
+}
+.qContent sup .supsqrt:before {
+margin-bottom: 10.93px;
+}
+.qContent .watexdenominator .wa1supbar {
+padding-top:0.53em;
+}
+.qContent .watexdenominator .supsqrt:before {
+margin-bottom:10px;
+}
+.qContent .watexnumerator .supsqrt:before {
+margin-bottom:10px;
+}
+
+.qContent .watexintaboveblock .supsqrt:before {
+margin-bottom:11px
+}
+.qContent .watexintbelow .supsqrt:before {
+margin-bottom:10px
+}
+.qContent .watexintaboveblock sup .supsqrt:before {
+margin-bottom:10.5px
+}
+.qContent .watexintbelow sup .supsqrt:before {
+margin-bottom:11px
+}
+
+.qContent .desc sup .supsqrt:before {
+margin-bottom: 10.69px;
+}
+.qContent .desc .watexdenominator sup .supsqrt:before {
+margin-bottom: 10.5px;
+}
+.qContent .desc .watexnumerator sup .supsqrt:before {
+margin-bottom: 11.5px;
+}
+.qContent .desc .supsqrt:before {
+margin-top: -0.3em;
+}
+}
+
+@media all and (min--moz-device-pixel-ratio: 0) { /** Firefox only **/
+.qContent .wa1supbar {
+padding-top: 0.45em;
+}
+.qContent .supsqrt:before {
+margin-top: 0.05em; 
+}
+.qContent .watexdenominator .supsqrt:before {
+margin-top: 0.05em;
+}
+.qContent .watexnumerator sup .supsqrt:before {
+margin-top: -0.01em;
+}
+.qContent .watexintaboveblock .supsqrt:before {
+margin-bottom:9.5px
+}
+.qContent .watexintbelow .supsqrt:before {
+margin-bottom:9.5px
+}
+.qContent .watexintaboveblock sup .supsqrt:before {
+margin-bottom:12.5px
+}
+.qContent .watexintbelow sup .supsqrt:before {
+margin-bottom:12.0px
+}
+.qContent .desc .supsqrt:before {
+margin-top: -0.3em;
+}
+.qContent .desc .watexnumerator sup .supsqrt:before {
+margin-top: -0.25em;
+}
+.qContent .desc .watexdenominator .supsqrt:before {
+margin-top: -0.2em;
+}
+.qContent .desc .watexdenominator .supsqrt:before {
+margin-bottom: 12.2px;
+}
+
+.qContent .desc .watexdenominator sup .supsqrt:before {
+margin-bottom: 13px;
+}
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) { /** IE only **/
+.qContent .wa1supbar {
+padding-top:0.43em;
+}
+.qContent .supsqrt:before {
+margin-bottom: 11px;
+}
+.qContent sup .supsqrt:before {
+margin-bottom: 11.5px;
+}
+.qContent .watexdenominator sup .supsqrt:before {
+margin-bottom: 11.88px;
+}
+.qContent .watexnumerator sup .supsqrt:before {
+margin-bottom: 11.7px;
+}
+.qContent .watexdenominator .supsqrt:before {
+padding-top:0.03em;
+}
+.qContent .watexintaboveblock .supsqrt:before {
+margin-bottom:7px
+}
+.qContent .watexintbelow .supsqrt:before {
+margin-bottom:7.8px
+}
+.qContent .watexintaboveblock sup .supsqrt:before {
+margin-bottom:10px
+}
+.qContent .watexintbelow sup .supsqrt:before {
+margin-bottom:10px
+}
+.qContent .desc .supsqrt:before {
+margin-bottom:11.5px;
+}
+.qContent .desc sup .supsqrt:before {
+margin-bottom: 11.9px;
+}
+.qContent .desc .watexnumerator sup .supsqrt:before {
+margin-bottom: 13.1px;
+}
+}
+
+@media not all and (min-resolution:.001dpcm) { /** Safari only **/
+@media {
+.qContent .supsqrt:before {
+margin-bottom:15px;
+}
+}
+}
+
+/* 1.3.4 Augmented Matrix */
+
+.qContent .augmented .matrix .matrix_left:nth-last-child(4), .qContent .augmented .matrix .matrix_left:nth-last-child(3) {
+ border-left: 1px solid black;
+} 
+
+/* 1.3.5 Content Box (wa1box for labs, wa1boxproof for proofs) */
+
+.qContent .wa1box{
+        width: 500px;
+        border: 1px solid #dfdfdf;
+        padding: 10px 10px 10px 10px;
+        margin: 0 0 1em 6em;
+        background-color: #d7d2c8;
+        }
+
+.qContent .wa1boxproof{
+        width: 500px;
+        border: 1px solid #dfdfdf;
+        padding: 10px 10px 10px 10px;
+        margin: 0 0 1em 6em;
+        background-color:#E6E6FA;
+        box-shadow: 8px 8px 4px #c8c8c8 
+        }
+
+.qContent .wa1boxproof2{
+        width: auto;
+        border: 1px solid #dfdfdf;
+        padding: 10px 10px 10px 10px;
+        margin: 0 6em 1em 6em;
+        background-color:#E6E6FA;
+        box-shadow: 8px 8px 4px #c8c8c8 
+        }
+
+		
+/* adjusts margins inside boxes */
+
+.qContent .wa1box .wa1par{
+margin: .5em 0 .5em 0em;
+}
+.qContent .wa1box ul.wa1list{
+margin-left:-2em;
+}
+.qContent .wa1box ol.wa1list{
+margin-left: 0em;
+}
+.qContent .wa1box ul.none{
+margin-left: -3.3em;
+}
+.qContent .wa1box .wa1given{
+margin:.5em 0 .5em 0;
+}
+.qContent .wa1box .eqnblock{
+margin:.5em 0 .5em 0;
+}
+
+.qContent .subpart .wa1box{
+margin: 0 0 1em 3em;
+}
+
+.qContent .subsubpart .wa1box{
+margin: 0 0 1em 0.5em;
+}
+
+/* 1.3.6 Lab Button */
+
+.qContent .LabBtn {
+    background-color: #E9E5DD;
+    color: #000;
+    font-size: 11px;
+    text-align: center;
+    vertical-align: middle;
+    height: 20px;
+    width: 75px;
+    box-shadow: 1px 1px 0px 0px #cccccc;
+    display: inline-block;
+    margin: 5px;
+	text-decoration: none;
+}
+
+/* 1.3.7 Venn Diagram Formatting */
+
+ .qContent .wa1venn {
+  position:relative;
+      }
+ 
+ .qContent .wa1venn .labelA {
+  position:absolute;
+  bottom:165px;
+  left: 50px;
+  
+  max-width: 115px;
+  max-height: 84px;
+   white-space: wrap;
+  vertical-align: bottom;
+  text-align:center;
+  z-index:1; 
+ }
+ 
+ .qContent .wa1venn .labelB {
+   position:absolute;
+  bottom:165px;
+   left: 310px;
+  max-width: 115px;
+  max-height: 84px;
+  white-space: wrap;
+  vertical-align: bottom;
+  text-align:center;
+  z-index:1;  
+ }
+ 
+ .qContent .wa1venn .boxA {
+ position:absolute;
+  top:195px;
+  left:75px;
+  z-index:1; 
+ }
+ 
+ .qContent .wa1venn .boxAB {
+  position:absolute;
+  top:195px;
+  left:210px;
+  z-index:1;    
+ }
+ 
+ .qContent .wa1venn .boxB {
+  position:absolute;
+  top:195px;
+  left:345px;
+  z-index:1;    
+ }
+ 
+ /* 1.3.8 Checkpoint Container, to be used with csstyle/icon_checkpoint.png */
+
+.qContent .checkblock{
+display:-webkit-box;
+display:-ms-flexbox;
+display:flex;
+margin: 0em 0 1em 0;
+font: 13px verdana, geneva, sans-serif;
+color: #000000;
+border-style:solid;
+display:-webkit-flex; /*Safari 6*/
+display:-ms-flex; /*IE 10*/
+flex-flow:row nowrap;
+-webkit-flex-flow:row nowrap; /*Safari 6*/
+-ms-flex-flow:row nowrap; /*IE 10*/
+-webkit-box-pack:start;
+    -ms-flex-pack:start;
+        justify-content:flex-start;
+-webkit-justify-content:flex-start; /*Safari 6*/
+-ms-justify-content:flex-start; /*IE 10*/
+-webkit-box-align:flex-start;
+    -ms-flex-align:flex-start;
+        align-items:flex-start;
+-webkit-align-items:flex-start; /*Safari 6*/
+-ms-align-items:flex-start; /*IE 10*/
+}
+
+/* Containers Inside .checkblock */
+
+.qContent .checklabel{
+margin-left:0.5em;
+width:3em;
+padding-top:0.2em;
+-webkit-box-flex:0;
+-webkit-flex:none;
+    -ms-flex:none;
+        flex:none;
+font: 13px verdana, geneva, sans-serif;
+color: #000000;
+}
+
+.qContent .checkpart{
+margin-left:0.5em;
+padding-right:1em;
+font: 13px verdana, geneva, sans-serif;
+color: #000000;
+line-height:1.4em;
+-ms-flex: 0 1 auto;
+}
+
+/* 1.3.9 Multicolumn MS */
+
+
+.qContent .wa1ans .accplotsubul {
+margin: 0 0 -1.5em 1em	
+}
+
+.qContent .accplotsubul .multBox {
+margin-bottom: -1.5em;
+}
+
+.qContent .accplotsubul .accblock ul.none {
+margin: 0 0 1em -1.2em;
+}
+
+/* 1.3.10 Hint Button (may be legacy) */
+/*previous background color in hintb, #22507b*/
+
+.qContent .hints {
+  padding: 5px 5px 15px 5px
+}
+
+.qContent .hintb {
+border: 2px solid #2f6fab;
+padding: 3px;
+font-weight: bold;
+color: white;
+background-color: #1c4162;
+letter-spacing: 1.25px
+}
+
+.qContent .hintd {
+display: none;
+margin: 5px;
+padding: 16px 16px 5px 16px;
+border: 2px solid #2f6fab;
+font-weight: normal;
+}
+
+.qContent .hintd .watexline {
+font-weight: normal;
+}
+
+.qContent #instructions {
+font-size: 12.5px;
+color: #5b5b5b;
+text-align: center;
+font-weight: bold;
+}
+
+/* 1.3.11 Updated Hint Button */
+
+.qContent .hintbutt {
+border: 2px solid #2f6fab;
+border-style: outset; 
+padding: 1px 25px 1px 25px;
+font-weight: bold;
+font-size: 13.5px;
+color: white;
+background-color: #0088c2;
+letter-spacing: 2px
+}
+
+.qContent .hintdisp {
+display: none;
+margin: 5px;
+padding: 16px 16px 5px 16px;
+border: 2px solid #2f6fab;
+font-weight: normal;
+}
+
+.qContent .hintbutt:focus {
+	border: 2px solid #0f0f0f;
+ box-shadow: inset 0px 0px 4px #fff;
+border-style: outset;
+}
+
+.qContent .hintbutta {
+	border: 2px solid #2f6fab;
+  padding: 1px 25px 1px 25px;
+  font-weight: bold;
+  font-size: 13.5px;
+  color: white;
+background-color: #00add5;
+letter-spacing: 2px;
+}
+
+.qContent .hintbutta:focus { 
+ box-shadow: inset 0px 0px 4px #000;
+}
+
+.qContent .hintdisp .watexline {
+font-weight: normal;
+}
+
+/* 1.4.0 WATEX UPDATES  */
+
+/* 1.4.1 Watex Tag Padding Removal */
+
+span.watex {
+margin: 0px 0em;
+}
+
+/* 1.4.2 Fraction Bar Padding Adjustment */
+
+.watexnumerator {
+padding-bottom: 3px;
+}
+
+/* 1.4.3 Sum Spacing Fix */
+
+.watexsumcomplex {
+    text-align: center;
+    border-collapse: collapse;
+margin: .5em 0 0 0;
+}
+
+/* 1.4.4 Int Spacing Fix */
+
+.watexintlimitcomplex {
+    margin-top: -.5em;
+    margin-bottom: -0.7em;
+}
+
+/* 1.5.0 TABLES */
+
+/* 1.5.1 Table Caption */
+
+.qContent table caption{
+caption-side: top;
+text-align: left;
+font-weight:bold;
+padding-bottom:0.3em;
+}
+
+/* caption (bottom of table) */
+
+.qContent table caption.belowtable{
+caption-side: bottom;
+text-align: left;
+font-weight:bold;
+padding-top:0.3em;
+}
+
+
+/* 1.5.2 Grid Table, Right-Aligned (default) */
+
+.qContent table.wa1basicr {  
+border-collapse: collapse; 
+margin: 0 0 1em 6em;
+}
+
+.qContent .subblock .subpart table.wa1basicr { 
+margin: 0 0 1em 3em;
+}
+
+.qContent .subblock .subsubpart table.wa1basicr { 
+margin: 0 0 1em 0em;
+}
+
+.qContent .wa1basicr > tbody > tr > th, .wa1basicr > thead > tr > th { 
+border: 1px solid black; 
+background-color: #d7d2c8; 
+text-align:center;
+padding:.75em; 
+}
+
+.qContent .wa1basicr > tbody > tr > td, .wa1basicr > thead > tr > td { 
+border: 1px solid black;
+text-align:right;
+padding:.75em; 
+}
+
+
+/* 1.5.3 Grid Table, Center-Aligned */
+
+.qContent table.wa1basicc { 
+border-collapse: collapse;
+margin: 0 0 1em 6em; 
+}
+
+.qContent .subblock .subpart table.wa1basicc { 
+margin: 0 0 1em 3em;
+}
+
+.qContent .subblock .subsubpart table.wa1basicc { 
+margin: 0 0 1em 0em;
+}
+
+.qContent .wa1basicc > tbody > tr > th, .wa1basicc > thead > tr > th { 
+border: 1px solid black; 
+background-color: #d7d2c8; 
+text-align:center;
+padding:.75em; 
+}
+
+.qContent .wa1basicc > tbody > tr > td, .wa1basicc > thead > tr > td { 
+border: 1px solid black;
+text-align:center;
+padding:.75em; 
+}
+
+
+/* 1.5.4 Grid Table, Left-Aligned */
+
+.qContent table.wa1basicl { 
+border-collapse: collapse; 
+margin: 0 0 1em 6em;
+}
+
+.qContent .subblock .subpart table.wa1basicl { 
+margin: 0 0 1em 3em;
+}
+
+.qContent .subblock .subsubpart table.wa1basicl { 
+margin: 0 0 1em 0em;
+}
+
+.qContent .wa1basicl > tbody > tr > th, .wa1basicl > thead > tr > th {
+border: 1px solid black; 
+background-color: #d7d2c8; 
+text-align:center;
+padding:.75em; 
+}
+
+.qContent .wa1basicl > tbody > tr > td, .wa1basicl > thead > tr > td { 
+border: 1px solid black;
+text-align:left;
+padding:.75em; 
+}
+
+/* 1.5.5 Row-Lined Table, Right-Aligned  (no header or bg color) */
+
+.qContent table.wa1rowlinr {
+border-collapse: collapse;
+border-bottom: 2px solid #d7d2c8;
+border-top: 2px solid #d7d2c8;
+margin: 0 0 1em 6em;
+}
+
+.qContent .subblock .subpart table.wa1rowlinr { 
+margin: 0 0 1em 3em;
+}
+
+.qContent .subblock .subsubpart table.wa1rowlinr { 
+margin: 0 0 1em 0em;
+}
+
+.qContent .wa1rowlinr > tbody > tr > th, .wa1rowlinr > thead > tr > th { 
+padding: 0.25em 1em 0.25em 1em;
+white-space: nowrap;
+border-bottom: 2px solid #d7d2c8;
+font-weight: bold;
+text-align: center;
+}
+
+.qContent .wa1rowlinr > tbody > tr > td, .wa1rowlinr > thead > tr > td {
+padding: 0.25em 1em 0.25em 1em;
+white-space: nowrap;
+border-bottom: 1px solid #949599;
+text-align:right;
+}
+
+.qContent table.wa1rowlinr tbody th[scope=row], table.wa1rowlinr thead th[scope=row] {
+border-bottom:1px solid #949599;
+}
+
+/* 1.5.6 Row-Lined Table, Center-Aligned  (no header or bg color) */
+
+.qContent table.wa1rowlinc {
+border-collapse: collapse;
+border-bottom: 2px solid #d7d2c8;
+border-top: 2px solid #d7d2c8;
+margin: 0 0 1em 6em;
+}
+
+.qContent .subblock .subpart table.wa1rowlinc { 
+margin: 0 0 1em 3em;
+}
+
+.qContent .subblock .subsubpart table.wa1rowlinc { 
+margin: 0 0 1em 0em;
+}
+
+.qContent .wa1rowlinc > tbody > tr > th, .wa1rowlinc > thead > tr > th { 
+padding: 0.25em 1em 0.25em 1em;
+white-space: nowrap;
+border-bottom: 2px solid #d7d2c8;
+font-weight: bold;
+text-align: center;
+}
+
+.qContent .wa1rowlinc > tbody > tr > td, .wa1rowlinc > thead > tr > td {
+padding: 0.25em 1em 0.25em 1em;
+white-space: nowrap;
+border-bottom: 1px solid #949599;
+text-align:center;
+}
+
+.qContent table.wa1rowlinc tbody th[scope=row], table.wa1rowlinc thead th[scope=row] {
+border-bottom:1px solid #949599;
+}
+
+/* 1.5.7 Row-Lined Table, Left-Aligned  (no header or bg color) */
+
+.qContent table.wa1rowlinl {
+border-collapse: collapse;
+border-bottom: 2px solid #d7d2c8;
+border-top: 2px solid #d7d2c8;
+margin: 0 0 1em 6em;
+}
+
+.qContent .subblock .subpart table.wa1rowlinl { 
+margin: 0 0 1em 3em;
+}
+
+.qContent .subblock .subsubpart table.wa1rowlinl { 
+margin: 0 0 1em 0em;
+}
+
+.qContent .wa1rowlinl > tbody > tr > th, .wa1rowlinl > thead > tr > th { 
+padding: 0.25em 1em 0.25em 1em;
+white-space: nowrap;
+border-bottom: 2px solid #d7d2c8;
+font-weight: bold;
+text-align: center;
+}
+
+.qContent .wa1rowlinl > tbody > tr > td, .wa1rowlinl > thead > tr > td {
+padding: 0.25em 1em 0.25em 1em;
+white-space: nowrap;
+border-bottom: 1px solid #949599;
+text-align:left;
+}
+
+.qContent table.wa1rowlinl tbody th[scope=row], table.wa1rowlinl thead th[scope=row] {
+border-bottom:1px solid #949599;
+}
+
+/* 1.5.8 Spreadsheet Table */
+
+.qContent table.wa1spreads{
+border: 2px solid black;
+border-collapse:collapse; 
+text-align:center;
+font-family: Arial, sans-serif;
+margin: 0 0 1em 6em;
+}
+
+.qContent .subblock .subpart table.wa1spreads { 
+margin: 0 0 1em 3em;
+}
+
+.qContent .subblock .subsubpart table.wa1spreads { 
+margin: 0 0 1em 0em;
+}
+
+.qContent .wa1spreads tbody > tr > th{
+color: black;
+font-weight:bold;
+text-align:center;
+padding:.25em 1.5em .25em 1.5em;
+background-color: #d7d2c8;
+border:2px solid black;
+}
+
+.qContent .wa1spreads tbody > tr > td{
+padding:.25em 1em .25em 1em;
+border:1px solid black;
+text-align: left;
+}
+
+.qContent .wa1spreads tbody > tr > td.highlight{
+background-color: #d7d2c8;
+border:1px solid black;
+text-align: right;
+}
+
+/* 1.5.9 Computer Output Table */
+
+.wa1compout caption{
+caption-side: top;
+text-align: left;
+padding:0.1em 1em 0.1em 1em;
+} 
+
+.qContent  table.wa1compout {
+text-align:right;
+	font-family: courier new;
+	font-size: 13px;
+	margin: 0 0 1em 6em;
+}
+
+.qContent .subblock .subpart table.wa1compout { 
+margin: 0 0 1em 3em;
+}
+
+.qContent .subblock .subsubpart table.wa1compout { 
+margin: 0 0 1em 0em;
+}
+
+.qContent .wa1compout > tbody > tr > td, .qContent .wa1compout > tbody > tr > th {
+padding:0.1em 1em 0.1em 1em;
+white-space: nowrap;
+font-weight: normal;
+}
+
+/* 1.5.10 Accounting Table (balance sheets, journals, financial statements, etc.)*/
+
+.qContent table.wa1balance {
+border-collapse: collapse;
+margin: 0 0 1em 6em;
+border-bottom:  2px solid #d7d2c8;
+}
+
+.qContent .subblock .subpart table.wa1balance{
+margin: 0 0 1em 3em;
+}
+
+.qContent .subblock .subsubpart table.wa1balance {
+margin: 0 0 1em 0em;
+}
+
+.qContent .wa1balance > tbody > tr > th {
+padding: 0.25em 1em 0.25em 1em;
+}
+
+.qContent  table.wa1balance > tbody > tr > td {
+padding: 0.25em 1em 0.25em 1em;
+white-space: nowrap;
+text-align:right;
+}
+
+/*left-aligns cells (for text)*/
+
+.qContent  table.wa1balance > tbody > tr > td.left{
+text-align:left;
+}
+
+/*left-aligns and indents cells*/
+
+.qContent  table.wa1balance > tbody > tr > td.ind{
+text-align: left;
+padding-left: 2.5em;
+}
+
+/*marks Total cell with equals sign in border*/
+
+.qContent .wa1balance > tbody > tr > td.total{
+padding: 0.25em 1em 0.25em 1em;
+white-space: nowrap;
+text-align:right;
+border-top:1px solid black;
+}
+
+.qContent table.wa1balance th:nth-of-type(1){
+text-align:left;
+}
+
+.qContent .wa1balance > tbody > tr:nth-of-type(odd){
+background-color: #d7d2c8;
+}
+
+/* 1.5.11 T Account Table */
+
+.qContent table.wa1taccount{
+border-collapse: collapse;
+margin: 0 0 1em 6em;
+border-top:2px solid black;
+}
+
+.qContent .subblock .subpart table.wa1taccount{
+margin: 0 0 1em 3em;
+}
+
+.qContent .subblock .subsubpart table.wa1taccount{
+margin: 0 0 1em 0em;
+}
+
+.qContent table.wa1taccount caption{
+text-align:center;
+white-space:nowrap;
+}
+
+.qContent table.wa1taccount td:nth-of-type(odd){
+padding: 0.25em 1em 0.25em 1em;
+text-align:left;
+}
+
+.qContent table.wa1taccount td:nth-of-type(even){
+padding: 0.25em 1em 0.25em 1em;
+text-align:right;
+}
+
+.qContent table.wa1taccount td:nth-of-type(2){
+border-right:2px solid black;
+}
+
+/*marks Total row with equals sign in border*/
+
+.qContent table.wa1taccount tr.total{
+border-top:1px solid black;
+}
+
+/* 1.5.12 Transition Table (wa1trans1 and wa1trans2) */
+
+.qContent table.wa1trans1 {
+border-collapse: collapse; 
+margin: 0 0 1em 6em;
+}
+.qContent .subblock .subpart table.wa1trans1 { 
+margin: 0 0 1em 3em;
+}
+
+.qContent .subblock .subsubpart table.wa1trans1 { 
+margin: 0 0 1em 0em;
+}
+
+.qContent .wa1trans1 > tbody > tr > td { 
+text-align:center;
+padding: .5em .5em .5em .5em; 
+}
+
+.qContent .wa1trans1 > tbody > tr > th { 
+text-align:center;
+font-weight:normal;
+padding: .5em .5em .5em .5em; 
+}
+
+.qContent table.wa1trans1 > tbody > tr:nth-of-type(1) > th:nth-of-type(2) { font-weight: bold; }
+.qContent table.wa1trans1 > tbody > tr:nth-of-type(2) { border-bottom: 1px solid black; }
+.qContent table.wa1trans1 > tbody > tr > th:first-child { border-right: 1px solid black; }
+.qContent table.wa1trans1 > tbody > tr > th:last-child { border-left: 1px solid black; }
+.qContent table.wa1trans1 > tbody > tr > td:first-child { border-right: 1px solid black; }
+.qContent table.wa1trans1 > tbody > tr > td:last-child { border-left: 1px solid black; }
+.qContent table.wa1trans2 > tbody > tr > th.nobrd {border-left:none; border-right:none; }
+.qContent table.wa1trans2 > tbody > tr > th.brdl {border-left:1px solid black; }
+.qContent table.wa1trans2 > tbody > tr > th.brdr {border-right:1px solid black; }
+.qContent table.wa1trans2 > tbody > tr > td.nobrd {border-left:none; border-right:none; }
+.qContent table.wa1trans2 > tbody > tr > td.brdl {border-left:1px solid black; }
+.qContent table.wa1trans2 > tbody > tr > td.brdr {border-right:1px solid black; }
+
+/* Transition Table 2 (wa1trans2) */
+
+.qContent table.wa1trans2 {
+border-collapse: collapse; 
+margin: 0 0 1em 6em;
+}
+.qContent .subblock .subpart table.wa1trans2 { 
+margin: 0 0 1em 3em;
+}
+
+.qContent .subblock .subsubpart table.wa1trans2 { 
+margin: 0 0 1em 0em;
+}
+
+.qContent .wa1trans2 > tbody > tr > td { 
+text-align:center;
+padding: .5em .5em .5em .5em; 
+}
+
+.qContent .wa1trans2 > tbody > tr > th { 
+text-align:center;
+font-weight:normal;
+padding: .5em .5em .5em .5em; 
+}
+
+.qContent table.wa1trans2 > tbody > tr > th[colspan] { font-weight: bold; }
+.qContent table.wa1trans2 > tbody > tr > th:first-child { border-right: 1px solid black; }
+.qContent table.wa1trans2 > tbody > tr > th:nth-child(3) { border-left: 1px solid black; }
+.qContent table.wa1trans2 > tbody > tr > th:nth-child(5) { border-left: 1px solid black; }
+.qContent table.wa1trans2 > tbody > tr > th:nth-child(7) { border-left: 1px solid black; }
+.qContent table.wa1trans2 > tbody > tr > td:first-child { border-right: 1px solid black; }
+.qContent table.wa1trans2 > tbody > tr > td:nth-child(4) { border-left: 1px solid black; }
+.qContent table.wa1trans2 > tbody > tr > td:nth-child(6) { border-left: 1px solid black; }
+.qContent table.wa1trans2 > tbody > tr > td:nth-child(8) { border-left: 1px solid black; }
+.qContent table.wa1trans2 > tbody > tr > th[rowspan]:first-child { vertical-align:bottom; }
+.qContent table.wa1trans2 > tbody > tr:nth-of-type(2) { border-bottom: 1px solid black; }
+.qContent table.wa1trans2 > tbody > tr:last-child { border-bottom: 1px solid black; }
+.qContent table.wa1trans2 > tbody > tr > th.nobrd {border-left:none; border-right:none; }
+.qContent table.wa1trans2 > tbody > tr > th.brdl {border-left:1px solid black; }
+.qContent table.wa1trans2 > tbody > tr > th.brdr {border-right:1px solid black; }
+.qContent table.wa1trans2 > tbody > tr > td.nobrd {border-left:none; border-right:none; }
+.qContent table.wa1trans2 > tbody > tr > td.brdl {border-left:1px solid black; }
+.qContent table.wa1trans2 > tbody > tr > td.brdr {border-right:1px solid black; }
+
+/* 1.5.13 Answer Blank Table (answer table class going forward, created initially for grading tools already using "answer" in their CSS) */
+
+.qContent table.tableans{
+margin: 0 0 1em 0em !important;
+display:table;
+/*border:inherit;*/
+}
+
+.qContent .subblock .subpart table.tableans { 
+margin: 0 0 1em 0em;
+display:table;
+/*border:inherit;*/
+}
+
+.qContent .subblock .subsubpart table.tableans { 
+margin: 0 0 1em 0em;
+display: table;
+/*border:inherit;*/
+}
+
+/* 1.5.14 Answer Blank Table: Chemistry ICE Table */
+
+.qContent table.icetable { 
+border-collapse: collapse;
+margin: 0 0 1em 6em; 
+}
+
+.qContent .subblock .subpart table.icetable { 
+margin: 0 0 1em 3em;
+}
+
+.qContent .subblock .subsubpart table.icetable { 
+margin: 0 0 1em 0em;
+}
+
+.qContent .icetable > tbody > tr > th { 
+background-color: #d7d2c8; 
+text-align:center;
+padding:.75em; 
+}
+
+.qContent .icetable > tbody > tr > td { 
+text-align:center;
+padding:.75em; 
+}
+
+.qContent table.icetable > tbody > tr:nth-of-type(n) {
+border-top: 1px solid black;
+border-left: 1px solid black;
+}
+
+.qContent table.icetable > tbody > tr:nth-last-of-type(n) {
+border-bottom: 1px solid black;
+border-right: 1px solid black;
+}
+
+.qContent table.icetable > tbody > tr > th:nth-of-type(1) {
+border-right: 1px solid black;
+}
+
+/* 1.5.15 Answer Blank Table: Stem */
+
+.qContent table.wa1stem {
+border-collapse: collapse; 
+margin: 0 0 1em 6em;
+}
+.qContent .subblock .subpart table.wa1stem { 
+margin: 0 0 1em 3em;
+}
+
+.qContent .subblock .subsubpart table.wa1stem { 
+margin: 0 0 1em 0em;
+}
+
+.qContent .wa1stem > tbody > tr > td { 
+text-align:left;
+padding: .5em .5em .5em .5em; 
+}
+
+.qContent .wa1stem > tbody > tr > th { 
+text-align:center;
+font-weight:normal;
+padding: .5em .5em .5em .5em; 
+}
+
+.qContent table.wa1stem > tbody > tr:nth-of-type(1) { border-bottom: 1px solid black; }
+.qContent table.wa1stem > tbody > tr > td:nth-of-type(1),
+.qContent table.wa1stem > tbody > tr > th:nth-of-type(1) { border-right: 1px solid black; text-align: right}
+
+/* 1.5.16 Answer Blank Table: Leaf */
+
+table.wa1bbleaf {
+border-collapse: collapse; 
+margin: 0 0 1em 6em;
+}
+.subblock .subpart table.wa1bbleaf { 
+margin: 0 0 1em 3em;
+}
+.subblock .subsubpart table.wa1bbleaf { 
+margin: 0 0 1em 0em;
+}
+.wa1bbleaf > tbody > tr > td { 
+text-align:left;
+padding: .5em .5em .5em .5em; 
+}
+.wa1bbleaf > tbody > tr > th { 
+text-align:center;
+font-weight:normal;
+padding: .5em .5em .5em .5em; 
+}
+.wa1bbleaf > tbody > tr:nth-of-type(1) { border-bottom: 1px solid black; }
+.wa1bbleaf > tbody > tr > td:nth-of-type(1) ,
+.wa1bbleaf > tbody > tr > th:nth-of-type(1) { border-right: 1px solid black; text-align: right; }
+.wa1bbleaf > tbody > tr > td:nth-of-type(2),
+.wa1bbleaf > tbody > tr > th:nth-of-type(2) { border-right: 1px solid black; text-align: center; }
+.wa1bbleaf > tbody > tr > td:nth-of-type(3),
+.wa1bbleaf > tbody > tr > th:nth-of-type(3) { border-left: 1px solid black; text-align: left; }
+
+/* 1.5.17 Answer Blank Table: Side */
+
+.qContent table.wa1side {
+border-collapse: collapse; 
+margin: 0 0 1em 6em;
+}
+.qContent .subblock .subpart table.wa1side { 
+margin: 0 0 1em 3em;
+}
+
+.qContent .subblock .subsubpart table.wa1side { 
+margin: 0 0 1em 0em;
+}
+
+.qContent .wa1side > tbody > tr > td { 
+text-align:left;
+padding: .5em .5em .5em .5em; 
+}
+
+.qContent .wa1side > tbody > tr > th { 
+text-align:center;
+font-weight:normal;
+padding: .5em .5em .5em .5em; 
+}
+
+.qContent table.wa1side > tbody > tr:nth-of-type(1) { border-bottom: 1px solid black; }
+.qContent table.wa1side > tbody > tr > th:nth-of-type(1) { border-right: 1px solid black; }
+
+/* 1.5.18 Answer Blank Table: Framed Columns (wa1framcol) */
+
+.qContent table.wa1framcol {
+border: 1px solid black; 
+border-collapse: collapse; 
+margin: 0 0 1em 6em;
+}
+
+.qContent .subblock .subpart table.wa1framcol { 
+margin: 0 0 1em 3em;
+}
+
+.qContent .subblock .subsubpart table.wa1framcol { 
+margin: 0 0 1em 0em;
+}
+
+.qContent .wa1framcol > tbody > tr > td{  
+text-align:center;
+padding: .5em .5em .5em .5em; 
+}
+
+.qContent .wa1framcol > tbody > tr > th { 
+text-align:center;
+padding: .5em .5em .5em .5em; 
+font-weight:bold;
+background-color: #d7d2c8; 
+padding:.75em; 
+}
+
+.qContent table.wa1framcol > tbody > tr:nth-of-type(1) { border-bottom: 1px solid black; }
+.qContent table.wa1framcol > tbody > tr > td:nth-of-type(n+1),
+.qContent table.wa1framcol > tbody > tr > th:nth-of-type(n+1) { border-right: 1px solid black; }
+
+/* 1.5.19 Answer Blank Table: Physics Staggered (pwa1stag) */
+
+.qContent table.wa1pstag { 
+border: 1px solid black; 
+border-collapse: collapse; 
+margin: 0 0 1em 6em;
+}
+.qContent .subblock .subpart table.wa1pstag{ 
+margin: 0 0 1em 3em;
+}
+
+.qContent .subblock .subsubpart table.wa1pstag { 
+margin: 0 0 1em 0em;
+}
+
+.qContent .wa1pstag > tbody > tr > th { 
+border: 1px solid black; 
+background-color: #d7d2c8; 
+text-align:center;
+padding: .5em .5em .5em .5em; 
+}
+
+.qContent .wa1pstag > tbody > tr > td { 
+border: 1px solid black;
+text-align:center;
+padding: .5em .5em .5em .5em; 
+}
+
+/* 1.5.20 Man. Science Table: Simplex Expanded (wa1simex) */
+/* Can not use watex fractions in these tables; bevel them */
+
+.qContent .wa1simex > tbody > tr > th { 
+background-color: #d7d2c8; 
+}
+
+.qContent .wa1simex > tbody > tr > td,
+.qContent .wa1simex > tbody > tr > th  { 
+text-align:center;
+padding:.75em; 
+}
+
+.qContent .wa1simex {
+  border:none;
+  border-collapse: collapse;
+  text-align: center;
+  margin: 0 0 1em 6em;
+}
+
+.qContent .subblock .subpart .wa1simex { 
+margin: 0 0 1em 3em;
+}
+
+.qContent .subblock .subsubpart .wa1simex { 
+margin: 0 0 1em 0em;
+}
+
+.qContent .wa1simex td:nth-last-child(1),
+.qContent table.wa1simex td:nth-child(3) {
+  border-left:2px solid black; 
+}
+
+.qContent .wa1simex tr:nth-last-of-type(2) td,
+.qContent .wa1simex tr:nth-of-type(3) td {
+  border-top:2px solid black; 
+}
+
+.qContent .wa1simex th:nth-of-type(2),
+.qContent .wa1simex th:nth-last-of-type(1) {
+  border-right:2px solid black; 
+}
+
+.qContent table.wa1simex tr:nth-last-of-type(2) th,
+.qContent table.wa1simex tr:nth-of-type(3) th {
+  border-top:2px solid black; 
+}
+
+/* 1.5.21 "Bowling Score Card" traffic tables with strikeouts*/
+
+.qContent span.circled {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  width: 15px;
+  height: 15px;
+  resize: both;
+  overflow: show;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 2px solid #727272;
+}
+
+.qContent span.squared {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  width: 15px;
+  height: 15px;
+  resize: both;
+  overflow: show;
+  text-align: center;
+  vertical-align: middle;
+  #border-radius: 50%;
+  background-color: transparent;
+  border: 2px solid #727272;
+}
+
+.qContent table.exterior {
+  table-layout: fixed;
+  margin: 0 !important;
+  padding: 0 !important;
+  border-collapse: collapse;
+  border: none;
+}
+
+.qContent table.exterior tr.exterior-row {
+  margin: 0 !important;
+  padding: 0 !important;
+  border-collapse: collapse;
+  border: none;
+}
+
+.qContent table.exterior th.exterior-cell,
+.qContent table.exterior td.exterior-cell {
+  margin: 0 !important;
+  padding: 0 !important;
+  border-collapse: collapse;
+  border: 1px solid black; 
+  text-align: center;
+  vertical-align: middle;
+  min-height: 2.4em;
+  min-width: 2.4em;
+}
+
+.qContent table.exterior th.exterior-cell {
+  padding: 0 8px !important;
+  background-color: #d7d2c8;
+}
+
+.qContent table.interior {
+  table-layout: fixed;
+  position: relative;
+  margin: 0 !important;
+  padding: 0 !important;
+  border-collapse: collapse;
+  border: none;
+}
+
+.qContent table.interior tr.interior-row {
+  margin: 0 !important;
+  padding: 0 !important;
+  border-collapse: collapse;
+  border: none;
+}
+
+.qContent table.interior td.interior-cell {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 2.4em;
+  height: 2.4em;
+  border-collapse: collapse;
+  #border: none;
+  border: 1px solid transparent;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.qContent td.hstrike {
+  background: linear-gradient(rgba(255,255,255,0) 33%, rgba(242,202,39,1) 33%, rgba(242,202,39,1) 67%, rgba(255,255,255,0) 67%);
+}
+
+.qContent td.vstrike {
+  background: linear-gradient(90deg, rgba(255,255,255,0) 33%, rgba(242,202,39,1) 33%, rgba(242,202,39,1) 67%, rgba(255,255,255,0) 67%);
+}
+
+.qContent td.vstrikehstrike  {
+  background: 
+    linear-gradient(rgba(255,255,255,0) 33%, rgba(242,202,39,1) 33%, rgba(242,202,39,1) 67%, rgba(255,255,255,0) 67%),
+    linear-gradient(90deg, rgba(255,255,255,0) 33%, rgba(242,202,39,1) 33%, rgba(242,202,39,1)  67%, rgba(255,255,255,0) 67%);
+}
+
+.qContent td.hstrikegrey {
+  background: linear-gradient(rgba(255,255,255,0) 45%, rgba( 130,130,130, 0.3 ) 45%, rgba( 130,130,130, 0.3 ) 55%, rgba(255,255,255,0) 55%);
+}
+.qContent td.vstrikegrey {
+  background: linear-gradient(90deg, rgba(255,255,255,0) 45%, rgba( 130,130,130, 0.3 ) 45%, rgba( 130,130,130, 0.3 ) 55%, rgba(255,255,255,0) 55%);
+}
+.qContent td.vstrikehstrikegrey  {
+  background: 
+    linear-gradient(rgba(255,255,255,0) 45%, rgba( 130,130,130, 0.3 ) 45%, rgba( 130,130,130, 0.3 ) 55%, rgba(255,255,255,0) 55%),
+    linear-gradient(90deg, rgba(255,255,255,0) 45%, rgba( 130,130,130, 0.3 ) 45%, rgba( 130,130,130, 0.3 )  55%, rgba(255,255,255,0) 55%);
+}
+
+.qContent table.exterior table.interior td.interior-cell {
+  position: relative;
+}
+
+/* 1.5.22 Reference Data Table (Stats)*/
+
+.qContent table.wa1refdata{
+border-collapse: collapse;
+margin: 0 0 1em 6em;
+border: 2px solid #afa691;
+}
+
+.qContent table.wa1refdata caption{
+font-size: 1.4em;
+text-align:left;
+padding-bottom:.25em;
+} 
+
+.qContent table.wa1refdata thead{
+background-color: #d7d2c8;
+display: table-header-group;
+border-bottom:2px solid #afa691;
+}
+
+.qContent table.wa1refdata tfoot{
+background-color: #d7d2c8;
+display:table-header-group;
+} 
+
+.qContent table.wa1refdata tbody{
+display: table-row-group;
+} 
+
+.qContent table.wa1refdata tfoot  th{
+padding: 0.25em 1em 0.25em 1em;
+text-align:left;
+}
+
+.qContent table.wa1refdata thead th{
+padding: 0.25em 1em 0.25em 1em;
+text-align:left;
+}
+
+.qContent table.wa1refdata tbody  th{
+background-color: #d7d2c8;
+padding: 0.25em 1em 0.25em 1em;
+vertical-align:top;
+text-align:center;
+}
+
+.qContent table.wa1refdata tbody th[scope=row] {
+text-align:right;
+}
+
+.qContent table.wa1refdata tbody tr > th[scope=col] {
+border-bottom:1px solid #afa691;;
+}
+
+.qContent table.wa1refdata td{
+padding-left:1em;
+padding: 0.25em 1em 0.25em 1em;
+white-space: nowrap;
+text-align:right;
+} 
+
+.qContent table.wa1refdata > tbody > tr td:nth-child(2) {
+border-left:1px solid #afa691;
+}
+
+.qContent table.wa1refdata > tbody > tr:nth-of-type(2n+1){
+background-color: #efefef;
+}
+
+/* 1.5.23 Truth Table (wa1truthr, Vertical Border in Last Column) */
+
+.qContent table.wa1truthr {
+border-collapse: collapse; 
+margin: 0 0 1em 6em;
+}
+.qContent .subblock .subpart table.wa1truthr { 
+margin: 0 0 1em 3em;
+}
+
+.qContent .subblock .subsubpart table.wa1truthr { 
+margin: 0 0 1em 0;
+}
+
+.qContent .wa1truthr > tbody > tr { 
+border-bottom: 1px solid black;
+}
+
+.qContent .wa1truthr > tbody > tr > td { 
+padding: .5em .5em .5em .5em;
+text-align:left; 
+}
+
+.qContent .wa1truthr > tbody > tr > th { 
+font-weight:bold;
+padding: .5em .5em .5em .5em;
+text-align:center;
+}
+
+.qContent table.wa1truthr > tbody > tr:last-of-type { border-bottom: none; }
+.qContent table.wa1truthr > tbody > tr > td:last-of-type,
+.qContent table.wa1truthr > tbody > tr > th:last-of-type { border-left: 1px solid black; text-align: left}
+
+/* Concatenates for Border Addition/Removal */
+
+.qContent table.wa1truthr > tbody > tr > th.brd {border:1px solid black; }
+.qContent table.wa1truthr > tbody > tr > th.nobrd {border-left:none; border-right:none; }
+.qContent table.wa1truthr > tbody > tr > th.brdl {border-left:1px solid black; }
+.qContent table.wa1truthr > tbody > tr > th.brdr {border-right:1px solid black; }
+.qContent table.wa1truthr > tbody > tr > th.brdbtm {border-bottom:1px solid black; }
+.qContent table.wa1truthr > tbody > tr > th.brdtop {border-top:1px solid black; }
+
+.qContent table.wa1truthr > tbody > tr > td.brd {border:1px solid black; }
+.qContent table.wa1truthr > tbody > tr > td.nobrd {border-left:none; border-right:none; }
+.qContent table.wa1truthr > tbody > tr > td.brdl {border-left:1px solid black; }
+.qContent table.wa1truthr > tbody > tr > td.brdr {border-right:1px solid black; }
+.qContent table.wa1truthr > tbody > tr > td.brdbtm {border-bottom:1px solid black; }
+.qContent table.wa1truthr > tbody > tr > td.brdtop {border-top:1px solid black; }
+
+/* Truth Table (wa1truthl, Vertical Border in First Column) */
+
+.qContent table.wa1truthl {
+border-collapse: collapse; 
+margin: 0 0 1em 6em;
+}
+.qContent .subblock .subpart table.wa1truthl { 
+margin: 0 0 1em 3em;
+}
+
+.qContent .subblock .subsubpart table.wa1truthl { 
+margin: 0 0 1em 0;
+}
+
+.qContent .wa1truthl > tbody > tr { 
+border-bottom: 1px solid black;
+}
+
+.qContent .wa1truthl > tbody > tr > td { 
+padding: .5em .5em .5em .5em; 
+text-align:left;
+}
+
+.qContent .wa1truthl > tbody > tr > th { 
+font-weight:bold;
+padding: .5em .5em .5em .5em; 
+text-align:center;
+}
+
+.qContent table.wa1truthl > tbody > tr:last-of-type { border-bottom: none; }
+.qContent table.wa1truthl > tbody > tr > td:first-of-type,
+.qContent table.wa1truthl > tbody > tr > th:first-of-type { border-right: 1px solid black; text-align: right}
+
+/* Concatenates for Border Addition/Removal */
+
+.qContent table.wa1truthl > tbody > tr > th.brd {border:1px solid black; }
+.qContent table.wa1truthl > tbody > tr > th.nobrd {border-left:none; border-right:none; }
+.qContent table.wa1truthl > tbody > tr > th.brdl {border-left:1px solid black; }
+.qContent table.wa1truthl > tbody > tr > th.brdr {border-right:1px solid black; }
+.qContent table.wa1truthl > tbody > tr > th.brdbtm {border-bottom:1px solid black; }
+.qContent table.wa1truthl > tbody > tr > th.brdtop {border-top:1px solid black; }
+
+.qContent table.wa1truthl > tbody > tr > td.brd {border:1px solid black; }
+.qContent table.wa1truthl > tbody > tr > td.nobrd {border-left:none; border-right:none; }
+.qContent table.wa1truthl > tbody > tr > td.brdl {border-left:1px solid black; }
+.qContent table.wa1truthl > tbody > tr > td.brdr {border-right:1px solid black; }
+.qContent table.wa1truthl > tbody > tr > td.brdbtm {border-bottom:1px solid black; }
+.qContent table.wa1truthl > tbody > tr > td.brdtop {border-top:1px solid black; }
+
+/* 1.5.24 Logic Steps Table (logicsteps) */
+
+.qContent table.logicsteps {
+border-collapse: collapse;
+margin: 0 0 1em 6em;
+}
+.qContent .logicsteps > tbody > tr > th {
+border: 0px;
+text-align:center;
+padding:.75em;
+}
+.qContent .logicsteps > tbody > tr > td {
+border:
+0px;
+text-align:left;
+padding:.75em;
+}
+
+/* QUESTION FORMAT TAGS .......................................................... */
+
+/* div class = given, ol, ul, h3 tags all formatted to fit in new question layout, 
+as well as in subparts and secondary subparts. */
+
+/*I've added stacked answer blanks here as well (awr 8-14-15)*/
+
+/* 1.6.1 Ordered Lists */
+
+.qContent ol.wa1list{
+margin: 0 0 1em 4.7em;
+}
+
+.qContent ol.wa1listnoin{
+margin: 0 0 1em 0;
+}
+
+.qContent .accordion ol.wa1list{
+margin: 0 0 1em 6.3em;
+}
+
+.qContent ol.wa1list li{
+font: 13px verdana, geneva, sans-serif;
+color: #000000;
+line-height:1.4em;
+} 
+
+.qContent ol.wa1listnoin li{
+font: 13px verdana, geneva, sans-serif;
+color: #000000;
+line-height:1.4em;
+} 
+
+.qContent .subpart ol.wa1list{
+margin: 0 0 1em 1.1em;
+}
+
+.qContent .subsubpart ol.wa1list{
+margin: 0 0 1em -1.9em;
+}
+
+.qContent ol.wa1liststeps {
+  list-style-type: none;
+  counter-reset: elementcounter;
+  padding-left: 0;
+  margin: 0 0 1em 0;
+}
+
+.qContent ol.wa1liststeps li{
+font: 13px verdana, geneva, sans-serif;
+color: #000000;
+line-height:1.4em;
+} 
+
+.qContent ol.wa1liststeps > li:before {
+  content: "STEP " counter(elementcounter) ": ";
+  counter-increment: elementcounter;
+}
+
+.qContent .accordion ol.wa1liststeps{
+margin: 0 0 1em 0;
+}
+
+.qContent ol.wa1liststeps2 {
+  list-style-type: none;
+  counter-reset: elementcounter;
+  padding-left: 0;
+  margin: 0 0 1em 4.7em;
+}
+
+.qContent ol.wa1liststeps2 li{
+font: 13px verdana, geneva, sans-serif;
+color: #000000;
+line-height:1.4em;
+position: relative;
+} 
+
+.qContent ol.wa1liststeps2 > li:before {
+  content: "STEP " counter(elementcounter) ": ";
+  counter-increment: elementcounter;
+  position: absolute;
+left: -60px;
+}
+
+.qContent .accordion ol.wa1liststeps2{
+margin: 0 0 1em 4.7em;
+}
+
+
+/* 1.6.2 Unordered Lists */
+
+.qContent ul.wa1list{
+margin: 0 0 1em 4.3em;
+list-style-type:disc;
+} 
+
+.qContent ul.wa1list li{
+font: 13px verdana, geneva, sans-serif;
+color: #000000;
+line-height:1.4em;
+}  
+
+.qContent .subpart ul.wa1list{
+margin: 0 0 1em 0.7em;
+list-style-type:disc;
+} 
+
+.qContent .subsubpart ul.wa1list{
+margin: 0 0 1em -2.3em;
+list-style-type:disc;
+} 
+
+.qContent ul.wa1listnoin{
+margin: 0 0 1em 0;
+list-style-type:disc;
+}
+
+.qContent ul.wa1listnoin li{
+font: 13px verdana, geneva, sans-serif;
+color: #000000;
+line-height:1.4em;
+} 
+
+/* 1.6.3 Unordered and Unlabeled List */
+
+.qContent ul.none {
+margin: 0 0 1em 3.3em;
+list-style-type:none;
+} 
+
+.qContent ul.none li{
+font-family: verdana, geneva, sans-serif;
+color: #000000;
+line-height:1.4em;
+}  
+
+.qContent .subpart ul.none{
+margin: 0 0 1em -1.2em;
+}
+
+.qContent .subsubpart ul.none{
+margin: 0 0 1em -3.9em;
+} 
+
+/* 1.6.4 Unordered and Unlabeled and Inline List */
+
+.qContent ul.wa1inline {
+list-style-type:none;
+margin: 0 0 1em 3.3em;
+}
+
+.qContent ul.inlinenoin {
+	list-style-type:none;
+display: inline; 
+margin: 0;
+padding: 0;
+}
+
+.qContent ul.wa1inline li {
+display: inline; 
+font-family: verdana, geneva, sans-serif;
+color: #000000;
+line-height:1.4em;
+}
+
+.qContent ul.inlinenoin li {
+display: inline; 
+font-family: verdana, geneva, sans-serif;
+color: #000000;
+line-height:1.4em;
+}
+
+.qContent .subpart ul.wa1inline {
+margin: 0 0 1em -1.2em;
+}
+
+.qContent .subsubpart ul.wa1inline {
+margin: 0 0 1em -3.9em;
+}
+
+/* 1.6.5 Lists for Proofs (wa1listproofv and wa1listproofh) */
+
+.qContent ul.wa1listproofv{
+  margin: 0em 0em 1em 3em;
+  list-style-type:none;
+  display: inline-block;
+} 
+
+.qContent ul.wa1listproofv li{
+  font: 13px verdana, geneva, sans-serif;
+  color: #000000;
+  background-color:rgba(109,96,18,0.25);
+  border:1px solid black;
+  line-height:1.4em;
+  margin: 0em 0em .75em 0em;
+  padding: 0.1em 0.5em .1em 0.5em;
+  display: inline-block;
+  float: left;
+  clear: both;
+}  
+
+.qContent .subpart ul.wa1listproofv{
+  margin: 0.5em 0.5em 1em 0.7em;
+  list-style-type:none;
+} 
+
+.qContent .subsubpart ul.wa1listproofv{
+  margin: 0.5em 0.5em 1em -2.3em;
+  list-style-type:none;
+} 
+
+.qContent ul.wa1listproofh{
+  margin: 0em 0em 1em 3em;
+  list-style-type:none;
+  display: inline-block;
+} 
+
+.qContent ul.wa1listproofh li{
+  font: 13px verdana, geneva, sans-serif;
+  color: #000000;
+  background-color:rgba(109,96,18,0.25);
+  border:1px solid black;
+  line-height:1.4em;
+  margin: 0em 1em .75em 0em;
+  padding: 0.1em 0.5em .1em 0.5em;
+  display: inline-block;
+  float: left;
+}  
+
+.qContent .subpart ul.wa1listproofh{
+  margin: 0.5em 0.5em 1em 0.7em;
+  list-style-type:none;
+} 
+
+.qContent .subsubpart ul.wa1listproofh{
+  margin: 0.5em 0.5em 1em -2.3em;
+  list-style-type:none;
+} 
+
+/* 1.6.6 Paragraph Container (used in place of p tags, as those are used by application */
+
+.qContent .wa1par{
+font-family: verdana, geneva, sans-serif;
+font-size:13px;
+color:#000000;
+margin: 0 0 1em 0;
+line-height:1.4em;
+}
+
+.qContent .subpart .wa1par{
+margin: 0 0 1em 0;
+}
+
+.qContent .subsubpart .wa1par{
+margin: 0 0 1em 0;
+}
+
+/* 1.6.7 Given Information Container */
+
+.qContent .wa1given{
+margin: 0 0 1em 6em;
+font-family: verdana, geneva, sans-serif;
+color: #000000;
+}
+
+.qContent .subpart .wa1given{
+margin: 0 0 1em 3em;
+font-family: verdana, geneva, sans-serif;
+color: #000000;
+} 
+
+.qContent .subsubpart .wa1given{
+margin: 0 0 1em 0.5em;
+font-family: verdana, geneva, sans-serif;
+color: #000000;
+}
+
+/*The following is for given info already in a wa1given div - primarily theorems, but may be relevant
+to other info types as well (definitions, corollaries, etc.*/
+
+.qContent .wa1given .wa1given{
+margin: 0 0 1em 0;
+font-family: verdana, geneva, sans-serif;
+color: #000000;
+}
+
+/* 1.6.8 Answer Blank Containers */
+.qContent .wa1ans{
+margin: -0.5em 0px 1em 0px;
+font-family: verdana, geneva, sans-serif;
+color: #000000;
+}
+
+.qContent .subpart .wa1ans{
+margin: -0.5em 0px 1em 0em;
+}
+
+.qContent .subsubpart .wa1ans{
+margin: -0.5em 0px 1em 0px;
+}
+
+.qContent .fitb{
+margin: 0em 0px 1em 0px;
+}
+
+.qContent .subpart .fitb{
+margin: 0em 0px 1em 0px;
+}
+
+.qContent .subsubpart .fitb{
+margin: 0em 0px 1em 0px;
+}
+
+/* 1.6.9 h3 Header (primarily for accessibility use) */
+
+h3{
+display: block;
+font-family: verdana, geneva, sans-serif;
+font-size: 1.17em;
+margin: 1em 0 1.3em 0;
+}
+
+/*1.6.10 h4 Header (primarily for accessibility use) */
+
+.qContent h4{
+display: block;
+font-family: verdana, geneva, sans-serif;
+font-size: 1.17em;
+margin: 1em 0 1.3em 0;
+}
+
+/*h4 header label (for dev math word problems with header info)*/
+
+.qContent h4.wa1head{
+display: inline;
+font-family: verdana, geneva, sans-serif;
+font-weight:bold;
+font-size: 14px;
+padding-right:10px;
+}
+
+/*1.6.11 Blue Subpremise h4 and h5 (for repeating subparts after the premise in tutorials)*/
+
+.qContent  h4.subpremise{
+	display: block;
+    font-family: verdana, geneva, sans-serif;
+    font-size: 1em;
+	padding:.5em;
+	font-weight: normal;
+    border-left: 4px solid #2f6fab;
+	border-right: 1px solid #2f6fab;
+	border-top: 1px solid #2f6fab;
+	border-bottom: 1px solid #2f6fab;
+	background:#dae6ef;
+		        }
+		        
+.qContent  h5.subpremise{
+	display: block;
+    font-family: verdana, geneva, sans-serif;
+    font-size: 1em;
+	padding:.5em;
+	font-weight: normal;
+    border-left: 4px solid #2f6fab;
+	border-right: 1px solid #2f6fab;
+	border-top: 1px solid #2f6fab;
+	border-bottom: 1px solid #2f6fab;
+	background:#dae6ef;
+		        }
+
+/* 1.6.12 h5 Header */
+
+h5{
+display: block;
+font-family: verdana, geneva, sans-serif;
+font-size: 1em;
+margin: 1em 0 1em 0;
+}
+
+/* 1.6.13 Figure and Figcaption Tags */
+
+.qContent figure{
+display: table;
+margin: 0 0 1em 6em;
+padding: 0px 20px 0em 0em;
+}
+
+.qContent figcaption {
+display: table-caption;
+caption-side: bottom;
+padding: 0 5px 5px;
+font-size: 0.85em;
+}
+
+/* 1.6.14 Footnote Tags (This may need to be anchored to reference superscripts at some point.) (je)*/
+
+.qContent .wa1foot{
+font-family: verdana, geneva, sans-serif;
+font-size:10px;
+color:#000000;
+margin: 0 0 1em 0;
+line-height:1.4em;
+}
+
+/* 1.6.15 Video Tags */
+
+.qContent video{
+display: table;
+margin: 0 0 1em 6em;
+}
+
+/* 
+standard layout follows:
+<video width="680" height="500" controls>
+<source src="filepath" type="video/mp4">
+<track src="vtt/track filepath" kind="subtitles" srclang="en" label="English" default />
+Sorry, your browser doesn't support embedded videos.
+</video>
+<div class="paragraph">
+<a target="_blank" href="transcript filepath">Transcript</a>
+</div>
+*/
+
+.video-container {
+position: relative;
+overflow: hidden;
+}
+.video-container iframe {
+position: absolute;
+top:0;
+left: 0;
+width: 98%;
+height: 100%;
+overflow: hidden;
+}
+/* standard layout follows:
+<div class="video-container" style="padding-top: 63%;">
+            <iframe src="LINK" frameborder="5px">
+            You need an iFrame capable browser to view this.
+            </iframe>
+        </div>
+Note that 63% is adjusted per video.
+*/
+
+
+/* 1.6.16 Subpart Containers */
+
+.qContent .subblock{
+display:-webkit-box;
+display:-ms-flexbox;
+display:flex;
+margin: 0em 0 1em 0;
+font: 13px verdana, geneva, sans-serif;
+color: #000000;
+display:-webkit-flex; /*Safari 6*/
+display:-ms-flex; /*IE 10*/
+flex-flow:row nowrap;
+-webkit-flex-flow:row nowrap; /*Safari 6*/
+-ms-flex-flow:row nowrap; /*IE 10*/
+-webkit-box-pack:start;
+    -ms-flex-pack:start;
+        justify-content:flex-start;
+-webkit-justify-content:flex-start; /*Safari 6*/
+-ms-justify-content:flex-start; /*IE 10*/
+-webkit-box-align:baseline;
+    -ms-flex-align:baseline;
+        align-items:baseline;
+-webkit-align-items:baseline; /*Safari 6*/
+-ms-align-items:baseline; /*IE 10*/
+}
+
+/*removes bottom margin from subblock in h4*/
+
+.qContent h4 > .subblock{
+	  	margin-bottom:0em;
+	}
+
+/* to align suppart as images with labels */
+
+.qContent .subfig{
+align-items:flex-start;
+-ms-flex-align: start; /*IE 10*/
+}
+
+/*subparts inside .subblock */
+
+.qContent .sublabel{
+margin-left:0.5em;
+width:2em;
+-webkit-box-flex:0;
+-webkit-flex:none;
+    -ms-flex:none;
+        flex:none;
+font: 13px verdana, geneva, sans-serif;
+color: #000000;
+}
+
+.qContent .subpart{
+margin-left:0.5em;
+font: 13px verdana, geneva, sans-serif;
+color: #000000;
+line-height:1.4em;
+-ms-flex: 0 1 auto;
+}
+
+.qContent .subpart figure{
+margin: 0 0 1em 3em;
+}
+
+/* 1.6.17 Secondary Subpart Containers */
+
+.qContent .subsublab{
+margin-left:3.0em;
+width:2em;
+-webkit-box-flex:0;
+-webkit-flex:none;
+    -ms-flex:none;
+        flex:none;
+font: 13px verdana, geneva, sans-serif;
+color: #000000;
+}
+
+.qContent .subsubpart{
+margin-left:0.5em;
+font: 13px verdana, geneva, sans-serif;
+color: #000000;
+line-height:1.4em;
+-ms-flex: 0 1 auto;
+}
+
+.qContent .subsubpart figure{
+margin: 0 0 1em 0.5em;
+}
+
+/* 1.6.18 Stacked Answer Blanks (stackedcontainer emulates table, stackedline emulates a table row, stackeditem1 and stackedanswer emulate a left-aligned table cell, and stackeditem2 emulated a right-aligned table cell) */
+
+.qContent .stackblock{
+display:table;
+}
+
+.qContent .stackline{
+display:table-row;
+}
+
+.qContent .stacktext{
+margin:0 0 0.3em 0;	
+padding-right:2em;
+padding-bottom:0.3em;
+display:table-cell;
+text-align:left;
+}
+
+.qContent .stackmath{
+margin:0 0 0.3em 0;	
+display:table-cell;
+padding-right: 0.4em;
+padding-bottom:0.3em;
+text-align:right;
+}
+
+.qContent .stackans{
+margin:0em 0em 0.3em 0em;
+padding-bottom:0.3em;
+display:table-cell;
+text-align:left;
+}
+
+/* Added a center operator alignment so stacked answer CSS can be used for chains of equalities */
+
+.qContent .stackop{
+padding:0em 0em 0.3em 0.2em;
+display:table-cell;
+text-align:left;
+padding-right: 0.6em;
+}
+
+/*Added a table-display for answer blanks which must contain text+figure (created for a test bank project, Cognero) QID example #3501109 */
+
+.qContent .texandfig{ 
+display:table-row;
+padding-bottom: 0.33em;
+}
+
+/* 1.6.19 Accessible Stacked Answer Blanks (stackblock formatting with label tags. Formats label as a table-cell, contents in label as inline-blocks, and introduces stackmathop which arranges the math labels to the right of the text label if all 3 are used.) */
+
+.qContent .stackblock .stackline label{
+display:table-cell;
+vertical-align:bottom;
+}
+
+.qContent .stackblock .stackline label .stacktext{
+margin:0 0 0.3em 0;	
+padding-right:2em;
+padding-bottom:0.3em;
+display:inline-block;
+text-align:left;
+}
+
+.qContent .stackblock .stackline label .stackmath{
+margin:0 0 0.3em 0;	
+display:inline-block;
+padding-right: 0.4em;
+padding-bottom:0.3em;
+text-align:right;
+}
+
+.qContent .stackblock .stackline label .stackop{
+margin:0 0 0.3em 0;	
+display:inline-block;
+padding-right: 0.4em;
+padding-bottom:0.3em;
+text-align:right;
+}
+
+.qContent .stackblock .stackline label .stackmathop{
+float:right; 
+white-space:nowrap;
+display:table-cell;
+}
+
+/* 1.6.20 Stacked Element Labeling/SBS Containers (for things requiring horizontal separation, e.g., Step-by-Steps.) */
+
+.qContent .elemblock{
+display:table;
+}
+
+.qContent .elemline{
+display:table-row;
+}
+
+.qContent .elemlabell{
+margin:0 0 0.3em 0;	
+padding-right:2em;
+padding-bottom:0.3em;
+display:table-cell;
+text-align:left;
+}
+
+.qContent .elemr{
+margin:0 0 0.3em 0;	
+display:table-cell;
+padding-right: 0.4em;
+padding-bottom:0.3em;
+text-align:right;
+}
+
+.qContent .elemc{
+padding:0em 0em 0.3em 0.2em;
+display:table-cell;
+text-align:left;
+padding-right: 0.6em;
+}
+
+.qContent .eleml{
+margin:0em 0em 0.3em 0em;
+padding-bottom:0.3em;
+display:table-cell;
+text-align:left;
+}
+
+.qContent .elemlabelr{
+margin:0 0 0.3em 0;	
+padding-left:2em;
+padding-bottom:0.3em;
+display:table-cell;
+text-align:right;
+}
+
+/* 1.6.21 Flex Equation Labels */
+
+.qContent .eqnblock{
+display:-webkit-box;
+display:-ms-flexbox;
+display:flex;
+margin:0 0 1em 0;
+width:75%;
+font: 13px verdana, geneva, sans-serif;
+color: #000000;
+display:-webkit-flex; /*Safari 6*/
+display:-ms-flex; /*IE 10*/
+flex-flow:row nowrap;
+-webkit-flex-flow:row nowrap; /*Safari 6*/
+-ms-flex-flow:row nowrap; /*IE 10*/
+-webkit-box-pack:justify;
+    -ms-flex-pack:justify;
+        justify-content:space-between;
+-webkit-justify-content:space-between; /*Safari 6*/
+-ms-justify-content:space-between; /*IE 10*/
+-webkit-box-align:baseline;
+    -ms-flex-align:baseline;
+        align-items:baseline;
+-webkit-align-items:baseline; /*Safari 6*/
+-ms-align-items:baseline; /*IE 10*/
+}
+
+.qContent .eqnlabel{
+width:2em;
+padding-left:6em;
+-webkit-box-flex:0;
+-webkit-flex:1 1 auto;
+    -ms-flex:1 1 auto;
+        flex:1 1 auto;
+font: 13px verdana, geneva, sans-serif;
+color: #000000;
+}
+
+.qContent .wa1eqn{
+font: 13px verdana, geneva, sans-serif;
+color: #000000;
+line-height:1.4em;
+max-width:525 px;
+-ms-flex: 0 1 auto;
+}
+
+/* 1.6.22 Reactions and Affiliated Info Containers */
+
+.qContent .subrxn{
+align-items:flex-start;
+-ms-flex-align: start; /*IE 10*/
+}
+
+.qContent .rxnblock{
+display:inline-block;
+}
+
+.qContent .rxnline{
+display:inline-block;
+}
+
+.qContent .wa1rxn{
+margin:0 0 0.3em 0; 
+padding-right:3em;
+padding-bottom:0.3em;
+display:inline-block;
+text-align:left;
+}
+
+.qContent .wa1rxntwo{
+margin:0 0 0.3em 0; 
+padding-right:3em;
+padding-bottom:0.3em;
+display:inline-block;
+text-align:left;
+}
+
+.qContent .wa1rxnthree{
+margin:0 0 0.3em 0; 
+padding-right:3em;
+padding-bottom:0.3em;
+display:inline-block;
+text-align:left;
+}
+
+/* 1.6.23 Pop-up Citation (citation-text goes inside citation-box) */
+
+.qContent .citation-box {
+  display: inline-block;
+   font-style: normal; 
+position:relative;
+    }
+	
+ .qContent .citation-box .citation-text {
+display:none;
+ visibility:hidden;
+width:auto;
+min-width:150px;
+min-height: 1.5em;
+ background-color: #bfbfbf;
+color: black;
+font-size: 92%;
+text-align: center;
+border-radius: 6px;
+padding: .3em;
+margin: 1em;
+font-weight:normal;
+ position: absolute;
+ z-index: 1;
+  }
+  
+.qContent .citation-text a{
+    color:#0000ac;
+ }
+ 
+.qContent .citation-box:focus .citation-text {
+    visibility: visible;
+    display: inline-block;
+}
+
+ .qContent .citation-box:hover .citation-text {
+    visibility: visible;
+    display: inline-block;
+}
+
+ .qContent figure figcaption .citation-box .citation-text{
+    font-size:107%;
+}
+
+.qContent table caption .citation-box .citation-text{
+    bottom:.1em;
+}
+
+/*adjusts location of citation box to not be cropped by application border*/
+
+.qContent .citation-box  .citation-left{
+right:125%;
+  }
+  
+.qContent .citation-box  .citation-top{
+bottom:.5em;
+  }
+
+/* 1.6.24 Pop-up Definition (definition-text goes inside definition-box) */
+
+.qContent .definition-box {
+  display: inline-block;
+   font-style: normal; 
+position:relative;
+    }
+	
+ .qContent .definition-box .definition-text {
+display:none;
+ visibility:hidden;
+width:auto;
+min-width:150px;
+min-height: 1.5em;
+ background-color: #bfbfbf;
+color: black;
+font-size: 92%;
+text-align: center;
+border-radius: 6px;
+padding: .3em;
+margin: 1em;
+font-weight:normal;
+ position: absolute;
+ z-index: 1;
+  }
+  
+.qContent .definition-text a{
+    color:#0000ac;
+ }
+ 
+.qContent .definition-box:focus .definition-text {
+    visibility: visible;
+    display: inline-block;
+}
+
+ .qContent .definition-box:hover .definition-text {
+    visibility: visible;
+    display: inline-block;
+}
+
+ .qContent figure figcaption .definition-box .definition-text{
+    font-size:107%;
+}
+
+.qContent table caption .definition-box .definition-text{
+    bottom:.1em;
+}
+
+/*adjusts location of definition box to not be cropped by application border*/
+
+.qContent .definition-box  .definition-left{
+right:125%;
+  }
+  
+.qContent .definition-box  .definition-top{
+bottom:.5em;
+  }
+  
+/* 1.6.25 New Hint Button (Wa1hint) (wa1hint-text goes inside wa1hint-box) (JEure) */
+
+.qContent .wa1hint-box {
+  display: inline-block;
+   font-style: normal; 
+position:auto;
+    }
+
+.qContent .wa1hint-label {
+  visibility:visible;
+  display: inline-block;
+  background-color: #003865;
+  font: 13px verdana, geneva, sans-serif;
+  color: white;
+  font-weight:bold;
+  margin-bottom:1em;
+  border: 2px solid #00a9e0;
+  border-style: outset;
+}
+ 
+ .qContent .wa1hint-box .wa1hint-text {
+display: inline-block;
+ visibility:hidden;
+ background-color: #B0E1F5;
+color: black;
+border:3px solid #003865;
+border-style:outset;
+border-radius: 6px;
+padding: .3em;
+margin: 1em;
+font-weight:normal;
+ position: absolute;
+ z-index: 1;
+box-shadow: -5px 5px 0 0 #A9A9A9;
+-moz-box-shadow: -5px 5px 0 0 #A9A9A9;
+-webkit-box-shadow: -5px 5px 0 0 #A9A9A9;
+  }
+
+.qContent .wa1hint-label:hover {
+  background-color: #006298;
+  color: white;
+  cursor: pointer;
+display: inline-block;
+}
+
+.qContent .wa1hint-box:focus-within .wa1hint-text {
+    visibility: visible;
+    display: inline-block;
+}
+
+/*Media Query for IE, as click event is not possible, so hover is needed*/
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+.qContent .wa1hint-box:hover .wa1hint-text {
+visibility: visible;
+    display: inline-block;
+}
+}
+
+/*Media Query for Edge, as click event is not possible, so hover is needed*/
+@supports (-ms-ime-align:auto) {
+.qContent .wa1hint-box:hover .wa1hint-text {
+visibility: visible;
+    display: inline-block;
+}
+}
+
+/*Media Query for Safari, as click event is not possible, so hover is needed*/
+@media not all and (min-resolution:.001dpcm) { /** Safari only **/
+@media {
+.qContent .wa1hint-box:hover .wa1hint-text {
+visibility: visible;
+    display: inline-block;
+}
+}
+}
+
+@media not all and (min-resolution:.001dpcm) { /** Safari only **/
+@media {
+.qContent .wa1hint-box:focus .wa1hint-text {
+visibility: visible;
+    display: inline-block;
+}
+}
+}
+
+/*Media Query for IOS and Android devices, as click event*/
+@supports (-webkit-touch-callout: none) {
+.qContent .wa1hint-box:hover .wa1hint-text {
+visibility: visible;
+    display: inline-block;
+}
+}
+
+@supports (-webkit-touch-callout: none) {
+.qContent .wa1hint-box:focus .wa1hint-text {
+visibility: visible;
+    display: inline-block;
+}
+}
+
+ .qContent figure figcaption .wa1hint-box .wa1hint-text{
+    font-size:107%;
+}
+
+.qContent table caption .wa1hint-box .wa1hint-text{
+    bottom:.1em;
+}
+
+/*adjusts location of wa1hint box to not be cropped by application border*/
+
+.qContent .wa1hint-box  .wa1hint-left{
+right:6em;
+  }
+  
+.qContent .wa1hint-box  .wa1hint-top{
+bottom:.5em;
+  }
+
+.qContent .wa1hint-box .wa1hint-text .wa1par {
+font-size:inherit;
+ color:inherit;
+}
+
+.qContent .wa1hint-box .wa1hint-text .wa1given {
+font-size:inherit;
+ color:inherit;
+}
+
+.qContent .wa1hint-box .wa1hint-text .wa1ans {
+font-size:inherit;
+ color:inherit;
+}
+
+/* Dataset Button styling (see sgallagher.RagSMDA9 11.E.046.) */
+
+.data-download:link, visited{
+  display: inline-block;
+  background-color: #006298;
+  padding: 5px 10px;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.data-download:hover {
+  background-color: #0083CB;
+}
+
+/* 1.6.26 Compout Font for par/given/list */
+
+.qContent ul.statscompout li, .qContent ol.statscompout li{
+font: 13px courier new !important;
+}
+.qContent .statscompout{
+font: 13px courier new !important;
+}
+
+/* 1.6.27. SALT Button */
+
+.qContent a.inline-salt-button {
+display: inline-block;
+border-radius: 16px;
+padding: .25em .5em .25em .5em;
+background-color: #ff6600; 
+color: #ffffff;
+position: relative;
+cursor: pointer;
+font-weight: bold;
+border-bottom: 1px solid #766B56; 
+}
+
+/* 1.6.28. header styling */
+
+.qContent header.header-title{
+display: block;
+font-family: verdana, geneva, sans-serif;
+font-size: 1.17em;
+margin: 1em 0 1.3em 0;
+}
+
+.qContent div.header-title{
+display: block;
+font-family: verdana, geneva, sans-serif;
+font-size: 1.17em;
+margin: 1em 0 1.3em 0;
+}
+
+.qContent header.header-paragraph{
+font-family: verdana, geneva, sans-serif;
+font-size:13px;
+color:#000000;
+margin: 0 0 1em 0;
+line-height:1.4em;
+}
+
+/* 1.6.29 demo specific styling */
+
+.qContent ul.sabox{
+ list-style-type: none;
+ display: inline-block;
+ font-size: 1em;
+ font-weight: normal;
+ padding: 8px;
+ border: 1px solid #B4B4B4;
+ border-radius: 3px;
+ box-shadow: 0 1px 1px rgba(0, 0, 0, .2), 0 2px 0 0 rgba(255, 255, 255, .7) inset;
+ color: #4F5A65 !important;
+}
+
+.qContent ul.sabox.li{
+margin-bottom: .75em;
+}
+
+/* 1.6.30 Chemistry hotspot styling */
+
+/* hide incomplete/undesired ATD and the i-icon */
+.qContent figure.cap-none {
+position: relative;
+display: inline-block;
+padding: 0px 20px 0px 0px;
+border: none;
+}
+
+.qContent .wa1ans figure.cap-none {
+position: relative;
+display: inline-block;
+margin: 0;
+padding: 0px 20px 0px 0px;
+border: none;
+}
+
+.qContent figure.cap-none:before {
+font-family: Cambria Math, Symbola, serif;
+content: "";
+position: absolute;
+right: 0px;
+bottom: 4px;
+color: transparent;
+background: transparent;
+font-size: 12px;
+text-align: center;
+line-height: 18px;
+width: 15px;
+height: 15px;
+border-radius: 100%;
+}
+
+.qContent figure.cap-none figcaption .desc,
+.qContent figure.cap-none:hover figcaption .desc,
+.qContent figure.cap-none:focus figcaption .desc {
+display: none;
+}
+
+.qContent .wa1ans figure.cap-none:before {
+font-family: Cambria Math, Symbola, serif;
+content: "";
+position: absolute;
+right: 0px;
+bottom: 4px;
+color: transparent;
+background: transparent;
+font-size: 12px;
+text-align: center;
+line-height: 18px;
+width: 15px;
+height: 15px;
+border-radius: 100%;
+}
+
+.qContent .wa1ans figure.cap-none figcaption .desc,
+.qContent .wa1ans figure.cap-none:hover figcaption .desc,
+.qContent .wa1ans figure.cap-none:focus figcaption .desc {
+display: none;
+}
+
+/* select an area within a figure */
+/** actual radio buttons and checkboxes should not appear: they cover selectable content **/
+.qContent figure.select-area input:where([type="radio"], [type="checkbox"]),
+.qContent figure.select-area input[type="radio"]:hover,
+.qContent figure.select-area input[type="radio"]:focus,
+.qContent figure.select-area input[type="radio"]:checked,
+.qContent figure.select-area input[type="checkbox"]:hover,
+.qContent figure.select-area input[type="checkbox"]:focus,
+.qContent figure.select-area input[type="checkbox"]:checked {
+-webkit-appearance: none !important;
+appearance: none !important;
+border: none !important;
+box-shadow: none !important;
+}
+
+/** the image itself should not have any contour **/
+/*** borders may be set while creating the composite, but should be hidden in the finished state ***/
+.qContent figure.select-area input[type="radio"]:hover + label > img,
+.qContent figure.select-area input[type="radio"]:focus + label > img,
+.qContent figure.select-area input[type="radio"]:checked + label > img,
+.qContent figure.select-area input[type="checkbox"]:hover + label > img,
+.qContent figure.select-area input[type="checkbox"]:focus + label > img,
+.qContent figure.select-area input[type="checkbox"]:checked + label > img {
+border: none !important;
+}
+
+/** the area-at-rest has no special features, except a changed cursor **/
+.qContent figure.select-area input[type="radio"] + label > div.area,
+.qContent figure.select-area input[type="checkbox"] + label > div.area {
+cursor: crosshair;
+background: transparent;
+border: none !important;
+box-shadow: none;
+}
+
+/** area-hover/focus bring on a greyish contour **/
+.qContent figure.select-area input[type="radio"]:hover + label > div.area,
+.qContent figure.select-area input[type="radio"]:focus + label > div.area,
+.qContent figure.select-area input[type="checkbox"]:hover + label > div.area,
+.qContent figure.select-area input[type="checkbox"]:focus + label > div.area {
+box-shadow: 0 0 3px 0 #708090;
+transition: 300ms;
+}
+
+/** area-checked brings on a heavier blueish contour **/
+.qContent figure.select-area input[type="radio"]:checked + label > div.area,
+.qContent figure.select-area input[type="checkbox"]:checked + label > div.area {
+box-shadow: 0 0 0 3px #709ac0;
+transition: 300ms;
+background-image: radial-gradient(#709ac0 1px, transparent 1px), radial-gradient(#709ac0 1px, transparent 1px) !important;
+background-size: 22px 22px !important;
+background-position: 0 0, 11px 11px !important;
+background-color: rgba(0, 0, 0, 0) !important;
+}
+
+/*** as an alternative to background effects, use a simple star to mark selected ***/
+.qContent figure.select-area.starred input[type="radio"]:checked + label > div.area,
+.qContent figure.select-area.starred input[type="checkbox"]:checked + label > div.area {
+box-shadow: 0 0 0 3px #709ac0;
+transition: 300ms;
+background: transparent !important
+}
+
+.qContent figure.select-area.starred input[type="radio"]:checked::before,
+.qContent figure.select-area.starred input[type="checkbox"]:checked::before {
+content: "\2605";
+font: 18px/20px Cambria Math, Symbola, serif;
+color: #709ac0;
+}
+
+/** area-correct brings on a heavier blueish contour in the solution **/
+.qContent figure.select-area div.area-correct,
+.qContent figure.select-area div.area-correct {
+box-shadow: 0 0 0 3px #709ac0;
+}
+
+/* 1.6.31 2026 Solution Button */
+
+.qContent details.active_example,
+.qContent details.active_example>summary {
+  display: inline-block;
+}
+
+.qContent details.active_example {
+  padding: 3px;
+  border: 1px solid #aaaaaa;
+  border-radius: 3px;
+}
+
+.qContent details.active_example>summary {
+  padding: 3px;
+
+  background: rgba(237, 246, 248);
+  color: #006298;
+  font-weight: bolder;
+  font-variant-caps: small-caps;
+}
+
+.qContent details.active_example>summary::-webkit-details-marker {
+  display: none;
+}
+
+.qContent details.active_example>summary::before {
+  content: "\025BE";
+  font: normal 18px/18px Verdana, Geneva, Arial, Helvetica, sans-serif;
+  padding: 0 4px;
+  vertical-align: middle;
+}
+
+.qContent details[open].active_example>summary::before {
+  content: "\025B4";
+  font: normal 18px/18px Verdana, Geneva, Arial, Helvetica, sans-serif;
+  padding: 0 4px;
+  vertical-align: middle;
+}
+.qContent details[open].active_example>summary {
+  border: 1px solid #aaaaaa;
+  border-radius: 3px;
+}
+
+.qContent details.active_example:not([open])>*:not(summary) {
+  display: none;
+}
+
+.qContent details.active_example>div {
+  margin: 1em;
+}
+
+.qContent details.active_example>div.wa1given {
+  margin-left: 4em;
+}
+
+/* 1.7.0 LEGACY OR UNKNOWN (DO NOT USE) - These declarations exists solely to support existing content that has yet to see TDR. */
+
+/* 1.7.1 Inline Block */
+
+.qContent .ilb {
+display: inline-block;
+}
+
+/* 1.7.2 Old Answer Table Class (discontinuing this for future use as it broke chempad (chempad used this class) in tables as of April 2016) */
+
+.qContent table.answer{
+margin: 0 0 1em 0em;
+display:table;
+/*border:inherit;*/
+}
+
+.qContent .subblock .subpart table.answer { 
+margin: 0 0 1em 0em;
+display:table;
+/*border:inherit;*/
+}
+
+.qContent .subblock .subsubpart table.answer { 
+margin: 0 0 1em 0em;
+display: table;
+/*border:inherit;*/
+}
+
+/* 1.7.3 Sup/Sub Resize (that utilizes base font size) */
+
+.qContent sup.imgResize {
+  font-size: 77%;
+}
+
+.qContent sub.imgResize {
+  font-size: 77%;
+}
+
+/* 2.0.0 ACCESSIBILITY ...................................................... */
+
+/* 2.1.0 GENERAL PURPOSE */
+
+/* 2.1.1 MC Responsive Design */
+
+.qContent .accplotmc {
+width:84vw; /*sets width to 84% of viewing window. This accounts for borders inside assignment view, etc.*/
+margin-bottom:1em;
+}
+
+.qContent .accblock {
+display:inline-block;
+height:auto;
+width:auto;
+margin-bottom: 1.5em;
+}
+
+.qContent .accblock ol{
+margin-bottom:-.75em;
+}
+.qContent .accblock ul{
+margin-bottom:-.75em;
+}
+.qContent .accblock table{
+margin-bottom:-.75em;
+}
+
+/* 2.1.2 ARIA Landmarks Tags*/
+
+.qContent .aria {
+position: absolute;
+left: -10000px;
+top: auto;
+width: 1px;
+height: 1px;
+overflow: hidden;
+color: rgba(0, 0, 0, 0.4);
+}
+
+.qContent .aria-item {
+position: absolute;
+left: -10000px;
+top: auto;
+width: 1px;
+height: 1px;
+overflow: hidden;
+color: rgba(0, 0, 0, 0.4);
+}
+
+.qContent .math-item {
+display: inline-block; 
+text-align: left; 
+font-family: 'Baskerville', 'Book Antiqua', 'Palatino Linotype', 'Cambria Math', 'STIX', serif; 
+font-style: italic; 
+font-weight: 600; 
+font-size: 1.12em;
+}
+
+.qContent .aria-index {
+display: inline;
+font: normal 13px/20px Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-weight: normal !important;
+}
+
+.qContent .aria-math {
+display: inline-block;
+font: normal 13px/20px Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-weight: normal !important;
+text-align: left;
+}
+
+.qContent .aria {
+position: absolute;
+left: -10000px;
+top: auto;
+width: 1px;
+height: 1px;
+overflow: hidden;
+color: rgba(0, 0, 0, 0.4);
+}
+
+.qContent .aria-item {
+position: absolute;
+left: -10000px;
+top: auto;
+width: 1px;
+height: 1px;
+overflow: hidden;
+color: rgba(0, 0, 0, 0.4);
+}
+
+.qContent .math-item {
+display: inline-block; 
+text-align: left; 
+font-family: 'Baskerville', 'Book Antiqua', 'Palatino Linotype', 'Cambria Math', 'STIX', serif; 
+font-style: italic; 
+font-weight: 600; 
+font-size: 1.12em;
+}
+
+.qContent .aria-index {
+display: inline;
+font: normal 13px/20px Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-weight: normal !important;
+}
+
+.qContent .aria-math {
+display: inline-block;
+font: normal 13px/20px Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-weight: normal !important;
+text-align: left;
+}
+
+.infoGroup .aria {
+position: absolute;
+left: -10000px;
+top: auto;
+width: 1px;
+height: 1px;
+overflow: hidden;
+color: rgba(0, 0, 0, 0.4);
+}
+
+/* 2.1.3 Accessible Accordion */
+
+.qContent ul.wa1accordion {
+border-collapse:collapse;
+  border: 1px solid white;
+   padding: 0 0 2px 0;
+  margin: 0 auto;
+  list-style: none;
+   display: block;
+}
+
+.qContent ul.wa1accordion > * + * { border-top: 1px solid white;
+ }
+
+.qContent .accordion-item-hd {
+  display: block;
+  padding: .5em .5em .5em .5em;
+ background-color: #d7d2c8; 
+ position: relative;
+  cursor: pointer;
+   font-weight: bold;
+   border-bottom: 1px solid #766B56; 
+}
+
+.qContent .accordion-item-input:focus ~ .accordion-item-hd{
+ box-shadow: -2px -2px 1px  #766B56 inset;
+}
+
+/* .qContent .accordion-item-input:checked ~ .accordion-item-bd {
+  display:block;
+ margin-top:.5em;
+  -webkit-transition: max-height 1s ease-in, margin .3s ease-in, padding .3s ease-in;
+  transition: max-height 1s ease-in, margin .3s ease-in, padding .3s ease-in;
+} */
+
+.qContent .accordion-item-input:checked ~ .accordion-item-bd {
+  display: block;
+  visibility: visible;
+  max-height: none !important;
+  margin-top:.5em;
+  -webkit-transition: max-height 1s ease-in, margin .3s ease-in, padding .3s ease-in;
+  transition: max-height 1s ease-in, margin .3s ease-in, padding .3s ease-in;
+}
+
+.qContent .accordion-item-input:checked ~ .accordion-item-hd > .accordion-item-hd-cta {
+  -webkit-transform: rotate(0);
+  -ms-transform: rotate(0);
+  transform: rotate(0);
+}
+
+.qContent .accordion-item-hd-cta {
+  display: block;
+  width: 30px;
+  position: absolute;
+  top: calc(50% - 6px );
+  right: 0;
+  pointer-events: none;
+  -webkit-transition: -webkit-transform .3s ease;
+  transition: transform .3s ease;
+  -webkit-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+/* .qContent .accordion-item-bd {
+ display:none;
+  margin-bottom: 0;
+  overflow: hidden;
+  -webkit-transition: max-height .15s ease-out, margin-bottom .3s ease-out, padding .3s ease-out;
+  transition: max-height .15s ease-out, margin-bottom .3s ease-out, padding .3s ease-out;
+} */
+
+.qContent .accordion-item-bd {
+  display: flex;
+  visibility: collapse;
+  max-height: 0.1px !important;
+  margin-bottom: 0;
+  overflow: hidden;
+  -webkit-transition: max-height .15s ease-out, margin-bottom .3s ease-out, padding .3s ease-out;
+  transition: max-height .15s ease-out, margin-bottom .3s ease-out, padding .3s ease-out;
+}
+
+.qContent .accordion-item-input {
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1;
+  overflow: hidden;
+  position: absolute;
+  left: -9999px;
+}
+
+/* ACCORDION 2 (Black with focus and hover) */
+
+/* Changed background color and font color */
+
+.qContent .accordion-item-hd2 {
+  display: block;
+border-radius: 7px;
+box-shadow: 3px 3px #778899;
+  padding: .5em .5em .5em .5em;
+ background-color: #3f3f3f; 
+color: #ffffff;
+ position: relative;
+  cursor: pointer;
+   font-weight: bold;
+   border-bottom: 1px solid #766B56; 
+}
+
+/*Blue accordion parts (JEure)*/
+.qContent .accordion-item-blue {
+  display: block;
+border-radius: 7px;
+box-shadow: 3px 3px #778899;
+  padding: .5em .5em .5em .5em;
+ background-color: #006298; 
+color: #ffffff;
+ position: relative;
+  cursor: pointer;
+   font-weight: bold;
+   border-bottom: 1px solid #766B56;
+}
+
+/*Light blue hover for blue accordion parts (JEure)*/
+.qContent .accordion-item-input:hover ~ .accordion-item-blue{
+ background-color: #0085ca; 
+}
+
+/*Lighter blue border when focused in blue accordion parts (JEure)*/
+.qContent .accordion-item-input:focus ~ .accordion-item-blue{
+box-shadow: -2.5px -2.5px 1px #71c5e8 inset, 2.5px 2.5px 1px #71c5e8 inset;
+}
+
+/*Rotates triangle in blue accordion parts (JEure)*/
+.qContent .accordion-item-input:checked ~ .accordion-item-blue > .accordion-item-hd-cta {
+  -webkit-transform: rotate(0);
+  -ms-transform: rotate(0);
+  transform: rotate(0);
+}
+
+/* Adds indentation for child elements */
+
+ul.wa1accordion ul.wa1accordion{
+margin-left:2em;
+}
+
+/* just changed 'bd' to 'child' to differentiate accordion levels */
+
+.qContent .accordion-item-input:checked ~ .accordion-item-child {
+  display: block;
+  visibility: visible;
+  max-height: none !important;
+  -webkit-transition: max-height 1s ease-in, margin .3s ease-in, padding .3s ease-in;
+  transition: max-height 1s ease-in, margin .3s ease-in, padding .3s ease-in;
+}
+
+.qContent .accordion-item-child {
+  display: flex;
+  visibility: collapse;
+  max-height: 0.1px !important;
+  margin-bottom: 0;
+  overflow: hidden;
+  -webkit-transition: max-height .15s ease-out, margin-bottom .3s ease-out, padding .3s ease-out;
+  transition: max-height .15s ease-out, margin-bottom .3s ease-out, padding .3s ease-out;
+}
+
+/* Added a hover background color */
+
+.qContent .accordion-item-input:focus ~ .accordion-item-hd2{
+box-shadow: -2.5px -2.5px 1px #00a9e0 inset, 2.5px 2.5px 1px #00a9e0 inset;
+}
+
+.qContent .accordion-item-input:hover ~ .accordion-item-hd2{
+ background-color: #727272; 
+}
+
+/* Updating item-hd to item-hd2 */
+
+.qContent .accordion-item-input:checked ~ .accordion-item-hd2 > .accordion-item-hd-cta {
+  -webkit-transform: rotate(0);
+  -ms-transform: rotate(0);
+  transform: rotate(0);
+}
+
+.qContent .accordion-item-hd-cta {
+  display: block;
+  width: 30px;
+  position: absolute;
+  top: calc(50% - 6px );
+  right: 0;
+  pointer-events: none;
+  -webkit-transition: -webkit-transform .3s ease;
+  transition: transform .3s ease;
+  -webkit-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+/* 2.1.4 Figcaption Alt Text Updates/Additions (4/26/18) */
+
+@charset "utf-8";
+
+/* CSS Document */
+
+.qContent figure.cap-btm-rit,
+.qContent figure.cap-btm-lef{
+position: relative;
+/*overflow-y:visible;*/
+}
+
+/*removes indentation on lists */
+
+.qContent figcaption .desc ol.wa1list,
+.qContent figcaption .desc ul.wa1list,
+.qContent figcaption .desc ul.wa1inline,
+.qContent figcaption .desc ul.none{
+margin: 0em 0em 1em -1em;
+}
+
+/*Fix for accordion 1.4em ol padding adjustment in question.css*/
+.qContent .accordion figcaption .desc ol.wa1list {
+margin: 0em 0em 1em 0.5em; 
+}
+
+/*match font size*/
+.qContent figcaption .desc  li{
+font-size: 0.85em;	
+}
+.qContent figcaption .desc  .wa1par{
+	font-size:inherit;
+	}
+
+/*reduce padding  on wa1par*/
+
+.qContent figcaption.desc .wa1par{
+margin-left:.25em;
+}
+
+/*no indentation on images in wa1ans*/
+
+ .qContent .wa1ans figure.cap-btm-rit,
+.qContent .wa1ans figure.cap-btm-lef{
+margin: 0;
+padding: 0px 20px 0px 0px;
+border: 0;
+display:inline-block;
+}
+
+.qContent figcaption.alt-cap{
+caption-side:top;
+}
+
+.qContent figcaption .desc {
+display: inline-block;
+max-height: 100%;
+overflow: hidden;
+position: absolute;
+color: black;
+font-size: inherit;
+line-height: 1.4em;
+background: rgba(204,204,204,0.9);
+opacity: 0;
+z-index: -1;
+margin: 0;
+padding: 4px;
+border: 0;
+-webkit-transition: all 0.6s ease;
+-moz-transition: all 0.6s ease;
+-ms-transition: all 0.6s ease;
+transition: all 0.6s ease;
+}
+
+/*.qContent figure:hover figcaption .desc {
+max-height: none;
+overflow: visible;
+opacity: 1;
+z-index: 7;
+-webkit-transition: all 0.6s ease;
+-moz-transition: all 0.6s ease;
+-ms-transition: all 0.6s ease;              
+transition:  all 0.6s ease;
+}*/
+
+.qContent figure:focus figcaption .desc {
+max-height: none;
+overflow: visible;
+opacity: 1;
+z-index: 7;
+-webkit-transition: all 0.6s ease;
+-moz-transition: all 0.6s ease;
+-ms-transition: all 0.6s ease; 
+transition:  all 0.6s ease;
+}
+
+/*.qContent figure:hover:before {
+opacity: 0;
+}*/
+
+.qContent figure:focus:before {
+opacity: 0;
+}
+
+.qContent figure.cap-btm-rit:before,
+.qContent figure.cap-btm-lef:before{
+font-family:  Cambria Math, Symbola, serif;
+content: "\2139";
+/*"\24D8";*/
+/*content: url(../csstyle/info-icon.svg);*/
+position: absolute;
+right:  0px;
+bottom: 4px;
+color: black;
+background: rgba(255,255,255,0.5);
+opacity: .75;
+font-size: 12px;
+text-align: center;
+/*vertical-align:center;*/
+/*box-shadow: 0 0 2px white;*/
+line-height: 18px;
+width: 15px;
+height: 15px;
+border-radius: 100%;
+border:1px solid black;
+-webkit-border-radius: 100%;
+-moz-border-radius: 100%;
+-moz-transition: all 0.6s ease;
+}
+
+/*icon positioning & caption transition*/
+
+
+.qContent .cap-btm-rit figcaption .desc { bottom: 0; right: 10%;}
+/*.qContent .cap-btm-rit:hover figcaption .desc { right: 0; }*/
+.qContent .cap-btm-rit:focus figcaption .desc { right: 0; }
+
+.qContent .cap-btm-lef:before { bottom: 14px; left: 10px; }
+.qContent .cap-btm-lef figcaption .desc { bottom: 0; right: 10%; }
+/*.qContent .cap-btm-lef:hover figcaption .desc { right: 0; }*/
+.qContent .cap-btm-lef:focus figcaption .desc { right: 0; }
+
+/*counteract additional padding on acc label in mc*/
+
+.qContent .wa1ans .cap-btm-rit:before { bottom: 4px; right: 0px;}
+.qContent .wa1ans .cap-btm-lef:before { bottom: 18px; left: 10px; }
+
+.qContent .accplotmc-narrow{
+width:84vw;
+margin-left:6em;
+}
+
+.qContent .accplotmc-narrow .accblock{
+vertical-align:top;
+}
+
+/*remove left margin after 1st indented item*/
+.qContent .accplotmc-narrow .accblock figure,
+.qContent .accplotmc-narrow .accblock figure,
+.qContent .accplotmc-narrow .accblock figure,
+.qContent .accplotmc-narrow .accblock figure,
+.qContent .accplotmc-nomarg .accblock figure,
+.qContent .accplotmc-narrow .accblock ul.wa1list,
+.qContent .accplotmc-narrow .accblock ul.none,
+.qContent .accplotmc-narrow .accblock ol.wa1list,
+.qContent .accplotmc-narrow .accblock table{
+margin-left:0;
+}
+
+/*adjust bottom margins in nested lists*/
+.qContent li > ul.wa1list,
+.qContent li > ul.none,
+.qContent li > ol.wa1list{
+margin: 0 0 .5em 0em;
+}
+/*override nobr rules on text in table cells for alt text */
+.qContent td figure.cap-btm-rit .desc,
+.qContent td figure.cap-btm-lef .desc{
+white-space:normal;
+}
+
+/* option to show alt text as regular figcaption, without being confined to image width*/
+.qContent figcaption .show-cap{
+width: 36em;
+} 
+
+/* reduce sub and sup size in figcaption */
+
+.qContent figcaption > sup, 
+figcaption > sub, 
+figcaption > div.desc > sup, 
+figcaption > div.desc > sub, 
+figcaption > div.desc > ol.wa1list > li > sup, 
+figcaption > div.desc > ol.wa1list > li > sub,
+figcaption > div.desc > ul.wa1list > li > sup, 
+figcaption > div.desc > ul.wa1list > li > sub,
+figcaption > div.desc > ul.none > li > sup, 
+figcaption > div.desc > ul.none > li > sub
+{ font-size: .55rem !important; }
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+.qContent figcaption > sup, figcaption > sub, figcaption > div.desc > sup, figcaption > div.desc > sub
+{ font-size: .65rem !important; }}
+
+/*Figcaption Alt Text for Javascript Box Plots*/
+.qContent figure.cap-btm-rit-box{
+position: relative;
+overflow-y:visible;
+padding-right:1em;
+}
+
+.qContent figcaption.alt-box {
+/*width:auto;*/
+display: inline-block;
+max-height: 100%;
+overflow: hidden;
+position: absolute;
+color: black;
+font-size: 0.85em;
+line-height: 1.4em;
+background: rgba(204,204,204,0.9);
+opacity: 0;
+z-index: auto;
+margin: 0;
+padding: 4px;
+border: 0;
+-webkit-transition: all 0.6s ease;
+-moz-transition: all 0.6s ease;
+-ms-transition: all 0.6s ease;
+transition: all 0.6s ease;
+}
+
+.qContent figure figcaption.alt-box .wa1jax {
+  font-size: 93%;
+  min-width: 1.89em;
+  margin: 0 0 0 -1.89em;
+}
+.qContent figure figcaption.alt-box .wa1jax .MathJax_Display {
+  margin: 0.12em 0;
+}
+
+ .qContent .wa1ans figure.cap-btm-rit-box{
+margin: 0;
+padding: 0 1em 0em 0em;
+border: 0;
+display:inline-block;
+}
+
+.qContent .cap-btm-rit-box:before { bottom: 0px; right: 0px;}
+.qContent .cap-btm-rit-box figcaption.alt-box { bottom: 0; right: 10%;}
+/*.qContent .cap-btm-rit-box:hover figcaption.alt-box { right: 0; bottom:0 }*/
+.qContent .cap-btm-rit-box:focus figcaption.alt-box { right: 0; bottom:0}
+
+
+.qContent figure.cap-btm-rit-box:before{
+font-family:  Cambria Math, Symbola, serif;
+content: "\2139";
+/*"\24D8";*/
+/*content: url(../csstyle/info-icon.svg);*/
+position: absolute;
+color: black;
+background: rgba(255,255,255,0.5);
+opacity: .75;
+font-size: 12px;
+text-align: center;
+/*vertical-align:center;*/
+/*box-shadow: 0 0 2px white;*/
+line-height: 18px;
+width: 15px;
+height: 15px;
+border-radius: 100%;
+border:1px solid black;
+-webkit-border-radius: 100%;
+-moz-border-radius: 100%;
+-moz-transition: all 0.6s ease;
+}
+
+/*.qContent figure.cap-btm-rit-box:hover figcaption.alt-box{
+opacity: 1;
+transition: all 0.6s ease;
+-webkit-transition: all 0.6s ease;
+-moz-transition: all 0.6s ease;
+-o-transition: all 0.6s ease;						  							 
+}*/
+
+.qContent figure.cap-btm-rit-box:focus figcaption.alt-box {
+opacity: 1;
+transition: all 0.6s ease;
+-webkit-transition: all 0.6s ease;
+-moz-transition: all 0.6s ease;
+-o-transition: all 0.6s ease;
+}
+
+
+/*.qContent figure.cap-btm-rit-box:hover:before {
+opacity: 0;
+}*/
+.qContent figure.cap-btm-rit-box:focus:before {
+opacity: 0;
+}
+
+/* 2.1.5 Figcaption Alt Text Update December 2021 */
+
+/** set up a fixed array to hold the figures **/
+
+.qContent div.array {
+display: table;
+margin: 0;
+padding: 0;
+}
+
+.qContent div.array>div.array-row {
+display: table-row;
+margin: 0;
+padding: 0;
+}
+
+.qContent div.array>div.array-row>div.array-cell {
+display: table-cell;
+margin: 0;
+padding: 0.5em 1.4em 0.5em 0;
+}
+
+/* adaptations for use inside given */
+
+.qContent div.array.given,
+.qContent div.array>div.array-row>div.array-cell.given {
+padding-left: 4em;
+}
+
+/* adaptations for directed text alignment */
+
+.qContent div.array>div.array-row>div.array-cell.text-left {
+padding: 0.5em;
+text-align: left;
+}
+
+.qContent div.array>div.array-row>div.array-cell.text-center {
+padding: 0.5em;
+text-align: center;
+}
+
+.qContent div.array>div.array-row>div.array-cell.text-right {
+padding: 0.5em;
+text-align: right;
+}
+
+/* adaptation for top-aligning the graphs */
+
+.qContent div.array>div.array-row>div.array-cell.graph {
+vertical-align: top;
+}
+
+/* addition of headers to graphs: h4, h5, h6 */
+
+.qContent .graph-title {
+display: inline;
+font: normal 11px/17px Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-weight: bold !important;
+font-variant: small-caps;
+}
+
+/* new CSS to replace hover/focus with an interactive element: details/summary */
+
+.qContent figure.captioned {
+position: relative;
+border: 1px solid #aaa;
+border-radius: 4px;
+margin: 0;
+padding: 4px 0 0 0;
+}
+.qContent figure .figcaption {
+display: block;
+padding: 0;
+}
+
+/* treating the details similarly to the existing ATD on hover/focus */
+
+.qContent figure .figcaption details {
+display: inline-block;
+font-size: 0.89em;
+font-weight: normal;
+width: calc(100% - 6px - 6px + 2px );
+max-height: 100%;
+border-top: 1px solid #aaa;
+border-radius: 4px;
+margin: 0;
+padding: 0.5em 0.5em 0;
+cursor: pointer;
+}
+
+.qContent figure .figcaption details summary {
+font-size: 0.89em;
+font-variant: small-caps;
+margin: -0.5em -0.5em 0;
+padding: 0;
+}
+
+/* suppress & replace default triangle because it points the wrong way */
+
+.qContent figure details summary {
+list-style: none;
+}
+
+.qContent figure details summary::-webkit-details-marker {
+display: none;
+}
+
+.qContent figure details summary::before {
+content: "\025B8";
+font: normal 15px/15px Verdana, Geneva, Arial, Helvetica, sans-serif;
+padding: 0 4px;
+vertical-align: middle;
+}
+
+.qContent figure details[open] summary::before {
+content: "\025B4";
+font: normal 15px/15px Verdana, Geneva, Arial, Helvetica, sans-serif;
+padding: 0 4px;
+vertical-align: middle;
+}
+
+.qContent figure details[open] {
+background: #fff;
+}
+
+.qContent figure details[open] summary {
+z-index: 1;
+border-right: 1px solid #aaa;
+border-radius: 4px;
+}
+
+/* treat the actual ATD separately from the details so we can open it to the upside */
+
+.qContent figure details[open] div.atd {
+display: inline-block;
+position: absolute;
+bottom: 2.4em;
+left: 0;
+background: rgba(229,228,226,0.9);
+max-height: 100%;
+font-size: 11px;
+line-height: 1.5;
+overflow: visible;
+margin: 0;
+padding: 2px;
+}
+
+.qContent figure details[open] div.atd table,
+.qContent figure details[open] div.atd ul,
+.qContent figure details[open] div.atd ol {
+  margin: 0;
+  padding-bottom: 0.35em;
+  font-size: 11px;
+}
+
+.qContent figure details[open] div.atd div.wa1par,
+.qContent figure details[open] div.atd ul.wa1list,
+.qContent figure details[open] div.atd ul.none,
+.qContent figure details[open] div.atd ol.wa1list,
+.qContent figure details[open] div.atd ul.wa1list li,
+.qContent figure details[open] div.atd ul.none li,
+.qContent figure details[open] div.atd ol.wa1list li {
+font-size: 11px;
+}
+
+.qContent figure details[open] div.atd div.wa1par:last-of-type,
+.qContent figure details[open] div.atd ul:last-of-type,
+.qContent figure details[open] div.atd ol:last-of-type {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.qContent figure details[open] div.atd:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.qContent figure details[open] div.atd.wide {
+width: calc(85vw - 6em - 2em);
+min-width: 56em;
+overflow-x: visible;
+overflow-y: auto;
+scrollbar-width: thin;
+scrollbar-color: #838996#eee;
+scrollbar-gutter: stable;
+}
+
+.qContent figure details div.atd ul.wa1list {
+margin: 0 0 1em 0;
+}
+
+/* extending the existing ATD formatting for MathJax to the new details container */
+/** note that the weird spacing around wa1jax containers is introduced by Active, not CSS **/
+
+.qContent figure .figcaption details .wa1jax {
+font-size: 93%;
+line-height: 1;
+min-width: 2.01em !important;
+margin: 0 0 0 -1.89em !important;
+}
+
+.qContent figure .figcaption details .wa1jax .MathJax_MathML {
+min-width: 1.89em !important;
+margin: 0 0 0 1.89em !important;
+}
+
+.qContent figure .figcaption details .wa1jax .MathJax_Display {
+margin: 0 !important;
+}
+
+.qContent figure .figcaption details .wa1jax .MathJax_SVG_Display {
+margin: 0 0.6em 0 1em !important;
+}
+
+
+/*2.1.6 Tabbed display for figures with associated text*/
+/* tab panel container */
+
+.qContent .wa1-tabbox {
+  position: relative; 
+   margin: 45px 0  1em 6em;
+box-sizing: border-box;
+width:84%;
+ border-width: 2px 0px;
+  border-style: solid;
+  border-color: #d7d2c8;
+}
+
+/* tab labels */
+
+.qContent .wa1-tabbox  label.wa1-tablabel {
+ background-color: #eae7e1;
+  font-size: inherit;
+  width: 160px;
+  height: 35px;
+padding: .5em;
+border-radius:3px 3px 0 0;
+  border-width: 1px 1px 2px 1px;
+  border-style: solid;
+  border-color: #d7d2c8;
+box-sizing: border-box;
+position:absolute;
+  z-index: 1;
+text-align:center;
+ position: absolute;
+  top: -35px;
+}
+
+/*position of 4 labels */
+
+.qContent  .wa1-tabbox   label.wa1-tablabel[for$="tab-1"]{
+left:10px;
+}
+
+.qContent .wa1-tabbox   label.wa1-tablabel[for$="tab-2"]{
+left:180px;
+}
+
+.qContent .wa1-tabbox   label.wa1-tablabel[for$="tab-3"]{
+left:350px;
+}
+
+.qContent .wa1-tabbox   label.wa1-tablabel[for$="tab-4"]{
+left:520px;
+}
+
+/* hide panels */
+
+.qContent .wa1-tabbox  .wa1-tab > input ~ label.wa1-tablabel  ~  .wa1-tabcontent {
+  position: absolute !important;
+  padding:0 !important;
+  border:0 !important;
+  height: 1px !important; 
+  width: 1px !important; 
+  /*overflow: hidden;*/
+display:none;
+}
+
+/* show checked panel  */
+
+.qContent .wa1-tabbox  .wa1-tab  >  input:checked  ~ label.wa1-tablabel  ~ .wa1-tabcontent {
+  position: static !important;
+ padding: 1em !important;
+  height: auto !important; 
+  width: auto !important; 
+display:block;
+}
+
+.qContent .wa1-tabbox label.wa1-tablabel:hover {
+  cursor: pointer;
+}
+
+/* hide radio buttons */
+
+.qContent .wa1-tabbox input[name$="tab"] {
+  opacity: 0;
+  position: absolute;
+}
+
+/*visual cue for tab with focus  */
+
+.qContent .wa1-tabbox .wa1-tab input[name$="tab"]:focus +  label.wa1-tablabel {
+  outline: 1px dotted #000;
+  outline-offset: 3px;
+}
+
+/* selected tab label style */
+
+.qContent .wa1-tabbox input[name$="tab"]:checked + label.wa1-tablabel {
+  background: white;
+border-radius:3px 3px 0 0;
+  border-top: 2px solid #d7d2c8;
+    border-left: 2px solid #d7d2c8;
+	    border-right: 2px solid #d7d2c8;
+		    border-bottom: 2px solid white;
+}
+
+/*margin on tabpanel contents*/
+
+.qContent .wa1-tabbox figure,
+.qContent .wa1-tabbox table.wa1basicc,
+.qContent .wa1-tabbox table.wa1basicr,
+.qContent .wa1-tabbox table.wa1basicl,
+.qContent .wa1-tabbox table.wa1rowlinc,
+.qContent .wa1-tabbox table.wa1rowlinr,
+.qContent .wa1-tabbox table.wa1rowlinl,
+.qContent .wa1-tabbox table.wa1spreads,
+.qContent .wa1-tabbox table.compout,
+.qContent .wa1-tabbox table.wa1balance,
+.qContent .wa1-tabbox table.wa1taccount,
+.qContent .wa1-tabbox table.wa1stem,
+.qContent .wa1-tabbox table.wa1side,
+.qContent .wa1-tabbox table.icetable{
+  margin-left:0em; 
+  margin-bottom:0em;
+}
+
+/*margins and borders on subparts */
+
+.qContent  .subpart  .wa1-tabbox {
+margin-left:3em;
+width: 84% !important;
+}
+
+.qContent  .subsubpart  .wa1-tabbox {
+margin-left:.5em;
+width: 84% !important;
+}
+.qContent .subblock .subtab,
+.qContent .subsubblock .subtab{
+width:100%;
+}
+
+/* 2.1.7 Popup Feedback Resizing */
+
+.feedtfixin .contenthint .contenthint-text::before{
+top:1em;
+}
+
+.feedtfixin .contenthint .contenthint-text{
+top:-1em;
+width:30em !important;
+}
+
+/* 2.1.8 Alt text close button */
+
+.qContent .figcapButtonStyle {
+font-size: 8px;
+padding: 0px 4px;
+border: 1px solid black;
+margin: 0px 0px 0px 3px;
+float: right;
+}
+
+/* 2.1.9 Smallcaps Span Class */
+/* for use in declaring a word in all caps without literally writing it in all caps, which reads terribly on screen readers */
+
+.qContent .wa1caps {
+  font-family: verdana, geneva, sans-serif;
+  font-variant: small-caps;
+  font-size: 13px;
+  color:#000000;
+  line-height:1.4em;
+}
+
+/* 2.1.10 Inline Block for Labels */
+
+.qContent .wa1label {
+  display: inline-block;
+}
+
+/* 2.1.11 Symbolic Previewer Prompt */
+
+.qContent .wa1right {
+  vertical-align: top;
+  text-align: right;
+  margin-bottom: 0.5em;
+}

@@ -1,5 +1,5 @@
 {
-  "readableLineLength": true,
+  "readableLineLength": false,
   "spellcheck": false,
   "vimMode": true,
   "autoPairBrackets": true,
@@ -17,5 +17,6 @@
   "promptDelete": false,
   "showUnsupportedFiles": true,
   "attachmentFolderPath": "Excalidraw",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "showLineNumber": true
 }

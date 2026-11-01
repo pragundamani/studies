@@ -1,0 +1,42 @@
+Name:
+
+Question 5 (20 points)
+
+Only customers whose order-ID is a multiple of k qualify for a gold voucher.
+You're given a list of order-IDs in the exact arrival order. Your task is to produce
+a new list that keeps only the order-IDs that are divisible by k, preserving their
+original relative order.
+
+Give a recursive implementation for the function:
+def select_gold_voucher_orders(orders, k, low, high)
+
+This function receives a list of order-IDs, orders, and a positive integer k. In addition,
+the function is called with two indices Low and high (with Low < high), which define the
+range of elements to consider within the list.
+
+When called, it should return a new list containing all the order-IDs found in orders
+from index low to index high (inclusive). The original order should be preserved.
+
+For example, the call:
+select_gold_voucher_orders([12, 7, 9, 18, 5], 3, 0, 4),
+should return [12, 9, 18].
+
+Implementation requirements:
+
+i. Your function must be recursive.
+ii. You are not allowed to:
+e Define a helper function.
+e Add parameters to the function’s header line
+e Set default values to the parameter.
+e Use global variables
+iii. | Your function should run in worst case linear time.
+That is, if n is the size of the range from index Low to index high, calling
+select_gold_voucher_orders(orders, k, low, high) willrun in @(n).
+
+Note: Write your implementation on the next page. wil ret ' bie 2«,
+y eye
+Lebo! + = | 4 iB pop
+hwh-=l
+
+11
+

@@ -1,0 +1,35 @@
+Name: WZara Baap y Net ID: pd 2. ee
+
+Question 4 (15 points)
+
+You are given the following recursive function:
+
+def mystery(s):
+if(len(s) <= 1):
+return s
+else:
+rest_res = mystery(s[1: ])
+
+return s[@] + rest_res + s[0]
+
+0 ri]
+q
+
+1) What would be returned from the call mystery (‘'mad' ):
+
+Anodom
+
+2) Give a meaningful name to mystery (A name that describes what this
+function computes).
+
+halindrorns anal ols)
+
+3) Assuming s is a string with n characters, analyze the worst-case running time
+
+of the call mystery(s):
+
+i) Draw the recursion tree (showing the recursive calls hierarchy, and their local cost).
+
+ii) Conclude the total (asymptotic) running time of the function.
+
+Note: Write your answers in the next page.

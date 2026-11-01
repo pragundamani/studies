@@ -1,0 +1,776 @@
+.mathtype-wrapper {
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    vertical-align: middle;
+    display: inline-block;
+    position: relative;
+}
+
+.mathtype-wrapper .mathtype-scroll-wrapper {
+    display: inline-block;
+    max-width: 850px;
+    overflow: visible;
+    position: relative;
+    vertical-align: middle;
+}
+
+.mathtype-preview-staging {
+    contain: layout style paint;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    transform: translate(-200vw, -200vh);
+    visibility: hidden;
+    z-index: -1;
+}
+
+.mathtype-sr-only {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.mathtype-wrapper .mathtype-rendering {
+    visibility: hidden;
+}
+
+.mathtype-wrapper .mathtype {
+    background: #fff;
+    border: 1px solid #a8adb4;
+    border-radius: 2px;
+    box-sizing: border-box;
+    display: inline-block;
+    min-height: 35.53px;
+    min-width: 120px;
+    position: relative;
+    vertical-align: middle;
+}
+
+.mathtype-wrapper .mtClosed {
+    align-items: center;
+    display: inline-flex;
+    width: auto;
+}
+
+.mathtype-wrapper .mtOpen {
+    border-color: #0070a8;
+    box-shadow: 0 0 0 1px rgba(0, 112, 168, 0.2);
+    overflow: hidden;
+}
+
+.mathtype-wrapper .mtDisabled {
+    background: #cbcbcb;
+}
+
+.mathtype-wrapper .mtAnswer {
+    align-items: center;
+    display: flex;
+    margin: 0px;
+    min-height: 20px;
+    min-width: 0;
+    overflow: hidden;
+    white-space: normal;
+    word-break: break-word;
+}
+
+.mathtype-wrapper .mtOpen .wrs_container,
+.mathtype-wrapper .mtOpen .wrs_editor,
+.mathtype-wrapper .mtOpen .wrs_formulaDisplay,
+.mathtype-wrapper .mtOpen .wrs_focusElementContainer {
+    border: 0 !important;
+    box-shadow: none !important;
+    max-width: 100%;
+}
+
+.mathtype-wrapper .mtOpen .wrs_editor,
+.mathtype-wrapper .mtOpen .wrs_focusElementContainer {
+    background: transparent !important;
+}
+
+.mathtype-wrapper .mtOpen .wrs_focusElement,
+.mathtype-wrapper .mtOpen .wrs_focusElementContainer input {
+    min-width: 0;
+}
+
+.mtAnswer span#MathJax_ZoomOverlay {
+    position: fixed !important;
+    height: 100% !important;
+    width: 100% !important;
+    left: 0 !important;
+    top: 0 !important;
+}
+
+.mtAnswer span#MathJax_Zoom {
+    position: absolute !important;
+    height: auto !important;
+    width: auto !important;
+    max-height: none !important;
+    max-width: none !important;
+    z-index: 1000 !important;
+    transform: translateY(-8px) !important;
+}
+
+.mtAnswer span#MathJax_ZoomFrame {
+    position: absolute !important;
+    height: auto !important;
+    width: auto !important;
+    max-height: none !important;
+    max-width: none !important;
+    z-index: 1000 !important;
+}
+
+.wrs_caret {
+    height: 17px !important;
+}
+
+.mathtype-wrapper .mtDisabled .mtAnswer {
+    padding-left: 2px;
+    color: #3F3F3F;
+}
+
+.mathtype-wrapper .mtClosed .mtAnswer {
+    height: 100%;
+    min-height: 23.53px;
+    padding-left: 8px;
+}
+
+.mathtype.mtClosed {
+    max-width: 510px;
+    overflow-x: visible;
+    overflow-y: visible;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+@media only screen and (device-width: 768px) {
+    .mathtype-wrapper div.mathtype-scroll-wrapper {
+        max-width: 700px;
+    }
+}
+
+.mathtype-overlay-trigger {
+    align-items: center;
+    background: linear-gradient(#a5a5a5, #8f8f8f);
+    border: 0;
+    border-radius: 3px;
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.28);
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    height: 28px;
+    justify-content: center;
+    margin: 0;
+    position: absolute;
+    pointer-events: auto;
+    right: 4px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    padding: 0;
+    width: 28px;
+}
+
+.mathtype-overlay-trigger:hover,
+.mathtype-overlay-trigger:focus {
+    background: #0d6ea1;
+}
+
+.mathtype-overlay-trigger:disabled,
+.mathtype-overlay-trigger[aria-disabled="true"] {
+    cursor: default;
+}
+
+.mathtype-overlay-trigger:disabled:hover,
+.mathtype-overlay-trigger:disabled:focus,
+.mathtype-overlay-trigger[aria-disabled="true"]:hover,
+.mathtype-overlay-trigger[aria-disabled="true"]:focus {
+    background: linear-gradient(#a5a5a5, #8f8f8f);
+    outline: none;
+}
+
+.mathtype-overlay-trigger:focus {
+    outline: 2px solid #005fcc;
+    outline-offset: 2px;
+}
+
+.mathtype-overlay-trigger-icon {
+    border: 1px solid currentColor;
+    border-radius: 2px;
+    box-sizing: border-box;
+    display: block;
+    height: 12px;
+    margin: 1px auto 0;
+    position: relative;
+    width: 14px;
+}
+
+.mathtype-overlay-trigger-icon::before,
+.mathtype-overlay-trigger-icon::after {
+    background: currentColor;
+    content: "";
+    left: 2px;
+    position: absolute;
+    right: 2px;
+}
+
+.mathtype-overlay-trigger-icon::before {
+    height: 1px;
+    top: 3px;
+}
+
+.mathtype-overlay-trigger-icon::after {
+    bottom: 2px;
+    box-shadow:
+        0 -3px 0 0 currentColor,
+        3px 0 0 0 currentColor,
+        6px 0 0 0 currentColor;
+    height: 1px;
+    left: 2px;
+    right: auto;
+    width: 1px;
+}
+
+.mathtype-overlay {
+    bottom: 24px;
+    opacity: 0;
+    pointer-events: none;
+    position: fixed;
+    right: 24px;
+    transform: translateY(16px);
+    transition: opacity 120ms ease, transform 120ms ease;
+    z-index: 10002;
+}
+
+.mathtype-overlay-footprint {
+    display: block;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    pointer-events: none;
+    visibility: hidden;
+    width: 1px;
+}
+
+.mathtype-overlay.is-open {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+}
+
+.mathtype-overlay-shell {
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    color: #454545;
+    font-family: Verdana, sans-serif;
+    overflow: hidden;
+    width: min(540px, calc(100vw - 32px));
+}
+
+.mathtype-overlay-header {
+    align-items: center;
+    background: #006298;
+    border-bottom: 1px solid #d4d4d4;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 4px 16px;
+}
+
+.mathtype-overlay-title {
+    font: 700 14px/1.2 Verdana, sans-serif;
+}
+
+.mathtype-overlay-actions {
+    display: flex;
+    gap: 12px;
+}
+
+.mathtype-overlay-action {
+    background: transparent;
+    border: 0;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    font-family: Verdana, sans-serif;
+    height: 40px;
+    padding: 0;
+    position: relative;
+    width: 40px;
+}
+
+.mathtype-overlay-action:hover {
+    background: #004e79;
+}
+
+.mathtype-overlay-action-settings::before {
+    content: "\2699";
+    font-size: 25px;
+    left: 2px;
+    position: absolute;
+    top: -1px;
+}
+
+.mathtype-overlay-action-close::before,
+.mathtype-overlay-action-close::after {
+    background: currentColor;
+    border-radius: 999px;
+    content: "";
+    position: absolute;
+    top: 50%;
+}
+
+.mathtype-overlay-action-close::before {
+    height: 4px;
+    left: 11px;
+    transform: translateY(1px) rotate(45deg);
+    width: 11px;
+}
+
+.mathtype-overlay-action-close::after {
+    height: 4px;
+    left: 15px;
+    transform: translateY(-2px) rotate(-45deg);
+    width: 19px;
+}
+
+.mathtype-overlay-action:focus {
+    outline: 2px solid #fff;
+    outline-offset: 2px;
+}
+
+.mathtype-overlay-body {
+    background: #fff;
+    color: #454545;
+    font-family: Verdana, sans-serif;
+    padding: 12px 16px 0;
+}
+
+.mathtype-overlay-context {
+    min-height: 16px;
+    width: 100%;
+}
+
+.mathtype-overlay-editor {
+    min-height: 260px;
+}
+
+.mathtype-overlay-editor .wrs_editor,
+.mathtype-overlay-editor .wrs_container {
+    border: 0 !important;
+    box-shadow: none !important;
+}
+
+.mathtype-overlay-editor .wrs_container,
+.mathtype-overlay-editor .wrs_editor {
+    border: 0 !important;
+    box-shadow: none !important;
+}
+
+.mathtype-overlay-editor .wrs_tabscontainer,
+.mathtype-overlay-editor .wrs_textTabs,
+.mathtype-overlay-editor [role="tablist"] {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 22px;
+    margin: 0 0 8px;
+    min-width: max-content;
+    overflow: visible !important;
+    padding: 4px 8px 8px;
+}
+
+.mathtype-overlay-editor .mathtype-overlay-tabstrip {
+    position: relative;
+}
+
+.mathtype-overlay-editor .mathtype-overlay-tabscroll {
+    overflow-x: auto;
+    overflow-y: visible;
+    padding: 0 4px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.mathtype-overlay-editor .mathtype-overlay-tabscroll::-webkit-scrollbar {
+    display: none;
+}
+
+/* The tab scroll arrows and the "Show more" button follow the React Magma buttons
+   https://react-magma.cengage.com/version/2.6.2/api/button/ */
+.mathtype-overlay-editor .mathtype-overlay-tabscroll-button,
+.mathtype-overlay-editor .wrs_toolbar .wrs_multipleRowPanel .mathtype-overlay-showmore {
+    align-items: center;
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-flex;
+    height: 28px;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    transition: background 0.35s, border-color 0.35s, box-shadow 0.35s, color 0.35s;
+}
+
+.mathtype-overlay-editor .mathtype-overlay-tabscroll-button::after,
+.mathtype-overlay-editor .wrs_toolbar .wrs_multipleRowPanel .mathtype-overlay-showmore::after {
+    border-radius: 50%;
+    content: "";
+    height: 28px;
+    left: 50%;
+    opacity: 0;
+    padding: 50%;
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    transition: opacity 1s, transform 0.5s;
+    width: 28px;
+}
+
+.mathtype-overlay-editor .mathtype-overlay-tabscroll-button:active::after,
+.mathtype-overlay-editor .wrs_toolbar .wrs_multipleRowPanel .mathtype-overlay-showmore:active::after {
+    opacity: 0.4;
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0s;
+}
+
+.mathtype-overlay-editor .mathtype-overlay-tabscroll-button:focus,
+.mathtype-overlay-editor .wrs_toolbar .wrs_multipleRowPanel .mathtype-overlay-showmore:focus {
+    outline: 2px dotted #027ee1;
+    outline-offset: 3px;
+}
+
+/* The symbol panel scrolls and clips whatever sticks out of it, so this outline stays inside the button */
+.mathtype-overlay-editor .wrs_toolbar .wrs_multipleRowPanel .mathtype-overlay-showmore:focus {
+    outline-offset: -2px;
+}
+
+.mathtype-overlay-editor .mathtype-overlay-tabscroll-button::before,
+.mathtype-overlay-editor .wrs_toolbar .wrs_multipleRowPanel .mathtype-overlay-showmore::before {
+    background: currentColor;
+    content: "";
+    flex-shrink: 0;
+    height: 20px;
+    width: 20px;
+}
+
+/* Forced colours repaint backgrounds, which would hide a masked icon */
+@media (forced-colors: active) {
+    .mathtype-overlay-editor .mathtype-overlay-tabscroll-button::before,
+    .mathtype-overlay-editor .wrs_toolbar .wrs_multipleRowPanel .mathtype-overlay-showmore::before {
+        background: ButtonText;
+        forced-color-adjust: none;
+    }
+}
+
+/* IconButton: secondary, small. The arrows lie over the ends of the tab list, so the tabs keep their full width. */
+.mathtype-overlay-editor .mathtype-overlay-tabscroll-button {
+    background: #fff;
+    border: 2px solid #bfbfbf;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.18);
+    color: #3f3f3f;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 6px;
+    width: 28px;
+    z-index: 2;
+}
+
+.mathtype-overlay-editor .mathtype-overlay-tabscroll-button-left {
+    left: 0;
+}
+
+.mathtype-overlay-editor .mathtype-overlay-tabscroll-button-left::before {
+    -webkit-mask: url("/static/img/pads/mathtype/chevron_left.svg") center / contain no-repeat;
+    mask: url("/static/img/pads/mathtype/chevron_left.svg") center / contain no-repeat;
+}
+
+.mathtype-overlay-editor .mathtype-overlay-tabscroll-button-right {
+    right: 0;
+}
+
+.mathtype-overlay-editor .mathtype-overlay-tabscroll-button-right::before {
+    -webkit-mask: url("/static/img/pads/mathtype/chevron_right.svg") center / contain no-repeat;
+    mask: url("/static/img/pads/mathtype/chevron_right.svg") center / contain no-repeat;
+}
+
+.mathtype-overlay-editor .mathtype-overlay-tabscroll-button::after {
+    background: #3f3f3f;
+}
+
+.mathtype-overlay-editor .mathtype-overlay-tabscroll-button:hover,
+.mathtype-overlay-editor .mathtype-overlay-tabscroll-button:focus {
+    background: #e6e6e6;
+}
+
+.mathtype-overlay-editor .mathtype-overlay-tabscroll-button:active {
+    background: #ccc;
+}
+
+.mathtype-overlay-editor .mathtype-overlay-tabscroll-button[hidden] {
+    display: none;
+}
+
+.mathtype-overlay-editor .mathtype-overlay-tabscroll-button:disabled {
+    cursor: default;
+    opacity: 0.35;
+}
+
+.mathtype-overlay-editor .wrs_textTab,
+.mathtype-overlay-editor button[role="tab"] {
+    background: transparent !important;
+    border: 0 !important;
+    border-radius: 8px !important;
+    box-shadow: none !important;
+    color: #4a4a4a !important;
+    font: 700 12px/1 Verdana, sans-serif !important;
+    letter-spacing: 0.03em;
+    margin: 0;
+    min-height: 32px;
+    padding: 6px 8px !important;
+    position: relative;
+    top: 0 !important;
+    transform: none !important;
+    text-transform: uppercase;
+    vertical-align: middle !important;
+}
+
+.mathtype-overlay-editor .wrs_textTab:hover,
+.mathtype-overlay-editor button[role="tab"]:hover {
+    background: #d4d4d4 !important;
+}
+
+.mathtype-overlay-editor .wrs_textTab.wrs_selected,
+.mathtype-overlay-editor button[role="tab"].wrs_selected,
+.mathtype-overlay-editor button[role="tab"][aria-selected="true"] {
+    background: #cce0ea !important;
+    border: 0 !important;
+    border-radius: 8px !important;
+    box-shadow: none !important;
+    color: #006298 !important;
+    margin-bottom: 0 !important;
+    position: relative;
+    top: 0 !important;
+    transform: none !important;
+    z-index: 1;
+}
+
+.mathtype-overlay-editor .wrs_textTab.wrs_selected:focus,
+.mathtype-overlay-editor .wrs_textTab.wrs_selected:focus-visible,
+.mathtype-overlay-editor button[role="tab"].wrs_selected:focus,
+.mathtype-overlay-editor button[role="tab"].wrs_selected:focus-visible,
+.mathtype-overlay-editor button[role="tab"][aria-selected="true"]:focus,
+.mathtype-overlay-editor button[role="tab"][aria-selected="true"]:focus-visible {
+    box-shadow: 0 0 0 2px #005fcc !important;
+    outline: none !important;
+}
+
+.mathtype-overlay-editor .wrs_toolbar {
+    border-bottom: 1px solid #d4d4d4;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    overflow-y: visible;
+    padding: 0 0 16px;
+}
+
+.mathtype-overlay-editor .wrs_panelContainer {
+    background: #fff !important;
+    border: 0 !important;
+}
+
+/* A tab whose sections do not fit the pad gets the default horizontal scrollbar */
+.mathtype-overlay-editor .wrs_toolbar .wrs_panelContainer {
+    overflow-x: auto;
+}
+
+/* Every tab reserves the "Show more" row, so the pad keeps its height when tabs are switched */
+.mathtype-overlay-editor .wrs_toolbar .wrs_panelContainer > .wrs_multipleRowPanel {
+    height: auto;
+    min-height: 88px;
+}
+
+/* Sections stay in the first row; grid auto-placement puts each "Show more" button under the section it follows.
+   A column is never narrower than its button, however few symbols the section shows. */
+.mathtype-overlay-editor .wrs_toolbar .wrs_panelContainer > .mathtype-overlay-showmore-panel.wrs_selected {
+    align-items: start;
+    display: grid;
+    grid-auto-columns: max-content;
+    grid-auto-flow: column;
+    grid-template-rows: auto auto;
+    justify-content: start;
+}
+
+.mathtype-overlay-editor .mathtype-overlay-showmore-panel > table {
+    grid-row: 1;
+}
+
+.mathtype-overlay-editor .mathtype-overlay-showmore-panel > .wrs_line {
+    align-self: stretch;
+    grid-row: 1 / span 2;
+    height: auto;
+}
+
+/* Button: link, primary, small */
+.mathtype-overlay-editor .wrs_toolbar .wrs_multipleRowPanel .mathtype-overlay-showmore,
+.mathtype-overlay-editor .wrs_toolbar .wrs_multipleRowPanel .mathtype-overlay-showmore.wrs_pressed {
+    background: transparent;
+    border: 0;
+    color: #006298;
+    font: 600 12px/16px "Open Sans", Helvetica, sans-serif;
+    grid-row: 2;
+    justify-self: start;
+    letter-spacing: 0.32px;
+    margin: 4px 0 0;
+    padding: 4px 8px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    width: auto;
+}
+
+.mathtype-overlay-editor .wrs_toolbar .wrs_multipleRowPanel .mathtype-overlay-showmore::after {
+    background: #006298;
+}
+
+.mathtype-overlay-editor .wrs_toolbar .wrs_multipleRowPanel .mathtype-overlay-showmore:hover,
+.mathtype-overlay-editor .wrs_toolbar .wrs_multipleRowPanel .mathtype-overlay-showmore:focus {
+    background: #e5eff4;
+    color: #004165;
+}
+
+.mathtype-overlay-editor .wrs_toolbar .wrs_multipleRowPanel .mathtype-overlay-showmore:active {
+    background: #b2cfe0;
+    color: #002032;
+}
+
+/* The chevron follows the label and flips while the extra symbols are open */
+.mathtype-overlay-editor .wrs_toolbar .wrs_multipleRowPanel .mathtype-overlay-showmore::before {
+    margin-left: 4px;
+    -webkit-mask: url("/static/img/pads/mathtype/expand_more.svg") center / contain no-repeat;
+    mask: url("/static/img/pads/mathtype/expand_more.svg") center / contain no-repeat;
+    order: 1;
+}
+
+.mathtype-overlay-editor .wrs_toolbar .wrs_multipleRowPanel .mathtype-overlay-showmore[aria-expanded="true"]::before {
+    -webkit-mask: url("/static/img/pads/mathtype/expand_less.svg") center / contain no-repeat;
+    mask: url("/static/img/pads/mathtype/expand_less.svg") center / contain no-repeat;
+}
+
+/* The extra symbols open in their own container (React Magma Card with a drop shadow).
+   WIRIS puts it under the button and sizes it to the symbols, hence the content-box. */
+.mathtype-overlay-editor.mathtype-overlay-showmore-enabled .wrs_editor > .wrs_contextPanel {
+    background: #fff;
+    border: 1px solid #dfdfdf;
+    border-radius: 4px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.18);
+    box-sizing: content-box;
+    margin-top: 4px;
+    padding: 6px;
+}
+
+.mathtype-overlay-editor .wrs_editorContainer {
+    border: 1px solid #d8d8d8 !important;
+    border-radius: 10px;
+    min-height: 126px;
+    padding: 12px 14px 13px;
+}
+
+.mathtype-overlay-editor .wrs_formulaDisplay,
+.mathtype-overlay-editor .wrs_formulaDisplayWrapper,
+.mathtype-overlay-editor .wrs_focusElementContainer,
+.mathtype-overlay-editor .wrs_editor textarea,
+.mathtype-overlay-editor .wrs_focusElement {
+    font-size: 20px !important;
+}
+
+.mathtype-overlay-editor .wrs_formulaDisplay,
+.mathtype-overlay-editor .wrs_formulaDisplayWrapper,
+.mathtype-overlay-editor .wrs_focusElementContainer {
+    min-height: 58px;
+}
+
+.mathtype-overlay-editor .wrs_toolbarContainer,
+.mathtype-overlay-editor .wrs_groupContainer {
+    margin-bottom: 8px;
+}
+
+.mathtype-overlay-editor .wrs_groupHeader {
+    color: #666;
+    font: 600 11px/1 Arial, Helvetica, sans-serif;
+    margin: 0 0 4px;
+    text-transform: uppercase;
+}
+
+.mathtype-overlay-footer {
+    color: #454545;
+    font-family: Verdana, sans-serif;
+    padding: 0 16px 16px;
+    text-align: right;
+}
+
+.mathtype-overlay-footer a {
+    color: #006298;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font: 400 14px/1 Verdana, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.mathtype-overlay-footer a::after {
+    content: "?";
+    align-items: center;
+    background: #006298;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-flex;
+    font: 700 12px/1 Verdana, sans-serif;
+    height: 16px;
+    justify-content: center;
+    width: 16px;
+}
+
+.mathtype-overlay-footer a:hover {
+    text-decoration: underline;
+}
+
+.mathtype-overlay-footer a:focus {
+    outline: 2px solid #005fcc;
+    outline-offset: 2px;
+}
+
+.wrs_header {
+    padding-bottom: 5px !important;
+}
+
+.wrs_textTab {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+}
+
+.wrs_linksContainer {
+    display: none;
+}
+
+/* Disable all scroll bars within the top level of mathtype wrapper 
+   This is confined to just the top level to avoid interacting with the mathjax display 
+   or the mathtype equation display
+*/
+.mathtype-wrapper .mtOpen .wrs_editor,
+.mathtype-wrapper .mtOpen .wrs_formulaDisplayWrapper,
+.mathtype-wrapper .mtOpen .wrs_formulaDisplay {
+    overflow-x: visible !important;
+    overflow-y: hidden !important;
+}

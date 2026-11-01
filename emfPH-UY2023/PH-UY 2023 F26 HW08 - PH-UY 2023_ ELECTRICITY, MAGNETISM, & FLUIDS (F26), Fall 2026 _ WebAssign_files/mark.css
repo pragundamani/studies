@@ -1,0 +1,79 @@
+.waMark {
+  margin: 0 6px 6px 0;
+  padding: 6px;
+  display: inline-block;
+  position: relative;
+  /* IE7 */
+  zoom: 1;
+}
+
+.waMark .badgeWrap {
+  margin: 0;
+  padding: 0;
+  display: block;
+  height: 16px;
+  clear: both;
+}
+
+.waMark .badgeWrap .badge {
+  margin: 0;
+  padding: 0;
+  display: block;
+  height: 16px;
+  overflow: hidden;
+  position: absolute;
+  right: 5px;
+  text-indent: 0;
+}
+
+.waMark .badgeWrap .badge img {
+  outline: 0;
+  display: inline-block;
+  text-align: right;
+}
+
+.waMark.mFeedback {
+  border: 1px solid #5786b7;
+}
+
+.waMark.mCorrect {
+  border: 1px solid #5da035;
+}
+
+.waMark.mIncorrect,
+.waMark.mPartial,
+.waMark.mCalculation {
+  border: 1px solid #C61D23;
+}
+
+/* badge styles */
+.waMark.mFeedback .badge {
+  cursor: pointer;
+}
+
+/* overriding style to make mark singular with no wrapping */
+.waMark.single {
+  margin: 0 5px;
+  padding: 0;
+  display: inline-block;
+  border: none;
+  float: none;
+  vertical-align: middle;
+  /* IE7 */
+  zoom: 1;
+}
+
+.waMark.single .badge {
+  position: relative;
+}
+
+.waMark:has(.graphpad-root) {
+  display: block;
+}
+
+/* Feedback alternate styling */
+.bContent .altFeedback {
+  margin-bottom: 10px;
+}
+
+/*# sourceMappingURL=mark.css.map */

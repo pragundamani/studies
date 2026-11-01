@@ -1,0 +1,469 @@
+/* General buttons style */
+/*https://react-magma.cengage.com/version/2.5.14/api/button/*/
+/*primary solid*/
+.primarySolidUnifiedButton {
+  -webkit-box-align: center;
+  align-items: center;
+  background: #006298;
+  border: 0px #006298;
+  border-radius: 4px;
+  color: white !important;
+  cursor: pointer;
+  display: inline-flex;
+  flex-shrink: 0;
+  font-family: "Open Sans", Helvetica, sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  height: 40px;
+  -webkit-box-pack: center;
+  justify-content: center;
+  letter-spacing: inherit;
+  line-height: 2px !important;
+  margin: 4px;
+  min-width: 96px;
+  overflow: hidden !important;
+  padding: 12px 16px !important;
+  position: relative;
+  text-align: center;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transition: background 0.35s, border-color 0.35s, box-shadow 0.35s, color 0.35s;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: auto;
+  box-sizing: border-box;
+}
+
+.primarySolidUnifiedButton:not(:disabled):hover, .primarySolidUnifiedButton:not(:disabled):focus {
+  background: #004165 !important;
+  color: white !important;
+}
+
+.primarySolidUnifiedButton:not(:disabled):focus {
+  outline: #027ee1 dotted 2px;
+  outline-offset: 3px;
+}
+
+.primarySolidUnifiedButton:not(:disabled):active {
+  background: #002032;
+  color: white !important;
+}
+
+/*secondary solid;*/
+.secondarySolidUnifiedButton {
+  -webkit-box-align: center;
+  align-items: center;
+  background: white;
+  border: 2px solid #bfbfbf;
+  border-radius: 4px;
+  color: #3f3f3f !important;
+  cursor: pointer;
+  display: inline-flex;
+  flex-shrink: 0;
+  font-family: "Open Sans", Helvetica, sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  height: 40px;
+  -webkit-box-pack: center;
+  justify-content: center;
+  letter-spacing: inherit;
+  line-height: 2px !important;
+  margin: 4px;
+  min-width: 96px;
+  overflow: hidden !important;
+  padding: 12px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transition: background 0.35s, border-color 0.35s, box-shadow 0.35s, color 0.35s;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: auto;
+  box-sizing: border-box;
+}
+
+.secondarySolidUnifiedButton:not(:disabled):hover, .secondarySolidUnifiedButton:not(:disabled):focus {
+  background: #e6e6e6 !important;
+  color: #3f3f3f !important;
+}
+
+.secondarySolidUnifiedButton:not(:disabled):focus {
+  outline: #027ee1 dotted 2px;
+  outline-offset: 3px;
+}
+
+.secondarySolidUnifiedButton:not(:disabled):active {
+  background: #cccccc;
+  color: #3f3f3f !important;
+}
+
+/*marketing solid;*/
+.marketingSolidUnifiedButton {
+  -webkit-box-align: center;
+  align-items: center;
+  background: #ffc72c;
+  border: 0px #ffc72c;
+  border-radius: 4px;
+  color: #003865 !important;
+  cursor: pointer;
+  display: inline-flex;
+  flex-shrink: 0;
+  font-family: "Open Sans", Helvetica, sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  height: 40px;
+  -webkit-box-pack: center;
+  justify-content: center;
+  letter-spacing: inherit;
+  line-height: 2px !important;
+  margin: 4px;
+  min-width: 96px;
+  overflow: hidden !important;
+  padding: 12px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transition: background 0.35s, border-color 0.35s, box-shadow 0.35s, color 0.35s;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: auto;
+  box-sizing: border-box;
+}
+
+.marketingSolidUnifiedButton:not(:disabled):hover, .marketingSolidUnifiedButton:not(:disabled):focus {
+  background: #ffd55f !important;
+  color: #003865 !important;
+}
+
+.marketingSolidUnifiedButton:not(:disabled):focus {
+  outline: #027ee1 dotted 2px;
+  outline-offset: 3px;
+}
+
+.marketingSolidUnifiedButton:not(:disabled):active {
+  background: #ffe292;
+  color: #003865 !important;
+}
+
+/*primary link;*/
+.primaryLinkUnifiedButton {
+  -webkit-box-align: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0);
+  border: 0px;
+  border-radius: 4px;
+  color: #006298 !important;
+  cursor: pointer;
+  display: inline-flex;
+  flex-shrink: 0;
+  font-family: "Open Sans", Helvetica, sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  height: 40px;
+  -webkit-box-pack: center;
+  justify-content: center;
+  letter-spacing: inherit;
+  line-height: 2px !important;
+  margin: 4px;
+  min-width: 96px;
+  overflow: hidden !important;
+  padding: 12px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transition: background 0.35s, border-color 0.35s, box-shadow 0.35s, color 0.35s;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: auto;
+  box-sizing: border-box;
+}
+
+.primaryLinkUnifiedButton:not(:disabled):hover, .primaryLinkUnifiedButton:not(:disabled):focus {
+  /*background: rgb(118, 202, 244);*/
+  background: rgba(159, 193, 216, 0.38) !important;
+  color: #004165 !important;
+}
+
+.primaryLinkUnifiedButton:not(:disabled):focus {
+  outline: #027ee1 dotted 2px;
+  outline-offset: 3px;
+}
+
+.primaryLinkUnifiedButton:not(:disabled):active {
+  background: #b2cfe0;
+  color: #002032 !important;
+}
+
+/*secondary link;*/
+.secondaryLinkUnifiedButton {
+  -webkit-box-align: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0);
+  border: 0px #bfbfbf;
+  border-radius: 4px;
+  color: #3f3f3f !important;
+  cursor: pointer;
+  display: inline-flex;
+  flex-shrink: 0;
+  font-family: "Open Sans", Helvetica, sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  height: 40px;
+  -webkit-box-pack: center;
+  justify-content: center;
+  letter-spacing: inherit;
+  line-height: 2px !important;
+  margin: 4px;
+  min-width: 96px;
+  overflow: hidden !important;
+  padding: 12px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transition: background 0.35s, border-color 0.35s, box-shadow 0.35s, color 0.35s;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: auto;
+  box-sizing: border-box;
+}
+
+.secondaryLinkUnifiedButton:not(:disabled):hover, .secondaryLinkUnifiedButton:not(:disabled):focus {
+  /*background: rgb(235, 235, 235);*/
+  background: #dcdbdb !important;
+  color: #3f3f3f !important;
+}
+
+.secondaryLinkUnifiedButton:not(:disabled):focus {
+  outline: #027ee1 dotted 2px;
+  outline-offset: 3px;
+}
+
+.secondaryLinkUnifiedButton:not(:disabled):active {
+  background: #c5c5c5;
+  color: #3f3f3f !important;
+}
+
+/*primary outline;*/
+.primaryOutlineUnifiedButton {
+  -webkit-box-align: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0);
+  border: 2px solid;
+  border-radius: 4px;
+  color: #006298 !important;
+  cursor: pointer;
+  display: inline-flex;
+  flex-shrink: 0;
+  font-family: "Open Sans", Helvetica, sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  height: 40px;
+  -webkit-box-pack: center;
+  justify-content: center;
+  letter-spacing: inherit;
+  line-height: 2px !important;
+  margin: 4px;
+  min-width: 96px;
+  overflow: hidden !important;
+  padding: 12px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transition: background 0.35s, border-color 0.35s, box-shadow 0.35s, color 0.35s;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: auto;
+  box-sizing: border-box;
+}
+
+.primaryOutlineUnifiedButton:not(:disabled):hover, .primaryOutlineUnifiedButton:not(:disabled):focus {
+  background: #e5eff4 !important;
+  color: #004165 !important;
+}
+
+.primaryOutlineUnifiedButton:not(:disabled):focus {
+  outline: #027ee1 dotted 2px;
+  outline-offset: 3px;
+}
+
+.primaryOutlineUnifiedButton:not(:disabled):active {
+  background: #b2cfe0;
+  color: #002032 !important;
+}
+
+/*secondary solid disabled;*/
+.secondarySolidDisabledUnifiedButton {
+  -webkit-box-align: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0);
+  border: 2px solid #dfdfdf;
+  border-radius: 4px;
+  color: rgba(114, 114, 114, 0.6) !important;
+  cursor: not-allowed;
+  display: inline-flex;
+  flex-shrink: 0;
+  font-family: "Open Sans", Helvetica, sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  height: 40px;
+  -webkit-box-pack: center;
+  justify-content: center;
+  letter-spacing: inherit;
+  line-height: 2px !important;
+  margin: 4px;
+  min-width: 96px;
+  overflow: hidden !important;
+  padding: 12px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transition: background 0.35s, border-color 0.35s, box-shadow 0.35s, color 0.35s;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: auto;
+  box-sizing: border-box;
+}
+
+/*primary solid disabled.*/
+.primarySolidDisabledUnifiedButton {
+  -webkit-box-align: center;
+  align-items: center;
+  background: #dfdfdf;
+  border: 0px #dfdfdf;
+  border-radius: 4px;
+  color: rgba(114, 114, 114, 0.6) !important;
+  cursor: not-allowed;
+  display: inline-flex;
+  flex-shrink: 0;
+  font-family: "Open Sans", Helvetica, sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  height: 40px;
+  -webkit-box-pack: center;
+  justify-content: center;
+  letter-spacing: inherit;
+  line-height: 2px !important;
+  margin: 4px;
+  min-width: 96px;
+  overflow: hidden !important;
+  padding: 12px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transition: background 0.35s, border-color 0.35s, box-shadow 0.35s, color 0.35s;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: auto;
+  box-sizing: border-box;
+}
+
+/* Buttons click animation, start */
+.primarySolidUnifiedButton:after,
+.marketingSolidUnifiedButton:after {
+  content: '';
+  background: rgba(255, 255, 255, 0.78);
+  border-radius: 50%;
+  left: 50%;
+  opacity: 0;
+  padding: 70%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  transition: opacity 1.0s, transform 1.0s;
+  /* Adjusted transition time */
+  pointer-events: none;
+  /* Prevent interference with button clicks */
+}
+
+.secondarySolidUnifiedButton:after,
+.secondaryLinkUnifiedButton:after {
+  content: '';
+  background: rgba(90, 89, 89, 0.78);
+  border-radius: 50%;
+  left: 50%;
+  opacity: 0;
+  padding: 70%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  transition: opacity 1.0s, transform 1.0s;
+  /* Adjusted transition time */
+  pointer-events: none;
+  /* Prevent interference with button clicks */
+}
+
+.primaryLinkUnifiedButton:after,
+.primaryOutlineUnifiedButton:after {
+  content: '';
+  background: #3a8def;
+  border-radius: 50%;
+  left: 50%;
+  opacity: 0;
+  padding: 70%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  transition: opacity 1.0s, transform 1.0s;
+  /* Adjusted transition time */
+  pointer-events: none;
+  /* Prevent interference with button clicks */
+}
+
+.primarySolidUnifiedButton:active:after,
+.secondarySolidUnifiedButton:active:after,
+.marketingSolidUnifiedButton:active:after,
+.primaryLinkUnifiedButton:active:after,
+.secondaryLinkUnifiedButton:active:after,
+.primaryOutlineUnifiedButton:active:after {
+  opacity: 0.4;
+  transform: translate(-50%, -50%) scale(0);
+  transition: transform 0s;
+  /* Immediate transform when active */
+  padding: 0;
+  /* Reset padding to reduce size */
+}
+
+/* Buttons click animation, end */
+.help-buttons-paragraph a {
+  color: #003865;
+  background-color: #FFC72C;
+  border: 1px solid #575757;
+  border-radius: 4px;
+  padding: 4px 8px;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  cursor: pointer;
+  transition: background 0.35s, border-color 0.35s, box-shadow 0.35s, color 0.35s;
+}
+
+.help-buttons-paragraph a:hover, .help-buttons-paragraph a:focus {
+  background-color: #e6b21f;
+}
+
+.help-buttons-paragraph a:focus {
+  outline: 2px dotted #2684FF;
+  outline-offset: 3px;
+}
+
+.help-buttons-paragraph a:link, .help-buttons-paragraph a:visited, .help-buttons-paragraph a:active {
+  color: #003865;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=unified_buttons.css.map */

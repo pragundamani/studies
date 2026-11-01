@@ -1,0 +1,497 @@
+\documentclass[11pt]{article}
+\usepackage[margin=0.65in]{geometry}
+\usepackage{fontspec}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{microtype}
+\usepackage{xcolor}
+\setmainfont{DejaVu Sans}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.45em}
+\setlength{\emergencystretch}{3em}
+\pagestyle{plain}
+\begin{document}
+\begin{center}\LARGE\bfseries Mesh Questions\end{center}
+\vspace{0.5em}
+
+\clearpage
+\section*{Question 1}
+
+Basic two-mesh currents. Find both mesh currents and the magnitude and direction of current in the shared resistor. The left top resistor is $3\,\Omega$, the shared resistor is $6\,\Omega$, and the right top resistor is $9\,\Omega$. The left and right sources are $18\,\text{V}$ and $6\,\text{V}$, respectively, both positive at the top.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/Q03-mesh-basic.png}}\end{center}
+
+\begin{quote}\small\textit{Two adjacent clockwise meshes share a $6\,\Omega$ vertical resistor. The left path has $3\,\Omega$ and a top-positive $18\,\text{V}$ source; the right path has $9\,\Omega$ and a top-positive $6\,\text{V}$ source. One wire joins the bottom nodes.}\end{quote}
+
+\subsection*{Solution}
+
+Define clockwise mesh currents $i_1$ and $i_2$ and sum signed voltage drops. The shared current is downward as $i_s=i_1-i_2$. $3i_1+6(i_1-i_2)-18=0,$ $9i_2+6(i_2-i_1)+6=0.$\par
+
+Thus, $(9)i_1-6i_2=18,\qquad -6i_1+(15)i_2=-6.$\par
+
+Solving, $i_1=\frac{26}{11}=2.364\,\text{A},\qquad i_2=\frac{6}{11}=0.5455\,\text{A}.$\par
+
+The shared current is $i_s=\frac{20}{11}=1.818\,\text{A}\text{ downward }.$\par
+
+A negative mesh current, if present, flows opposite its clockwise arrow.\par
+
+\clearpage
+\section*{Question 2}
+
+Basic source-power check. Find both mesh currents. Determine whether each voltage source absorbs or delivers power, and check total power. The left top resistor is $3\,\Omega$, the shared resistor is $6\,\Omega$, and the right top resistor is $9\,\Omega$. The left and right sources are $18\,\text{V}$ and $6\,\text{V}$, respectively, both positive at the top.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/Q03-mesh-basic.png}}\end{center}
+
+\begin{quote}\small\textit{Two adjacent clockwise meshes share a $6\,\Omega$ vertical resistor. The left path has $3\,\Omega$ and a top-positive $18\,\text{V}$ source; the right path has $9\,\Omega$ and a top-positive $6\,\text{V}$ source. One wire joins the bottom nodes.}\end{quote}
+
+\subsection*{Solution}
+
+Define clockwise mesh currents $i_1$ and $i_2$ and sum signed voltage drops. The shared current is downward as $i_s=i_1-i_2$. $3i_1+6(i_1-i_2)-18=0,$ $9i_2+6(i_2-i_1)+6=0.$\par
+
+Thus, $(9)i_1-6i_2=18,\qquad -6i_1+(15)i_2=-6.$\par
+
+Solving, $i_1=\frac{26}{11}=2.364\,\text{A},\qquad i_2=\frac{6}{11}=0.5455\,\text{A}.$\par
+
+Using passive sign convention, $p_L=-(18)i_1=42.55\,\text{W}\text{ delivered },$ $p_R=(6)i_2=3.273\,\text{W}\text{ absorbed }.$\par
+
+The resistors absorb $P_{\text{res}}=3i_1^2+6(i_1-i_2)^2+9i_2^2=39.27\,\text{W}.$\par
+
+Therefore, total absorbed power is zero: $p_L+p_R+P_{\text{res}}=0.$\par
+
+\clearpage
+\section*{Question 3}
+
+Dependent-source mesh currents. Find both mesh currents, the dependent-source voltage, and the shared current. Two meshes share a $2\,\Omega$ resistor. The left path has $4\,\Omega$ and a top-positive $10\,\text{V}$ source. The right path has $3\,\Omega$, a top-positive CCVS $v_d=(5\,\Omega)i_1$, and a $4\,\text{V}$ source positive at the bottom.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/Q04-mesh-dependent.png}}\end{center}
+
+\begin{quote}\small\textit{Clockwise meshes share $2\,\Omega$. The left path contains $4\,\Omega$ and a top-positive $10\,\text{V}$ source. The right path contains $3\,\Omega$, the top-positive CCVS $v_d=(5\,\Omega)i_1$, and a bottom-positive $4\,\text{V}$ source.}\end{quote}
+
+\subsection*{Solution}
+
+Define clockwise $i_1$ and $i_2$. Sum signed voltage drops. $-10+4i_1+2(i_1-i_2)=0,$ $2(i_2-i_1)+3i_2+5i_1-4=0.$\par
+
+Therefore, $6i_1-2i_2=10,\qquad 3i_1+5i_2=4.$\par
+
+Solving, $i_1=\frac{29}{18}=1.611\,\text{A},\qquad i_2=\frac{-1}{6}=-0.1667\,\text{A}.$\par
+
+The actual right-mesh current is $0.1667\,\text{A}$ counterclockwise.\par
+
+The dependent voltage and shared current are $v_d=5i_1=\frac{145}{18}=8.056\,\text{V},$ $i_s=i_1-i_2=\frac{16}{9}=1.778\,\text{A downward}.$\par
+
+\clearpage
+\section*{Question 4}
+
+Dependent-source power. Find both mesh currents and determine the dependent source power using passive sign convention. Two meshes share a $2\,\Omega$ resistor. The left path has $4\,\Omega$ and a top-positive $10\,\text{V}$ source. The right path has $3\,\Omega$, a top-positive CCVS $v_d=(5\,\Omega)i_1$, and a $4\,\text{V}$ source positive at the bottom.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/Q04-mesh-dependent.png}}\end{center}
+
+\begin{quote}\small\textit{Clockwise meshes share $2\,\Omega$. The left path contains $4\,\Omega$ and a top-positive $10\,\text{V}$ source. The right path contains $3\,\Omega$, the top-positive CCVS $v_d=(5\,\Omega)i_1$, and a bottom-positive $4\,\text{V}$ source.}\end{quote}
+
+\subsection*{Solution}
+
+Define clockwise $i_1$ and $i_2$. Sum signed voltage drops. $-10+4i_1+2(i_1-i_2)=0,$ $2(i_2-i_1)+3i_2+5i_1-4=0.$\par
+
+Therefore, $6i_1-2i_2=10,\qquad 3i_1+5i_2=4.$\par
+
+Solving, $i_1=\frac{29}{18}=1.611\,\text{A},\qquad i_2=\frac{-1}{6}=-0.1667\,\text{A}.$\par
+
+The actual right-mesh current is $0.1667\,\text{A}$ counterclockwise.\par
+
+The CCVS current is $i_2$ downward into its positive terminal. Thus, $p_d=v_di_2=(\frac{145}{18})(\frac{-1}{6})=-1.343\,\text{W}.$\par
+
+The negative sign means the dependent source delivers $1.343\,\text{W}$.\par
+
+\clearpage
+\section*{Question 5}
+
+Opposing sources and direction. Find both mesh currents and the magnitude and direction of current in the shared resistor. The left top resistor is $6\,\Omega$, the shared resistor is $3\,\Omega$, and the right top resistor is $4\,\Omega$. The left and right sources are $9\,\text{V}$ and $15\,\text{V}$, respectively, both positive at the top.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/mesh-B.png}}\end{center}
+
+\begin{quote}\small\textit{Two adjacent clockwise meshes share a $3\,\Omega$ vertical resistor. The left path has $6\,\Omega$ and a top-positive $9\,\text{V}$ source; the right path has $4\,\Omega$ and a top-positive $15\,\text{V}$ source. One wire joins the bottom nodes.}\end{quote}
+
+\subsection*{Solution}
+
+Define clockwise mesh currents $i_1$ and $i_2$ and sum signed voltage drops. The shared current is downward as $i_s=i_1-i_2$. $6i_1+3(i_1-i_2)-9=0,$ $4i_2+3(i_2-i_1)+15=0.$\par
+
+Thus, $(9)i_1-3i_2=9,\qquad -3i_1+(7)i_2=-15.$\par
+
+Solving, $i_1=\frac{1}{3}=0.3333\,\text{A},\qquad i_2=-2=-2\,\text{A}.$\par
+
+The shared current is $i_s=\frac{7}{3}=2.333\,\text{A}\text{ downward }.$\par
+
+A negative mesh current, if present, flows opposite its clockwise arrow.\par
+
+\clearpage
+\section*{Question 6}
+
+Opposing-source power balance. Find both mesh currents. Determine whether each voltage source absorbs or delivers power, and check total power. The left top resistor is $6\,\Omega$, the shared resistor is $3\,\Omega$, and the right top resistor is $4\,\Omega$. The left and right sources are $9\,\text{V}$ and $15\,\text{V}$, respectively, both positive at the top.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/mesh-B.png}}\end{center}
+
+\begin{quote}\small\textit{Two adjacent clockwise meshes share a $3\,\Omega$ vertical resistor. The left path has $6\,\Omega$ and a top-positive $9\,\text{V}$ source; the right path has $4\,\Omega$ and a top-positive $15\,\text{V}$ source. One wire joins the bottom nodes.}\end{quote}
+
+\subsection*{Solution}
+
+Define clockwise mesh currents $i_1$ and $i_2$ and sum signed voltage drops. The shared current is downward as $i_s=i_1-i_2$. $6i_1+3(i_1-i_2)-9=0,$ $4i_2+3(i_2-i_1)+15=0.$\par
+
+Thus, $(9)i_1-3i_2=9,\qquad -3i_1+(7)i_2=-15.$\par
+
+Solving, $i_1=\frac{1}{3}=0.3333\,\text{A},\qquad i_2=-2=-2\,\text{A}.$\par
+
+Using passive sign convention, $p_L=-(9)i_1=3\,\text{W}\text{ delivered },$ $p_R=(15)i_2=30\,\text{W}\text{ delivered }.$\par
+
+The resistors absorb $P_{\text{res}}=6i_1^2+3(i_1-i_2)^2+4i_2^2=33\,\text{W}.$\par
+
+Therefore, total absorbed power is zero: $p_L+p_R+P_{\text{res}}=0.$\par
+
+\clearpage
+\section*{Question 7}
+
+Shared-resistor voltage. Find both mesh currents and the magnitude and direction of current, then calculate the top-to-bottom voltage in the shared resistor. The left top resistor is $3\,\Omega$, the shared resistor is $7\,\Omega$, and the right top resistor is $9\,\Omega$. The left and right sources are $21\,\text{V}$ and $4\,\text{V}$, respectively, both positive at the top.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/mesh-C.png}}\end{center}
+
+\begin{quote}\small\textit{Two adjacent clockwise meshes share a $7\,\Omega$ vertical resistor. The left path has $3\,\Omega$ and a top-positive $21\,\text{V}$ source; the right path has $9\,\Omega$ and a top-positive $4\,\text{V}$ source. One wire joins the bottom nodes.}\end{quote}
+
+\subsection*{Solution}
+
+Define clockwise mesh currents $i_1$ and $i_2$ and sum signed voltage drops. The shared current is downward as $i_s=i_1-i_2$. $3i_1+7(i_1-i_2)-21=0,$ $9i_2+7(i_2-i_1)+4=0.$\par
+
+Thus, $(10)i_1-7i_2=21,\qquad -7i_1+(16)i_2=-4.$\par
+
+Solving, $i_1=\frac{308}{111}=2.775\,\text{A},\qquad i_2=\frac{107}{111}=0.964\,\text{A}.$\par
+
+The shared current is $i_s=\frac{67}{37}=1.811\,\text{A}\text{ downward }.$\par
+
+A negative mesh current, if present, flows opposite its clockwise arrow.\par
+The shared-resistor voltage, top relative to bottom, is $v_s=(7\,\Omega)(i_1-i_2)=12.68\,\text{V}.$\par
+
+\clearpage
+\section*{Question 8}
+
+Power in two sources. Find both mesh currents. Determine whether each voltage source absorbs or delivers power, and check total power. The left top resistor is $3\,\Omega$, the shared resistor is $7\,\Omega$, and the right top resistor is $9\,\Omega$. The left and right sources are $21\,\text{V}$ and $4\,\text{V}$, respectively, both positive at the top.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/mesh-C.png}}\end{center}
+
+\begin{quote}\small\textit{Two adjacent clockwise meshes share a $7\,\Omega$ vertical resistor. The left path has $3\,\Omega$ and a top-positive $21\,\text{V}$ source; the right path has $9\,\Omega$ and a top-positive $4\,\text{V}$ source. One wire joins the bottom nodes.}\end{quote}
+
+\subsection*{Solution}
+
+Define clockwise mesh currents $i_1$ and $i_2$ and sum signed voltage drops. The shared current is downward as $i_s=i_1-i_2$. $3i_1+7(i_1-i_2)-21=0,$ $9i_2+7(i_2-i_1)+4=0.$\par
+
+Thus, $(10)i_1-7i_2=21,\qquad -7i_1+(16)i_2=-4.$\par
+
+Solving, $i_1=\frac{308}{111}=2.775\,\text{A},\qquad i_2=\frac{107}{111}=0.964\,\text{A}.$\par
+
+Using passive sign convention, $p_L=-(21)i_1=58.27\,\text{W}\text{ delivered },$ $p_R=(4)i_2=3.856\,\text{W}\text{ absorbed }.$\par
+
+The resistors absorb $P_{\text{res}}=3i_1^2+7(i_1-i_2)^2+9i_2^2=54.41\,\text{W}.$\par
+
+Therefore, total absorbed power is zero: $p_L+p_R+P_{\text{res}}=0.$\par
+
+\clearpage
+\section*{Question 9}
+
+Negative right-mesh current. Find both mesh currents and the magnitude and direction of current in the shared resistor. The left top resistor is $8\,\Omega$, the shared resistor is $4\,\Omega$, and the right top resistor is $6\,\Omega$. The left and right sources are $24\,\text{V}$ and $12\,\text{V}$, respectively, both positive at the top.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/mesh-E.png}}\end{center}
+
+\begin{quote}\small\textit{Two adjacent clockwise meshes share a $4\,\Omega$ vertical resistor. The left path has $8\,\Omega$ and a top-positive $24\,\text{V}$ source; the right path has $6\,\Omega$ and a top-positive $12\,\text{V}$ source. One wire joins the bottom nodes.}\end{quote}
+
+\subsection*{Solution}
+
+Define clockwise mesh currents $i_1$ and $i_2$ and sum signed voltage drops. The shared current is downward as $i_s=i_1-i_2$. $8i_1+4(i_1-i_2)-24=0,$ $6i_2+4(i_2-i_1)+12=0.$\par
+
+Thus, $(12)i_1-4i_2=24,\qquad -4i_1+(10)i_2=-12.$\par
+
+Solving, $i_1=\frac{24}{13}=1.846\,\text{A},\qquad i_2=\frac{-6}{13}=-0.4615\,\text{A}.$\par
+
+The shared current is $i_s=\frac{30}{13}=2.308\,\text{A}\text{ downward }.$\par
+
+A negative mesh current, if present, flows opposite its clockwise arrow.\par
+
+\clearpage
+\section*{Question 10}
+
+Two-mesh resistor power. Find both mesh currents. Determine whether each voltage source absorbs or delivers power, and check total power. The left top resistor is $8\,\Omega$, the shared resistor is $4\,\Omega$, and the right top resistor is $6\,\Omega$. The left and right sources are $24\,\text{V}$ and $12\,\text{V}$, respectively, both positive at the top.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/mesh-E.png}}\end{center}
+
+\begin{quote}\small\textit{Two adjacent clockwise meshes share a $4\,\Omega$ vertical resistor. The left path has $8\,\Omega$ and a top-positive $24\,\text{V}$ source; the right path has $6\,\Omega$ and a top-positive $12\,\text{V}$ source. One wire joins the bottom nodes.}\end{quote}
+
+\subsection*{Solution}
+
+Define clockwise mesh currents $i_1$ and $i_2$ and sum signed voltage drops. The shared current is downward as $i_s=i_1-i_2$. $8i_1+4(i_1-i_2)-24=0,$ $6i_2+4(i_2-i_1)+12=0.$\par
+
+Thus, $(12)i_1-4i_2=24,\qquad -4i_1+(10)i_2=-12.$\par
+
+Solving, $i_1=\frac{24}{13}=1.846\,\text{A},\qquad i_2=\frac{-6}{13}=-0.4615\,\text{A}.$\par
+
+Using passive sign convention, $p_L=-(24)i_1=44.31\,\text{W}\text{ delivered },$ $p_R=(12)i_2=5.538\,\text{W}\text{ delivered }.$\par
+
+The resistors absorb $P_{\text{res}}=8i_1^2+4(i_1-i_2)^2+6i_2^2=49.85\,\text{W}.$\par
+
+Therefore, total absorbed power is zero: $p_L+p_R+P_{\text{res}}=0.$\par
+
+\clearpage
+\section*{Question 11}
+
+Three-mesh equation set. Find all mesh currents and the direction of both shared-branch currents. The top resistors are $4\,\Omega$, $5\,\Omega$, and $6\,\Omega$; shared resistors are $3\,\Omega$ and $2\,\Omega$. The outer sources are $20\,\text{V}$ and $10\,\text{V}$, both positive at the top.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/Q14-mesh-power-check.png}}\end{center}
+
+\begin{quote}\small\textit{Three clockwise meshes have top resistors $4\,\Omega$, $5\,\Omega$, and $6\,\Omega$. Shared branches are $3\,\Omega$ and $2\,\Omega$. Top-positive $20\,\text{V}$ and $10\,\text{V}$ sources close the left and right sides; the bottom is one wire.}\end{quote}
+
+\subsection*{Solution}
+
+Define clockwise mesh currents $i_1$, $i_2$, and $i_3$. Downward shared currents are $i_1-i_2$ and $i_2-i_3$.\par
+
+\[(7)i_1-3i_2=20,\]
+
+\[-3i_1+(10)i_2-2i_3=0,\]
+
+\[-2i_2+(8)i_3=-10.\]
+
+Solving, $i_1=\frac{73}{23}=3.174\,\text{A},\quad i_2=\frac{17}{23}=0.7391\,\text{A},\quad i_3=\frac{-49}{46}=-1.065\,\text{A}.$\par
+
+The shared currents are $i_1-i_2=\frac{56}{23}=2.435\,\text{A}\text{ downward },$ $i_2-i_3=\frac{83}{46}=1.804\,\text{A}\text{ downward }.$\par
+
+Any negative mesh current flows counterclockwise.\par
+
+\clearpage
+\section*{Question 12}
+
+Three-mesh power check. Find all mesh currents and verify power balance, including absorbed or delivered source power. The top resistors are $4\,\Omega$, $5\,\Omega$, and $6\,\Omega$; shared resistors are $3\,\Omega$ and $2\,\Omega$. The outer sources are $20\,\text{V}$ and $10\,\text{V}$, both positive at the top.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/Q14-mesh-power-check.png}}\end{center}
+
+\begin{quote}\small\textit{Three clockwise meshes have top resistors $4\,\Omega$, $5\,\Omega$, and $6\,\Omega$. Shared branches are $3\,\Omega$ and $2\,\Omega$. Top-positive $20\,\text{V}$ and $10\,\text{V}$ sources close the left and right sides; the bottom is one wire.}\end{quote}
+
+\subsection*{Solution}
+
+Define clockwise mesh currents $i_1$, $i_2$, and $i_3$. Downward shared currents are $i_1-i_2$ and $i_2-i_3$.\par
+
+\[(7)i_1-3i_2=20,\]
+
+\[-3i_1+(10)i_2-2i_3=0,\]
+
+\[-2i_2+(8)i_3=-10.\]
+
+Solving, $i_1=\frac{73}{23}=3.174\,\text{A},\quad i_2=\frac{17}{23}=0.7391\,\text{A},\quad i_3=\frac{-49}{46}=-1.065\,\text{A}.$\par
+
+The source powers under passive sign convention are $p_L=-20i_1=63.48\,\text{W}\text{ delivered },\qquad p_R=10i_3=10.65\,\text{W}\text{ delivered }.$\par
+
+Total resistor absorption is $P_{\text{res}}=4i_1^2+5i_2^2+6i_3^2+3(i_1-i_2)^2+2(i_2-i_3)^2=74.13\,\text{W}.$\par
+
+The check is $p_L+p_R+P_{\text{res}}=0.$\par
+
+\clearpage
+\section*{Question 13}
+
+Three-mesh coupling. Find all mesh currents and the direction of both shared-branch currents. The top resistors are $2\,\Omega$, $5\,\Omega$, and $7\,\Omega$; shared resistors are $3\,\Omega$ and $4\,\Omega$. The outer sources are $18\,\text{V}$ and $6\,\text{V}$, both positive at the top.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/mesh-F.png}}\end{center}
+
+\begin{quote}\small\textit{Three clockwise meshes have top resistors $2\,\Omega$, $5\,\Omega$, and $7\,\Omega$. Shared branches are $3\,\Omega$ and $4\,\Omega$. Top-positive $18\,\text{V}$ and $6\,\text{V}$ sources close the left and right sides; the bottom is one wire.}\end{quote}
+
+\subsection*{Solution}
+
+Define clockwise mesh currents $i_1$, $i_2$, and $i_3$. Downward shared currents are $i_1-i_2$ and $i_2-i_3$.\par
+
+\[(5)i_1-3i_2=18,\]
+
+\[-3i_1+(12)i_2-4i_3=0,\]
+
+\[-4i_2+(11)i_3=-6.\]
+
+Solving, $i_1=\frac{2016}{481}=4.191\,\text{A},\quad i_2=\frac{474}{481}=0.9854\,\text{A},\quad i_3=\frac{-90}{481}=-0.1871\,\text{A}.$\par
+
+The shared currents are $i_1-i_2=\frac{1542}{481}=3.206\,\text{A}\text{ downward },$ $i_2-i_3=\frac{564}{481}=1.173\,\text{A}\text{ downward }.$\par
+
+Any negative mesh current flows counterclockwise.\par
+
+\clearpage
+\section*{Question 14}
+
+Three-mesh source power. Find all mesh currents and verify power balance, including absorbed or delivered source power. The top resistors are $2\,\Omega$, $5\,\Omega$, and $7\,\Omega$; shared resistors are $3\,\Omega$ and $4\,\Omega$. The outer sources are $18\,\text{V}$ and $6\,\text{V}$, both positive at the top.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/mesh-F.png}}\end{center}
+
+\begin{quote}\small\textit{Three clockwise meshes have top resistors $2\,\Omega$, $5\,\Omega$, and $7\,\Omega$. Shared branches are $3\,\Omega$ and $4\,\Omega$. Top-positive $18\,\text{V}$ and $6\,\text{V}$ sources close the left and right sides; the bottom is one wire.}\end{quote}
+
+\subsection*{Solution}
+
+Define clockwise mesh currents $i_1$, $i_2$, and $i_3$. Downward shared currents are $i_1-i_2$ and $i_2-i_3$.\par
+
+\[(5)i_1-3i_2=18,\]
+
+\[-3i_1+(12)i_2-4i_3=0,\]
+
+\[-4i_2+(11)i_3=-6.\]
+
+Solving, $i_1=\frac{2016}{481}=4.191\,\text{A},\quad i_2=\frac{474}{481}=0.9854\,\text{A},\quad i_3=\frac{-90}{481}=-0.1871\,\text{A}.$\par
+
+The source powers under passive sign convention are $p_L=-18i_1=75.44\,\text{W}\text{ delivered },\qquad p_R=6i_3=1.123\,\text{W}\text{ delivered }.$\par
+
+Total resistor absorption is $P_{\text{res}}=2i_1^2+5i_2^2+7i_3^2+3(i_1-i_2)^2+4(i_2-i_3)^2=76.57\,\text{W}.$\par
+
+The check is $p_L+p_R+P_{\text{res}}=0.$\par
+
+\clearpage
+\section*{Question 15}
+
+Interpret three signed currents. Find all mesh currents and the direction of both shared-branch currents. The top resistors are $4\,\Omega$, $7\,\Omega$, and $3\,\Omega$; shared resistors are $2\,\Omega$ and $6\,\Omega$. The outer sources are $8\,\text{V}$ and $24\,\text{V}$, both positive at the top.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/mesh-G.png}}\end{center}
+
+\begin{quote}\small\textit{Three clockwise meshes have top resistors $4\,\Omega$, $7\,\Omega$, and $3\,\Omega$. Shared branches are $2\,\Omega$ and $6\,\Omega$. Top-positive $8\,\text{V}$ and $24\,\text{V}$ sources close the left and right sides; the bottom is one wire.}\end{quote}
+
+\subsection*{Solution}
+
+Define clockwise mesh currents $i_1$, $i_2$, and $i_3$. Downward shared currents are $i_1-i_2$ and $i_2-i_3$.\par
+
+\[(6)i_1-2i_2=8,\]
+
+\[-2i_1+(15)i_2-6i_3=0,\]
+
+\[-6i_2+(9)i_3=-24.\]
+
+Solving, $i_1=\frac{28}{31}=0.9032\,\text{A},\quad i_2=\frac{-40}{31}=-1.29\,\text{A},\quad i_3=\frac{-328}{93}=-3.527\,\text{A}.$\par
+
+The shared currents are $i_1-i_2=\frac{68}{31}=2.194\,\text{A}\text{ downward },$ $i_2-i_3=\frac{208}{93}=2.237\,\text{A}\text{ downward }.$\par
+
+Any negative mesh current flows counterclockwise.\par
+
+\clearpage
+\section*{Question 16}
+
+Power with reversed currents. Find all mesh currents and verify power balance, including absorbed or delivered source power. The top resistors are $4\,\Omega$, $7\,\Omega$, and $3\,\Omega$; shared resistors are $2\,\Omega$ and $6\,\Omega$. The outer sources are $8\,\text{V}$ and $24\,\text{V}$, both positive at the top.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/mesh-G.png}}\end{center}
+
+\begin{quote}\small\textit{Three clockwise meshes have top resistors $4\,\Omega$, $7\,\Omega$, and $3\,\Omega$. Shared branches are $2\,\Omega$ and $6\,\Omega$. Top-positive $8\,\text{V}$ and $24\,\text{V}$ sources close the left and right sides; the bottom is one wire.}\end{quote}
+
+\subsection*{Solution}
+
+Define clockwise mesh currents $i_1$, $i_2$, and $i_3$. Downward shared currents are $i_1-i_2$ and $i_2-i_3$.\par
+
+\[(6)i_1-2i_2=8,\]
+
+\[-2i_1+(15)i_2-6i_3=0,\]
+
+\[-6i_2+(9)i_3=-24.\]
+
+Solving, $i_1=\frac{28}{31}=0.9032\,\text{A},\quad i_2=\frac{-40}{31}=-1.29\,\text{A},\quad i_3=\frac{-328}{93}=-3.527\,\text{A}.$\par
+
+The source powers under passive sign convention are $p_L=-8i_1=7.226\,\text{W}\text{ delivered },\qquad p_R=24i_3=84.65\,\text{W}\text{ delivered }.$\par
+
+Total resistor absorption is $P_{\text{res}}=4i_1^2+7i_2^2+3i_3^2+2(i_1-i_2)^2+6(i_2-i_3)^2=91.87\,\text{W}.$\par
+
+The check is $p_L+p_R+P_{\text{res}}=0.$\par
+
+\clearpage
+\section*{Question 17}
+
+Two shared-branch directions. Find all mesh currents and the direction of both shared-branch currents. The top resistors are $9\,\Omega$, $4\,\Omega$, and $5\,\Omega$; shared resistors are $7\,\Omega$ and $3\,\Omega$. The outer sources are $30\,\text{V}$ and $12\,\text{V}$, both positive at the top.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/mesh-H.png}}\end{center}
+
+\begin{quote}\small\textit{Three clockwise meshes have top resistors $9\,\Omega$, $4\,\Omega$, and $5\,\Omega$. Shared branches are $7\,\Omega$ and $3\,\Omega$. Top-positive $30\,\text{V}$ and $12\,\text{V}$ sources close the left and right sides; the bottom is one wire.}\end{quote}
+
+\subsection*{Solution}
+
+Define clockwise mesh currents $i_1$, $i_2$, and $i_3$. Downward shared currents are $i_1-i_2$ and $i_2-i_3$.\par
+
+\[(16)i_1-7i_2=30,\]
+
+\[-7i_1+(14)i_2-3i_3=0,\]
+
+\[-3i_2+(8)i_3=-12.\]
+
+Solving, $i_1=\frac{1419}{628}=2.26\,\text{A},\quad i_2=\frac{138}{157}=0.879\,\text{A},\quad i_3=\frac{-735}{628}=-1.17\,\text{A}.$\par
+
+The shared currents are $i_1-i_2=\frac{867}{628}=1.381\,\text{A}\text{ downward },$ $i_2-i_3=\frac{1287}{628}=2.049\,\text{A}\text{ downward }.$\par
+
+Any negative mesh current flows counterclockwise.\par
+
+\clearpage
+\section*{Question 18}
+
+Outer-source power status. Find all mesh currents and verify power balance, including absorbed or delivered source power. The top resistors are $9\,\Omega$, $4\,\Omega$, and $5\,\Omega$; shared resistors are $7\,\Omega$ and $3\,\Omega$. The outer sources are $30\,\text{V}$ and $12\,\text{V}$, both positive at the top.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/mesh-H.png}}\end{center}
+
+\begin{quote}\small\textit{Three clockwise meshes have top resistors $9\,\Omega$, $4\,\Omega$, and $5\,\Omega$. Shared branches are $7\,\Omega$ and $3\,\Omega$. Top-positive $30\,\text{V}$ and $12\,\text{V}$ sources close the left and right sides; the bottom is one wire.}\end{quote}
+
+\subsection*{Solution}
+
+Define clockwise mesh currents $i_1$, $i_2$, and $i_3$. Downward shared currents are $i_1-i_2$ and $i_2-i_3$.\par
+
+\[(16)i_1-7i_2=30,\]
+
+\[-7i_1+(14)i_2-3i_3=0,\]
+
+\[-3i_2+(8)i_3=-12.\]
+
+Solving, $i_1=\frac{1419}{628}=2.26\,\text{A},\quad i_2=\frac{138}{157}=0.879\,\text{A},\quad i_3=\frac{-735}{628}=-1.17\,\text{A}.$\par
+
+The source powers under passive sign convention are $p_L=-30i_1=67.79\,\text{W}\text{ delivered },\qquad p_R=12i_3=14.04\,\text{W}\text{ delivered }.$\par
+
+Total resistor absorption is $P_{\text{res}}=9i_1^2+4i_2^2+5i_3^2+7(i_1-i_2)^2+3(i_2-i_3)^2=81.83\,\text{W}.$\par
+
+The check is $p_L+p_R+P_{\text{res}}=0.$\par
+
+\clearpage
+\section*{Question 19}
+
+Challenge: tightly coupled meshes. Find all mesh currents and the direction of both shared-branch currents. The top resistors are $5\,\Omega$, $8\,\Omega$, and $4\,\Omega$; shared resistors are $4\,\Omega$ and $5\,\Omega$. The outer sources are $16\,\text{V}$ and $14\,\text{V}$, both positive at the top.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/mesh-I.png}}\end{center}
+
+\begin{quote}\small\textit{Three clockwise meshes have top resistors $5\,\Omega$, $8\,\Omega$, and $4\,\Omega$. Shared branches are $4\,\Omega$ and $5\,\Omega$. Top-positive $16\,\text{V}$ and $14\,\text{V}$ sources close the left and right sides; the bottom is one wire.}\end{quote}
+
+\subsection*{Solution}
+
+Define clockwise mesh currents $i_1$, $i_2$, and $i_3$. Downward shared currents are $i_1-i_2$ and $i_2-i_3$.\par
+
+\[(9)i_1-4i_2=16,\]
+
+\[-4i_1+(17)i_2-5i_3=0,\]
+
+\[-5i_2+(9)i_3=-14.\]
+
+Solving, $i_1=\frac{221}{126}=1.754\,\text{A},\quad i_2=\frac{-3}{56}=-0.05357\,\text{A},\quad i_3=\frac{-799}{504}=-1.585\,\text{A}.$\par
+
+The shared currents are $i_1-i_2=\frac{911}{504}=1.808\,\text{A}\text{ downward },$ $i_2-i_3=\frac{193}{126}=1.532\,\text{A}\text{ downward }.$\par
+
+Any negative mesh current flows counterclockwise.\par
+
+\clearpage
+\section*{Question 20}
+
+Challenge: full power balance. Find all mesh currents and verify power balance, including absorbed or delivered source power. The top resistors are $5\,\Omega$, $8\,\Omega$, and $4\,\Omega$; shared resistors are $4\,\Omega$ and $5\,\Omega$. The outer sources are $16\,\text{V}$ and $14\,\text{V}$, both positive at the top.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/mesh-I.png}}\end{center}
+
+\begin{quote}\small\textit{Three clockwise meshes have top resistors $5\,\Omega$, $8\,\Omega$, and $4\,\Omega$. Shared branches are $4\,\Omega$ and $5\,\Omega$. Top-positive $16\,\text{V}$ and $14\,\text{V}$ sources close the left and right sides; the bottom is one wire.}\end{quote}
+
+\subsection*{Solution}
+
+Define clockwise mesh currents $i_1$, $i_2$, and $i_3$. Downward shared currents are $i_1-i_2$ and $i_2-i_3$.\par
+
+\[(9)i_1-4i_2=16,\]
+
+\[-4i_1+(17)i_2-5i_3=0,\]
+
+\[-5i_2+(9)i_3=-14.\]
+
+Solving, $i_1=\frac{221}{126}=1.754\,\text{A},\quad i_2=\frac{-3}{56}=-0.05357\,\text{A},\quad i_3=\frac{-799}{504}=-1.585\,\text{A}.$\par
+
+The source powers under passive sign convention are $p_L=-16i_1=28.06\,\text{W}\text{ delivered },\qquad p_R=14i_3=22.19\,\text{W}\text{ delivered }.$\par
+
+Total resistor absorption is $P_{\text{res}}=5i_1^2+8i_2^2+4i_3^2+4(i_1-i_2)^2+5(i_2-i_3)^2=50.26\,\text{W}.$\par
+
+The check is $p_L+p_R+P_{\text{res}}=0.$\par
+\end{document}

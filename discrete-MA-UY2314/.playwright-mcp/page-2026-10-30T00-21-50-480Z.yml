@@ -1,0 +1,1939 @@
+- generic [ref=f50e3]:
+  - generic [ref=f50e4]:
+    - link "Skip to content" [ref=f50e5] [cursor=pointer]:
+      - /url: ""
+    - link "Skip to navigation" [ref=f50e6] [cursor=pointer]:
+      - /url: ""
+  - generic [ref=f50e7]:
+    - banner [ref=f50e8]:
+      - generic [ref=f50e10]:
+        - button "Cengage WebAssign Homepage" [ref=f50e12] [cursor=pointer]:
+          - img "Cengage WebAssign Homepage" [ref=f50e13]
+        - generic [ref=f50e34]:
+          - generic [ref=f50e35]:
+            - link "My Cengage Home" [ref=f50e36] [cursor=pointer]:
+              - /url: https://www.cengage.com/dashboard/
+            - button "Open Email Notification Settings modal" [ref=f50e41] [cursor=pointer]
+            - link "Open Help page in a new browser tab." [ref=f50e45] [cursor=pointer]:
+              - /url: https://help.cengage.com/webassign/student_guide/
+            - link "Open My Account in a new browser tab." [ref=f50e49] [cursor=pointer]:
+              - /url: /web/User/Cengage/my_account
+            - button "Interface language setting. Language set to English" [ref=f50e54] [cursor=pointer]:
+              - generic [ref=f50e57]: EN
+          - generic [ref=f50e61]:
+            - generic [ref=f50e62]: pd2752@nyu.edu
+            - button "Sign out" [ref=f50e63] [cursor=pointer]
+      - navigation "WebAssign" [ref=f50e66]:
+        - link "Home" [ref=f50e67]
+        - link "My Assignments" [ref=f50e68]
+        - link "Grades" [ref=f50e69]
+        - link "Communication" [ref=f50e70]
+        - link "Calendar" [ref=f50e71]
+        - button "My eBooks" [ref=f50e74]
+    - main [ref=f50e77]:
+      - generic [ref=f50e78]:
+        - generic [ref=f50e79]:
+          - generic [ref=f50e81]:
+            - generic [ref=f50e82]:
+              - 'link "navigate back to MA-UY 2314: Discrete Mathematics, Fall 2026, Fall 2026" [ref=f50e84] [cursor=pointer]':
+                - /url: /v4cgi/student.pl?course=1319576,1715067
+                - text: "MA-UY 2314: Discrete Mathematics, Fall 2026, Fall 2026"
+              - 'heading "4.10 Application: Algorithms (Homework)" [level=1] [ref=f50e87]'
+            - generic [ref=f50e90]:
+              - generic [ref=f50e94]:
+                - text: Instructor
+                - generic [ref=f50e95]: Ken Cereste
+              - generic [ref=f50e96]: New York University
+          - generic [ref=f50e99]:
+            - generic [ref=f50e100]:
+              - generic [ref=f50e101]:
+                - generic [ref=f50e102]:
+                  - generic [ref=f50e103]: "Due Date: Thursday, October 29, 2026 at 11:59 PM EDT"
+                  - generic [aria-hidden] [ref=f50e104]: "Due Date:"
+                  - generic [aria-hidden] [ref=f50e105]: Thu, Oct 29, 2026 11:59 PM EDT
+                - generic [ref=f50e106]:
+                  - generic [ref=f50e107]: "Current Score: 73.78 / 100 Points 73.8%"
+                  - generic [aria-hidden] [ref=f50e108]: "Current Score:"
+                  - generic [aria-hidden] [ref=f50e109]: 73.78 / 100 Points | 73.8 %
+              - generic [ref=f50e110]:
+                - button "Open Request Extension in modal window" [ref=f50e111] [cursor=pointer]:
+                  - generic [ref=f50e112]: Request Extension
+                - button "Print assignment" [ref=f50e116] [cursor=pointer]:
+                  - generic [ref=f50e117]: Print Assignment
+            - generic [ref=f50e123]:
+              - heading [level=2] [ref=f50e124]:
+                - button "Scoring and Assignment Information" [expanded] [ref=f50e125] [cursor=pointer]
+              - generic "Scoring and Assignment Information" [ref=f50e132]:
+                - generic [ref=f50e133]:
+                  - table [ref=f50e136]:
+                    - rowgroup [ref=f50e137]:
+                      - row [ref=f50e138]:
+                        - rowheader "Question" [ref=f50e139]
+                        - columnheader [ref=f50e140]:
+                          - link "Question 1 of 6," [ref=f50e141] [cursor=pointer]:
+                            - /url: "#Q1"
+                            - generic [ref=f50e142]: "1"
+                        - columnheader [ref=f50e144]:
+                          - link "Question 2 of 6," [ref=f50e145] [cursor=pointer]:
+                            - /url: "#Q2"
+                            - generic [ref=f50e146]: "2"
+                        - columnheader [ref=f50e148]:
+                          - link "Question 3 of 6," [ref=f50e149] [cursor=pointer]:
+                            - /url: "#Q3"
+                            - generic [ref=f50e150]: "3"
+                        - columnheader [ref=f50e152]:
+                          - link "Question 4 of 6," [ref=f50e153] [cursor=pointer]:
+                            - /url: "#Q4"
+                            - generic [ref=f50e154]: "4"
+                        - columnheader [ref=f50e156]:
+                          - link "Question 5 of 6," [ref=f50e157] [cursor=pointer]:
+                            - /url: "#Q5"
+                            - generic [ref=f50e158]: "5"
+                        - columnheader [ref=f50e160]:
+                          - link "Question 6 of 6," [ref=f50e161] [cursor=pointer]:
+                            - /url: "#Q6"
+                            - generic [ref=f50e162]: "6"
+                      - row [ref=f50e164]:
+                        - rowheader "Points" [ref=f50e165]
+                        - cell [ref=f50e166]:
+                          - link "Question 1 out of 6, correct, your score is 16.66 out of 16.66" [ref=f50e167] [cursor=pointer]:
+                            - /url: "#Q1"
+                            - generic [ref=f50e168]: 16.66 / 16.66
+                        - cell [ref=f50e169]:
+                          - link "Question 2 out of 6, correct, your score is 16.66 out of 16.66" [ref=f50e170] [cursor=pointer]:
+                            - /url: "#Q2"
+                            - generic [ref=f50e171]: 16.66 / 16.66
+                        - cell [ref=f50e172]:
+                          - link "Question 3 out of 6, correct, your score is 16.66 out of 16.66" [ref=f50e173] [cursor=pointer]:
+                            - /url: "#Q3"
+                            - generic [ref=f50e174]: 16.66 / 16.66
+                        - cell [ref=f50e175]:
+                          - link "Question 4 out of 6, correct, your score is 16.66 out of 16.66" [ref=f50e176] [cursor=pointer]:
+                            - /url: "#Q4"
+                            - generic [ref=f50e177]: 16.66 / 16.66
+                        - cell [ref=f50e178]:
+                          - link "Question 5 out of 6, your score is 7.14 out of 16.66" [ref=f50e179] [cursor=pointer]:
+                            - /url: "#Q5"
+                            - generic [ref=f50e180]: 7.14 / 16.66
+                        - cell [ref=f50e181]:
+                          - link "Question 6 out of 6, your score is none out of 16.7" [ref=f50e182] [cursor=pointer]:
+                            - /url: "#Q6"
+                            - generic [ref=f50e183]: – / 16.7
+                  - generic [ref=f50e184]:
+                    - heading "Assignment Submission" [level=3] [ref=f50e185]
+                    - paragraph [ref=f50e186]: For this assignment, you submit answers by question parts. The number of submissions remaining for each question part only changes if you submit or change the answer.
+                    - heading "Assignment Scoring" [level=3] [ref=f50e187]
+                    - paragraph [ref=f50e188]: Your last submission is used for your score.
+          - generic [ref=f50e189]:
+            - region "Banner for question 1" [ref=f50e192]:
+              - generic [ref=f50e193]:
+                - heading "Question 1" [level=2] [ref=f50e195]: "1."
+                - strong [ref=f50e196]: "[16.66 / 16.66 Points]"
+              - generic [ref=f50e197]:
+                - button "Details for question 1." [ref=f50e198] [cursor=pointer]:
+                  - generic [ref=f50e199]: Details
+                - button "My Notes For question 1" [ref=f50e202] [cursor=pointer]:
+                  - generic [ref=f50e203]: My Notes
+                - button "Previous Answers for question 1" [ref=f50e204] [cursor=pointer]:
+                  - generic [ref=f50e205]: Previous Answers
+                - button "Practice Another Version for question 1." [ref=f50e206] [cursor=pointer]:
+                  - generic [ref=f50e207]: Practice Another
+            - generic [ref=f50e208]:
+              - generic [ref=f50e210]:
+                - generic [ref=f50e211]: EppDiscMath5 4.10.011.
+                - region [ref=f50e212]:
+                  - strong [ref=f50e213]: Problem 1
+                  - generic [ref=f50e214]: Find the greatest common divisor for the integers given below. (Use any method you wish.)
+                  - group [ref=f50e215]: 4 and 16
+                  - generic [ref=f50e216]:
+                    - generic [ref=f50e1040]:
+                      - generic [ref=f50e1044]:
+                        - generic [ref=f50e1045]: gcd
+                        - generic [ref=f50e1046]: (
+                        - generic [ref=f50e1047]: "4"
+                        - generic [ref=f50e1048]: ","
+                        - generic [ref=f50e1049]: "16"
+                        - generic [ref=f50e1050]: )
+                        - generic [ref=f50e1051]: =
+                      - math [ref=f50e1052]:
+                        - generic [ref=f50e1053]: gcd
+                        - generic [ref=f50e1054]: (
+                        - generic [ref=f50e1055]: "4"
+                        - generic [ref=f50e1056]: ","
+                        - generic [ref=f50e1057]: "16"
+                        - generic [ref=f50e1058]: )
+                        - generic [ref=f50e1059]: =
+                    - textbox "gcd ( 4 , 16 ) =" [ref=f50e1060]: "4"
+                    - 'img "Correct: Your answer is correct." [ref=f50e223]'
+                - generic "Resource box" [ref=f50e227]:
+                  - generic [ref=f50e228]:
+                    - generic [ref=f50e229]: Resources
+                    - generic [ref=f50e230]:
+                      - paragraph [ref=f50e231]:
+                        - link "Read It (opens in a new tab)" [ref=f50e232] [cursor=pointer]:
+                          - /url: "#"
+                          - text: Read It
+                      - button "Ask Student Assistant for question 1" [ref=f50e233] [cursor=pointer]: Student Assistant
+              - button "Submit Answer" [ref=f50e236] [cursor=pointer]
+          - generic [ref=f50e237]:
+            - region "Banner for question 2" [ref=f50e240]:
+              - generic [ref=f50e241]:
+                - heading "Question 2" [level=2] [ref=f50e243]: "2."
+                - strong [ref=f50e244]: "[16.66 / 16.66 Points]"
+              - generic [ref=f50e245]:
+                - button "Details for question 2." [ref=f50e246] [cursor=pointer]:
+                  - generic [ref=f50e247]: Details
+                - button "My Notes For question 2" [ref=f50e250] [cursor=pointer]:
+                  - generic [ref=f50e251]: My Notes
+                - button "Previous Answers for question 2" [ref=f50e252] [cursor=pointer]:
+                  - generic [ref=f50e253]: Previous Answers
+                - button "Practice Another Version for question 2." [ref=f50e254] [cursor=pointer]:
+                  - generic [ref=f50e255]: Practice Another
+            - generic [ref=f50e256]:
+              - generic [ref=f50e258]:
+                - generic [ref=f50e259]: EppDiscMath5 4.10.012.
+                - region [ref=f50e260]:
+                  - strong [ref=f50e261]: Problem 2
+                  - generic [ref=f50e262]: Find the greatest common divisor for the integers given below. (Use any method you wish.)
+                  - group [ref=f50e263]: 40 and 35
+                  - generic [ref=f50e264]:
+                    - generic [ref=f50e1063]:
+                      - generic [ref=f50e1067]:
+                        - generic [ref=f50e1068]: g
+                        - generic [ref=f50e1070]: c
+                        - generic [ref=f50e1071]: d
+                        - generic [ref=f50e1073]: (
+                        - generic [ref=f50e1074]: "40"
+                        - generic [ref=f50e1075]: ","
+                        - generic [ref=f50e1076]: "35"
+                        - generic [ref=f50e1077]: )
+                        - generic [ref=f50e1078]: =
+                      - math [ref=f50e1079]:
+                        - generic [ref=f50e1080]: g
+                        - generic [ref=f50e1081]: c
+                        - generic [ref=f50e1082]: d
+                        - generic [ref=f50e1083]: (
+                        - generic [ref=f50e1084]: "40"
+                        - generic [ref=f50e1085]: ","
+                        - generic [ref=f50e1086]: "35"
+                        - generic [ref=f50e1087]: )
+                        - generic [ref=f50e1088]: =
+                    - textbox "g c d ( 40 , 35 ) =" [ref=f50e1089]: "5"
+                    - 'img "Correct: Your answer is correct." [ref=f50e271]'
+                - generic "Resource box" [ref=f50e275]:
+                  - generic [ref=f50e276]:
+                    - generic [ref=f50e277]: Resources
+                    - generic [ref=f50e278]:
+                      - paragraph [ref=f50e279]:
+                        - link "Read It (opens in a new tab)" [ref=f50e280] [cursor=pointer]:
+                          - /url: "#"
+                          - text: Read It
+                      - button "Ask Student Assistant for question 2" [ref=f50e281] [cursor=pointer]: Student Assistant
+              - button "Submit Answer" [ref=f50e284] [cursor=pointer]
+          - generic [ref=f50e285]:
+            - region "Banner for question 3" [ref=f50e288]:
+              - generic [ref=f50e289]:
+                - heading "Question 3" [level=2] [ref=f50e291]: "3."
+                - strong [ref=f50e292]: "[16.66 / 16.66 Points]"
+              - generic [ref=f50e293]:
+                - button "Details for question 3." [ref=f50e294] [cursor=pointer]:
+                  - generic [ref=f50e295]: Details
+                - button "My Notes For question 3" [ref=f50e298] [cursor=pointer]:
+                  - generic [ref=f50e299]: My Notes
+                - button "Previous Answers for question 3" [ref=f50e300] [cursor=pointer]:
+                  - generic [ref=f50e301]: Previous Answers
+                - button "Practice Another Version for question 3." [ref=f50e302] [cursor=pointer]:
+                  - generic [ref=f50e303]: Practice Another
+            - generic [ref=f50e304]:
+              - generic [ref=f50e306]:
+                - generic [ref=f50e307]: EppDiscMath5 4.10.013.
+                - region [ref=f50e308]:
+                  - strong [ref=f50e309]: Problem 3
+                  - generic [ref=f50e310]: Use the Euclidean algorithm to hand-calculate the greatest common divisor for the integers given below.
+                  - group [ref=f50e311]: 2,808 and 455
+                  - list [ref=f50e312]:
+                    - listitem [ref=f50e313]:
+                      - generic [ref=f50e314]:
+                        - text: Find
+                        - generic [ref=f50e1092]:
+                          - generic [ref=f50e1097]:
+                            - generic [ref=f50e1098]: q
+                            - generic [ref=f50e1101]: "1"
+                          - math [ref=f50e1105]:
+                            - generic [ref=f50e1106]:
+                              - generic [ref=f50e1107]: q
+                              - generic [ref=f50e1108]: "1"
+                        - text: and
+                        - generic [ref=f50e1112]:
+                          - generic [ref=f50e1117]:
+                            - generic [ref=f50e1118]: r
+                            - generic [ref=f50e1120]: "1"
+                          - math [ref=f50e1124]:
+                            - generic [ref=f50e1125]:
+                              - generic [ref=f50e1126]: r
+                              - generic [ref=f50e1127]: "1"
+                        - text: so that
+                      - group [ref=f50e315]:
+                        - generic [ref=f50e316]:
+                          - generic [ref=f50e1131]:
+                            - generic [ref=f50e1135]:
+                              - generic [ref=f50e1136]: "2808"
+                              - generic [ref=f50e1137]: =
+                              - generic [ref=f50e1138]: "455"
+                              - generic [ref=f50e1139]: ⋅
+                              - generic [ref=f50e1140]:
+                                - generic [ref=f50e1141]: q
+                                - generic [ref=f50e1144]: "1"
+                              - generic [ref=f50e1148]: +
+                              - generic [ref=f50e1149]:
+                                - generic [ref=f50e1150]: r
+                                - generic [ref=f50e1152]: "1"
+                            - math [ref=f50e1156]:
+                              - generic [ref=f50e1157]: "2808"
+                              - generic [ref=f50e1158]: =
+                              - generic [ref=f50e1159]: "455"
+                              - generic [ref=f50e1160]: ⋅
+                              - generic [ref=f50e1161]:
+                                - generic [ref=f50e1162]: q
+                                - generic [ref=f50e1163]: "1"
+                              - generic [ref=f50e1165]: +
+                              - generic [ref=f50e1166]:
+                                - generic [ref=f50e1167]: r
+                                - generic [ref=f50e1168]: "1"
+                          - text: ","
+                        - text: where
+                        - generic [ref=f50e317]:
+                          - generic [ref=f50e1172]:
+                            - generic [ref=f50e1176]:
+                              - generic [ref=f50e1177]: "0"
+                              - generic [ref=f50e1178]: ≤
+                              - generic [ref=f50e1179]:
+                                - generic [ref=f50e1180]: r
+                                - generic [ref=f50e1182]: "1"
+                              - generic [ref=f50e1186]: <
+                              - generic [ref=f50e1187]: "455"
+                            - math [ref=f50e1188]:
+                              - generic [ref=f50e1189]: "0"
+                              - generic [ref=f50e1190]: ≤
+                              - generic [ref=f50e1191]:
+                                - generic [ref=f50e1192]: r
+                                - generic [ref=f50e1193]: "1"
+                              - generic [ref=f50e1195]: <
+                              - generic [ref=f50e1196]: "455"
+                          - text: .
+                      - group "Read and complete the following." [ref=f50e319]:
+                        - generic [ref=f50e321]:
+                          - text: Then
+                          - generic [ref=f50e322]:
+                            - generic: Write your answer for step 1.
+                            - textbox "Write your answer for step 1." [ref=f50e325]: "78"
+                            - 'img "Correct: Your answer is correct." [ref=f50e329]'
+                            - generic [ref=f50e1199]:
+                              - generic [ref=f50e1203]:
+                                - generic [ref=f50e1204]: =
+                                - generic [ref=f50e1205]: "2808"
+                                - generic [ref=f50e1206]: −
+                                - generic [ref=f50e1207]: "455"
+                                - generic [ref=f50e1208]: ⋅
+                                - generic [ref=f50e1209]:
+                                  - generic [ref=f50e1210]: q
+                                  - generic [ref=f50e1213]: "1"
+                              - math [ref=f50e1217]:
+                                - generic [ref=f50e1218]: =
+                                - generic [ref=f50e1219]: "2808"
+                                - generic [ref=f50e1220]: −
+                                - generic [ref=f50e1221]: "455"
+                                - generic [ref=f50e1222]: ⋅
+                                - generic [ref=f50e1223]:
+                                  - generic [ref=f50e1224]: q
+                                  - generic [ref=f50e1225]: "1"
+                            - text: .
+                    - listitem [ref=f50e330]:
+                      - generic [ref=f50e331]:
+                        - text: Find
+                        - generic [ref=f50e1229]:
+                          - generic [ref=f50e1234]:
+                            - generic [ref=f50e1235]: q
+                            - generic [ref=f50e1238]: "2"
+                          - math [ref=f50e1242]:
+                            - generic [ref=f50e1243]:
+                              - generic [ref=f50e1244]: q
+                              - generic [ref=f50e1245]: "2"
+                        - text: and
+                        - generic [ref=f50e1249]:
+                          - generic [ref=f50e1254]:
+                            - generic [ref=f50e1255]: r
+                            - generic [ref=f50e1257]: "2"
+                          - math [ref=f50e1261]:
+                            - generic [ref=f50e1262]:
+                              - generic [ref=f50e1263]: r
+                              - generic [ref=f50e1264]: "2"
+                        - text: so that
+                      - group [ref=f50e332]:
+                        - generic [ref=f50e333]:
+                          - generic [ref=f50e1268]:
+                            - generic [ref=f50e1272]:
+                              - generic [ref=f50e1273]: "455"
+                              - generic [ref=f50e1274]: =
+                              - generic [ref=f50e1275]:
+                                - generic [ref=f50e1276]: r
+                                - generic [ref=f50e1278]: "1"
+                              - generic [ref=f50e1282]: ⋅
+                              - generic [ref=f50e1283]:
+                                - generic [ref=f50e1284]: q
+                                - generic [ref=f50e1287]: "2"
+                              - generic [ref=f50e1291]: +
+                              - generic [ref=f50e1292]:
+                                - generic [ref=f50e1293]: r
+                                - generic [ref=f50e1295]: "2"
+                            - math [ref=f50e1299]:
+                              - generic [ref=f50e1300]: "455"
+                              - generic [ref=f50e1301]: =
+                              - generic [ref=f50e1302]:
+                                - generic [ref=f50e1303]: r
+                                - generic [ref=f50e1304]: "1"
+                              - generic [ref=f50e1306]: ⋅
+                              - generic [ref=f50e1307]:
+                                - generic [ref=f50e1308]: q
+                                - generic [ref=f50e1309]: "2"
+                              - generic [ref=f50e1311]: +
+                              - generic [ref=f50e1312]:
+                                - generic [ref=f50e1313]: r
+                                - generic [ref=f50e1314]: "2"
+                          - text: ","
+                        - text: where
+                        - generic [ref=f50e334]:
+                          - generic [ref=f50e1318]:
+                            - generic [ref=f50e1322]:
+                              - generic [ref=f50e1323]: "0"
+                              - generic [ref=f50e1324]: ≤
+                              - generic [ref=f50e1325]:
+                                - generic [ref=f50e1326]: r
+                                - generic [ref=f50e1328]: "2"
+                              - generic [ref=f50e1332]: <
+                              - generic [ref=f50e1333]:
+                                - generic [ref=f50e1334]: r
+                                - generic [ref=f50e1336]: "1"
+                            - math [ref=f50e1340]:
+                              - generic [ref=f50e1341]: "0"
+                              - generic [ref=f50e1342]: ≤
+                              - generic [ref=f50e1343]:
+                                - generic [ref=f50e1344]: r
+                                - generic [ref=f50e1345]: "2"
+                              - generic [ref=f50e1347]: <
+                              - generic [ref=f50e1348]:
+                                - generic [ref=f50e1349]: r
+                                - generic [ref=f50e1350]: "1"
+                          - text: .
+                      - group "Read and complete the following." [ref=f50e336]:
+                        - generic [ref=f50e338]:
+                          - text: Then
+                          - generic: Write your first answer for step 2.
+                          - textbox "Write your first answer for step 2." [ref=f50e341]: "65"
+                          - 'img "Correct: Your answer is correct." [ref=f50e345]'
+                          - generic [ref=f50e1354]:
+                            - generic [ref=f50e1358]:
+                              - generic [ref=f50e1359]: =
+                              - generic [ref=f50e1360]: "455"
+                              - generic [ref=f50e1361]: −
+                              - generic [ref=f50e1362]: (
+                            - math [ref=f50e1368]:
+                              - generic [ref=f50e1369]: =
+                              - generic [ref=f50e1370]: "455"
+                              - generic [ref=f50e1371]: −
+                              - generic [ref=f50e1372]: (
+                          - generic: Write your second answer for step 2.
+                          - textbox "Write your second answer for step 2." [ref=f50e348]: "78"
+                          - 'img "Correct: Your answer is correct." [ref=f50e352]'
+                          - generic [ref=f50e353]:
+                            - generic [ref=f50e1377]:
+                              - generic [ref=f50e1381]:
+                                - generic [ref=f50e1382]: )
+                                - generic [ref=f50e1388]: ⋅
+                                - generic [ref=f50e1389]:
+                                  - generic [ref=f50e1390]: q
+                                  - generic [ref=f50e1393]: "2"
+                              - math [ref=f50e1397]:
+                                - generic [ref=f50e1398]: )
+                                - generic [ref=f50e1401]: ⋅
+                                - generic [ref=f50e1402]:
+                                  - generic [ref=f50e1403]: q
+                                  - generic [ref=f50e1404]: "2"
+                            - text: .
+                    - listitem [ref=f50e354]:
+                      - generic [ref=f50e355]:
+                        - text: Find
+                        - generic [ref=f50e1408]:
+                          - generic [ref=f50e1413]:
+                            - generic [ref=f50e1414]: q
+                            - generic [ref=f50e1417]: "3"
+                          - math [ref=f50e1421]:
+                            - generic [ref=f50e1422]:
+                              - generic [ref=f50e1423]: q
+                              - generic [ref=f50e1424]: "3"
+                        - text: and
+                        - generic [ref=f50e1428]:
+                          - generic [ref=f50e1433]:
+                            - generic [ref=f50e1434]: r
+                            - generic [ref=f50e1436]: "3"
+                          - math [ref=f50e1440]:
+                            - generic [ref=f50e1441]:
+                              - generic [ref=f50e1442]: r
+                              - generic [ref=f50e1443]: "3"
+                        - text: so that
+                      - group [ref=f50e356]:
+                        - generic [ref=f50e357]:
+                          - generic [ref=f50e1447]:
+                            - generic [ref=f50e1451]:
+                              - generic [ref=f50e1452]:
+                                - generic [ref=f50e1453]: r
+                                - generic [ref=f50e1455]: "1"
+                              - generic [ref=f50e1459]: =
+                              - generic [ref=f50e1460]:
+                                - generic [ref=f50e1461]: r
+                                - generic [ref=f50e1463]: "2"
+                              - generic [ref=f50e1467]: ⋅
+                              - generic [ref=f50e1468]:
+                                - generic [ref=f50e1469]: q
+                                - generic [ref=f50e1472]: "3"
+                              - generic [ref=f50e1476]: +
+                              - generic [ref=f50e1477]:
+                                - generic [ref=f50e1478]: r
+                                - generic [ref=f50e1480]: "3"
+                            - math [ref=f50e1484]:
+                              - generic [ref=f50e1485]:
+                                - generic [ref=f50e1486]: r
+                                - generic [ref=f50e1487]: "1"
+                              - generic [ref=f50e1489]: =
+                              - generic [ref=f50e1490]:
+                                - generic [ref=f50e1491]: r
+                                - generic [ref=f50e1492]: "2"
+                              - generic [ref=f50e1494]: ⋅
+                              - generic [ref=f50e1495]:
+                                - generic [ref=f50e1496]: q
+                                - generic [ref=f50e1497]: "3"
+                              - generic [ref=f50e1499]: +
+                              - generic [ref=f50e1500]:
+                                - generic [ref=f50e1501]: r
+                                - generic [ref=f50e1502]: "3"
+                          - text: ","
+                        - text: where
+                        - generic [ref=f50e358]:
+                          - generic [ref=f50e1506]:
+                            - generic [ref=f50e1510]:
+                              - generic [ref=f50e1511]: "0"
+                              - generic [ref=f50e1512]: ≤
+                              - generic [ref=f50e1513]:
+                                - generic [ref=f50e1514]: r
+                                - generic [ref=f50e1516]: "3"
+                              - generic [ref=f50e1520]: <
+                              - generic [ref=f50e1521]:
+                                - generic [ref=f50e1522]: r
+                                - generic [ref=f50e1524]: "2"
+                            - math [ref=f50e1528]:
+                              - generic [ref=f50e1529]: "0"
+                              - generic [ref=f50e1530]: ≤
+                              - generic [ref=f50e1531]:
+                                - generic [ref=f50e1532]: r
+                                - generic [ref=f50e1533]: "3"
+                              - generic [ref=f50e1535]: <
+                              - generic [ref=f50e1536]:
+                                - generic [ref=f50e1537]: r
+                                - generic [ref=f50e1538]: "2"
+                          - text: .
+                      - group "Read and complete the following." [ref=f50e360]:
+                        - generic [ref=f50e362]:
+                          - text: Then
+                          - generic: Write your first answer for step 3.
+                          - textbox "Write your first answer for step 3." [ref=f50e365]: "13"
+                          - 'img "Correct: Your answer is correct." [ref=f50e369]'
+                          - generic [ref=f50e370]:
+                            - generic [ref=f50e371]: Write your second answer for step 3.
+                            - generic [ref=f50e1542]:
+                              - generic [ref=f50e1544]: =
+                              - math [ref=f50e1548]:
+                                - generic [ref=f50e1549]: =
+                          - textbox "Write your second answer for step 3. =" [ref=f50e1550]: "78"
+                          - 'img "Correct: Your answer is correct." [ref=f50e377]'
+                          - generic [ref=f50e1553]:
+                            - generic [ref=f50e1557]:
+                              - generic [ref=f50e1558]: −
+                              - generic [ref=f50e1559]: (
+                            - math [ref=f50e1565]:
+                              - generic [ref=f50e1566]: −
+                              - generic [ref=f50e1567]: (
+                          - generic: Write your third answer for step 3.
+                          - textbox "Write your third answer for step 3." [ref=f50e380]: "65"
+                          - 'img "Correct: Your answer is correct." [ref=f50e384]'
+                          - generic [ref=f50e385]:
+                            - generic [ref=f50e1572]:
+                              - generic [ref=f50e1576]:
+                                - generic [ref=f50e1577]: )
+                                - generic [ref=f50e1583]: ⋅
+                                - generic [ref=f50e1584]:
+                                  - generic [ref=f50e1585]: q
+                                  - generic [ref=f50e1588]: "3"
+                              - math [ref=f50e1592]:
+                                - generic [ref=f50e1593]: )
+                                - generic [ref=f50e1596]: ⋅
+                                - generic [ref=f50e1597]:
+                                  - generic [ref=f50e1598]: q
+                                  - generic [ref=f50e1599]: "3"
+                            - text: .
+                    - listitem [ref=f50e386]:
+                      - generic [ref=f50e387]:
+                        - text: Find
+                        - generic [ref=f50e1603]:
+                          - generic [ref=f50e1608]:
+                            - generic [ref=f50e1609]: q
+                            - generic [ref=f50e1612]: "4"
+                          - math [ref=f50e1616]:
+                            - generic [ref=f50e1617]:
+                              - generic [ref=f50e1618]: q
+                              - generic [ref=f50e1619]: "4"
+                        - text: and
+                        - generic [ref=f50e1623]:
+                          - generic [ref=f50e1628]:
+                            - generic [ref=f50e1629]: r
+                            - generic [ref=f50e1631]: "4"
+                          - math [ref=f50e1635]:
+                            - generic [ref=f50e1636]:
+                              - generic [ref=f50e1637]: r
+                              - generic [ref=f50e1638]: "4"
+                        - text: so that
+                      - group [ref=f50e388]:
+                        - generic [ref=f50e389]:
+                          - generic [ref=f50e1642]:
+                            - generic [ref=f50e1646]:
+                              - generic [ref=f50e1647]:
+                                - generic [ref=f50e1648]: r
+                                - generic [ref=f50e1650]: "2"
+                              - generic [ref=f50e1654]: =
+                              - generic [ref=f50e1655]:
+                                - generic [ref=f50e1656]: r
+                                - generic [ref=f50e1658]: "3"
+                              - generic [ref=f50e1662]: ⋅
+                              - generic [ref=f50e1663]:
+                                - generic [ref=f50e1664]: q
+                                - generic [ref=f50e1667]: "4"
+                              - generic [ref=f50e1671]: +
+                              - generic [ref=f50e1672]:
+                                - generic [ref=f50e1673]: r
+                                - generic [ref=f50e1675]: "4"
+                            - math [ref=f50e1679]:
+                              - generic [ref=f50e1680]:
+                                - generic [ref=f50e1681]: r
+                                - generic [ref=f50e1682]: "2"
+                              - generic [ref=f50e1684]: =
+                              - generic [ref=f50e1685]:
+                                - generic [ref=f50e1686]: r
+                                - generic [ref=f50e1687]: "3"
+                              - generic [ref=f50e1689]: ⋅
+                              - generic [ref=f50e1690]:
+                                - generic [ref=f50e1691]: q
+                                - generic [ref=f50e1692]: "4"
+                              - generic [ref=f50e1694]: +
+                              - generic [ref=f50e1695]:
+                                - generic [ref=f50e1696]: r
+                                - generic [ref=f50e1697]: "4"
+                          - text: ","
+                        - text: where
+                        - generic [ref=f50e390]:
+                          - generic [ref=f50e1701]:
+                            - generic [ref=f50e1705]:
+                              - generic [ref=f50e1706]: "0"
+                              - generic [ref=f50e1707]: ≤
+                              - generic [ref=f50e1708]:
+                                - generic [ref=f50e1709]: r
+                                - generic [ref=f50e1711]: "4"
+                              - generic [ref=f50e1715]: <
+                              - generic [ref=f50e1716]:
+                                - generic [ref=f50e1717]: r
+                                - generic [ref=f50e1719]: "3"
+                            - math [ref=f50e1723]:
+                              - generic [ref=f50e1724]: "0"
+                              - generic [ref=f50e1725]: ≤
+                              - generic [ref=f50e1726]:
+                                - generic [ref=f50e1727]: r
+                                - generic [ref=f50e1728]: "4"
+                              - generic [ref=f50e1730]: <
+                              - generic [ref=f50e1731]:
+                                - generic [ref=f50e1732]: r
+                                - generic [ref=f50e1733]: "3"
+                          - text: .
+                      - group "Read and complete the following." [ref=f50e392]:
+                        - generic [ref=f50e394]:
+                          - text: Then
+                          - generic: ">Write your first answer for step 4."
+                          - textbox ">Write your first answer for step 4." [ref=f50e397]: "0"
+                          - 'img "Correct: Your answer is correct." [ref=f50e401]'
+                          - generic [ref=f50e402]:
+                            - generic [ref=f50e403]: Write your second answer for step 4.
+                            - generic [ref=f50e1737]:
+                              - generic [ref=f50e1739]: =
+                              - math [ref=f50e1743]:
+                                - generic [ref=f50e1744]: =
+                          - textbox "Write your second answer for step 4. =" [ref=f50e1745]: "65"
+                          - 'img "Correct: Your answer is correct." [ref=f50e409]'
+                          - generic [ref=f50e1748]:
+                            - generic [ref=f50e1752]:
+                              - generic [ref=f50e1753]: −
+                              - generic [ref=f50e1754]: (
+                            - math [ref=f50e1760]:
+                              - generic [ref=f50e1761]: −
+                              - generic [ref=f50e1762]: (
+                          - generic: Write your third answer for step 4.
+                          - textbox "Write your third answer for step 4." [ref=f50e412]: "13"
+                          - 'img "Correct: Your answer is correct." [ref=f50e416]'
+                          - generic [ref=f50e417]:
+                            - generic [ref=f50e1767]:
+                              - generic [ref=f50e1771]:
+                                - generic [ref=f50e1772]: )
+                                - generic [ref=f50e1778]: ⋅
+                                - generic [ref=f50e1779]:
+                                  - generic [ref=f50e1780]: q
+                                  - generic [ref=f50e1783]: "4"
+                              - math [ref=f50e1787]:
+                                - generic [ref=f50e1788]: )
+                                - generic [ref=f50e1791]: ⋅
+                                - generic [ref=f50e1792]:
+                                  - generic [ref=f50e1793]: q
+                                  - generic [ref=f50e1794]: "4"
+                            - text: .
+                    - listitem [ref=f50e418]:
+                      - group "Read and complete the following." [ref=f50e420]:
+                        - generic [ref=f50e422]:
+                          - generic [ref=f50e423]:
+                            - text: Conclude that
+                            - generic [ref=f50e1798]:
+                              - generic [ref=f50e1802]:
+                                - generic [ref=f50e1803]: gcd
+                                - generic [ref=f50e1804]: (
+                                - generic [ref=f50e1805]: "2808"
+                                - generic [ref=f50e1806]: ","
+                                - generic [ref=f50e1807]: "455"
+                                - generic [ref=f50e1808]: )
+                                - generic [ref=f50e1809]: =
+                              - math [ref=f50e1810]:
+                                - generic [ref=f50e1811]: gcd
+                                - generic [ref=f50e1812]: (
+                                - generic [ref=f50e1813]: "2808"
+                                - generic [ref=f50e1814]: ","
+                                - generic [ref=f50e1815]: "455"
+                                - generic [ref=f50e1816]: )
+                                - generic [ref=f50e1817]: =
+                          - textbox "Conclude that gcd ( 2808 , 455 ) =" [ref=f50e1818]: "13"
+                          - 'img "Correct: Your answer is correct." [ref=f50e429]'
+                          - text: .
+                - generic "Resource box" [ref=f50e433]:
+                  - generic [ref=f50e434]:
+                    - generic [ref=f50e435]: Resources
+                    - generic [ref=f50e436]:
+                      - paragraph [ref=f50e437]:
+                        - link "Read It (opens in a new tab)" [ref=f50e438] [cursor=pointer]:
+                          - /url: "#"
+                          - text: Read It
+                      - button "Ask Student Assistant for question 3" [ref=f50e439] [cursor=pointer]: Student Assistant
+              - button "Submit Answer" [ref=f50e442] [cursor=pointer]
+          - generic [ref=f50e443]:
+            - region "Banner for question 4" [ref=f50e446]:
+              - generic [ref=f50e447]:
+                - heading "Question 4" [level=2] [ref=f50e449]: "4."
+                - strong [ref=f50e450]: "[16.66 / 16.66 Points]"
+              - generic [ref=f50e451]:
+                - button "Details for question 4." [ref=f50e452] [cursor=pointer]:
+                  - generic [ref=f50e453]: Details
+                - button "My Notes For question 4" [ref=f50e456] [cursor=pointer]:
+                  - generic [ref=f50e457]: My Notes
+                - button "Previous Answers for question 4" [ref=f50e458] [cursor=pointer]:
+                  - generic [ref=f50e459]: Previous Answers
+                - button "Practice Another Version for question 4." [ref=f50e460] [cursor=pointer]:
+                  - generic [ref=f50e461]: Practice Another
+            - generic [ref=f50e462]:
+              - generic [ref=f50e464]:
+                - generic [ref=f50e465]: EppDiscMath5 4.10.014.
+                - region [ref=f50e466]:
+                  - strong [ref=f50e467]: Problem 4
+                  - generic [ref=f50e468]: Use the Euclidean algorithm to hand-calculate the greatest common divisor for the integers given below.
+                  - group [ref=f50e469]: 521 and 2,071
+                  - list [ref=f50e470]:
+                    - listitem [ref=f50e471]:
+                      - generic [ref=f50e472]:
+                        - text: Find
+                        - generic [ref=f50e1821]:
+                          - generic [ref=f50e1826]:
+                            - generic [ref=f50e1827]: q
+                            - generic [ref=f50e1830]: "1"
+                          - math [ref=f50e1834]:
+                            - generic [ref=f50e1835]:
+                              - generic [ref=f50e1836]: q
+                              - generic [ref=f50e1837]: "1"
+                        - text: and
+                        - generic [ref=f50e1841]:
+                          - generic [ref=f50e1846]:
+                            - generic [ref=f50e1847]: r
+                            - generic [ref=f50e1849]: "1"
+                          - math [ref=f50e1853]:
+                            - generic [ref=f50e1854]:
+                              - generic [ref=f50e1855]: r
+                              - generic [ref=f50e1856]: "1"
+                        - text: so that
+                      - group [ref=f50e473]:
+                        - generic [ref=f50e474]:
+                          - generic [ref=f50e1860]:
+                            - generic [ref=f50e1864]:
+                              - generic [ref=f50e1865]: "2071"
+                              - generic [ref=f50e1866]: =
+                              - generic [ref=f50e1867]: "521"
+                              - generic [ref=f50e1868]: ⋅
+                              - generic [ref=f50e1869]:
+                                - generic [ref=f50e1870]: q
+                                - generic [ref=f50e1873]: "1"
+                              - generic [ref=f50e1877]: +
+                              - generic [ref=f50e1878]:
+                                - generic [ref=f50e1879]: r
+                                - generic [ref=f50e1881]: "1"
+                            - math [ref=f50e1885]:
+                              - generic [ref=f50e1886]: "2071"
+                              - generic [ref=f50e1887]: =
+                              - generic [ref=f50e1888]: "521"
+                              - generic [ref=f50e1889]: ⋅
+                              - generic [ref=f50e1890]:
+                                - generic [ref=f50e1891]: q
+                                - generic [ref=f50e1892]: "1"
+                              - generic [ref=f50e1894]: +
+                              - generic [ref=f50e1895]:
+                                - generic [ref=f50e1896]: r
+                                - generic [ref=f50e1897]: "1"
+                          - text: ","
+                        - text: where
+                        - generic [ref=f50e475]:
+                          - generic [ref=f50e1901]:
+                            - generic [ref=f50e1905]:
+                              - generic [ref=f50e1906]: "0"
+                              - generic [ref=f50e1907]: ≤
+                              - generic [ref=f50e1908]:
+                                - generic [ref=f50e1909]: r
+                                - generic [ref=f50e1911]: "1"
+                              - generic [ref=f50e1915]: <
+                              - generic [ref=f50e1916]: "521"
+                            - math [ref=f50e1917]:
+                              - generic [ref=f50e1918]: "0"
+                              - generic [ref=f50e1919]: ≤
+                              - generic [ref=f50e1920]:
+                                - generic [ref=f50e1921]: r
+                                - generic [ref=f50e1922]: "1"
+                              - generic [ref=f50e1924]: <
+                              - generic [ref=f50e1925]: "521"
+                          - text: .
+                      - group "Read and complete the following." [ref=f50e477]:
+                        - generic [ref=f50e479]:
+                          - text: Then
+                          - generic [ref=f50e480]:
+                            - generic: Write your answer for step 1.
+                            - textbox "Write your answer for step 1." [ref=f50e483]: "508"
+                            - 'img "Correct: Your answer is correct." [ref=f50e487]'
+                            - generic [ref=f50e1928]:
+                              - generic [ref=f50e1932]:
+                                - generic [ref=f50e1933]: =
+                                - generic [ref=f50e1934]: "2071"
+                                - generic [ref=f50e1935]: −
+                                - generic [ref=f50e1936]: "521"
+                                - generic [ref=f50e1937]: ⋅
+                                - generic [ref=f50e1938]:
+                                  - generic [ref=f50e1939]: q
+                                  - generic [ref=f50e1942]: "1"
+                              - math [ref=f50e1946]:
+                                - generic [ref=f50e1947]: =
+                                - generic [ref=f50e1948]: "2071"
+                                - generic [ref=f50e1949]: −
+                                - generic [ref=f50e1950]: "521"
+                                - generic [ref=f50e1951]: ⋅
+                                - generic [ref=f50e1952]:
+                                  - generic [ref=f50e1953]: q
+                                  - generic [ref=f50e1954]: "1"
+                            - text: .
+                    - listitem [ref=f50e488]:
+                      - generic [ref=f50e489]:
+                        - text: Find
+                        - generic [ref=f50e1958]:
+                          - generic [ref=f50e1963]:
+                            - generic [ref=f50e1964]: q
+                            - generic [ref=f50e1967]: "2"
+                          - math [ref=f50e1971]:
+                            - generic [ref=f50e1972]:
+                              - generic [ref=f50e1973]: q
+                              - generic [ref=f50e1974]: "2"
+                        - text: and
+                        - generic [ref=f50e1978]:
+                          - generic [ref=f50e1983]:
+                            - generic [ref=f50e1984]: r
+                            - generic [ref=f50e1986]: "2"
+                          - math [ref=f50e1990]:
+                            - generic [ref=f50e1991]:
+                              - generic [ref=f50e1992]: r
+                              - generic [ref=f50e1993]: "2"
+                        - text: so that
+                      - group [ref=f50e490]:
+                        - generic [ref=f50e491]:
+                          - generic [ref=f50e1997]:
+                            - generic [ref=f50e2001]:
+                              - generic [ref=f50e2002]: "521"
+                              - generic [ref=f50e2003]: =
+                              - generic [ref=f50e2004]:
+                                - generic [ref=f50e2005]: r
+                                - generic [ref=f50e2007]: "1"
+                              - generic [ref=f50e2011]: ⋅
+                              - generic [ref=f50e2012]:
+                                - generic [ref=f50e2013]: q
+                                - generic [ref=f50e2016]: "2"
+                              - generic [ref=f50e2020]: +
+                              - generic [ref=f50e2021]:
+                                - generic [ref=f50e2022]: r
+                                - generic [ref=f50e2024]: "2"
+                            - math [ref=f50e2028]:
+                              - generic [ref=f50e2029]: "521"
+                              - generic [ref=f50e2030]: =
+                              - generic [ref=f50e2031]:
+                                - generic [ref=f50e2032]: r
+                                - generic [ref=f50e2033]: "1"
+                              - generic [ref=f50e2035]: ⋅
+                              - generic [ref=f50e2036]:
+                                - generic [ref=f50e2037]: q
+                                - generic [ref=f50e2038]: "2"
+                              - generic [ref=f50e2040]: +
+                              - generic [ref=f50e2041]:
+                                - generic [ref=f50e2042]: r
+                                - generic [ref=f50e2043]: "2"
+                          - text: ","
+                        - text: where
+                        - generic [ref=f50e492]:
+                          - generic [ref=f50e2047]:
+                            - generic [ref=f50e2051]:
+                              - generic [ref=f50e2052]: "0"
+                              - generic [ref=f50e2053]: ≤
+                              - generic [ref=f50e2054]:
+                                - generic [ref=f50e2055]: r
+                                - generic [ref=f50e2057]: "2"
+                              - generic [ref=f50e2061]: <
+                              - generic [ref=f50e2062]:
+                                - generic [ref=f50e2063]: r
+                                - generic [ref=f50e2065]: "1"
+                            - math [ref=f50e2069]:
+                              - generic [ref=f50e2070]: "0"
+                              - generic [ref=f50e2071]: ≤
+                              - generic [ref=f50e2072]:
+                                - generic [ref=f50e2073]: r
+                                - generic [ref=f50e2074]: "2"
+                              - generic [ref=f50e2076]: <
+                              - generic [ref=f50e2077]:
+                                - generic [ref=f50e2078]: r
+                                - generic [ref=f50e2079]: "1"
+                          - text: .
+                      - group "Read and complete the following." [ref=f50e494]:
+                        - generic [ref=f50e496]:
+                          - text: Then
+                          - generic: Write your first answer for step 2.
+                          - textbox "Write your first answer for step 2." [ref=f50e499]: "13"
+                          - 'img "Correct: Your answer is correct." [ref=f50e503]'
+                          - generic [ref=f50e2083]:
+                            - generic [ref=f50e2087]:
+                              - generic [ref=f50e2088]: =
+                              - generic [ref=f50e2089]: "521"
+                              - generic [ref=f50e2090]: −
+                              - generic [ref=f50e2091]: (
+                            - math [ref=f50e2097]:
+                              - generic [ref=f50e2098]: =
+                              - generic [ref=f50e2099]: "521"
+                              - generic [ref=f50e2100]: −
+                              - generic [ref=f50e2101]: (
+                          - generic: Write your second answer for step 2.
+                          - textbox "Write your second answer for step 2." [ref=f50e506]: "508"
+                          - 'img "Correct: Your answer is correct." [ref=f50e510]'
+                          - generic [ref=f50e511]:
+                            - generic [ref=f50e2106]:
+                              - generic [ref=f50e2110]:
+                                - generic [ref=f50e2111]: )
+                                - generic [ref=f50e2117]: ⋅
+                                - generic [ref=f50e2118]:
+                                  - generic [ref=f50e2119]: q
+                                  - generic [ref=f50e2122]: "2"
+                              - math [ref=f50e2126]:
+                                - generic [ref=f50e2127]: )
+                                - generic [ref=f50e2130]: ⋅
+                                - generic [ref=f50e2131]:
+                                  - generic [ref=f50e2132]: q
+                                  - generic [ref=f50e2133]: "2"
+                            - text: .
+                    - listitem [ref=f50e512]:
+                      - generic [ref=f50e513]:
+                        - text: Find
+                        - generic [ref=f50e2137]:
+                          - generic [ref=f50e2142]:
+                            - generic [ref=f50e2143]: q
+                            - generic [ref=f50e2146]: "3"
+                          - math [ref=f50e2150]:
+                            - generic [ref=f50e2151]:
+                              - generic [ref=f50e2152]: q
+                              - generic [ref=f50e2153]: "3"
+                        - text: and
+                        - generic [ref=f50e2157]:
+                          - generic [ref=f50e2162]:
+                            - generic [ref=f50e2163]: r
+                            - generic [ref=f50e2165]: "3"
+                          - math [ref=f50e2169]:
+                            - generic [ref=f50e2170]:
+                              - generic [ref=f50e2171]: r
+                              - generic [ref=f50e2172]: "3"
+                        - text: so that
+                      - group [ref=f50e514]:
+                        - generic [ref=f50e515]:
+                          - generic [ref=f50e2176]:
+                            - generic [ref=f50e2180]:
+                              - generic [ref=f50e2181]:
+                                - generic [ref=f50e2182]: r
+                                - generic [ref=f50e2184]: "1"
+                              - generic [ref=f50e2188]: =
+                              - generic [ref=f50e2189]:
+                                - generic [ref=f50e2190]: r
+                                - generic [ref=f50e2192]: "2"
+                              - generic [ref=f50e2196]: ⋅
+                              - generic [ref=f50e2197]:
+                                - generic [ref=f50e2198]: q
+                                - generic [ref=f50e2201]: "3"
+                              - generic [ref=f50e2205]: +
+                              - generic [ref=f50e2206]:
+                                - generic [ref=f50e2207]: r
+                                - generic [ref=f50e2209]: "3"
+                            - math [ref=f50e2213]:
+                              - generic [ref=f50e2214]:
+                                - generic [ref=f50e2215]: r
+                                - generic [ref=f50e2216]: "1"
+                              - generic [ref=f50e2218]: =
+                              - generic [ref=f50e2219]:
+                                - generic [ref=f50e2220]: r
+                                - generic [ref=f50e2221]: "2"
+                              - generic [ref=f50e2223]: ⋅
+                              - generic [ref=f50e2224]:
+                                - generic [ref=f50e2225]: q
+                                - generic [ref=f50e2226]: "3"
+                              - generic [ref=f50e2228]: +
+                              - generic [ref=f50e2229]:
+                                - generic [ref=f50e2230]: r
+                                - generic [ref=f50e2231]: "3"
+                          - text: ","
+                        - text: where
+                        - generic [ref=f50e516]:
+                          - generic [ref=f50e2235]:
+                            - generic [ref=f50e2239]:
+                              - generic [ref=f50e2240]: "0"
+                              - generic [ref=f50e2241]: ≤
+                              - generic [ref=f50e2242]:
+                                - generic [ref=f50e2243]: r
+                                - generic [ref=f50e2245]: "3"
+                              - generic [ref=f50e2249]: <
+                              - generic [ref=f50e2250]:
+                                - generic [ref=f50e2251]: r
+                                - generic [ref=f50e2253]: "2"
+                            - math [ref=f50e2257]:
+                              - generic [ref=f50e2258]: "0"
+                              - generic [ref=f50e2259]: ≤
+                              - generic [ref=f50e2260]:
+                                - generic [ref=f50e2261]: r
+                                - generic [ref=f50e2262]: "3"
+                              - generic [ref=f50e2264]: <
+                              - generic [ref=f50e2265]:
+                                - generic [ref=f50e2266]: r
+                                - generic [ref=f50e2267]: "2"
+                          - text: .
+                      - group "Read and complete the following." [ref=f50e518]:
+                        - generic [ref=f50e520]:
+                          - text: Then
+                          - generic: Write your first answer for step 3.
+                          - textbox "Write your first answer for step 3." [ref=f50e523]: "1"
+                          - 'img "Correct: Your answer is correct." [ref=f50e527]'
+                          - generic [ref=f50e528]:
+                            - generic [ref=f50e529]: Write your second answer for step 3.
+                            - generic [ref=f50e2271]:
+                              - generic [ref=f50e2273]: =
+                              - math [ref=f50e2277]:
+                                - generic [ref=f50e2278]: =
+                          - textbox "Write your second answer for step 3. =" [ref=f50e2279]: "508"
+                          - 'img "Correct: Your answer is correct." [ref=f50e535]'
+                          - generic [ref=f50e2282]:
+                            - generic [ref=f50e2286]:
+                              - generic [ref=f50e2287]: −
+                              - generic [ref=f50e2288]: (
+                            - math [ref=f50e2294]:
+                              - generic [ref=f50e2295]: −
+                              - generic [ref=f50e2296]: (
+                          - generic: Write your third answer for step 3.
+                          - textbox "Write your third answer for step 3." [ref=f50e538]: "13"
+                          - 'img "Correct: Your answer is correct." [ref=f50e542]'
+                          - generic [ref=f50e543]:
+                            - generic [ref=f50e2301]:
+                              - generic [ref=f50e2305]:
+                                - generic [ref=f50e2306]: )
+                                - generic [ref=f50e2312]: ⋅
+                                - generic [ref=f50e2313]:
+                                  - generic [ref=f50e2314]: q
+                                  - generic [ref=f50e2317]: "3"
+                              - math [ref=f50e2321]:
+                                - generic [ref=f50e2322]: )
+                                - generic [ref=f50e2325]: ⋅
+                                - generic [ref=f50e2326]:
+                                  - generic [ref=f50e2327]: q
+                                  - generic [ref=f50e2328]: "3"
+                            - text: .
+                    - listitem [ref=f50e544]:
+                      - generic [ref=f50e545]:
+                        - text: Find
+                        - generic [ref=f50e2332]:
+                          - generic [ref=f50e2337]:
+                            - generic [ref=f50e2338]: q
+                            - generic [ref=f50e2341]: "4"
+                          - math [ref=f50e2345]:
+                            - generic [ref=f50e2346]:
+                              - generic [ref=f50e2347]: q
+                              - generic [ref=f50e2348]: "4"
+                        - text: and
+                        - generic [ref=f50e2352]:
+                          - generic [ref=f50e2357]:
+                            - generic [ref=f50e2358]: r
+                            - generic [ref=f50e2360]: "4"
+                          - math [ref=f50e2364]:
+                            - generic [ref=f50e2365]:
+                              - generic [ref=f50e2366]: r
+                              - generic [ref=f50e2367]: "4"
+                        - text: so that
+                      - group [ref=f50e546]:
+                        - generic [ref=f50e547]:
+                          - generic [ref=f50e2371]:
+                            - generic [ref=f50e2375]:
+                              - generic [ref=f50e2376]:
+                                - generic [ref=f50e2377]: r
+                                - generic [ref=f50e2379]: "2"
+                              - generic [ref=f50e2383]: =
+                              - generic [ref=f50e2384]:
+                                - generic [ref=f50e2385]: r
+                                - generic [ref=f50e2387]: "3"
+                              - generic [ref=f50e2391]: ⋅
+                              - generic [ref=f50e2392]:
+                                - generic [ref=f50e2393]: q
+                                - generic [ref=f50e2396]: "4"
+                              - generic [ref=f50e2400]: +
+                              - generic [ref=f50e2401]:
+                                - generic [ref=f50e2402]: r
+                                - generic [ref=f50e2404]: "4"
+                            - math [ref=f50e2408]:
+                              - generic [ref=f50e2409]:
+                                - generic [ref=f50e2410]: r
+                                - generic [ref=f50e2411]: "2"
+                              - generic [ref=f50e2413]: =
+                              - generic [ref=f50e2414]:
+                                - generic [ref=f50e2415]: r
+                                - generic [ref=f50e2416]: "3"
+                              - generic [ref=f50e2418]: ⋅
+                              - generic [ref=f50e2419]:
+                                - generic [ref=f50e2420]: q
+                                - generic [ref=f50e2421]: "4"
+                              - generic [ref=f50e2423]: +
+                              - generic [ref=f50e2424]:
+                                - generic [ref=f50e2425]: r
+                                - generic [ref=f50e2426]: "4"
+                          - text: ","
+                        - text: where
+                        - generic [ref=f50e548]:
+                          - generic [ref=f50e2430]:
+                            - generic [ref=f50e2434]:
+                              - generic [ref=f50e2435]: "0"
+                              - generic [ref=f50e2436]: ≤
+                              - generic [ref=f50e2437]:
+                                - generic [ref=f50e2438]: r
+                                - generic [ref=f50e2440]: "4"
+                              - generic [ref=f50e2444]: <
+                              - generic [ref=f50e2445]:
+                                - generic [ref=f50e2446]: r
+                                - generic [ref=f50e2448]: "3"
+                            - math [ref=f50e2452]:
+                              - generic [ref=f50e2453]: "0"
+                              - generic [ref=f50e2454]: ≤
+                              - generic [ref=f50e2455]:
+                                - generic [ref=f50e2456]: r
+                                - generic [ref=f50e2457]: "4"
+                              - generic [ref=f50e2459]: <
+                              - generic [ref=f50e2460]:
+                                - generic [ref=f50e2461]: r
+                                - generic [ref=f50e2462]: "3"
+                          - text: .
+                      - group "Read and complete the following." [ref=f50e550]:
+                        - generic [ref=f50e552]:
+                          - text: Then
+                          - generic: Write your first answer for step 4.
+                          - textbox "Write your first answer for step 4." [ref=f50e555]: "0"
+                          - 'img "Correct: Your answer is correct." [ref=f50e559]'
+                          - generic [ref=f50e560]:
+                            - generic [ref=f50e561]: Write your second answer for step 4.
+                            - generic [ref=f50e2466]:
+                              - generic [ref=f50e2468]: =
+                              - math [ref=f50e2472]:
+                                - generic [ref=f50e2473]: =
+                          - textbox "Write your second answer for step 4. =" [ref=f50e2474]: "13"
+                          - 'img "Correct: Your answer is correct." [ref=f50e567]'
+                          - generic [ref=f50e2477]:
+                            - generic [ref=f50e2481]:
+                              - generic [ref=f50e2482]: −
+                              - generic [ref=f50e2483]: (
+                            - math [ref=f50e2489]:
+                              - generic [ref=f50e2490]: −
+                              - generic [ref=f50e2491]: (
+                          - generic: Write your third answer for step 4.
+                          - textbox "Write your third answer for step 4." [ref=f50e570]: "1"
+                          - 'img "Correct: Your answer is correct." [ref=f50e574]'
+                          - generic [ref=f50e575]:
+                            - generic [ref=f50e2496]:
+                              - generic [ref=f50e2500]:
+                                - generic [ref=f50e2501]: )
+                                - generic [ref=f50e2507]: ⋅
+                                - generic [ref=f50e2508]:
+                                  - generic [ref=f50e2509]: q
+                                  - generic [ref=f50e2512]: "4"
+                              - math [ref=f50e2516]:
+                                - generic [ref=f50e2517]: )
+                                - generic [ref=f50e2520]: ⋅
+                                - generic [ref=f50e2521]:
+                                  - generic [ref=f50e2522]: q
+                                  - generic [ref=f50e2523]: "4"
+                            - text: .
+                    - listitem [ref=f50e576]:
+                      - group "Read and complete the following." [ref=f50e578]:
+                        - generic [ref=f50e580]:
+                          - generic [ref=f50e581]:
+                            - text: Conclude that
+                            - generic [ref=f50e2527]:
+                              - generic [ref=f50e2531]:
+                                - generic [ref=f50e2532]: gcd
+                                - generic [ref=f50e2533]: (
+                                - generic [ref=f50e2534]: "2071"
+                                - generic [ref=f50e2535]: ","
+                                - generic [ref=f50e2536]: "521"
+                                - generic [ref=f50e2537]: )
+                                - generic [ref=f50e2538]: =
+                              - math [ref=f50e2539]:
+                                - generic [ref=f50e2540]: gcd
+                                - generic [ref=f50e2541]: (
+                                - generic [ref=f50e2542]: "2071"
+                                - generic [ref=f50e2543]: ","
+                                - generic [ref=f50e2544]: "521"
+                                - generic [ref=f50e2545]: )
+                                - generic [ref=f50e2546]: =
+                          - textbox "Conclude that gcd ( 2071 , 521 ) =" [ref=f50e2547]: "1"
+                          - 'img "Correct: Your answer is correct." [ref=f50e587]'
+                          - text: .
+                - generic "Resource box" [ref=f50e591]:
+                  - generic [ref=f50e592]:
+                    - generic [ref=f50e593]: Resources
+                    - generic [ref=f50e594]:
+                      - paragraph [ref=f50e595]:
+                        - link "Read It (opens in a new tab)" [ref=f50e596] [cursor=pointer]:
+                          - /url: "#"
+                          - text: Read It
+                      - button "Ask Student Assistant for question 4" [ref=f50e597] [cursor=pointer]: Student Assistant
+              - button "Submit Answer" [ref=f50e600] [cursor=pointer]
+          - generic [ref=f50e601]:
+            - region "Banner for question 5" [ref=f50e604]:
+              - generic [ref=f50e605]:
+                - heading "Question 5" [level=2] [ref=f50e607]: "5."
+                - strong [ref=f50e608]: "[7.14 / 16.66 Points]"
+              - generic [ref=f50e609]:
+                - button "Details for question 5." [ref=f50e610] [cursor=pointer]:
+                  - generic [ref=f50e611]: Details
+                - button "My Notes For question 5" [ref=f50e614] [cursor=pointer]:
+                  - generic [ref=f50e615]: My Notes
+                - button "Previous Answers for question 5" [ref=f50e616] [cursor=pointer]:
+                  - generic [ref=f50e617]: Previous Answers
+                - button "Practice Another Version for question 5." [ref=f50e618] [cursor=pointer]:
+                  - generic [ref=f50e619]: Practice Another
+            - generic [ref=f50e620]:
+              - generic [ref=f50e622]:
+                - generic [ref=f50e623]: eppdiscmath5 4.10.030.nva
+                - generic [ref=f50e624]:
+                  - text: "Definition: The"
+                  - strong [ref=f50e625]: least common multiple
+                  - text: of two nonzero integers
+                  - emphasis [ref=f50e626]: a
+                  - text: and
+                  - emphasis [ref=f50e627]: b
+                  - text: ", denoted"
+                  - generic [ref=f50e628]:
+                    - text: lcm(
+                    - emphasis [ref=f50e629]: a
+                    - text: ","
+                    - emphasis [ref=f50e630]: b
+                    - text: ),
+                  - text: is the positive integer
+                  - emphasis [ref=f50e631]: c
+                  - text: such that
+                - list [ref=f50e632]:
+                  - listitem [ref=f50e633]:
+                    - generic [ref=f50e636]:
+                      - generic [ref=f50e637]: a
+                      - text: "|"
+                      - generic [ref=f50e640]: c
+                    - text: and
+                    - generic [ref=f50e643]:
+                      - generic [ref=f50e644]: b
+                      - text: "|"
+                      - generic [ref=f50e647]: c
+                  - listitem [ref=f50e648]:
+                    - text: for every positive integer
+                    - emphasis [ref=f50e649]: m
+                    - text: ", if"
+                    - generic [ref=f50e652]:
+                      - generic [ref=f50e653]: a
+                      - text: "|"
+                      - generic [ref=f50e656]: m
+                    - text: and
+                    - generic [ref=f50e659]:
+                      - generic [ref=f50e660]: b
+                      - text: "|"
+                      - generic [ref=f50e663]: m
+                      - text: ","
+                    - text: then
+                    - generic [ref=f50e666]:
+                      - generic [ref=f50e667]: c
+                      - text: ≤
+                      - generic [ref=f50e668]: m
+                      - text: .
+                - generic [ref=f50e669]:
+                  - text: Prove that for all positive integers
+                  - emphasis [ref=f50e670]: a
+                  - text: and
+                  - emphasis [ref=f50e671]: b
+                  - text: ","
+                  - generic [ref=f50e672]:
+                    - emphasis [ref=f50e673]: a
+                    - text: "|"
+                    - emphasis [ref=f50e676]: b
+                  - text: if, and only if,
+                  - generic [ref=f50e677]:
+                    - text: lcm(
+                    - emphasis [ref=f50e678]: a
+                    - text: ","
+                    - emphasis [ref=f50e679]: b
+                    - text: ) =
+                    - emphasis [ref=f50e680]: b
+                    - text: .
+                - generic [ref=f50e681]:
+                  - strong [ref=f50e682]: Proof
+                  - text: ":"
+                - generic [ref=f50e683]: Some of the sentences in the following scrambled list can be used in part 1 of the proof. Select appropriate sentences from the list, and put them in the correct order.
+                - strong [ref=f50e685]:
+                  - text: Part 1 (Proof that for all positive integers
+                  - emphasis [ref=f50e686]: a
+                  - text: and
+                  - emphasis [ref=f50e687]: b
+                  - text: ", if"
+                  - generic [ref=f50e688]:
+                    - emphasis [ref=f50e689]: a
+                    - text: "|"
+                    - emphasis [ref=f50e692]: b
+                  - text: then
+                  - generic [ref=f50e693]:
+                    - text: lcm(
+                    - emphasis [ref=f50e694]: a
+                    - text: ","
+                    - emphasis [ref=f50e695]: b
+                    - text: ) =
+                    - emphasis [ref=f50e696]: b
+                    - text: .
+                  - text: )
+                - generic [ref=f50e697]: Consider the sentences in the following scrambled list.
+                - list [ref=f50e698]:
+                  - listitem [ref=f50e699]:
+                    - text: By part (1) of the definition of least common multiple,
+                    - generic [ref=f50e700]:
+                      - emphasis [ref=f50e701]: c
+                      - text: "|"
+                      - emphasis [ref=f50e704]: b
+                      - text: .
+                  - listitem [ref=f50e705]:
+                    - text: By part (1) of the definition of least common multiple,
+                    - generic [ref=f50e706]:
+                      - emphasis [ref=f50e707]: b
+                      - text: "|"
+                      - emphasis [ref=f50e710]: c
+                      - text: .
+                  - listitem [ref=f50e711]:
+                    - text: Both
+                    - emphasis [ref=f50e712]: b
+                    - text: and
+                    - emphasis [ref=f50e713]: c
+                    - text: are positive integers and
+                    - generic [ref=f50e714]:
+                      - emphasis [ref=f50e715]: b
+                      - text: "|"
+                      - emphasis [ref=f50e718]: c
+                      - text: .
+                    - text: Thus
+                    - generic [ref=f50e719]:
+                      - emphasis [ref=f50e720]: b
+                      - text: ≤
+                      - emphasis [ref=f50e721]: c
+                    - text: by Theorem 4.4.1.
+                  - listitem [ref=f50e722]:
+                    - text: Since
+                    - generic [ref=f50e723]:
+                      - emphasis [ref=f50e724]: b
+                      - text: ≤
+                      - emphasis [ref=f50e725]: c
+                    - text: and
+                    - generic [ref=f50e726]:
+                      - emphasis [ref=f50e727]: c
+                      - text: ≤
+                      - emphasis [ref=f50e728]: b
+                      - text: ","
+                    - text: then
+                    - generic [ref=f50e729]:
+                      - emphasis [ref=f50e730]: b
+                      - text: =
+                      - emphasis [ref=f50e731]: c
+                      - text: .
+                  - listitem [ref=f50e732]:
+                    - text: Hence, by part (2) of the definition of least common multiple,
+                    - generic [ref=f50e733]:
+                      - text: lcm(
+                      - emphasis [ref=f50e734]: a
+                      - text: ","
+                      - emphasis [ref=f50e735]: b
+                      - text: ) ≤
+                      - emphasis [ref=f50e736]: b
+                      - text: ","
+                    - text: or, equivalently,
+                    - generic [ref=f50e737]:
+                      - emphasis [ref=f50e738]: c
+                      - text: ≤
+                      - emphasis [ref=f50e739]: b
+                      - text: .
+                  - listitem [ref=f50e740]:
+                    - text: Now it is also the case that
+                    - generic [ref=f50e741]:
+                      - emphasis [ref=f50e742]: b
+                      - text: "|"
+                      - emphasis [ref=f50e745]: b
+                      - text: ","
+                    - text: and, since we also know that
+                    - generic [ref=f50e746]:
+                      - emphasis [ref=f50e747]: a
+                      - text: "|"
+                      - emphasis [ref=f50e750]: b
+                      - text: ","
+                    - emphasis [ref=f50e751]: b
+                    - text: is a common multiple of
+                    - emphasis [ref=f50e752]: a
+                    - text: and
+                    - emphasis [ref=f50e753]: b
+                    - text: .
+                  - listitem [ref=f50e754]:
+                    - text: So, since
+                    - generic [ref=f50e755]:
+                      - emphasis [ref=f50e756]: c
+                      - text: = lcm(
+                      - emphasis [ref=f50e757]: a
+                      - text: ","
+                      - emphasis [ref=f50e758]: b
+                      - text: )
+                    - text: and
+                    - generic [ref=f50e759]:
+                      - emphasis [ref=f50e760]: b
+                      - text: =
+                      - emphasis [ref=f50e761]: c
+                      - text: ","
+                    - text: we conclude that
+                    - generic [ref=f50e762]:
+                      - text: lcm(
+                      - emphasis [ref=f50e763]: a
+                      - text: ","
+                      - emphasis [ref=f50e764]: b
+                      - text: ) =
+                      - emphasis [ref=f50e765]: b
+                      - text: .
+                - generic [ref=f50e766]: To prove Part 1, select sentences from the list and put them in the correct order.
+                - list [ref=f50e768]:
+                  - listitem [ref=f50e769]:
+                    - text: Let
+                    - emphasis [ref=f50e770]: a
+                    - text: and
+                    - emphasis [ref=f50e771]: b
+                    - text: be any positive integers such that
+                    - generic [ref=f50e774]:
+                      - generic [ref=f50e775]: a
+                      - text: "|"
+                      - generic [ref=f50e778]: b
+                      - text: ","
+                    - text: and let
+                    - generic [ref=f50e781]:
+                      - generic [ref=f50e782]: c
+                      - text: =
+                      - generic [ref=f50e783]: lcm
+                      - text: (
+                      - generic [ref=f50e784]: a
+                      - text: ","
+                      - generic [ref=f50e785]: b
+                      - text: ).
+                  - listitem [ref=f50e786]:
+                    - combobox [ref=f50e787]:
+                      - button "By part (1) of the definition of least common multiple, b | c." [ref=f50e2664]:
+                        - generic [ref=f50e789]:
+                          - text: By part (1) of the definition of least common multiple,
+                          - generic [ref=f50e2665]:
+                            - emphasis [ref=f50e2666]: b
+                            - text: "|"
+                            - emphasis [ref=f50e2669]: c
+                            - text: .
+                      - option "---Select---"
+                      - option "By part (1) of the definition of least common multiple,"
+                      - option "By part (1) of the definition of least common multiple," [selected]
+                      - option "Both and are positive integers and Thus by Theorem 4.4.1."
+                      - option "Since and then"
+                      - option "Hence, by part (2) of the definition of least common multiple, or, equivalently,"
+                      - option "Now it is also the case that and, since we also know that is a common multiple of and ."
+                      - option "So, since and we conclude that"
+                    - 'img "Changed: Your submitted answer was incorrect. Your current answer has not been submitted." [ref=f50e2670]'
+                  - listitem [ref=f50e807]:
+                    - combobox [ref=f50e808]:
+                      - button "Both b and c are positive integers and b | c. Thus b ≤ c by Theorem 4.4.1." [ref=f50e2671]:
+                        - generic [ref=f50e810]:
+                          - text: Both
+                          - emphasis [ref=f50e2672]: b
+                          - text: and
+                          - emphasis [ref=f50e2673]: c
+                          - text: are positive integers and
+                          - generic [ref=f50e2674]:
+                            - emphasis [ref=f50e2675]: b
+                            - text: "|"
+                            - emphasis [ref=f50e2678]: c
+                            - text: .
+                          - text: Thus
+                          - generic [ref=f50e2679]:
+                            - emphasis [ref=f50e2680]: b
+                            - text: ≤
+                            - emphasis [ref=f50e2681]: c
+                          - text: by Theorem 4.4.1.
+                      - option "---Select---"
+                      - option "By part (1) of the definition of least common multiple,"
+                      - option "By part (1) of the definition of least common multiple,"
+                      - option "Both and are positive integers and Thus by Theorem 4.4.1." [selected]
+                      - option "Since and then"
+                      - option "Hence, by part (2) of the definition of least common multiple, or, equivalently,"
+                      - option "Now it is also the case that and, since we also know that is a common multiple of and ."
+                      - option "So, since and we conclude that"
+                    - 'img "Changed: Your submitted answer was incorrect. Your current answer has not been submitted." [ref=f50e2682]'
+                  - listitem [ref=f50e822]:
+                    - combobox [ref=f50e823]:
+                      - button "Now it is also the case that b | b, and, since we also know that a | b, b is a common multiple of a and b ." [ref=f50e2683]:
+                        - generic [ref=f50e825]:
+                          - text: Now it is also the case that
+                          - generic [ref=f50e2684]:
+                            - emphasis [ref=f50e2685]: b
+                            - text: "|"
+                            - emphasis [ref=f50e2688]: b
+                            - text: ","
+                          - text: and, since we also know that
+                          - generic [ref=f50e2689]:
+                            - emphasis [ref=f50e2690]: a
+                            - text: "|"
+                            - emphasis [ref=f50e2693]: b
+                            - text: ","
+                          - emphasis [ref=f50e2694]: b
+                          - text: is a common multiple of
+                          - emphasis [ref=f50e2695]: a
+                          - text: and
+                          - emphasis [ref=f50e2696]: b
+                          - text: .
+                      - option "---Select---"
+                      - option "By part (1) of the definition of least common multiple,"
+                      - option "By part (1) of the definition of least common multiple,"
+                      - option "Both and are positive integers and Thus by Theorem 4.4.1."
+                      - option "Since and then"
+                      - option "Hence, by part (2) of the definition of least common multiple, or, equivalently,"
+                      - option "Now it is also the case that and, since we also know that is a common multiple of and ." [selected]
+                      - option "So, since and we conclude that"
+                    - 'img "Changed: Your submitted answer was incorrect. Your current answer has not been submitted." [ref=f50e2697]'
+                  - listitem [ref=f50e835]:
+                    - combobox [ref=f50e836]:
+                      - button [ref=f50e2698]:
+                        - generic [ref=f50e838]:
+                          - text: Hence, by part (2) of the definition of least common multiple,
+                          - generic [ref=f50e2699]:
+                            - text: lcm(
+                            - emphasis [ref=f50e2700]: a
+                            - text: ","
+                            - emphasis [ref=f50e2701]: b
+                            - text: ) ≤
+                            - emphasis [ref=f50e2702]: b
+                            - text: ","
+                          - text: or, equivalently,
+                          - generic [ref=f50e2703]:
+                            - emphasis [ref=f50e2704]: c
+                            - text: ≤
+                            - emphasis [ref=f50e2705]: b
+                            - text: .
+                      - option "---Select---"
+                      - option "By part (1) of the definition of least common multiple,"
+                      - option "By part (1) of the definition of least common multiple,"
+                      - option "Both and are positive integers and Thus by Theorem 4.4.1."
+                      - option "Since and then"
+                      - option "Hence, by part (2) of the definition of least common multiple, or, equivalently," [selected]
+                      - option "Now it is also the case that and, since we also know that is a common multiple of and ."
+                      - option "So, since and we conclude that"
+                    - 'img "Incorrect: Your answer is incorrect." [ref=f50e852]'
+                  - listitem [ref=f50e853]:
+                    - combobox [ref=f50e854]:
+                      - button [ref=f50e855]:
+                        - generic [ref=f50e856]:
+                          - text: Since
+                          - generic [ref=f50e857]:
+                            - emphasis [ref=f50e858]: b
+                            - text: ≤
+                            - emphasis [ref=f50e859]: c
+                          - text: and
+                          - generic [ref=f50e860]:
+                            - emphasis [ref=f50e861]: c
+                            - text: ≤
+                            - emphasis [ref=f50e862]: b
+                            - text: ","
+                          - text: then
+                          - generic [ref=f50e863]:
+                            - emphasis [ref=f50e864]: b
+                            - text: =
+                            - emphasis [ref=f50e865]: c
+                            - text: .
+                      - option "---Select---"
+                      - option "By part (1) of the definition of least common multiple,"
+                      - option "By part (1) of the definition of least common multiple,"
+                      - option "Both and are positive integers and Thus by Theorem 4.4.1."
+                      - option "Since and then" [selected]
+                      - option "Hence, by part (2) of the definition of least common multiple, or, equivalently,"
+                      - option "Now it is also the case that and, since we also know that is a common multiple of and ."
+                      - option "So, since and we conclude that"
+                    - 'img "Correct: Your answer is correct." [ref=f50e869]'
+                  - listitem [ref=f50e870]:
+                    - combobox [ref=f50e871]:
+                      - button [ref=f50e872]:
+                        - generic [ref=f50e873]:
+                          - text: So, since
+                          - generic [ref=f50e874]:
+                            - emphasis [ref=f50e875]: c
+                            - text: = lcm(
+                            - emphasis [ref=f50e876]: a
+                            - text: ","
+                            - emphasis [ref=f50e877]: b
+                            - text: )
+                          - text: and
+                          - generic [ref=f50e878]:
+                            - emphasis [ref=f50e879]: b
+                            - text: =
+                            - emphasis [ref=f50e880]: c
+                            - text: ","
+                          - text: we conclude that
+                          - generic [ref=f50e881]:
+                            - text: lcm(
+                            - emphasis [ref=f50e882]: a
+                            - text: ","
+                            - emphasis [ref=f50e883]: b
+                            - text: ) =
+                            - emphasis [ref=f50e884]: b
+                            - text: .
+                      - option "---Select---"
+                      - option "By part (1) of the definition of least common multiple,"
+                      - option "By part (1) of the definition of least common multiple,"
+                      - option "Both and are positive integers and Thus by Theorem 4.4.1."
+                      - option "Since and then"
+                      - option "Hence, by part (2) of the definition of least common multiple, or, equivalently,"
+                      - option "Now it is also the case that and, since we also know that is a common multiple of and ."
+                      - option "So, since and we conclude that" [selected]
+                    - 'img "Correct: Your answer is correct." [ref=f50e888]'
+                - strong [ref=f50e890]:
+                  - text: Part 2 (Proof that for all positive integers
+                  - emphasis [ref=f50e891]: a
+                  - text: and
+                  - emphasis [ref=f50e892]: b
+                  - text: ", if lcm("
+                  - emphasis [ref=f50e893]: a
+                  - text: ","
+                  - emphasis [ref=f50e894]: b
+                  - text: ) =
+                  - emphasis [ref=f50e895]: b
+                  - text: then
+                  - generic [ref=f50e898]:
+                    - generic [ref=f50e899]: a
+                    - text: "|"
+                    - generic [ref=f50e902]: b
+                    - text: .)
+                - generic [ref=f50e903]:
+                  - text: Let
+                  - emphasis [ref=f50e904]: a
+                  - text: and
+                  - emphasis [ref=f50e905]: b
+                  - text: be any positive integers with
+                  - generic [ref=f50e908]:
+                    - text: lcm(
+                    - generic [ref=f50e909]: a
+                    - text: ","
+                    - generic [ref=f50e910]: b
+                    - text: ) =
+                    - generic [ref=f50e911]: b
+                    - text: .
+                - generic [ref=f50e912]: Complete the proof by selecting one of the following sentences.
+                - generic [ref=f50e916]:
+                  - generic [ref=f50e917]:
+                    - radio "Since lcm(a, b) = b, substitution from part 1 of the definition for least common multiple implies that a | b." [checked] [ref=f50e918]
+                    - generic [ref=f50e919]:
+                      - text: Since
+                      - generic [ref=f50e920]:
+                        - text: lcm(
+                        - emphasis [ref=f50e921]: a
+                        - text: ","
+                        - emphasis [ref=f50e922]: b
+                        - text: ) =
+                        - emphasis [ref=f50e923]: b
+                        - text: ","
+                      - text: substitution from part 1 of the definition for least common multiple implies that
+                      - generic [ref=f50e924]:
+                        - emphasis [ref=f50e925]: a
+                        - text: "|"
+                        - emphasis [ref=f50e928]: b
+                        - text: .
+                  - generic [ref=f50e929]:
+                    - radio "Since lcm(a, b) = b, substitution from part 2 of the definition for least common multiple implies that a ≤ b and thus that a | b." [ref=f50e930]
+                    - generic [ref=f50e931]:
+                      - text: Since
+                      - generic [ref=f50e932]:
+                        - text: lcm(
+                        - emphasis [ref=f50e933]: a
+                        - text: ","
+                        - emphasis [ref=f50e934]: b
+                        - text: ) =
+                        - emphasis [ref=f50e935]: b
+                        - text: ","
+                      - text: substitution from part 2 of the definition for least common multiple implies that
+                      - generic [ref=f50e936]:
+                        - emphasis [ref=f50e937]: a
+                        - text: ≤
+                        - emphasis [ref=f50e938]: b
+                      - text: and thus that
+                      - generic [ref=f50e939]:
+                        - emphasis [ref=f50e940]: a
+                        - text: "|"
+                        - emphasis [ref=f50e943]: b
+                        - text: .
+                  - generic [ref=f50e944]:
+                    - radio "Since lcm(a, b) = b, substitution from part 1 of the definition for least common multiple implies that b | b and thus that a | b." [ref=f50e945]
+                    - generic [ref=f50e946]:
+                      - text: Since
+                      - generic [ref=f50e947]:
+                        - text: lcm(
+                        - emphasis [ref=f50e948]: a
+                        - text: ","
+                        - emphasis [ref=f50e949]: b
+                        - text: ) =
+                        - emphasis [ref=f50e950]: b
+                        - text: ","
+                      - text: substitution from part 1 of the definition for least common multiple implies that
+                      - generic [ref=f50e951]:
+                        - emphasis [ref=f50e952]: b
+                        - text: "|"
+                        - emphasis [ref=f50e955]: b
+                      - text: and thus that
+                      - generic [ref=f50e956]:
+                        - emphasis [ref=f50e957]: a
+                        - text: "|"
+                        - emphasis [ref=f50e960]: b
+                        - text: .
+                  - 'img "Correct: Your answer is correct." [ref=f50e963]'
+              - button "Submit Answer" [ref=f50e968] [cursor=pointer]
+          - generic [ref=f50e969]:
+            - region "Banner for question 6" [ref=f50e972]:
+              - generic [ref=f50e973]:
+                - heading "Question 6" [level=2] [ref=f50e975]: "6."
+                - strong [ref=f50e976]: "[– / 16.7 Points]"
+              - generic [ref=f50e977]:
+                - button "Details for question 6." [ref=f50e978] [cursor=pointer]:
+                  - generic [ref=f50e979]: Details
+                - button "My Notes For question 6" [ref=f50e982] [cursor=pointer]:
+                  - generic [ref=f50e983]: My Notes
+            - generic [ref=f50e984]:
+              - generic [ref=f50e986]:
+                - generic [ref=f50e987]: EppDiscMath5 4.10.031.
+                - region [ref=f50e988]:
+                  - strong [ref=f50e989]: Problem 6
+                  - generic [ref=f50e990]: Prove the following statement.
+                  - group [ref=f50e991]:
+                    - text: For all nonzero integers
+                    - emphasis [ref=f50e992]: a
+                    - text: and
+                    - emphasis [ref=f50e993]: b
+                    - text: ","
+                    - generic [ref=f50e994]:
+                      - generic [ref=f50e2550]:
+                        - generic [ref=f50e2554]:
+                          - generic [ref=f50e2555]: gcd
+                          - generic [ref=f50e2556]: (
+                          - generic [ref=f50e2557]: a
+                          - generic [ref=f50e2558]: ","
+                          - generic [ref=f50e2559]: b
+                          - generic [ref=f50e2560]: )
+                          - generic [ref=f50e2561]: "|"
+                          - generic [ref=f50e2562]: lcm
+                          - generic [ref=f50e2563]: (
+                          - generic [ref=f50e2564]: a
+                          - generic [ref=f50e2565]: ","
+                          - generic [ref=f50e2566]: b
+                          - generic [ref=f50e2567]: )
+                        - math [ref=f50e2568]:
+                          - generic [ref=f50e2569]: gcd
+                          - generic: ⁡
+                          - generic [ref=f50e2570]: (
+                          - generic [ref=f50e2571]: a
+                          - generic [ref=f50e2572]: ","
+                          - generic [ref=f50e2573]: b
+                          - generic [ref=f50e2574]: )
+                          - generic [ref=f50e2575]: "|"
+                          - generic [ref=f50e2576]: lcm
+                          - generic: ⁡
+                          - generic [ref=f50e2577]: (
+                          - generic [ref=f50e2578]: a
+                          - generic [ref=f50e2579]: ","
+                          - generic [ref=f50e2580]: b
+                          - generic [ref=f50e2581]: )
+                      - text: .
+                  - generic [ref=f50e995]:
+                    - strong [ref=f50e996]: Proof
+                    - text: ":"
+                  - group "Read and complete the following." [ref=f50e998]:
+                    - generic [ref=f50e1000]:
+                      - text: Let
+                      - emphasis [ref=f50e1001]: a
+                      - text: and
+                      - emphasis [ref=f50e1002]: b
+                      - text: be any integers. Then
+                      - generic [ref=f50e2584]:
+                        - generic [ref=f50e2588]:
+                          - generic [ref=f50e2589]: gcd
+                          - generic [ref=f50e2590]: (
+                          - generic [ref=f50e2591]: a
+                          - generic [ref=f50e2592]: ","
+                          - generic [ref=f50e2593]: b
+                          - generic [ref=f50e2594]: )
+                          - generic [ref=f50e2595]: "|"
+                          - generic [ref=f50e2596]: a
+                        - math [ref=f50e2597]:
+                          - generic [ref=f50e2598]: gcd
+                          - generic: ⁡
+                          - generic [ref=f50e2599]: (
+                          - generic [ref=f50e2600]: a
+                          - generic [ref=f50e2601]: ","
+                          - generic [ref=f50e2602]: b
+                          - generic [ref=f50e2603]: )
+                          - generic [ref=f50e2604]: "|"
+                          - generic [ref=f50e2605]: a
+                      - text: by
+                      - generic: Select your first answer.
+                      - combobox "Select your first answer." [ref=f50e1004] [cursor=pointer]:
+                        - option "Select" [selected]
+                        - option "definition of greatest common divisor"
+                        - option "definition of least common multiple"
+                        - option "the greatest common divisor is a multiple of"
+                        - option "the least common multiple is a divisor of"
+                      - text: ", and"
+                      - generic [ref=f50e2608]:
+                        - generic [ref=f50e2612]:
+                          - generic [ref=f50e2613]: a
+                          - generic [ref=f50e2614]: "|"
+                          - generic [ref=f50e2615]: lcm
+                          - generic [ref=f50e2616]: (
+                          - generic [ref=f50e2617]: a
+                          - generic [ref=f50e2618]: ","
+                          - generic [ref=f50e2619]: b
+                          - generic [ref=f50e2620]: )
+                        - math [ref=f50e2621]:
+                          - generic [ref=f50e2622]: a
+                          - generic [ref=f50e2623]: "|"
+                          - generic [ref=f50e2624]: lcm
+                          - generic: ⁡
+                          - generic [ref=f50e2625]: (
+                          - generic [ref=f50e2626]: a
+                          - generic [ref=f50e2627]: ","
+                          - generic [ref=f50e2628]: b
+                          - generic [ref=f50e2629]: )
+                      - text: by
+                      - generic: Select your second answer.
+                      - combobox "Select your second answer." [ref=f50e1006] [cursor=pointer]:
+                        - option "Select" [selected]
+                        - option "definition of greatest common divisor"
+                        - option "definition of least common multiple"
+                        - option "the greatest common divisor is a multiple of"
+                        - option "the least common multiple is a divisor of"
+                      - text: . Hence by transitivity of divisibility,
+                      - generic [ref=f50e1007]:
+                        - generic [ref=f50e2632]:
+                          - generic [ref=f50e2636]:
+                            - generic [ref=f50e2637]: gcd
+                            - generic [ref=f50e2638]: (
+                            - generic [ref=f50e2639]: a
+                            - generic [ref=f50e2640]: ","
+                            - generic [ref=f50e2641]: b
+                            - generic [ref=f50e2642]: )
+                            - generic [ref=f50e2643]: "|"
+                            - generic [ref=f50e2644]: lcm
+                            - generic [ref=f50e2645]: (
+                            - generic [ref=f50e2646]: a
+                            - generic [ref=f50e2647]: ","
+                            - generic [ref=f50e2648]: b
+                            - generic [ref=f50e2649]: )
+                          - math [ref=f50e2650]:
+                            - generic [ref=f50e2651]: gcd
+                            - generic: ⁡
+                            - generic [ref=f50e2652]: (
+                            - generic [ref=f50e2653]: a
+                            - generic [ref=f50e2654]: ","
+                            - generic [ref=f50e2655]: b
+                            - generic [ref=f50e2656]: )
+                            - generic [ref=f50e2657]: "|"
+                            - generic [ref=f50e2658]: lcm
+                            - generic: ⁡
+                            - generic [ref=f50e2659]: (
+                            - generic [ref=f50e2660]: a
+                            - generic [ref=f50e2661]: ","
+                            - generic [ref=f50e2662]: b
+                            - generic [ref=f50e2663]: )
+                        - text: .
+                - generic "Resource box" [ref=f50e1011]:
+                  - generic [ref=f50e1012]:
+                    - generic [ref=f50e1013]: Resources
+                    - generic [ref=f50e1014]:
+                      - paragraph [ref=f50e1015]:
+                        - link "Read It (opens in a new tab)" [ref=f50e1016] [cursor=pointer]:
+                          - /url: "#"
+                          - text: Read It
+                      - button "Ask Student Assistant for question 6" [ref=f50e1017] [cursor=pointer]: Student Assistant
+              - button "Submit Answer" [ref=f50e1020] [cursor=pointer]
+        - alert
+        - generic [ref=f50e1022]:
+          - link "Home" [ref=f50e1023] [cursor=pointer]
+          - link "My Assignments" [ref=f50e1024] [cursor=pointer]
+          - button "Open Request Extension in modal window" [ref=f50e1025] [cursor=pointer]:
+            - generic [ref=f50e1028]: Request Extension
+    - contentinfo [ref=f50e1030]:
+      - generic [ref=f50e1031]:
+        - generic [ref=f50e1032]: Copyright © 1998 - 2026 Cengage Learning, Inc. All Rights Reserved
+        - list [ref=f50e1033]:
+          - listitem [ref=f50e1034]:
+            - link "Open in a new tab. Terms of use" [ref=f50e1035] [cursor=pointer]:
+              - /url: https://www.cengage.com/legal/#terms
+              - text: Terms of use
+          - listitem [ref=f50e1036]:
+            - link "Open in a new tab. Privacy" [ref=f50e1037] [cursor=pointer]:
+              - /url: https://www.cengage.com/privacy/
+              - text: Privacy

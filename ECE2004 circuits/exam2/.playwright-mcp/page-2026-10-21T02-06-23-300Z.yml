@@ -1,0 +1,233 @@
+- generic [active] [ref=f9e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=f9e2] [cursor=pointer]
+      - link "Accessibility help" [ref=f9e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+  - generic [ref=f9e8]:
+    - search [ref=f9e9]:
+      - generic [ref=f9e11]:
+        - link "Go to Google Home" [ref=f9e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=2ahUKEwjxrKOMg8qXAxWUtisGHZzIAVMQPHoECAYQBA
+        - generic [ref=f9e17]:
+          - combobox "Search" [ref=f9e19]: site:eng.libretexts.org supernode exercises circuit site:eng.libretexts.org supernode exercises circuit
+          - generic [ref=f9e20]:
+            - button "Clear" [ref=f9e24] [cursor=pointer]
+            - generic [ref=f9e29]:
+              - button "Search by voice" [ref=f9e32] [cursor=pointer]
+              - button "Search by image" [ref=f9e37] [cursor=pointer]
+    - generic [ref=f9e40]:
+      - button "Share" [ref=f9e41] [cursor=pointer]
+      - generic [ref=f9e47]:
+        - button "Google apps" [ref=f9e49] [cursor=pointer]
+        - 'button "Google Account: Pragun Damani (pd2752@nyu.edu)" [ref=f9e54] [cursor=pointer]'
+  - generic [ref=f9e57]:
+    - navigation [ref=f9e63]:
+      - generic [ref=f9e69]:
+        - list [ref=f9e70]:
+          - listitem [ref=f9e71]:
+            - link "AI Mode" [ref=f9e74] [cursor=pointer]:
+              - /url: /search?q=site:eng.libretexts.org+supernode+exercises+circuit&sca_esv=882e2611175d5c4b&sxsrf=APpeQnvIGXWeiI_hXPPGvRP2rT6kfGubAg:1792548381719&udm=50&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqu7ocb7U6ah0xpkIrGMK4CuEddQ3ZmQozcvkgnTNQKh9YVaEr5mXVzABWj5nKQcJQ7U105Gk2oU-UBjyQxAF_wy3oW3H4PKHrepS-Qb5K2JAfnftOvaam-rliFg6kJdMN9N1PuSIxG9tuvWkkGf3sTW_98Zm-7yrG16mF1zj-zX83RpMh9kq9kj1y_4Yk5H4Dd3jYg&vsint=&aep=1&ntc=1&cs=1&sa=X&ved=2ahUKEwjxrKOMg8qXAxWUtisGHZzIAVMQ2J8OegQIFRAD
+          - listitem [ref=f9e78]:
+            - link "All" [disabled] [ref=f9e79]
+          - listitem [ref=f9e82]:
+            - link "Short videos" [ref=f9e83] [cursor=pointer]:
+              - /url: /search?sca_esv=882e2611175d5c4b&sxsrf=APpeQnvIGXWeiI_hXPPGvRP2rT6kfGubAg:1792548381719&udm=39&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqu7ocb7U6ah0xpkIrGMK4CuEddQ3ZmQozcvkgnTNQKh9YVaEr5mXVzABWj5nKQcJQ7U105Gk2oU-UBjyQxAF_wy3oW3H4PKHrepS-Qb5K2JAfnftOvaam-rliFg6kJdMN9N1PuSIxG9tuvWkkGf3sTW_98Zm-7yrG16mF1zj-zX83RpMh9kq9kj1y_4Yk5H4Dd3jYg&q=site:eng.libretexts.org+supernode+exercises+circuit&sa=X&ved=2ahUKEwjxrKOMg8qXAxWUtisGHZzIAVMQs6gLegQIGxAB
+          - listitem [ref=f9e86]:
+            - link "Images" [ref=f9e87] [cursor=pointer]:
+              - /url: /search?sca_esv=882e2611175d5c4b&sxsrf=APpeQnvIGXWeiI_hXPPGvRP2rT6kfGubAg:1792548381719&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqu7ocb7U6ah0xpkIrGMK4CuEddQ3ZmQozcvkgnTNQKh9YVaEr5mXVzABWj5nKQcJQ7U105Gk2oU-UBjyQxAF_wy3oW3H4PKHrepS-Qb5K2JAfnftOvaam-rliFg6kJdMN9N1PuSIxG9tuvWkkGf3sTW_98Zm-7yrG16mF1zj-zX83RpMh9kq9kj1y_4Yk5H4Dd3jYg&q=site:eng.libretexts.org+supernode+exercises+circuit&sa=X&ved=2ahUKEwjxrKOMg8qXAxWUtisGHZzIAVMQtKgLegQIGhAB
+          - listitem [ref=f9e90]:
+            - link "Videos" [ref=f9e91] [cursor=pointer]:
+              - /url: /search?sca_esv=882e2611175d5c4b&sxsrf=APpeQnvIGXWeiI_hXPPGvRP2rT6kfGubAg:1792548381719&udm=vids&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqu7ocb7U6ah0xpkIrGMK4CuEddQ3ZmQozcvkgnTNQKh9YVaEr5mXVzABWj5nKQcJQ7U105Gk2oU-UBjyQxAF_wy3oW3H4PKHrepS-Qb5K2JAfnftOvaam-rliFg6kJdMN9N1PuSIxG9tuvWkkGf3sTW_98Zm-7yrG16mF1zj-zX83RpMh9kq9kj1y_4Yk5H4Dd3jYg&q=site:eng.libretexts.org+supernode+exercises+circuit&sa=X&ved=2ahUKEwjxrKOMg8qXAxWUtisGHZzIAVMQtKgLegQIGBAB
+          - listitem [ref=f9e94]:
+            - link "Shopping" [ref=f9e95] [cursor=pointer]:
+              - /url: /search?sca_esv=882e2611175d5c4b&sxsrf=APpeQnvIGXWeiI_hXPPGvRP2rT6kfGubAg:1792548381719&udm=28&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqu7ocb7U6ah0xpkIrGMK4CuEddQ3ZmQozcvkgnTNQKh9YVaEr5mXVzABWj5nKQcJQ7U105Gk2oU-UBjyQxAF_wy3oW3H4PKHrepS-Qb5K2JAfnftOvaam-rliFg6kJdMN9N1PuSIxG9tuvWkkGf3sTW_98Zm-7yrG16mF1zj-zX83RpMh9kq9kj1y_4Yk5H4Dd3jYg&q=site:eng.libretexts.org+supernode+exercises+circuit&ved=1t:220175&ictx=111
+          - listitem [ref=f9e98]:
+            - link "Forums" [ref=f9e99] [cursor=pointer]:
+              - /url: /search?sca_esv=882e2611175d5c4b&sxsrf=APpeQnvIGXWeiI_hXPPGvRP2rT6kfGubAg:1792548381719&udm=forums&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqu7ocb7U6ah0xpkIrGMK4CuEddQ3ZmQozcvkgnTNQKh9YVaEr5mXVzABWj5nKQcJQ7U105Gk2oU-UBjyQxAF_wy3oW3H4PKHrepS-Qb5K2JAfnftOvaam-rliFg6kJdMN9N1PuSIxG9tuvWkkGf3sTW_98Zm-7yrG16mF1zj-zX83RpMh9kq9kj1y_4Yk5H4Dd3jYg&q=site:eng.libretexts.org+supernode+exercises+circuit&sa=X&ved=2ahUKEwjxrKOMg8qXAxWUtisGHZzIAVMQs6gLegQIFxAB
+          - listitem [ref=f9e102]:
+            - button [ref=f9e103] [cursor=pointer]:
+              - generic "More filters" [ref=f9e104]: More
+        - button "Tools" [ref=f9e111] [cursor=pointer]
+    - heading "Search Results" [level=1] [ref=f9e118]
+    - main [ref=f9e124]:
+      - generic [ref=f9e128]:
+        - generic [ref=f9e131]:
+          - heading "Web results" [level=2] [ref=f9e132]
+          - generic [ref=f9e133]:
+            - generic [ref=f9e136]:
+              - 'link "3.2: Nodal Analysis Engineering LibreTexts https://eng.libretexts.org › Workbench › 3.02:_Nodal_A..." [ref=f9e138] [cursor=pointer]':
+                - /url: https://eng.libretexts.org/Workbench/Introduction_to_Circuit_Analysis/03%3A_Nodal_and_Mesh_Analysis_Dependent_Sources/3.02%3A_Nodal_Analysis
+                - 'heading "3.2: Nodal Analysis" [level=3] [ref=f9e139]'
+                - generic [ref=f9e145]:
+                  - generic [ref=f9e146]: Engineering LibreTexts
+                  - generic [ref=f9e148]: https://eng.libretexts.org › Workbench › 3.02:_Nodal_A...
+              - button "About this result" [ref=f9e154] [cursor=pointer]
+            - generic [ref=f9e160]:
+              - generic [ref=f9e161]: Dec 21, 2023 —
+              - generic [ref=f9e162]:
+                - emphasis [ref=f9e163]: 1. Verify that the circuit uses only current sources with resistors and no voltage sources
+                - text: . · 2. Find all of the current summing nodes and number ...
+              - link "Read more" [ref=f9e164] [cursor=pointer]:
+                - /url: https://eng.libretexts.org/Workbench/Introduction_to_Circuit_Analysis/03%3A_Nodal_and_Mesh_Analysis_Dependent_Sources/3.02%3A_Nodal_Analysis#:~:text=1.%20Verify%20that%20the%20circuit,to%20current%20sources%20before%20proceeding.&text=2.%20Find%20all%20of%20the,the%20reference%20node%20(usually%20ground).
+        - generic [ref=f9e168]:
+          - generic [ref=f9e171]:
+            - 'link "6.2: Nodal Analysis Engineering LibreTexts https://eng.libretexts.org › ... › 6: Nodal and Mesh Analysis" [ref=f9e173] [cursor=pointer]':
+              - /url: https://eng.libretexts.org/Bookshelves/Electrical_Engineering/Electronics/AC_Electrical_Circuit_Analysis%3A_A_Practical_Approach_(Fiore)/06%3A_Nodal_and_Mesh_Analysis/6.2%3A_Nodal_Analysis
+              - 'heading "6.2: Nodal Analysis" [level=3] [ref=f9e174]'
+              - generic [ref=f9e180]:
+                - generic [ref=f9e181]: Engineering LibreTexts
+                - generic [ref=f9e183]: "https://eng.libretexts.org › ... › 6: Nodal and Mesh Analysis"
+            - button "About this result" [ref=f9e189] [cursor=pointer]
+          - generic [ref=f9e195]:
+            - generic [ref=f9e196]: May 22, 2022 —
+            - generic [ref=f9e197]:
+              - emphasis [ref=f9e198]: 1. Verify that the circuit uses only current sources and no voltage sources
+              - text: . · 2. Find all of the current summing nodes and number (or letter) ...
+            - link "Read more" [ref=f9e199] [cursor=pointer]:
+              - /url: https://eng.libretexts.org/Bookshelves/Electrical_Engineering/Electronics/AC_Electrical_Circuit_Analysis%3A_A_Practical_Approach_(Fiore)/06%3A_Nodal_and_Mesh_Analysis/6.2%3A_Nodal_Analysis#:~:text=1.%20Verify%20that%20the%20circuit,to%20current%20sources%20before%20proceeding.&text=2.%20Find%20all%20of%20the,the%20reference%20node%20(usually%20ground).
+        - generic [ref=f9e203]:
+          - generic [ref=f9e206]:
+            - 'link "Appendix 1: Electric Circuits and Interconnection Laws Engineering LibreTexts https://eng.libretexts.org › ... › Back Matter" [ref=f9e208] [cursor=pointer]':
+              - /url: https://eng.libretexts.org/Bookshelves/Electrical_Engineering/Electronics/Introduction_to_Physical_Electronics_(Wilson)/zz%3A_Back_Matter/Appendix_1%3A_Electric_Circuits_and_Interconnection_Laws
+              - 'heading "Appendix 1: Electric Circuits and Interconnection Laws" [level=3] [ref=f9e209]'
+              - generic [ref=f9e215]:
+                - generic [ref=f9e216]: Engineering LibreTexts
+                - generic [ref=f9e218]: https://eng.libretexts.org › ... › Back Matter
+            - button "About this result" [ref=f9e224] [cursor=pointer]
+          - generic [ref=f9e230]:
+            - generic [ref=f9e231]: Aug 25, 2026 —
+            - generic [ref=f9e232]:
+              - text: This page covers the basics of
+              - emphasis [ref=f9e233]: circuit
+              - text: analysis using a simple resistive
+              - emphasis [ref=f9e234]: circuit
+              - text: . It explains the conversion of input signals to output ...
+        - generic [ref=f9e238]:
+          - heading "Images" [level=2] [ref=f9e242]
+          - generic [ref=f9e246]:
+            - generic [ref=f9e250] [cursor=pointer]:
+              - 'link "7.2: Nodal Analysis - Engineering LibreTexts Engineering LibreTexts" [ref=f9e251]':
+                - /url: https://eng.libretexts.org/Bookshelves/Electrical_Engineering/Electronics/DC_Electrical_Circuit_Analysis_-_A_Practical_Approach_(Fiore)/07%3A_Nodal_and_Mesh_Analysis_Dependent_Sources/7.2%3A_Nodal_Analysis
+              - button [ref=f9e253]:
+                - 'img "7.2: Nodal Analysis - Engineering LibreTexts" [ref=f9e255]'
+              - generic [ref=f9e257]:
+                - generic [ref=f9e259]: "7.2: Nodal Analysis - Engineering LibreTexts"
+                - generic [ref=f9e260]:
+                  - generic [ref=f9e262]: Engineering LibreTexts
+                  - button "About this result" [ref=f9e272]
+            - generic [ref=f9e280] [cursor=pointer]:
+              - 'link "7.2: Nodal Analysis - Engineering LibreTexts Engineering LibreTexts" [ref=f9e281]':
+                - /url: https://eng.libretexts.org/Bookshelves/Electrical_Engineering/Electronics/DC_Electrical_Circuit_Analysis_-_A_Practical_Approach_(Fiore)/07%3A_Nodal_and_Mesh_Analysis_Dependent_Sources/7.2%3A_Nodal_Analysis
+              - button [ref=f9e283]:
+                - 'img "7.2: Nodal Analysis - Engineering LibreTexts" [ref=f9e285]'
+              - generic [ref=f9e287]:
+                - generic [ref=f9e289]: "7.2: Nodal Analysis - Engineering LibreTexts"
+                - generic [ref=f9e290]:
+                  - generic [ref=f9e292]: Engineering LibreTexts
+                  - button "About this result" [ref=f9e302]
+            - generic [ref=f9e310] [cursor=pointer]:
+              - 'link "6.2: Nodal Analysis - Engineering LibreTexts Engineering LibreTexts" [ref=f9e311]':
+                - /url: https://eng.libretexts.org/Bookshelves/Electrical_Engineering/Electronics/AC_Electrical_Circuit_Analysis%3A_A_Practical_Approach_(Fiore)/06%3A_Nodal_and_Mesh_Analysis/6.2%3A_Nodal_Analysis
+              - button [ref=f9e313]:
+                - 'img "6.2: Nodal Analysis - Engineering LibreTexts" [ref=f9e315]'
+              - generic [ref=f9e317]:
+                - generic [ref=f9e319]: "6.2: Nodal Analysis - Engineering LibreTexts"
+                - generic [ref=f9e320]:
+                  - generic [ref=f9e322]: Engineering LibreTexts
+                  - button "About this result" [ref=f9e332]
+          - button "Show more images" [ref=f9e338] [cursor=pointer]:
+            - separator [aria-hidden] [ref=f9e339]
+        - generic [ref=f9e347]:
+          - heading "Web results" [level=2] [ref=f9e348]
+          - generic [ref=f9e349]:
+            - generic [ref=f9e352]:
+              - 'link "6.5: Summary Engineering LibreTexts https://eng.libretexts.org › ... › 6: Nodal and Mesh Analysis" [ref=f9e354] [cursor=pointer]':
+                - /url: https://eng.libretexts.org/Bookshelves/Electrical_Engineering/Electronics/AC_Electrical_Circuit_Analysis%3A_A_Practical_Approach_(Fiore)/06%3A_Nodal_and_Mesh_Analysis/6.5%3A_Summary
+                - 'heading "6.5: Summary" [level=3] [ref=f9e355]'
+                - generic [ref=f9e361]:
+                  - generic [ref=f9e362]: Engineering LibreTexts
+                  - generic [ref=f9e364]: "https://eng.libretexts.org › ... › 6: Nodal and Mesh Analysis"
+              - button "About this result" [ref=f9e370] [cursor=pointer]
+            - generic [ref=f9e377]:
+              - text: Nodal analysis can be used to solve virtually any complex multi-source AC electrical
+              - emphasis [ref=f9e378]: circuit
+              - text: . ... 5. What is a
+              - emphasis [ref=f9e379]: supernode
+              - text: "? 6. What is a supermesh? 7 ... 6.6: ..."
+        - generic [ref=f9e383]:
+          - generic [ref=f9e386]:
+            - 'link "3.4: Electric Circuits and Interconnection Laws Engineering LibreTexts https://eng.libretexts.org › ... › 3: Analog Signal Processing" [ref=f9e388] [cursor=pointer]':
+              - /url: https://eng.libretexts.org/Bookshelves/Electrical_Engineering/Introductory_Electrical_Engineering/Electrical_Engineering_(Johnson)/03%3A_Analog_Signal_Processing/3.04%3A_Electric_Circuits_and_Interconnection_Laws
+              - 'heading "3.4: Electric Circuits and Interconnection Laws" [level=3] [ref=f9e389]'
+              - generic [ref=f9e395]:
+                - generic [ref=f9e396]: Engineering LibreTexts
+                - generic [ref=f9e398]: "https://eng.libretexts.org › ... › 3: Analog Signal Processing"
+            - button "About this result" [ref=f9e404] [cursor=pointer]
+          - generic [ref=f9e410]:
+            - generic [ref=f9e411]: May 23, 2022 —
+            - generic [ref=f9e412]:
+              - text: If we consider two nodes together as a "
+              - emphasis [ref=f9e413]: supernode
+              - text: "\", KCL applies as well to currents entering the combination. Since no currents enter an entire ..."
+            - link "Read more" [ref=f9e414] [cursor=pointer]:
+              - /url: https://eng.libretexts.org/Bookshelves/Electrical_Engineering/Introductory_Electrical_Engineering/Electrical_Engineering_(Johnson)/03%3A_Analog_Signal_Processing/3.04%3A_Electric_Circuits_and_Interconnection_Laws#:~:text=If%20we%20consider%20two%20nodes,of%20currents%20must%20be%20zero.
+        - generic [ref=f9e418]:
+          - generic [ref=f9e421]:
+            - 'link "7.5: Summary Engineering LibreTexts https://eng.libretexts.org › Bookshelves › Electronics › 7...." [ref=f9e423] [cursor=pointer]':
+              - /url: https://eng.libretexts.org/Bookshelves/Electrical_Engineering/Electronics/DC_Electrical_Circuit_Analysis_-_A_Practical_Approach_(Fiore)/07%3A_Nodal_and_Mesh_Analysis_Dependent_Sources/7.5%3A_Summary
+              - 'heading "7.5: Summary" [level=3] [ref=f9e424]'
+              - generic [ref=f9e430]:
+                - generic [ref=f9e431]: Engineering LibreTexts
+                - generic [ref=f9e433]: https://eng.libretexts.org › Bookshelves › Electronics › 7....
+            - button "About this result" [ref=f9e439] [cursor=pointer]
+          - generic [ref=f9e445]:
+            - generic [ref=f9e446]: Jun 6, 2021 —
+            - generic [ref=f9e447]:
+              - text: Nodal analysis can be used to solve virtually any complex multi-source DC electrical
+              - emphasis [ref=f9e448]: circuit
+              - text: . It is based on KCL, writing expressions involving ...
+            - link "Read more" [ref=f9e449] [cursor=pointer]:
+              - /url: https://eng.libretexts.org/Bookshelves/Electrical_Engineering/Electronics/DC_Electrical_Circuit_Analysis_-_A_Practical_Approach_(Fiore)/07%3A_Nodal_and_Mesh_Analysis_Dependent_Sources/7.5%3A_Summary#:~:text=Nodal%20analysis%20can%20be%20used,each%20node%20in%20the%20circuit.
+      - generic [ref=f9e451]:
+        - generic [ref=f9e456]:
+          - heading "People also search for" [level=2] [ref=f9e458]
+          - generic [ref=f9e460]:
+            - generic [ref=f9e461]:
+              - link "Supernode exercises circuit pdf" [ref=f9e465] [cursor=pointer]:
+                - /url: /search?sca_esv=882e2611175d5c4b&sxsrf=APpeQnvIGXWeiI_hXPPGvRP2rT6kfGubAg:1792548381719&q=Supernode+exercises+circuit+pdf&sa=X&ved=2ahUKEwjxrKOMg8qXAxWUtisGHZzIAVMQ1QJ6BAgxEAE
+              - link "Supernode exercises circuit nodal analysis" [ref=f9e479] [cursor=pointer]:
+                - /url: /search?sca_esv=882e2611175d5c4b&sxsrf=APpeQnvIGXWeiI_hXPPGvRP2rT6kfGubAg:1792548381719&q=Supernode+exercises+circuit+nodal+analysis&sa=X&ved=2ahUKEwjxrKOMg8qXAxWUtisGHZzIAVMQ1QJ6BAgyEAE
+            - link "Supernode exercises circuit ppt" [ref=f9e494] [cursor=pointer]:
+              - /url: /search?sca_esv=882e2611175d5c4b&sxsrf=APpeQnvIGXWeiI_hXPPGvRP2rT6kfGubAg:1792548381719&q=Supernode+exercises+circuit+ppt&sa=X&ved=2ahUKEwjxrKOMg8qXAxWUtisGHZzIAVMQ1QJ6BAgzEAE
+        - generic [ref=f9e505]:
+          - heading "Notices about Filtered Results" [level=2] [ref=f9e506]
+          - paragraph [ref=f9e508]:
+            - generic [ref=f9e509]:
+              - text: In order to show you the most relevant results, we have omitted some entries very similar to the 6 already displayed.If you like, you can
+              - link "repeat the search with the omitted results included" [ref=f9e510] [cursor=pointer]:
+                - /url: /search?q=site:eng.libretexts.org+supernode+exercises+circuit&sca_esv=882e2611175d5c4b&sxsrf=APpeQnvIGXWeiI_hXPPGvRP2rT6kfGubAg:1792548381719&filter=0
+              - text: .
+        - navigation
+      - navigation
+    - contentinfo [ref=f9e511]:
+      - heading "Footer Links" [level=1] [ref=f9e512]
+      - generic [ref=f9e516]:
+        - generic [ref=f9e517]: Results are not personalized
+        - generic [ref=f9e524]:
+          - button "Bedford-Stuyvesant, New York - From your IP address" [ref=f9e526] [cursor=pointer]:
+            - generic [ref=f9e527]: Bedford-Stuyvesant, New York
+            - generic [ref=f9e529]:
+              - text: "-"
+              - generic [ref=f9e530]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=f9e532] [cursor=pointer]
+        - generic [ref=f9e535]:
+          - link "Help" [ref=f9e536] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=f9e537] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=f9e538] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=f9e539] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

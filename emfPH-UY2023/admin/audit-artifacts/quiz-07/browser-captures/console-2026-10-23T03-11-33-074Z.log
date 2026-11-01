@@ -1,0 +1,81 @@
+[     850ms] [WARNING] Deprecated API for given entry type. @ https://mail.google.com/_/scs/mail-static/_/js/k=gmail.main.en_GB.5EvZ22j6D2k.es5.OL/am=QAEAAACA-Yfg_L-nFwsggP_l8Of7wN8vdP8QhIEfAlRyG2gApVO_z____9_Nr_n73RDE-PyRAEBA66ObEg-bqxoBwAekvXq6bQAAAAAAAAAAAAAAAAAAAMDPtCkJDA/d=1/exm=b/ed=1/im=1/dg=0/br=1/wt=1/rs=AHGWq9APW6RdUbPBBCR_XUqnGG0anb9h-A/cb=loaded_1/m=a?cb=a5f0106d:3647
+[    1108ms] [WARNING] Unrecognized feature: 'attribution-reporting'. @ https://mail.google.com/_/scs/mail-static/_/js/k=gmail.main.en_GB.5EvZ22j6D2k.es5.OL/am=QAEAAACA-Yfg_L-nFwsggP_l8Of7wN8vdP8QhIEfAlRyG2gApVO_z____9_Nr_n73RDE-PyRAEBA66ObEg-bqxoBwAekvXq6bQAAAAAAAAAAAAAAAAAAAMDPtCkJDA/d=1/exm=a,b,m,m_i/ed=1/im=1/dg=0/br=1/wt=1/rs=AHGWq9APW6RdUbPBBCR_XUqnGG0anb9h-A/cb=loaded_3/m=ebdd,sps,l,spit,t,it,anc?cb=a5f0106d:5012
+[    3311ms] [WARNING] Manifest: property 'migrate_from' ignored, manifest must specify an 'id' property in order to receive a migration. @ https://mail.google.com/mail/u/0/manifest.json:0
+[    3313ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'. @ :0
+[    3313ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'run-ad-auction'. @ :0
+[    3313ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'join-ad-interest-group'. @ :0
+[    3313ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-redemption'. @ :0
+[    3313ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-issuance'. @ :0
+[    3313ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'private-aggregation'. @ :0
+[    3313ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'attribution-reporting'. @ :0
+[    3314ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://mail.google.com/mail/u/0/data?token=%5B%22cftp%22,%2276bcabf10f%22,%22gmail.pinto-server_20261019.08_p0%22,%22ZyMrc6cBAw-rFZnvtXyj5A%5Cu003d%5Cu003d%22,null,3,%22%22%5D&dilte=0&gme=1&sme=1&pt=ji&di=0&dbv=112&isils=0:0
+[    4603ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://mail.google.com/generate_204?z3JKkQ:0
+[    4734ms] [WARNING] No available adapters. @ https://mail.google.com/mail/u/0/#search/daddy/FMfcgzQhWTsMMTLsQLbTLwXDNJLCwBCN:0
+[    4734ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?hasfast=true&auth=SAPISIDHASH+eeea05345e4fdfaf9bf79409166e377397271b00+SAPISID1PHASH+eeea05345e4fdfaf9bf79409166e377397271b00+SAPISID3PHASH+eeea05345e4fdfaf9bf79409166e377397271b00&authuser=0&format=json:0
+[    4734ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?hasfast=true&auth=SAPISIDHASH+eeea05345e4fdfaf9bf79409166e377397271b00+SAPISID1PHASH+eeea05345e4fdfaf9bf79409166e377397271b00+SAPISID3PHASH+eeea05345e4fdfaf9bf79409166e377397271b00&authuser=0&format=json:0
+[    4735ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?format=json&hasfast=true&authuser=0:0
+[    5153ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?format=json&hasfast=true&authuser=0:0
+[    7882ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?format=json&hasfast=true&authuser=0:0
+[    9123ms] [ERROR] Loading the script 'https://youtube.googleapis.com/iframe_api' violates the following Content Security Policy directive: "script-src https://www.google.com/js/bg/ 'self' 'unsafe-inline' 'unsafe-eval' https://mail.google.com/_/scs/mail-static/ https://hangouts.google.com/ https://talkgadget.google.com/ https://*.talkgadget.google.com/ https://www.googleapis.com/appsmarket/v2/installedApps/ https://www-gm-opensocial.googleusercontent.com/gadgets/js/ https://www-onepick-opensocial.googleusercontent.com/gadgets/js/ https://docs.google.com/static/doclist/client/js/ https://www.google.com/tools/feedback/ https://s.ytimg.com/yts/jsbin/ https://www.youtube.com/iframe_api https://apis.google.com/_/scs/abc-static/ https://apis.google.com/js/ https://clients1.google.com/complete/ https://apis.google.com/_/scs/apps-static/_/js/ https://ssl.gstatic.com/inputtools/js/ https://inputtools.google.com/request https://ssl.gstatic.com/cloudsearch/static/o/js/ https://www.gstatic.com/feedback/js/ https://www.gstatic.com/feedback/gfeedback/js/ https://www.gstatic.com/uservoice/feedback/client/web/ https://www.gstatic.com/common_sharing/static/client/js/ https://www.gstatic.com/og/_/js/ https://clients4.google.com/insights/consumersurveys/ https://scone-pa.clients6.google.com/ https://feedback-pa.clients6.google.com/ https://www.gstatic.com/support/content/resources/ https://www.gstatic.com/uservoice/surveys/resources/ https://www.gstatic.com/mail/ads/ https://www.gstatic.com/external_hosted/lottie/lottie_light.js". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The action has been blocked. @ https://mail.google.com/_/scs/mail-static/_/js/k=gmail.main.en_GB.5EvZ22j6D2k.es5.OL/am=QAEAAACA-Yfg_L-nFwsggP_l8Of7wN8vdP8QhIEfAlRyG2gApVO_z____9_Nr_n73RDE-PyRAEBA66ObEg-bqxoBwAekvXq6bQAAAAAAAAAAAAAAAAAAAMDPtCkJDA/d=1/exm=b/ed=1/im=1/dg=0/br=1/wt=1/rs=AHGWq9APW6RdUbPBBCR_XUqnGG0anb9h-A/cb=loaded_1/m=a?cb=a5f0106d:1271
+[    9210ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'. @ :0
+[    9210ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'run-ad-auction'. @ :0
+[    9210ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'join-ad-interest-group'. @ :0
+[    9210ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-redemption'. @ :0
+[    9210ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-issuance'. @ :0
+[    9210ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'private-aggregation'. @ :0
+[    9210ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'attribution-reporting'. @ :0
+[    9225ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'. @ :0
+[    9225ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'run-ad-auction'. @ :0
+[    9225ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'join-ad-interest-group'. @ :0
+[    9225ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-redemption'. @ :0
+[    9225ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-issuance'. @ :0
+[    9225ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'private-aggregation'. @ :0
+[    9225ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'attribution-reporting'. @ :0
+[    9282ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?format=json&hasfast=true&authuser=0:0
+[    9287ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'. @ :0
+[    9287ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'run-ad-auction'. @ :0
+[    9287ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'join-ad-interest-group'. @ :0
+[    9287ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-redemption'. @ :0
+[    9287ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-issuance'. @ :0
+[    9287ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'private-aggregation'. @ :0
+[    9287ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'attribution-reporting'. @ :0
+[    9493ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?format=json&hasfast=true&authuser=0:0
+[   12100ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?format=json&hasfast=true&authuser=0:0
+[   12529ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?format=json&hasfast=true&authuser=0:0
+[   12698ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://mail-ads.google.com/mail/u/0/adsfe/main_jspb?rt=r&client=25&pt=ji:0
+[   14402ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'. @ :0
+[   14402ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'run-ad-auction'. @ :0
+[   14402ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'join-ad-interest-group'. @ :0
+[   14402ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-redemption'. @ :0
+[   14402ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-issuance'. @ :0
+[   14402ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'private-aggregation'. @ :0
+[   14402ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'attribution-reporting'. @ :0
+[   18011ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?format=json&hasfast=true&authuser=0:0
+[   18250ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?format=json&hasfast=true&authuser=0:0
+[   18255ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?format=json&hasfast=true&authuser=0:0
+[   19961ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?format=json&hasfast=true&authuser=0:0
+[   22636ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?format=json&hasfast=true&authuser=0:0
+[   22765ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?format=json&hasfast=true&authuser=0:0
+[   26329ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'browsing-topics'. @ :0
+[   26329ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'run-ad-auction'. @ :0
+[   26329ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'join-ad-interest-group'. @ :0
+[   26329ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-redemption'. @ :0
+[   26329ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-issuance'. @ :0
+[   26329ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'private-aggregation'. @ :0
+[   26329ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'attribution-reporting'. @ :0
+[   26543ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://mail.google.com/generate_204?U8WSZA:0
+[   26568ms] [WARNING] No available adapters. @ https://mail.google.com/mail/u/0/#search/daddy/FMfcgzQhWTsMMTLsQLbTLwXDNJLCwBCN:0
+[   26571ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?hasfast=true&auth=SAPISIDHASH+eeea05345e4fdfaf9bf79409166e377397271b00+SAPISID1PHASH+eeea05345e4fdfaf9bf79409166e377397271b00+SAPISID3PHASH+eeea05345e4fdfaf9bf79409166e377397271b00&authuser=0&format=json:0
+[   34714ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?format=json&hasfast=true&authuser=0:0
+[   35443ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?format=json&hasfast=true&authuser=0:0
+[   36832ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?hasfast=true&auth=SAPISIDHASH+eeea05345e4fdfaf9bf79409166e377397271b00+SAPISID1PHASH+eeea05345e4fdfaf9bf79409166e377397271b00+SAPISID3PHASH+eeea05345e4fdfaf9bf79409166e377397271b00&authuser=0&format=json:0
+[   37672ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?format=json&hasfast=true&authuser=0:0
+[   39729ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?format=json&hasfast=true&authuser=0:0
+[   49999ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?format=json&hasfast=true&authuser=0:0
+[   59904ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?hasfast=true&auth=SAPISIDHASH+eeea05345e4fdfaf9bf79409166e377397271b00+SAPISID1PHASH+eeea05345e4fdfaf9bf79409166e377397271b00+SAPISID3PHASH+eeea05345e4fdfaf9bf79409166e377397271b00&authuser=0&format=json:0
+[   66961ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?format=json&hasfast=true&authuser=0:0
+[   67620ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?hasfast=true&auth=SAPISIDHASH+eeea05345e4fdfaf9bf79409166e377397271b00+SAPISID1PHASH+eeea05345e4fdfaf9bf79409166e377397271b00+SAPISID3PHASH+eeea05345e4fdfaf9bf79409166e377397271b00&authuser=0&format=json:0
+[   69141ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?format=json&hasfast=true&authuser=0:0
+[   69725ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?format=json&hasfast=true&authuser=0:0
+[   76491ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?format=json&hasfast=true&authuser=0:0
+[  109185ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://play.google.com/log?format=json&hasfast=true&authuser=0:0

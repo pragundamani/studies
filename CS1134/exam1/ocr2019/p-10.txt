@@ -1,0 +1,60 @@
+Name: Jack. ‘eco Net ID: RUZ
+
+Question 5 (20 points}
+
+Consider the following definition of opposite-pairs in a list:
+
+Two elements, that are at the same distance from the beginning of the list, and
+from the end of the list, are called an opposite-pair.
+
+That is:
+
+e The first and tast elements are an opposite-pair
+
+* The second and the second-last elements are an opposite pair
+
+e The third and the third-last elements are an opposite pair
+
+* etc.
+
+Give a recursive implementation for the function:
+def addative_inverse_opposite_pairs_count(lst, low, high)
+
+The function is given 1st, a list of integers, and two indices: Low and high (Low s high),
+which indicate the range of indices that need to be considered.
+
+When calling: addative_inverse_opposite_pairs_count(1st, @, len(lst)-1),
+
+it should return the number of opposite-pairs in-ts+, in which the two numbers are
+additive inverses of each other.
+
+Note that, numbers of the form x and —x are considered additive inverses of each other.
+
+For example, if lst = [7, -6, 3, 5, 5, -3, 6, 21], the call
+addative_inverse_opposite_pairs_count(lst, @, 7) should return 2 (the two
+opposite-pairs are (-6, 6) and (3, -3)).
+
+Implementation requirements:
+
+e For simplicity, you may assume that Ist has even number of elements.
+
+e Your function should run in worst case linear time. That is, if Ist is a list with n
+elements, the call addative_inverse_opposite_pairs_count(lst, @, n-1)
+should run in @(n).
+
+» Your function must be recursive.
+
+e You are not allowed to:
+
+a) Define a helper function.
+
+b) Add parameters to the function's header line
+c) Set default values to the parameter.
+
+d) Use global variables
+
+Hint: Your implementation does not need to use a loop.
+
+Note: Write your implementation on the next page.
+
+10

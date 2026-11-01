@@ -1,0 +1,1949 @@
+- generic [ref=f83e1]:
+  - generic [ref=f83e3]:
+    - generic [ref=f83e4]:
+      - link "Skip to content" [ref=f83e5] [cursor=pointer]:
+        - /url: ""
+      - link "Skip to navigation" [ref=f83e6] [cursor=pointer]:
+        - /url: ""
+    - generic [ref=f83e7]:
+      - banner [ref=f83e8]:
+        - generic [ref=f83e10]:
+          - button "Cengage WebAssign Homepage" [ref=f83e12] [cursor=pointer]:
+            - img "Cengage WebAssign Homepage" [ref=f83e13]
+          - generic [ref=f83e34]:
+            - generic [ref=f83e35]:
+              - link "My Cengage Home" [ref=f83e36] [cursor=pointer]:
+                - /url: https://www.cengage.com/dashboard/
+              - button "Open Email Notification Settings modal" [ref=f83e41] [cursor=pointer]
+              - link "Open Help page in a new browser tab." [ref=f83e45] [cursor=pointer]:
+                - /url: https://help.cengage.com/webassign/student_guide/
+              - link "Open My Account in a new browser tab." [ref=f83e49] [cursor=pointer]:
+                - /url: /web/User/Cengage/my_account
+              - button "Interface language setting. Language set to English" [ref=f83e54] [cursor=pointer]:
+                - generic [ref=f83e57]: EN
+            - generic [ref=f83e61]:
+              - generic [ref=f83e62]: pd2752@nyu.edu
+              - button "Sign out" [ref=f83e63] [cursor=pointer]
+        - navigation "WebAssign" [ref=f83e66]:
+          - link "Home" [ref=f83e67]
+          - link "My Assignments" [ref=f83e68]
+          - link "Grades" [ref=f83e69]
+          - link "Communication" [ref=f83e70]
+          - link "Calendar" [ref=f83e71]
+          - button "My eBooks" [ref=f83e74]
+      - main [ref=f83e77]:
+        - generic [ref=f83e78]:
+          - generic [ref=f83e79]:
+            - generic [ref=f83e81]:
+              - generic [ref=f83e82]:
+                - 'link "navigate back to PH-UY 2023: ELECTRICITY, MAGNETISM, & FLUIDS (F26), Fall 2026" [ref=f83e84] [cursor=pointer]':
+                  - /url: /v4cgi/student.pl?course=1313315,1707793
+                  - text: "PH-UY 2023: ELECTRICITY, MAGNETISM, & FLUIDS (F26), Fall 2026"
+                - heading "PH-UY 2023 F26 HW08 (Homework)" [level=1] [ref=f83e87]
+              - generic [ref=f83e90]:
+                - generic [ref=f83e94]:
+                  - text: Instructor
+                  - generic [ref=f83e95]: John Di Bartolo
+                - generic [ref=f83e96]: New York University
+            - generic [ref=f83e99]:
+              - generic [ref=f83e100]:
+                - generic [ref=f83e101]:
+                  - generic [ref=f83e102]:
+                    - generic [ref=f83e103]: "Due Date: Friday, October 30, 2026 at 8:00 AM EDT"
+                    - generic [aria-hidden] [ref=f83e104]: "Due Date:"
+                    - generic [aria-hidden] [ref=f83e105]: Fri, Oct 30, 2026 8:00 AM EDT
+                  - generic [ref=f83e106]:
+                    - generic [ref=f83e107]: "Current Score: 18 / 57 Points 31.6%"
+                    - generic [aria-hidden] [ref=f83e108]: "Current Score:"
+                    - generic [aria-hidden] [ref=f83e109]: 18 / 57 Points | 31.6 %
+                - button "Print assignment" [ref=f83e111] [cursor=pointer]:
+                  - generic [ref=f83e112]: Print Assignment
+              - generic [ref=f83e118]:
+                - heading [level=2] [ref=f83e119]:
+                  - button "Scoring and Assignment Information" [expanded] [ref=f83e120] [cursor=pointer]
+                - generic "Scoring and Assignment Information" [ref=f83e127]:
+                  - generic [ref=f83e128]:
+                    - table [ref=f83e131]:
+                      - rowgroup [ref=f83e132]:
+                        - row [ref=f83e133]:
+                          - rowheader "Question" [ref=f83e134]
+                          - columnheader [ref=f83e135]:
+                            - link "Question 1 of 10," [ref=f83e136] [cursor=pointer]:
+                              - /url: "#Q1"
+                              - generic [ref=f83e137]: "1"
+                          - columnheader [ref=f83e139]:
+                            - link "Question 2 of 10," [ref=f83e140] [cursor=pointer]:
+                              - /url: "#Q2"
+                              - generic [ref=f83e141]: "2"
+                          - columnheader [ref=f83e143]:
+                            - link "Question 3 of 10," [ref=f83e144] [cursor=pointer]:
+                              - /url: "#Q3"
+                              - generic [ref=f83e145]: "3"
+                          - columnheader [ref=f83e147]:
+                            - link "Question 4 of 10," [ref=f83e148] [cursor=pointer]:
+                              - /url: "#Q4"
+                              - generic [ref=f83e149]: "4"
+                          - columnheader [ref=f83e151]:
+                            - link "Question 5 of 10," [ref=f83e152] [cursor=pointer]:
+                              - /url: "#Q5"
+                              - generic [ref=f83e153]: "5"
+                          - columnheader [ref=f83e155]:
+                            - link "Question 6 of 10," [ref=f83e156] [cursor=pointer]:
+                              - /url: "#Q6"
+                              - generic [ref=f83e157]: "6"
+                          - columnheader [ref=f83e159]:
+                            - link "Question 7 of 10," [ref=f83e160] [cursor=pointer]:
+                              - /url: "#Q7"
+                              - generic [ref=f83e161]: "7"
+                          - columnheader [ref=f83e163]:
+                            - link "Question 8 of 10," [ref=f83e164] [cursor=pointer]:
+                              - /url: "#Q8"
+                              - generic [ref=f83e165]: "8"
+                          - columnheader [ref=f83e167]:
+                            - link "Question 9 of 10," [ref=f83e168] [cursor=pointer]:
+                              - /url: "#Q9"
+                              - generic [ref=f83e169]: "9"
+                          - columnheader [ref=f83e171]:
+                            - link "Question 10 of 10," [ref=f83e172] [cursor=pointer]:
+                              - /url: "#Q10"
+                              - generic [ref=f83e173]: "10"
+                        - row [ref=f83e175]:
+                          - rowheader "Points" [ref=f83e176]
+                          - cell [ref=f83e177]:
+                            - link "Question 1 out of 10, correct, your score is 15 out of 15" [ref=f83e178] [cursor=pointer]:
+                              - /url: "#Q1"
+                              - generic [ref=f83e179]: 15 / 15
+                          - cell [ref=f83e180]:
+                            - link "Question 2 out of 10, correct, your score is 3 out of 3" [ref=f83e181] [cursor=pointer]:
+                              - /url: "#Q2"
+                              - generic [ref=f83e182]: 3 / 3
+                          - cell [ref=f83e183]:
+                            - link "Question 3 out of 10, your score is none out of 1" [ref=f83e184] [cursor=pointer]:
+                              - /url: "#Q3"
+                              - generic [ref=f83e185]: – / 1
+                          - cell [ref=f83e186]:
+                            - link "Question 4 out of 10, your score is none out of 5" [ref=f83e187] [cursor=pointer]:
+                              - /url: "#Q4"
+                              - generic [ref=f83e188]: – / 5
+                          - cell [ref=f83e189]:
+                            - link "Question 5 out of 10, your score is none out of 5" [ref=f83e190] [cursor=pointer]:
+                              - /url: "#Q5"
+                              - generic [ref=f83e191]: – / 5
+                          - cell [ref=f83e192]:
+                            - link "Question 6 out of 10, your score is none out of 12" [ref=f83e193] [cursor=pointer]:
+                              - /url: "#Q6"
+                              - generic [ref=f83e194]: – / 12
+                          - cell [ref=f83e195]:
+                            - link "Question 7 out of 10, your score is none out of 1" [ref=f83e196] [cursor=pointer]:
+                              - /url: "#Q7"
+                              - generic [ref=f83e197]: – / 1
+                          - cell [ref=f83e198]:
+                            - link "Question 8 out of 10, your score is none out of 3" [ref=f83e199] [cursor=pointer]:
+                              - /url: "#Q8"
+                              - generic [ref=f83e200]: – / 3
+                          - cell [ref=f83e201]:
+                            - link "Question 9 out of 10, your score is none out of 2" [ref=f83e202] [cursor=pointer]:
+                              - /url: "#Q9"
+                              - generic [ref=f83e203]: – / 2
+                          - cell [ref=f83e204]:
+                            - link "Question 10 out of 10, your score is none out of 10" [ref=f83e205] [cursor=pointer]:
+                              - /url: "#Q10"
+                              - generic [ref=f83e206]: – / 10
+                    - generic [ref=f83e207]:
+                      - heading "Assignment Submission" [level=3] [ref=f83e208]
+                      - paragraph [ref=f83e209]: For this assignment, you submit answers by question parts. The number of submissions remaining for each question part only changes if you submit or change the answer.
+                      - heading "Assignment Scoring" [level=3] [ref=f83e210]
+                      - paragraph [ref=f83e211]: Your best submission for each question part is used for your score.
+            - generic [ref=f83e212]:
+              - region "Banner for question 1" [ref=f83e215]:
+                - generic [ref=f83e216]:
+                  - heading "Question 1" [level=2] [ref=f83e218]: "1."
+                  - strong [ref=f83e219]: "[15 / 15 Points]"
+                - generic [ref=f83e220]:
+                  - button "Details for question 1." [ref=f83e221] [cursor=pointer]:
+                    - generic [ref=f83e222]: Details
+                  - button "My Notes For question 1" [ref=f83e225] [cursor=pointer]:
+                    - generic [ref=f83e226]: My Notes
+                  - button "Previous Answers for question 1" [ref=f83e227] [cursor=pointer]:
+                    - generic [ref=f83e228]: Previous Answers
+                  - button "Ask Your Teacher For question 1" [ref=f83e231] [cursor=pointer]:
+                    - generic [ref=f83e232]: Ask Your Teacher
+                  - button "Practice Another Version for question 1." [ref=f83e233] [cursor=pointer]:
+                    - generic [ref=f83e234]: Practice Another
+              - generic [ref=f83e235]:
+                - generic [ref=f83e237]:
+                  - generic [ref=f83e238]: SerPSE11 25.DWB.001.
+                  - generic [ref=f83e239]:
+                    - generic [ref=f83e240]:
+                      - generic [ref=f83e241]: "Electricity: Capacitors"
+                      - generic [ref=f83e243]: Capacitors are combinations of electrical conductors, separated in the circuit. Thus, they represent a "break" in the circuit. If the conductors carry equal but opposite charges, a potential difference exists across them. Although the conductors in a capacitor are separated, they do not interrupt current flow. Instead, their inclusion changes the way in which currents and potential differences are characterized in circuits.
+                    - generic [ref=f83e245]:
+                      - generic [ref=f83e246]: Part 1 of 6 - Step 1
+                      - generic [ref=f83e249]:
+                        - generic [ref=f83e250]: In a capacitor, two equally but oppositely charged conductors, typically thin plates, are separated by a distance, creating an electric field between them. The figure below shows two parallel plates in a capacitor, and the electric field due to the charge on the plates.
+                        - figure [ref=f83e251]:
+                          - text: ℹ
+                          - generic [ref=f83e253]:
+                            - text: A parallel plate capacitor is shown. The top plate has charge +
+                            - emphasis [ref=f83e254]: Q
+                            - text: . The bottom plate has charge −
+                            - emphasis [ref=f83e255]: Q
+                            - text: . Arrows show the path of the electric field. In the space between the plates the arrows point from the positively charged plate to the negatively charged plate. There are many arrows between the plates, and not much space between each arrow. Outside of the plates, the arrows are curved, so that the field lines that begin on the top or the sides of the positive plate move around the capacitor to connect to the sides and bottom of the negative plate. There are less arrows on the outside of the plates, and more space between each arrow.
+                        - generic [ref=f83e256]:
+                          - text: Note that the electric field is large inside the gap between the capacitors and small outside. We define the
+                          - term [ref=f83e257]:
+                            - generic [ref=f83e258]: capacitance
+                          - text: of a capacitor as the ratio of the charge on the capacitor to the potential difference between the conductors, or
+                        - generic [ref=f83e262]:
+                          - generic [ref=f83e263]: C
+                          - text: =
+                          - table [ref=f83e265]:
+                            - rowgroup [ref=f83e266]:
+                              - row [ref=f83e267]:
+                                - cell "Q" [ref=f83e268]
+                              - row [ref=f83e269]:
+                                - cell "ΔV" [ref=f83e270]
+                          - text: ","
+                        - generic [ref=f83e271]: where the charge and potential difference are always given as positive values. Dimensional analysis tells us that the capacitance must have units of coulombs/volt (C/V). This is termed a farad (F).
+                        - generic [ref=f83e272]:
+                          - text: Any pairing of conductors can exhibit capacitance. For example, consider two conducting plates arranged parallel to each other, as shown above. If the plates are very large, or the gap between them is very small, we can approximate the electric field between them as uniform. Recall that for two parallel plates of equal but opposite charge, the electric field at all points between is
+                          - generic [ref=f83e275]:
+                            - generic [ref=f83e276]: E
+                            - text: = 𝜎⁄𝜀
+                            - subscript [ref=f83e277]: "0"
+                            - text: =
+                            - generic [ref=f83e278]: Q
+                            - text: ⁄𝜀
+                            - subscript [ref=f83e279]: "0"
+                            - generic [ref=f83e280]: A
+                            - text: .
+                          - text: We also know that
+                          - generic [ref=f83e283]:
+                            - generic [ref=f83e284]: E
+                            - text: = Δ
+                            - generic [ref=f83e285]: V
+                            - text: /
+                            - generic [ref=f83e286]: d
+                            - text: .
+                          - text: Substituting this result back into our capacitance equation, we find that for two parallel plates, the capacitance is defined as
+                        - generic [ref=f83e290]:
+                          - generic [ref=f83e291]: C
+                          - text: =
+                          - table [ref=f83e293]:
+                            - rowgroup [ref=f83e294]:
+                              - row [ref=f83e295]:
+                                - cell [ref=f83e296]:
+                                  - text: 𝜀
+                                  - subscript [ref=f83e297]: "0"
+                                  - text: A
+                              - row [ref=f83e298]:
+                                - cell "d" [ref=f83e299]
+                          - text: ","
+                        - generic [ref=f83e300]:
+                          - text: where
+                          - emphasis [ref=f83e301]: A
+                          - text: is the area of the capacitor plates and
+                          - emphasis [ref=f83e302]: d
+                          - text: is their separation. If you halve the conductor separation in a parallel plate capacitor, how is the capacitance affected?
+                        - generic [ref=f83e303]:
+                          - generic [ref=f83e306]:
+                            - generic [ref=f83e307]:
+                              - radio "The capacitance doubles." [checked] [ref=f83e308]
+                              - generic [ref=f83e309]:
+                                - img "correct" [ref=f83e310]
+                                - text: The capacitance doubles.
+                            - generic [ref=f83e311]:
+                              - radio "The capacitance is halved." [disabled] [ref=f83e312]
+                              - text: The capacitance is halved.
+                            - 'img "Correct: Your answer is correct." [ref=f83e315]'
+                          - generic [ref=f83e316]: ✓ Correct. Because the capacitance is inversely proportional to the separation, decreasing the conductor separation doubles the capacitance.
+                        - generic [ref=f83e317]: You may have seen a common capacitor when connecting your cable or internet—a coaxial cable. Audio cables also have a similar shape. These types of capacitors are concentric cylinders.
+                        - figure "A photo of the ends of a coaxial cable is shown. The outside of the cable end is a hollow cylinder, with a thin, solid cylinder in the center." [ref=f83e318]: ℹ
+                        - generic [ref=f83e321]: For concentric conducting cylinders, the capacitance is given by
+                        - generic [ref=f83e325]:
+                          - generic [ref=f83e326]: C
+                          - text: =
+                          - table [ref=f83e328]:
+                            - rowgroup [ref=f83e329]:
+                              - row [ref=f83e330]:
+                                - cell "ℓ" [ref=f83e331]
+                              - row [ref=f83e332]:
+                                - cell "2ke ln b a" [ref=f83e333]:
+                                  - text: 2k
+                                  - subscript [ref=f83e334]:
+                                    - generic [ref=f83e335]: e
+                                  - text: ln
+                                  - table [ref=f83e337]:
+                                    - rowgroup [ref=f83e338]:
+                                      - row [ref=f83e339]:
+                                        - cell [ref=f83e340]
+                                  - table [ref=f83e343]:
+                                    - rowgroup [ref=f83e344]:
+                                      - row [ref=f83e345]:
+                                        - cell "b" [ref=f83e346]
+                                      - row [ref=f83e347]:
+                                        - cell "a" [ref=f83e348]
+                                  - table [ref=f83e350]:
+                                    - rowgroup [ref=f83e351]:
+                                      - row [ref=f83e352]:
+                                        - cell [ref=f83e353]
+                        - generic [ref=f83e355]:
+                          - text: where
+                          - emphasis [ref=f83e356]: b
+                          - text: is the radius of the larger cylinder,
+                          - emphasis [ref=f83e357]: a
+                          - text: is the radius of the smaller cylinder, and ℓ is the length.
+                    - generic [ref=f83e358]:
+                      - generic [ref=f83e359]: Part 2 of 6 - Step 2
+                      - generic [ref=f83e362]:
+                        - generic [ref=f83e363]: When a circuit contains only one capacitor, we can define the potential based on the expressions discussed in the previous steps. However, when there are two or more, the equivalent capacitance depends on whether the capacitors are connected in series or in parallel.
+                        - figure [ref=f83e364]:
+                          - text: ℹ
+                          - generic [ref=f83e366]:
+                            - text: A diagram shows two capacitors in series. A wire enters the window on the left. The wire moves first through capacitor
+                            - emphasis [ref=f83e367]: C
+                            - subscript [ref=f83e368]: "1"
+                            - text: and then through capacitor
+                            - emphasis [ref=f83e369]: C
+                            - subscript [ref=f83e370]: "2"
+                            - text: . The wire then exits the window on the right.
+                        - generic [ref=f83e371]: Capacitors connected in series are connected along a single path. For capacitors connected in series, the charges on all the capacitors are the same, meaning the following.
+                        - generic [ref=f83e375]:
+                          - generic [ref=f83e376]: Q
+                          - text: =
+                          - generic [ref=f83e377]: Q
+                          - subscript [ref=f83e378]: "1"
+                          - text: =
+                          - generic [ref=f83e379]: Q
+                          - subscript [ref=f83e380]: "2"
+                          - text: =
+                          - generic [ref=f83e381]: Q
+                          - subscript [ref=f83e382]: "3"
+                          - text: = =
+                          - generic [ref=f83e384]: Q
+                          - subscript [ref=f83e385]:
+                            - generic [ref=f83e386]: "n"
+                        - generic [ref=f83e387]: However, if the capacitances are different, the potential differences for each must be different as well. They must also total the applied potential.
+                        - generic [ref=f83e391]:
+                          - text: Δ
+                          - generic [ref=f83e392]: V
+                          - subscript [ref=f83e393]: total
+                          - text: =
+                          - table [ref=f83e395]:
+                            - rowgroup [ref=f83e396]:
+                              - row:
+                                - cell
+                                - cell [ref=f83e397]
+                              - row [ref=f83e398]:
+                                - cell [ref=f83e399]
+                              - row [ref=f83e401]:
+                                - cell "i" [ref=f83e402]
+                          - text: Δ
+                          - generic [ref=f83e405]: V
+                          - subscript [ref=f83e406]:
+                            - generic [ref=f83e407]: i
+                          - text: =
+                          - table [ref=f83e409]:
+                            - rowgroup [ref=f83e410]:
+                              - row:
+                                - cell
+                                - cell [ref=f83e411]
+                              - row [ref=f83e412]:
+                                - cell [ref=f83e413]
+                              - row [ref=f83e415]:
+                                - cell "i" [ref=f83e416]
+                          - table [ref=f83e420]:
+                            - rowgroup [ref=f83e421]:
+                              - row [ref=f83e422]:
+                                - cell "Qi" [ref=f83e423]:
+                                  - text: Q
+                                  - subscript [ref=f83e424]:
+                                    - generic [ref=f83e425]: i
+                              - row [ref=f83e426]:
+                                - cell "Ci" [ref=f83e427]:
+                                  - text: C
+                                  - subscript [ref=f83e428]:
+                                    - generic [ref=f83e429]: i
+                        - generic [ref=f83e430]: Since we know that all of the charges must be equal, the equivalent capacitances for capacitors connected in series must then be defined by the following.
+                        - generic [ref=f83e434]:
+                          - table [ref=f83e436]:
+                            - rowgroup [ref=f83e437]:
+                              - row [ref=f83e438]:
+                                - cell "1" [ref=f83e439]
+                              - row [ref=f83e440]:
+                                - cell [ref=f83e441]:
+                                  - text: C
+                                  - subscript [ref=f83e442]: eq
+                          - text: =
+                          - table [ref=f83e444]:
+                            - rowgroup [ref=f83e445]:
+                              - row:
+                                - cell
+                                - cell [ref=f83e446]
+                              - row [ref=f83e447]:
+                                - cell [ref=f83e448]
+                              - row [ref=f83e450]:
+                                - cell "i" [ref=f83e451]
+                          - table [ref=f83e455]:
+                            - rowgroup [ref=f83e456]:
+                              - row [ref=f83e457]:
+                                - cell "1" [ref=f83e458]
+                              - row [ref=f83e459]:
+                                - cell "Ci" [ref=f83e460]:
+                                  - text: C
+                                  - subscript [ref=f83e461]:
+                                    - generic [ref=f83e462]: i
+                        - generic [ref=f83e463]: When the current in a circuit encounters a junction, the current splits along two or more paths. If the paths each contain capacitors, those capacitors are connected in parallel. An example of capacitors connected in parallel is shown below.
+                        - figure [ref=f83e464]:
+                          - text: ℹ
+                          - generic [ref=f83e466]:
+                            - text: A diagram shows a circuit with two capacitors in parallel. A wire enters the window from the left, and splits at a junction into a top wire and a bottom wire. The top wire has capacitor
+                            - emphasis [ref=f83e467]: C
+                            - subscript [ref=f83e468]: "1"
+                            - text: . The bottom wire has capacitor
+                            - emphasis [ref=f83e469]: C
+                            - subscript [ref=f83e470]: "2"
+                            - text: . The two wires then connect at a second junction and exit the window as a single wire on the right.
+                        - generic [ref=f83e471]: As you would expect, the potential difference across capacitors connected in parallel is the same individually as the potential at the junction.
+                        - generic [ref=f83e475]:
+                          - text: Δ
+                          - generic [ref=f83e476]: V
+                          - text: = Δ
+                          - generic [ref=f83e477]: V
+                          - subscript [ref=f83e478]: "1"
+                          - text: = Δ
+                          - generic [ref=f83e479]: V
+                          - subscript [ref=f83e480]: "2"
+                          - text: = Δ
+                          - generic [ref=f83e481]: V
+                          - subscript [ref=f83e482]: "3"
+                          - text: = Δ
+                          - generic [ref=f83e484]: V
+                          - subscript [ref=f83e485]:
+                            - generic [ref=f83e486]: "n"
+                        - generic [ref=f83e487]: However, contrary to capacitors connected in series, the charge on each capacitor is different. Using our earlier capacitance equation, we find the following.
+                        - generic [ref=f83e491]:
+                          - generic [ref=f83e492]: Q
+                          - subscript [ref=f83e493]: total
+                          - text: =
+                          - table [ref=f83e495]:
+                            - rowgroup [ref=f83e496]:
+                              - row:
+                                - cell
+                                - cell [ref=f83e497]
+                              - row [ref=f83e498]:
+                                - cell [ref=f83e499]
+                              - row [ref=f83e501]:
+                                - cell "i" [ref=f83e502]
+                          - generic [ref=f83e505]: Q
+                          - subscript [ref=f83e506]:
+                            - generic [ref=f83e507]: i
+                          - text: =
+                          - table [ref=f83e509]:
+                            - rowgroup [ref=f83e510]:
+                              - row:
+                                - cell
+                                - cell [ref=f83e511]
+                              - row [ref=f83e512]:
+                                - cell [ref=f83e513]
+                              - row [ref=f83e515]:
+                                - cell "i" [ref=f83e516]
+                          - generic [ref=f83e519]: C
+                          - subscript [ref=f83e520]:
+                            - generic [ref=f83e521]: i
+                          - text: Δ
+                          - generic [ref=f83e522]: V
+                          - subscript [ref=f83e523]:
+                            - generic [ref=f83e524]: i
+                        - generic [ref=f83e525]: Since the potential differences are all equal, for capacitors connected in parallel, we get the following.
+                        - generic [ref=f83e529]:
+                          - generic [ref=f83e530]: C
+                          - subscript [ref=f83e531]: eq
+                          - text: =
+                          - table [ref=f83e533]:
+                            - rowgroup [ref=f83e534]:
+                              - row:
+                                - cell
+                                - cell [ref=f83e535]
+                              - row [ref=f83e536]:
+                                - cell [ref=f83e537]
+                              - row [ref=f83e539]:
+                                - cell "i" [ref=f83e540]
+                          - generic [ref=f83e543]: C
+                          - subscript [ref=f83e544]:
+                            - generic [ref=f83e545]: i
+                        - generic [ref=f83e546]:
+                          - text: Consider a circuit with three capacitors connected in series. The capacitances are
+                          - generic [ref=f83e549]:
+                            - generic [ref=f83e550]: C
+                            - subscript [ref=f83e551]: "1"
+                            - text: = 2.3 µF,
+                          - generic [ref=f83e554]:
+                            - generic [ref=f83e555]: C
+                            - subscript [ref=f83e556]: "2"
+                            - text: = 1.8 µF,
+                          - text: and
+                          - generic [ref=f83e559]:
+                            - generic [ref=f83e560]: C
+                            - subscript [ref=f83e561]: "3"
+                            - text: = 5.1 µF.
+                          - text: What is the equivalent capacitance (in µF) of the three capacitors?
+                        - generic [ref=f83e562]:
+                          - text: "0.843"
+                          - 'img "Correct: Your answer is correct." [ref=f83e566]'
+                          - generic [ref=f83e567]:
+                            - img "seenKey" [ref=f83e568]
+                            - paragraph [ref=f83e570]: "0.843"
+                          - generic [ref=f83e571]:
+                            - text: "✓ Correct. In this configuration, the equivalent capacitance is:"
+                            - table [ref=f83e576]:
+                              - rowgroup [ref=f83e577]:
+                                - row [ref=f83e578]:
+                                  - cell "1" [ref=f83e579]
+                                - row [ref=f83e580]:
+                                  - cell [ref=f83e581]:
+                                    - table [ref=f83e583]:
+                                      - rowgroup [ref=f83e584]:
+                                        - row [ref=f83e585]:
+                                          - cell [ref=f83e586]
+                                    - table [ref=f83e589]:
+                                      - rowgroup [ref=f83e590]:
+                                        - row [ref=f83e591]:
+                                          - cell "1" [ref=f83e592]
+                                        - row [ref=f83e593]:
+                                          - cell "2.3" [ref=f83e594]
+                                    - text: +
+                                    - table [ref=f83e596]:
+                                      - rowgroup [ref=f83e597]:
+                                        - row [ref=f83e598]:
+                                          - cell "1" [ref=f83e599]
+                                        - row [ref=f83e600]:
+                                          - cell "1.8" [ref=f83e601]
+                                    - text: +
+                                    - table [ref=f83e603]:
+                                      - rowgroup [ref=f83e604]:
+                                        - row [ref=f83e605]:
+                                          - cell "1" [ref=f83e606]
+                                        - row [ref=f83e607]:
+                                          - cell "5.1" [ref=f83e608]
+                                    - table [ref=f83e610]:
+                                      - rowgroup [ref=f83e611]:
+                                        - row [ref=f83e612]:
+                                          - cell [ref=f83e613]
+                          - text: µF
+                        - generic [ref=f83e615]: If a 14.0 V potential is applied to the circuit, what is the charge (in µC) of each capacitor?
+                        - generic [ref=f83e616]:
+                          - text: "11.8"
+                          - 'img "Correct: Your answer is correct." [ref=f83e620]'
+                          - generic [ref=f83e621]:
+                            - img "seenKey" [ref=f83e622]
+                            - paragraph [ref=f83e624]: "11.8"
+                          - generic [ref=f83e625]: ✓ Correct. We know the equivalent capacitance from the previous question. We also know that the charges on capacitors connected in series are the same. Thus, we can multiple the equivalent capacitance by the applied potential to determine the charge.
+                          - text: µC
+                        - generic [ref=f83e626]:
+                          - text: If we now connect
+                          - generic [ref=f83e629]:
+                            - generic [ref=f83e630]: C
+                            - subscript [ref=f83e631]: "1"
+                          - text: in series to
+                          - generic [ref=f83e634]:
+                            - generic [ref=f83e635]: C
+                            - subscript [ref=f83e636]: "2"
+                          - text: and
+                          - generic [ref=f83e639]:
+                            - generic [ref=f83e640]: C
+                            - subscript [ref=f83e641]: "3"
+                          - text: in parallel, what is the equivalent capacitance (in µF)? (
+                          - emphasis [ref=f83e642]: Note
+                          - text: ":"
+                          - generic [ref=f83e645]:
+                            - generic [ref=f83e646]: C
+                            - subscript [ref=f83e647]: "1"
+                            - text: = 2.3 µF,
+                          - generic [ref=f83e650]:
+                            - generic [ref=f83e651]: C
+                            - subscript [ref=f83e652]: "2"
+                            - text: = 1.8 µF,
+                          - text: and
+                          - generic [ref=f83e655]:
+                            - generic [ref=f83e656]: C
+                            - subscript [ref=f83e657]: "3"
+                            - text: = 5.1 µF.)
+                        - figure [ref=f83e658]:
+                          - text: ℹ
+                          - generic [ref=f83e660]:
+                            - text: A diagram shows a circuit with capacitors in series and in parallel. A wire enters the window on the left. It first moves through capacitor
+                            - emphasis [ref=f83e661]: C
+                            - subscript [ref=f83e662]: "1"
+                            - text: = 2.3 µF. The wire then reaches a junction and splits into a top and bottom wire. The top wire has capacitor
+                            - emphasis [ref=f83e663]: C
+                            - subscript [ref=f83e664]: "2"
+                            - text: = 1.8 µF. The bottom wire has capacitor
+                            - emphasis [ref=f83e665]: C
+                            - subscript [ref=f83e666]: "3"
+                            - text: = 5.1 µF. The top and bottom wires then connect at a second junction and exit the window as a single wire on the right.
+                        - generic [ref=f83e667]:
+                          - text: "1.73"
+                          - 'img "Correct: Your answer is correct." [ref=f83e671]'
+                          - generic [ref=f83e672]:
+                            - img "seenKey" [ref=f83e673]
+                            - paragraph [ref=f83e675]: "1.73"
+                          - generic [ref=f83e676]:
+                            - text: "✓ Correct. We first determine the equivalent capacitance for capacitors 2 and 3. Because they are connected in parallel, this is just their sum, i.e., 6.9 µF. Next, we calculate the equivalent series capacitance, treating capacitors 2 and 3 as a single capacitor in the equation. The equivalent capacitance is then:"
+                            - generic [ref=f83e679]:
+                              - table [ref=f83e681]:
+                                - rowgroup [ref=f83e682]:
+                                  - row [ref=f83e683]:
+                                    - cell "1" [ref=f83e684]
+                                  - row [ref=f83e685]:
+                                    - cell [ref=f83e686]:
+                                      - table [ref=f83e688]:
+                                        - rowgroup [ref=f83e689]:
+                                          - row [ref=f83e690]:
+                                            - cell [ref=f83e691]
+                                      - table [ref=f83e694]:
+                                        - rowgroup [ref=f83e695]:
+                                          - row [ref=f83e696]:
+                                            - cell "1" [ref=f83e697]
+                                          - row [ref=f83e698]:
+                                            - cell "2.3" [ref=f83e699]
+                                      - text: +
+                                      - table [ref=f83e701]:
+                                        - rowgroup [ref=f83e702]:
+                                          - row [ref=f83e703]:
+                                            - cell "1" [ref=f83e704]
+                                          - row [ref=f83e705]:
+                                            - cell "6.9" [ref=f83e706]
+                                      - table [ref=f83e708]:
+                                        - rowgroup [ref=f83e709]:
+                                          - row [ref=f83e710]:
+                                            - cell [ref=f83e711]
+                              - text: = 1.7 µF.
+                          - text: µF
+                    - generic [ref=f83e713]:
+                      - generic [ref=f83e714]: Part 3 of 6 - Step 3
+                      - generic [ref=f83e717]:
+                        - strong [ref=f83e719]: Energy Stored in a Capacitor
+                        - generic [ref=f83e720]: As we have discussed, capacitors consist of separated conductors within a circuit. However, capacitors do not allow continuous current flow across the gap. Instead, when a capacitor is connected to a circuit, as current flows in the rest of the circuit, charge builds up on the plates. This allows capacitors to be used to store energy in a circuit.
+                        - generic [ref=f83e721]: Think about starting off with a neutral capacitor. To charge it, electric charge must be somehow moved from one plate to another, causing one to become more positive and the other to become more negative. Typically, this happens by connecting a potential source, like a battery, to the capacitor. We know that at some point, the charge will reach a maximum, defined by the following.
+                        - generic [ref=f83e725]:
+                          - generic [ref=f83e726]: Q
+                          - text: =
+                          - generic [ref=f83e727]: C
+                          - text: Δ
+                          - generic [ref=f83e728]: V
+                        - generic [ref=f83e729]: If a charge moves from one plate to the other, how should this affect the potential difference?
+                        - generic [ref=f83e730]:
+                          - generic [ref=f83e733]:
+                            - generic [ref=f83e734]:
+                              - radio "increase" [checked] [ref=f83e735]
+                              - generic [ref=f83e736]:
+                                - img "correct" [ref=f83e737]
+                                - text: increase
+                            - generic [ref=f83e738]:
+                              - radio "remain unchanged" [disabled] [ref=f83e739]
+                              - text: remain unchanged
+                            - generic [ref=f83e740]:
+                              - radio "decrease" [disabled] [ref=f83e741]
+                              - text: decrease
+                            - 'img "Correct: Your answer is correct." [ref=f83e744]'
+                          - generic [ref=f83e745]: ✓ Correct. Work is required to move charge from the higher to lower potential. Once charge begins being transferred from the higher potential to the other conducting plate, a potential difference starts to develop. As more charge is added, the potential difference increases.
+                        - generic [ref=f83e746]: As more and more charge is transferred from one plate of the capacitor to the other, it takes more work for subsequent charge to transfer. The work done in transferring charge across the capacitor is termed the electric potential energy. This is a measure of the energy stored by the capacitor and is defined as follows.
+                        - generic [ref=f83e750]:
+                          - generic [ref=f83e751]: U
+                          - subscript [ref=f83e752]:
+                            - generic [ref=f83e753]: E
+                          - text: =
+                          - table [ref=f83e755]:
+                            - rowgroup [ref=f83e756]:
+                              - row [ref=f83e757]:
+                                - cell [ref=f83e758]:
+                                  - text: Q
+                                  - superscript [ref=f83e759]: "2"
+                              - row [ref=f83e760]:
+                                - cell "2C" [ref=f83e761]
+                          - text: =
+                          - table [ref=f83e763]:
+                            - rowgroup [ref=f83e764]:
+                              - row [ref=f83e765]:
+                                - cell "1" [ref=f83e766]
+                              - row [ref=f83e767]:
+                                - cell "2" [ref=f83e768]
+                          - generic [ref=f83e769]: C
+                          - text: (Δ
+                          - generic [ref=f83e770]: V
+                          - text: )
+                          - superscript [ref=f83e771]: "2"
+                        - generic [ref=f83e772]: Consider the following circuit.
+                        - figure [ref=f83e773]:
+                          - text: ℹ
+                          - generic [ref=f83e775]:
+                            - text: A square circuit is shown. On the left side is a switch in the open position. On the top side is a capacitor
+                            - emphasis [ref=f83e776]: C
+                            - text: = 15 µF. On the bottom side is a potential source
+                            - emphasis [ref=f83e777]: V
+                            - text: = 220 V. The potential source has a positive side on the left and a negative side on the right.
+                        - generic [ref=f83e778]: What is the maximum energy (in J) stored in the capacitor once the switch is closed?
+                        - generic [ref=f83e779]:
+                          - text: "0.363"
+                          - 'img "Correct: Your answer is correct." [ref=f83e783]'
+                          - generic [ref=f83e784]:
+                            - img "seenKey" [ref=f83e785]
+                            - paragraph [ref=f83e787]: "0.363"
+                          - generic [ref=f83e788]:
+                            - text: ✓ Correct. We calculate the energy stored using the applied voltage of 220 V and a capacitance of
+                            - generic [ref=f83e789]:
+                              - text: 1.50 ✕ 10
+                              - superscript [ref=f83e790]: −5
+                            - text: F.
+                          - text: J
+                    - generic [ref=f83e791]:
+                      - generic [ref=f83e792]: Part 4 of 6 - Step 4
+                      - generic [ref=f83e795]:
+                        - strong [ref=f83e797]: "PHET: Capacitor Laboratory Basics"
+                        - generic [ref=f83e798]: Let's take a practical look at capacitors in circuits. Open the simulation below and select "Capacitance."
+                        - iframe [ref=f83e801]: You need an iFrame capable browser to view this.
+                        - generic [ref=f83e802]: When you open the simulation, you will see a simple circuit consisting of a battery and a single capacitor. On the right is a voltmeter, used to measure the potential difference. You should also notice that two segments in the circuit are movable. These allow you to either connect the capacitor to the battery or to isolate it from the circuit. The default value for the battery is 0 volts. The capacitor plates should each have an area of 200 mm^2 and a separation of 6 mm.
+                        - generic [ref=f83e803]: Place the leads of the voltmeter on either side of the battery, as shown in the figure below.
+                        - figure "An image of the simulation shows the battery connected to the left side of the circuit. The red voltmeter lead is connected the wire just above the positive side of the battery. The black voltmeter lead is connected to the circuit just below the negative side of the battery." [ref=f83e804]: ℹ
+                        - generic [ref=f83e807]: Slide the voltage in the battery up to 0.5 V. You can read this value from the voltmeter. What do you notice about the plates of the capacitor?
+                        - generic [ref=f83e808]:
+                          - generic [ref=f83e811]:
+                            - generic [ref=f83e812]:
+                              - radio "Positive charge begins to build up on the lower plate and negative charge builds up on the upper plate." [disabled] [ref=f83e813]
+                              - text: Positive charge begins to build up on the lower plate and negative charge builds up on the upper plate.
+                            - generic [ref=f83e814]:
+                              - radio "Positive charge begins to build up on the upper plate and negative charge builds up on the lower plate." [checked] [ref=f83e815]
+                              - generic [ref=f83e816]:
+                                - img "correct" [ref=f83e817]
+                                - text: Positive charge begins to build up on the upper plate and negative charge builds up on the lower plate.
+                            - generic [ref=f83e818]:
+                              - radio "There is no change in the capacitors." [disabled] [ref=f83e819]
+                              - text: There is no change in the capacitors.
+                            - 'img "Correct: Your answer is correct." [ref=f83e822]'
+                          - generic [ref=f83e823]: ✓ Correct. When the switch is closed, a potential is allowed to develop in the circuit. The upper plate is connected to the positive side of the battery, while the lower plate is connected to the negative end.
+                        - generic [ref=f83e824]: What is the value of the capacitance? It should be at the top of the screen, written in picofarads (pF).
+                        - generic [ref=f83e825]:
+                          - text: "0.295"
+                          - 'img "Correct: Your answer is correct." [ref=f83e829]'
+                          - generic [ref=f83e830]:
+                            - img "seenKey" [ref=f83e831]
+                            - paragraph [ref=f83e833]: "0.3"
+                          - generic [ref=f83e834]: ✓ Correct. Under the conditions specified, the capacitance should be 0.30 pF.
+                          - text: pF
+                        - generic [ref=f83e835]: Increase the plate separation to 7.0 mm. What is the new capacitance (in pF)?
+                        - generic [ref=f83e836]:
+                          - text: "0.253"
+                          - 'img "Correct: Your answer is correct." [ref=f83e840]'
+                          - generic [ref=f83e841]:
+                            - img "seenKey" [ref=f83e842]
+                            - paragraph [ref=f83e844]: "0.25"
+                          - generic [ref=f83e845]: ✓ Correct. Under the conditions specified, the capacitance should be 0.25 pF.
+                          - text: pF
+                        - generic [ref=f83e846]:
+                          - text: Based on what you know about the calculation of capacitance, what should be the value of the capacitance (in pF) if you change the separation to
+                          - generic [ref=f83e847]: 8.00 mm?
+                        - generic [ref=f83e848]:
+                          - text: "0.221"
+                          - 'img "Correct: Your answer is correct." [ref=f83e852]'
+                          - generic [ref=f83e853]:
+                            - img "seenKey" [ref=f83e854]
+                            - paragraph [ref=f83e856]: "0.221"
+                          - generic [ref=f83e857]: ✓ Correct. Using our equation for a parallel plate capacitor, we can substitute the values for area, distance, and the applied voltage. Setting the plate separation to 8 mm in the simulation should validate this.
+                          - text: pF
+                        - generic [ref=f83e858]: Change the plate separation back to the original 6 mm. Experiment with different plate areas. What is the relationship between the plate area and the capacitance?
+                        - generic [ref=f83e859]:
+                          - generic [ref=f83e862]:
+                            - generic [ref=f83e863]:
+                              - radio "As area increases, capacitance increases." [checked] [ref=f83e864]
+                              - generic [ref=f83e865]:
+                                - img "correct" [ref=f83e866]
+                                - text: As area increases, capacitance increases.
+                            - generic [ref=f83e867]:
+                              - radio "As area decreases, capacitance increases." [disabled] [ref=f83e868]
+                              - text: As area decreases, capacitance increases.
+                            - generic [ref=f83e869]:
+                              - radio "The two are unrelated." [disabled] [ref=f83e870]
+                              - text: The two are unrelated.
+                            - 'img "Correct: Your answer is correct." [ref=f83e873]'
+                          - generic [ref=f83e874]: ✓ Correct. For a parallel plate capacitor, the area and capacitance have a linear relationship. Thus, a multiplicative change in the area of the capacitor has the same multiplicative effect on the capacitance.
+                        - generic [ref=f83e875]:
+                          - text: In an earlier question, you determined that with a plate area of 200 mm
+                          - superscript [ref=f83e876]: "2"
+                          - text: and a separation of 8.00 mm, the capacitance is 0.221 pF. With a plate separation of 6 mm, determine the plate area (in mm
+                          - superscript [ref=f83e877]: "2"
+                          - text: ) needed to result in the same capacitance as in the
+                          - generic [ref=f83e878]: 8.00 mm
+                          - text: case.
+                        - generic [ref=f83e879]:
+                          - text: "150"
+                          - 'img "Correct: Your answer is correct." [ref=f83e883]'
+                          - generic [ref=f83e884]:
+                            - img "seenKey" [ref=f83e885]
+                            - paragraph [ref=f83e887]: "150"
+                          - generic [ref=f83e888]:
+                            - text: "✓ Correct. We can start with the expression for capacitance in a parallel plate capacitor. The capacitance is given by:"
+                            - generic [ref=f83e891]:
+                              - generic [ref=f83e892]: C
+                              - text: =
+                              - table [ref=f83e894]:
+                                - rowgroup [ref=f83e895]:
+                                  - row [ref=f83e896]:
+                                    - cell [ref=f83e897]:
+                                      - text: 𝜀
+                                      - subscript [ref=f83e898]: "0"
+                                      - text: A
+                                  - row [ref=f83e899]:
+                                    - cell "d" [ref=f83e900]
+                              - text: .
+                            - text: Because we know the values of
+                            - emphasis [ref=f83e901]: C
+                            - text: ","
+                            - emphasis [ref=f83e902]: d
+                            - text: ", and the permittivity, the only unknown is the area."
+                          - text: mm
+                          - superscript [ref=f83e903]: "2"
+                    - generic [ref=f83e904]:
+                      - generic [ref=f83e905]: Part 5 of 6 - Step 5
+                      - generic [ref=f83e908]:
+                        - strong [ref=f83e910]: Capacitors with Dielectrics
+                        - generic [ref=f83e911]:
+                          - text: Up to this point, the capacitor discussion presumed the space between the conductors in the capacitors to be a vacuum. Thus, the calculations of capacitance assume vacuum permittivity, i.e.,
+                          - generic [ref=f83e914]:
+                            - text: 𝜀
+                            - subscript [ref=f83e915]: "0"
+                            - text: =
+                            - generic [ref=f83e916]:
+                              - text: 8.85 ✕ 10
+                              - superscript [ref=f83e917]: −12
+                            - text: F/m.
+                          - text: In practice, capacitors are often constructed with insulating material between the plates. This insulating material, termed a
+                          - term [ref=f83e918]:
+                            - generic [ref=f83e919]: dielectric
+                          - text: ", changes the capacitance. Specifically, we can rewrite our initial capacitance relationship as"
+                        - generic [ref=f83e923]:
+                          - generic [ref=f83e924]: C
+                          - subscript [ref=f83e925]: "0"
+                          - text: =
+                          - table [ref=f83e927]:
+                            - rowgroup [ref=f83e928]:
+                              - row [ref=f83e929]:
+                                - cell [ref=f83e930]:
+                                  - text: Q
+                                  - subscript [ref=f83e931]: "0"
+                              - row [ref=f83e932]:
+                                - cell [ref=f83e933]:
+                                  - text: ΔV
+                                  - subscript [ref=f83e934]: "0"
+                          - text: ","
+                        - generic [ref=f83e935]: where the "0" subscripts indicate that this is the unperturbed case with no dielectric present. If we now place a dielectric material between the conducting materials, the voltage changes to
+                        - generic [ref=f83e939]:
+                          - text: Δ
+                          - generic [ref=f83e940]: V
+                          - text: =
+                          - table [ref=f83e942]:
+                            - rowgroup [ref=f83e943]:
+                              - row [ref=f83e944]:
+                                - cell [ref=f83e945]:
+                                  - text: ΔV
+                                  - subscript [ref=f83e946]: "0"
+                              - row [ref=f83e947]:
+                                - cell "𝜅" [ref=f83e948]
+                          - text: ","
+                        - generic [ref=f83e949]:
+                          - text: where 𝜅 is called the
+                          - term [ref=f83e950]:
+                            - generic [ref=f83e951]: dielectric constant
+                          - text: of the material. This new equation stems from the fundamental differences that exist between vacuum and other materials at the atomic level. Specifically, while vacuum is devoid of all matter (e.g., atoms and molecules), when matter is present, the positive and negative charges that make up that matter can be affected by an applied field. When subjected to an electric field, the atoms/molecules (which are initially comparable to randomly oriented dipoles) may polarize (i.e., align with the applied field). This induced polarization then results in the accumulation of additional charge near each of the capacitor plates, fundamentally affecting the potential and field between charged conducting surfaces. The additional charge accumulation results in a perturbation to the initial capacitance equation.
+                        - generic [ref=f83e955]:
+                          - generic [ref=f83e956]: C
+                          - text: =
+                          - table [ref=f83e958]:
+                            - rowgroup [ref=f83e959]:
+                              - row [ref=f83e960]:
+                                - cell [ref=f83e961]:
+                                  - text: Q
+                                  - subscript [ref=f83e962]: "0"
+                              - row [ref=f83e963]:
+                                - cell "ΔV" [ref=f83e964]
+                          - text: = 𝜅
+                          - table [ref=f83e966]:
+                            - rowgroup [ref=f83e967]:
+                              - row [ref=f83e968]:
+                                - cell [ref=f83e969]:
+                                  - text: Q
+                                  - subscript [ref=f83e970]: "0"
+                              - row [ref=f83e971]:
+                                - cell [ref=f83e972]:
+                                  - text: ΔV
+                                  - subscript [ref=f83e973]: "0"
+                          - text: →
+                          - generic [ref=f83e974]: C
+                          - text: = 𝜅
+                          - generic [ref=f83e975]: C
+                          - subscript [ref=f83e976]: "0"
+                        - generic [ref=f83e977]:
+                          - text: Let's examine the impact of dielectrics on the capacitance and energy storage of a capacitor. Consider our earlier example of a
+                          - generic [ref=f83e978]: 2.3 µF
+                          - text: capacitor connected to a
+                          - generic [ref=f83e979]: 14.0 V
+                          - text: potential.
+                        - figure [ref=f83e980]:
+                          - text: ℹ
+                          - generic [ref=f83e982]:
+                            - text: A diagram of a capacitor is shown. A wire enters the window on the left and moves through capacitor
+                            - generic [ref=f83e983]:
+                              - emphasis [ref=f83e984]: C
+                              - subscript [ref=f83e985]: "1"
+                              - text: = 2.3 µF.
+                            - text: The wire then exits the window on the right.
+                        - generic [ref=f83e986]: Using our capacitance equation, we can determine the charge to be 32.2 µC. If we now add a material with a dielectric constant of 1.65 to the capacitor, what does the capacitance become (in µF)?
+                        - generic [ref=f83e987]:
+                          - text: "3.80"
+                          - 'img "Correct: Your answer is correct." [ref=f83e991]'
+                          - generic [ref=f83e992]:
+                            - img "seenKey" [ref=f83e993]
+                            - paragraph [ref=f83e995]: "3.8"
+                          - generic [ref=f83e996]: ✓ Correct. To determine the new capacitance, multiply the initial value of 2.3 µF by the dielectric constant of 1.65.
+                          - text: µF
+                        - generic [ref=f83e997]: For the capacitor in the previous question, what is the energy (in J) stored with the dielectric material added? Note that we are inserting the dielectric into the capacitor while keeping it attached to the battery, so the potential difference stays the same. Recall the following.
+                        - generic [ref=f83e1001]:
+                          - generic [ref=f83e1002]: U
+                          - subscript [ref=f83e1003]:
+                            - generic [ref=f83e1004]: E
+                          - text: =
+                          - table [ref=f83e1006]:
+                            - rowgroup [ref=f83e1007]:
+                              - row [ref=f83e1008]:
+                                - cell [ref=f83e1009]:
+                                  - text: Q
+                                  - superscript [ref=f83e1010]: "2"
+                              - row [ref=f83e1011]:
+                                - cell "2C" [ref=f83e1012]
+                          - text: =
+                          - table [ref=f83e1014]:
+                            - rowgroup [ref=f83e1015]:
+                              - row [ref=f83e1016]:
+                                - cell "1" [ref=f83e1017]
+                              - row [ref=f83e1018]:
+                                - cell "2" [ref=f83e1019]
+                          - generic [ref=f83e1020]: C
+                          - text: (Δ
+                          - generic [ref=f83e1021]: V
+                          - text: )
+                          - superscript [ref=f83e1022]: "2"
+                        - generic [ref=f83e1023]:
+                          - text: "3.72e-4"
+                          - 'img "Correct: Your answer is correct." [ref=f83e1027]'
+                          - generic [ref=f83e1028]:
+                            - img "seenKey" [ref=f83e1029]
+                            - paragraph [ref=f83e1031]: "0.000372"
+                          - generic [ref=f83e1032]:
+                            - text: "✓ Correct. We calculate the electric potential using the following expression:"
+                            - generic [ref=f83e1035]:
+                              - generic [ref=f83e1036]: U
+                              - subscript [ref=f83e1037]:
+                                - generic [ref=f83e1038]: E
+                              - text: =
+                              - table [ref=f83e1040]:
+                                - rowgroup [ref=f83e1041]:
+                                  - row [ref=f83e1042]:
+                                    - cell [ref=f83e1043]:
+                                      - text: Q
+                                      - superscript [ref=f83e1044]: "2"
+                                  - row [ref=f83e1045]:
+                                    - cell "2C" [ref=f83e1046]
+                              - text: =
+                              - table [ref=f83e1048]:
+                                - rowgroup [ref=f83e1049]:
+                                  - row [ref=f83e1050]:
+                                    - cell "1" [ref=f83e1051]
+                                  - row [ref=f83e1052]:
+                                    - cell "2" [ref=f83e1053]
+                              - generic [ref=f83e1054]: C
+                              - text: (Δ
+                              - generic [ref=f83e1055]: V
+                              - text: )
+                              - superscript [ref=f83e1056]: "2"
+                              - text: .
+                            - text: In this case,
+                            - generic [ref=f83e1059]:
+                              - generic [ref=f83e1060]: C
+                              - text: = 𝜅
+                              - generic [ref=f83e1061]: C
+                              - subscript [ref=f83e1062]: "0"
+                              - text: .
+                            - text: The energy is then
+                            - generic [ref=f83e1065]:
+                              - table [ref=f83e1067]:
+                                - rowgroup [ref=f83e1068]:
+                                  - row [ref=f83e1069]:
+                                    - cell "1" [ref=f83e1070]
+                                  - row [ref=f83e1071]:
+                                    - cell "2" [ref=f83e1072]
+                              - text: (
+                              - generic [ref=f83e1073]:
+                                - text: 3.80 ✕ 10
+                                - superscript [ref=f83e1074]: −6
+                              - text: )(14.0)
+                              - superscript [ref=f83e1075]: "2"
+                              - text: .
+                          - text: J
+                        - generic [ref=f83e1076]: Should this new energy value be higher or lower than the energy stored without the dielectric material present?
+                        - generic [ref=f83e1077]:
+                          - generic [ref=f83e1080]:
+                            - generic [ref=f83e1081]:
+                              - radio "higher" [checked] [ref=f83e1082]
+                              - generic [ref=f83e1083]:
+                                - img "correct" [ref=f83e1084]
+                                - text: higher
+                            - generic [ref=f83e1085]:
+                              - radio "lower" [disabled] [ref=f83e1086]
+                              - text: lower
+                            - 'img "Correct: Your answer is correct." [ref=f83e1089]'
+                          - generic [ref=f83e1090]:
+                            - text: "✓ The dielectric constant 𝜅 is always greater than 1. Because the capacitance when a dielectric is added is:"
+                            - generic [ref=f83e1093]:
+                              - generic [ref=f83e1094]: C
+                              - text: = 𝜅
+                              - generic [ref=f83e1095]: C
+                              - subscript [ref=f83e1096]: "0"
+                            - text: "we know that the capacitance increases with the addition of a dielectric. Because the energy is defined as:"
+                            - generic [ref=f83e1099]:
+                              - generic [ref=f83e1100]: U
+                              - subscript [ref=f83e1101]:
+                                - generic [ref=f83e1102]: E
+                              - text: =
+                              - table [ref=f83e1104]:
+                                - rowgroup [ref=f83e1105]:
+                                  - row [ref=f83e1106]:
+                                    - cell "1" [ref=f83e1107]
+                                  - row [ref=f83e1108]:
+                                    - cell "2" [ref=f83e1109]
+                              - generic [ref=f83e1110]: C
+                              - text: (Δ
+                              - generic [ref=f83e1111]: V
+                              - text: )
+                              - superscript [ref=f83e1112]: "2"
+                            - text: increasing the capacitance results in a proportional increase in energy stored.
+                    - generic [ref=f83e1113]:
+                      - generic [ref=f83e1114]: Part 6 of 6 - Conclusion
+                      - list [ref=f83e1118]:
+                        - listitem [ref=f83e1119]:
+                          - generic [ref=f83e1120]: The capacitance is defined as
+                          - generic [ref=f83e1124]:
+                            - generic [ref=f83e1125]: C
+                            - text: =
+                            - table [ref=f83e1127]:
+                              - rowgroup [ref=f83e1128]:
+                                - row [ref=f83e1129]:
+                                  - cell "Q" [ref=f83e1130]
+                                - row [ref=f83e1131]:
+                                  - cell "ΔV" [ref=f83e1132]
+                            - text: ","
+                          - generic [ref=f83e1133]: where the charge and potential difference are always given as positive values. Capacitance has units of C/V, also known as a farad (F).
+                        - listitem [ref=f83e1134]:
+                          - generic [ref=f83e1135]: Some common capacitor types include the parallel plate capacitor (i.e., two conducting plates arranged parallel to each other), which has a capacitance defined as
+                          - generic [ref=f83e1139]:
+                            - generic [ref=f83e1140]: C
+                            - text: =
+                            - table [ref=f83e1142]:
+                              - rowgroup [ref=f83e1143]:
+                                - row [ref=f83e1144]:
+                                  - cell [ref=f83e1145]:
+                                    - text: 𝜀
+                                    - subscript [ref=f83e1146]: "0"
+                                    - text: A
+                                - row [ref=f83e1147]:
+                                  - cell "d" [ref=f83e1148]
+                            - text: ","
+                          - generic [ref=f83e1149]:
+                            - text: where
+                            - emphasis [ref=f83e1150]: A
+                            - text: is the area of the capacitor plates and
+                            - emphasis [ref=f83e1151]: d
+                            - text: is the separation. For concentric conducting cylinders, the capacitance is given by
+                          - generic [ref=f83e1155]:
+                            - generic [ref=f83e1156]: C
+                            - text: =
+                            - table [ref=f83e1158]:
+                              - rowgroup [ref=f83e1159]:
+                                - row [ref=f83e1160]:
+                                  - cell "ℓ" [ref=f83e1161]
+                                - row [ref=f83e1162]:
+                                  - cell "2ke ln b a" [ref=f83e1163]:
+                                    - text: 2k
+                                    - subscript [ref=f83e1164]:
+                                      - generic [ref=f83e1165]: e
+                                    - text: ln
+                                    - table [ref=f83e1167]:
+                                      - rowgroup [ref=f83e1168]:
+                                        - row [ref=f83e1169]:
+                                          - cell [ref=f83e1170]
+                                    - table [ref=f83e1173]:
+                                      - rowgroup [ref=f83e1174]:
+                                        - row [ref=f83e1175]:
+                                          - cell "b" [ref=f83e1176]
+                                        - row [ref=f83e1177]:
+                                          - cell "a" [ref=f83e1178]
+                                    - table [ref=f83e1180]:
+                                      - rowgroup [ref=f83e1181]:
+                                        - row [ref=f83e1182]:
+                                          - cell [ref=f83e1183]
+                            - text: ","
+                          - generic [ref=f83e1185]:
+                            - text: where
+                            - emphasis [ref=f83e1186]: b
+                            - text: is the radius of the larger cylinder, a is the radius of the smaller cylinder, and
+                            - emphasis [ref=f83e1187]: l
+                            - text: is the length.
+                        - listitem [ref=f83e1188]:
+                          - generic [ref=f83e1189]: The equivalent capacitances for capacitors connected in series is as follows.
+                          - generic [ref=f83e1193]:
+                            - table [ref=f83e1195]:
+                              - rowgroup [ref=f83e1196]:
+                                - row [ref=f83e1197]:
+                                  - cell "1" [ref=f83e1198]
+                                - row [ref=f83e1199]:
+                                  - cell [ref=f83e1200]:
+                                    - text: C
+                                    - subscript [ref=f83e1201]: eq
+                            - text: =
+                            - table [ref=f83e1203]:
+                              - rowgroup [ref=f83e1204]:
+                                - row:
+                                  - cell
+                                  - cell [ref=f83e1205]
+                                - row [ref=f83e1206]:
+                                  - cell [ref=f83e1207]
+                                - row [ref=f83e1209]:
+                                  - cell "i" [ref=f83e1210]
+                            - table [ref=f83e1214]:
+                              - rowgroup [ref=f83e1215]:
+                                - row [ref=f83e1216]:
+                                  - cell "1" [ref=f83e1217]
+                                - row [ref=f83e1218]:
+                                  - cell "Ci" [ref=f83e1219]:
+                                    - text: C
+                                    - subscript [ref=f83e1220]:
+                                      - generic [ref=f83e1221]: i
+                        - listitem [ref=f83e1222]:
+                          - generic [ref=f83e1223]: For capacitors connected in parallel, we get the following.
+                          - generic [ref=f83e1227]:
+                            - generic [ref=f83e1228]: C
+                            - subscript [ref=f83e1229]: eq
+                            - text: =
+                            - table [ref=f83e1231]:
+                              - rowgroup [ref=f83e1232]:
+                                - row:
+                                  - cell
+                                  - cell [ref=f83e1233]
+                                - row [ref=f83e1234]:
+                                  - cell [ref=f83e1235]
+                                - row [ref=f83e1237]:
+                                  - cell "i" [ref=f83e1238]
+                            - generic [ref=f83e1241]: C
+                            - subscript [ref=f83e1242]:
+                              - generic [ref=f83e1243]: i
+                        - listitem [ref=f83e1244]:
+                          - generic [ref=f83e1245]: The work done in transferring charge across a capacitor is termed the electric potential energy stored by the capacitor. The energy stored by the capacitor is as follows.
+                          - generic [ref=f83e1249]:
+                            - generic [ref=f83e1250]: U
+                            - subscript [ref=f83e1251]:
+                              - generic [ref=f83e1252]: E
+                            - text: =
+                            - table [ref=f83e1254]:
+                              - rowgroup [ref=f83e1255]:
+                                - row [ref=f83e1256]:
+                                  - cell [ref=f83e1257]:
+                                    - text: Q
+                                    - superscript [ref=f83e1258]: "2"
+                                - row [ref=f83e1259]:
+                                  - cell "2C" [ref=f83e1260]
+                            - text: =
+                            - table [ref=f83e1262]:
+                              - rowgroup [ref=f83e1263]:
+                                - row [ref=f83e1264]:
+                                  - cell "1" [ref=f83e1265]
+                                - row [ref=f83e1266]:
+                                  - cell "2" [ref=f83e1267]
+                            - generic [ref=f83e1268]: C
+                            - text: (Δ
+                            - generic [ref=f83e1269]: V
+                            - text: )
+                            - superscript [ref=f83e1270]: "2"
+                        - listitem [ref=f83e1271]:
+                          - generic [ref=f83e1272]:
+                            - text: Capacitors are often constructed with insulating material between the plates. This insulating material, termed a
+                            - term [ref=f83e1273]:
+                              - generic [ref=f83e1274]: dielectric
+                            - text: ", changes the capacitance."
+                        - listitem [ref=f83e1275]:
+                          - generic [ref=f83e1276]: If a dielectric material is placed between the conducting materials of a capacitor, the voltage changes to
+                          - generic [ref=f83e1280]:
+                            - text: Δ
+                            - generic [ref=f83e1281]: V
+                            - text: =
+                            - table [ref=f83e1283]:
+                              - rowgroup [ref=f83e1284]:
+                                - row [ref=f83e1285]:
+                                  - cell [ref=f83e1286]:
+                                    - text: ΔV
+                                    - subscript [ref=f83e1287]: "0"
+                                - row [ref=f83e1288]:
+                                  - cell "𝜅" [ref=f83e1289]
+                            - text: ","
+                          - generic [ref=f83e1290]:
+                            - text: where 𝜅 is called the
+                            - term [ref=f83e1291]:
+                              - generic [ref=f83e1292]: dielectric constant
+                            - text: of the material. Applying this relationship to the capacitance expression gives the following.
+                          - generic [ref=f83e1296]:
+                            - generic [ref=f83e1297]: C
+                            - text: =
+                            - table [ref=f83e1299]:
+                              - rowgroup [ref=f83e1300]:
+                                - row [ref=f83e1301]:
+                                  - cell [ref=f83e1302]:
+                                    - text: Q
+                                    - subscript [ref=f83e1303]: "0"
+                                - row [ref=f83e1304]:
+                                  - cell "ΔV" [ref=f83e1305]
+                            - text: = 𝜅
+                            - table [ref=f83e1307]:
+                              - rowgroup [ref=f83e1308]:
+                                - row [ref=f83e1309]:
+                                  - cell [ref=f83e1310]:
+                                    - text: Q
+                                    - subscript [ref=f83e1311]: "0"
+                                - row [ref=f83e1312]:
+                                  - cell [ref=f83e1313]:
+                                    - text: ΔV
+                                    - subscript [ref=f83e1314]: "0"
+                            - text: →
+                            - generic [ref=f83e1315]: C
+                            - text: = 𝜅
+                            - generic [ref=f83e1316]: C
+                            - subscript [ref=f83e1317]: "0"
+                    - generic [ref=f83e1318]: You have completed the Workbook lesson.
+                  - generic "Resource box" [ref=f83e1327]:
+                    - generic [ref=f83e1328]:
+                      - generic [ref=f83e1329]: Resources
+                      - paragraph [ref=f83e1331]:
+                        - link "Read It (opens in a new tab)" [ref=f83e1332] [cursor=pointer]:
+                          - /url: "#"
+                          - text: Read It
+                - button "Submit Answer" [ref=f83e1335] [cursor=pointer]
+            - generic [ref=f83e1336]:
+              - region "Banner for question 2" [ref=f83e1339]:
+                - generic [ref=f83e1340]:
+                  - heading "Question 2" [level=2] [ref=f83e1342]: "2."
+                  - strong [ref=f83e1343]: "[3 / 3 Points]"
+                - generic [ref=f83e1344]:
+                  - button "Details for question 2." [ref=f83e1345] [cursor=pointer]:
+                    - generic [ref=f83e1346]: Details
+                  - button "My Notes For question 2" [ref=f83e1349] [cursor=pointer]:
+                    - generic [ref=f83e1350]: My Notes
+                  - button "Previous Answers for question 2" [ref=f83e1351] [cursor=pointer]:
+                    - generic [ref=f83e1352]: Previous Answers
+                  - button "Ask Your Teacher For question 2" [ref=f83e1355] [cursor=pointer]:
+                    - generic [ref=f83e1356]: Ask Your Teacher
+                  - button "Practice Another Version for question 2." [ref=f83e1357] [cursor=pointer]:
+                    - generic [ref=f83e1358]: Practice Another
+              - generic [ref=f83e1359]:
+                - generic [ref=f83e1361]:
+                  - generic [ref=f83e1362]: SerPSE11 25.STEP.1.4A.
+                  - region [ref=f83e1363]:
+                    - strong [ref=f83e1364]: Problem 2
+                    - region "introduction" [ref=f83e1365]:
+                      - generic [ref=f83e1366]:
+                        - text: A spherical capacitor consists of a spherical conducting shell of radius
+                        - emphasis [ref=f83e1367]: a
+                        - text: and an outer, concentric conducting shell of radius
+                        - generic [ref=f83e1368]: .
+                        - text: The capacitance is F and the voltage drop across the plates is
+                        - generic [ref=f83e1369]: 6.00 V.
+                    - region "(a)" [ref=f83e1370]:
+                      - generic [ref=f83e1371]:
+                        - generic [ref=f83e1372]: (a)
+                        - generic [ref=f83e1373]:
+                          - generic [ref=f83e1374]: Calculate the radius (in m) of the inner shell.
+                          - generic [ref=f83e1375]:
+                            - generic: Write your answer for part (a).
+                            - textbox "Write your answer for part (a)." [ref=f83e1378]: "1.26e-2"
+                            - 'img "Correct: Your answer is correct." [ref=f83e1382]'
+                            - text: m
+                    - region "(b)" [ref=f83e1383]:
+                      - generic [ref=f83e1384]:
+                        - generic [ref=f83e1385]: (b)
+                        - generic [ref=f83e1386]:
+                          - generic [ref=f83e1387]: Calculate the charge (in C) on the positive shell.
+                          - generic [ref=f83e1388]:
+                            - generic: Write your answer for part (b).
+                            - textbox "Write your answer for part (b)." [ref=f83e1391]: "1.02e-11"
+                            - 'img "Correct: Your answer is correct." [ref=f83e1395]'
+                            - text: C
+                    - region "(c)" [ref=f83e1396]:
+                      - generic [ref=f83e1397]:
+                        - generic [ref=f83e1398]: (c)
+                        - generic [ref=f83e1399]:
+                          - generic [ref=f83e1400]:
+                            - text: Calculate the surface charge density magnitude (in C/m
+                            - superscript [ref=f83e1401]: superscript 2 end superscript
+                            - text: ) on the inner shell.
+                          - generic [ref=f83e1402]:
+                            - generic: Write your answer for part (c).
+                            - textbox "Write your answer for part (c)." [ref=f83e1405]: "5.11e-9"
+                            - 'img "Correct: Your answer is correct." [ref=f83e1409]'
+                            - text: C/m
+                            - superscript [ref=f83e1410]: superscript 2 end superscript
+                  - generic "Resource box" [ref=f83e1414]:
+                    - generic [ref=f83e1415]:
+                      - generic [ref=f83e1416]: Resources
+                      - generic [ref=f83e1417]:
+                        - paragraph [ref=f83e1418]:
+                          - link "Read It (opens in a new tab)" [ref=f83e1419] [cursor=pointer]:
+                            - /url: "#"
+                            - text: Read It
+                        - button "Ask Student Assistant for question 2" [ref=f83e1420] [cursor=pointer]: Student Assistant
+                - button "Submit Answer" [ref=f83e1423] [cursor=pointer]
+            - generic [ref=f83e1424]:
+              - region "Banner for question 3" [ref=f83e1427]:
+                - generic [ref=f83e1428]:
+                  - heading "Question 3" [level=2] [ref=f83e1430]: "3."
+                  - strong [ref=f83e1431]: "[– / 1 Points]"
+                - generic [ref=f83e1432]:
+                  - button "Details for question 3." [ref=f83e1433] [cursor=pointer]:
+                    - generic [ref=f83e1434]: Details
+                  - button "My Notes For question 3" [ref=f83e1437] [cursor=pointer]:
+                    - generic [ref=f83e1438]: My Notes
+                  - button "Ask Your Teacher For question 3" [ref=f83e1441] [cursor=pointer]:
+                    - generic [ref=f83e1442]: Ask Your Teacher
+                  - button "Practice Another Version for question 3." [ref=f83e1443] [cursor=pointer]:
+                    - generic [ref=f83e1444]: Practice Another
+              - generic [ref=f83e1445]:
+                - generic [ref=f83e1447]:
+                  - generic [ref=f83e1448]: SerPSE11 25.STEP.1.4C.
+                  - region [ref=f83e1449]:
+                    - strong [ref=f83e1450]: Problem 3
+                    - region "introduction" [ref=f83e1451]:
+                      - generic [ref=f83e1452]:
+                        - text: A cylindrical capacitor consists of two concentric cylindrical shells with a length of
+                        - generic [ref=f83e1453]: .
+                        - text: The inner shell has a radius
+                        - emphasis [ref=f83e1454]: a
+                        - text: and outer shell has a radius
+                        - generic [ref=f83e1455]: .
+                        - text: The capacitance is F and the voltage drop across the plates is
+                        - generic [ref=f83e1456]: 5.00 V.
+                    - region "(a)" [ref=f83e1457]:
+                      - generic [ref=f83e1458]:
+                        - generic [ref=f83e1459]: (a)
+                        - generic [ref=f83e1460]:
+                          - generic [ref=f83e1461]: Calculate the radius (in m) of the inner shell.
+                          - generic [ref=f83e1462]:
+                            - generic: Write your answer for part (a).
+                            - textbox "Write your answer for part (a)." [ref=f83e1465]
+                            - text: m
+                    - region "(b)" [ref=f83e1466]:
+                      - generic [ref=f83e1467]:
+                        - generic [ref=f83e1468]: (b)
+                        - generic [ref=f83e1469]:
+                          - generic [ref=f83e1470]: Calculate the charge (in C) on the positive shell.
+                          - generic [ref=f83e1471]:
+                            - generic: Write your answer for part (b).
+                            - textbox "Write your answer for part (b)." [ref=f83e1474]
+                            - text: C
+                    - region "(c)" [ref=f83e1475]:
+                      - generic [ref=f83e1476]:
+                        - generic [ref=f83e1477]: (c)
+                        - generic [ref=f83e1478]:
+                          - generic [ref=f83e1479]:
+                            - text: Calculate the surface charge density magnitude (in C/m
+                            - superscript [ref=f83e1480]: superscript 2 end superscript
+                            - text: ) on the inner shell.
+                          - generic [ref=f83e1481]:
+                            - generic: Write your answer for part (c).
+                            - textbox "Write your answer for part (c)." [ref=f83e1484]
+                            - text: C/m
+                            - superscript [ref=f83e1485]: superscript 2 end superscript
+                  - generic "Resource box" [ref=f83e1489]:
+                    - generic [ref=f83e1490]:
+                      - generic [ref=f83e1491]: Resources
+                      - generic [ref=f83e1492]:
+                        - paragraph [ref=f83e1493]:
+                          - link "Read It (opens in a new tab)" [ref=f83e1494] [cursor=pointer]:
+                            - /url: "#"
+                            - text: Read It
+                        - button "Ask Student Assistant for question 3" [ref=f83e1495] [cursor=pointer]: Student Assistant
+                - button "Submit Answer" [ref=f83e1498] [cursor=pointer]
+            - generic [ref=f83e1499]:
+              - region "Banner for question 4" [ref=f83e1502]:
+                - generic [ref=f83e1503]:
+                  - heading "Question 4" [level=2] [ref=f83e1505]: "4."
+                  - strong [ref=f83e1506]: "[– / 5 Points]"
+                - generic [ref=f83e1507]:
+                  - button "Details for question 4." [ref=f83e1508] [cursor=pointer]:
+                    - generic [ref=f83e1509]: Details
+                  - button "My Notes For question 4" [ref=f83e1512] [cursor=pointer]:
+                    - generic [ref=f83e1513]: My Notes
+                  - button "Ask Your Teacher For question 4" [ref=f83e1516] [cursor=pointer]:
+                    - generic [ref=f83e1517]: Ask Your Teacher
+                  - button "Practice Another Version for question 4." [ref=f83e1518] [cursor=pointer]:
+                    - generic [ref=f83e1519]: Practice Another
+              - generic [ref=f83e1520]:
+                - generic [ref=f83e1522]:
+                  - generic [ref=f83e1523]: SerPSE11 25.3.OP.007.
+                  - region [ref=f83e1524]:
+                    - strong [ref=f83e1525]: Problem 4
+                    - region "introduction" [ref=f83e1526]:
+                      - generic [ref=f83e1527]:
+                        - text: Two capacitors,
+                        - generic [ref=f83e1528]:
+                          - generic [ref=f83e1529]: µ
+                          - text: F
+                        - text: and
+                        - generic [ref=f83e1530]:
+                          - generic [ref=f83e1531]: µ
+                          - text: F,
+                        - text: are connected in parallel, and the resulting combination is connected to a 9.00-V battery.
+                    - region "(a)" [ref=f83e1532]:
+                      - generic [ref=f83e1533]:
+                        - generic [ref=f83e1534]: (a)
+                        - generic [ref=f83e1535]:
+                          - generic [ref=f83e1536]: Find the equivalent capacitance of the combination.
+                          - generic [ref=f83e1537]:
+                            - generic: Write your answer for part (a).
+                            - textbox "Write your answer for part (a)." [ref=f83e1540]
+                            - generic [ref=f83e1541]: µ
+                            - text: F
+                    - region "(b)" [ref=f83e1542]:
+                      - generic [ref=f83e1543]:
+                        - generic [ref=f83e1544]: (b)
+                        - generic [ref=f83e1545]:
+                          - generic [ref=f83e1546]: Find the potential difference across each capacitor.
+                          - list [ref=f83e1547]:
+                            - listitem [ref=f83e1548]:
+                              - generic [ref=f83e1552]:
+                                - textbox [ref=f83e1554]
+                                - text: V
+                            - listitem [ref=f83e1555]:
+                              - generic [ref=f83e1559]:
+                                - textbox [ref=f83e1561]
+                                - text: V
+                    - region "(c)" [ref=f83e1562]:
+                      - generic [ref=f83e1563]:
+                        - generic [ref=f83e1564]: (c)
+                        - generic [ref=f83e1565]:
+                          - generic [ref=f83e1566]: Find the charge stored on each capacitor.
+                          - list [ref=f83e1567]:
+                            - listitem [ref=f83e1568]:
+                              - generic [ref=f83e1572]:
+                                - textbox [ref=f83e1574]
+                                - generic [ref=f83e1575]: µ
+                                - text: C
+                            - listitem [ref=f83e1576]:
+                              - generic [ref=f83e1580]:
+                                - textbox [ref=f83e1582]
+                                - generic [ref=f83e1583]: µ
+                                - text: C
+                  - generic "Resource box" [ref=f83e1587]:
+                    - generic [ref=f83e1588]:
+                      - generic [ref=f83e1589]: Resources
+                      - generic [ref=f83e1590]:
+                        - paragraph [ref=f83e1591]:
+                          - link "Read It (opens in a new tab)" [ref=f83e1592] [cursor=pointer]:
+                            - /url: "#"
+                            - text: Read It
+                          - link "Watch It (opens in a new tab)" [ref=f83e1593] [cursor=pointer]:
+                            - /url: javascript:open_bc_enhanced('watch_it', 'https://college.cengage.com/geyser/cengage_9781337713405/html/watchit_player/?rss=serpse8_26_013&prod=serpse8', 1)
+                            - text: Watch It
+                        - button "Ask Student Assistant for question 4" [ref=f83e1594] [cursor=pointer]: Student Assistant
+                - button "Submit Answer" [ref=f83e1597] [cursor=pointer]
+            - generic [ref=f83e1598]:
+              - region "Banner for question 5" [ref=f83e1601]:
+                - generic [ref=f83e1602]:
+                  - heading "Question 5" [level=2] [ref=f83e1604]: "5."
+                  - strong [ref=f83e1605]: "[– / 5 Points]"
+                - generic [ref=f83e1606]:
+                  - button "Details for question 5." [ref=f83e1607] [cursor=pointer]:
+                    - generic [ref=f83e1608]: Details
+                  - button "My Notes For question 5" [ref=f83e1611] [cursor=pointer]:
+                    - generic [ref=f83e1612]: My Notes
+                  - button "Ask Your Teacher For question 5" [ref=f83e1615] [cursor=pointer]:
+                    - generic [ref=f83e1616]: Ask Your Teacher
+                  - button "Practice Another Version for question 5." [ref=f83e1617] [cursor=pointer]:
+                    - generic [ref=f83e1618]: Practice Another
+              - generic [ref=f83e1619]:
+                - generic [ref=f83e1621]:
+                  - generic [ref=f83e1622]: SerPSE11 25.3.OP.008.
+                  - region [ref=f83e1623]:
+                    - strong [ref=f83e1624]: Problem 5
+                    - region "introduction" [ref=f83e1625]:
+                      - generic [ref=f83e1626]:
+                        - text: Two capacitors (
+                        - generic [ref=f83e1627]:
+                          - generic [ref=f83e1628]: µ
+                          - text: F
+                        - text: and
+                        - generic [ref=f83e1629]:
+                          - generic [ref=f83e1630]: µ
+                          - text: F)
+                        - text: are now connected in series and to a 9.00-V battery.
+                    - region "(a)" [ref=f83e1631]:
+                      - generic [ref=f83e1632]:
+                        - generic [ref=f83e1633]: (a)
+                        - generic [ref=f83e1634]:
+                          - generic [ref=f83e1635]: Find the equivalent capacitance of the combination.
+                          - generic [ref=f83e1636]:
+                            - generic: Write your answer for part (a).
+                            - textbox "Write your answer for part (a)." [ref=f83e1639]
+                            - generic [ref=f83e1640]: µ
+                            - text: F
+                    - region "(b)" [ref=f83e1641]:
+                      - generic [ref=f83e1642]:
+                        - generic [ref=f83e1643]: (b)
+                        - generic [ref=f83e1644]:
+                          - generic [ref=f83e1645]: Find the potential difference across each capacitor.
+                          - list [ref=f83e1646]:
+                            - listitem [ref=f83e1647]:
+                              - generic [ref=f83e1651]:
+                                - textbox [ref=f83e1653]
+                                - text: V
+                            - listitem [ref=f83e1654]:
+                              - generic [ref=f83e1658]:
+                                - textbox [ref=f83e1660]
+                                - text: V
+                    - region "(c)" [ref=f83e1661]:
+                      - generic [ref=f83e1662]:
+                        - generic [ref=f83e1663]: (c)
+                        - generic [ref=f83e1664]:
+                          - generic [ref=f83e1665]: Find the charge on each capacitor.
+                          - list [ref=f83e1666]:
+                            - listitem [ref=f83e1667]:
+                              - generic [ref=f83e1671]:
+                                - textbox [ref=f83e1673]
+                                - generic [ref=f83e1674]: µ
+                                - text: C
+                            - listitem [ref=f83e1675]:
+                              - generic [ref=f83e1679]:
+                                - textbox [ref=f83e1681]
+                                - generic [ref=f83e1682]: µ
+                                - text: C
+                  - generic "Resource box" [ref=f83e1686]:
+                    - generic [ref=f83e1687]:
+                      - generic [ref=f83e1688]: Resources
+                      - generic [ref=f83e1689]:
+                        - paragraph [ref=f83e1690]:
+                          - link "Read It (opens in a new tab)" [ref=f83e1691] [cursor=pointer]:
+                            - /url: "#"
+                            - text: Read It
+                          - link "Watch It (opens in a new tab)" [ref=f83e1692] [cursor=pointer]:
+                            - /url: javascript:open_bc_enhanced('watch_it', 'https://college.cengage.com/geyser/cengage_9781337713405/html/watchit_player/?rss=serpse8_26_014&prod=serpse8', 1)
+                            - text: Watch It
+                        - button "Ask Student Assistant for question 5" [ref=f83e1693] [cursor=pointer]: Student Assistant
+                - button "Submit Answer" [ref=f83e1696] [cursor=pointer]
+            - generic [ref=f83e1697]:
+              - region "Banner for question 6" [ref=f83e1700]:
+                - generic [ref=f83e1701]:
+                  - heading "Question 6" [level=2] [ref=f83e1703]: "6."
+                  - strong [ref=f83e1704]: "[– / 12 Points]"
+                - generic [ref=f83e1705]:
+                  - button "Details for question 6." [ref=f83e1706] [cursor=pointer]:
+                    - generic [ref=f83e1707]: Details
+                  - button "My Notes For question 6" [ref=f83e1710] [cursor=pointer]:
+                    - generic [ref=f83e1711]: My Notes
+                  - button "Ask Your Teacher For question 6" [ref=f83e1714] [cursor=pointer]:
+                    - generic [ref=f83e1715]: Ask Your Teacher
+                  - button "Practice Another Version for question 6." [ref=f83e1716] [cursor=pointer]:
+                    - generic [ref=f83e1717]: Practice Another
+              - generic [ref=f83e1718]:
+                - generic [ref=f83e1720]:
+                  - generic [ref=f83e1721]: SerPSE11 25.3.OP.011.MI.SA.
+                  - emphasis [ref=f83e1722]: This question has several parts that must be completed sequentially. If you skip a part of the question, you will not receive any points for the skipped part, and you will not be able to come back to the skipped part.
+                  - generic [ref=f83e1723]:
+                    - generic [ref=f83e1724]:
+                      - generic [ref=f83e1725]: Tutorial Exercise
+                      - generic [ref=f83e1727]:
+                        - text: Consider the circuit shown in the figure below, where C
+                        - subscript [ref=f83e1728]: "1"
+                        - text: = 5.00 µF, C
+                        - subscript [ref=f83e1729]: "2"
+                        - text: = 8.00 µF, and ΔV = 19.0 V. Capacitor C
+                        - subscript [ref=f83e1730]: "1"
+                        - text: is first charged by closing switch S
+                        - subscript [ref=f83e1731]: "1"
+                        - text: . Switch S
+                        - subscript [ref=f83e1732]: "1"
+                        - text: is then opened, and the charged capacitor is connected to the uncharged capacitor by closing S
+                        - subscript [ref=f83e1733]: "2"
+                        - text: .
+                        - figure [ref=f83e1734]:
+                          - text: ℹ
+                          - generic [ref=f83e1736]:
+                            - text: A circuit diagram consists of two rectangular loops. On the left side of the left loop, there is a voltage source Δ
+                            - emphasis [ref=f83e1737]: V
+                            - text: oriented with the positive terminal on top. On the bottom side of the left loop, there is an open switch S
+                            - subscript [ref=f83e1738]: "1"
+                            - text: . On the right side of the left loop, which is also the left side of the right loop, there is a capacitor
+                            - emphasis [ref=f83e1739]: C
+                            - subscript [ref=f83e1740]: "1"
+                            - text: . On the right side of the right loop, there is a capacitor
+                            - emphasis [ref=f83e1741]: C
+                            - subscript [ref=f83e1742]: "2"
+                            - text: . On the bottom side of the right loop, there is an open switch S
+                            - subscript [ref=f83e1743]: "2"
+                            - text: .
+                        - generic [ref=f83e1744]:
+                          - text: (a) Calculate the initial charge acquired by
+                          - generic [ref=f83e1747]:
+                            - generic [ref=f83e1748]: C
+                            - subscript [ref=f83e1749]: "1"
+                            - text: .
+                          - text: (b) Calculate the final charge on each capacitor.
+                    - button "Click here to begin!" [ref=f83e1750] [cursor=pointer]
+                  - generic "Resource box" [ref=f83e1754]:
+                    - generic [ref=f83e1755]:
+                      - generic [ref=f83e1756]: Resources
+                      - paragraph [ref=f83e1758]:
+                        - link "Read It (opens in a new tab)" [ref=f83e1759] [cursor=pointer]:
+                          - /url: "#"
+                          - text: Read It
+                - button "Submit Answer" [ref=f83e1762] [cursor=pointer]
+            - generic [ref=f83e1763]:
+              - region "Banner for question 7" [ref=f83e1766]:
+                - generic [ref=f83e1767]:
+                  - heading "Question 7" [level=2] [ref=f83e1769]: "7."
+                  - strong [ref=f83e1770]: "[– / 1 Points]"
+                - generic [ref=f83e1771]:
+                  - button "Details for question 7." [ref=f83e1772] [cursor=pointer]:
+                    - generic [ref=f83e1773]: Details
+                  - button "My Notes For question 7" [ref=f83e1776] [cursor=pointer]:
+                    - generic [ref=f83e1777]: My Notes
+                  - button "Ask Your Teacher For question 7" [ref=f83e1780] [cursor=pointer]:
+                    - generic [ref=f83e1781]: Ask Your Teacher
+                  - button "Practice Another Version for question 7." [ref=f83e1782] [cursor=pointer]:
+                    - generic [ref=f83e1783]: Practice Another
+              - generic [ref=f83e1784]:
+                - generic [ref=f83e1786]:
+                  - generic [ref=f83e1787]: SerPSE11 25.3.P.013.
+                  - region [ref=f83e1788]:
+                    - strong [ref=f83e1789]: Problem 7
+                    - generic [ref=f83e1790]:
+                      - text: Find the equivalent capacitance between points
+                      - emphasis [ref=f83e1791]: a
+                      - text: and
+                      - emphasis [ref=f83e1792]: b
+                      - text: in the combination of capacitors shown in the figure below. (
+                      - generic [ref=f83e1793]: µ
+                      - text: F and
+                      - generic [ref=f83e1794]: µ
+                      - text: F.)
+                    - group [ref=f83e1795]:
+                      - text: Given Figure
+                      - generic [ref=f83e1796]:
+                        - img "A figure is shown. Full description follows." [ref=f83e1797]
+                        - group [ref=f83e1799]:
+                          - generic "▸ Given Figure Description" [ref=f83e1800] [cursor=pointer]
+                    - generic [ref=f83e1801]:
+                      - generic: Write your answer.
+                      - textbox "Write your answer." [ref=f83e1804]
+                      - generic [ref=f83e1805]: µ
+                      - text: F
+                  - generic "Resource box" [ref=f83e1809]:
+                    - generic [ref=f83e1810]:
+                      - generic [ref=f83e1811]: Resources
+                      - generic [ref=f83e1812]:
+                        - paragraph [ref=f83e1813]:
+                          - link "Read It (opens in a new tab)" [ref=f83e1814] [cursor=pointer]:
+                            - /url: "#"
+                            - text: Read It
+                        - button "Ask Student Assistant for question 7" [ref=f83e1815] [cursor=pointer]: Student Assistant
+                - button "Submit Answer" [ref=f83e1818] [cursor=pointer]
+            - generic [ref=f83e1819]:
+              - region "Banner for question 8" [ref=f83e1822]:
+                - generic [ref=f83e1823]:
+                  - heading "Question 8" [level=2] [ref=f83e1825]: "8."
+                  - strong [ref=f83e1826]: "[– / 3 Points]"
+                - generic [ref=f83e1827]:
+                  - button "Details for question 8." [ref=f83e1828] [cursor=pointer]:
+                    - generic [ref=f83e1829]: Details
+                  - button "My Notes For question 8" [ref=f83e1832] [cursor=pointer]:
+                    - generic [ref=f83e1833]: My Notes
+                  - button "Ask Your Teacher For question 8" [ref=f83e1836] [cursor=pointer]:
+                    - generic [ref=f83e1837]: Ask Your Teacher
+              - generic [ref=f83e1838]:
+                - generic [ref=f83e1840]:
+                  - generic [ref=f83e1841]: SerPSE11 25.4.P.020.
+                  - region [ref=f83e1842]:
+                    - strong [ref=f83e1843]: Problem 8
+                    - region "introduction" [ref=f83e1844]:
+                      - generic [ref=f83e1845]:
+                        - text: Two identical parallel-plate capacitors, each with capacitance
+                        - emphasis [ref=f83e1846]: C
+                        - text: ", are charged to potential difference and then disconnected from the battery. They are then connected to each other in parallel with plates of like sign connected. Finally, the plate separation in one of the capacitors is doubled. (Use any variable or symbol stated above as necessary.)"
+                    - region "(a)" [ref=f83e1847]:
+                      - generic [ref=f83e1848]:
+                        - generic [ref=f83e1849]: (a)
+                        - generic [ref=f83e1850]:
+                          - generic [ref=f83e1851]:
+                            - text: Find the total energy of the system of two capacitors
+                            - emphasis [ref=f83e1852]: before
+                            - text: the plate separation is doubled.
+                          - generic [ref=f83e1855]:
+                            - generic [ref=f83e1856]:
+                              - button [ref=f83e1857]
+                              - button "Open full math pad" [ref=f83e1859] [cursor=pointer]
+                            - generic [ref=f83e1861]: Press Space or Enter to edit this math answer.
+                    - region "(b)" [ref=f83e1862]:
+                      - generic [ref=f83e1863]:
+                        - generic [ref=f83e1864]: (b)
+                        - generic [ref=f83e1865]:
+                          - generic [ref=f83e1866]:
+                            - text: Find the potential difference across each capacitor
+                            - emphasis [ref=f83e1867]: after
+                            - text: the plate separation is doubled.
+                          - generic [ref=f83e1868]:
+                            - text: "'"
+                            - generic [ref=f83e1870]:
+                              - generic [ref=f83e1871]:
+                                - button [ref=f83e1872]
+                                - button "Open full math pad" [ref=f83e1874] [cursor=pointer]
+                              - generic [ref=f83e1876]: Press Space or Enter to edit this math answer.
+                    - region "(c)" [ref=f83e1877]:
+                      - generic [ref=f83e1878]:
+                        - generic [ref=f83e1879]: (c)
+                        - generic [ref=f83e1880]:
+                          - generic [ref=f83e1881]:
+                            - text: Find the total energy of the system
+                            - emphasis [ref=f83e1882]: after
+                            - text: the plate separation is doubled.
+                          - generic [ref=f83e1883]:
+                            - emphasis [ref=f83e1884]: U
+                            - text: "'"
+                            - generic [ref=f83e1886]:
+                              - generic [ref=f83e1887]:
+                                - button [ref=f83e1888]
+                                - button "Open full math pad" [ref=f83e1890] [cursor=pointer]
+                              - generic [ref=f83e1892]: Press Space or Enter to edit this math answer.
+                    - region "(d)" [ref=f83e1893]:
+                      - generic [ref=f83e1894]:
+                        - generic [ref=f83e1895]: (d)
+                        - generic [ref=f83e1896]:
+                          - generic [ref=f83e1897]: Reconcile the difference in the answers to parts (a) and (c) with the law of conservation of energy. (Write your free-form answer using as many characters as necessary.)
+                          - generic [ref=f83e1898]:
+                            - generic: Write your free-form answer using as many characters as necessary.
+                            - textbox "Write your free-form answer using as many characters as necessary." [ref=f83e1900]
+                            - paragraph [ref=f83e1903]: This answer has not been graded yet.
+                  - generic "Resource box" [ref=f83e1907]:
+                    - generic [ref=f83e1908]:
+                      - generic [ref=f83e1909]: Resources
+                      - generic [ref=f83e1910]:
+                        - paragraph [ref=f83e1911]:
+                          - link "Read It (opens in a new tab)" [ref=f83e1912] [cursor=pointer]:
+                            - /url: "#"
+                            - text: Read It
+                        - button "Ask Student Assistant for question 8" [ref=f83e1913] [cursor=pointer]: Student Assistant
+                - button "Submit Answer" [ref=f83e1916] [cursor=pointer]
+            - generic [ref=f83e1917]:
+              - region "Banner for question 9" [ref=f83e1920]:
+                - generic [ref=f83e1921]:
+                  - heading "Question 9" [level=2] [ref=f83e1923]: "9."
+                  - strong [ref=f83e1924]: "[– / 2 Points]"
+                - generic [ref=f83e1925]:
+                  - button "Details for question 9." [ref=f83e1926] [cursor=pointer]:
+                    - generic [ref=f83e1927]: Details
+                  - button "My Notes For question 9" [ref=f83e1930] [cursor=pointer]:
+                    - generic [ref=f83e1931]: My Notes
+                  - button "Ask Your Teacher For question 9" [ref=f83e1934] [cursor=pointer]:
+                    - generic [ref=f83e1935]: Ask Your Teacher
+                  - button "Practice Another Version for question 9." [ref=f83e1936] [cursor=pointer]:
+                    - generic [ref=f83e1937]: Practice Another
+              - generic [ref=f83e1938]:
+                - generic [ref=f83e1940]:
+                  - generic [ref=f83e1941]: SerPSE11 25.5.P.029.
+                  - region [ref=f83e1942]:
+                    - strong [ref=f83e1943]: Problem 9
+                    - region "introduction" [ref=f83e1944]:
+                      - generic [ref=f83e1945]: A 2.36-nF parallel-plate capacitor is charged to an initial potential difference V and is then isolated. The dielectric material between the plates is Pyrex glass, with a dielectric constant of 5.6.
+                    - region "(a)" [ref=f83e1946]:
+                      - generic [ref=f83e1947]:
+                        - generic [ref=f83e1948]: (a)
+                        - generic [ref=f83e1949]:
+                          - generic [ref=f83e1950]: How much work is required to withdraw the Pyrex glass sheet?
+                          - generic [ref=f83e1951]:
+                            - generic: Write your answer for part (a).
+                            - textbox "Write your answer for part (a)." [ref=f83e1954]
+                            - generic [ref=f83e1955]: µ
+                            - text: J
+                    - region "(b)" [ref=f83e1956]:
+                      - generic [ref=f83e1957]:
+                        - generic [ref=f83e1958]: (b)
+                        - generic [ref=f83e1959]:
+                          - generic [ref=f83e1960]: What is the potential difference of the capacitor after the Pyrex glass is withdrawn?
+                          - generic [ref=f83e1961]:
+                            - generic: Write your answer for part (b).
+                            - textbox "Write your answer for part (b)." [ref=f83e1964]
+                            - text: V
+                  - generic "Resource box" [ref=f83e1968]:
+                    - generic [ref=f83e1969]:
+                      - generic [ref=f83e1970]: Resources
+                      - generic [ref=f83e1971]:
+                        - paragraph [ref=f83e1972]:
+                          - link "Read It (opens in a new tab)" [ref=f83e1973] [cursor=pointer]:
+                            - /url: "#"
+                            - text: Read It
+                        - button "Ask Student Assistant for question 9" [ref=f83e1974] [cursor=pointer]: Student Assistant
+                - button "Submit Answer" [ref=f83e1977] [cursor=pointer]
+            - generic [ref=f83e1978]:
+              - region "Banner for question 10" [ref=f83e1981]:
+                - generic [ref=f83e1982]:
+                  - heading "Question 10" [level=2] [ref=f83e1984]: "10."
+                  - strong [ref=f83e1985]: "[– / 10 Points]"
+                - generic [ref=f83e1986]:
+                  - button "Details for question 10." [ref=f83e1987] [cursor=pointer]:
+                    - generic [ref=f83e1988]: Details
+                  - button "My Notes For question 10" [ref=f83e1991] [cursor=pointer]:
+                    - generic [ref=f83e1992]: My Notes
+                  - button "Ask Your Teacher For question 10" [ref=f83e1995] [cursor=pointer]:
+                    - generic [ref=f83e1996]: Ask Your Teacher
+                  - button "Practice Another Version for question 10." [ref=f83e1997] [cursor=pointer]:
+                    - generic [ref=f83e1998]: Practice Another
+              - generic [ref=f83e1999]:
+                - generic [ref=f83e2001]:
+                  - generic [ref=f83e2002]: SerPSE11 25.5.OP.018.
+                  - region [ref=f83e2003]:
+                    - strong [ref=f83e2004]: Problem 10
+                    - region "introduction" [ref=f83e2005]:
+                      - generic [ref=f83e2006]:
+                        - text: A student working in the physics laboratory connects a parallel-plate capacitor to a battery, so that the potential difference between the plates is 230 V. Assume a plate separation of
+                        - generic [ref=f83e2007]: cm
+                        - text: and a plate area of
+                        - generic [ref=f83e2008]:
+                          - text: cm
+                          - superscript [ref=f83e2009]: superscript 2 end superscript
+                          - text: .
+                        - text: When the battery is removed, the capacitor is plunged into a container of distilled water. Assume distilled water is an insulator with a dielectric constant of 80.0.
+                    - region "(a)" [ref=f83e2010]:
+                      - generic [ref=f83e2011]:
+                        - generic [ref=f83e2012]: (a)
+                        - generic [ref=f83e2013]:
+                          - generic [ref=f83e2014]: Calculate the charge on the plates (in pC) before and after the capacitor is submerged. (Enter the magnitudes.)
+                          - list [ref=f83e2015]:
+                            - listitem [ref=f83e2016]:
+                              - generic [ref=f83e2017]:
+                                - generic [ref=f83e2018]: before
+                                - generic [ref=f83e2019]: Write your first answer in part (a).
+                                - generic [ref=f83e2022]:
+                                  - textbox "Write your first answer in part (a)." [ref=f83e2024]
+                                  - text: pC
+                            - listitem [ref=f83e2025]:
+                              - generic [ref=f83e2026]:
+                                - generic [ref=f83e2027]: after
+                                - generic [ref=f83e2028]: Write your second answer in part (a).
+                                - generic [ref=f83e2031]:
+                                  - textbox "Write your second answer in part (a)." [ref=f83e2033]
+                                  - text: pC
+                    - region "(b)" [ref=f83e2034]:
+                      - generic [ref=f83e2035]:
+                        - generic [ref=f83e2036]: (b)
+                        - generic [ref=f83e2037]:
+                          - generic [ref=f83e2038]: Determine the capacitance (in F) and potential difference (in V) after immersion.
+                          - list [ref=f83e2039]:
+                            - listitem [ref=f83e2040]:
+                              - generic [ref=f83e2041]:
+                                - generic [ref=f83e2042]: Write your first answer in part (b).
+                                - generic [ref=f83e2045]:
+                                  - textbox "Write your first answer in part (b)." [ref=f83e2047]
+                                  - text: F
+                            - listitem [ref=f83e2048]:
+                              - generic [ref=f83e2049]:
+                                - generic [ref=f83e2050]: Write your second answer in part (b).
+                                - generic [ref=f83e2053]:
+                                  - textbox "Write your second answer in part (b)." [ref=f83e2055]
+                                  - text: V
+                    - region "(c)" [ref=f83e2056]:
+                      - generic [ref=f83e2057]:
+                        - generic [ref=f83e2058]: (c)
+                        - generic [ref=f83e2059]:
+                          - generic [ref=f83e2060]: Determine the change in energy (in nJ) of the capacitor.
+                          - generic [ref=f83e2061]:
+                            - generic [ref=f83e2062]: Write your answer for part (c).
+                            - textbox "Write your answer for part (c)." [ref=f83e2065]
+                            - text: nJ
+                    - region "(d)" [ref=f83e2066]:
+                      - generic [ref=f83e2067]:
+                        - generic [ref=f83e2068]: (d)
+                        - generic [ref=f83e2069]:
+                          - generic [ref=f83e2070]:
+                            - strong [ref=f83e2071]: What If?
+                            - text: Repeat parts (a) through (c) of the problem in the case that the capacitor is immersed in distilled water while still connected to the
+                            - generic [ref=f83e2072]: 230 V
+                            - text: potential difference.
+                          - generic [ref=f83e2073]: Calculate the charge on the plates (in pC) before and after the capacitor is submerged. (Enter the magnitudes.)
+                          - list [ref=f83e2074]:
+                            - listitem [ref=f83e2075]:
+                              - generic [ref=f83e2076]:
+                                - generic [ref=f83e2077]: before
+                                - generic [ref=f83e2078]: Write your first answer in part (d).
+                                - generic [ref=f83e2081]:
+                                  - textbox "Write your first answer in part (d)." [ref=f83e2083]
+                                  - text: pC
+                            - listitem [ref=f83e2084]:
+                              - generic [ref=f83e2085]:
+                                - generic [ref=f83e2086]: after
+                                - generic [ref=f83e2087]: Write your second answer in part (d).
+                                - generic [ref=f83e2090]:
+                                  - textbox "Write your second answer in part (d)." [ref=f83e2092]
+                                  - text: pC
+                          - generic [ref=f83e2093]: Determine the capacitance (in F) and potential difference (in V) after immersion.
+                          - list [ref=f83e2094]:
+                            - listitem [ref=f83e2095]:
+                              - generic [ref=f83e2096]:
+                                - generic [ref=f83e2097]: Write your third answer in part (d).
+                                - generic [ref=f83e2100]:
+                                  - textbox "Write your third answer in part (d)." [ref=f83e2102]
+                                  - text: F
+                            - listitem [ref=f83e2103]:
+                              - generic [ref=f83e2104]:
+                                - generic [ref=f83e2105]: Write your fourth answer in part (d).
+                                - generic [ref=f83e2108]:
+                                  - textbox "Write your fourth answer in part (d)." [ref=f83e2110]
+                                  - text: V
+                          - generic [ref=f83e2111]: Determine the change in energy (in nJ) of the capacitor.
+                          - generic [ref=f83e2112]:
+                            - generic [ref=f83e2113]: Write your fifth answer in part (d).
+                            - textbox "Write your fifth answer in part (d)." [ref=f83e2116]
+                            - text: nJ
+                  - generic "Resource box" [ref=f83e2120]:
+                    - generic [ref=f83e2121]:
+                      - generic [ref=f83e2122]: Resources
+                      - generic [ref=f83e2123]:
+                        - paragraph [ref=f83e2124]:
+                          - link "Read It (opens in a new tab)" [ref=f83e2125] [cursor=pointer]:
+                            - /url: "#"
+                            - text: Read It
+                        - button "Ask Student Assistant for question 10" [ref=f83e2126] [cursor=pointer]: Student Assistant
+                - button "Submit Answer" [ref=f83e2129] [cursor=pointer]
+          - alert
+          - generic [ref=f83e2131]:
+            - link "Home" [ref=f83e2132] [cursor=pointer]
+            - link "My Assignments" [ref=f83e2133] [cursor=pointer]
+      - contentinfo [ref=f83e2135]:
+        - generic [ref=f83e2136]:
+          - generic [ref=f83e2137]: Copyright © 1998 - 2026 Cengage Learning, Inc. All Rights Reserved
+          - list [ref=f83e2138]:
+            - listitem [ref=f83e2139]:
+              - link "Open in a new tab. Terms of use" [ref=f83e2140] [cursor=pointer]:
+                - /url: https://www.cengage.com/legal/#terms
+                - text: Terms of use
+            - listitem [ref=f83e2141]:
+              - link "Open in a new tab. Privacy" [ref=f83e2142] [cursor=pointer]:
+                - /url: https://www.cengage.com/privacy/
+                - text: Privacy
+  - application [ref=f83e2144]:
+    - generic [ref=f83e2146]:
+      - generic [ref=f83e2148]: 
+      - generic [ref=f83e2149]: x
+      - textbox [ref=f83e2156]
+    - textbox [aria-hidden] [ref=f83e2157]

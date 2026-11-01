@@ -1,0 +1,28 @@
+Name: Sac Xoo Net ID: Wee
+
+Question 4 (25 points)
+
+Implement the function:
+def remove_elems_in_even_indices( lst)
+
+This function gets a list, lst. When called, it should mutate lst, by removing all
+the elements that are stored in even indices. Thatis, lst (@], tst [2], lst{4],..
+should be removed from 1st.
+
+Your renee See ae the plows interaction:
+>>> Ist = 20, 3
+
+Pe> ba otis bon cher nde OE
+>>> Ist
+{[2@, 40, 60]
+
+Implementation requirements:
+
+* Your function should run in worst case linear time. That is, if Lst is a list
+with n elements, the call remove_elems_in_even_indices(1st) should
+run in @(n).
+
+« Your implementation should mutate the given list object in-place, without
+using an additional data collection.
+
+Note: Write your implementation on the next page.

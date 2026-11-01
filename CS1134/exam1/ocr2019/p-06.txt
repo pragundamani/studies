@@ -1,0 +1,47 @@
+Name: qacke ktkeo Net ID: \dy221
+
+Question 3 (20 points):
+a) Given a list of words 1s, provide the list comprehension which will provide
+
+only the words which are not four characters:
+
+For example, if
+
+ls=['The', 'pessimist', ‘'complains', ‘about', ‘the’, ‘wind’,
+'s', ‘thet, ‘optimist', ‘expects', 'it', 'to', ‘change;',
+‘the', ‘realist’, ‘adjusts', ‘the', ‘sails.']
+
+the call no_four_letters_words (ts) should return:
+
+['The', ‘pessimist', ‘complains', 'about', 'the', ‘;’, 'the',
+‘optimist', ‘expects', 'it', ‘'to', ‘change;', ‘the',
+‘realist’, ‘adjusts', ‘the', ‘sails.']
+
+(note, the four-letter word “wind” was removed)
+
+def no_four_letters_words(1s):
+
+return Cifort inls tf (Ceti) l= 4 J
+
+Consider the following definition of a triangular number.
+A positive integer n is called a triangular number, if you can create an
+equilateral triangle, by stacking 7 items.
+
+Imagine stacking cups:
+
+o fo
+
+1 3 6 10
+
+With three cups, you could create a triangle, but not with four or five (so 3 is a
+triangular number, but 4 and 5 are not). Six cups would be needed to create a
+triangle stack again, and after that 10 cups would be needed.
+
+In short, the next amount is equal to the previous amount plus the next
+sequential number.
+
+The sequence of triangular numbers goes: 1, 3, 6, 10, 15, 21, ...
+
+Design a generator function which will generate the first n (a given
+parameter) values of the sequence, one at a time.
+

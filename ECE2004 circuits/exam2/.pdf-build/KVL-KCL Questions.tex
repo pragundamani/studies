@@ -1,0 +1,301 @@
+\documentclass[11pt]{article}
+\usepackage[margin=0.65in]{geometry}
+\usepackage{fontspec}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{microtype}
+\usepackage{xcolor}
+\setmainfont{DejaVu Sans}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.45em}
+\setlength{\emergencystretch}{3em}
+\pagestyle{plain}
+\begin{document}
+\begin{center}\LARGE\bfseries KVL-KCL Questions\end{center}
+\vspace{0.5em}
+
+\clearpage
+\section*{Question 1}
+
+Find the series current and both downward branch currents.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/Q01-kvl-kcl-basic.png}}\end{center}
+
+\begin{quote}\small\textit{An $18\ \mathrm{V}$ source is positive at the top. Its top terminal connects through $3\ \Omega$ to node A. Resistors of $6\ \Omega$ and $3\ \Omega$ connect from A to the bottom reference node. The series arrow points right; both branch arrows point downward.}\end{quote}
+
+\subsection*{Solution}
+
+Let node A be $V_A$ and take the labeled directions as positive. KVL gives $18-3I-V_A=0$. KCL and Ohm’s law give $I=I_6+I_3=V_A/6+V_A/3=V_A/2$. Hence $18-3(V_A/2)-V_A=0$, so $V_A=7.20\ \mathrm{V}$. Therefore $I=3.60\ \mathrm{A}$ right, $I_6=1.20\ \mathrm{A}$ downward, and $I_3=2.40\ \mathrm{A}$ downward.\par
+
+\clearpage
+\section*{Question 2}
+
+Write one node equation for A and use it to check KCL numerically.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/Q01-kvl-kcl-basic.png}}\end{center}
+
+\begin{quote}\small\textit{An $18\ \mathrm{V}$ source is positive at the top. Its top terminal connects through $3\ \Omega$ to node A. Resistors of $6\ \Omega$ and $3\ \Omega$ connect from A to the bottom reference node. The series arrow points right; both branch arrows point downward.}\end{quote}
+
+\subsection*{Solution}
+
+With currents leaving A positive, \$\par
+rac\{V\_A-18\}\{3\}+\par
+rac\{V\_A\}\{6\}+\par
+rac\{V\_A\}\{3\}=0$. Multiplying by $6$ gives $2V\_A-36+V\_A+2V\_A=0$, so $V\_A=7.20\textbackslash{} \textbackslash{}mathrm\{V\}$. Numerically, current entering is $(18-7.2)/3=3.60\textbackslash{} \textbackslash{}mathrm\{A\}$ and current leaving is $7.2/6+7.2/3=3.60\textbackslash{} \textbackslash{}mathrm\{A\}\$.\par
+
+\clearpage
+\section*{Question 3}
+
+Find the power of every element and verify conservation of power.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/Q01-kvl-kcl-basic.png}}\end{center}
+
+\begin{quote}\small\textit{An $18\ \mathrm{V}$ source is positive at the top. Its top terminal connects through $3\ \Omega$ to node A. Resistors of $6\ \Omega$ and $3\ \Omega$ connect from A to the bottom reference node. The series arrow points right; both branch arrows point downward.}\end{quote}
+
+\subsection*{Solution}
+
+From KVL and KCL, $I=3.60\ \mathrm{A}$, $I_6=1.20\ \mathrm{A}$, and $I_3=2.40\ \mathrm{A}$. With positive power defined as absorbed, $P_{3\Omega,\mathrm{series}}=(3.6)^2(3)=38.88\ \mathrm{W}$, $P_{6\Omega}=(1.2)^2(6)=8.64\ \mathrm{W}$, and $P_{3\Omega,\mathrm{branch}}=(2.4)^2(3)=17.28\ \mathrm{W}$. Source current leaves its positive terminal, so $P_{18\mathrm{V}}=-(18)(3.6)=-64.80\ \mathrm{W}$; it delivers $64.80\ \mathrm{W}$. The check is $38.88+8.64+17.28-64.80=0\ \mathrm{W}$.\par
+
+\clearpage
+\section*{Question 4}
+
+Find node voltage A and the two resistor currents.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/Q02-kvl-kcl-power.png}}\end{center}
+
+\begin{quote}\small\textit{A $24\ \mathrm{V}$ source is positive at the top and fixes the left node. A $4\ \Omega$ resistor connects it to node A. An $8\ \Omega$ resistor connects A to reference. A $2\ \mathrm{A}$ source points upward from reference to A. Resistor arrows point right through $4\ \Omega$ and downward through $8\ \Omega$.}\end{quote}
+
+\subsection*{Solution}
+
+Take currents leaving A as positive. KCL gives \$\par
+rac\{V\_A-24\}\{4\}+\par
+rac\{V\_A\}\{8\}-2=0$. Thus $2V\_A-48+V\_A-16=0$ and $V\_A=64/3=21.33\textbackslash{} \textbackslash{}mathrm\{V\}$. Therefore $i\_4=(24-V\_A)/4=2/3\textbackslash{} \textbackslash{}mathrm\{A\}$ right and $i\_8=V\_A/8=8/3\textbackslash{} \textbackslash{}mathrm\{A\}\$ downward.\par
+
+\clearpage
+\section*{Question 5}
+
+Classify each source as absorbing or delivering power and verify the power balance.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/Q02-kvl-kcl-power.png}}\end{center}
+
+\begin{quote}\small\textit{A $24\ \mathrm{V}$ source is positive at the top and fixes the left node. A $4\ \Omega$ resistor connects it to node A. An $8\ \Omega$ resistor connects A to reference. A $2\ \mathrm{A}$ source points upward from reference to A. Resistor arrows point right through $4\ \Omega$ and downward through $8\ \Omega$.}\end{quote}
+
+\subsection*{Solution}
+
+Using $V_A=64/3\ \mathrm{V}$, the resistors absorb $P_{4\Omega}=(2/3)^2(4)=16/9\ \mathrm{W}$ and $P_{8\Omega}=(8/3)^2(8)=512/9\ \mathrm{W}$. The voltage-source current leaves its positive terminal, so $P_{24\mathrm{V}}=-24(2/3)=-16\ \mathrm{W}$; it delivers. The current source enters its negative terminal, so $P_{2\mathrm{A}}=-(64/3)(2)=-128/3\ \mathrm{W}$; it delivers. The check is $16/9+512/9-16-128/3=0\ \mathrm{W}$.\par
+
+\clearpage
+\section*{Question 6}
+
+Use nodal analysis to find both node voltages and the current through the linking resistor.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/kvl-kcl-two-node.png}}\end{center}
+
+\begin{quote}\small\textit{Nodes A and B share a $2\ \Omega$ resistor. A has a $4\ \Omega$ resistor to reference and a $3\ \mathrm{A}$ source pointing upward from reference. B has a $6\ \Omega$ resistor to reference and a $1\ \mathrm{A}$ source pointing upward from reference. The bottom wire is reference.}\end{quote}
+
+\subsection*{Solution}
+
+Take currents leaving each node as positive. The equations are \$\par
+rac\{V\_A\}\{4\}+\par
+rac\{V\_A-V\_B\}\{2\}-3=0$ and $\par
+rac\{V\_B\}\{6\}+\par
+rac\{V\_B-V\_A\}\{2\}-1=0$. Equivalently, $3V\_A-2V\_B=12$ and $-3V\_A+4V\_B=6$. Solving gives $V\_A=10.0\textbackslash{} \textbackslash{}mathrm\{V\}$ and $V\_B=9.0\textbackslash{} \textbackslash{}mathrm\{V\}$. The link current is $(V\_A-V\_B)/2=0.500\textbackslash{} \textbackslash{}mathrm\{A\}\$ from A to B.\par
+
+\clearpage
+\section*{Question 7}
+
+Find the power status of both current sources and check total power.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/kvl-kcl-two-node.png}}\end{center}
+
+\begin{quote}\small\textit{Nodes A and B share a $2\ \Omega$ resistor. A has a $4\ \Omega$ resistor to reference and a $3\ \mathrm{A}$ source pointing upward from reference. B has a $6\ \Omega$ resistor to reference and a $1\ \mathrm{A}$ source pointing upward from reference. The bottom wire is reference.}\end{quote}
+
+\subsection*{Solution}
+
+From the node equations, $V_A=10\ \mathrm{V}$ and $V_B=9\ \mathrm{V}$. Both source currents enter their negative terminals. Thus $P_{3\mathrm{A}}=-(10)(3)=-30\ \mathrm{W}$ and $P_{1\mathrm{A}}=-(9)(1)=-9\ \mathrm{W}$; both deliver. Resistor absorption is $10^2/4+(10-9)^2/2+9^2/6=25+0.5+13.5=39\ \mathrm{W}$. Therefore $39-30-9=0\ \mathrm{W}$.\par
+
+\clearpage
+\section*{Question 8}
+
+Define clockwise mesh currents and solve for them.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/kvl-kcl-two-mesh.png}}\end{center}
+
+\begin{quote}\small\textit{Two clockwise mesh currents are shown. The left loop has a $12\ \mathrm{V}$ source positive at the top and a top $2\ \Omega$ resistor. The right loop has a top $6\ \Omega$ resistor and a $6\ \mathrm{V}$ source positive at the top. A shared vertical $4\ \Omega$ resistor separates the loops; the bottom wire is common.}\end{quote}
+
+\subsection*{Solution}
+
+Let $i_1$ and $i_2$ be clockwise in the left and right meshes. KVL gives $-12+2i_1+4(i_1-i_2)=0$ and $6i_2+6+4(i_2-i_1)=0$. Thus $6i_1-4i_2=12$ and $-4i_1+10i_2=-6$. Solving gives $i_1=24/11=2.18\ \mathrm{A}$ clockwise and $i_2=3/11=0.273\ \mathrm{A}$ clockwise.\par
+
+\clearpage
+\section*{Question 9}
+
+Find the current in the shared resistor and state its physical direction.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/kvl-kcl-two-mesh.png}}\end{center}
+
+\begin{quote}\small\textit{Two clockwise mesh currents are shown. The left loop has a $12\ \mathrm{V}$ source positive at the top and a top $2\ \Omega$ resistor. The right loop has a top $6\ \Omega$ resistor and a $6\ \mathrm{V}$ source positive at the top. A shared vertical $4\ \Omega$ resistor separates the loops; the bottom wire is common.}\end{quote}
+
+\subsection*{Solution}
+
+The mesh equations are $6i_1-4i_2=12$ and $-4i_1+10i_2=-6$, which give $i_1=24/11\ \mathrm{A}$ and $i_2=3/11\ \mathrm{A}$. The shared-branch current, downward as referenced by the left mesh, is $i_1-i_2=21/11=1.91\ \mathrm{A}$. It is positive, so the physical direction is downward.\par
+
+\clearpage
+\section*{Question 10}
+
+Use nodal analysis to find the voltages at L and R.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/kvl-kcl-bridge.png}}\end{center}
+
+\begin{quote}\small\textit{A $12\ \mathrm{V}$ source fixes the left top node. Along the top are $3\ \Omega$ to L, $4\ \Omega$ from L to R, and $6\ \Omega$ from R to the reference return. L also has $6\ \Omega$ to reference, and R has $3\ \Omega$ to reference.}\end{quote}
+
+\subsection*{Solution}
+
+With the bottom wire as reference, KCL gives \$\par
+rac\{V\_L-12\}\{3\}+\par
+rac\{V\_L\}\{6\}+\par
+rac\{V\_L-V\_R\}\{4\}=0$ and $\par
+rac\{V\_R-12\}\{6\}+\par
+rac\{V\_R\}\{3\}+\par
+rac\{V\_R-V\_L\}\{4\}=0$. Multiplying by $12$ gives $9V\_L-3V\_R=48$ and $-3V\_L+9V\_R=24$. Solving gives $V\_L=7.00\textbackslash{} \textbackslash{}mathrm\{V\}$ and $V\_R=5.00\textbackslash{} \textbackslash{}mathrm\{V\}\$.\par
+
+\clearpage
+\section*{Question 11}
+
+Find the magnitude and direction of every resistor current.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/kvl-kcl-bridge.png}}\end{center}
+
+\begin{quote}\small\textit{A $12\ \mathrm{V}$ source fixes the left top node. Along the top are $3\ \Omega$ to L, $4\ \Omega$ from L to R, and $6\ \Omega$ from R to the reference return. L also has $6\ \Omega$ to reference, and R has $3\ \Omega$ to reference.}\end{quote}
+
+\subsection*{Solution}
+
+Using $V_L=7\ \mathrm{V}$ and $V_R=5\ \mathrm{V}$, the currents are $(12-7)/3=5/3\ \mathrm{A}$ from the source node to L, $7/6\ \mathrm{A}$ from L to reference, $(7-5)/4=0.500\ \mathrm{A}$ from L to R, $5/3\ \mathrm{A}$ from R to reference through $3\ \Omega$, and $(12-5)/6=7/6\ \mathrm{A}$ from the source node to R. KCL checks at each node.\par
+
+\clearpage
+\section*{Question 12}
+
+Form a supernode and find the two node voltages.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/Q13-kvl-kcl-interpretation.png}}\end{center}
+
+\begin{quote}\small\textit{A $15\ \mathrm{V}$ source feeds A through $5\ \Omega$. From A to reference are $10\ \Omega$ and a downward $1\ \mathrm{A}$ source. A $6\ \mathrm{V}$ source connects A, its positive terminal, to B, its negative terminal. B has $4\ \Omega$ to reference. The reference arrow through the $6\ \mathrm{V}$ source points from B to A.}\end{quote}
+
+\subsection*{Solution}
+
+The constraint is $V_A-V_B=6$. KCL for the supernode is \$\par
+rac\{V\_A-15\}\{5\}+\par
+rac\{V\_A\}\{10\}+1+\par
+rac\{V\_B\}\{4\}=0$. Multiplying by $20$ gives $6V\_A+5V\_B=40$. With $V\_B=V\_A-6$, $11V\_A=70$. Therefore $V\_A=70/11=6.36\textbackslash{} \textbackslash{}mathrm\{V\}$ and $V\_B=4/11=0.364\textbackslash{} \textbackslash{}mathrm\{V\}\$.\par
+
+\clearpage
+\section*{Question 13}
+
+Find the referenced current through the six-volt source, interpret its sign, and classify its power.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/Q13-kvl-kcl-interpretation.png}}\end{center}
+
+\begin{quote}\small\textit{A $15\ \mathrm{V}$ source feeds A through $5\ \Omega$. From A to reference are $10\ \Omega$ and a downward $1\ \mathrm{A}$ source. A $6\ \mathrm{V}$ source connects A, its positive terminal, to B, its negative terminal. B has $4\ \Omega$ to reference. The reference arrow through the $6\ \mathrm{V}$ source points from B to A.}\end{quote}
+
+\subsection*{Solution}
+
+From supernode analysis, $V_A=70/11\ \mathrm{V}$ and $V_B=4/11\ \mathrm{V}$. KCL at B gives $i_x+V_B/4=0$, so $i_x=-1/11\ \mathrm{A}=-90.9\ \mathrm{mA}$. The actual current is $90.9\ \mathrm{mA}$ from A to B, opposite the arrow. It enters the positive terminal, so $P_{6\mathrm{V}}=6(1/11)=6/11=0.545\ \mathrm{W}$ absorbed.\par
+
+\clearpage
+\section*{Question 14}
+
+Use the dependent-source constraint and KCL to find both node voltages.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/kvl-kcl-dependent-voltage.png}}\end{center}
+
+\begin{quote}\small\textit{A $12\ \mathrm{V}$ source feeds node A through $3\ \Omega$. A has $6\ \Omega$ to reference and connects to B through $4\ \Omega$. A dependent voltage source connects B to reference and enforces $V_B=2V_A$, positive at B.}\end{quote}
+
+\subsection*{Solution}
+
+The source constraint is $V_B=2V_A$. KCL at A gives \$\par
+rac\{V\_A-12\}\{3\}+\par
+rac\{V\_A\}\{6\}+\par
+rac\{V\_A-V\_B\}\{4\}=0$. Substitute the constraint: $\par
+rac\{V\_A-12\}\{3\}+\par
+rac\{V\_A\}\{6\}-\par
+rac\{V\_A\}\{4\}=0$. Multiplying by $12$ gives $4V\_A-48+2V\_A-3V\_A=0$. Hence $V\_A=16.0\textbackslash{} \textbackslash{}mathrm\{V\}$ and $V\_B=32.0\textbackslash{} \textbackslash{}mathrm\{V\}\$.\par
+
+\clearpage
+\section*{Question 15}
+
+Find the dependent voltage-source current and verify the circuit power balance.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/kvl-kcl-dependent-voltage.png}}\end{center}
+
+\begin{quote}\small\textit{A $12\ \mathrm{V}$ source feeds node A through $3\ \Omega$. A has $6\ \Omega$ to reference and connects to B through $4\ \Omega$. A dependent voltage source connects B to reference and enforces $V_B=2V_A$, positive at B.}\end{quote}
+
+\subsection*{Solution}
+
+Using $V_A=16\ \mathrm{V}$ and $V_B=32\ \mathrm{V}$, KCL at B gives downward source current $i_d=-(V_B-V_A)/4=-4.00\ \mathrm{A}$. Thus the actual current is upward and the dependent source delivers $-(32)(4)=-128\ \mathrm{W}$. The independent source absorbs $12(4/3)=16\ \mathrm{W}$. The resistors absorb $(4/3)^2(3)=16/3\ \mathrm{W}$, $16^2/6=128/3\ \mathrm{W}$, and $4^2(4)=64\ \mathrm{W}$. The check is $16+16/3+128/3+64-128=0\ \mathrm{W}$.\par
+
+\clearpage
+\section*{Question 16}
+
+Find the node voltage and both downward branch currents.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/kvl-kcl-dependent-current.png}}\end{center}
+
+\begin{quote}\small\textit{Three parallel branches connect node V to reference: an independent $4\ \mathrm{A}$ source points upward, a $3\ \Omega$ resistor, and a dependent current source of $0.25V$ amperes points downward. Voltage V is measured from the top node to reference.}\end{quote}
+
+\subsection*{Solution}
+
+Take downward currents from node V as positive. KCL gives \$\par
+rac\{V\}\{3\}+0.25V-4=0$. Thus $(1/3+1/4)V=4$ and $V=48/7=6.86\textbackslash{} \textbackslash{}mathrm\{V\}$. The resistor current is $V/3=16/7=2.29\textbackslash{} \textbackslash{}mathrm\{A\}$ downward. The dependent-source current is $0.25V=12/7=1.71\textbackslash{} \textbackslash{}mathrm\{A\}$ downward. Their sum is $4.00\textbackslash{} \textbackslash{}mathrm\{A\}\$.\par
+
+\clearpage
+\section*{Question 17}
+
+Find the power of all three elements and verify conservation of power.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/kvl-kcl-dependent-current.png}}\end{center}
+
+\begin{quote}\small\textit{Three parallel branches connect node V to reference: an independent $4\ \mathrm{A}$ source points upward, a $3\ \Omega$ resistor, and a dependent current source of $0.25V$ amperes points downward. Voltage V is measured from the top node to reference.}\end{quote}
+
+\subsection*{Solution}
+
+Using $V=48/7\ \mathrm{V}$, the independent source current enters its negative terminal, so $P_{4\mathrm{A}}=-(48/7)(4)=-192/7=-27.43\ \mathrm{W}$; it delivers. The resistor absorbs $P_R=V^2/3=768/49=15.67\ \mathrm{W}$. The dependent source current enters its positive terminal, so $P_d=V(0.25V)=576/49=11.76\ \mathrm{W}$ absorbed. The check is $768/49+576/49-192/7=0\ \mathrm{W}$.\par
+
+\clearpage
+\section*{Question 18}
+
+A student claims that current in the linking resistor is $0.500\ \mathrm{A}$ from B to A. Test the claim using KCL.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/kvl-kcl-two-node.png}}\end{center}
+
+\begin{quote}\small\textit{Nodes A and B share a $2\ \Omega$ resistor. A has a $4\ \Omega$ resistor to reference and a $3\ \mathrm{A}$ source pointing upward from reference. B has a $6\ \Omega$ resistor to reference and a $1\ \mathrm{A}$ source pointing upward from reference. The bottom wire is reference.}\end{quote}
+
+\subsection*{Solution}
+
+The node equations give $V_A=10\ \mathrm{V}$ and $V_B=9\ \mathrm{V}$. Defining link current from B to A gives $i_{BA}=(V_B-V_A)/2=-0.500\ \mathrm{A}$. Therefore the claim is false. The negative sign means the actual current is $0.500\ \mathrm{A}$ from A to B. At A, $3=10/4+0.5=3\ \mathrm{A}$, which confirms KCL.\par
+
+\clearpage
+\section*{Question 19}
+
+Without resolving the circuit, explain how reversing both mesh-current reference arrows changes the numerical answers and physical currents.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/kvl-kcl-two-mesh.png}}\end{center}
+
+\begin{quote}\small\textit{Two clockwise mesh currents are shown. The left loop has a $12\ \mathrm{V}$ source positive at the top and a top $2\ \Omega$ resistor. The right loop has a top $6\ \Omega$ resistor and a $6\ \mathrm{V}$ source positive at the top. A shared vertical $4\ \Omega$ resistor separates the loops; the bottom wire is common.}\end{quote}
+
+\subsection*{Solution}
+
+The original clockwise solutions are $i_1=24/11\ \mathrm{A}$ and $i_2=3/11\ \mathrm{A}$. Reversing both reference arrows defines $i_1'=-i_1$ and $i_2'=-i_2$. Thus $i_1'=-24/11\ \mathrm{A}$ and $i_2'=-3/11\ \mathrm{A}$. Only the reported signs change. The physical branch currents, voltage drops, and powers do not change.\par
+
+\clearpage
+\section*{Question 20}
+
+A voltmeter reads from R to L. Find its reading, then find the power absorbed by the resistor between L and R.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/kvl-kcl-bridge.png}}\end{center}
+
+\begin{quote}\small\textit{A $12\ \mathrm{V}$ source fixes the left top node. Along the top are $3\ \Omega$ to L, $4\ \Omega$ from L to R, and $6\ \Omega$ from R to the reference return. L also has $6\ \Omega$ to reference, and R has $3\ \Omega$ to reference.}\end{quote}
+
+\subsection*{Solution}
+
+Nodal analysis gives $V_L=7.00\ \mathrm{V}$ and $V_R=5.00\ \mathrm{V}$. A reading from R to L is $V_{RL}=V_R-V_L=-2.00\ \mathrm{V}$. The negative sign means L is $2.00\ \mathrm{V}$ above R. The resistor current is $(V_L-V_R)/4=0.500\ \mathrm{A}$ from L to R, so it absorbs $P=(0.500)^2(4)=1.00\ \mathrm{W}$.\par
+\end{document}

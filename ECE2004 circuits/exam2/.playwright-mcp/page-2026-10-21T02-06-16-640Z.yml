@@ -1,0 +1,268 @@
+- generic [active] [ref=f5e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=f5e2] [cursor=pointer]
+      - link "Accessibility help" [ref=f5e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+  - generic [ref=f5e8]:
+    - search [ref=f5e9]:
+      - generic [ref=f5e11]:
+        - link "Go to Google Home" [ref=f5e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=2ahUKEwieo4OJg8qXAxVftysGHZrNFvgQPHoECAYQBA
+        - generic [ref=f5e17]:
+          - combobox "Search" [ref=f5e19]: site:openstax.org/books Kirchhoff's Rules problems site:openstax.org/books Kirchhoff's Rules problems
+          - generic [ref=f5e20]:
+            - button "Clear" [ref=f5e24] [cursor=pointer]
+            - generic [ref=f5e29]:
+              - button "Search by voice" [ref=f5e32] [cursor=pointer]
+              - button "Search by image" [ref=f5e37] [cursor=pointer]
+    - generic [ref=f5e40]:
+      - button "Share" [ref=f5e41] [cursor=pointer]
+      - generic [ref=f5e47]:
+        - button "Google apps" [ref=f5e49] [cursor=pointer]
+        - 'button "Google Account: Pragun Damani (pd2752@nyu.edu)" [ref=f5e54] [cursor=pointer]'
+  - generic [ref=f5e57]:
+    - navigation [ref=f5e63]:
+      - generic [ref=f5e69]:
+        - list [ref=f5e70]:
+          - listitem [ref=f5e71]:
+            - link "AI Mode" [ref=f5e74] [cursor=pointer]:
+              - /url: /search?q=site:openstax.org/books+Kirchhoff%27s+Rules+problems&sca_esv=882e2611175d5c4b&sxsrf=APpeQnuD9b28tJEpjiNZ0WuNoeMfrdLI9w:1792548374901&udm=50&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqu7ocb7U6ah0xpkIrGMK4CuEddQ3ZmQozcvkgnTNQKj906-ORFIK2UR8msyEJBwjhiz7qxJUtvldK5JDG76zRkhLsiZ4-3c-0QRZWcwDnYa0IDBCxpafIAo4D3U9kWXFkMAdth2R-DeLDnQivkAYMTdjmo9isbeG0vydflzhz5DnnFZrp8_N4WuzlA1kH6qo7fQiNw&vsint=&aep=1&ntc=1&cs=1&sa=X&ved=2ahUKEwieo4OJg8qXAxVftysGHZrNFvgQ2J8OegQIFhAD
+          - listitem [ref=f5e78]:
+            - link "All" [disabled] [ref=f5e79]
+          - listitem [ref=f5e82]:
+            - link "Short videos" [ref=f5e83] [cursor=pointer]:
+              - /url: /search?sca_esv=882e2611175d5c4b&sxsrf=APpeQnuD9b28tJEpjiNZ0WuNoeMfrdLI9w:1792548374901&udm=39&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqu7ocb7U6ah0xpkIrGMK4CuEddQ3ZmQozcvkgnTNQKj906-ORFIK2UR8msyEJBwjhiz7qxJUtvldK5JDG76zRkhLsiZ4-3c-0QRZWcwDnYa0IDBCxpafIAo4D3U9kWXFkMAdth2R-DeLDnQivkAYMTdjmo9isbeG0vydflzhz5DnnFZrp8_N4WuzlA1kH6qo7fQiNw&q=site:openstax.org/books+Kirchhoff%27s+Rules+problems&sa=X&ved=2ahUKEwieo4OJg8qXAxVftysGHZrNFvgQs6gLegQIGBAB
+          - listitem [ref=f5e86]:
+            - link "Images" [ref=f5e87] [cursor=pointer]:
+              - /url: /search?sca_esv=882e2611175d5c4b&sxsrf=APpeQnuD9b28tJEpjiNZ0WuNoeMfrdLI9w:1792548374901&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqu7ocb7U6ah0xpkIrGMK4CuEddQ3ZmQozcvkgnTNQKj906-ORFIK2UR8msyEJBwjhiz7qxJUtvldK5JDG76zRkhLsiZ4-3c-0QRZWcwDnYa0IDBCxpafIAo4D3U9kWXFkMAdth2R-DeLDnQivkAYMTdjmo9isbeG0vydflzhz5DnnFZrp8_N4WuzlA1kH6qo7fQiNw&q=site:openstax.org/books+Kirchhoff%27s+Rules+problems&sa=X&ved=2ahUKEwieo4OJg8qXAxVftysGHZrNFvgQtKgLegQIGRAB
+          - listitem [ref=f5e90]:
+            - link "Videos" [ref=f5e91] [cursor=pointer]:
+              - /url: /search?sca_esv=882e2611175d5c4b&sxsrf=APpeQnuD9b28tJEpjiNZ0WuNoeMfrdLI9w:1792548374901&udm=vids&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqu7ocb7U6ah0xpkIrGMK4CuEddQ3ZmQozcvkgnTNQKj906-ORFIK2UR8msyEJBwjhiz7qxJUtvldK5JDG76zRkhLsiZ4-3c-0QRZWcwDnYa0IDBCxpafIAo4D3U9kWXFkMAdth2R-DeLDnQivkAYMTdjmo9isbeG0vydflzhz5DnnFZrp8_N4WuzlA1kH6qo7fQiNw&q=site:openstax.org/books+Kirchhoff%27s+Rules+problems&sa=X&ved=2ahUKEwieo4OJg8qXAxVftysGHZrNFvgQtKgLegQIGhAB
+          - listitem [ref=f5e94]:
+            - link "Forums" [ref=f5e95] [cursor=pointer]:
+              - /url: /search?sca_esv=882e2611175d5c4b&sxsrf=APpeQnuD9b28tJEpjiNZ0WuNoeMfrdLI9w:1792548374901&udm=forums&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqu7ocb7U6ah0xpkIrGMK4CuEddQ3ZmQozcvkgnTNQKj906-ORFIK2UR8msyEJBwjhiz7qxJUtvldK5JDG76zRkhLsiZ4-3c-0QRZWcwDnYa0IDBCxpafIAo4D3U9kWXFkMAdth2R-DeLDnQivkAYMTdjmo9isbeG0vydflzhz5DnnFZrp8_N4WuzlA1kH6qo7fQiNw&q=site:openstax.org/books+Kirchhoff%27s+Rules+problems&sa=X&ved=2ahUKEwieo4OJg8qXAxVftysGHZrNFvgQs6gLegQIGxAB
+          - listitem [ref=f5e98]:
+            - link "News" [ref=f5e99] [cursor=pointer]:
+              - /url: /search?sca_esv=882e2611175d5c4b&sxsrf=APpeQnuD9b28tJEpjiNZ0WuNoeMfrdLI9w:1792548374901&q=site:openstax.org/books+Kirchhoff%27s+Rules+problems&tbm=nws&source=lnms&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqu7ocb7U6ah0xpkIrGMK4CuEddQ3ZmQozcvkgnTNQKj906-ORFIK2UR8msyEJBwjhiz7qxJUtvldK5JDG76zRkhLsiZ4-3c-0QRZWcwDnYa0IDBCxpafIAo4D3U9kWXFkMAdth2R-DeLDnQivkAYMTdjmo9isbeG0vydflzhz5DnnFZrp8_N4WuzlA1kH6qo7fQiNw&sa=X&ved=2ahUKEwieo4OJg8qXAxVftysGHZrNFvgQ0pQJegQIHBAB
+          - listitem [ref=f5e102]:
+            - button [ref=f5e103] [cursor=pointer]:
+              - generic "More filters" [ref=f5e104]: More
+        - button "Tools" [ref=f5e111] [cursor=pointer]
+    - heading "Search Results" [level=1] [ref=f5e118]
+    - main [ref=f5e124]:
+      - generic [ref=f5e128]:
+        - generic [ref=f5e131]:
+          - heading "Web results" [level=2] [ref=f5e132]
+          - generic [ref=f5e133]:
+            - generic [ref=f5e136]:
+              - link "10.3 Kirchhoff's Rules - University Physics Volume 2 OpenStax https://openstax.org › pages › 10-3-kirchhoffs-rules" [ref=f5e138] [cursor=pointer]:
+                - /url: https://openstax.org/books/university-physics-volume-2/pages/10-3-kirchhoffs-rules
+                - heading "10.3 Kirchhoff's Rules - University Physics Volume 2" [level=3] [ref=f5e139]
+                - generic [ref=f5e145]:
+                  - generic [ref=f5e146]: OpenStax
+                  - generic [ref=f5e148]: https://openstax.org › pages › 10-3-kirchhoffs-rules
+              - button "About this result" [ref=f5e154] [cursor=pointer]
+            - generic [ref=f5e160]:
+              - generic [ref=f5e161]: Oct 6, 2016 —
+              - generic [ref=f5e162]:
+                - text: Each tim
+                - emphasis [ref=f5e163]: e
+                - text: a rule is applied, it produces an equation. If there are as many independent equations as unknowns, then the problem can be solved.
+              - link "Read more" [ref=f5e164] [cursor=pointer]:
+                - /url: https://openstax.org/books/university-physics-volume-2/pages/10-3-kirchhoffs-rules#:~:text=Each%20time%20a%20rule%20is,the%20problem%20can%20be%20solved.
+        - generic [ref=f5e168]:
+          - generic [ref=f5e171]:
+            - link "21.3 Kirchhoff's Rules - College Physics 2e OpenStax https://openstax.org › pages › 21-3-kirchhoffs-rules" [ref=f5e173] [cursor=pointer]:
+              - /url: https://openstax.org/books/college-physics-2e/pages/21-3-kirchhoffs-rules
+              - heading "21.3 Kirchhoff's Rules - College Physics 2e" [level=3] [ref=f5e174]
+              - generic [ref=f5e180]:
+                - generic [ref=f5e181]: OpenStax
+                - generic [ref=f5e183]: https://openstax.org › pages › 21-3-kirchhoffs-rules
+            - button "About this result" [ref=f5e189] [cursor=pointer]
+          - generic [ref=f5e195]:
+            - generic [ref=f5e196]: Jul 13, 2022 —
+            - generic [ref=f5e197]:
+              - emphasis [ref=f5e198]: Each time a rule is applied, an equation is produced
+              - text: . If there are as many independent equations as unknowns, then the problem can be solved.
+            - link "Read more" [ref=f5e199] [cursor=pointer]:
+              - /url: https://openstax.org/books/college-physics-2e/pages/21-3-kirchhoffs-rules#:~:text=Each%20time%20a%20rule%20is,the%20problem%20can%20be%20solved.
+        - generic [ref=f5e203]:
+          - generic [ref=f5e206]:
+            - link "Ch. 10 Conceptual Questions - University Physics Volume 2 OpenStax https://openstax.org › books › pages › 10-conceptual-q..." [ref=f5e208] [cursor=pointer]:
+              - /url: https://openstax.org/books/university-physics-volume-2/pages/10-conceptual-questions
+              - heading "Ch. 10 Conceptual Questions - University Physics Volume 2" [level=3] [ref=f5e209]
+              - generic [ref=f5e215]:
+                - generic [ref=f5e216]: OpenStax
+                - generic [ref=f5e218]: https://openstax.org › books › pages › 10-conceptual-q...
+            - button "About this result" [ref=f5e224] [cursor=pointer]
+          - generic [ref=f5e230]:
+            - generic [ref=f5e231]: Oct 6, 2016 —
+            - generic [ref=f5e232]:
+              - emphasis [ref=f5e233]: Kirchhoff's Rules
+              - text: . 8. Can all of the currents going into the junction shown below be positive? Explain. The figure shows a junction with ...
+            - link "Read more" [ref=f5e234] [cursor=pointer]:
+              - /url: https://openstax.org/books/university-physics-volume-2/pages/10-conceptual-questions#:~:text=10.3%20Kirchhoff's%20Rules,shown%20below%20be%20positive%3F%20Explain.
+        - generic [ref=f5e238]:
+          - generic [ref=f5e241]:
+            - link "Ch. 21 Test Prep for AP® Courses OpenStax https://openstax.org › college-physics-ap-courses › pages" [ref=f5e243] [cursor=pointer]:
+              - /url: https://openstax.org/books/college-physics-ap-courses/pages/21-test-prep-for-ap-r-courses
+              - heading "Ch. 21 Test Prep for AP® Courses" [level=3] [ref=f5e244]
+              - generic [ref=f5e250]:
+                - generic [ref=f5e251]: OpenStax
+                - generic [ref=f5e253]: https://openstax.org › college-physics-ap-courses › pages
+            - button "About this result" [ref=f5e259] [cursor=pointer]
+          - generic [ref=f5e265]:
+            - generic [ref=f5e266]: Aug 12, 2015 —
+            - generic [ref=f5e267]:
+              - text: At which three points should the currents be measured so that
+              - emphasis [ref=f5e268]: Kirchhoff's
+              - text: junction
+              - emphasis [ref=f5e269]: rule
+              - text: can be directly confirmed? Points b, c and d. Points d, ...
+            - link "Read more" [ref=f5e270] [cursor=pointer]:
+              - /url: https://openstax.org/books/college-physics-ap-courses/pages/21-test-prep-for-ap-r-courses#:~:text=At%20which%20three%20points%20should,Points%20d%2C%20e%20and%20f.
+        - generic [ref=f5e274]:
+          - generic [ref=f5e277]:
+            - link "Ch. 10 Problems - University Physics Volume 2 OpenStax https://openstax.org › books › pages › 10-problems" [ref=f5e279] [cursor=pointer]:
+              - /url: https://openstax.org/books/university-physics-volume-2/pages/10-problems
+              - heading "Ch. 10 Problems - University Physics Volume 2" [level=3] [ref=f5e280]
+              - generic [ref=f5e286]:
+                - generic [ref=f5e287]: OpenStax
+                - generic [ref=f5e289]: https://openstax.org › books › pages › 10-problems
+            - button "About this result" [ref=f5e295] [cursor=pointer]
+          - generic [ref=f5e301]:
+            - generic [ref=f5e302]: Oct 6, 2016 —
+            - generic [ref=f5e303]:
+              - emphasis [ref=f5e304]: 10.3 Kirchhoff's Rules
+              - text: . 36. Consider the circuit shown below. (a) Find the voltage across each resistor. (b)What is the power supplied to the ...
+            - link "Read more" [ref=f5e305] [cursor=pointer]:
+              - /url: https://openstax.org/books/university-physics-volume-2/pages/10-problems#:~:text=10.3%20Kirchhoff's%20Rules,or%20consumed%20by%20the%20circuit%3F
+        - generic [ref=f5e309]:
+          - generic [ref=f5e312]:
+            - link "Ch. 21 Problems & Exercises - College Physics 2e OpenStax https://openstax.org › books › pages › 21-problems-exe..." [ref=f5e314] [cursor=pointer]:
+              - /url: https://openstax.org/books/college-physics-2e/pages/21-problems-exercises
+              - heading "Ch. 21 Problems & Exercises - College Physics 2e" [level=3] [ref=f5e315]
+              - generic [ref=f5e321]:
+                - generic [ref=f5e322]: OpenStax
+                - generic [ref=f5e324]: https://openstax.org › books › pages › 21-problems-exe...
+            - button "About this result" [ref=f5e330] [cursor=pointer]
+          - generic [ref=f5e336]:
+            - generic [ref=f5e337]: Jul 13, 2022 —
+            - generic [ref=f5e338]:
+              - text: "21.3"
+              - emphasis [ref=f5e339]: Kirchhoff's Rules
+              - text: · 31. Apply the loop rule to loop abcdefgha in Figure 21.25. 32. Apply the loop rule to loop aedcba in Figure 21.25. 33 ...
+            - link "Read more" [ref=f5e340] [cursor=pointer]:
+              - /url: https://openstax.org/books/college-physics-2e/pages/21-problems-exercises#:~:text=21.3%20Kirchhoff's%20Rules,33.
+        - generic [ref=f5e344]:
+          - generic [ref=f5e347]:
+            - link "Ch. 21 Conceptual Questions - College Physics 2e OpenStax https://openstax.org › books › pages › 21-conceptual-q..." [ref=f5e349] [cursor=pointer]:
+              - /url: https://openstax.org/books/college-physics-2e/pages/21-conceptual-questions
+              - heading "Ch. 21 Conceptual Questions - College Physics 2e" [level=3] [ref=f5e350]
+              - generic [ref=f5e356]:
+                - generic [ref=f5e357]: OpenStax
+                - generic [ref=f5e359]: https://openstax.org › books › pages › 21-conceptual-q...
+            - button "About this result" [ref=f5e365] [cursor=pointer]
+          - generic [ref=f5e371]:
+            - generic [ref=f5e372]: Jul 13, 2022 —
+            - generic [ref=f5e373]:
+              - text: 21.3 Kirchhoff's Rules. 19.
+              - emphasis [ref=f5e374]: Can all of the currents going into the junction in Figure 21.44 be positive
+              - text: "? Explain. The diagram shows a T ..."
+            - link "Read more" [ref=f5e375] [cursor=pointer]:
+              - /url: https://openstax.org/books/college-physics-2e/pages/21-conceptual-questions#:~:text=21.3%20Kirchhoff's%20Rules,Figure%2021.44%20be%20positive%3F%20Explain.
+        - generic [ref=f5e379]:
+          - generic [ref=f5e382]:
+            - link "College Physics - Introduction to Circuits and DC Instruments OpenStax https://openstax.org › books › college-physics › pages" [ref=f5e384] [cursor=pointer]:
+              - /url: https://openstax.org/books/college-physics/pages/21-introduction-to-circuits-and-dc-instruments
+              - heading "College Physics - Introduction to Circuits and DC Instruments" [level=3] [ref=f5e385]
+              - generic [ref=f5e391]:
+                - generic [ref=f5e392]: OpenStax
+                - generic [ref=f5e394]: https://openstax.org › books › college-physics › pages
+            - button "About this result" [ref=f5e400] [cursor=pointer]
+          - generic [ref=f5e406]:
+            - generic [ref=f5e407]: Jun 21, 2012 —
+            - generic [ref=f5e408]:
+              - text: Problems & Exercises ...
+              - emphasis [ref=f5e409]: Analyze a complex circuit using Kirchhoff's rules
+              - text: ", using the conventions for determining the correct signs of various ..."
+            - link "Read more" [ref=f5e410] [cursor=pointer]:
+              - /url: https://openstax.org/books/college-physics/pages/21-introduction-to-circuits-and-dc-instruments#:~:text=We're%20unable%20to%20load%20Study&text=Analyze%20a%20complex%20circuit%20using,correct%20signs%20of%20various%20terms.
+        - generic [ref=f5e414]:
+          - generic [ref=f5e417]:
+            - link "10.2 Resistors in Series and Parallel OpenStax https://openstax.org › books › pages › 10-2-resistors-in-..." [ref=f5e419] [cursor=pointer]:
+              - /url: https://openstax.org/books/university-physics-volume-2/pages/10-2-resistors-in-series-and-parallel
+              - heading "10.2 Resistors in Series and Parallel" [level=3] [ref=f5e420]
+              - generic [ref=f5e426]:
+                - generic [ref=f5e427]: OpenStax
+                - generic [ref=f5e429]: https://openstax.org › books › pages › 10-2-resistors-in-...
+            - button "About this result" [ref=f5e435] [cursor=pointer]
+          - generic [ref=f5e441]:
+            - generic [ref=f5e442]: Oct 6, 2016 —
+            - generic [ref=f5e443]:
+              - emphasis [ref=f5e444]: ∑ I in = ∑ I out
+              - text: . This equation is referred to as Kirchhoff's junction rule and will be discussed in detail in the next section. In Figure ...
+            - link "Read more" [ref=f5e445] [cursor=pointer]:
+              - /url: https://openstax.org/books/university-physics-volume-2/pages/10-2-resistors-in-series-and-parallel#:~:text=%E2%88%91,10.14%2C%20the%20junction%20rule%20gives
+        - generic [ref=f5e449]:
+          - generic [ref=f5e452]:
+            - link "21.1 Resistors in Series and Parallel - College Physics 2e OpenStax https://openstax.org › books › pages › 21-1-resistors-in-..." [ref=f5e454] [cursor=pointer]:
+              - /url: https://openstax.org/books/college-physics-2e/pages/21-1-resistors-in-series-and-parallel
+              - heading "21.1 Resistors in Series and Parallel - College Physics 2e" [level=3] [ref=f5e455]
+              - generic [ref=f5e461]:
+                - generic [ref=f5e462]: OpenStax
+                - generic [ref=f5e464]: https://openstax.org › books › pages › 21-1-resistors-in-...
+            - button "About this result" [ref=f5e470] [cursor=pointer]
+          - generic [ref=f5e476]:
+            - generic [ref=f5e477]: Jul 13, 2022 —
+            - generic [ref=f5e478]:
+              - emphasis [ref=f5e479]: Draw a circuit with resistors in parallel and in series
+              - text: . Calculate the voltage drop of a current across a resistor using Ohm's law. Contrast the ...
+            - link "Read more" [ref=f5e480] [cursor=pointer]:
+              - /url: https://openstax.org/books/college-physics-2e/pages/21-1-resistors-in-series-and-parallel#:~:text=Draw%20a%20circuit%20with%20resistors,in%20series%20and%20in%20parallel.
+      - generic [ref=f5e482]:
+        - generic [ref=f5e487]:
+          - heading "People also search for" [level=2] [ref=f5e489]
+          - generic [ref=f5e491]:
+            - generic [ref=f5e492]:
+              - link "Kirchhoff's rules problems pdf" [ref=f5e496] [cursor=pointer]:
+                - /url: /search?sca_esv=882e2611175d5c4b&sxsrf=APpeQnuD9b28tJEpjiNZ0WuNoeMfrdLI9w:1792548374901&q=Kirchhoff%27s+rules+problems+pdf&sa=X&ved=2ahUKEwieo4OJg8qXAxVftysGHZrNFvgQ1QJ6BAg5EAE
+              - link "Kirchhoff's rules problems and solutions" [ref=f5e510] [cursor=pointer]:
+                - /url: /search?sca_esv=882e2611175d5c4b&sxsrf=APpeQnuD9b28tJEpjiNZ0WuNoeMfrdLI9w:1792548374901&q=Kirchhoff%27s+rules+problems+and+solutions&sa=X&ved=2ahUKEwieo4OJg8qXAxVftysGHZrNFvgQ1QJ6BAg7EAE
+            - link "Kirchhoff's rules problems 2022" [ref=f5e525] [cursor=pointer]:
+              - /url: /search?sca_esv=882e2611175d5c4b&sxsrf=APpeQnuD9b28tJEpjiNZ0WuNoeMfrdLI9w:1792548374901&q=Kirchhoff%27s+rules+problems+2022&sa=X&ved=2ahUKEwieo4OJg8qXAxVftysGHZrNFvgQ1QJ6BAg6EAE
+        - navigation [ref=f5e536]:
+          - heading "Page Navigation" [level=1] [ref=f5e537]
+          - text: "1"
+          - link "Page 2" [ref=f5e540] [cursor=pointer]:
+            - /url: /search?q=site:openstax.org/books+Kirchhoff's+Rules+problems&sca_esv=882e2611175d5c4b&sxsrf=APpeQnuD9b28tJEpjiNZ0WuNoeMfrdLI9w:1792548374901&ei=Fh7Yap7ANt_uruEPmpvbwA8&start=10&sa=N&sstk=AS6-VmLOqesl3CcUp5UfmsbJGPcBdFVwuengHQ7vlpCVNHbUZc2U6-BH53z8pua8pcHOBS-gL5uf8K9OAaHMxpHRQ9Od0ilPySmzEA&ved=2ahUKEwieo4OJg8qXAxVftysGHZrNFvgQ8tMDegQIMxAE
+            - text: "2"
+          - link "Page 3" [ref=f5e542] [cursor=pointer]:
+            - /url: /search?q=site:openstax.org/books+Kirchhoff's+Rules+problems&sca_esv=882e2611175d5c4b&sxsrf=APpeQnuD9b28tJEpjiNZ0WuNoeMfrdLI9w:1792548374901&ei=Fh7Yap7ANt_uruEPmpvbwA8&start=20&sa=N&sstk=AS6-VmLOqesl3CcUp5UfmsbJGPcBdFVwuengHQ7vlpCVNHbUZc2U6-BH53z8pua8pcHOBS-gL5uf8K9OAaHMxpHRQ9Od0ilPySmzEA&ved=2ahUKEwieo4OJg8qXAxVftysGHZrNFvgQ8tMDegQIMxAG
+            - text: "3"
+          - heading [level=2] [ref=f5e544]:
+            - link "Next" [ref=f5e545] [cursor=pointer]:
+              - /url: /search?q=site:openstax.org/books+Kirchhoff's+Rules+problems&sca_esv=882e2611175d5c4b&sxsrf=APpeQnuD9b28tJEpjiNZ0WuNoeMfrdLI9w:1792548374901&ei=Fh7Yap7ANt_uruEPmpvbwA8&start=10&sa=N&sstk=AS6-VmLOqesl3CcUp5UfmsbJGPcBdFVwuengHQ7vlpCVNHbUZc2U6-BH53z8pua8pcHOBS-gL5uf8K9OAaHMxpHRQ9Od0ilPySmzEA&ved=2ahUKEwieo4OJg8qXAxVftysGHZrNFvgQ8NMDegQIMxAI
+      - navigation
+    - contentinfo [ref=f5e548]:
+      - heading "Footer Links" [level=1] [ref=f5e549]
+      - generic [ref=f5e553]:
+        - generic [ref=f5e554]: Results are not personalized
+        - generic [ref=f5e561]:
+          - button "Bedford-Stuyvesant, New York - From your IP address" [ref=f5e563] [cursor=pointer]:
+            - generic [ref=f5e564]: Bedford-Stuyvesant, New York
+            - generic [ref=f5e566]:
+              - text: "-"
+              - generic [ref=f5e567]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=f5e569] [cursor=pointer]
+        - generic [ref=f5e572]:
+          - link "Help" [ref=f5e573] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=f5e574] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=f5e575] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=f5e576] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

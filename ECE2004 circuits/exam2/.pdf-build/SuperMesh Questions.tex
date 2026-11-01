@@ -1,0 +1,355 @@
+\documentclass[11pt]{article}
+\usepackage[margin=0.65in]{geometry}
+\usepackage{fontspec}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{microtype}
+\usepackage{xcolor}
+\setmainfont{DejaVu Sans}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.45em}
+\setlength{\emergencystretch}{3em}
+\pagestyle{plain}
+\begin{document}
+\begin{center}\LARGE\bfseries SuperMesh Questions\end{center}
+\vspace{0.5em}
+
+\clearpage
+\section*{Question 1}
+
+Recognize the constraint. Write the current-source constraint and the outer-loop KVL equation. Do not solve.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/SuperMesh-01.png}}\end{center}
+
+\begin{quote}\small\textit{Circuit A has clockwise mesh currents $I_1$ and $I_2$. The outer path contains a top-positive $18\ \text{V}$ source, $4\ \Omega$ left resistor, $5\ \Omega$ top-right resistor, $3\ \Omega$ right resistor, and top-positive $4\ \text{V}$ source. A shared $1\ \text{A}$ source points upward. The bottom node is reference; $v_s$ is positive at the shared source top.}\end{quote}
+
+\subsection*{Solution}
+
+Let both mesh currents be clockwise and sum voltage drops around the supermesh. In the shared branch, $I_2$ is upward and $I_1$ is downward: $I_2-I_1=1$\par
+
+The outer-loop equation is $4I_1+5I_2+3I_2+4-18=0$; $4I_1+8I_2=14$\par
+
+\clearpage
+\section*{Question 2}
+
+Solve a basic supermesh. Find both mesh currents and state their directions.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/SuperMesh-01.png}}\end{center}
+
+\begin{quote}\small\textit{Circuit A has clockwise mesh currents $I_1$ and $I_2$. The outer path contains a top-positive $18\ \text{V}$ source, $4\ \Omega$ left resistor, $5\ \Omega$ top-right resistor, $3\ \Omega$ right resistor, and top-positive $4\ \text{V}$ source. A shared $1\ \text{A}$ source points upward. The bottom node is reference; $v_s$ is positive at the shared source top.}\end{quote}
+
+\subsection*{Solution}
+
+Use the equations $I_2-I_1=1$; $4I_1+8I_2=14$\par
+
+Substitute $I_2=I_1+1$: $4I_1+8(I_1+1)=14$; $I_1=0.500\ \text{A},\qquad I_2=1.50\ \text{A}$\par
+
+Both values are positive, so both currents are clockwise.\par
+
+\clearpage
+\section*{Question 3}
+
+Find the shared-source voltage. Find the top-to-bottom voltage $v_s$ of the current source.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/SuperMesh-01.png}}\end{center}
+
+\begin{quote}\small\textit{Circuit A has clockwise mesh currents $I_1$ and $I_2$. The outer path contains a top-positive $18\ \text{V}$ source, $4\ \Omega$ left resistor, $5\ \Omega$ top-right resistor, $3\ \Omega$ right resistor, and top-positive $4\ \text{V}$ source. A shared $1\ \text{A}$ source points upward. The bottom node is reference; $v_s$ is positive at the shared source top.}\end{quote}
+
+\subsection*{Solution}
+
+From Question 2, $I_1=0.500\ \text{A}$. Traverse from reference through the left source and resistor: $v_s=18-4I_1$; $v_s=18-4(0.500)=16.0\ \text{V}$\par
+
+The current-source top is $16.0\ \text{V}$ above reference.\par
+
+\clearpage
+\section*{Question 4}
+
+Current-source power. Find the shared current source power and state absorbed or delivered.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/SuperMesh-01.png}}\end{center}
+
+\begin{quote}\small\textit{Circuit A has clockwise mesh currents $I_1$ and $I_2$. The outer path contains a top-positive $18\ \text{V}$ source, $4\ \Omega$ left resistor, $5\ \Omega$ top-right resistor, $3\ \Omega$ right resistor, and top-positive $4\ \text{V}$ source. A shared $1\ \text{A}$ source points upward. The bottom node is reference; $v_s$ is positive at the shared source top.}\end{quote}
+
+\subsection*{Solution}
+
+The source voltage is $v_s=16.0\ \text{V}$, positive at the top. Its $1\ \text{A}$ current enters the negative terminal, so $p_s=-v_s(1)=-16.0\ \text{W}$\par
+
+The source delivers $16.0\ \text{W}$.\par
+
+\clearpage
+\section*{Question 5}
+
+Interpret negative mesh currents. Find both mesh currents and give their actual directions.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/SuperMesh-02.png}}\end{center}
+
+\begin{quote}\small\textit{Circuit B has clockwise currents $I_1$ and $I_2$. The outer path contains top-positive sources of $5\ \text{V}$ and $14\ \text{V}$, with $2\ \Omega$, $3\ \Omega$, and $2\ \Omega$ resistors. The shared $1\ \text{A}$ source points upward. The bottom node is reference and $v_s$ is top-positive.}\end{quote}
+
+\subsection*{Solution}
+
+For the upward source, $I_2-I_1=1$\par
+
+Outer-loop KVL gives $2I_1+(3+2)I_2=5-14=-9$\par
+
+Substitute $I_2=I_1+1$: $2I_1+5(I_1+1)=-9$; $I_1=-2.00\ \text{A},\qquad I_2=-1.00\ \text{A}$\par
+
+Both actual currents are counterclockwise: $2.00\ \text{A}$ left and $1.00\ \text{A}$ right.\par
+
+\clearpage
+\section*{Question 6}
+
+Power with reversed actual current. Find $v_s$ and the shared-source power.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/SuperMesh-02.png}}\end{center}
+
+\begin{quote}\small\textit{Circuit B has clockwise currents $I_1$ and $I_2$. The outer path contains top-positive sources of $5\ \text{V}$ and $14\ \text{V}$, with $2\ \Omega$, $3\ \Omega$, and $2\ \Omega$ resistors. The shared $1\ \text{A}$ source points upward. The bottom node is reference and $v_s$ is top-positive.}\end{quote}
+
+\subsection*{Solution}
+
+Using $I_1=-2.00\ \text{A}$, $v_s=5-2I_1=5-2(-2)=9.00\ \text{V}$\par
+
+The $1\ \text{A}$ source current enters the negative terminal: $p_s=-v_s(1)=-9.00\ \text{W}$\par
+
+It delivers $9.00\ \text{W}$.\par
+
+\clearpage
+\section*{Question 7}
+
+Downward source constraint. Write the constraint, solve both currents, and state their directions.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/SuperMesh-03.png}}\end{center}
+
+\begin{quote}\small\textit{Circuit C has clockwise currents $I_1$ and $I_2$. The outer path contains top-positive $18\ \text{V}$ and $2\ \text{V}$ sources with $4\ \Omega$, $3\ \Omega$, and $2\ \Omega$ resistors. The shared $2\ \text{A}$ source points downward. The bottom node is reference and $v_s$ is top-positive.}\end{quote}
+
+\subsection*{Solution}
+
+The downward source direction reverses the constraint: $I_1-I_2=2$\par
+
+Outer-loop KVL is $4I_1+(3+2)I_2=18-2=16$\par
+
+With $I_1=I_2+2$, $4(I_2+2)+5I_2=16$; $I_2=0.889\ \text{A},\qquad I_1=2.89\ \text{A}$\par
+
+Both currents are clockwise.\par
+
+\clearpage
+\section*{Question 8}
+
+Power absorbed by a current source. Find the shared-source voltage and power.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/SuperMesh-03.png}}\end{center}
+
+\begin{quote}\small\textit{Circuit C has clockwise currents $I_1$ and $I_2$. The outer path contains top-positive $18\ \text{V}$ and $2\ \text{V}$ sources with $4\ \Omega$, $3\ \Omega$, and $2\ \Omega$ resistors. The shared $2\ \text{A}$ source points downward. The bottom node is reference and $v_s$ is top-positive.}\end{quote}
+
+\subsection*{Solution}
+
+From the left path, $v_s=18-4I_1=18-4(2.889)=6.44\ \text{V}$\par
+
+The $2\ \text{A}$ downward current enters the positive terminal: $p_s=v_s(2)=12.9\ \text{W}$\par
+
+The current source absorbs $12.9\ \text{W}$.\par
+
+\clearpage
+\section*{Question 9}
+
+Voltage-controlled source setup. Express the source constraint only in terms of $I_1$ and $I_2$.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/SuperMesh-04.png}}\end{center}
+
+\begin{quote}\small\textit{Circuit D has clockwise currents $I_1$ and $I_2$. Its outer path contains top-positive $20\ \text{V}$ and $4\ \text{V}$ sources and $5\ \Omega$, $4\ \Omega$, and $2\ \Omega$ resistors. The shared dependent source points upward and equals $0.20v_x\ \text{A}$; $v_x$ is positive left-to-right across the $5\ \Omega$ resistor. The bottom node is reference.}\end{quote}
+
+\subsection*{Solution}
+
+The controlling voltage uses the marked resistor polarity: $v_x=5I_1$\par
+
+The upward shared-source constraint is $I_2-I_1=0.20v_x$\par
+
+Therefore, $I_2-I_1=0.20(5I_1)=I_1$; $I_2=2I_1$\par
+
+\clearpage
+\section*{Question 10}
+
+Solve the dependent-source supermesh. Find both mesh currents.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/SuperMesh-04.png}}\end{center}
+
+\begin{quote}\small\textit{Circuit D has clockwise currents $I_1$ and $I_2$. Its outer path contains top-positive $20\ \text{V}$ and $4\ \text{V}$ sources and $5\ \Omega$, $4\ \Omega$, and $2\ \Omega$ resistors. The shared dependent source points upward and equals $0.20v_x\ \text{A}$; $v_x$ is positive left-to-right across the $5\ \Omega$ resistor. The bottom node is reference.}\end{quote}
+
+\subsection*{Solution}
+
+Use $I_2=2I_1$. Outer-loop KVL gives $5I_1+(4+2)I_2=20-4=16$; $5I_1+6(2I_1)=16$; $I_1=0.941\ \text{A},\qquad I_2=1.88\ \text{A}$\par
+
+Both currents are clockwise.\par
+
+\clearpage
+\section*{Question 11}
+
+Dependent-source voltage and power. Find the shared-source voltage and state whether it absorbs or delivers power.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/SuperMesh-04.png}}\end{center}
+
+\begin{quote}\small\textit{Circuit D has clockwise currents $I_1$ and $I_2$. Its outer path contains top-positive $20\ \text{V}$ and $4\ \text{V}$ sources and $5\ \Omega$, $4\ \Omega$, and $2\ \Omega$ resistors. The shared dependent source points upward and equals $0.20v_x\ \text{A}$; $v_x$ is positive left-to-right across the $5\ \Omega$ resistor. The bottom node is reference.}\end{quote}
+
+\subsection*{Solution}
+
+The source voltage is $v_s=20-5I_1=20-5(0.941)=15.3\ \text{V}$\par
+
+Its upward current is $0.20v_x=I_2-I_1=0.941\ \text{A}$\par
+
+The current enters the negative terminal: $p_s=-v_s(0.941)=-14.4\ \text{W}$\par
+
+The dependent source delivers $14.4\ \text{W}$.\par
+
+\clearpage
+\section*{Question 12}
+
+Current-controlled source. Find both mesh currents.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/SuperMesh-05.png}}\end{center}
+
+\begin{quote}\small\textit{Circuit E has clockwise currents $I_1$ and $I_2$. Its outer path contains a top-positive $18\ \text{V}$ source, a zero-volt source, and $3\ \Omega$, $4\ \Omega$, and $2\ \Omega$ resistors. The shared dependent source points upward and equals $0.50I_1$. The bottom node is reference and $v_s$ is top-positive.}\end{quote}
+
+\subsection*{Solution}
+
+The source constraint is $I_2-I_1=0.50I_1$; $I_2=1.50I_1$\par
+
+Outer-loop KVL gives $3I_1+(4+2)I_2=18$; $3I_1+6(1.50I_1)=18$; $I_1=1.50\ \text{A},\qquad I_2=2.25\ \text{A}$\par
+
+Both currents are clockwise.\par
+
+\clearpage
+\section*{Question 13}
+
+Check a dependent source value. Find the actual shared-branch current and verify it from the mesh currents.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/SuperMesh-05.png}}\end{center}
+
+\begin{quote}\small\textit{Circuit E has clockwise currents $I_1$ and $I_2$. Its outer path contains a top-positive $18\ \text{V}$ source, a zero-volt source, and $3\ \Omega$, $4\ \Omega$, and $2\ \Omega$ resistors. The shared dependent source points upward and equals $0.50I_1$. The bottom node is reference and $v_s$ is top-positive.}\end{quote}
+
+\subsection*{Solution}
+
+From the controlling relation, $i_s=0.50I_1=0.50(1.50)=0.750\ \text{A upward}$\par
+
+From the mesh currents, $i_s=I_2-I_1=2.25-1.50=0.750\ \text{A upward}$\par
+
+The two evaluations agree.\par
+
+\clearpage
+\section*{Question 14}
+
+Dependent-source power. Find $v_s$ and the power of the dependent source.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/SuperMesh-05.png}}\end{center}
+
+\begin{quote}\small\textit{Circuit E has clockwise currents $I_1$ and $I_2$. Its outer path contains a top-positive $18\ \text{V}$ source, a zero-volt source, and $3\ \Omega$, $4\ \Omega$, and $2\ \Omega$ resistors. The shared dependent source points upward and equals $0.50I_1$. The bottom node is reference and $v_s$ is top-positive.}\end{quote}
+
+\subsection*{Solution}
+
+From the left path, $v_s=18-3I_1=18-3(1.50)=13.5\ \text{V}$\par
+
+The upward current enters the negative terminal: $p_s=-v_s(0.750)=-(13.5)(0.750)=-10.1\ \text{W}$\par
+
+The dependent source delivers $10.1\ \text{W}$.\par
+
+\clearpage
+\section*{Question 15}
+
+Design a shared current source. Choose $J$ so that $I_2=3.00\ 	ext{A}$ clockwise. Find $I_1$ and $J$.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/SuperMesh-06.png}}\end{center}
+
+\begin{quote}\small\textit{Circuit F has clockwise currents $I_1$ and $I_2$. Its outer path contains top-positive $22\ \text{V}$ and $4\ \text{V}$ sources and $3\ \Omega$, $5\ \Omega$, and $2\ \Omega$ resistors. The shared unknown source $J$ points upward. The bottom node is reference and $v_s$ is top-positive.}\end{quote}
+
+\subsection*{Solution}
+
+Outer-loop KVL is $3I_1+(5+2)I_2=22-4=18$\par
+
+Substitute the target current: $3I_1+7(3.00)=18$; $I_1=-1.00\ \text{A}$\par
+
+For an upward shared source, $J=I_2-I_1=3.00-(-1.00)=4.00\ \text{A}$\par
+
+The left current is actually $1.00\ \text{A}$ counterclockwise.\par
+
+\clearpage
+\section*{Question 16}
+
+Power of a designed source. For the result of Question 15, find the shared source power.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/SuperMesh-06.png}}\end{center}
+
+\begin{quote}\small\textit{Circuit F has clockwise currents $I_1$ and $I_2$. Its outer path contains top-positive $22\ \text{V}$ and $4\ \text{V}$ sources and $3\ \Omega$, $5\ \Omega$, and $2\ \Omega$ resistors. The shared unknown source $J$ points upward. The bottom node is reference and $v_s$ is top-positive.}\end{quote}
+
+\subsection*{Solution}
+
+The top-to-bottom source voltage is $v_s=22-3I_1=22-3(-1.00)=25.0\ \text{V}$\par
+
+The $4.00\ \text{A}$ current points upward and enters the negative terminal: $p_s=-v_sJ=-(25.0)(4.00)=-100\ \text{W}$\par
+
+The source delivers $100\ \text{W}$.\par
+
+\clearpage
+\section*{Question 17}
+
+Reversed voltage-source polarity. Find both mesh currents. Account for the right source polarity.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/SuperMesh-07.png}}\end{center}
+
+\begin{quote}\small\textit{Circuit G has clockwise currents $I_1$ and $I_2$. Its outer path contains a top-positive $12\ \text{V}$ source, $4\ \Omega$, $2\ \Omega$, and $2\ \Omega$ resistors, then an $8\ \text{V}$ source positive at the bottom. The shared $1\ \text{A}$ source points upward. The bottom node is reference.}\end{quote}
+
+\subsection*{Solution}
+
+The right source is a rise when the outer loop is traversed downward. Thus, $I_2-I_1=1$; $4I_1+(2+2)I_2=12+8=20$\par
+
+With $I_2=I_1+1$, $4I_1+4(I_1+1)=20$; $I_1=2.00\ \text{A},\qquad I_2=3.00\ \text{A}$\par
+
+Both currents are clockwise.\par
+
+\clearpage
+\section*{Question 18}
+
+Resistor power distribution. Find the power absorbed by each resistor and their total.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/SuperMesh-07.png}}\end{center}
+
+\begin{quote}\small\textit{Circuit G has clockwise currents $I_1$ and $I_2$. Its outer path contains a top-positive $12\ \text{V}$ source, $4\ \Omega$, $2\ \Omega$, and $2\ \Omega$ resistors, then an $8\ \text{V}$ source positive at the bottom. The shared $1\ \text{A}$ source points upward. The bottom node is reference.}\end{quote}
+
+\subsection*{Solution}
+
+Using $I_1=2.00\ \text{A}$ and $I_2=3.00\ \text{A}$, $P_{4\Omega}=I_1^2(4)=(2.00)^2(4)=16.0\ \text{W}$; $P_{2\Omega,\text{top}}=I_2^2(2)=(3.00)^2(2)=18.0\ \text{W}$; $P_{2\Omega,\text{right}}=I_2^2(2)=18.0\ \text{W}$; $P_R=16.0+18.0+18.0=52.0\ \text{W absorbed}$\par
+
+\clearpage
+\section*{Question 19}
+
+Determine a dependent gain. A meter reports $I_1=1.00\ 	ext{A}$ clockwise. Find $I_2$ and the gain $k$.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/SuperMesh-08.png}}\end{center}
+
+\begin{quote}\small\textit{Circuit H has clockwise currents $I_1$ and $I_2$. Its outer path contains top-positive $20\ \text{V}$ and $2\ \text{V}$ sources and $5\ \Omega$, $3\ \Omega$, and $2\ \Omega$ resistors. The shared dependent source $kv_x$ points upward; $v_x$ is positive left-to-right across the $5\ \Omega$ resistor. The bottom node is reference.}\end{quote}
+
+\subsection*{Solution}
+
+Outer-loop KVL gives $5I_1+(3+2)I_2=20-2=18$; $5(1.00)+5I_2=18$; $I_2=2.60\ \text{A}$\par
+
+The control voltage and source current are $v_x=5I_1=5.00\ \text{V}$; $i_s=I_2-I_1=2.60-1.00=1.60\ \text{A}$\par
+
+Since $i_s=kv_x$, $k=\frac{1.60}{5.00}=0.320\ \text{A/V}=0.320\ \text{S}$\par
+
+\clearpage
+\section*{Question 20}
+
+Power-balance audit. Verify conservation of power for every element. Use positive power for absorption.\par
+
+\begin{center}\includegraphics[width=0.92\textwidth,height=0.43\textheight,keepaspectratio]{\detokenize{/home/paragon/notes/studies/ECE2004 circuits/exam2/images/SuperMesh-01.png}}\end{center}
+
+\begin{quote}\small\textit{Circuit A has clockwise mesh currents $I_1$ and $I_2$. The outer path contains a top-positive $18\ \text{V}$ source, $4\ \Omega$ left resistor, $5\ \Omega$ top-right resistor, $3\ \Omega$ right resistor, and top-positive $4\ \text{V}$ source. A shared $1\ \text{A}$ source points upward. The bottom node is reference; $v_s$ is positive at the shared source top.}\end{quote}
+
+\subsection*{Solution}
+
+From Questions 2 and 3, $I_1=0.500\ \text{A}$, $I_2=1.50\ \text{A}$, and $v_s=16.0\ \text{V}$. Resistor absorption is $P_R=4I_1^2+5I_2^2+3I_2^2$; $P_R=4(0.500)^2+8(1.50)^2=19.0\ \text{W}$\par
+
+The left source current leaves its positive terminal, the right source current enters its positive terminal, and the current-source current enters its negative terminal: $p_{18\text{V}}=-18I_1=-9.00\ \text{W}$; $p_{4\text{V}}=4I_2=6.00\ \text{W}$; $p_s=-v_s(1)=-16.0\ \text{W}$\par
+
+Therefore, $\sum p=19.0-9.00+6.00-16.0=0$\par
+
+Absorbed and delivered power balance.\par
+
+\end{document}

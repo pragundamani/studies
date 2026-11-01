@@ -1,0 +1,201 @@
+- generic [ref=f6e4]:
+  - banner [ref=f6e5]:
+    - generic [ref=f6e6]:
+      - link "Skip to content" [ref=f6e7] [cursor=pointer]:
+        - /url: ""
+      - link "Skip to navigation" [ref=f6e8] [cursor=pointer]:
+        - /url: ""
+    - generic [ref=f6e9]:
+      - generic [ref=f6e12]:
+        - generic [ref=f6e13]:
+          - paragraph [ref=f6e18]: Pragun
+          - button "Collapse Button" [ref=f6e21] [cursor=pointer]
+        - navigation [ref=f6e25]:
+          - generic [ref=f6e26]:
+            - list "Main Menu" [ref=f6e166]:
+              - listitem [ref=f6e167]:
+                - link "HOME" [ref=f6e169] [cursor=pointer]:
+                  - /url: https://www.cengage.com/dashboard/home
+              - listitem [ref=f6e173]:
+                - link "PROFILE" [ref=f6e175] [cursor=pointer]:
+                  - /url: https://account.cengage.com/profile/profile-data
+              - listitem [ref=f6e179]:
+                - link "ORDERS" [ref=f6e181] [cursor=pointer]:
+                  - /url: https://www.cengage.com/dashboard/my-orders
+              - listitem [ref=f6e185]:
+                - link "RENTALS" [ref=f6e187] [cursor=pointer]:
+                  - /url: https://www.cengage.com/dashboard/rentals
+              - listitem [ref=f6e191]:
+                - button "COURSES" [ref=f6e194] [cursor=pointer]
+            - list "Study tools and tips" [ref=f6e203]:
+              - listitem [ref=f6e204]:
+                - link "Study Tools" [ref=f6e206] [cursor=pointer]:
+                  - /url: https://www.cengage.com/dashboard/explore-catalog
+              - listitem [ref=f6e210]:
+                - link "College Success Tips" [ref=f6e212] [cursor=pointer]:
+                  - /url: https://www.cengage.com/dashboard/college-success
+              - listitem [ref=f6e216]:
+                - link "Career Success Tips" [ref=f6e218] [cursor=pointer]:
+                  - /url: https://www.cengage.com/dashboard/career-center
+            - list "Help" [ref=f6e223]:
+              - listitem [ref=f6e224]:
+                - link "Help" [ref=f6e226] [cursor=pointer]:
+                  - /url: https://cengageorg.my.site.com/Service/s/
+          - link "Sign Out" [ref=f6e29] [cursor=pointer]
+      - generic:
+        - banner
+    - generic [ref=f6e34]:
+      - generic [ref=f6e38]:
+        - button "Cengage WebAssign Homepage" [ref=f6e40] [cursor=pointer]:
+          - img "Cengage WebAssign Homepage" [ref=f6e41]
+        - generic [ref=f6e66]:
+          - button "Open Email Notification Settings modal" [ref=f6e67] [cursor=pointer]
+          - link "Open Help page in a new browser tab." [ref=f6e71] [cursor=pointer]:
+            - /url: https://help.cengage.com/webassign/student_guide/
+          - button "Interface language setting. Language set to English" [ref=f6e76] [cursor=pointer]:
+            - generic [ref=f6e79]: EN
+      - navigation "WebAssign" [ref=f6e85]:
+        - link "Home" [ref=f6e86]
+        - link "My Assignments" [ref=f6e87]
+        - link "Grades" [ref=f6e88]
+        - link "Communication" [ref=f6e89]
+        - link "Calendar" [ref=f6e90]
+        - button "My eBooks" [ref=f6e93]
+  - main [ref=f6e96]:
+    - generic [ref=f6e99]:
+      - generic [ref=f6e100]:
+        - 'generic "navigate back to PH-UY 2023: ELECTRICITY, MAGNETISM, & FLUIDS (F26), Fall 2026" [ref=f6e101] [cursor=pointer]': "PH-UY 2023: ELECTRICITY, MAGNETISM, & FLUIDS (F26), Fall 2026"
+        - heading "My Assignments" [level=1] [ref=f6e104]
+      - generic [ref=f6e106]:
+        - generic [ref=f6e110]:
+          - text: Instructor
+          - generic [ref=f6e111]: John Di Bartolo
+        - generic [ref=f6e112]: New York University
+    - generic [ref=f6e116]:
+      - generic "assignments tabs" [ref=f6e117]:
+        - tablist "assignments tabs, use the right and left arrow keys to activate other tabs" [ref=f6e119]:
+          - tab "Show Current Assignments" [ref=f6e230] [cursor=pointer]: Current Assignments
+          - tab "Show Past Assignments" [ref=f6e121] [cursor=pointer]: Past Assignments
+          - tab "Show All Assignments (selected)" [active] [selected] [ref=f6e231] [cursor=pointer]: All Assignments
+      - generic [ref=f6e232]:
+        - table [ref=f6e234]:
+          - rowgroup [ref=f6e235]:
+            - row [ref=f6e236]:
+              - columnheader "Current Assignments" [ref=f6e237]
+              - columnheader "Restrictions" [ref=f6e238]
+              - columnheader "Due Date" [ref=f6e239]
+              - columnheader "Score" [ref=f6e240]
+          - rowgroup [ref=f6e241]:
+            - row [ref=f6e242]:
+              - rowheader "PH-UY 2023 F26 HW07 (Homework)" [ref=f6e243]:
+                - generic [ref=f6e244]:
+                  - link "PH-UY 2023 F26 HW07" [ref=f6e245] [cursor=pointer]:
+                    - /url: /web/Student/Assignment-Responses/last?dep=41062865
+                  - generic [ref=f6e246]: (Homework)
+              - cell [ref=f6e247]
+              - cell "Friday, October 23, 2026 at 8:00 AM EDT" [ref=f6e248]
+              - cell "- / 75" [ref=f6e249]
+        - table [ref=f6e252]:
+          - rowgroup [ref=f6e253]:
+            - row [ref=f6e254]:
+              - columnheader "Past Assignments" [ref=f6e255]
+              - columnheader "Restrictions" [ref=f6e256]
+              - columnheader "Due Date" [ref=f6e257]
+              - columnheader "Score" [ref=f6e258]
+          - rowgroup [ref=f6e259]:
+            - row [ref=f6e260]:
+              - rowheader "PH-UY 2023 F26 HW01 (Homework) Open Request Extension in modal window Practice Another" [ref=f6e261]:
+                - generic [ref=f6e262]:
+                  - link "PH-UY 2023 F26 HW01" [ref=f6e263] [cursor=pointer]:
+                    - /url: /web/Student/Assignment-Responses/last?dep=40903680
+                  - generic [ref=f6e264]: (Homework)
+                - button "Open Request Extension in modal window" [ref=f6e265] [cursor=pointer]:
+                  - generic [ref=f6e268]: Request Extension
+                - generic [ref=f6e269]: Practice Another
+              - cell [ref=f6e272]
+              - cell "Friday, September 11, 2026 at 8:00 AM EDT" [ref=f6e273]
+              - cell "18 / 18 100.0%" [ref=f6e274]:
+                - generic [ref=f6e275]: 18 / 18
+                - text: 100.0%
+            - row [ref=f6e276]:
+              - rowheader "PH-UY 2023 F26 HW02 (Homework) Open Request Extension in modal window Practice Another" [ref=f6e277]:
+                - generic [ref=f6e278]:
+                  - link "PH-UY 2023 F26 HW02" [ref=f6e279] [cursor=pointer]:
+                    - /url: /web/Student/Assignment-Responses/last?dep=40935314
+                  - generic [ref=f6e280]: (Homework)
+                - button "Open Request Extension in modal window" [ref=f6e281] [cursor=pointer]:
+                  - generic [ref=f6e284]: Request Extension
+                - generic [ref=f6e285]: Practice Another
+              - cell [ref=f6e288]
+              - cell "Friday, September 18, 2026 at 8:00 AM EDT" [ref=f6e289]
+              - cell "31 / 31 100.0%" [ref=f6e290]:
+                - generic [ref=f6e291]: 31 / 31
+                - text: 100.0%
+            - row [ref=f6e292]:
+              - rowheader "PH-UY 2023 F26 HW03 (Homework) Open Request Extension in modal window Practice Another" [ref=f6e293]:
+                - generic [ref=f6e294]:
+                  - link "PH-UY 2023 F26 HW03" [ref=f6e295] [cursor=pointer]:
+                    - /url: /web/Student/Assignment-Responses/last?dep=40968690
+                  - generic [ref=f6e296]: (Homework)
+                - button "Open Request Extension in modal window" [ref=f6e297] [cursor=pointer]:
+                  - generic [ref=f6e300]: Request Extension
+                - generic [ref=f6e301]: Practice Another
+              - cell [ref=f6e304]
+              - cell "Friday, September 25, 2026 at 8:00 AM EDT" [ref=f6e305]
+              - cell "33 / 33 100.0%" [ref=f6e306]:
+                - generic [ref=f6e307]: 33 / 33
+                - text: 100.0%
+            - row [ref=f6e308]:
+              - rowheader "PH-UY 2023 F26 HW04 (Homework) Open Request Extension in modal window Practice Another" [ref=f6e309]:
+                - generic [ref=f6e310]:
+                  - link "PH-UY 2023 F26 HW04" [ref=f6e311] [cursor=pointer]:
+                    - /url: /web/Student/Assignment-Responses/last?dep=40990873
+                  - generic [ref=f6e312]: (Homework)
+                - button "Open Request Extension in modal window" [ref=f6e313] [cursor=pointer]:
+                  - generic [ref=f6e316]: Request Extension
+                - generic [ref=f6e317]: Practice Another
+              - cell [ref=f6e320]
+              - cell "Friday, October 2, 2026 at 8:00 AM EDT" [ref=f6e321]
+              - cell "65 / 65 100.0%" [ref=f6e322]:
+                - generic [ref=f6e323]: 65 / 65
+                - text: 100.0%
+            - row [ref=f6e324]:
+              - rowheader "PH-UY 2023 F26 HW05 (Homework) Open Request Extension in modal window Practice Another" [ref=f6e325]:
+                - generic [ref=f6e326]:
+                  - link "PH-UY 2023 F26 HW05" [ref=f6e327] [cursor=pointer]:
+                    - /url: /web/Student/Assignment-Responses/last?dep=41018042
+                  - generic [ref=f6e328]: (Homework)
+                - button "Open Request Extension in modal window" [ref=f6e329] [cursor=pointer]:
+                  - generic [ref=f6e332]: Request Extension
+                - generic [ref=f6e333]: Practice Another
+              - cell [ref=f6e336]
+              - cell "Friday, October 9, 2026 at 8:00 AM EDT" [ref=f6e337]
+              - cell "38 / 38 100.0%" [ref=f6e338]:
+                - generic [ref=f6e339]: 38 / 38
+                - text: 100.0%
+            - row [ref=f6e340]:
+              - rowheader "PH-UY 2023 F26 HW06 (Homework) Open Request Extension in modal window Practice Another" [ref=f6e341]:
+                - generic [ref=f6e342]:
+                  - link "PH-UY 2023 F26 HW06" [ref=f6e343] [cursor=pointer]:
+                    - /url: /web/Student/Assignment-Responses/last?dep=41038509
+                  - generic [ref=f6e344]: (Homework)
+                - button "Open Request Extension in modal window" [ref=f6e345] [cursor=pointer]:
+                  - generic [ref=f6e348]: Request Extension
+                - generic [ref=f6e349]: Practice Another
+              - cell [ref=f6e352]
+              - cell "Friday, October 16, 2026 at 8:00 AM EDT" [ref=f6e353]
+              - cell "48 / 48 100.0%" [ref=f6e354]:
+                - generic [ref=f6e355]: 48 / 48
+                - text: 100.0%
+  - contentinfo [ref=f6e144]:
+    - generic [ref=f6e145]:
+      - generic [ref=f6e146]: Copyright © 1998 - 2026 Cengage Learning, Inc. All Rights Reserved
+      - list [ref=f6e147]:
+        - listitem [ref=f6e148]:
+          - link "Open in a new tab. Terms of use" [ref=f6e149] [cursor=pointer]:
+            - /url: https://www.cengage.com/legal/#terms
+            - text: Terms of use
+        - listitem [ref=f6e150]:
+          - link "Open in a new tab. Privacy" [ref=f6e151] [cursor=pointer]:
+            - /url: https://www.cengage.com/privacy/
+            - text: Privacy

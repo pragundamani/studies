@@ -1,0 +1,738 @@
+- generic [ref=f36e1]:
+  - generic [ref=f36e3]:
+    - generic [ref=f36e4]:
+      - link "Skip to content" [ref=f36e5] [cursor=pointer]:
+        - /url: ""
+      - link "Skip to navigation" [ref=f36e6] [cursor=pointer]:
+        - /url: ""
+    - generic [ref=f36e7]:
+      - banner [ref=f36e8]:
+        - generic [ref=f36e10]:
+          - button "Cengage WebAssign Homepage" [ref=f36e12] [cursor=pointer]:
+            - img "Cengage WebAssign Homepage" [ref=f36e13]
+          - generic [ref=f36e34]:
+            - generic [ref=f36e35]:
+              - link "My Cengage Home" [ref=f36e36] [cursor=pointer]:
+                - /url: https://www.cengage.com/dashboard/
+              - button "Open Email Notification Settings modal" [ref=f36e41] [cursor=pointer]
+              - link "Open Help page in a new browser tab." [ref=f36e45] [cursor=pointer]:
+                - /url: https://help.cengage.com/webassign/student_guide/
+              - link "Open My Account in a new browser tab." [ref=f36e49] [cursor=pointer]:
+                - /url: /web/User/Cengage/my_account
+              - button "Interface language setting. Language set to English" [ref=f36e54] [cursor=pointer]:
+                - generic [ref=f36e57]: EN
+            - generic [ref=f36e61]:
+              - generic [ref=f36e62]: pd2752@nyu.edu
+              - button "Sign out" [ref=f36e63] [cursor=pointer]
+        - navigation "WebAssign" [ref=f36e66]:
+          - link "Home" [ref=f36e67]
+          - link "My Assignments" [ref=f36e68]
+          - link "Grades" [ref=f36e69]
+          - link "Communication" [ref=f36e70]
+          - link "Calendar" [ref=f36e71]
+          - button "My eBooks" [ref=f36e74]
+      - main [ref=f36e77]:
+        - generic [ref=f36e78]:
+          - generic [ref=f36e79]:
+            - generic [ref=f36e81]:
+              - generic [ref=f36e82]:
+                - 'link "navigate back to MA-UY 2314: Discrete Mathematics, Fall 2026, Fall 2026" [ref=f36e84] [cursor=pointer]':
+                  - /url: /v4cgi/student.pl?course=1319576,1715067
+                  - text: "MA-UY 2314: Discrete Mathematics, Fall 2026, Fall 2026"
+                - 'heading "4.8 Indirect Argument: Two Famous Theorems (Homework)" [level=1] [ref=f36e87]'
+              - generic [ref=f36e90]:
+                - generic [ref=f36e94]:
+                  - text: Instructor
+                  - generic [ref=f36e95]: Ken Cereste
+                - generic [ref=f36e96]: New York University
+            - generic [ref=f36e99]:
+              - generic [ref=f36e100]:
+                - generic [ref=f36e101]:
+                  - generic [ref=f36e102]:
+                    - generic [ref=f36e103]: "Due Date: Thursday, October 29, 2026 at 11:59 PM EDT"
+                    - generic [aria-hidden] [ref=f36e104]: "Due Date:"
+                    - generic [aria-hidden] [ref=f36e105]: Thu, Oct 29, 2026 11:59 PM EDT
+                  - generic [ref=f36e106]:
+                    - generic [ref=f36e107]: "Current Score: 100 / 100 Points 100.0%"
+                    - generic [aria-hidden] [ref=f36e108]: "Current Score:"
+                    - generic [aria-hidden] [ref=f36e109]: 100 / 100 Points | 100.0 %
+                - generic [ref=f36e110]:
+                  - button "Open Request Extension in modal window" [ref=f36e111] [cursor=pointer]:
+                    - generic [ref=f36e112]: Request Extension
+                  - button "Print assignment" [ref=f36e116] [cursor=pointer]:
+                    - generic [ref=f36e117]: Print Assignment
+              - generic [ref=f36e123]:
+                - heading [level=2] [ref=f36e124]:
+                  - button "Scoring and Assignment Information" [expanded] [ref=f36e125] [cursor=pointer]
+                - generic "Scoring and Assignment Information" [ref=f36e132]:
+                  - generic [ref=f36e133]:
+                    - table [ref=f36e136]:
+                      - rowgroup [ref=f36e137]:
+                        - row [ref=f36e138]:
+                          - rowheader "Question" [ref=f36e139]
+                          - columnheader [ref=f36e140]:
+                            - link "Question 1 of 4," [ref=f36e141] [cursor=pointer]:
+                              - /url: "#Q1"
+                              - generic [ref=f36e142]: "1"
+                          - columnheader [ref=f36e144]:
+                            - link "Question 2 of 4," [ref=f36e145] [cursor=pointer]:
+                              - /url: "#Q2"
+                              - generic [ref=f36e146]: "2"
+                          - columnheader [ref=f36e148]:
+                            - link "Question 3 of 4," [ref=f36e149] [cursor=pointer]:
+                              - /url: "#Q3"
+                              - generic [ref=f36e150]: "3"
+                          - columnheader [ref=f36e152]:
+                            - link "Question 4 of 4," [ref=f36e153] [cursor=pointer]:
+                              - /url: "#Q4"
+                              - generic [ref=f36e154]: "4"
+                        - row [ref=f36e156]:
+                          - rowheader "Points" [ref=f36e157]
+                          - cell [ref=f36e158]:
+                            - link "Question 1 out of 4, correct, your score is 25 out of 25" [ref=f36e159] [cursor=pointer]:
+                              - /url: "#Q1"
+                              - generic [ref=f36e160]: 25 / 25
+                          - cell [ref=f36e161]:
+                            - link "Question 2 out of 4, correct, your score is 25 out of 25" [ref=f36e162] [cursor=pointer]:
+                              - /url: "#Q2"
+                              - generic [ref=f36e163]: 25 / 25
+                          - cell [ref=f36e164]:
+                            - link "Question 3 out of 4, correct, your score is 25 out of 25" [ref=f36e165] [cursor=pointer]:
+                              - /url: "#Q3"
+                              - generic [ref=f36e166]: 25 / 25
+                          - cell [ref=f36e167]:
+                            - link "Question 4 out of 4, correct, your score is 25 out of 25" [ref=f36e168] [cursor=pointer]:
+                              - /url: "#Q4"
+                              - generic [ref=f36e169]: 25 / 25
+                    - generic [ref=f36e170]:
+                      - heading "Assignment Submission" [level=3] [ref=f36e171]
+                      - paragraph [ref=f36e172]: For this assignment, you submit answers by question parts. The number of submissions remaining for each question part only changes if you submit or change the answer.
+                      - heading "Assignment Scoring" [level=3] [ref=f36e173]
+                      - paragraph [ref=f36e174]: Your last submission is used for your score.
+            - generic [ref=f36e175]:
+              - region "Banner for question 1" [ref=f36e178]:
+                - generic [ref=f36e179]:
+                  - heading "Question 1" [level=2] [ref=f36e181]: "1."
+                  - strong [ref=f36e182]: "[25 / 25 Points]"
+                - generic [ref=f36e183]:
+                  - button "Details for question 1." [ref=f36e184] [cursor=pointer]:
+                    - generic [ref=f36e185]: Details
+                  - button "My Notes For question 1" [ref=f36e188] [cursor=pointer]:
+                    - generic [ref=f36e189]: My Notes
+                  - button "Previous Answers for question 1" [ref=f36e190] [cursor=pointer]:
+                    - generic [ref=f36e191]: Previous Answers
+              - generic [ref=f36e192]:
+                - generic [ref=f36e194]:
+                  - generic [ref=f36e195]: EppDiscMath5 4.8.007.
+                  - region [ref=f36e196]:
+                    - strong [ref=f36e197]: Problem 1
+                    - generic [ref=f36e198]: Consider the following statement.
+                    - group [ref=f36e199]: is irrational.
+                    - generic [ref=f36e200]: This statement is true, but the following proposed proof by contradiction is incorrect.
+                    - region "information box" [ref=f36e201]:
+                      - strong [ref=f36e203]: "Proposed proof:"
+                      - generic [ref=f36e204]: Suppose not. That is, suppose is rational.
+                      - generic [ref=f36e205]:
+                        - text: By definition of rational, there exist real numbers
+                        - emphasis [ref=f36e206]: a
+                        - text: and
+                        - emphasis [ref=f36e207]: b
+                        - text: with and
+                        - generic [ref=f36e208]: .
+                      - generic [ref=f36e209]: Using algebra to solve for gives
+                      - group [ref=f36e210]:
+                        - generic [ref=f36e211]: ;
+                        - text: and so
+                        - generic [ref=f36e212]: .
+                      - generic [ref=f36e213]:
+                        - text: But and are real numbers and
+                        - generic [ref=f36e214]: .
+                      - generic [ref=f36e215]: Therefore, by definition of rational, is rational.
+                      - generic [ref=f36e216]: This contradicts Theorem 4.7.1, which states that is irrational. Hence the supposition is false.
+                    - generic [ref=f36e217]:
+                      - group "Identify the errors in the proposed proof. (Select all that apply.)" [ref=f36e218]:
+                        - generic [ref=f36e220]:
+                          - checkbox "The square root of 2 is rational, so there is no contradiction." [ref=f36e221]
+                          - generic [ref=f36e222]: The square root of 2 is rational, so there is no contradiction.
+                        - generic [ref=f36e223]:
+                          - checkbox "The statement to be proved is assumed." [ref=f36e224]
+                          - generic [ref=f36e225]: The statement to be proved is assumed.
+                        - generic [ref=f36e226]:
+                          - checkbox "For a proof by contradiction you should suppose that is irrational." [ref=f36e227]
+                          - generic [ref=f36e228]: For a proof by contradiction you should suppose that is irrational.
+                        - generic [ref=f36e229]:
+                          - checkbox "There is an error in the algebra solving for ." [ref=f36e230]
+                          - generic [ref=f36e231]:
+                            - text: There is an error in the algebra solving for
+                            - generic [ref=f36e232]: .
+                        - generic [ref=f36e233]:
+                          - checkbox "To apply the definition of rational, a and b must be integers." [checked] [ref=f36e234]
+                          - generic [ref=f36e235]:
+                            - text: To apply the definition of rational,
+                            - emphasis [ref=f36e236]: a
+                            - text: and
+                            - emphasis [ref=f36e237]: b
+                            - text: must be integers.
+                      - 'img "Correct: Your answer is correct." [ref=f36e241]'
+                  - generic "Resource box" [ref=f36e245]:
+                    - generic [ref=f36e246]:
+                      - generic [ref=f36e247]: Resources
+                      - generic [ref=f36e248]:
+                        - paragraph [ref=f36e249]:
+                          - link "Read It (opens in a new tab)" [ref=f36e250] [cursor=pointer]:
+                            - /url: "#"
+                            - text: Read It
+                        - button "Ask Student Assistant for question 1" [ref=f36e251] [cursor=pointer]: Student Assistant
+                - button "Submit Answer" [ref=f36e254] [cursor=pointer]
+            - generic [ref=f36e255]:
+              - region "Banner for question 2" [ref=f36e258]:
+                - generic [ref=f36e259]:
+                  - heading "Question 2" [level=2] [ref=f36e261]: "2."
+                  - strong [ref=f36e262]: "[25 / 25 Points]"
+                - generic [ref=f36e263]:
+                  - button "Details for question 2." [ref=f36e264] [cursor=pointer]:
+                    - generic [ref=f36e265]: Details
+                  - button "My Notes For question 2" [ref=f36e268] [cursor=pointer]:
+                    - generic [ref=f36e269]: My Notes
+                  - button "Previous Answers for question 2" [ref=f36e270] [cursor=pointer]:
+                    - generic [ref=f36e271]: Previous Answers
+              - generic [ref=f36e272]:
+                - generic [ref=f36e274]:
+                  - generic [ref=f36e275]: EppDiscMath5 4.8.013.
+                  - region [ref=f36e276]:
+                    - strong [ref=f36e277]: Problem 2
+                    - region "introduction" [ref=f36e278]:
+                      - generic [ref=f36e279]: Consider the following statement.
+                      - group [ref=f36e280]:
+                        - text: If
+                        - emphasis [ref=f36e281]: r
+                        - text: is any rational number and
+                        - emphasis [ref=f36e282]: s
+                        - text: is any irrational number, then is irrational.
+                    - region "(a)" [ref=f36e283]:
+                      - generic [ref=f36e284]:
+                        - generic [ref=f36e285]: (a)
+                        - group "Which of the following is a negation for the statement?" [ref=f36e288]:
+                          - generic [ref=f36e290]:
+                            - radio "." [ref=f36e291]
+                            - generic [ref=f36e292]: .
+                          - generic [ref=f36e294]:
+                            - radio "." [ref=f36e295]
+                            - generic [ref=f36e296]: .
+                          - generic [ref=f36e298]:
+                            - radio "." [ref=f36e299]
+                            - generic [ref=f36e300]: .
+                          - generic [ref=f36e302]:
+                            - radio "." [checked] [ref=f36e303]
+                            - generic [ref=f36e304]: .
+                            - 'img "Correct: Your answer is correct." [ref=f36e309]'
+                    - region "(b)" [ref=f36e310]:
+                      - generic [ref=f36e311]:
+                        - generic [ref=f36e312]: (b)
+                        - generic [ref=f36e313]:
+                          - generic [ref=f36e314]:
+                            - text: What are some values of
+                            - emphasis [ref=f36e315]: r
+                            - text: and
+                            - emphasis [ref=f36e316]: s
+                            - text: for which the given statement is false (that is, for which its negation is true)?
+                          - generic [ref=f36e317]:
+                            - generic [ref=f36e319]:
+                              - generic [ref=f36e320]:
+                                - button [ref=f36e321]:
+                                  - math [ref=f36e324]:
+                                    - generic [ref=f36e325]: "0"
+                                    - generic [ref=f36e326]: ","
+                                    - generic [ref=f36e327]: s
+                                    - generic [ref=f36e328]: q
+                                    - generic [ref=f36e329]: r
+                                    - generic [ref=f36e330]: t
+                                    - generic [ref=f36e331]: (
+                                    - generic [ref=f36e332]: "2"
+                                    - generic [ref=f36e333]: )
+                                - button "Open full math pad" [ref=f36e334] [cursor=pointer]
+                              - generic [ref=f36e336]: Press Space or Enter to edit this math answer.
+                            - 'img "Correct: Your answer is correct." [ref=f36e341]'
+                  - generic "Resource box" [ref=f36e345]:
+                    - generic [ref=f36e346]:
+                      - generic [ref=f36e347]: Resources
+                      - generic [ref=f36e348]:
+                        - paragraph [ref=f36e349]:
+                          - link "Read It (opens in a new tab)" [ref=f36e350] [cursor=pointer]:
+                            - /url: "#"
+                            - text: Read It
+                        - button "Ask Student Assistant for question 2" [ref=f36e351] [cursor=pointer]: Student Assistant
+                - button "Submit Answer" [ref=f36e354] [cursor=pointer]
+            - generic [ref=f36e355]:
+              - region "Banner for question 3" [ref=f36e358]:
+                - generic [ref=f36e359]:
+                  - heading "Question 3" [level=2] [ref=f36e361]: "3."
+                  - strong [ref=f36e362]: "[25 / 25 Points]"
+                - generic [ref=f36e363]:
+                  - button "Details for question 3." [ref=f36e364] [cursor=pointer]:
+                    - generic [ref=f36e365]: Details
+                  - button "My Notes For question 3" [ref=f36e368] [cursor=pointer]:
+                    - generic [ref=f36e369]: My Notes
+                  - button "Previous Answers for question 3" [ref=f36e370] [cursor=pointer]:
+                    - generic [ref=f36e371]: Previous Answers
+              - generic [ref=f36e372]:
+                - generic [ref=f36e374]:
+                  - generic [ref=f36e375]: EppDiscMath5 4.8.025.
+                  - region [ref=f36e376]:
+                    - strong [ref=f36e377]: Problem 3
+                    - generic [ref=f36e378]: Consider the following statement.
+                    - group [ref=f36e379]:
+                      - text: If
+                      - emphasis [ref=f36e380]: "n"
+                      - text: is any positive integer that is not a perfect square, then is irrational.
+                    - generic [ref=f36e381]: Fill in the blanks in the following proof of the statement.
+                    - generic [ref=f36e382]:
+                      - strong [ref=f36e383]: Proof
+                      - text: ":"
+                    - list [ref=f36e384]:
+                      - listitem [ref=f36e385]:
+                        - group "Read and complete the following." [ref=f36e387]:
+                          - generic [ref=f36e389]:
+                            - text: Suppose not. That is, suppose
+                            - generic: Select your first answer in step 1.
+                            - combobox "Select your first answer in step 1." [ref=f36e391] [cursor=pointer]:
+                              - option "Select"
+                              - option "there exists a" [selected]
+                              - option "for every"
+                            - 'img "Correct: Your answer is correct." [ref=f36e395]'
+                            - text: positive integer
+                            - emphasis [ref=f36e396]: "n"
+                            - text: such that
+                            - emphasis [ref=f36e397]: "n"
+                            - generic: Select your second answer in step 1.
+                            - combobox "Select your second answer in step 1." [ref=f36e399] [cursor=pointer]:
+                              - option "Select"
+                              - option "is"
+                              - option "is not" [selected]
+                            - 'img "Correct: Your answer is correct." [ref=f36e403]'
+                            - text: a perfect square and is
+                            - generic [ref=f36e404]:
+                              - generic: Select your third answer in step 1.
+                              - combobox "Select your third answer in step 1." [ref=f36e406] [cursor=pointer]:
+                                - option "Select"
+                                - option "rational" [selected]
+                                - option "irrational"
+                              - 'img "Correct: Your answer is correct." [ref=f36e410]'
+                              - text: .
+                      - listitem [ref=f36e411]:
+                        - group "Read and complete the following." [ref=f36e413]:
+                          - generic [ref=f36e415]:
+                            - text: By definition of
+                            - generic: Select your first answer in step 2.
+                            - combobox "Select your first answer in step 2." [ref=f36e417] [cursor=pointer]:
+                              - option "Select"
+                              - option "rational" [selected]
+                              - option "irrational"
+                            - 'img "Correct: Your answer is correct." [ref=f36e421]'
+                            - text: there exist integers
+                            - emphasis [ref=f36e422]: a
+                            - text: and
+                            - emphasis [ref=f36e423]: b
+                            - text: such that
+                            - generic: Select your second answer in step 2.
+                            - combobox "Select your second answer in step 2." [ref=f36e425] [cursor=pointer]:
+                              - option "Select"
+                              - option "=" [selected]
+                              - option
+                            - 'img "Correct: Your answer is correct." [ref=f36e429]'
+                            - text: and
+                            - generic: Select your third answer in step 2.
+                            - combobox "Select your third answer in step 2." [ref=f36e431] [cursor=pointer]:
+                              - option "Select"
+                              - option "= 0"
+                              - option "0" [selected]
+                              - option "= 1"
+                            - 'img "Correct: Your answer is correct." [ref=f36e435]'
+                            - text: .
+                      - listitem [ref=f36e436]:
+                        - generic [ref=f36e437]:
+                          - text: By dividing
+                          - emphasis [ref=f36e438]: a
+                          - text: and
+                          - emphasis [ref=f36e439]: b
+                          - text: by all their common divisors if necessary, we may assume without loss of generality that
+                          - emphasis [ref=f36e440]: a
+                          - text: and
+                          - emphasis [ref=f36e441]: b
+                          - text: have no common divisor.
+                        - group "Read and complete the following." [ref=f36e443]:
+                          - generic [ref=f36e445]:
+                            - text: Squaring both sides of
+                            - generic: Select your first answer in step 3.
+                            - combobox "Select your first answer in step 3." [ref=f36e447] [cursor=pointer]:
+                              - option "Select"
+                              - option "=" [selected]
+                              - option
+                            - 'img "Correct: Your answer is correct." [ref=f36e451]'
+                            - text: gives
+                            - generic: Select your second answer in step 3.
+                            - combobox "Select your second answer in step 3." [ref=f36e453] [cursor=pointer]:
+                              - option "Select"
+                              - option "=" [selected]
+                              - option
+                            - 'img "Correct: Your answer is correct." [ref=f36e457]'
+                            - generic [ref=f36e458]: ","
+                            - text: and multiplying by gives
+                            - generic: Select your third answer in step 3.
+                            - combobox "Select your third answer in step 3." [ref=f36e460] [cursor=pointer]:
+                              - option "Select"
+                              - option "=" [selected]
+                              - option
+                            - 'img "Correct: Your answer is correct." [ref=f36e464]'
+                            - generic [ref=f36e465]: .
+                      - listitem [ref=f36e466]:
+                        - group "Read and complete the following." [ref=f36e468]:
+                          - generic [ref=f36e470]:
+                            - text: By the
+                            - generic: Select your answer in step 4.
+                            - combobox "Select your answer in step 4." [ref=f36e472] [cursor=pointer]:
+                              - option "Select"
+                              - option "transitivity of divisibility"
+                              - option "unique factorization of integers" [selected]
+                              - option "divisibility by a prime"
+                            - 'img "Correct: Your answer is correct." [ref=f36e476]'
+                            - text: theorem,
+                            - emphasis [ref=f36e477]: a
+                            - text: ","
+                            - emphasis [ref=f36e478]: b
+                            - text: ", and"
+                            - emphasis [ref=f36e479]: "n"
+                            - text: can be written as products of primes in ways that are unique except for the order in which the prime factors are written down.
+                      - listitem [ref=f36e480]:
+                        - group "Read and complete the following." [ref=f36e482]:
+                          - generic [ref=f36e484]:
+                            - text: Now are products of the same prime factors as
+                            - emphasis [ref=f36e485]: a
+                            - text: and
+                            - emphasis [ref=f36e486]: b
+                            - text: respectively, and, by
+                            - generic: Select your answer in step 5.
+                            - combobox "Select your answer in step 5." [ref=f36e488] [cursor=pointer]:
+                              - option "Select"
+                              - option "a law of exponents" [selected]
+                              - option "the definition of prime number"
+                              - option "the zero product property"
+                            - 'img "Correct: Your answer is correct." [ref=f36e492]'
+                            - text: each prime factor in
+                            - emphasis [ref=f36e493]: a
+                            - text: is written twice in
+                            - generic [ref=f36e494]: ","
+                            - text: and each prime factor in
+                            - emphasis [ref=f36e495]: b
+                            - text: is written twice in
+                            - generic [ref=f36e496]: .
+                      - listitem [ref=f36e497]:
+                        - group "Read and complete the following." [ref=f36e499]:
+                          - generic [ref=f36e501]:
+                            - text: Thus, each prime factor in each of occurs
+                            - generic [ref=f36e502]:
+                              - generic: Select your answer in step 6.
+                              - combobox "Select your answer in step 6." [ref=f36e504] [cursor=pointer]:
+                                - option "Select"
+                                - option "two"
+                                - option "an even number of" [selected]
+                                - option "a positive number of"
+                                - option "an odd number of"
+                              - 'img "Correct: Your answer is correct." [ref=f36e508]'
+                              - text: times.
+                      - listitem [ref=f36e509]:
+                        - group "Read and complete the following." [ref=f36e511]:
+                          - generic [ref=f36e513]:
+                            - text: Since
+                            - emphasis [ref=f36e514]: "n"
+                            - text: is not a perfect square,
+                            - generic: Select your answer in step 7.
+                            - combobox "Select your answer in step 7." [ref=f36e516] [cursor=pointer]:
+                              - option "Select"
+                              - option "every prime factor in occurs"
+                              - option "some prime factors in occur" [selected]
+                            - 'img "Correct: Your answer is correct." [ref=f36e520]'
+                            - text: an odd number of times.
+                      - listitem [ref=f36e521]:
+                        - group "Read and complete the following." [ref=f36e523]:
+                          - generic [ref=f36e525]:
+                            - text: Because all prime factors in occur
+                            - generic: Select your answer in step 8.
+                            - combobox "Select your answer in step 8." [ref=f36e527] [cursor=pointer]:
+                              - option "Select"
+                              - option "two"
+                              - option "an even number of" [selected]
+                              - option "a positive number of"
+                              - option "an odd number of"
+                            - 'img "Correct: Your answer is correct." [ref=f36e531]'
+                            - text: times, it follows that the product contains a prime factor that occurs an odd number of times.
+                      - listitem [ref=f36e532]:
+                        - group "Read and complete the following." [ref=f36e534]:
+                          - generic [ref=f36e536]:
+                            - text: Since
+                            - generic: Select your first answer in step 9.
+                            - combobox "Select your first answer in step 9." [ref=f36e538] [cursor=pointer]:
+                              - option "Select"
+                              - option "=" [selected]
+                              - option
+                            - 'img "Correct: Your answer is correct." [ref=f36e542]'
+                            - text: contains a prime factor that occurs
+                            - generic [ref=f36e543]:
+                              - generic: Select your second answer in step 9.
+                              - combobox "Select your second answer in step 9." [ref=f36e545] [cursor=pointer]:
+                                - option "Select"
+                                - option "two"
+                                - option "an even number of"
+                                - option "a positive number of"
+                                - option "an odd number of" [selected]
+                              - 'img "Correct: Your answer is correct." [ref=f36e549]'
+                              - text: times.
+                      - listitem [ref=f36e550]:
+                        - group "Read and complete the following." [ref=f36e552]:
+                          - generic [ref=f36e554]:
+                            - text: This contradicts the fact that every prime factor of occurs
+                            - generic [ref=f36e555]:
+                              - generic: Select your answer in step 10.
+                              - combobox "Select your answer in step 10." [ref=f36e557] [cursor=pointer]:
+                                - option "Select"
+                                - option "two"
+                                - option "an even number of" [selected]
+                                - option "a positive number of"
+                                - option "an odd number of"
+                              - 'img "Correct: Your answer is correct." [ref=f36e561]'
+                              - text: times.
+                      - listitem [ref=f36e562]:
+                        - group "Read and complete the following." [ref=f36e564]:
+                          - generic [ref=f36e566]:
+                            - text: Hence, the supposition is
+                            - generic: Select your first answer in step 11.
+                            - combobox "Select your first answer in step 11." [ref=f36e568] [cursor=pointer]:
+                              - option "Select"
+                              - option "true"
+                              - option "false" [selected]
+                            - 'img "Correct: Your answer is correct." [ref=f36e572]'
+                            - text: ", and the given statement is"
+                            - generic [ref=f36e573]:
+                              - generic: Select your second answer in step 11.
+                              - combobox "Select your second answer in step 11." [ref=f36e575] [cursor=pointer]:
+                                - option "Select"
+                                - option "true" [selected]
+                                - option "false"
+                              - 'img "Correct: Your answer is correct." [ref=f36e579]'
+                              - text: .
+                  - generic "Resource box" [ref=f36e583]:
+                    - generic [ref=f36e584]:
+                      - generic [ref=f36e585]: Resources
+                      - generic [ref=f36e586]:
+                        - paragraph [ref=f36e587]:
+                          - link "Read It (opens in a new tab)" [ref=f36e588] [cursor=pointer]:
+                            - /url: "#"
+                            - text: Read It
+                        - button "Ask Student Assistant for question 3" [ref=f36e589] [cursor=pointer]: Student Assistant
+                - button "Submit Answer" [ref=f36e592] [cursor=pointer]
+            - generic [ref=f36e593]:
+              - region "Banner for question 4" [ref=f36e596]:
+                - generic [ref=f36e597]:
+                  - heading "Question 4" [level=2] [ref=f36e599]: "4."
+                  - strong [ref=f36e600]: "[25 / 25 Points]"
+                - generic [ref=f36e601]:
+                  - button "Details for question 4." [ref=f36e602] [cursor=pointer]:
+                    - generic [ref=f36e603]: Details
+                  - button "My Notes For question 4" [ref=f36e606] [cursor=pointer]:
+                    - generic [ref=f36e607]: My Notes
+                  - button "Previous Answers for question 4" [ref=f36e608] [cursor=pointer]:
+                    - generic [ref=f36e609]: Previous Answers
+              - generic [ref=f36e610]:
+                - generic [ref=f36e612]:
+                  - generic [ref=f36e613]: EppDiscMath5 4.8.029.
+                  - region [ref=f36e614]:
+                    - strong [ref=f36e615]: Problem 4
+                    - generic [ref=f36e616]:
+                      - text: Suppose
+                      - emphasis [ref=f36e617]: a
+                      - text: is an integer and
+                      - emphasis [ref=f36e618]: p
+                      - text: is any prime number such that and
+                      - generic [ref=f36e619]: .
+                      - text: What can you deduce about
+                      - emphasis [ref=f36e620]: p
+                      - text: "?"
+                    - list [ref=f36e621]:
+                      - listitem [ref=f36e622]:
+                        - generic [ref=f36e623]:
+                          - text: To answer this question, let
+                          - emphasis [ref=f36e624]: a
+                          - text: be any integer and let
+                          - emphasis [ref=f36e625]: p
+                          - text: be any prime number such that and
+                          - generic [ref=f36e626]: .
+                      - listitem [ref=f36e627]:
+                        - group "Read and complete the following." [ref=f36e629]:
+                          - generic [ref=f36e631]:
+                            - text: It follows that there exist integers
+                            - emphasis [ref=f36e632]: r
+                            - text: and
+                            - emphasis [ref=f36e633]: s
+                            - text: so that
+                          - generic [ref=f36e634]:
+                            - generic: Write your answer in step 2.
+                            - generic [ref=f36e636]:
+                              - generic [ref=f36e637]:
+                                - button [ref=f36e638]:
+                                  - math [ref=f36e641]:
+                                    - generic [ref=f36e642]: s
+                                - button "Open full math pad" [ref=f36e643] [cursor=pointer]
+                              - generic [ref=f36e645]: Press Space or Enter to edit this math answer.
+                            - 'img "Correct: Your answer is correct." [ref=f36e650]'
+                            - text: by definition of divisibility.
+                      - listitem [ref=f36e652]:
+                        - group "Read and complete the following." [ref=f36e654]:
+                          - generic [ref=f36e656]: Then
+                          - generic [ref=f36e659]:
+                            - generic [ref=f36e660]:
+                              - generic [ref=f36e663]:
+                                - generic: Write your first answer in step 3.
+                                - generic [ref=f36e665]:
+                                  - generic [ref=f36e666]:
+                                    - button [ref=f36e667]:
+                                      - math [ref=f36e670]:
+                                        - generic [ref=f36e671]: s
+                                    - button "Open full math pad" [ref=f36e672] [cursor=pointer]
+                                  - generic [ref=f36e674]: Press Space or Enter to edit this math answer.
+                                - 'img "Correct: Your answer is correct." [ref=f36e679]'
+                              - generic [ref=f36e680]: by substitution
+                            - generic [ref=f36e683]:
+                              - generic [ref=f36e686]:
+                                - generic: Write your third answer in step 3.
+                                - generic [ref=f36e688]:
+                                  - generic [ref=f36e689]:
+                                    - button [ref=f36e690]:
+                                      - math [ref=f36e693]:
+                                        - generic [ref=f36e694]: s
+                                    - button "Open full math pad" [ref=f36e695] [cursor=pointer]
+                                  - generic [ref=f36e697]: Press Space or Enter to edit this math answer.
+                                - 'img "Correct: Your answer is correct." [ref=f36e702]'
+                              - generic [ref=f36e703]: by factoring out a common factor
+                      - listitem [ref=f36e706]:
+                        - group "Read and complete the following." [ref=f36e708]:
+                          - generic [ref=f36e710]:
+                            - text: On the other hand,
+                            - textbox [ref=f36e713]: "3"
+                            - 'img "Correct: Your answer is correct." [ref=f36e717]'
+                            - text: .
+                      - listitem [ref=f36e718]:
+                        - generic [ref=f36e720]:
+                          - generic [ref=f36e721]: Read and complete the following.
+                          - generic [ref=f36e722]:
+                            - text: Equating the two expressions for gives that
+                            - generic [ref=f36e723]:
+                              - generic: Write your first answer in step 5.
+                              - textbox "Write your first answer in step 5." [ref=f36e726]: "3"
+                              - 'img "Correct: Your answer is correct." [ref=f36e730]'
+                          - generic [ref=f36e732]:
+                            - generic: Write your second answer in step 5.
+                            - generic [ref=f36e734]:
+                              - generic [ref=f36e735]:
+                                - button [ref=f36e736]:
+                                  - math [ref=f36e739]:
+                                    - generic [ref=f36e740]: s
+                                - button "Open full math pad" [ref=f36e741] [cursor=pointer]
+                              - generic [ref=f36e743]: Press Space or Enter to edit this math answer.
+                            - 'img "Correct: Your answer is correct." [ref=f36e748]'
+                            - text: .
+                      - listitem [ref=f36e749]:
+                        - generic [ref=f36e751]:
+                          - generic [ref=f36e752]: Read and complete the following.
+                          - generic [ref=f36e753]:
+                            - text: Now looking at the right hand side,
+                            - generic: Write your first answer in step 6.
+                            - generic [ref=f36e755]:
+                              - generic [ref=f36e756]:
+                                - button [ref=f36e757]:
+                                  - math [ref=f36e760]:
+                                    - generic [ref=f36e761]: s
+                                - button "Open full math pad" [ref=f36e762] [cursor=pointer]
+                              - generic [ref=f36e764]: Press Space or Enter to edit this math answer.
+                            - 'img "Correct: Your answer is correct." [ref=f36e769]'
+                          - generic [ref=f36e770]:
+                            - text: is an integer because it is a difference of integers, and so
+                            - generic: Write your second answer in step 6.
+                            - textbox "Write your second answer in step 6." [ref=f36e773]: "3"
+                            - 'img "Correct: Your answer is correct." [ref=f36e777]'
+                          - generic [ref=f36e778]:
+                            - text: by
+                            - generic [ref=f36e779]:
+                              - generic: Select your third answer in step 6.
+                              - combobox "Select your third answer in step 6." [ref=f36e781] [cursor=pointer]:
+                                - option "Select"
+                                - option "transitivity of divisibility"
+                                - option "definition of divisibility" [selected]
+                              - 'img "Correct: Your answer is correct." [ref=f36e785]'
+                              - text: .
+                      - listitem [ref=f36e786]:
+                        - group "Read and complete the following." [ref=f36e788]:
+                          - generic [ref=f36e790]:
+                            - text: Because
+                            - generic: Write your answer in step 7.
+                            - textbox "Write your answer in step 7." [ref=f36e793]: "3"
+                            - 'img "Correct: Your answer is correct." [ref=f36e797]'
+                            - text: is a prime number, its only positive divisors are 1 and itself.
+                      - listitem [ref=f36e798]:
+                        - group "Read and complete the following." [ref=f36e800]:
+                          - generic [ref=f36e802]:
+                            - text: Since
+                            - emphasis [ref=f36e803]: p
+                            - text: is a positive divisor of
+                            - generic: Write your first answer in step 8.
+                            - textbox "Write your first answer in step 8." [ref=f36e806]: "3"
+                            - 'img "Correct: Your answer is correct." [ref=f36e810]'
+                            - text: ", either or"
+                            - generic [ref=f36e811]: Write your second answer in step 8.
+                            - textbox "Write your second answer in step 8." [ref=f36e814]: "3"
+                            - 'img "Correct: Your answer is correct." [ref=f36e818]'
+                            - text: . And, since
+                            - emphasis [ref=f36e819]: p
+                            - text: is a prime number,
+                            - generic [ref=f36e820]: .
+                      - listitem [ref=f36e821]:
+                        - group "Read and complete the following." [ref=f36e823]:
+                          - generic [ref=f36e825]:
+                            - text: Therefore,
+                            - generic [ref=f36e826]: Write your answer in step 9.
+                            - textbox "Write your answer in step 9." [ref=f36e829]: "3"
+                            - 'img "Correct: Your answer is correct." [ref=f36e833]'
+                            - text: .
+                  - generic "Resource box" [ref=f36e837]:
+                    - generic [ref=f36e838]:
+                      - generic [ref=f36e839]: Resources
+                      - generic [ref=f36e840]:
+                        - paragraph [ref=f36e841]:
+                          - link "Read It (opens in a new tab)" [ref=f36e842] [cursor=pointer]:
+                            - /url: "#"
+                            - text: Read It
+                        - button "Ask Student Assistant for question 4" [ref=f36e843] [cursor=pointer]: Student Assistant
+                - button "Submit Answer" [ref=f36e846] [cursor=pointer]
+          - alert
+          - generic [ref=f36e848]:
+            - link "Home" [ref=f36e849] [cursor=pointer]
+            - link "My Assignments" [ref=f36e850] [cursor=pointer]
+            - button "Open Request Extension in modal window" [ref=f36e851] [cursor=pointer]:
+              - generic [ref=f36e854]: Request Extension
+      - contentinfo [ref=f36e856]:
+        - generic [ref=f36e857]:
+          - generic [ref=f36e858]: Copyright © 1998 - 2026 Cengage Learning, Inc. All Rights Reserved
+          - list [ref=f36e859]:
+            - listitem [ref=f36e860]:
+              - link "Open in a new tab. Terms of use" [ref=f36e861] [cursor=pointer]:
+                - /url: https://www.cengage.com/legal/#terms
+                - text: Terms of use
+            - listitem [ref=f36e862]:
+              - link "Open in a new tab. Privacy" [ref=f36e863] [cursor=pointer]:
+                - /url: https://www.cengage.com/privacy/
+                - text: Privacy
+  - application [ref=f36e865]:
+    - generic [ref=f36e867]:
+      - generic [ref=f36e869]: 
+      - generic [ref=f36e870]: x
+      - textbox [ref=f36e877]
+    - textbox [aria-hidden] [ref=f36e878]

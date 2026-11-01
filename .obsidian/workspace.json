@@ -4,41 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "65707525159c09cb",
+        "id": "df7918af1245673e",
         "type": "tabs",
         "children": [
           {
-            "id": "625d56a7fbd64904",
+            "id": "bd6beca298d7ad6f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "discrete-MA-UY2314/4.6 floor and ceiling.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "4.6 floor and ceiling"
-            }
-          },
-          {
-            "id": "250256fe9b40b754",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "discrete-MA-UY2314/4.7 contradiction and contraposition Indirect proofs.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "4.7 contradiction and contraposition Indirect proofs"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "888270b9c29efa1f",
@@ -124,16 +102,6 @@
               },
               "icon": "lucide-list",
               "title": "Outline"
-            }
-          },
-          {
-            "id": "ea62b73b019a5b39",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
             }
           },
           {
@@ -167,7 +135,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -183,59 +151,58 @@
       "switcher:Open quick switcher": false,
       "templates:Insert template": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-git:Open Git source control": false,
       "obsidian-spaced-repetition:Review flashcards": false,
       "mathpad:Open Mathpad": false,
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "250256fe9b40b754",
+  "active": "bd6beca298d7ad6f",
   "lastOpenFiles": [
-    "discrete-MA-UY2314/4.7 contradiction and contraposition Indirect proofs.md",
-    "discrete-MA-UY2314/4.6 floor and ceiling.md",
-    "discrete-MA-UY2314/hw/Homework_5.md",
-    "00 Help/Attachments/MathJax symbol reference.pdf",
-    "ECE2004 circuits/prelabs/Lab 5 Pre Lab Questions.md",
-    "ECE2004 circuits/prelabs/ECE2004 Homework Assignment 2.md",
-    "CS1134/labs/lab6/lab6py.py~",
-    "discrete-MA-UY2314/Quiz 6 Revision.md",
-    "CS1134/labs/lab6/lab6.md",
-    "emfPH-UY2023/HW05-explained.md",
-    "discrete-MA-UY2314/quiz-06-q2-infinite-sheets.png",
-    "discrete-MA-UY2314/quiz-06-q1-gauss-law.png",
+    "emfPH-UY2023/Quiz-05-short-solutions.md",
+    "emfPH-UY2023/webassign-q9-figure.png",
+    "emfPH-UY2023/webassign-q8-figure.gif",
+    "emfPH-UY2023/webassign-q7-figure.png",
+    "emfPH-UY2023/webassign-q6-figure.png",
+    "emfPH-UY2023/webassign-q5-figure.gif",
+    "emfPH-UY2023/webassign-q5-detail-figure.gif",
+    "emfPH-UY2023/webassign-q4-figure.png",
+    "emfPH-UY2023/webassign-q3-figure.gif",
+    "emfPH-UY2023/webassign-q2-figure.png",
+    "emfPH-UY2023/webassign-q10-figure.png",
+    "ECE2004 circuits/hws/ECE2004 Homework Assignment 7.md",
+    "emfPH-UY2023/Quiz 8 Revision.md",
+    "discrete-MA-UY2314/hw/Homework_7.md",
+    "CS1134/labs/lab8/Lab 8 - Vitamins Visual.excalidraw.md",
+    "CS1134/labs/lab8/Lab 8 - Worksheet.pdf",
     "discrete-MA-UY2314/Quiz 5 Revision.md",
-    "discrete-MA-UY2314/webassign-hw06-q10-c4.gif",
-    "discrete-MA-UY2314/webassign-hw06-q10-c1.gif",
-    "discrete-MA-UY2314/webassign-hw06-q10-c3.gif",
-    "discrete-MA-UY2314/webassign-hw06-q10-c2.gif",
-    "discrete-MA-UY2314/webassign-hw06-q6.gif",
-    "discrete-MA-UY2314/webassign-hw06-q1.gif",
-    "discrete-MA-UY2314/webassign-hw06-q11.gif",
-    "discrete-MA-UY2314/webassign-hw06-q5.gif",
-    "discrete-MA-UY2314/hw/Homework_5bak.md",
-    "discrete-MA-UY2314/Homework_5_dsc4_style.md",
-    "discrete-MA-UY2314/Homework_5_exact_draft.md",
-    "discrete-MA-UY2314/section45_with_questions_backup.md",
-    "discrete-MA-UY2314/section44_exact_style.md",
-    "discrete-MA-UY2314/section45_exact_style.md",
-    "ECE2004 circuits/ECE2004 Homework Assignment 6.md",
-    "ECE2004 circuits/hws/Homework6_Q1_Circuit_Diagram.excalidraw.md",
-    "ECE2004 circuits/hws/Homework6_Q4_Circuit_Diagram.excalidraw.md",
-    "ECE2004 circuits/hws/Homework6_Q2_Circuit_Diagram.excalidraw.md",
+    "discrete-MA-UY2314/Quiz 6 Revision.md",
+    "emfPH-UY2023/quiz7.md",
+    "emfPH-UY2023/guides/quiz-07/quiz7-pdf-quiz-section.md",
+    "discrete-MA-UY2314/hw6.md",
     "discrete-MA-UY2314/Quiz 4 Revision.md",
-    "ECE2004 circuits/ece/Homework5_Q4_Circuit_Diagram.excalidraw.md",
-    "ECE2004 circuits/prelabs/hw4.txt",
-    "ECE2004 circuits/ece/ECE2004 Homework Assignment 5.md",
-    "ECE2004 circuits/ece/Homework5_Q3_Circuit_Diagram.excalidraw.md",
-    "ECE2004 circuits/ece/Homework5_Q1_Circuit_Diagram.excalidraw.md",
-    "ECE2004 circuits/prelabs/ECE2004 Homework Assignment 4.md",
-    "Excalidraw/Drawing 2026-10-15 08.22.42.excalidraw.md",
-    "discrete-MA-UY2314/oct5.pdf",
-    "discrete-MA-UY2314/oct5_response.bin",
-    "CS1134/hw/hw3/pd2752_hw3.pdf",
-    "CS1134/hw/hw3/hw3_1.pdf",
-    "CS1134/hw/hw3/__pycache__/pd2752_hw3_q4.cpython-314.pyc",
-    "CS1134/hw/hw3/__pycache__/pd2752_hw3_q3.cpython-314.pyc",
-    "CS1134/hw/hw3/__pycache__/pd2752_hw3_q2.cpython-314.pyc"
+    "discrete-MA-UY2314/Quiz Revision Sheet — Definitions and Proofs.md",
+    "discrete-MA-UY2314/Quiz Revision Sheet — Direct Proof, Rationals, Divisibility.md",
+    "CS1134/labs/lab8/Lab 8 - Vitamins Visual.excalidraw.sync-conflict-20261030-104317-S22CA2R.md",
+    "CS1134/labs/lab8/Lab 8 - Vitamins Visual.sync-conflict-20261030-103447-S22CA2R.excalidraw",
+    "CS1134/labs/lab8/Lab 8 - Vitamins Visual.excalidraw",
+    "CS1134/labs/lab8/Lab 8 - Vitamins.excalidraw.md",
+    "CS1134/labs/lab8/__pycache__/ArrayList.cpython-314.pyc",
+    "CS1134/labs/lab8/__pycache__/ArrayStack.cpython-314.pyc",
+    "CS1134/labs/lab8/__pycache__/ArrayQueue.cpython-314.pyc",
+    "CS1134/labs/lab8/__pycache__/lab8.cpython-314.pyc",
+    "CS1134/labs/lab8/ArrayList.py",
+    "CS1134/labs/lab8/__pycache__/ArrayStack.cpython-315.pyc",
+    "CS1134/labs/lab8/__pycache__/ArrayQueue.cpython-315.pyc",
+    "CS1134/labs/lab8/Lab8_Vitamins_Solutions.md",
+    "discrete-MA-UY2314/hw/h7bak.md",
+    "ECE2004 circuits/hws/Homework7_Q6_Source_Transformation_Circuit.excalidraw.md",
+    "ECE2004 circuits/hws/Homework7_Q1_Q3_Thevenin_Circuit.excalidraw.md",
+    "ECE2004 circuits/hws/Homework7_Q2_Norton_Circuit.excalidraw.md",
+    "ECE2004 circuits/hws/Homework7_Q1_Thevenin_Circuit.excalidraw.md",
+    "discrete-MA-UY2314/Quiz 8 Revision.md",
+    "emfPH-UY2023/HW08-and-Quiz08-flashcards.md",
+    "discrete-MA-UY2314/HW08-and-Quiz08-flashcards.md",
+    "CS1134/labs/lab7/l7.excalidraw.md",
+    "CS1134/labs/lab7/Lab7_Vitamins_Solutions.md"
   ]
 }
